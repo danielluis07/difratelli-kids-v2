@@ -22,6 +22,10 @@ _Avoid_: Using matching set to mean an outfit assembled from separately sold pro
 **Colorway**:
 A color option of a product, including the combination of colors in a printed garment.
 
+**Color family**:
+A shared color grouping under which different products' colorways can be browsed together.
+_Avoid_: Using a color family as a product's specific colorway name.
+
 **Catalog imagery**:
 Photographs representing a specific catalog product, including studio photographs of a child model wearing it and isolated garment photographs.
 
