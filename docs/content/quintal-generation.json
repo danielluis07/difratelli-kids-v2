@@ -1,0 +1,618 @@
+{
+  "revision": "issue-25-quintal-v1",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/25",
+  "collectionId": "collection-001",
+  "tool": "built-in image_gen",
+  "approvalStatus": "approved",
+  "limitations": "No seed, explicit size parameter or model revision exposed. Every output is measured. Exact prompts and reference files support continuity; byte-identical regeneration is not guaranteed.",
+  "resolutionAcceptancePath": "docs/content/catalog-sample-approval.json",
+  "records": [
+    {
+      "productId": "product-001",
+      "colorwayId": "cream-leaf-teal",
+      "collectionId": "collection-001",
+      "modelId": "model-006",
+      "photographedSize": 4,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-001-cream-leaf-teal-model-v2.png",
+      "referencePaths": [
+        "assets/originals/cast/model-006-reference-v1.png",
+        "assets/originals/catalog/product-001-cream-leaf-teal-model-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset type: product-001 / cream-leaf-teal model-first catalog photograph for Difratelli Kids, Quintal de Descobertas. Input image 1 is the APPROVED FICTIONAL CHILD IDENTITY REFERENCE, Davi, model-006, age 4. Preserve exact face, Deep brown skin; dark brown eyes; round cheeks; short tightly coiled black hair. and natural child proportions and apparent age.  Photograph this child wearing size 4 Camiseta Folhas ao Vento. Approved garment brief: fabric Cotton single jersey, 160 g/m²; silhouette Straight short-sleeve jersey T-shirt; crew neck with cotton rib binding; hip length.; print Airy hand-drawn leaves, 20–30 mm, leaf green and deep teal on cream; no text.; color placement Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.; finishing Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. This colorway colors: Creme #F3EBDD, Verde-folha #78946A, Verde-petróleo #246B63. Small airy hand-drawn motifs at the specified physical scale, not oversized; retain the specified base and print colors. Simple plain neutral shorts and shoes, separate supporting styling; the featured top must remain untucked and completely visible. Opaque pure white seamless background, soft neutral studio lighting, natural skin and fabric detail. Frontal or very slightly angled relaxed full-body pose, arms relaxed clear of the featured garment, no hands in pockets, entire featured garment and head and shoes in frame with breathing room. Output portrait exactly 3:4, native 1086 x 1448 pixels or larger. No logos, text, watermarks, props, hats, jewelry, added garment pockets, closures or decorations absent from the approved brief. No fly stitching or fasteners if the brief excludes a fly. This is ONE individually sold garment; supporting styling is not included in the isolated product image. Critical correction: reduce every leaf motif to HALF the size of the supplied generated shirt, around 20–30 mm or 1/12 of chest width. Keep small airy leaves, no beetles. Keep everything else unchanged.",
+      "alt": "Davi usando Camiseta Folhas ao Vento na cor Creme, verde-folha, verde-petróleo, com a peça inteira visível sobre fundo branco.",
+      "isolatedAlt": "Camiseta Folhas ao Vento na cor Creme, verde-folha, verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-e8e4b57a-f127-4e07-b3dc-e12d4034fe13.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "productId": "product-001",
+      "colorwayId": "cream-leaf-teal",
+      "collectionId": "collection-001",
+      "modelId": null,
+      "photographedSize": 4,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-001-cream-leaf-teal-isolated-v2.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-001-cream-leaf-teal-model-v2.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: product-001 / cream-leaf-teal isolated-garment-second photograph, Difratelli Kids. Input is the EXACT worn photograph of this garment. Extract ONLY the featured Camiseta Folhas ao Vento, one garment sold individually; do NOT include the child's supporting clothes, shoes, person, mannequin or body parts. Photorealistic front-facing invisible-mannequin studio product photograph on opaque pure white seamless background with subtle natural shadows. Show the entire garment, front surface and construction clearly, neatly shaped without a hanger; centered with breathing room, all sleeves and hems complete. Native portrait exactly 3:4, 1086x1448 or larger. Preserve the exact garment in the input: Cotton single jersey, 160 g/m²; Straight short-sleeve jersey T-shirt; crew neck with cotton rib binding; hip length.; Airy hand-drawn leaves, 20–30 mm, leaf green and deep teal on cream; no text.; Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. Match colors, silhouette, fabric, collar/neckline, sleeve length, hem length, pockets, waistband, print motif shapes/scale/placement and repeat spacing. Do not redesign or add closures, pockets, trim, logos, labels, text, watermark, props or accessories.    Soft neutral diffused light, clear natural material texture.",
+      "alt": "Camiseta Folhas ao Vento na cor Creme, verde-folha, verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "isolatedAlt": "Camiseta Folhas ao Vento na cor Creme, verde-folha, verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-6253607a-cea7-4d83-a4bd-1238aa19dcbf.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "productId": "product-002",
+      "colorwayId": "butter-teal",
+      "collectionId": "collection-001",
+      "modelId": "model-005",
+      "photographedSize": 2,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-002-butter-teal-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-005-reference-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset type: product-002 / butter-teal model-first catalog photograph for Difratelli Kids, Quintal de Descobertas. Input image 1 is the APPROVED FICTIONAL CHILD IDENTITY REFERENCE, Caio, model-005, age 2. Preserve exact face, Light skin; blue eyes; round toddler face; short straight dark-brown hair. and natural child proportions and apparent age.  Photograph this child wearing size 2 Camiseta Besourinhos. Approved garment brief: fabric Cotton single jersey, 160 g/m²; silhouette Straight short-sleeve jersey T-shirt; rib crew neck; hip length.; print Small simplified beetles, 15–25 mm, deep teal on butter yellow, spaced at least 40 mm apart.; color placement Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.; finishing Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. This colorway colors: Amarelo-manteiga #F2D477, Verde-petróleo #246B63. Small airy hand-drawn motifs at the specified physical scale, not oversized; retain the specified base and print colors. Simple plain neutral shorts and shoes, separate supporting styling; the featured top must remain untucked and completely visible. Opaque pure white seamless background, soft neutral studio lighting, natural skin and fabric detail. Frontal or very slightly angled relaxed full-body pose, arms relaxed clear of the featured garment, no hands in pockets, entire featured garment and head and shoes in frame with breathing room. Output portrait exactly 3:4, native 1086 x 1448 pixels or larger. No logos, text, watermarks, props, hats, jewelry, added garment pockets, closures or decorations absent from the approved brief. No fly stitching or fasteners if the brief excludes a fly. This is ONE individually sold garment; supporting styling is not included in the isolated product image.",
+      "alt": "Caio usando Camiseta Besourinhos na cor Amarelo-manteiga, verde-petróleo, com a peça inteira visível sobre fundo branco.",
+      "isolatedAlt": "Camiseta Besourinhos na cor Amarelo-manteiga, verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-03c19163-3702-4a77-97e1-5a92b03b2853.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "productId": "product-002",
+      "colorwayId": "butter-teal",
+      "collectionId": "collection-001",
+      "modelId": null,
+      "photographedSize": 2,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-002-butter-teal-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-002-butter-teal-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: product-002 / butter-teal isolated-garment-second photograph, Difratelli Kids. Input is the EXACT worn photograph of this garment. Extract ONLY the featured Camiseta Besourinhos, one garment sold individually; do NOT include the child's supporting clothes, shoes, person, mannequin or body parts. Photorealistic front-facing invisible-mannequin studio product photograph on opaque pure white seamless background with subtle natural shadows. Show the entire garment, front surface and construction clearly, neatly shaped without a hanger; centered with breathing room, all sleeves and hems complete. Native portrait exactly 3:4, 1086x1448 or larger. Preserve the exact garment in the input: Cotton single jersey, 160 g/m²; Straight short-sleeve jersey T-shirt; rib crew neck; hip length.; Small simplified beetles, 15–25 mm, deep teal on butter yellow, spaced at least 40 mm apart.; Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. Match colors, silhouette, fabric, collar/neckline, sleeve length, hem length, pockets, waistband, print motif shapes/scale/placement and repeat spacing. Do not redesign or add closures, pockets, trim, logos, labels, text, watermark, props or accessories.    Soft neutral diffused light, clear natural material texture.",
+      "alt": "Camiseta Besourinhos na cor Amarelo-manteiga, verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "isolatedAlt": "Camiseta Besourinhos na cor Amarelo-manteiga, verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-697e5cec-6985-4e83-ac28-8d5d45ddcc3e.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "productId": "product-003",
+      "colorwayId": "cream-butter-leaf",
+      "collectionId": "collection-001",
+      "modelId": "model-001",
+      "photographedSize": 4,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-003-cream-butter-leaf-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-001-reference-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset type: product-003 / cream-butter-leaf model-first catalog photograph for Difratelli Kids, Quintal de Descobertas. Input image 1 is the APPROVED FICTIONAL CHILD IDENTITY REFERENCE, Lia, model-001, age 3. Preserve exact face, Medium brown skin; dark brown eyes; round face; short dense dark curls. and natural child proportions and apparent age.  Photograph this child wearing size 4 Camiseta Pequenas Sementes. Approved garment brief: fabric Cotton single jersey, 160 g/m²; silhouette Straight short-sleeve jersey T-shirt; crew neck; no gathers or ties.; print Tiny seed-and-sprout pairs, 15–25 mm, butter yellow and leaf green on cream; scattered, not a dense floral.; color placement Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.; finishing Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. This colorway colors: Creme #F3EBDD, Amarelo-manteiga #F2D477, Verde-folha #78946A. Small airy hand-drawn motifs at the specified physical scale, not oversized; retain the specified base and print colors. Simple plain neutral shorts and shoes, separate supporting styling; the featured top must remain untucked and completely visible. Opaque pure white seamless background, soft neutral studio lighting, natural skin and fabric detail. Frontal or very slightly angled relaxed full-body pose, arms relaxed clear of the featured garment, no hands in pockets, entire featured garment and head and shoes in frame with breathing room. Output portrait exactly 3:4, native 1086 x 1448 pixels or larger. No logos, text, watermarks, props, hats, jewelry, added garment pockets, closures or decorations absent from the approved brief. No fly stitching or fasteners if the brief excludes a fly. This is ONE individually sold garment; supporting styling is not included in the isolated product image. Print scale control: motifs must be about 1/12 of the garment chest width, small rather than palm-sized.",
+      "alt": "Lia usando Camiseta Pequenas Sementes na cor Creme, amarelo-manteiga, verde-folha, com a peça inteira visível sobre fundo branco.",
+      "isolatedAlt": "Camiseta Pequenas Sementes na cor Creme, amarelo-manteiga, verde-folha, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-ee048409-c6ed-4b2d-881e-7f3f5c673224.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "productId": "product-003",
+      "colorwayId": "cream-butter-leaf",
+      "collectionId": "collection-001",
+      "modelId": null,
+      "photographedSize": 4,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-003-cream-butter-leaf-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-003-cream-butter-leaf-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: product-003 / cream-butter-leaf isolated-garment-second photograph, Difratelli Kids. Input is the EXACT worn photograph of this garment. Extract ONLY the featured Camiseta Pequenas Sementes, one garment sold individually; do NOT include the child's supporting clothes, shoes, person, mannequin or body parts. Photorealistic front-facing invisible-mannequin studio product photograph on opaque pure white seamless background with subtle natural shadows. Show the entire garment, front surface and construction clearly, neatly shaped without a hanger; centered with breathing room, all sleeves and hems complete. Native portrait exactly 3:4, 1086x1448 or larger. Preserve the exact garment in the input: Cotton single jersey, 160 g/m²; Straight short-sleeve jersey T-shirt; crew neck; no gathers or ties.; Tiny seed-and-sprout pairs, 15–25 mm, butter yellow and leaf green on cream; scattered, not a dense floral.; Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. Match colors, silhouette, fabric, collar/neckline, sleeve length, hem length, pockets, waistband, print motif shapes/scale/placement and repeat spacing. Do not redesign or add closures, pockets, trim, logos, labels, text, watermark, props or accessories.    Soft neutral diffused light, clear natural material texture.",
+      "alt": "Camiseta Pequenas Sementes na cor Creme, amarelo-manteiga, verde-folha, apresentado sem modelo sobre fundo branco.",
+      "isolatedAlt": "Camiseta Pequenas Sementes na cor Creme, amarelo-manteiga, verde-folha, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-b4e4bf74-96ff-4bb8-904a-62b8e568544a.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "productId": "product-004",
+      "colorwayId": "cream-leaf-teal",
+      "collectionId": "collection-001",
+      "modelId": "model-002",
+      "photographedSize": 6,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-004-cream-leaf-teal-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-002-reference-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset type: product-004 / cream-leaf-teal model-first catalog photograph for Difratelli Kids, Quintal de Descobertas. Input image 1 is the APPROVED FICTIONAL CHILD IDENTITY REFERENCE, Bia, model-002, age 5. Preserve exact face, Light skin with a few freckles; green eyes; oval face; straight copper-red chin-length bob. and natural child proportions and apparent age.  Photograph this child wearing size 6 Blusa Jardim Miúdo. Approved garment brief: fabric Cotton single jersey, 160 g/m²; silhouette Sleeveless jersey top with broad 40 mm shoulder straps at size 4, rounded neckline, straight hem at hip; no closures.; print Hand-drawn leaves and beetles, 20–30 mm, leaf green and teal on cream; airy repeat.; color placement Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.; finishing Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. This colorway colors: Creme #F3EBDD, Verde-folha #78946A, Verde-petróleo #246B63. Small airy hand-drawn motifs at the specified physical scale, not oversized; retain the specified base and print colors. Simple plain neutral shorts and shoes, separate supporting styling; the featured top must remain untucked and completely visible. Opaque pure white seamless background, soft neutral studio lighting, natural skin and fabric detail. Frontal or very slightly angled relaxed full-body pose, arms relaxed clear of the featured garment, no hands in pockets, entire featured garment and head and shoes in frame with breathing room. Output portrait exactly 3:4, native 1086 x 1448 pixels or larger. No logos, text, watermarks, props, hats, jewelry, added garment pockets, closures or decorations absent from the approved brief. No fly stitching or fasteners if the brief excludes a fly. This is ONE individually sold garment; supporting styling is not included in the isolated product image. Print scale control: motifs must be about 1/12 of the garment chest width, small rather than palm-sized.",
+      "alt": "Bia usando Blusa Jardim Miúdo na cor Creme, verde-folha, verde-petróleo, com a peça inteira visível sobre fundo branco.",
+      "isolatedAlt": "Blusa Jardim Miúdo na cor Creme, verde-folha, verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-5639167c-6a85-4804-90e7-4f5f2fbe1d07.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "productId": "product-004",
+      "colorwayId": "cream-leaf-teal",
+      "collectionId": "collection-001",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-004-cream-leaf-teal-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-004-cream-leaf-teal-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: product-004 / cream-leaf-teal isolated-garment-second photograph, Difratelli Kids. Input is the EXACT worn photograph of this garment. Extract ONLY the featured Blusa Jardim Miúdo, one garment sold individually; do NOT include the child's supporting clothes, shoes, person, mannequin or body parts. Photorealistic front-facing invisible-mannequin studio product photograph on opaque pure white seamless background with subtle natural shadows. Show the entire garment, front surface and construction clearly, neatly shaped without a hanger; centered with breathing room, all sleeves and hems complete. Native portrait exactly 3:4, 1086x1448 or larger. Preserve the exact garment in the input: Cotton single jersey, 160 g/m²; Sleeveless jersey top with broad 40 mm shoulder straps at size 4, rounded neckline, straight hem at hip; no closures.; Hand-drawn leaves and beetles, 20–30 mm, leaf green and teal on cream; airy repeat.; Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. Match colors, silhouette, fabric, collar/neckline, sleeve length, hem length, pockets, waistband, print motif shapes/scale/placement and repeat spacing. Do not redesign or add closures, pockets, trim, logos, labels, text, watermark, props or accessories.    Soft neutral diffused light, clear natural material texture.",
+      "alt": "Blusa Jardim Miúdo na cor Creme, verde-folha, verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "isolatedAlt": "Blusa Jardim Miúdo na cor Creme, verde-folha, verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-e80fa1ca-257c-4853-81b4-0d96c26ea87b.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "productId": "product-005",
+      "colorwayId": "cream-leaf-butter",
+      "collectionId": "collection-001",
+      "modelId": "model-003",
+      "photographedSize": 6,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-005-cream-leaf-butter-model-v2.png",
+      "referencePaths": [
+        "assets/originals/cast/model-003-reference-v2.png",
+        "assets/originals/catalog/product-005-cream-leaf-butter-model-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset type: product-005 / cream-leaf-butter model-first catalog photograph for Difratelli Kids, Quintal de Descobertas. Input image 1 is the APPROVED FICTIONAL CHILD IDENTITY REFERENCE, Nina, model-003, age 6. Preserve exact face, Fair skin; dark brown eyes; oval face; straight dark-brown shoulder-length hair parted slightly off center. and natural child proportions and apparent age.  Photograph this child wearing size 6 Vestido Passeio no Quintal. Approved garment brief: fabric Cotton single jersey, 160 g/m²; silhouette Jersey dress; short sleeves; rounded neck; natural-waist seam and gently gathered skirt above knee; no pockets or fastening.; print Leaf-and-sprout repeat, 25–35 mm, leaf green and butter yellow on cream; same print scale on bodice and skirt.; color placement Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.; finishing Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. This colorway colors: Creme #F3EBDD, Verde-folha #78946A, Amarelo-manteiga #F2D477. Small airy hand-drawn motifs at the specified physical scale, not oversized; retain the specified base and print colors. Only the dress and simple neutral shoes. Opaque pure white seamless background, soft neutral studio lighting, natural skin and fabric detail. Frontal or very slightly angled relaxed full-body pose, arms relaxed clear of the featured garment, no hands in pockets, entire featured garment and head and shoes in frame with breathing room. Output portrait exactly 3:4, native 1086 x 1448 pixels or larger. No logos, text, watermarks, props, hats, jewelry, added garment pockets, closures or decorations absent from the approved brief. No fly stitching or fasteners if the brief excludes a fly. This is ONE individually sold garment; supporting styling is not included in the isolated product image. Print scale control: motifs must be about 1/12 of the garment chest width, small rather than palm-sized. Regenerate the same dress and identity at EXACTLY 1086 pixels wide x 1448 pixels high, true 3:4. Keep print, neckline, short sleeves, natural-waist seam, softly gathered above-knee skirt, pose and white background unchanged.",
+      "alt": "Nina usando Vestido Passeio no Quintal na cor Creme, verde-folha, amarelo-manteiga, com a peça inteira visível sobre fundo branco.",
+      "isolatedAlt": "Vestido Passeio no Quintal na cor Creme, verde-folha, amarelo-manteiga, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-07607dd2-efe2-4137-83db-54e0b3e92a85.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "productId": "product-005",
+      "colorwayId": "cream-leaf-butter",
+      "collectionId": "collection-001",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-005-cream-leaf-butter-isolated-v2.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-005-cream-leaf-butter-model-v2.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: product-005 / cream-leaf-butter isolated-garment-second photograph, Difratelli Kids. Input is the EXACT worn photograph of this garment. Extract ONLY the featured Vestido Passeio no Quintal, one garment sold individually; do NOT include the child's supporting clothes, shoes, person, mannequin or body parts. Photorealistic front-facing invisible-mannequin studio product photograph on opaque pure white seamless background with subtle natural shadows. Show the entire garment, front surface and construction clearly, neatly shaped without a hanger; centered with breathing room, all sleeves and hems complete. Native portrait exactly 3:4, 1086x1448 or larger. Preserve the exact garment in the input: Cotton single jersey, 160 g/m²; Jersey dress; short sleeves; rounded neck; natural-waist seam and gently gathered skirt above knee; no pockets or fastening.; Leaf-and-sprout repeat, 25–35 mm, leaf green and butter yellow on cream; same print scale on bodice and skirt.; Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. Match colors, silhouette, fabric, collar/neckline, sleeve length, hem length, pockets, waistband, print motif shapes/scale/placement and repeat spacing. Do not redesign or add closures, pockets, trim, logos, labels, text, watermark, props or accessories.    Soft neutral diffused light, clear natural material texture.",
+      "alt": "Vestido Passeio no Quintal na cor Creme, verde-folha, amarelo-manteiga, apresentado sem modelo sobre fundo branco.",
+      "isolatedAlt": "Vestido Passeio no Quintal na cor Creme, verde-folha, amarelo-manteiga, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-caf38808-21b8-4af6-a240-d27f84c6ce28.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "role": "model",
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a122c4-af25-7732-8e2d-fd1307544131/exec-2e27974f-a888-46eb-97e8-4d9b48f1009b.png",
+      "originalPath": "assets/originals/catalog/product-006-cream-teal-leaf-model-v1.png",
+      "prompt": "Use case: product-mockup. CREATE A NEW HIGH-RESOLUTION PHOTOGRAPH, not a same-canvas edit of the input. Required output canvas 1536 pixels wide by 2048 pixels high, portrait 3:4; render natively at this size. Input image is ONLY a fictional child identity reference: Davi, model-006, age 4, preserve his face, skin tone, eyes, hair and proportions. New full-body catalog photograph, white seamless background and soft neutral studio lighting, relaxed near-frontal pose, arms clear of both complete garments, generous breathing room around head and shoes. Size 4 Conjunto Descobertas, product-006 / cream-teal-leaf. Cream #F3EBDD straight cotton single jersey 160 gsm short-sleeve crew-neck T-shirt; small hand-drawn leaves and beetles 20–30 mm in leaf green #78946A and deep teal #246B63, an airy all-over print. IMPORTANT: the motifs are small, about 1/12 of the T-shirt chest width; no large palm-sized motifs. Entirely plain deep-teal #246B63 soft jersey mid-thigh shorts, elastic waist, no drawstring, two side pockets. Tonal stitching. Keep both pieces complete and unobscured; simple neutral shoes. No added logos, text, slogans, embroidery, extra trim, accessories, props, other people or watermark. Natural skin and cotton texture. Do not copy the source canvas dimensions: deliver a fresh native 1536x2048 image.",
+      "referencePath": "assets/originals/cast/model-006-reference-v1.png",
+      "productId": "product-006",
+      "collectionId": "collection-001",
+      "colorwayId": "cream-teal-leaf",
+      "modelId": "model-006",
+      "photographedSize": 4,
+      "referencePaths": [
+        "assets/originals/cast/model-006-reference-v1.png"
+      ],
+      "alt": "Criança usando o Conjunto Descobertas, com camiseta creme estampada com folhas e besouros e short verde-petróleo; as duas peças aparecem inteiras.",
+      "tool": "built-in image_gen"
+    },
+    {
+      "role": "isolated",
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a122c4-af25-7732-8e2d-fd1307544131/exec-ceac3c7c-aff9-422b-9b73-717c0f897555.png",
+      "originalPath": "assets/originals/catalog/product-006-cream-teal-leaf-isolated-v1.png",
+      "prompt": "Use case: product-mockup. Asset type: product-006 / cream-teal-leaf isolated-garment-second catalog sample for Difratelli Kids. Input image: exact worn garment photograph; use as garment reference. Create ONE photorealistic high-resolution isolated studio photograph of BOTH complete size 4 pieces from the reference, with no person, shoes or mannequin visible. Required native output 1536x2048 pixels, portrait 3:4, minimum 1200x1600. A straight cream crew-neck short-sleeve cotton single jersey T-shirt above the matching plain deep-teal mid-thigh cotton jersey elastic-waist shorts; front-on invisible mannequin arrangement, separated with a small white gap so the entire shorts waistband and both complete pieces are visible. Faithfully preserve the exact T-shirt print: small airy hand-drawn leaf-green and teal leaves and beetles, same motif shapes, scale, spacing, orientations and front placement as the reference. Preserve cream fabric color, deep-teal shorts color, crew neckline, short sleeves, straight T-shirt hem, shorts leg length, side pockets, tonal stitching and natural cotton texture. Soft elastic waistband, no drawstring, buttons, zipper, logos, slogans, embroidery or extra trim. Do not add pieces or recolor/reinterpret the print. Opaque pure white seamless background, soft neutral studio lighting, natural subtle garment shadows. Both garments entirely inside the frame with generous breathing room. No labels, hanger, props, embedded text, watermark, human or body parts. Render a new native 1536x2048 image; do not inherit source dimensions.",
+      "referencePath": "assets/originals/catalog/product-006-cream-teal-leaf-model-v1.png",
+      "productId": "product-006",
+      "collectionId": "collection-001",
+      "colorwayId": "cream-teal-leaf",
+      "modelId": null,
+      "photographedSize": 4,
+      "referencePaths": [
+        "assets/originals/catalog/product-006-cream-teal-leaf-model-v1.png"
+      ],
+      "alt": "Conjunto Descobertas com camiseta creme estampada com folhas e besouros e short verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "tool": "built-in image_gen"
+    },
+    {
+      "productId": "product-007",
+      "colorwayId": "leaf",
+      "collectionId": "collection-001",
+      "modelId": "model-001",
+      "photographedSize": 4,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-007-leaf-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-001-reference-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset type: product-007 / leaf model-first catalog photograph for Difratelli Kids, Quintal de Descobertas. Input image 1 is the APPROVED FICTIONAL CHILD IDENTITY REFERENCE, Lia, model-001, age 3. Preserve exact face, Medium brown skin; dark brown eyes; round face; short dense dark curls. and natural child proportions and apparent age.  Photograph this child wearing size 4 Short Passo Leve. Approved garment brief: fabric Cotton-stretch twill, 190 g/m²; silhouette Cotton-stretch twill shorts; elastic waistband; two side pockets; straight hem; no drawstrings or decoration.; print Solid color, no print.; color placement Apply each colorway as a single solid color over the entire garment, including binding and thread.; finishing Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. This colorway colors: Verde-folha #78946A. Entire garment must be the single specified solid color, no print. A plain cream T-shirt tucked into the waist so the entire waistband and pockets of the featured garment stay visible; simple neutral shoes. Opaque pure white seamless background, soft neutral studio lighting, natural skin and fabric detail. Frontal or very slightly angled relaxed full-body pose, arms relaxed clear of the featured garment, no hands in pockets, entire featured garment and head and shoes in frame with breathing room. Output portrait exactly 3:4, native 1086 x 1448 pixels or larger. No logos, text, watermarks, props, hats, jewelry, added garment pockets, closures or decorations absent from the approved brief. No fly stitching or fasteners if the brief excludes a fly. This is ONE individually sold garment; supporting styling is not included in the isolated product image.",
+      "alt": "Lia usando Short Passo Leve na cor Verde-folha, com a peça inteira visível sobre fundo branco.",
+      "isolatedAlt": "Short Passo Leve na cor Verde-folha, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-4d810e13-ec6f-4909-be96-dd2741e44e5f.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "productId": "product-007",
+      "colorwayId": "leaf",
+      "collectionId": "collection-001",
+      "modelId": null,
+      "photographedSize": 4,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-007-leaf-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-007-leaf-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: product-007 / leaf isolated-garment-second photograph, Difratelli Kids. Input is the EXACT worn photograph of this garment. Extract ONLY the featured Short Passo Leve, one garment sold individually; do NOT include the child's supporting clothes, shoes, person, mannequin or body parts. Photorealistic front-facing invisible-mannequin studio product photograph on opaque pure white seamless background with subtle natural shadows. Show the entire garment, front surface and construction clearly, neatly shaped without a hanger; centered with breathing room, all sleeves and hems complete. Native portrait exactly 3:4, 1086x1448 or larger. Preserve the exact garment in the input: Cotton-stretch twill, 190 g/m²; Cotton-stretch twill shorts; elastic waistband; two side pockets; straight hem; no drawstrings or decoration.; Solid color, no print.; Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. Match colors, silhouette, fabric, collar/neckline, sleeve length, hem length, pockets, waistband, print motif shapes/scale/placement and repeat spacing. Do not redesign or add closures, pockets, trim, logos, labels, text, watermark, props or accessories.   Only shorts with complete elastic waistband and both legs and side pockets, no top or shoes, no drawstring. Soft neutral diffused light, clear natural material texture.",
+      "alt": "Short Passo Leve na cor Verde-folha, apresentado sem modelo sobre fundo branco.",
+      "isolatedAlt": "Short Passo Leve na cor Verde-folha, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-5e286032-cb59-4a7a-aa9f-c28516f6aa53.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "productId": "product-007",
+      "colorwayId": "cream",
+      "collectionId": "collection-001",
+      "modelId": "model-001",
+      "photographedSize": 4,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-007-cream-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-001-reference-v1.png",
+        "assets/originals/catalog/product-007-leaf-model-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset type: product-007 / cream model-first catalog photograph for Difratelli Kids, Quintal de Descobertas. Input image 1 is the APPROVED FICTIONAL CHILD IDENTITY REFERENCE, Lia, model-001, age 3. Preserve exact face, Medium brown skin; dark brown eyes; round face; short dense dark curls. and natural child proportions and apparent age. Input image 2 is this same product's first colorway worn photograph: preserve its exact garment construction and silhouette, changing only featured garment color to this colorway. Photograph this child wearing size 4 Short Passo Leve. Approved garment brief: fabric Cotton-stretch twill, 190 g/m²; silhouette Cotton-stretch twill shorts; elastic waistband; two side pockets; straight hem; no drawstrings or decoration.; print Solid color, no print.; color placement Apply each colorway as a single solid color over the entire garment, including binding and thread.; finishing Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. This colorway colors: Creme #F3EBDD. Entire garment must be the single specified solid color, no print. A plain cream T-shirt tucked into the waist so the entire waistband and pockets of the featured garment stay visible; simple neutral shoes. Opaque pure white seamless background, soft neutral studio lighting, natural skin and fabric detail. Frontal or very slightly angled relaxed full-body pose, arms relaxed clear of the featured garment, no hands in pockets, entire featured garment and head and shoes in frame with breathing room. Output portrait exactly 3:4, native 1086 x 1448 pixels or larger. No logos, text, watermarks, props, hats, jewelry, added garment pockets, closures or decorations absent from the approved brief. No fly stitching or fasteners if the brief excludes a fly. This is ONE individually sold garment; supporting styling is not included in the isolated product image.",
+      "alt": "Lia usando Short Passo Leve na cor Creme, com a peça inteira visível sobre fundo branco.",
+      "isolatedAlt": "Short Passo Leve na cor Creme, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-d82c42e7-7203-46a0-b91b-ae6be38b5b70.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "productId": "product-007",
+      "colorwayId": "cream",
+      "collectionId": "collection-001",
+      "modelId": null,
+      "photographedSize": 4,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-007-cream-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-007-cream-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: product-007 / cream isolated-garment-second photograph, Difratelli Kids. Input is the EXACT worn photograph of this garment. Extract ONLY the featured Short Passo Leve, one garment sold individually; do NOT include the child's supporting clothes, shoes, person, mannequin or body parts. Photorealistic front-facing invisible-mannequin studio product photograph on opaque pure white seamless background with subtle natural shadows. Show the entire garment, front surface and construction clearly, neatly shaped without a hanger; centered with breathing room, all sleeves and hems complete. Native portrait exactly 3:4, 1086x1448 or larger. Preserve the exact garment in the input: Cotton-stretch twill, 190 g/m²; Cotton-stretch twill shorts; elastic waistband; two side pockets; straight hem; no drawstrings or decoration.; Solid color, no print.; Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. Match colors, silhouette, fabric, collar/neckline, sleeve length, hem length, pockets, waistband, print motif shapes/scale/placement and repeat spacing. Do not redesign or add closures, pockets, trim, logos, labels, text, watermark, props or accessories.   Only shorts with complete elastic waistband and both legs and side pockets, no top or shoes, no drawstring. Soft neutral diffused light, clear natural material texture.",
+      "alt": "Short Passo Leve na cor Creme, apresentado sem modelo sobre fundo branco.",
+      "isolatedAlt": "Short Passo Leve na cor Creme, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-45670666-1061-404b-9d49-d0b8a34a83dc.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "productId": "product-008",
+      "colorwayId": "teal",
+      "collectionId": "collection-001",
+      "modelId": "model-005",
+      "photographedSize": 2,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-008-teal-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-005-reference-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset type: product-008 / teal model-first catalog photograph for Difratelli Kids, Quintal de Descobertas. Input image 1 is the APPROVED FICTIONAL CHILD IDENTITY REFERENCE, Caio, model-005, age 2. Preserve exact face, Light skin; blue eyes; round toddler face; short straight dark-brown hair. and natural child proportions and apparent age.  Photograph this child wearing size 2 Short Explorador. Approved garment brief: fabric Cotton-stretch twill, 190 g/m²; silhouette Cotton-stretch twill shorts; elastic waistband; two side pockets; no cargo flaps, drawstring or logos.; print Solid color, no print.; color placement Apply each colorway as a single solid color over the entire garment, including binding and thread.; finishing Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. This colorway colors: Verde-petróleo #246B63. Entire garment must be the single specified solid color, no print. A plain cream T-shirt tucked into the waist so the entire waistband and pockets of the featured garment stay visible; simple neutral shoes. Opaque pure white seamless background, soft neutral studio lighting, natural skin and fabric detail. Frontal or very slightly angled relaxed full-body pose, arms relaxed clear of the featured garment, no hands in pockets, entire featured garment and head and shoes in frame with breathing room. Output portrait exactly 3:4, native 1086 x 1448 pixels or larger. No logos, text, watermarks, props, hats, jewelry, added garment pockets, closures or decorations absent from the approved brief. No fly stitching or fasteners if the brief excludes a fly. This is ONE individually sold garment; supporting styling is not included in the isolated product image.",
+      "alt": "Caio usando Short Explorador na cor Verde-petróleo, com a peça inteira visível sobre fundo branco.",
+      "isolatedAlt": "Short Explorador na cor Verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-0142e187-628e-45bf-9721-98d7e42957cd.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "productId": "product-008",
+      "colorwayId": "teal",
+      "collectionId": "collection-001",
+      "modelId": null,
+      "photographedSize": 2,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-008-teal-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-008-teal-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: product-008 / teal isolated-garment-second photograph, Difratelli Kids. Input is the EXACT worn photograph of this garment. Extract ONLY the featured Short Explorador, one garment sold individually; do NOT include the child's supporting clothes, shoes, person, mannequin or body parts. Photorealistic front-facing invisible-mannequin studio product photograph on opaque pure white seamless background with subtle natural shadows. Show the entire garment, front surface and construction clearly, neatly shaped without a hanger; centered with breathing room, all sleeves and hems complete. Native portrait exactly 3:4, 1086x1448 or larger. Preserve the exact garment in the input: Cotton-stretch twill, 190 g/m²; Cotton-stretch twill shorts; elastic waistband; two side pockets; no cargo flaps, drawstring or logos.; Solid color, no print.; Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. Match colors, silhouette, fabric, collar/neckline, sleeve length, hem length, pockets, waistband, print motif shapes/scale/placement and repeat spacing. Do not redesign or add closures, pockets, trim, logos, labels, text, watermark, props or accessories.   Only shorts with complete elastic waistband and both legs and side pockets, no top or shoes, no drawstring. Soft neutral diffused light, clear natural material texture.",
+      "alt": "Short Explorador na cor Verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "isolatedAlt": "Short Explorador na cor Verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-24ece06d-c3b7-4069-b062-6b7f22c3848b.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "productId": "product-008",
+      "colorwayId": "butter",
+      "collectionId": "collection-001",
+      "modelId": "model-005",
+      "photographedSize": 2,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-008-butter-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-005-reference-v2.png",
+        "assets/originals/catalog/product-008-teal-model-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset type: product-008 / butter model-first catalog photograph for Difratelli Kids, Quintal de Descobertas. Input image 1 is the APPROVED FICTIONAL CHILD IDENTITY REFERENCE, Caio, model-005, age 2. Preserve exact face, Light skin; blue eyes; round toddler face; short straight dark-brown hair. and natural child proportions and apparent age. Input image 2 is this same product's first colorway worn photograph: preserve its exact garment construction and silhouette, changing only featured garment color to this colorway. Photograph this child wearing size 2 Short Explorador. Approved garment brief: fabric Cotton-stretch twill, 190 g/m²; silhouette Cotton-stretch twill shorts; elastic waistband; two side pockets; no cargo flaps, drawstring or logos.; print Solid color, no print.; color placement Apply each colorway as a single solid color over the entire garment, including binding and thread.; finishing Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. This colorway colors: Amarelo-manteiga #F2D477. Entire garment must be the single specified solid color, no print. A plain cream T-shirt tucked into the waist so the entire waistband and pockets of the featured garment stay visible; simple neutral shoes. Opaque pure white seamless background, soft neutral studio lighting, natural skin and fabric detail. Frontal or very slightly angled relaxed full-body pose, arms relaxed clear of the featured garment, no hands in pockets, entire featured garment and head and shoes in frame with breathing room. Output portrait exactly 3:4, native 1086 x 1448 pixels or larger. No logos, text, watermarks, props, hats, jewelry, added garment pockets, closures or decorations absent from the approved brief. No fly stitching or fasteners if the brief excludes a fly. This is ONE individually sold garment; supporting styling is not included in the isolated product image.",
+      "alt": "Caio usando Short Explorador na cor Amarelo-manteiga, com a peça inteira visível sobre fundo branco.",
+      "isolatedAlt": "Short Explorador na cor Amarelo-manteiga, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-1aa286c1-65ed-48c5-9f99-da303a8203e5.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "productId": "product-008",
+      "colorwayId": "butter",
+      "collectionId": "collection-001",
+      "modelId": null,
+      "photographedSize": 2,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-008-butter-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-008-butter-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: product-008 / butter isolated-garment-second photograph, Difratelli Kids. Input is the EXACT worn photograph of this garment. Extract ONLY the featured Short Explorador, one garment sold individually; do NOT include the child's supporting clothes, shoes, person, mannequin or body parts. Photorealistic front-facing invisible-mannequin studio product photograph on opaque pure white seamless background with subtle natural shadows. Show the entire garment, front surface and construction clearly, neatly shaped without a hanger; centered with breathing room, all sleeves and hems complete. Native portrait exactly 3:4, 1086x1448 or larger. Preserve the exact garment in the input: Cotton-stretch twill, 190 g/m²; Cotton-stretch twill shorts; elastic waistband; two side pockets; no cargo flaps, drawstring or logos.; Solid color, no print.; Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. Match colors, silhouette, fabric, collar/neckline, sleeve length, hem length, pockets, waistband, print motif shapes/scale/placement and repeat spacing. Do not redesign or add closures, pockets, trim, logos, labels, text, watermark, props or accessories.   Only shorts with complete elastic waistband and both legs and side pockets, no top or shoes, no drawstring. Soft neutral diffused light, clear natural material texture.",
+      "alt": "Short Explorador na cor Amarelo-manteiga, apresentado sem modelo sobre fundo branco.",
+      "isolatedAlt": "Short Explorador na cor Amarelo-manteiga, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-525d6312-1f40-4c4a-9781-268c50591d17.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "productId": "product-009",
+      "colorwayId": "leaf",
+      "collectionId": "collection-001",
+      "modelId": "model-007",
+      "photographedSize": 6,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-009-leaf-model-v3.png",
+      "referencePaths": [
+        "assets/originals/cast/model-007-reference-v1.png",
+        "assets/originals/catalog/product-009-leaf-model-v2.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Input 1 approved fictional Theo identity reference; input 2 current worn trouser photograph to correct. Replace ONLY the trousers with simple leaf-green #78946A cotton-stretch twill pull-on trousers: continuous elastic waistband, two side pockets, straight ankle-length legs. CRITICAL FRONT PANEL: entirely flat uninterrupted green fabric on both sides of one simple straight center seam from waistband to crotch. There must be ZERO curved J-shaped topstitching, ZERO curved U-shaped stitch line, ZERO mock fly or zipper-shaped overlap. Treat them as children's plain elastic pull-on pants, absolutely no front fly or drawstring. The entire area between the side pockets must be visually clean except for the single straight vertical center seam. Keep exact same Theo face, body, green eyes, blond hair, expression, cream tucked T-shirt, neutral shoes, pose, lighting and opaque white seamless background. Full body and entire trousers in frame with breathing room, exact native 1086x1448 3:4. No text or watermark.",
+      "alt": "Theo usando Calça Caminho de Terra na cor Verde-folha, com a peça inteira visível sobre fundo branco.",
+      "isolatedAlt": "Calça Caminho de Terra na cor Verde-folha, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-8a358a77-86d2-4527-97c2-4275c4eb506c.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "productId": "product-009",
+      "colorwayId": "leaf",
+      "collectionId": "collection-001",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-009-leaf-isolated-v5.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-009-leaf-model-v3.png"
+      ],
+      "prompt": "Use case: product-mockup. Create a NEW overhead studio flat-lay photograph of ONLY the leaf-green #78946A cotton-stretch twill trousers worn in the input, product-009, size 6. Reference image is the exact clean pull-on garment, use its cut, fabric, elastic waist and two side pockets. Lay the trousers flat on opaque pure white seamless paper, entire waistband and both straight ankle-length legs visible and neatly arranged with subtle natural shadows. Plain elastic pull-on pants: ONE straight center seam, ABSOLUTELY NO fly, zipper, buttons, curved J-shaped topstitching, curved stitched fly outline or drawstring. Front panels must be uninterrupted leaf-green #78946A fabric except the one straight center seam and two outer side pocket openings. No overlapping fly panel. Straight hems and tonal stitching. Match the input colors, garment proportions and fabric texture. No person, mannequin, shoes, T-shirt, hanger, props, labels, text or watermark. Garment centered with breathing room. EXACT native portrait 1086x1448 pixels, 3:4.",
+      "alt": "Calça Caminho de Terra na cor Verde-folha, apresentado sem modelo sobre fundo branco.",
+      "isolatedAlt": "Calça Caminho de Terra na cor Verde-folha, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-69c72ad8-b213-4f0a-893e-42b36316e266.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "productId": "product-009",
+      "colorwayId": "cream",
+      "collectionId": "collection-001",
+      "modelId": "model-007",
+      "photographedSize": 6,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-009-cream-model-v2.png",
+      "referencePaths": [
+        "assets/originals/cast/model-007-reference-v1.png",
+        "assets/originals/catalog/product-009-cream-model-v1.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Input 1 is approved fictional Theo identity reference; input 2 is Theo wearing cream trousers to correct. Change ONLY the trousers front: REMOVE the faint curved fly-shaped line and overlapping fly panel to the viewer's right of the straight center seam below the waistband. Replace that entire area with clean uninterrupted cream #F3EBDD cotton-stretch twill fabric. Leave ONLY ONE simple straight vertical center seam from elastic waistband to crotch, NO curved line, NO mock fly, NO fly placket, NO zipper, button or drawstring. Keep the same cream trousers with two side pockets and straight ankle-length legs, exact child face, green eyes, blond hair, body, pose, cream tucked T-shirt, shoes, white seamless background and lighting. Entire body and garment in frame, exact native 1086x1448 portrait 3:4, no text or watermark.",
+      "alt": "Theo usando Calça Caminho de Terra na cor Creme, com a peça inteira visível sobre fundo branco.",
+      "isolatedAlt": "Calça Caminho de Terra na cor Creme, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-46db1677-9b6d-4014-9d07-3629663e275e.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "productId": "product-009",
+      "colorwayId": "cream",
+      "collectionId": "collection-001",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-009-cream-isolated-v2.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-009-cream-model-v2.png"
+      ],
+      "prompt": "Use case: product-mockup. Create a NEW overhead studio flat-lay photograph of ONLY the cream #F3EBDD cotton-stretch twill trousers worn in the input, product-009, size 6. Reference image is the exact clean pull-on garment, use its cut, fabric, elastic waist and two side pockets. Lay the trousers flat on opaque pure white seamless paper, entire waistband and both straight ankle-length legs visible and neatly arranged with subtle natural shadows. Plain elastic pull-on pants: ONE straight center seam, ABSOLUTELY NO fly, zipper, buttons, curved J-shaped topstitching, curved stitched fly outline or drawstring. Front panels must be uninterrupted cream #F3EBDD fabric except the one straight center seam and two outer side pocket openings. No overlapping fly panel. Straight hems and tonal stitching. Match the input colors, garment proportions and fabric texture. No person, mannequin, shoes, T-shirt, hanger, props, labels, text or watermark. Garment centered with breathing room. EXACT native portrait 1086x1448 pixels, 3:4.",
+      "alt": "Calça Caminho de Terra na cor Creme, apresentado sem modelo sobre fundo branco.",
+      "isolatedAlt": "Calça Caminho de Terra na cor Creme, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-291a6d87-b3cb-4057-b5d1-b787acbddb06.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "productId": "product-010",
+      "colorwayId": "teal",
+      "collectionId": "collection-001",
+      "modelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-010-teal-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-008-reference-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset type: product-010 / teal model-first catalog photograph for Difratelli Kids, Quintal de Descobertas. Input image 1 is the APPROVED FICTIONAL CHILD IDENTITY REFERENCE, Noah, model-008, age 8. Preserve exact face, Medium olive skin; brown eyes; long oval face; short dark-brown wavy hair. and natural child proportions and apparent age.  Photograph this child wearing size 8 Casaco Brisa do Quintal. Approved garment brief: fabric Lightweight cotton loopback, 220 g/m²; silhouette Lightweight cotton loopback cardigan; open front with no fasteners; long sleeves; cotton rib cuffs; no hood, pockets or print.; print Solid color, no print.; color placement Apply each colorway as a single solid color over the entire garment, including binding and thread.; finishing Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. This colorway colors: Verde-petróleo #246B63. Entire garment must be the single specified solid color, no print. Wear open over a plain light cream T-shirt, with simple plain neutral shorts and shoes; do not obscure cardigan edges or cuffs. Opaque pure white seamless background, soft neutral studio lighting, natural skin and fabric detail. Frontal or very slightly angled relaxed full-body pose, arms relaxed clear of the featured garment, no hands in pockets, entire featured garment and head and shoes in frame with breathing room. Output portrait exactly 3:4, native 1086 x 1448 pixels or larger. No logos, text, watermarks, props, hats, jewelry, added garment pockets, closures or decorations absent from the approved brief. No fly stitching or fasteners if the brief excludes a fly. This is ONE individually sold garment; supporting styling is not included in the isolated product image.",
+      "alt": "Noah usando Casaco Brisa do Quintal na cor Verde-petróleo, com a peça inteira visível sobre fundo branco.",
+      "isolatedAlt": "Casaco Brisa do Quintal na cor Verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-925a71fe-5816-4910-b5f0-8908571c4f44.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "productId": "product-010",
+      "colorwayId": "teal",
+      "collectionId": "collection-001",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-010-teal-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-010-teal-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: product-010 / teal isolated-garment-second photograph, Difratelli Kids. Input is the EXACT worn photograph of this garment. Extract ONLY the featured Casaco Brisa do Quintal, one garment sold individually; do NOT include the child's supporting clothes, shoes, person, mannequin or body parts. Photorealistic front-facing invisible-mannequin studio product photograph on opaque pure white seamless background with subtle natural shadows. Show the entire garment, front surface and construction clearly, neatly shaped without a hanger; centered with breathing room, all sleeves and hems complete. Native portrait exactly 3:4, 1086x1448 or larger. Preserve the exact garment in the input: Lightweight cotton loopback, 220 g/m²; Lightweight cotton loopback cardigan; open front with no fasteners; long sleeves; cotton rib cuffs; no hood, pockets or print.; Solid color, no print.; Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. Match colors, silhouette, fabric, collar/neckline, sleeve length, hem length, pockets, waistband, print motif shapes/scale/placement and repeat spacing. Do not redesign or add closures, pockets, trim, logos, labels, text, watermark, props or accessories. Only the open-front cardigan, sleeves extended naturally, opening visibly separated, no supporting T-shirt or shorts, no fasteners, no pockets, no hood.   Soft neutral diffused light, clear natural material texture.",
+      "alt": "Casaco Brisa do Quintal na cor Verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "isolatedAlt": "Casaco Brisa do Quintal na cor Verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-8f2acff3-055a-4465-84ad-5a84c30e5cab.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "productId": "product-010",
+      "colorwayId": "cream",
+      "collectionId": "collection-001",
+      "modelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-010-cream-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-008-reference-v1.png",
+        "assets/originals/catalog/product-010-teal-model-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset type: product-010 / cream model-first catalog photograph for Difratelli Kids, Quintal de Descobertas. Input image 1 is the APPROVED FICTIONAL CHILD IDENTITY REFERENCE, Noah, model-008, age 8. Preserve exact face, Medium olive skin; brown eyes; long oval face; short dark-brown wavy hair. and natural child proportions and apparent age. Input image 2 is this same product's first colorway worn photograph: preserve its exact garment construction and silhouette, changing only featured garment color to this colorway. Photograph this child wearing size 8 Casaco Brisa do Quintal. Approved garment brief: fabric Lightweight cotton loopback, 220 g/m²; silhouette Lightweight cotton loopback cardigan; open front with no fasteners; long sleeves; cotton rib cuffs; no hood, pockets or print.; print Solid color, no print.; color placement Apply each colorway as a single solid color over the entire garment, including binding and thread.; finishing Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. This colorway colors: Creme #F3EBDD. Entire garment must be the single specified solid color, no print. Wear open over a plain light cream T-shirt, with simple plain neutral shorts and shoes; do not obscure cardigan edges or cuffs. Opaque pure white seamless background, soft neutral studio lighting, natural skin and fabric detail. Frontal or very slightly angled relaxed full-body pose, arms relaxed clear of the featured garment, no hands in pockets, entire featured garment and head and shoes in frame with breathing room. Output portrait exactly 3:4, native 1086 x 1448 pixels or larger. No logos, text, watermarks, props, hats, jewelry, added garment pockets, closures or decorations absent from the approved brief. No fly stitching or fasteners if the brief excludes a fly. This is ONE individually sold garment; supporting styling is not included in the isolated product image.",
+      "alt": "Noah usando Casaco Brisa do Quintal na cor Creme, com a peça inteira visível sobre fundo branco.",
+      "isolatedAlt": "Casaco Brisa do Quintal na cor Creme, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-f8d1a97a-59b1-46d6-9574-2dd2e64c00ec.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "productId": "product-010",
+      "colorwayId": "cream",
+      "collectionId": "collection-001",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-010-cream-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-010-cream-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: product-010 / cream isolated-garment-second photograph, Difratelli Kids. Input is the EXACT worn photograph of this garment. Extract ONLY the featured Casaco Brisa do Quintal, one garment sold individually; do NOT include the child's supporting clothes, shoes, person, mannequin or body parts. Photorealistic front-facing invisible-mannequin studio product photograph on opaque pure white seamless background with subtle natural shadows. Show the entire garment, front surface and construction clearly, neatly shaped without a hanger; centered with breathing room, all sleeves and hems complete. Native portrait exactly 3:4, 1086x1448 or larger. Preserve the exact garment in the input: Lightweight cotton loopback, 220 g/m²; Lightweight cotton loopback cardigan; open front with no fasteners; long sleeves; cotton rib cuffs; no hood, pockets or print.; Solid color, no print.; Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. Match colors, silhouette, fabric, collar/neckline, sleeve length, hem length, pockets, waistband, print motif shapes/scale/placement and repeat spacing. Do not redesign or add closures, pockets, trim, logos, labels, text, watermark, props or accessories. Only the open-front cardigan, sleeves extended naturally, opening visibly separated, no supporting T-shirt or shorts, no fasteners, no pockets, no hood.   Soft neutral diffused light, clear natural material texture.",
+      "alt": "Casaco Brisa do Quintal na cor Creme, apresentado sem modelo sobre fundo branco.",
+      "isolatedAlt": "Casaco Brisa do Quintal na cor Creme, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-25fd9747-5b47-4094-b556-432e3e4d676d.png",
+      "tool": "built-in image_gen"
+    }
+  ],
+  "rejectedAttempts": [
+    {
+      "productId": "product-005",
+      "colorwayId": "cream-leaf-butter",
+      "collectionId": "collection-001",
+      "modelId": "model-003",
+      "photographedSize": 6,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-005-cream-leaf-butter-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-003-reference-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset type: product-005 / cream-leaf-butter model-first catalog photograph for Difratelli Kids, Quintal de Descobertas. Input image 1 is the APPROVED FICTIONAL CHILD IDENTITY REFERENCE, Nina, model-003, age 6. Preserve exact face, Fair skin; dark brown eyes; oval face; straight dark-brown shoulder-length hair parted slightly off center. and natural child proportions and apparent age.  Photograph this child wearing size 6 Vestido Passeio no Quintal. Approved garment brief: fabric Cotton single jersey, 160 g/m²; silhouette Jersey dress; short sleeves; rounded neck; natural-waist seam and gently gathered skirt above knee; no pockets or fastening.; print Leaf-and-sprout repeat, 25–35 mm, leaf green and butter yellow on cream; same print scale on bodice and skirt.; color placement Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.; finishing Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. This colorway colors: Creme #F3EBDD, Verde-folha #78946A, Amarelo-manteiga #F2D477. Small airy hand-drawn motifs at the specified physical scale, not oversized; retain the specified base and print colors. Only the dress and simple neutral shoes. Opaque pure white seamless background, soft neutral studio lighting, natural skin and fabric detail. Frontal or very slightly angled relaxed full-body pose, arms relaxed clear of the featured garment, no hands in pockets, entire featured garment and head and shoes in frame with breathing room. Output portrait exactly 3:4, native 1086 x 1448 pixels or larger. No logos, text, watermarks, props, hats, jewelry, added garment pockets, closures or decorations absent from the approved brief. No fly stitching or fasteners if the brief excludes a fly. This is ONE individually sold garment; supporting styling is not included in the isolated product image. Print scale control: motifs must be about 1/12 of the garment chest width, small rather than palm-sized.",
+      "alt": "Nina usando Vestido Passeio no Quintal na cor Creme, verde-folha, amarelo-manteiga, com a peça inteira visível sobre fundo branco.",
+      "isolatedAlt": "Vestido Passeio no Quintal na cor Creme, verde-folha, amarelo-manteiga, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-917a4889-1dbd-4a26-865c-88418a0d2131.png",
+      "tool": "built-in image_gen",
+      "reason": "Native output 1087x1447 is not exact 3:4.",
+      "retainedPath": "assets/originals/catalog-rejected/product-005-cream-leaf-butter-model-v1.png"
+    },
+    {
+      "productId": "product-009",
+      "colorwayId": "leaf",
+      "collectionId": "collection-001",
+      "modelId": "model-007",
+      "photographedSize": 6,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-009-leaf-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-007-reference-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset type: product-009 / leaf model-first catalog photograph for Difratelli Kids, Quintal de Descobertas. Input image 1 is the APPROVED FICTIONAL CHILD IDENTITY REFERENCE, Theo, model-007, age 6. Preserve exact face, Light skin with freckles; green eyes; oval face; slightly tousled short sandy blond hair. and natural child proportions and apparent age.  Photograph this child wearing size 6 Calça Caminho de Terra. Approved garment brief: fabric Cotton-stretch twill, 190 g/m²; silhouette Cotton-stretch twill trousers; elastic waist; two side pockets; straight ankle-length legs; no fly or drawstring.; print Solid color, no print.; color placement Apply each colorway as a single solid color over the entire garment, including binding and thread.; finishing Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. This colorway colors: Verde-folha #78946A. Entire garment must be the single specified solid color, no print. A plain cream T-shirt tucked into the waist so the entire waistband and pockets of the featured garment stay visible; simple neutral shoes. Opaque pure white seamless background, soft neutral studio lighting, natural skin and fabric detail. Frontal or very slightly angled relaxed full-body pose, arms relaxed clear of the featured garment, no hands in pockets, entire featured garment and head and shoes in frame with breathing room. Output portrait exactly 3:4, native 1086 x 1448 pixels or larger. No logos, text, watermarks, props, hats, jewelry, added garment pockets, closures or decorations absent from the approved brief. No fly stitching or fasteners if the brief excludes a fly. This is ONE individually sold garment; supporting styling is not included in the isolated product image.",
+      "alt": "Theo usando Calça Caminho de Terra na cor Verde-folha, com a peça inteira visível sobre fundo branco.",
+      "isolatedAlt": "Calça Caminho de Terra na cor Verde-folha, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-70362525-fc6f-4c03-88d9-5be4f2c8fe51.png",
+      "tool": "built-in image_gen",
+      "reason": "Fly-style topstitching absent from approved no-fly brief.",
+      "retainedPath": "assets/originals/catalog-rejected/product-009-leaf-model-v1.png"
+    },
+    {
+      "productId": "product-009",
+      "colorwayId": "leaf",
+      "collectionId": "collection-001",
+      "modelId": "model-007",
+      "photographedSize": 6,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-009-leaf-model-v2.png",
+      "referencePaths": [
+        "assets/originals/cast/model-007-reference-v1.png",
+        "assets/originals/catalog/product-009-leaf-model-v1.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Edit target: second input image, Theo wearing leaf-green trousers. First image is approved fictional Theo identity reference. Change ONLY the trouser front construction: REMOVE ALL curved J-shaped fly stitching, zipper placket, fly-shaped folds, overlapping panels and fasteners. The center front must be a single simple straight vertical seam below a continuous elastic waistband, clean pull-on trousers with no fly, no zipper, no button, no drawstring. Preserve the two side pockets, cotton-stretch twill fabric, leaf-green #78946A color, straight ankle-length legs and tonal hem stitching. Keep the exact same fictional child identity, green eyes, blond hair, face, pose, cream tucked T-shirt, neutral shoes, white background and lighting. Keep garment and entire full body in frame. Native canvas EXACTLY 1086 by 1448 pixels, 3:4. No text or watermark.",
+      "alt": "Theo usando Calça Caminho de Terra na cor Verde-folha, com a peça inteira visível sobre fundo branco.",
+      "isolatedAlt": "Calça Caminho de Terra na cor Verde-folha, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-aa8103f6-4c75-47a6-b0b2-412db5c16072.png",
+      "tool": "built-in image_gen",
+      "reason": "Correction retained faint curved fly outline.",
+      "retainedPath": "assets/originals/catalog-rejected/product-009-leaf-model-v2.png"
+    },
+    {
+      "productId": "product-009",
+      "colorwayId": "leaf",
+      "collectionId": "collection-001",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-009-leaf-isolated-v3.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-009-leaf-model-v3.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: product-009 / leaf isolated-garment-second photograph, Difratelli Kids. Input is the EXACT worn photograph of this garment. Extract ONLY the featured Calça Caminho de Terra, one garment sold individually; do NOT include the child's supporting clothes, shoes, person, mannequin or body parts. Photorealistic front-facing invisible-mannequin studio product photograph on opaque pure white seamless background with subtle natural shadows. Show the entire garment, front surface and construction clearly, neatly shaped without a hanger; centered with breathing room, all sleeves and hems complete. Native portrait exactly 3:4, 1086x1448 or larger. Preserve the exact garment in the input: Cotton-stretch twill, 190 g/m²; Cotton-stretch twill trousers; elastic waist; two side pockets; straight ankle-length legs; no fly or drawstring.; Solid color, no print.; Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. Match colors, silhouette, fabric, collar/neckline, sleeve length, hem length, pockets, waistband, print motif shapes/scale/placement and repeat spacing. Do not redesign or add closures, pockets, trim, logos, labels, text, watermark, props or accessories.  Entire straight ankle-length legs and elastic waistband, no fly or drawstring.  Soft neutral diffused light, clear natural material texture.",
+      "alt": "Calça Caminho de Terra na cor Verde-folha, apresentado sem modelo sobre fundo branco.",
+      "isolatedAlt": "Calça Caminho de Terra na cor Verde-folha, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-e4ce3db2-5eb6-45fd-9632-ee91a9dd44e3.png",
+      "tool": "built-in image_gen",
+      "reason": "Faint curved fly line reintroduced in isolated output.",
+      "retainedPath": "assets/originals/catalog-rejected/product-009-leaf-isolated-v3.png"
+    },
+    {
+      "productId": "product-009",
+      "colorwayId": "leaf",
+      "collectionId": "collection-001",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-009-leaf-isolated-v4.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-009-leaf-model-v3.png",
+        "assets/originals/catalog/product-009-leaf-isolated-v3.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Image 1 is the exact worn leaf-green trousers reference, image 2 is isolated product photograph to correct. Change ONLY the front seam details in image 2: REMOVE the curved J-shaped line to the viewer's right of the center vertical seam below the waistband. Fill that small curved-line area with matching uninterrupted leaf-green cotton twill texture. There must be only ONE straight vertical center seam, ZERO other stitching or outlines between the side pockets. These are elastic pull-on trousers with no fly, zipper, button or drawstring. Keep the exact same color, elastic waistband, two side pockets, leg width, ankle-length legs, hems, fabric texture, white background, full garment frame and neutral lighting. No person or supporting garment. Exact native 1086x1448 3:4.",
+      "alt": "Calça Caminho de Terra na cor Verde-folha, apresentado sem modelo sobre fundo branco.",
+      "isolatedAlt": "Calça Caminho de Terra na cor Verde-folha, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-e72e8232-1dcc-45ae-b1d4-f256c3e8df7b.png",
+      "tool": "built-in image_gen",
+      "reason": "Correction retained fly-like outline; switched to a fresh flat-lay derived from the clean worn garment.",
+      "retainedPath": "assets/originals/catalog-rejected/product-009-leaf-isolated-v4.png"
+    },
+    {
+      "productId": "product-009",
+      "colorwayId": "cream",
+      "collectionId": "collection-001",
+      "modelId": "model-007",
+      "photographedSize": 6,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-009-cream-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-007-reference-v1.png",
+        "assets/originals/catalog/product-009-leaf-model-v3.png"
+      ],
+      "prompt": "Use case: identity-preserve. Asset type: product-009 / cream model-first catalog photograph for Difratelli Kids, Quintal de Descobertas. Input image 1 is the APPROVED FICTIONAL CHILD IDENTITY REFERENCE, Theo, model-007, age 6. Preserve exact face, Light skin with freckles; green eyes; oval face; slightly tousled short sandy blond hair. and natural child proportions and apparent age. Input image 2 is this same product's first colorway worn photograph: preserve its exact garment construction and silhouette, changing only featured garment color to this colorway. Photograph this child wearing size 6 Calça Caminho de Terra. Approved garment brief: fabric Cotton-stretch twill, 190 g/m²; silhouette Cotton-stretch twill trousers; elastic waist; two side pockets; straight ankle-length legs; no fly or drawstring.; print Solid color, no print.; color placement Apply each colorway as a single solid color over the entire garment, including binding and thread.; finishing Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. This colorway colors: Creme #F3EBDD. Entire garment must be the single specified solid color, no print. A plain cream T-shirt tucked into the waist so the entire waistband and pockets of the featured garment stay visible; simple neutral shoes. Opaque pure white seamless background, soft neutral studio lighting, natural skin and fabric detail. Frontal or very slightly angled relaxed full-body pose, arms relaxed clear of the featured garment, no hands in pockets, entire featured garment and head and shoes in frame with breathing room. Output portrait exactly 3:4, native 1086 x 1448 pixels or larger. No logos, text, watermarks, props, hats, jewelry, added garment pockets, closures or decorations absent from the approved brief. No fly stitching or fasteners if the brief excludes a fly. This is ONE individually sold garment; supporting styling is not included in the isolated product image. Critical front construction: clean flat front, only one straight vertical center seam, absolutely no curved J-shaped fly topstitching or mock fly.",
+      "alt": "Theo usando Calça Caminho de Terra na cor Creme, com a peça inteira visível sobre fundo branco.",
+      "isolatedAlt": "Calça Caminho de Terra na cor Creme, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-4b0cee05-1284-47fc-8699-750179da6181.png",
+      "tool": "built-in image_gen",
+      "reason": "Faint curved fly line reintroduced in cream worn output.",
+      "retainedPath": "assets/originals/catalog-rejected/product-009-cream-model-v1.png"
+    },
+    {
+      "originalPath": "assets/originals/catalog/product-001-cream-leaf-teal-model-v1.png",
+      "reason": "Oversized leaf motifs; replaced by v2.",
+      "retainedPath": "assets/originals/catalog-rejected/product-001-cream-leaf-teal-model-v1.png"
+    }
+  ]
+}

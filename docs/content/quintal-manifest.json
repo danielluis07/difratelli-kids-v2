@@ -1,0 +1,1088 @@
+{
+  "revision": "issue-25-quintal-v1",
+  "collectionId": "collection-001",
+  "technicalStatus": "passed",
+  "approvalStatus": "approved",
+  "scope": "All ten Quintal products and fourteen colorways, model first and isolated second. Complete-content and release gates are separate.",
+  "resolutionAcceptance": {
+    "collectionId": "collection-001",
+    "minimumWidth": 1086,
+    "minimumHeight": 1448,
+    "aspectRatio": "3:4",
+    "evidence": "The user selected \"Accept 1086 × 1448 for this collection\".",
+    "scope": "All 28 Quintal de Descobertas catalog photographs only. Other collections retain their existing requirements."
+  },
+  "assets": [
+    {
+      "id": "product-001-cream-leaf-teal-model-v2",
+      "productId": "product-001",
+      "collectionId": "collection-001",
+      "colorwayId": "cream-leaf-teal",
+      "modelId": "model-006",
+      "photographedSize": 4,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-001-cream-leaf-teal-model-v2.png",
+      "originalSha256": "613552606f2eb7e3fcdc85abbf20a32d925ccf10b2a5473d4b070d133f8d1296",
+      "webPath": "public/images/catalog/product-001-cream-leaf-teal-model-v2.webp",
+      "webSha256": "1d9260a79f4a8a5cbe7fc901499f09109ddcaae693ebb3f6aa876eed10553272",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1713868,
+      "webBytes": 70144,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-006-reference-v1.png",
+          "retainedPath": "assets/originals/cast/model-006-reference-v1.png",
+          "sha256": "054c88dacd8477098bf5b707ae3d809f08fe3f4c6ab900001dcd30f523fc0c03"
+        },
+        {
+          "inputPath": "assets/originals/catalog/product-001-cream-leaf-teal-model-v1.png",
+          "retainedPath": "assets/originals/catalog-rejected/product-001-cream-leaf-teal-model-v1.png",
+          "sha256": "80dd509b7f4af80bfabf67230db0d912c2d62a06b106ccc81343113222302f0d"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Davi usando Camiseta Folhas ao Vento na cor Creme, verde-folha, verde-petróleo, com a peça inteira visível sobre fundo branco."
+    },
+    {
+      "id": "product-001-cream-leaf-teal-isolated-v2",
+      "productId": "product-001",
+      "collectionId": "collection-001",
+      "colorwayId": "cream-leaf-teal",
+      "modelId": null,
+      "photographedSize": 4,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-001-cream-leaf-teal-isolated-v2.png",
+      "originalSha256": "93c4fd4daf31fa8d1d92ec2baa9597df20262e024cdcc47b7a2ba26daf6a3903",
+      "webPath": "public/images/catalog/product-001-cream-leaf-teal-isolated-v2.webp",
+      "webSha256": "39dc4a4737e41faa85adfbbab5b130c6ab6f7542de42d75adb70d25c7077a9c3",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1551652,
+      "webBytes": 83006,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-001-cream-leaf-teal-model-v2.png",
+          "retainedPath": "assets/originals/catalog/product-001-cream-leaf-teal-model-v2.png",
+          "sha256": "613552606f2eb7e3fcdc85abbf20a32d925ccf10b2a5473d4b070d133f8d1296"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Camiseta Folhas ao Vento na cor Creme, verde-folha, verde-petróleo, apresentado sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-002-butter-teal-model-v1",
+      "productId": "product-002",
+      "collectionId": "collection-001",
+      "colorwayId": "butter-teal",
+      "modelId": "model-005",
+      "photographedSize": 2,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-002-butter-teal-model-v1.png",
+      "originalSha256": "dc38d9cb4fc28b3ce6c6513df6db98eb91b1d4ed508bd54c931c4803487681a3",
+      "webPath": "public/images/catalog/product-002-butter-teal-model-v1.webp",
+      "webSha256": "1c06f072283e60c00497a0db2a6379085163f3b3c9d0a17cb251f34d4b6f1c9e",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1703245,
+      "webBytes": 78620,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-005-reference-v2.png",
+          "retainedPath": "assets/originals/cast/model-005-reference-v2.png",
+          "sha256": "446b8c30e3568325be58210aad97775878ae928a5c3495d7593668120526ecd8"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Caio usando Camiseta Besourinhos na cor Amarelo-manteiga, verde-petróleo, com a peça inteira visível sobre fundo branco."
+    },
+    {
+      "id": "product-002-butter-teal-isolated-v1",
+      "productId": "product-002",
+      "collectionId": "collection-001",
+      "colorwayId": "butter-teal",
+      "modelId": null,
+      "photographedSize": 2,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-002-butter-teal-isolated-v1.png",
+      "originalSha256": "4cfc1bfec1c164504e41acf4fc209b818a6ca3c75dfa2e97ddd05813cf76cc9d",
+      "webPath": "public/images/catalog/product-002-butter-teal-isolated-v1.webp",
+      "webSha256": "a7c191198430543e7911b009893356988595d5dbe996f7fb54c778179f063eb0",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1446289,
+      "webBytes": 83982,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-002-butter-teal-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-002-butter-teal-model-v1.png",
+          "sha256": "dc38d9cb4fc28b3ce6c6513df6db98eb91b1d4ed508bd54c931c4803487681a3"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Camiseta Besourinhos na cor Amarelo-manteiga, verde-petróleo, apresentado sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-003-cream-butter-leaf-model-v1",
+      "productId": "product-003",
+      "collectionId": "collection-001",
+      "colorwayId": "cream-butter-leaf",
+      "modelId": "model-001",
+      "photographedSize": 4,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-003-cream-butter-leaf-model-v1.png",
+      "originalSha256": "4fcd3299b875104deed2071651b61fa979a0c2a1dc7947865bfb40de6cf156e3",
+      "webPath": "public/images/catalog/product-003-cream-butter-leaf-model-v1.webp",
+      "webSha256": "b2dd8b09b5cdcac729ae9154881b8954f8675d9c67e2b394431a1dab77c107c7",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1732717,
+      "webBytes": 71464,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-001-reference-v1.png",
+          "retainedPath": "assets/originals/cast/model-001-reference-v1.png",
+          "sha256": "4dfe5ae27cb5ed408505aa892ae3f012535e19ebb1e5917dbae39acb3294af43"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Lia usando Camiseta Pequenas Sementes na cor Creme, amarelo-manteiga, verde-folha, com a peça inteira visível sobre fundo branco."
+    },
+    {
+      "id": "product-003-cream-butter-leaf-isolated-v1",
+      "productId": "product-003",
+      "collectionId": "collection-001",
+      "colorwayId": "cream-butter-leaf",
+      "modelId": null,
+      "photographedSize": 4,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-003-cream-butter-leaf-isolated-v1.png",
+      "originalSha256": "90253c2d77e3af64e8119dde605182aaf68a052effa1b8c6150cd713f203d85e",
+      "webPath": "public/images/catalog/product-003-cream-butter-leaf-isolated-v1.webp",
+      "webSha256": "33fc5f9ef7dcfbd933dc21930d3d60f5716d56f875ac25c284041633f3ab56f7",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1413852,
+      "webBytes": 51280,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-003-cream-butter-leaf-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-003-cream-butter-leaf-model-v1.png",
+          "sha256": "4fcd3299b875104deed2071651b61fa979a0c2a1dc7947865bfb40de6cf156e3"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Camiseta Pequenas Sementes na cor Creme, amarelo-manteiga, verde-folha, apresentado sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-004-cream-leaf-teal-model-v1",
+      "productId": "product-004",
+      "collectionId": "collection-001",
+      "colorwayId": "cream-leaf-teal",
+      "modelId": "model-002",
+      "photographedSize": 6,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-004-cream-leaf-teal-model-v1.png",
+      "originalSha256": "66e677626862eef89c3798e6618c777b03f15bc81bdaa27ccf97e794bdafa0a2",
+      "webPath": "public/images/catalog/product-004-cream-leaf-teal-model-v1.webp",
+      "webSha256": "1af6bebce5c7efbbce6fea9a37d249469a1e2c7171bb258c70bf39ad3dd7c319",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1728398,
+      "webBytes": 79812,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-002-reference-v2.png",
+          "retainedPath": "assets/originals/cast/model-002-reference-v2.png",
+          "sha256": "c29fb497afb76beb42db5c7671b463d9f8261f94dc1bcebfd1d8821eae59a367"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Bia usando Blusa Jardim Miúdo na cor Creme, verde-folha, verde-petróleo, com a peça inteira visível sobre fundo branco."
+    },
+    {
+      "id": "product-004-cream-leaf-teal-isolated-v1",
+      "productId": "product-004",
+      "collectionId": "collection-001",
+      "colorwayId": "cream-leaf-teal",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-004-cream-leaf-teal-isolated-v1.png",
+      "originalSha256": "79fc395c46b87f3066d32549bddc87b3ef50a3c42d6c98025eb3766c9fe22df7",
+      "webPath": "public/images/catalog/product-004-cream-leaf-teal-isolated-v1.webp",
+      "webSha256": "ca4926e91b5e5a92ac372b066f59be98f61d5ed5e565bef31557e5448050db6a",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1732814,
+      "webBytes": 136252,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-004-cream-leaf-teal-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-004-cream-leaf-teal-model-v1.png",
+          "sha256": "66e677626862eef89c3798e6618c777b03f15bc81bdaa27ccf97e794bdafa0a2"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Blusa Jardim Miúdo na cor Creme, verde-folha, verde-petróleo, apresentado sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-005-cream-leaf-butter-model-v2",
+      "productId": "product-005",
+      "collectionId": "collection-001",
+      "colorwayId": "cream-leaf-butter",
+      "modelId": "model-003",
+      "photographedSize": 6,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-005-cream-leaf-butter-model-v2.png",
+      "originalSha256": "64beab091e9d63c87d8c52be4f1d1fd520bc16bcc6524695ee004eadeebd2f9b",
+      "webPath": "public/images/catalog/product-005-cream-leaf-butter-model-v2.webp",
+      "webSha256": "cde827bcbddf811683480f9f5ed8e87a5efbdd660cff5b7826f07a3fb3193012",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1719756,
+      "webBytes": 81896,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-003-reference-v2.png",
+          "retainedPath": "assets/originals/cast/model-003-reference-v2.png",
+          "sha256": "ea2d3e643291642718bb4f5c51fd1306843f0de7a4b7cdc0265607ed9b55892a"
+        },
+        {
+          "inputPath": "assets/originals/catalog/product-005-cream-leaf-butter-model-v1.png",
+          "retainedPath": "assets/originals/catalog-rejected/product-005-cream-leaf-butter-model-v1.png",
+          "sha256": "dfaf31a51a98a1d9041d1b58e059b2c1f8401dedf990c89bf0adb6fd24e6b915"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Nina usando Vestido Passeio no Quintal na cor Creme, verde-folha, amarelo-manteiga, com a peça inteira visível sobre fundo branco."
+    },
+    {
+      "id": "product-005-cream-leaf-butter-isolated-v2",
+      "productId": "product-005",
+      "collectionId": "collection-001",
+      "colorwayId": "cream-leaf-butter",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-005-cream-leaf-butter-isolated-v2.png",
+      "originalSha256": "96dddf848de4a9bbc02163025de2c0b167b4882a634cd85037ee629657aa0939",
+      "webPath": "public/images/catalog/product-005-cream-leaf-butter-isolated-v2.webp",
+      "webSha256": "283716c90c5d3970d7574e71d53ed49a0cd75c8e9e9b7bc582ddb5b8712d7ba7",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1706429,
+      "webBytes": 124366,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-005-cream-leaf-butter-model-v2.png",
+          "retainedPath": "assets/originals/catalog/product-005-cream-leaf-butter-model-v2.png",
+          "sha256": "64beab091e9d63c87d8c52be4f1d1fd520bc16bcc6524695ee004eadeebd2f9b"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Vestido Passeio no Quintal na cor Creme, verde-folha, amarelo-manteiga, apresentado sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-006-cream-teal-leaf-model-v1",
+      "productId": "product-006",
+      "collectionId": "collection-001",
+      "colorwayId": "cream-teal-leaf",
+      "modelId": "model-006",
+      "photographedSize": 4,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-006-cream-teal-leaf-model-v1.png",
+      "originalSha256": "62be990d3689aaa967e01cc667d1b0b35c888325cd04f70a2714054d00ae7535",
+      "webPath": "public/images/catalog/product-006-cream-teal-leaf-model-v1.webp",
+      "webSha256": "0f3adc260feb851b25d749afc1739700920de82f5dddf1d3853507cb6eef322f",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1721476,
+      "webBytes": 70858,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-006-reference-v1.png",
+          "retainedPath": "assets/originals/cast/model-006-reference-v1.png",
+          "sha256": "054c88dacd8477098bf5b707ae3d809f08fe3f4c6ab900001dcd30f523fc0c03"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Criança usando o Conjunto Descobertas, com camiseta creme estampada com folhas e besouros e short verde-petróleo; as duas peças aparecem inteiras."
+    },
+    {
+      "id": "product-006-cream-teal-leaf-isolated-v1",
+      "productId": "product-006",
+      "collectionId": "collection-001",
+      "colorwayId": "cream-teal-leaf",
+      "modelId": null,
+      "photographedSize": 4,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-006-cream-teal-leaf-isolated-v1.png",
+      "originalSha256": "3d08ed2216e04cec10f6ef7f09e8f7a8dffafe31072177006e9eb20e29cdf53a",
+      "webPath": "public/images/catalog/product-006-cream-teal-leaf-isolated-v1.webp",
+      "webSha256": "e62ca1af2b2b465281db826aa272e28b614655ab193fa8e1c070d5e9b532a422",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1638254,
+      "webBytes": 115474,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-006-cream-teal-leaf-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-006-cream-teal-leaf-model-v1.png",
+          "sha256": "62be990d3689aaa967e01cc667d1b0b35c888325cd04f70a2714054d00ae7535"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Conjunto Descobertas com camiseta creme estampada com folhas e besouros e short verde-petróleo, apresentado sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-007-leaf-model-v1",
+      "productId": "product-007",
+      "collectionId": "collection-001",
+      "colorwayId": "leaf",
+      "modelId": "model-001",
+      "photographedSize": 4,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-007-leaf-model-v1.png",
+      "originalSha256": "235156f6bcb1719ec4bf7fd8c91ba1ebaa8aa1b6ccb668f2950a30beeb8881b7",
+      "webPath": "public/images/catalog/product-007-leaf-model-v1.webp",
+      "webSha256": "ef2700ec68f47f0eb0353e196c2a7882e3f4a4f7640323346997644d52595dd6",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1726223,
+      "webBytes": 70666,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-001-reference-v1.png",
+          "retainedPath": "assets/originals/cast/model-001-reference-v1.png",
+          "sha256": "4dfe5ae27cb5ed408505aa892ae3f012535e19ebb1e5917dbae39acb3294af43"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Lia usando Short Passo Leve na cor Verde-folha, com a peça inteira visível sobre fundo branco."
+    },
+    {
+      "id": "product-007-leaf-isolated-v1",
+      "productId": "product-007",
+      "collectionId": "collection-001",
+      "colorwayId": "leaf",
+      "modelId": null,
+      "photographedSize": 4,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-007-leaf-isolated-v1.png",
+      "originalSha256": "6a8ccffc276df1d006d1c5f8df657d9f1ec1743bbd56754a686816b642606940",
+      "webPath": "public/images/catalog/product-007-leaf-isolated-v1.webp",
+      "webSha256": "d86da2f0c7681aea10df0a85ad0fa35f61a5baa3119cb30f41564d4a651d46b0",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 2253558,
+      "webBytes": 210772,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-007-leaf-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-007-leaf-model-v1.png",
+          "sha256": "235156f6bcb1719ec4bf7fd8c91ba1ebaa8aa1b6ccb668f2950a30beeb8881b7"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Short Passo Leve na cor Verde-folha, apresentado sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-007-cream-model-v1",
+      "productId": "product-007",
+      "collectionId": "collection-001",
+      "colorwayId": "cream",
+      "modelId": "model-001",
+      "photographedSize": 4,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-007-cream-model-v1.png",
+      "originalSha256": "03953aa2d86a5fe26f31d52bff5ebcf51dad23690f67ab3a29022ae348af9e47",
+      "webPath": "public/images/catalog/product-007-cream-model-v1.webp",
+      "webSha256": "c9eda18b9482998c24a36f00aae6ac280eebb713dcfdc01f2d824f347fc26e37",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1683602,
+      "webBytes": 66832,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-001-reference-v1.png",
+          "retainedPath": "assets/originals/cast/model-001-reference-v1.png",
+          "sha256": "4dfe5ae27cb5ed408505aa892ae3f012535e19ebb1e5917dbae39acb3294af43"
+        },
+        {
+          "inputPath": "assets/originals/catalog/product-007-leaf-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-007-leaf-model-v1.png",
+          "sha256": "235156f6bcb1719ec4bf7fd8c91ba1ebaa8aa1b6ccb668f2950a30beeb8881b7"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Lia usando Short Passo Leve na cor Creme, com a peça inteira visível sobre fundo branco."
+    },
+    {
+      "id": "product-007-cream-isolated-v1",
+      "productId": "product-007",
+      "collectionId": "collection-001",
+      "colorwayId": "cream",
+      "modelId": null,
+      "photographedSize": 4,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-007-cream-isolated-v1.png",
+      "originalSha256": "d936ff371d72f6a2a1345de1629878d3476a850662da9104955a79e7ba54b067",
+      "webPath": "public/images/catalog/product-007-cream-isolated-v1.webp",
+      "webSha256": "6635bc5c5441c2f00e84b0b4e55078709b770e90ed70a30670f750df122c1112",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1986656,
+      "webBytes": 148748,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-007-cream-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-007-cream-model-v1.png",
+          "sha256": "03953aa2d86a5fe26f31d52bff5ebcf51dad23690f67ab3a29022ae348af9e47"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Short Passo Leve na cor Creme, apresentado sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-008-teal-model-v1",
+      "productId": "product-008",
+      "collectionId": "collection-001",
+      "colorwayId": "teal",
+      "modelId": "model-005",
+      "photographedSize": 2,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-008-teal-model-v1.png",
+      "originalSha256": "4d7d11a8132f01651b95f18ac73a9ef0e4f31cd40864f0c12d874b0f6d33b20d",
+      "webPath": "public/images/catalog/product-008-teal-model-v1.webp",
+      "webSha256": "9ada7ea41d73d5c69a47899c3c0deafdeb8eb3aee3ed27dd7a1d161b071abea8",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1678899,
+      "webBytes": 65722,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-005-reference-v2.png",
+          "retainedPath": "assets/originals/cast/model-005-reference-v2.png",
+          "sha256": "446b8c30e3568325be58210aad97775878ae928a5c3495d7593668120526ecd8"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Caio usando Short Explorador na cor Verde-petróleo, com a peça inteira visível sobre fundo branco."
+    },
+    {
+      "id": "product-008-teal-isolated-v1",
+      "productId": "product-008",
+      "collectionId": "collection-001",
+      "colorwayId": "teal",
+      "modelId": null,
+      "photographedSize": 2,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-008-teal-isolated-v1.png",
+      "originalSha256": "e5265be7b8772e68acaffd9475038a594dba93d97a520756fe70c687e623b4f0",
+      "webPath": "public/images/catalog/product-008-teal-isolated-v1.webp",
+      "webSha256": "e6fc47d9ce90d86fce5bbff4f371a49dafafa7183491d91dac66395552c61196",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 2285334,
+      "webBytes": 228474,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-008-teal-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-008-teal-model-v1.png",
+          "sha256": "4d7d11a8132f01651b95f18ac73a9ef0e4f31cd40864f0c12d874b0f6d33b20d"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Short Explorador na cor Verde-petróleo, apresentado sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-008-butter-model-v1",
+      "productId": "product-008",
+      "collectionId": "collection-001",
+      "colorwayId": "butter",
+      "modelId": "model-005",
+      "photographedSize": 2,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-008-butter-model-v1.png",
+      "originalSha256": "a91be858af1c566484d9d302cf5f0eefb88fc1646090e7b61313b5bc132a9393",
+      "webPath": "public/images/catalog/product-008-butter-model-v1.webp",
+      "webSha256": "26bb60be99fb5c9d9d00ab75ef0c23bb565abe4ce15f00606e63fcba7545adb3",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1661734,
+      "webBytes": 65238,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-005-reference-v2.png",
+          "retainedPath": "assets/originals/cast/model-005-reference-v2.png",
+          "sha256": "446b8c30e3568325be58210aad97775878ae928a5c3495d7593668120526ecd8"
+        },
+        {
+          "inputPath": "assets/originals/catalog/product-008-teal-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-008-teal-model-v1.png",
+          "sha256": "4d7d11a8132f01651b95f18ac73a9ef0e4f31cd40864f0c12d874b0f6d33b20d"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Caio usando Short Explorador na cor Amarelo-manteiga, com a peça inteira visível sobre fundo branco."
+    },
+    {
+      "id": "product-008-butter-isolated-v1",
+      "productId": "product-008",
+      "collectionId": "collection-001",
+      "colorwayId": "butter",
+      "modelId": null,
+      "photographedSize": 2,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-008-butter-isolated-v1.png",
+      "originalSha256": "43790213e665bd99589a33eb665052b44072bb6a677733979800f3625c030618",
+      "webPath": "public/images/catalog/product-008-butter-isolated-v1.webp",
+      "webSha256": "c079eceaaa02001d49595689c0e15fe327121d992905dc299723874f21d9f3c4",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1900087,
+      "webBytes": 155132,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-008-butter-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-008-butter-model-v1.png",
+          "sha256": "a91be858af1c566484d9d302cf5f0eefb88fc1646090e7b61313b5bc132a9393"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Short Explorador na cor Amarelo-manteiga, apresentado sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-009-leaf-model-v3",
+      "productId": "product-009",
+      "collectionId": "collection-001",
+      "colorwayId": "leaf",
+      "modelId": "model-007",
+      "photographedSize": 6,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-009-leaf-model-v3.png",
+      "originalSha256": "7bab701404d6d29c5054d54c8beb1ef8293a643b7a8bbe3416131723899d929b",
+      "webPath": "public/images/catalog/product-009-leaf-model-v3.webp",
+      "webSha256": "15f0d8d65c87d5bbd62756249b2535d35dc61c7aac6e1a920c96a9fe0a47f1c9",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1680358,
+      "webBytes": 56862,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-007-reference-v1.png",
+          "retainedPath": "assets/originals/cast/model-007-reference-v1.png",
+          "sha256": "fd435230a5c3757ba17f2e2ccccae69f4c39eabb28d66ced2a46846c218469bd"
+        },
+        {
+          "inputPath": "assets/originals/catalog/product-009-leaf-model-v2.png",
+          "retainedPath": "assets/originals/catalog-rejected/product-009-leaf-model-v2.png",
+          "sha256": "cc550d881eca922ffac560d363068e474f6a97abe9652cda7fc64e48f00d64ca"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Theo usando Calça Caminho de Terra na cor Verde-folha, com a peça inteira visível sobre fundo branco."
+    },
+    {
+      "id": "product-009-leaf-isolated-v5",
+      "productId": "product-009",
+      "collectionId": "collection-001",
+      "colorwayId": "leaf",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-009-leaf-isolated-v5.png",
+      "originalSha256": "b41a91d027d94eb5b869b1d8f77d80cccde5d5e08adae68424078e157b1addcf",
+      "webPath": "public/images/catalog/product-009-leaf-isolated-v5.webp",
+      "webSha256": "aae3b2d5c248bb14a7c98bd78b77d64f7088838765df51e978b4c9b4f2d190ff",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1863512,
+      "webBytes": 125106,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-009-leaf-model-v3.png",
+          "retainedPath": "assets/originals/catalog/product-009-leaf-model-v3.png",
+          "sha256": "7bab701404d6d29c5054d54c8beb1ef8293a643b7a8bbe3416131723899d929b"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Calça Caminho de Terra na cor Verde-folha, apresentado sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-009-cream-model-v2",
+      "productId": "product-009",
+      "collectionId": "collection-001",
+      "colorwayId": "cream",
+      "modelId": "model-007",
+      "photographedSize": 6,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-009-cream-model-v2.png",
+      "originalSha256": "efb23021d3db1fb42d98ff42c63b84903259ebd62ef6aaa0deebbd418ba66c6a",
+      "webPath": "public/images/catalog/product-009-cream-model-v2.webp",
+      "webSha256": "8147ada513f9a11b3af9f53f109fd724da6b989a5628f6cd8cc906252793740c",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1641023,
+      "webBytes": 54678,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-007-reference-v1.png",
+          "retainedPath": "assets/originals/cast/model-007-reference-v1.png",
+          "sha256": "fd435230a5c3757ba17f2e2ccccae69f4c39eabb28d66ced2a46846c218469bd"
+        },
+        {
+          "inputPath": "assets/originals/catalog/product-009-cream-model-v1.png",
+          "retainedPath": "assets/originals/catalog-rejected/product-009-cream-model-v1.png",
+          "sha256": "2b95b78cdd39973aeed99da57fe75eea1063df4155a1f305b1d404a571d7762c"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Theo usando Calça Caminho de Terra na cor Creme, com a peça inteira visível sobre fundo branco."
+    },
+    {
+      "id": "product-009-cream-isolated-v2",
+      "productId": "product-009",
+      "collectionId": "collection-001",
+      "colorwayId": "cream",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-009-cream-isolated-v2.png",
+      "originalSha256": "af96375faf6680281a3a461260819f826bb09667eba7f1b9a39fac7b1d7f35de",
+      "webPath": "public/images/catalog/product-009-cream-isolated-v2.webp",
+      "webSha256": "9af670fb91f1a65bcd53eef4f2e058a243d2ced00b53881b17b6c25e45463426",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1777116,
+      "webBytes": 66720,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-009-cream-model-v2.png",
+          "retainedPath": "assets/originals/catalog/product-009-cream-model-v2.png",
+          "sha256": "efb23021d3db1fb42d98ff42c63b84903259ebd62ef6aaa0deebbd418ba66c6a"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Calça Caminho de Terra na cor Creme, apresentado sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-010-teal-model-v1",
+      "productId": "product-010",
+      "collectionId": "collection-001",
+      "colorwayId": "teal",
+      "modelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-010-teal-model-v1.png",
+      "originalSha256": "87a3541e082fc2e093f4324978a7dbb4fd25cc43dd10695d1c07737633786640",
+      "webPath": "public/images/catalog/product-010-teal-model-v1.webp",
+      "webSha256": "c88d947443f8afbc600bce7ab47b30278a1f4cbed7800550c51dd46a686fb0af",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1696318,
+      "webBytes": 59826,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-008-reference-v1.png",
+          "retainedPath": "assets/originals/cast/model-008-reference-v1.png",
+          "sha256": "84c4c5c21ee85c4271ca2134b09f12bdce3d3bf67ad4324504100ad4e18d4514"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Noah usando Casaco Brisa do Quintal na cor Verde-petróleo, com a peça inteira visível sobre fundo branco."
+    },
+    {
+      "id": "product-010-teal-isolated-v1",
+      "productId": "product-010",
+      "collectionId": "collection-001",
+      "colorwayId": "teal",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-010-teal-isolated-v1.png",
+      "originalSha256": "70968c0cb926f629d28ae3c0869db6e9e8a07dd71c5c711994116ef33ba74aa8",
+      "webPath": "public/images/catalog/product-010-teal-isolated-v1.webp",
+      "webSha256": "baa468521dd40e337ba8302c3ffba33dadf31053ebccddfbe5643b2d1ae51546",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1884405,
+      "webBytes": 143400,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-010-teal-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-010-teal-model-v1.png",
+          "sha256": "87a3541e082fc2e093f4324978a7dbb4fd25cc43dd10695d1c07737633786640"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Casaco Brisa do Quintal na cor Verde-petróleo, apresentado sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-010-cream-model-v1",
+      "productId": "product-010",
+      "collectionId": "collection-001",
+      "colorwayId": "cream",
+      "modelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-010-cream-model-v1.png",
+      "originalSha256": "f453178742b7f1470a3f6a5aa6470ee9cd68f076b9ea7da20ac813d99a39e733",
+      "webPath": "public/images/catalog/product-010-cream-model-v1.webp",
+      "webSha256": "fc6809dd882a09e04571aa2a1f757f47b30d1face03fa4594062431ceb5b16e1",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1660300,
+      "webBytes": 55016,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-008-reference-v1.png",
+          "retainedPath": "assets/originals/cast/model-008-reference-v1.png",
+          "sha256": "84c4c5c21ee85c4271ca2134b09f12bdce3d3bf67ad4324504100ad4e18d4514"
+        },
+        {
+          "inputPath": "assets/originals/catalog/product-010-teal-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-010-teal-model-v1.png",
+          "sha256": "87a3541e082fc2e093f4324978a7dbb4fd25cc43dd10695d1c07737633786640"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Noah usando Casaco Brisa do Quintal na cor Creme, com a peça inteira visível sobre fundo branco."
+    },
+    {
+      "id": "product-010-cream-isolated-v1",
+      "productId": "product-010",
+      "collectionId": "collection-001",
+      "colorwayId": "cream",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/quintal-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-010-cream-isolated-v1.png",
+      "originalSha256": "781bcd71e945a9c057c611b8f84238dc2733beb43cce86353965c23b2827915c",
+      "webPath": "public/images/catalog/product-010-cream-isolated-v1.webp",
+      "webSha256": "2ddc050d79fd9ca93fca7915744a339b6b0f9bcd9f628267537831ee33324de2",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1678621,
+      "webBytes": 81922,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-010-cream-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-010-cream-model-v1.png",
+          "sha256": "f453178742b7f1470a3f6a5aa6470ee9cd68f076b9ea7da20ac813d99a39e733"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Casaco Brisa do Quintal na cor Creme, apresentado sem modelo sobre fundo branco."
+    }
+  ]
+}

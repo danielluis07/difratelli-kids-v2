@@ -1,0 +1,329 @@
+{
+  "revision": "issue-25-quintal-v1",
+  "status": "approved",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/25",
+  "collectionId": "collection-001",
+  "reviewer": "The user in this conversation",
+  "evidence": "The user replied \"approved\" to: \"Do you approve the batch including that detail, or want those two images regenerated?\" The complete collection review and contact sheet were linked immediately before that question, with the faint fly-like lines in the isolated trousers explicitly disclosed.",
+  "recordedAtUtc": "2026-10-09T23:12:08Z",
+  "scope": [
+    "All ten Quintal de Descobertas products and fourteen colorways",
+    "All 28 exact model-first and isolated-garment-second photographs, including the previously approved sample",
+    "Separate PNG originals and full-frame quality-90 WebP exports, associations, dimensions, usage and Portuguese alt text"
+  ],
+  "reviewedManifestPath": "docs/content/quintal-manifest.json",
+  "reviewedManifestSha256": "a8fe140a7f15197f99a12284861886d1ad092d63fb80d03c920eb5ea40dc2afb",
+  "reviewedContactSheetPath": "docs/content/quintal-contact-sheet.webp",
+  "reviewedContactSheetSha256": "246298d355b092572020a3ef1701092f523c33d705a78ebc6c3a738894982988",
+  "assets": [
+    {
+      "id": "product-001-cream-leaf-teal-model-v2",
+      "productId": "product-001",
+      "colorwayId": "cream-leaf-teal",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-001-cream-leaf-teal-model-v2.png",
+      "originalSha256": "613552606f2eb7e3fcdc85abbf20a32d925ccf10b2a5473d4b070d133f8d1296",
+      "webPath": "public/images/catalog/product-001-cream-leaf-teal-model-v2.webp",
+      "webSha256": "1d9260a79f4a8a5cbe7fc901499f09109ddcaae693ebb3f6aa876eed10553272"
+    },
+    {
+      "id": "product-001-cream-leaf-teal-isolated-v2",
+      "productId": "product-001",
+      "colorwayId": "cream-leaf-teal",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-001-cream-leaf-teal-isolated-v2.png",
+      "originalSha256": "93c4fd4daf31fa8d1d92ec2baa9597df20262e024cdcc47b7a2ba26daf6a3903",
+      "webPath": "public/images/catalog/product-001-cream-leaf-teal-isolated-v2.webp",
+      "webSha256": "39dc4a4737e41faa85adfbbab5b130c6ab6f7542de42d75adb70d25c7077a9c3"
+    },
+    {
+      "id": "product-002-butter-teal-model-v1",
+      "productId": "product-002",
+      "colorwayId": "butter-teal",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-002-butter-teal-model-v1.png",
+      "originalSha256": "dc38d9cb4fc28b3ce6c6513df6db98eb91b1d4ed508bd54c931c4803487681a3",
+      "webPath": "public/images/catalog/product-002-butter-teal-model-v1.webp",
+      "webSha256": "1c06f072283e60c00497a0db2a6379085163f3b3c9d0a17cb251f34d4b6f1c9e"
+    },
+    {
+      "id": "product-002-butter-teal-isolated-v1",
+      "productId": "product-002",
+      "colorwayId": "butter-teal",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-002-butter-teal-isolated-v1.png",
+      "originalSha256": "4cfc1bfec1c164504e41acf4fc209b818a6ca3c75dfa2e97ddd05813cf76cc9d",
+      "webPath": "public/images/catalog/product-002-butter-teal-isolated-v1.webp",
+      "webSha256": "a7c191198430543e7911b009893356988595d5dbe996f7fb54c778179f063eb0"
+    },
+    {
+      "id": "product-003-cream-butter-leaf-model-v1",
+      "productId": "product-003",
+      "colorwayId": "cream-butter-leaf",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-003-cream-butter-leaf-model-v1.png",
+      "originalSha256": "4fcd3299b875104deed2071651b61fa979a0c2a1dc7947865bfb40de6cf156e3",
+      "webPath": "public/images/catalog/product-003-cream-butter-leaf-model-v1.webp",
+      "webSha256": "b2dd8b09b5cdcac729ae9154881b8954f8675d9c67e2b394431a1dab77c107c7"
+    },
+    {
+      "id": "product-003-cream-butter-leaf-isolated-v1",
+      "productId": "product-003",
+      "colorwayId": "cream-butter-leaf",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-003-cream-butter-leaf-isolated-v1.png",
+      "originalSha256": "90253c2d77e3af64e8119dde605182aaf68a052effa1b8c6150cd713f203d85e",
+      "webPath": "public/images/catalog/product-003-cream-butter-leaf-isolated-v1.webp",
+      "webSha256": "33fc5f9ef7dcfbd933dc21930d3d60f5716d56f875ac25c284041633f3ab56f7"
+    },
+    {
+      "id": "product-004-cream-leaf-teal-model-v1",
+      "productId": "product-004",
+      "colorwayId": "cream-leaf-teal",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-004-cream-leaf-teal-model-v1.png",
+      "originalSha256": "66e677626862eef89c3798e6618c777b03f15bc81bdaa27ccf97e794bdafa0a2",
+      "webPath": "public/images/catalog/product-004-cream-leaf-teal-model-v1.webp",
+      "webSha256": "1af6bebce5c7efbbce6fea9a37d249469a1e2c7171bb258c70bf39ad3dd7c319"
+    },
+    {
+      "id": "product-004-cream-leaf-teal-isolated-v1",
+      "productId": "product-004",
+      "colorwayId": "cream-leaf-teal",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-004-cream-leaf-teal-isolated-v1.png",
+      "originalSha256": "79fc395c46b87f3066d32549bddc87b3ef50a3c42d6c98025eb3766c9fe22df7",
+      "webPath": "public/images/catalog/product-004-cream-leaf-teal-isolated-v1.webp",
+      "webSha256": "ca4926e91b5e5a92ac372b066f59be98f61d5ed5e565bef31557e5448050db6a"
+    },
+    {
+      "id": "product-005-cream-leaf-butter-model-v2",
+      "productId": "product-005",
+      "colorwayId": "cream-leaf-butter",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-005-cream-leaf-butter-model-v2.png",
+      "originalSha256": "64beab091e9d63c87d8c52be4f1d1fd520bc16bcc6524695ee004eadeebd2f9b",
+      "webPath": "public/images/catalog/product-005-cream-leaf-butter-model-v2.webp",
+      "webSha256": "cde827bcbddf811683480f9f5ed8e87a5efbdd660cff5b7826f07a3fb3193012"
+    },
+    {
+      "id": "product-005-cream-leaf-butter-isolated-v2",
+      "productId": "product-005",
+      "colorwayId": "cream-leaf-butter",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-005-cream-leaf-butter-isolated-v2.png",
+      "originalSha256": "96dddf848de4a9bbc02163025de2c0b167b4882a634cd85037ee629657aa0939",
+      "webPath": "public/images/catalog/product-005-cream-leaf-butter-isolated-v2.webp",
+      "webSha256": "283716c90c5d3970d7574e71d53ed49a0cd75c8e9e9b7bc582ddb5b8712d7ba7"
+    },
+    {
+      "id": "product-006-cream-teal-leaf-model-v1",
+      "productId": "product-006",
+      "colorwayId": "cream-teal-leaf",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-006-cream-teal-leaf-model-v1.png",
+      "originalSha256": "62be990d3689aaa967e01cc667d1b0b35c888325cd04f70a2714054d00ae7535",
+      "webPath": "public/images/catalog/product-006-cream-teal-leaf-model-v1.webp",
+      "webSha256": "0f3adc260feb851b25d749afc1739700920de82f5dddf1d3853507cb6eef322f"
+    },
+    {
+      "id": "product-006-cream-teal-leaf-isolated-v1",
+      "productId": "product-006",
+      "colorwayId": "cream-teal-leaf",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-006-cream-teal-leaf-isolated-v1.png",
+      "originalSha256": "3d08ed2216e04cec10f6ef7f09e8f7a8dffafe31072177006e9eb20e29cdf53a",
+      "webPath": "public/images/catalog/product-006-cream-teal-leaf-isolated-v1.webp",
+      "webSha256": "e62ca1af2b2b465281db826aa272e28b614655ab193fa8e1c070d5e9b532a422"
+    },
+    {
+      "id": "product-007-leaf-model-v1",
+      "productId": "product-007",
+      "colorwayId": "leaf",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-007-leaf-model-v1.png",
+      "originalSha256": "235156f6bcb1719ec4bf7fd8c91ba1ebaa8aa1b6ccb668f2950a30beeb8881b7",
+      "webPath": "public/images/catalog/product-007-leaf-model-v1.webp",
+      "webSha256": "ef2700ec68f47f0eb0353e196c2a7882e3f4a4f7640323346997644d52595dd6"
+    },
+    {
+      "id": "product-007-leaf-isolated-v1",
+      "productId": "product-007",
+      "colorwayId": "leaf",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-007-leaf-isolated-v1.png",
+      "originalSha256": "6a8ccffc276df1d006d1c5f8df657d9f1ec1743bbd56754a686816b642606940",
+      "webPath": "public/images/catalog/product-007-leaf-isolated-v1.webp",
+      "webSha256": "d86da2f0c7681aea10df0a85ad0fa35f61a5baa3119cb30f41564d4a651d46b0"
+    },
+    {
+      "id": "product-007-cream-model-v1",
+      "productId": "product-007",
+      "colorwayId": "cream",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-007-cream-model-v1.png",
+      "originalSha256": "03953aa2d86a5fe26f31d52bff5ebcf51dad23690f67ab3a29022ae348af9e47",
+      "webPath": "public/images/catalog/product-007-cream-model-v1.webp",
+      "webSha256": "c9eda18b9482998c24a36f00aae6ac280eebb713dcfdc01f2d824f347fc26e37"
+    },
+    {
+      "id": "product-007-cream-isolated-v1",
+      "productId": "product-007",
+      "colorwayId": "cream",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-007-cream-isolated-v1.png",
+      "originalSha256": "d936ff371d72f6a2a1345de1629878d3476a850662da9104955a79e7ba54b067",
+      "webPath": "public/images/catalog/product-007-cream-isolated-v1.webp",
+      "webSha256": "6635bc5c5441c2f00e84b0b4e55078709b770e90ed70a30670f750df122c1112"
+    },
+    {
+      "id": "product-008-teal-model-v1",
+      "productId": "product-008",
+      "colorwayId": "teal",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-008-teal-model-v1.png",
+      "originalSha256": "4d7d11a8132f01651b95f18ac73a9ef0e4f31cd40864f0c12d874b0f6d33b20d",
+      "webPath": "public/images/catalog/product-008-teal-model-v1.webp",
+      "webSha256": "9ada7ea41d73d5c69a47899c3c0deafdeb8eb3aee3ed27dd7a1d161b071abea8"
+    },
+    {
+      "id": "product-008-teal-isolated-v1",
+      "productId": "product-008",
+      "colorwayId": "teal",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-008-teal-isolated-v1.png",
+      "originalSha256": "e5265be7b8772e68acaffd9475038a594dba93d97a520756fe70c687e623b4f0",
+      "webPath": "public/images/catalog/product-008-teal-isolated-v1.webp",
+      "webSha256": "e6fc47d9ce90d86fce5bbff4f371a49dafafa7183491d91dac66395552c61196"
+    },
+    {
+      "id": "product-008-butter-model-v1",
+      "productId": "product-008",
+      "colorwayId": "butter",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-008-butter-model-v1.png",
+      "originalSha256": "a91be858af1c566484d9d302cf5f0eefb88fc1646090e7b61313b5bc132a9393",
+      "webPath": "public/images/catalog/product-008-butter-model-v1.webp",
+      "webSha256": "26bb60be99fb5c9d9d00ab75ef0c23bb565abe4ce15f00606e63fcba7545adb3"
+    },
+    {
+      "id": "product-008-butter-isolated-v1",
+      "productId": "product-008",
+      "colorwayId": "butter",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-008-butter-isolated-v1.png",
+      "originalSha256": "43790213e665bd99589a33eb665052b44072bb6a677733979800f3625c030618",
+      "webPath": "public/images/catalog/product-008-butter-isolated-v1.webp",
+      "webSha256": "c079eceaaa02001d49595689c0e15fe327121d992905dc299723874f21d9f3c4"
+    },
+    {
+      "id": "product-009-leaf-model-v3",
+      "productId": "product-009",
+      "colorwayId": "leaf",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-009-leaf-model-v3.png",
+      "originalSha256": "7bab701404d6d29c5054d54c8beb1ef8293a643b7a8bbe3416131723899d929b",
+      "webPath": "public/images/catalog/product-009-leaf-model-v3.webp",
+      "webSha256": "15f0d8d65c87d5bbd62756249b2535d35dc61c7aac6e1a920c96a9fe0a47f1c9"
+    },
+    {
+      "id": "product-009-leaf-isolated-v5",
+      "productId": "product-009",
+      "colorwayId": "leaf",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-009-leaf-isolated-v5.png",
+      "originalSha256": "b41a91d027d94eb5b869b1d8f77d80cccde5d5e08adae68424078e157b1addcf",
+      "webPath": "public/images/catalog/product-009-leaf-isolated-v5.webp",
+      "webSha256": "aae3b2d5c248bb14a7c98bd78b77d64f7088838765df51e978b4c9b4f2d190ff"
+    },
+    {
+      "id": "product-009-cream-model-v2",
+      "productId": "product-009",
+      "colorwayId": "cream",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-009-cream-model-v2.png",
+      "originalSha256": "efb23021d3db1fb42d98ff42c63b84903259ebd62ef6aaa0deebbd418ba66c6a",
+      "webPath": "public/images/catalog/product-009-cream-model-v2.webp",
+      "webSha256": "8147ada513f9a11b3af9f53f109fd724da6b989a5628f6cd8cc906252793740c"
+    },
+    {
+      "id": "product-009-cream-isolated-v2",
+      "productId": "product-009",
+      "colorwayId": "cream",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-009-cream-isolated-v2.png",
+      "originalSha256": "af96375faf6680281a3a461260819f826bb09667eba7f1b9a39fac7b1d7f35de",
+      "webPath": "public/images/catalog/product-009-cream-isolated-v2.webp",
+      "webSha256": "9af670fb91f1a65bcd53eef4f2e058a243d2ced00b53881b17b6c25e45463426"
+    },
+    {
+      "id": "product-010-teal-model-v1",
+      "productId": "product-010",
+      "colorwayId": "teal",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-010-teal-model-v1.png",
+      "originalSha256": "87a3541e082fc2e093f4324978a7dbb4fd25cc43dd10695d1c07737633786640",
+      "webPath": "public/images/catalog/product-010-teal-model-v1.webp",
+      "webSha256": "c88d947443f8afbc600bce7ab47b30278a1f4cbed7800550c51dd46a686fb0af"
+    },
+    {
+      "id": "product-010-teal-isolated-v1",
+      "productId": "product-010",
+      "colorwayId": "teal",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-010-teal-isolated-v1.png",
+      "originalSha256": "70968c0cb926f629d28ae3c0869db6e9e8a07dd71c5c711994116ef33ba74aa8",
+      "webPath": "public/images/catalog/product-010-teal-isolated-v1.webp",
+      "webSha256": "baa468521dd40e337ba8302c3ffba33dadf31053ebccddfbe5643b2d1ae51546"
+    },
+    {
+      "id": "product-010-cream-model-v1",
+      "productId": "product-010",
+      "colorwayId": "cream",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-010-cream-model-v1.png",
+      "originalSha256": "f453178742b7f1470a3f6a5aa6470ee9cd68f076b9ea7da20ac813d99a39e733",
+      "webPath": "public/images/catalog/product-010-cream-model-v1.webp",
+      "webSha256": "fc6809dd882a09e04571aa2a1f757f47b30d1face03fa4594062431ceb5b16e1"
+    },
+    {
+      "id": "product-010-cream-isolated-v1",
+      "productId": "product-010",
+      "colorwayId": "cream",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-010-cream-isolated-v1.png",
+      "originalSha256": "781bcd71e945a9c057c611b8f84238dc2733beb43cce86353965c23b2827915c",
+      "webPath": "public/images/catalog/product-010-cream-isolated-v1.webp",
+      "webSha256": "2ddc050d79fd9ca93fca7915744a339b6b0f9bcd9f628267537831ee33324de2"
+    }
+  ],
+  "acceptedExceptions": [
+    {
+      "type": "collection-native-resolution",
+      "minimumWidth": 1086,
+      "minimumHeight": 1448,
+      "aspectRatio": "3:4",
+      "scope": "collection-001 only",
+      "evidence": "The user explicitly selected \"Accept 1086 × 1448 for this collection\" before batch production.",
+      "sourceRecord": "docs/content/catalog-sample-approval.json"
+    },
+    {
+      "type": "garment-detail",
+      "productId": "product-009",
+      "assetIds": [
+        "product-009-leaf-isolated-v5",
+        "product-009-cream-isolated-v2"
+      ],
+      "detail": "Faint fly-like lines in the two isolated trouser photographs, although the original approved garment brief specifies no fly.",
+      "evidence": "The user replied \"approved\" after the final question expressly requested batch approval including this disclosed detail."
+    }
+  ],
+  "requestedCorrections": [],
+  "postReviewChanges": "Only approval metadata and review documentation change; photograph bytes remain unchanged.",
+  "remainingGates": [
+    "Brincadeira de Rua and Imaginação em Casa collection imagery approvals",
+    "Editorial imagery and identity asset approvals",
+    "Complete production package, integration and exact release-candidate approvals"
+  ],
+  "approvedManifestSha256": "62820d17495e7061c71882ff5b3d886da3351a904098b2cadaa92b4e0e2e894b"
+}
