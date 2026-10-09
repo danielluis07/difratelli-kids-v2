@@ -1,0 +1,39 @@
+{
+  "revision": "issue-25-sample-draft-v1",
+  "status": "approved",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/25",
+  "reviewer": "The user in this conversation",
+  "evidence": "The user replied \"approved\" after presentation of the exact sample pair and its native resolution limitation.",
+  "recordedAtUtc": "2026-10-09 22:43:09 UTC",
+  "scope": [
+    "Exact product-006 / cream-teal-leaf sample model and isolated photograph files"
+  ],
+  "assets": [
+    {
+      "id": "product-006-cream-teal-leaf-model-v1",
+      "originalPath": "assets/originals/catalog/product-006-cream-teal-leaf-model-v1.png",
+      "originalSha256": "62be990d3689aaa967e01cc667d1b0b35c888325cd04f70a2714054d00ae7535",
+      "webPath": "public/images/catalog/product-006-cream-teal-leaf-model-v1.webp",
+      "webSha256": "0f3adc260feb851b25d749afc1739700920de82f5dddf1d3853507cb6eef322f"
+    },
+    {
+      "id": "product-006-cream-teal-leaf-isolated-v1",
+      "originalPath": "assets/originals/catalog/product-006-cream-teal-leaf-isolated-v1.png",
+      "originalSha256": "3d08ed2216e04cec10f6ef7f09e8f7a8dffafe31072177006e9eb20e29cdf53a",
+      "webPath": "public/images/catalog/product-006-cream-teal-leaf-isolated-v1.webp",
+      "webSha256": "e62ca1af2b2b465281db826aa272e28b614655ab193fa8e1c070d5e9b532a422"
+    }
+  ],
+  "collectionResolutionException": {
+    "collectionId": "collection-001",
+    "minimumWidth": 1086,
+    "minimumHeight": 1448,
+    "aspectRatio": "3:4",
+    "evidence": "The user selected \"Accept 1086 × 1448 for this collection\".",
+    "scope": "All 28 Quintal de Descobertas catalog photographs only. Other collections retain their existing requirements."
+  },
+  "remainingGates": [
+    "Human approval of the remaining 26 photographs and complete collection batch",
+    "Complete content, integration and release approvals"
+  ]
+}

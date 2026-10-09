@@ -1,0 +1,3 @@
+# Content approval records bind exact JSON bytes to SHA-256 hashes.
+# Preserve those bytes across Windows and Unix checkouts.
+docs/content/*.json -text

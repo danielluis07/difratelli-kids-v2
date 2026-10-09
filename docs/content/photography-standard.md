@@ -24,6 +24,8 @@ Catalog photographs have an opaque white seamless background, soft neutral studi
 
 Each catalog original and web-ready file must be portrait 3:4, at least 1200 × 1600 pixels. Request 1536 × 2048 or larger 3:4 output. Measure the actual output rather than trusting the request. An undersized result requires regeneration; enlargement does not establish a compliant original. Casting references are not catalog photographs and retain their actual native dimensions.
 
+Collection-specific user revision, 9 October 2026: after reviewing and approving the exact sample pair, the user explicitly selected “Accept 1086 × 1448 for this collection.” Quintal de Descobertas (`collection-001`, issue #25) therefore accepts native originals and WebP exports at least 1086 × 1448, still exactly 3:4, without enlargement. This revision applies to its 28 photographs only; other collections retain the 1200 × 1600 minimum. Evidence and the approved sample hashes are in [catalog-sample-approval.json](catalog-sample-approval.json). Sample approval does not approve the remaining collection photographs.
+
 Keep source originals under `assets/originals/cast/` and later `assets/originals/catalog/`. Place derived WebP references under `public/images/cast/` and later catalog files under `public/images/catalog/`. Never overwrite source originals during conversion. Convert with the repository's installed Sharp dependency, preserve the complete frame and use WebP quality 90. Record actual encoded dimensions and file SHA-256 hashes. Inspect encoded images for loss of small print details or edge artifacts before acceptance. Do not claim a hex color is a fabric or screen calibration guarantee.
 
 Catalog names identify all associations:
