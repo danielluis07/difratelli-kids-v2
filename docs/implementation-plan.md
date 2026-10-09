@@ -1,6 +1,6 @@
 # Difratelli Kids implementation plan
 
-Status: proposed sequence for human review; no storefront implementation or deployment is authorized by this document.
+Status: sequence, ownership, and integration checkpoints agreed through live review; final handoff confirmation pending. No storefront implementation or deployment is authorized by this document.
 
 Use [DESIGN.md](../DESIGN.md) for presentation and [implementation specification](implementation-spec.md) for behavior, contracts, acceptance, and release rules. This plan orders work and verification without prescribing every edit. Canonical resolutions govern all three documents. [Define implementation handoff artifacts and detail level](https://github.com/danielluis07/difratelli-kids-v2/issues/12#issuecomment-6086870693) authorizes document assembly now; [Review implementation completeness and sequencing](https://github.com/danielluis07/difratelli-kids-v2/issues/19) settles the plan after inspecting the actual documents.
 
@@ -8,7 +8,17 @@ Use [DESIGN.md](../DESIGN.md) for presentation and [implementation specification
 
 First finish handoff review. Then complete approved content production. Only then begin storefront implementation. Automated/content validation, browser evidence, manual review, candidate approval, and production smoke checks are separate checkpoints. The content-production gate cannot be traded for placeholders; automated passes cannot substitute for human release approval.
 
-Stages below are a proposed sequence. Within a stage, internal task organization and equivalent implementations remain flexible. A changed visual direction, shopping behavior, catalog scope, dependencies, or release policy requires another human decision. Any concrete gap becomes a decision ticket with native blockers on affected work.
+The human accepted the stage order below in [Review implementation completeness and sequencing](https://github.com/danielluis07/difratelli-kids-v2/issues/19). Within a stage, internal task organization and equivalent implementations remain flexible. A changed visual direction, shopping behavior, catalog scope, dependencies, or release policy requires another human decision. Any concrete gap becomes a decision ticket with native blockers on affected work.
+
+## Ownership and integration review
+
+Authority: [Review implementation completeness and sequencing](https://github.com/danielluis07/difratelli-kids-v2/issues/19), with the standing release policy in [Define Vercel configuration and the release workflow](https://github.com/danielluis07/difratelli-kids-v2/issues/18#issuecomment-6089098614).
+
+The executing agent prepares production proposals, produces the content and assets within approved briefs, implements the storefront when separately authorized, runs automated checks, and assembles review evidence. It corrects rejected output and surfaces changes outside its agreed autonomy for a human decision.
+
+The human approves catalog/copy and garment briefs, child references, the sample photograph pair, collection photograph batches, identity assets, and the complete content package. The human reviews the integrated result after public pages/browsing, after product/cart/favorites, and after checkout; each checkpoint presents the revision and relevant automated/browser evidence with unresolved defects identified. Obtain checkpoint acceptance before advancing to the next implementation stage. These checkpoints do not replace complete-candidate verification or release approval.
+
+The human approves the exact release candidate, controls hosting purchases and recovery, and retains ownership of the Vercel account. Production approval remains tied to the exact commit and preview under the standing release policy. Planning acceptance grants no authorization to begin content production, implement the storefront, provision hosting, or publish production.
 
 ## 1. Review and settle the handoff
 
@@ -34,7 +44,7 @@ Prerequisite: approved catalog/garment briefs. Authority: [Choose imagery, brand
 
 Approve eight recurring child-model references and their batches. Produce one sample colorway's worn/isolated pair for approval before full photography. Then produce/review catalog photographs by collection: 84 photographs at minimum 1200 × 1600, 3:4, white backgrounds, consistent garment/child identity, both set pieces visible.
 
-Produce eight editorial photographs with required crops: two static hero, three collection, three brand-page. Reuse collection images in homepage features and approved catalog photographs for category tiles. Separately approve editable SVG wordmark (brown/white), three motifs, and favicon. Correct rejected assets; preserve originals separately from web-ready WebP/SVG files.
+Produce eight editorial photographs with required crops: two static hero, three collection, three brand-page. Reuse collection images in homepage features and approved catalog photographs for category tiles. Separately approve the wordmark (brown/white), three motifs, and favicon, all delivered as editable SVG assets. Correct rejected assets; preserve originals separately from web-ready WebP/SVG files.
 
 Compile the repository-owned catalog/content package and asset manifest with associations, roles/order, usage, dimensions, crops, Portuguese alt text, approval status, and complete web-ready paths.
 
@@ -58,7 +68,7 @@ Apply approved fonts/palette/layouts and image interface. Build sticky navigatio
 
 Implement pure browsing rules, URL parsing/serialization and scoped filters/sorts/search. Preserve repeated/scalar encoding, every-word matching, OR/AND, sort ties, history, fresh navigation/reset, and invalid-input behavior. Build cards, color preview/detail links, and all result/empty states. Keep public content independent of personalized hydration.
 
-Exit evidence: all public routes render approved content; mobile/tablet/desktop layouts follow DESIGN.md; static hero and crops correct; URL/browsing focused tests and production browser navigation checks pass; no broken destination or dead-end forms. Accessibility scans and manual keyboard checks begin here and continue through later interactive stages.
+Exit evidence: all public routes render approved content; mobile/tablet/desktop layouts follow DESIGN.md; static hero and crops correct; URL/browsing focused tests and production browser navigation checks pass; no broken destination or dead-end forms. Accessibility scans and manual keyboard checks begin here and continue through later interactive stages. Present this evidence and integrated public browsing to the human for checkpoint acceptance.
 
 ## 6. Implement product interaction, persistent cart, and favorites
 
@@ -68,7 +78,7 @@ Build product detail/gallery/enlargement/size guidance/related products and sele
 
 Wire right-opening cart Sheet, counts, favorite controls/page, selected options, quantity/remove/subtotal/checkout actions. Keep in-memory shopping usable after failed persistence. Preserve accepted last-successful-save behavior across tabs without live synchronization.
 
-Exit evidence: normal journey and missing-size focus, color/size/gallery/history, merges/limits/distinct lines, removal/counts, favorites, refresh/return, obsolete/malformed/unsupported/corrupt storage, duplicate recovery, price-change notices, independent failures, and no hydration overwrite/empty flash pass focused/browser checks. Manual Sheet/dialog focus-return and accessible announcements work.
+Exit evidence: normal journey and missing-size focus, color/size/gallery/history, merges/limits/distinct lines, removal/counts, favorites, refresh/return, obsolete/malformed/unsupported/corrupt storage, duplicate recovery, price-change notices, independent failures, and no hydration overwrite/empty flash pass focused/browser checks. Manual Sheet/dialog focus-return and accessible announcements work. Present this evidence and integrated product/cart/favorites to the human for checkpoint acceptance.
 
 ## 7. Implement visit-only checkout and simulated completion
 
@@ -76,7 +86,7 @@ Prerequisite: restored cart and shopping actions. Authorities: [Define routes an
 
 Add shared-layout in-memory checkout provider, approved fictional defaults, local touched/errors, field validation, fixed shipping/totals, Pix/card selection, order summary, and empty checkout. Implement validation-before-commit, duplicate guard, immutable completion snapshot, cart/draft clear, favorite retention, exact post-action disclosure, and confirmation discard on exit/reload.
 
-Exit evidence: values survive client navigation but reset on reload; validation triggers/first-invalid focus and payment switching work; integer totals correct; no credentials/order/payment; disclosure timing/exact wording correct; duplicate submission safe; pre-commit failure retains retry state; failed storage write succeeds in memory with warning; confirmation lifetime and stale saved-cart limitation match specification.
+Exit evidence: values survive client navigation but reset on reload; validation triggers/first-invalid focus and payment switching work; integer totals correct; no credentials/order/payment; disclosure timing/exact wording correct; duplicate submission safe; pre-commit failure retains retry state; failed storage write succeeds in memory with warning; confirmation lifetime and stale saved-cart limitation match specification. Present this evidence and integrated checkout to the human for checkpoint acceptance.
 
 ## 8. Verify the complete candidate and prepare hosting configuration
 
@@ -102,4 +112,4 @@ Exit evidence: approved production deployment and successful smoke checks, or ex
 
 ## Handoff review notes
 
-No unresolved contradiction was identified in assembly. Approved revisions are carried consistently: exact 30-product allocations, static hero, unavailable actual-device checks requiring explicit coverage-gap acceptance. Remaining catalog details, exact copy/measurements, child identities, assets, compatible tool versions, and platform evidence belong to the production/implementation/release gates above; they are not invented or asserted here. Human acceptance of this proposed sequence is still required in the existing final review decision.
+The final source-consistency review found no substantive contradiction or new planning decision. Clarified that every identity asset, including motifs and favicon, must be delivered as editable SVG. Approved revisions are carried consistently: exact 30-product allocations, static hero, unavailable actual-device checks requiring explicit coverage-gap acceptance. Remaining catalog details, exact copy/measurements, child identities, assets, compatible tool versions, and platform evidence belong to the production/implementation/release gates above; they are not invented or asserted here. The human accepted the sequence, ownership division, and three integration checkpoints; final shared-understanding confirmation remains pending in the existing review decision.

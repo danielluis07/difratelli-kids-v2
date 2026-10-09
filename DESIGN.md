@@ -1,8 +1,8 @@
 # Difratelli Kids design contract
 
-Status: assembled for human handoff review; implementation has not begun.
+Status: source-consistency review complete; final handoff confirmation pending. Implementation has not begun.
 
-This document specifies presentation. [Implementation specification](docs/implementation-spec.md) owns content, routes, behavior, and acceptance; [implementation plan](docs/implementation-plan.md) proposes the delivery sequence. Use [GLOSSARY.md](GLOSSARY.md) for domain terms.
+This document specifies presentation. [Implementation specification](docs/implementation-spec.md) owns content, routes, behavior, and acceptance; [implementation plan](docs/implementation-plan.md) records the agreed delivery sequence, ownership, and integration checkpoints. Use [GLOSSARY.md](GLOSSARY.md) for domain terms.
 
 Canonical issue resolutions govern these documents. Every section links its authority. Surface contradictions for a human decision rather than silently changing requirements. The human still settles completeness and sequencing in [Review implementation completeness and sequencing](https://github.com/danielluis07/difratelli-kids-v2/issues/19). Artifact roles and bounded implementer autonomy come from [Define implementation handoff artifacts and detail level](https://github.com/danielluis07/difratelli-kids-v2/issues/12#issuecomment-6086870693).
 
@@ -118,6 +118,6 @@ Authority: [Choose imagery, brand assets, and editorial voice](https://github.co
 
 All photographs are AI generated. Catalog imagery uses the approved recurring eight-child cast, white backgrounds, paired matching garments, and complete colorway coverage. Editorial imagery depicts natural play outdoors and at home; clothing fits the assortment but need not identify a purchasable product. Use manifest-approved dimensions, crops, associations, and Brazilian Portuguese alt text. Keep source originals separate from web-ready assets; implementation uses optimized raster imagery with reserved layout space.
 
-Identity includes an editable SVG wordmark in brown and white, three playful motifs, and a favicon. Collection garment palettes and motifs are specified in the implementation specification; they do not replace the website palette. Site copy is Brazilian Portuguese: warm and direct shopping language, short playful collection stories, and modest, consistent fabric/fit claims.
+Identity includes a wordmark in brown and white, three playful motifs, and a favicon, all delivered as editable SVG assets. Collection garment palettes and motifs are specified in the implementation specification; they do not replace the website palette. Site copy is Brazilian Portuguese: warm and direct shopping language, short playful collection stories, and modest, consistent fabric/fit claims.
 
 The entire approved content package is required before implementation; runtime image fallback never permits placeholders or missing production assets. Exact creative assets and remaining copy are produced and reviewed in the plan's production gates.

@@ -1,8 +1,8 @@
 # Difratelli Kids implementation specification
 
-Status: assembled for human handoff review. This specifies the future storefront; it does not claim implementation, approved production content, passing tests, or a deployment.
+Status: source-consistency review complete; final handoff confirmation pending. This specifies the future storefront; it does not claim implementation, approved production content, passing tests, or a deployment.
 
-[DESIGN.md](../DESIGN.md) owns presentation; [implementation plan](implementation-plan.md) proposes dependencies and checkpoints. Use [GLOSSARY.md](../GLOSSARY.md) for Product, Collection, Matching set, Colorway, Color family, Catalog imagery, Editorial imagery, Child model, Simulated checkout, and Favorite.
+[DESIGN.md](../DESIGN.md) owns presentation; [implementation plan](implementation-plan.md) records the agreed dependencies, ownership, and checkpoints. Use [GLOSSARY.md](../GLOSSARY.md) for Product, Collection, Matching set, Colorway, Color family, Catalog imagery, Editorial imagery, Child model, Simulated checkout, and Favorite.
 
 ## Authority and scope
 
@@ -96,7 +96,7 @@ Each colorway has two white-background photographs: child wearing the approved g
 
 Eight editorial photographs are required: two static hero, three collection, three brand-page (opening plus two sections). Reuse collection photographs in homepage features and catalog photographs in category tiles. Editorial clothing fits the offering but need not identify a purchasable product. Provide desktop/mobile crops where needed, preserving faces/clothing; record dimensions/usage in the manifest. Follow DESIGN.md ratios and hero text space.
 
-Identity package: editable SVG wordmark in brown and white, three motifs, favicon, with transparency where appropriate. Approve separately. Generation tools are producer choice within these outputs. No further font prototype is required.
+Identity package: wordmark in brown and white, three motifs, and favicon, all delivered as editable SVG assets, with transparency where appropriate. Approve separately. Generation tools are producer choice within these outputs. No further font prototype is required.
 
 Before implementation, approve collection themes (resolved), complete catalog/copy/garment briefs, child references, one sample colorway's paired photographs, remaining catalog photographs by collection, required editorial assets/copy/size guidance, and identity package. Correct rejected assets. Deliver complete catalog, manifest, approved copy, size guidance, and separate originals/web-ready files. Every required entry is approved and every reference resolves. No placeholders, reduced assortment, or missing-asset waiver is permitted.
 
@@ -253,4 +253,4 @@ Paid hosting is acceptable if needed, but no plan/price/purchase is authorized. 
 
 ## Completeness boundaries
 
-All detailed prerequisite decisions are resolved. No new contradiction was identified during assembly. Remaining creative content and measurements are explicitly governed production approvals, not agent-invented values. The plan's sequence is proposed pending final human review. There is no claim that the current starter implements these contracts or that the future catalog/assets/tests/hosting already exist. New specific gaps found in review become decision tickets and native blockers before proceeding.
+All detailed prerequisite decisions are resolved. The final source-consistency review identified no substantive contradiction or new planning gap. Remaining creative content and measurements are explicitly governed production approvals, not agent-invented values. The human accepted the plan's sequence, ownership, and integration checkpoints; final shared-understanding confirmation is pending. There is no claim that the current starter implements these contracts or that the future catalog/assets/tests/hosting already exist. New specific gaps found in review become decision tickets and native blockers before proceeding.
