@@ -1,0 +1,123 @@
+{
+  "revision": "issue-24-cast-v3",
+  "tool": "built-in image_gen",
+  "limitations": "No seed or model revision is exposed by this tool. Prompts and exact retained images support continuity; bit-identical regeneration is not guaranteed.",
+  "records": [
+    {
+      "modelId": "model-001",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: photorealistic-natural. Asset type: fictional child casting reference for Difratelli Kids, model-001, Lia, a fictional girl age 3. Create one photorealistic full-body studio photograph on a pure white seamless background, portrait 3:4 at least 1200x1600 pixels. Lia has medium brown skin, dark brown eyes, a round face and short dense dark curls. Age-appropriate natural proportions and cheerful relaxed expression. Wearing an unbranded plain cream short-sleeved T-shirt, plain teal knee-length shorts and simple neutral shoes. Standing comfortably facing camera, arms relaxed without hiding clothing, entire head and shoes visible with generous margins. Soft neutral diffused studio light, natural skin texture. No text, logos, jewelry, props or other people. This character is invented, not based on any real child. Preserve an ordinary everyday childhood appearance.",
+      "originalPath": "assets/originals/cast/model-001-reference-v1.png"
+    },
+    {
+      "modelId": "model-002",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: precise-object-edit. Edit the supplied fictional child casting photograph for model-002. Change ONLY the color of both irises to natural, clearly green eyes. Keep pupils, catchlights, eye shape, eye size and gaze unchanged. Preserve the exact same child identity, facial features, skin tone, freckles if present, hair color/style, apparent age, smile/expression, body proportions, pose, cream T-shirt, teal shorts, neutral shoes, white studio background, lighting, framing and image dimensions. No other changes. Do not brighten or recolor skin or clothing. Eye color must look natural, without glow or exaggerated saturation. Retain the full body and portrait 3:4 framing.",
+      "originalPath": "assets/originals/cast/model-002-reference-v2.png",
+      "referenceVersion": 2,
+      "historicalInput": {
+        "sha256": "35cd8fa133d9d399398b92b71f3103e5364b215dd094652735a443e91ce73194",
+        "retentionStatus": "deleted-at-user-request"
+      }
+    },
+    {
+      "modelId": "model-003",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: photorealistic-natural. Replace the fictional child in this casting reference with a NEW invented Russian girl, Nina, age 6, with fair skin, dark brown eyes, an oval face, and straight dark-brown shoulder-length hair parted slightly off center. Russian is her fictional character background, not a costume theme. Ordinary age-appropriate everyday appearance, friendly relaxed expression, natural proportions and skin texture. Keep the reference's plain cream short-sleeved T-shirt, plain teal shorts, neutral shoes, full-body frontal stance, entire head and shoes visible, white seamless studio background, soft diffused neutral lighting and generous framing. One child only; no text, logos, jewelry or props. Portrait 3:4 at least 1200x1600 pixels. Input image is a studio style and clothing reference; replace the child identity rather than preserving the original face.",
+      "originalPath": "assets/originals/cast/model-003-reference-v2.png",
+      "referenceVersion": 2,
+      "historicalInput": {
+        "sha256": "6435c8b9b766ac40d648a060ab75ec7765484a22b1863bb1c0f3ef5083f39e73",
+        "retentionStatus": "deleted-at-user-request"
+      }
+    },
+    {
+      "modelId": "model-004",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: photorealistic-natural. Replace the fictional child in this casting reference with a NEW invented girl, Iara, age 8, with fair skin, clearly blue eyes, an oval face and natural golden-blonde shoulder-length hair worn loose with a simple side part. Ordinary age-appropriate everyday appearance, friendly relaxed expression, natural proportions and skin texture. Keep the reference's plain cream short-sleeved T-shirt, plain teal shorts, neutral shoes, full-body frontal stance, entire head and shoes visible, white seamless studio background, soft diffused neutral lighting and generous framing. One child only; no text, logos, jewelry or props. Portrait 3:4 at least 1200x1600 pixels. Input image is a studio style and clothing reference; replace the child identity rather than preserving the original face.",
+      "originalPath": "assets/originals/cast/model-004-reference-v2.png",
+      "referenceVersion": 2,
+      "historicalInput": {
+        "sha256": "06934af07573b2a0559047df0b455ec6b72f8786ef52c16b0bed585cc7ccea6e",
+        "retentionStatus": "deleted-at-user-request"
+      }
+    },
+    {
+      "modelId": "model-005",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: precise-object-edit. Edit the supplied fictional child casting photograph for model-005. Change ONLY the color of both irises to natural, clearly blue eyes. Keep pupils, catchlights, eye shape, eye size and gaze unchanged. Preserve the exact same child identity, facial features, skin tone, freckles if present, hair color/style, apparent age, smile/expression, body proportions, pose, cream T-shirt, teal shorts, neutral shoes, white studio background, lighting, framing and image dimensions. No other changes. Do not brighten or recolor skin or clothing. Eye color must look natural, without glow or exaggerated saturation. Retain the full body and portrait 3:4 framing.",
+      "originalPath": "assets/originals/cast/model-005-reference-v2.png",
+      "referenceVersion": 2,
+      "historicalInput": {
+        "sha256": "e2d0083e2da2ac972046fceb69be9fccc1fc245c7fafb7487ee1da8552d9cdb7",
+        "retentionStatus": "deleted-at-user-request"
+      }
+    },
+    {
+      "modelId": "model-006",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: photorealistic-natural. Asset type: fictional child casting reference for Difratelli Kids, model-006, Davi. Create ONE photorealistic full-body studio photograph of an invented boy age 4 with deep brown skin, dark brown eyes, round cheeks and short tightly coiled black hair. Pure white seamless background, portrait 3:4, at least 1200x1600 pixels. Natural age-appropriate proportions, relaxed friendly expression. Wearing an unbranded plain cream short-sleeved T-shirt, plain teal knee-length shorts and simple neutral shoes. Standing comfortably facing camera, arms relaxed without hiding clothing, entire head and shoes visible with generous margins. Soft neutral diffused studio light and natural skin texture. No text, logos, jewelry, props or other people. Character must be invented, not based on any real child. Ordinary everyday childhood appearance.",
+      "originalPath": "assets/originals/cast/model-006-reference-v1.png"
+    },
+    {
+      "modelId": "model-007",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: photorealistic-natural. Asset type: fictional child casting reference for Difratelli Kids, model-007, Theo. Create ONE photorealistic full-body studio photograph of an invented boy age 6 with light skin with freckles, green eyes, oval face and slightly tousled short sandy blond hair. Pure white seamless background, portrait 3:4, at least 1200x1600 pixels. Natural age-appropriate proportions, relaxed friendly expression. Wearing an unbranded plain cream short-sleeved T-shirt, plain teal knee-length shorts and simple neutral shoes. Standing comfortably facing camera, arms relaxed without hiding clothing, entire head and shoes visible with generous margins. Soft neutral diffused studio light and natural skin texture. No text, logos, jewelry, props or other people. Character must be invented, not based on any real child. Ordinary everyday childhood appearance.",
+      "originalPath": "assets/originals/cast/model-007-reference-v1.png"
+    },
+    {
+      "modelId": "model-008",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: photorealistic-natural. Asset type: fictional child casting reference for Difratelli Kids, model-008, Noah. Create ONE photorealistic full-body studio photograph of an invented boy age 8 with medium olive skin, brown eyes, long oval face and short dark-brown wavy hair. Pure white seamless background, portrait 3:4, at least 1200x1600 pixels. Natural age-appropriate proportions, relaxed friendly expression. Wearing an unbranded plain cream short-sleeved T-shirt, plain teal knee-length shorts and simple neutral shoes. Standing comfortably facing camera, arms relaxed without hiding clothing, entire head and shoes visible with generous margins. Soft neutral diffused studio light and natural skin texture. No text, logos, jewelry, props or other people. Character must be invented, not based on any real child. Ordinary everyday childhood appearance.",
+      "originalPath": "assets/originals/cast/model-008-reference-v1.png"
+    }
+  ],
+  "changeRequest": "The user requested green eyes for model-002 and blue eyes for model-005. Earlier model-003 and model-004 replacements are retained.",
+  "supersededRecords": [
+    {
+      "modelId": "model-003",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: photorealistic-natural. Asset type: fictional child casting reference for Difratelli Kids, model-003, Nina. Create ONE photorealistic full-body studio photograph of an invented girl age 6 with light golden skin, dark almond-shaped brown eyes, straight black shoulder-length hair, round cheeks. Pure white seamless background, portrait 3:4, at least 1200x1600 pixels. Natural age-appropriate proportions, relaxed friendly expression. Wearing an unbranded plain cream short-sleeved T-shirt, plain teal knee-length shorts and simple neutral shoes. Standing comfortably facing camera, arms relaxed without hiding clothing, entire head and shoes visible with generous margins. Soft neutral diffused studio light and natural skin texture. No text, logos, jewelry, props or other people. Character must be invented, not based on any real child. Ordinary everyday childhood appearance.",
+      "supersededBy": "model-003-reference-v2",
+      "originalSha256": "6435c8b9b766ac40d648a060ab75ec7765484a22b1863bb1c0f3ef5083f39e73",
+      "removedOriginalPath": "assets/originals/cast/model-003-reference-v1.png",
+      "retentionStatus": "deleted-at-user-request"
+    },
+    {
+      "modelId": "model-004",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: photorealistic-natural. Asset type: fictional child casting reference for Difratelli Kids, model-004, Iara. Create ONE photorealistic full-body studio photograph of an invented girl age 8 with deep brown skin, dark brown eyes, oval face and black coily hair in two simple low puffs. Pure white seamless background, portrait 3:4, at least 1200x1600 pixels. Natural age-appropriate proportions, relaxed friendly expression. Wearing an unbranded plain cream short-sleeved T-shirt, plain teal knee-length shorts and simple neutral shoes. Standing comfortably facing camera, arms relaxed without hiding clothing, entire head and shoes visible with generous margins. Soft neutral diffused studio light and natural skin texture. No text, logos, jewelry, props or other people. Character must be invented, not based on any real child. Ordinary everyday childhood appearance.",
+      "supersededBy": "model-004-reference-v2",
+      "originalSha256": "06934af07573b2a0559047df0b455ec6b72f8786ef52c16b0bed585cc7ccea6e",
+      "removedOriginalPath": "assets/originals/cast/model-004-reference-v1.png",
+      "retentionStatus": "deleted-at-user-request"
+    },
+    {
+      "modelId": "model-002",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: photorealistic-natural. Asset type: fictional child casting reference for Difratelli Kids, model-002, Bia. Create ONE photorealistic full-body studio photograph of an invented girl age 5 with light skin with a few freckles, hazel eyes, oval face, straight copper-red hair in a simple chin-length bob. Pure white seamless background, portrait 3:4, at least 1200x1600 pixels. Natural age-appropriate proportions, relaxed friendly expression. Wearing an unbranded plain cream short-sleeved T-shirt, plain teal knee-length shorts and simple neutral shoes. Standing comfortably facing camera, arms relaxed without hiding clothing, entire head and shoes visible with generous margins. Soft neutral diffused studio light and natural skin texture. No text, logos, jewelry, props or other people. Character must be invented, not based on any real child. Ordinary everyday childhood appearance.",
+      "supersededBy": "model-002-reference-v2",
+      "originalSha256": "35cd8fa133d9d399398b92b71f3103e5364b215dd094652735a443e91ce73194",
+      "removedOriginalPath": "assets/originals/cast/model-002-reference-v1.png",
+      "retentionStatus": "deleted-at-user-request"
+    },
+    {
+      "modelId": "model-005",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: photorealistic-natural. Asset type: fictional child casting reference for Difratelli Kids, model-005, Caio. Create ONE photorealistic full-body studio photograph of an invented boy age 2 with light skin, brown eyes, round toddler face and short straight dark-brown hair. Pure white seamless background, portrait 3:4, at least 1200x1600 pixels. Natural age-appropriate proportions, relaxed friendly expression. Wearing an unbranded plain cream short-sleeved T-shirt, plain teal knee-length shorts and simple neutral shoes. Standing comfortably facing camera, arms relaxed without hiding clothing, entire head and shoes visible with generous margins. Soft neutral diffused studio light and natural skin texture. No text, logos, jewelry, props or other people. Character must be invented, not based on any real child. Ordinary everyday childhood appearance.",
+      "supersededBy": "model-005-reference-v2",
+      "originalSha256": "e2d0083e2da2ac972046fceb69be9fccc1fc245c7fafb7487ee1da8552d9cdb7",
+      "removedOriginalPath": "assets/originals/cast/model-005-reference-v1.png",
+      "retentionStatus": "deleted-at-user-request"
+    }
+  ],
+  "cleanup": {
+    "reason": "User approved the current cast and requested deletion of remaining superseded images.",
+    "removedOriginalPaths": [
+      "assets/originals/cast/model-003-reference-v1.png",
+      "assets/originals/cast/model-004-reference-v1.png",
+      "assets/originals/cast/model-002-reference-v1.png",
+      "assets/originals/cast/model-005-reference-v1.png"
+    ]
+  }
+}

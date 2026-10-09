@@ -1,0 +1,140 @@
+{
+  "revision": "issue-24-cast-v3",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/24",
+  "approvalStatus": "approved",
+  "catalogRevision": "issue-23-proposal-v1",
+  "models": [
+    {
+      "id": "model-001",
+      "name": "Lia",
+      "age": 3,
+      "audienceId": "girls",
+      "photographedSize": 4,
+      "identityBrief": "Medium brown skin; dark brown eyes; round face; short dense dark curls.",
+      "approvalStatus": "approved",
+      "productIds": [
+        "product-003",
+        "product-007",
+        "product-028"
+      ]
+    },
+    {
+      "id": "model-002",
+      "name": "Bia",
+      "age": 5,
+      "audienceId": "girls",
+      "photographedSize": 6,
+      "identityBrief": "Light skin with a few freckles; green eyes; oval face; straight copper-red chin-length bob.",
+      "approvalStatus": "approved",
+      "productIds": [
+        "product-004",
+        "product-013",
+        "product-017",
+        "product-027"
+      ]
+    },
+    {
+      "id": "model-003",
+      "name": "Nina",
+      "age": 6,
+      "audienceId": "girls",
+      "photographedSize": 6,
+      "fictionalBackground": "Russian",
+      "identityBrief": "Fair skin; dark brown eyes; oval face; straight dark-brown shoulder-length hair parted slightly off center.",
+      "approvalStatus": "approved",
+      "productIds": [
+        "product-005",
+        "product-016",
+        "product-023"
+      ]
+    },
+    {
+      "id": "model-004",
+      "name": "Iara",
+      "age": 8,
+      "audienceId": "girls",
+      "photographedSize": 8,
+      "identityBrief": "Fair skin; blue eyes; oval face; natural golden-blonde shoulder-length hair worn loose with a simple side part.",
+      "approvalStatus": "approved",
+      "productIds": [
+        "product-014",
+        "product-024"
+      ]
+    },
+    {
+      "id": "model-005",
+      "name": "Caio",
+      "age": 2,
+      "audienceId": "boys",
+      "photographedSize": 2,
+      "identityBrief": "Light skin; blue eyes; round toddler face; short straight dark-brown hair.",
+      "approvalStatus": "approved",
+      "productIds": [
+        "product-002",
+        "product-008",
+        "product-021"
+      ]
+    },
+    {
+      "id": "model-006",
+      "name": "Davi",
+      "age": 4,
+      "audienceId": "boys",
+      "photographedSize": 4,
+      "identityBrief": "Deep brown skin; dark brown eyes; round cheeks; short tightly coiled black hair.",
+      "approvalStatus": "approved",
+      "productIds": [
+        "product-001",
+        "product-006",
+        "product-011",
+        "product-019"
+      ]
+    },
+    {
+      "id": "model-007",
+      "name": "Theo",
+      "age": 6,
+      "audienceId": "boys",
+      "photographedSize": 6,
+      "identityBrief": "Light skin with freckles; green eyes; oval face; slightly tousled short sandy blond hair.",
+      "approvalStatus": "approved",
+      "productIds": [
+        "product-009",
+        "product-012",
+        "product-015",
+        "product-025",
+        "product-029"
+      ]
+    },
+    {
+      "id": "model-008",
+      "name": "Noah",
+      "age": 8,
+      "audienceId": "boys",
+      "photographedSize": 8,
+      "identityBrief": "Medium olive skin; brown eyes; long oval face; short dark-brown wavy hair.",
+      "approvalStatus": "approved",
+      "productIds": [
+        "product-010",
+        "product-018",
+        "product-020",
+        "product-022",
+        "product-026",
+        "product-030"
+      ]
+    }
+  ],
+  "batchPolicy": "Batch by collection. Reuse each approved child reference for every assigned product and every colorway of that product; do not recreate identities from text alone.",
+  "sample": {
+    "productId": "product-006",
+    "colorwayId": "cream-teal-leaf",
+    "modelId": "model-006",
+    "photographedSize": 4,
+    "approvalStatus": "awaiting-sample-production",
+    "reason": "A printed matching set exercises print fidelity, cream/teal/green color fidelity and visibility of both pieces.",
+    "roles": [
+      "model",
+      "isolated"
+    ]
+  }
+}
