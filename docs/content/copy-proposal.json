@@ -1,0 +1,585 @@
+{
+  "revision": "issue-23-proposal-v1",
+  "approvalStatus": "approved",
+  "language": "pt-BR",
+  "editorial": {
+    "hero": {
+      "heading": "Um dia inteiro para brincar",
+      "support": "Roupas para descobrir o quintal, brincar na rua e inventar histórias em casa.",
+      "girlsAction": {
+        "label": "Comprar para meninas",
+        "href": "/meninas"
+      },
+      "boysAction": {
+        "label": "Comprar para meninos",
+        "href": "/meninos"
+      }
+    },
+    "brand": {
+      "pageTitle": "Sobre a Difratelli",
+      "openingHeading": "Roupa para acompanhar a infância",
+      "openingBody": "Tem dia de explorar o quintal. Tem dia de desenhar na calçada ou transformar a sala em cabana. A Difratelli Kids reúne roupas para essas brincadeiras, com cores que se encontram e desenhos que puxam uma história.",
+      "sections": [
+        {
+          "heading": "Uma ideia vira brincadeira",
+          "body": "Uma folha, um risco de giz, uma pilha de blocos. As coleções começam nas coisas pequenas que entram nas brincadeiras de todos os dias."
+        },
+        {
+          "heading": "Peças para combinar do seu jeito",
+          "body": "Camisetas, blusas, shorts e calças misturam cores lisas e estampas. Vestidos, conjuntos de duas peças e camadas leves completam as escolhas para crianças de 2 a 8 anos."
+        }
+      ],
+      "homeHeading": "Pequenas ideias, muitas brincadeiras",
+      "homeBody": "A Difratelli Kids acompanha os dias de quintal, rua e casa com roupas de cores fáceis de misturar e desenhos cheios de histórias.",
+      "homeAction": {
+        "label": "Sobre a Difratelli",
+        "href": "/sobre"
+      },
+      "footerIntro": "Roupas para crianças de 2 a 8 anos, entre descobertas no quintal, brincadeiras na rua e histórias em casa."
+    },
+    "pages": {
+      "catalog": {
+        "heading": "Todas as roupas",
+        "intro": "Escolha as peças e misture as cores do seu jeito."
+      },
+      "newArrivals": {
+        "heading": "Novidades",
+        "intro": "Oito escolhas para descobrir novas combinações."
+      },
+      "girls": {
+        "heading": "Meninas",
+        "intro": "Roupas para acompanhar as brincadeiras de cada dia."
+      },
+      "boys": {
+        "heading": "Meninos",
+        "intro": "Cores e desenhos para as descobertas de cada dia."
+      },
+      "collections": {
+        "heading": "Coleções",
+        "intro": "Três lugares de brincar, com cores e desenhos que se encontram."
+      },
+      "favorites": {
+        "heading": "Favoritos",
+        "intro": "Suas peças salvas, reunidas aqui."
+      },
+      "search": {
+        "heading": "Busca",
+        "queryHeading": "Resultados para “{query}”"
+      },
+      "checkout": {
+        "heading": "Finalizar compra"
+      }
+    },
+    "metadata": {
+      "siteName": "Difratelli Kids",
+      "homeTitle": "Difratelli Kids | Roupas para brincar",
+      "description": "Roupas para crianças de 2 a 8 anos. Descubra as coleções Quintal de Descobertas, Brincadeira de Rua e Imaginação em Casa.",
+      "pageTitle": "{pageTitle} | Difratelli Kids",
+      "productDescription": "{description}",
+      "collectionDescription": "{story}"
+    }
+  },
+  "navigation": {
+    "newArrivals": "Novidades",
+    "girls": "Meninas",
+    "boys": "Meninos",
+    "collections": "Coleções",
+    "brand": "Sobre a Difratelli",
+    "catalog": "Todas as roupas",
+    "search": "Buscar",
+    "favorites": "Favoritos",
+    "cart": "Sacola",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "expandGroup": "Mostrar opções de {group}",
+    "collapseGroup": "Recolher opções de {group}",
+    "home": "Página inicial",
+    "footerShoppingHeading": "Para brincar",
+    "footerCollectionsHeading": "Nossas coleções",
+    "footerBrandHeading": "Difratelli Kids",
+    "copyright": "© {year} Difratelli Kids",
+    "skipLink": "Pular para o conteúdo",
+    "breadcrumbLabel": "Caminho da página",
+    "mobileMenuTitle": "Menu"
+  },
+  "common": {
+    "close": "Fechar",
+    "back": "Voltar",
+    "viewAll": "Ver todos",
+    "exploreProducts": "Explorar produtos",
+    "continueShopping": "Continuar comprando",
+    "tryAgain": "Tentar novamente",
+    "goHome": "Ir para o início",
+    "remove": "Remover",
+    "pending": "Carregando…",
+    "imageFallback": "Não foi possível carregar esta imagem.",
+    "unavailableAction": "Esta opção não está disponível. Escolha outra opção.",
+    "priceLabel": "Preço",
+    "selected": "Selecionado"
+  },
+  "browsing": {
+    "filters": "Filtros",
+    "openFilters": "Abrir filtros",
+    "closeFilters": "Fechar filtros",
+    "category": "Categoria",
+    "size": "Tamanho",
+    "colorFamily": "Cor",
+    "collection": "Coleção",
+    "audience": "Para quem",
+    "sort": "Ordenar por",
+    "sortOptions": {
+      "curated": "Nossa seleção",
+      "priceAscending": "Menor preço",
+      "priceDescending": "Maior preço"
+    },
+    "clearFilters": "Limpar filtros",
+    "removeFilter": "Remover filtro: {label}",
+    "resultCount": {
+      "zero": "Nenhum produto",
+      "one": "1 produto",
+      "many": "{count} produtos"
+    },
+    "updatedResults": "{resultCount}. Lista atualizada.",
+    "filterSelection": "{label}: {value}",
+    "allCategories": "Todas as categorias",
+    "emptyFilteredHeading": "Nenhuma peça por aqui",
+    "emptyFilteredBody": "Tente outra combinação de filtros para encontrar mais peças.",
+    "emptyFilteredAction": "Limpar filtros"
+  },
+  "search": {
+    "dialogTitle": "Buscar roupas",
+    "fieldLabel": "O que você está procurando?",
+    "placeholder": "Busque por peça ou coleção",
+    "submit": "Buscar",
+    "close": "Fechar busca",
+    "blankHeading": "Qual peça você quer encontrar?",
+    "blankBody": "Digite o nome de uma peça, categoria ou coleção para começar.",
+    "noResultsHeading": "Não encontramos peças para “{query}”",
+    "noResultsBody": "Tente outras palavras ou explore todas as roupas.",
+    "noResultsAction": "Explorar produtos"
+  },
+  "product": {
+    "color": "Cor",
+    "size": "Tamanho",
+    "sizeOption": "Tamanho {size}",
+    "colorOption": "Cor {color}",
+    "sizeGuide": "Guia de tamanhos",
+    "addToCart": "Adicionar à sacola",
+    "missingSize": "Selecione um tamanho",
+    "description": "Descrição",
+    "composition": "Composição",
+    "fit": "Como veste",
+    "includedPieces": "O conjunto inclui",
+    "setContents": "Duas peças vendidas juntas: {pieceOne} e {pieceTwo}. O preço inclui as duas peças.",
+    "relatedHeading": "Para combinar",
+    "collectionLink": "Ver a coleção {collection}",
+    "galleryLabel": "Fotos de {product}",
+    "modelPhoto": "Na criança",
+    "isolatedPhoto": "A peça",
+    "photoPosition": "Foto {index} de {count}",
+    "previousPhoto": "Foto anterior",
+    "nextPhoto": "Próxima foto",
+    "enlarge": "Ampliar imagem",
+    "enlargedTitle": "Imagem ampliada de {product}",
+    "closeEnlargement": "Fechar imagem ampliada",
+    "thumbnailLabel": "Ver foto {index}: {role}",
+    "added": "{product}, cor {color}, tamanho {size}, adicionado à sacola.",
+    "merged": "Mais uma unidade de {product} na sacola.",
+    "quantityLimited": "O limite é de 10 unidades por peça, cor e tamanho. Sua sacola está com 10 unidades desta escolha.",
+    "invalidSelection": "Não foi possível adicionar esta escolha. Confira a cor e o tamanho e tente novamente.",
+    "colorChanged": "Cor selecionada: {color}.",
+    "sizeChanged": "Tamanho selecionado: {size}."
+  },
+  "favorites": {
+    "save": "Salvar {product} nos favoritos",
+    "remove": "Remover {product} dos favoritos",
+    "added": "{product} salvo nos favoritos.",
+    "removed": "{product} removido dos favoritos.",
+    "count": {
+      "zero": "Favoritos, nenhum produto salvo",
+      "one": "Favoritos, 1 produto salvo",
+      "many": "Favoritos, {count} produtos salvos"
+    },
+    "pending": "Carregando favoritos",
+    "emptyHeading": "Suas próximas escolhas ficam aqui",
+    "emptyBody": "Toque no coração de uma peça para salvar e encontrar depois.",
+    "emptyAction": "Explorar produtos",
+    "invalidProduct": "Esta peça não está disponível para salvar. Explore as outras roupas."
+  },
+  "cart": {
+    "title": "Sua sacola",
+    "open": "Abrir sacola",
+    "close": "Fechar sacola",
+    "unitCount": {
+      "zero": "Sacola, nenhuma peça",
+      "one": "Sacola, 1 peça",
+      "many": "Sacola, {count} peças"
+    },
+    "pending": "Carregando sacola",
+    "quantity": "Quantidade",
+    "quantityFor": "Quantidade de {product}",
+    "increase": "Aumentar quantidade de {product}",
+    "decrease": "Diminuir quantidade de {product}",
+    "remove": "Remover {product} da sacola",
+    "lineOptions": "Cor: {color} · Tamanho: {size}",
+    "unitPrice": "Preço por unidade",
+    "lineTotal": "Total da peça",
+    "subtotal": "Subtotal",
+    "shippingLater": "Frete calculado na próxima etapa.",
+    "checkout": "Ir para a compra",
+    "emptyHeading": "Sua sacola está esperando uma brincadeira",
+    "emptyBody": "Explore as roupas e escolha as peças que vão acompanhar o dia.",
+    "emptyAction": "Explorar produtos",
+    "removed": "{product} removido da sacola.",
+    "quantityUpdated": "Quantidade de {product}: {quantity}.",
+    "minimumQuantity": "A quantidade mínima é 1. Para tirar esta peça da sacola, use Remover.",
+    "maximumQuantity": "O limite é de 10 unidades por peça, cor e tamanho.",
+    "invalidQuantity": "Escolha uma quantidade inteira de 1 a 10.",
+    "invalidLine": "Esta escolha não está mais na sacola. Confira as peças antes de continuar."
+  },
+  "recovery": {
+    "cart": {
+      "noticeHeading": "Sua sacola foi atualizada",
+      "duplicates": "Reunimos as escolhas repetidas da mesma peça, cor e tamanho.",
+      "removed": "Algumas escolhas não estão mais disponíveis e foram removidas.",
+      "quantities": "Ajustamos as quantidades para manter o limite de 10 unidades por escolha.",
+      "prices": "Os preços da sacola foram atualizados para os valores atuais.",
+      "combined": "{details}",
+      "invalidStorage": "Não foi possível recuperar a sacola salva. Você pode continuar com uma nova sacola nesta visita.",
+      "unsupportedStorage": "A sacola salva não é compatível com esta versão. Você pode usar uma nova sacola nesta visita.",
+      "readFailure": "Não foi possível acessar a sacola salva neste navegador. Você pode continuar nesta visita.",
+      "writeFailure": "Suas alterações continuam nesta sacola, mas não foi possível salvá-las para a próxima visita."
+    },
+    "favorites": {
+      "removed": "Algumas peças salvas não estão mais disponíveis e foram removidas dos favoritos.",
+      "deduplicated": "Organizamos seus favoritos para mostrar cada peça uma vez.",
+      "invalidStorage": "Não foi possível recuperar os favoritos salvos. Você pode salvar novas peças nesta visita.",
+      "unsupportedStorage": "Os favoritos salvos não são compatíveis com esta versão. Você pode salvar novas peças nesta visita.",
+      "readFailure": "Não foi possível acessar os favoritos salvos neste navegador. Você pode continuar nesta visita.",
+      "writeFailure": "Suas escolhas continuam nos favoritos, mas não foi possível salvá-las para a próxima visita."
+    },
+    "noticeDismiss": "Fechar aviso"
+  },
+  "checkout": {
+    "deliveryHeading": "Entrega",
+    "deliveryIntro": "Confira os dados de entrega antes de continuar.",
+    "fields": {
+      "name": "Nome completo",
+      "email": "E-mail",
+      "postalCode": "CEP",
+      "street": "Rua ou avenida",
+      "number": "Número",
+      "complement": "Complemento (opcional)",
+      "neighborhood": "Bairro",
+      "city": "Cidade",
+      "state": "Estado"
+    },
+    "fieldHints": {
+      "postalCode": "Informe os 8 dígitos do CEP.",
+      "number": "Se não houver número, use s/n."
+    },
+    "statePlaceholder": "Selecione o estado",
+    "defaults": {
+      "name": "Marina Oliveira",
+      "email": "marina.oliveira@example.com",
+      "postalCode": "01311000",
+      "street": "Rua das Pequenas Descobertas",
+      "number": "120",
+      "complement": "Apartamento 24",
+      "neighborhood": "Bela Vista",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "states": [
+      {
+        "id": "AC",
+        "name": "Acre"
+      },
+      {
+        "id": "AL",
+        "name": "Alagoas"
+      },
+      {
+        "id": "AP",
+        "name": "Amapá"
+      },
+      {
+        "id": "AM",
+        "name": "Amazonas"
+      },
+      {
+        "id": "BA",
+        "name": "Bahia"
+      },
+      {
+        "id": "CE",
+        "name": "Ceará"
+      },
+      {
+        "id": "DF",
+        "name": "Distrito Federal"
+      },
+      {
+        "id": "ES",
+        "name": "Espírito Santo"
+      },
+      {
+        "id": "GO",
+        "name": "Goiás"
+      },
+      {
+        "id": "MA",
+        "name": "Maranhão"
+      },
+      {
+        "id": "MT",
+        "name": "Mato Grosso"
+      },
+      {
+        "id": "MS",
+        "name": "Mato Grosso do Sul"
+      },
+      {
+        "id": "MG",
+        "name": "Minas Gerais"
+      },
+      {
+        "id": "PA",
+        "name": "Pará"
+      },
+      {
+        "id": "PB",
+        "name": "Paraíba"
+      },
+      {
+        "id": "PR",
+        "name": "Paraná"
+      },
+      {
+        "id": "PE",
+        "name": "Pernambuco"
+      },
+      {
+        "id": "PI",
+        "name": "Piauí"
+      },
+      {
+        "id": "RJ",
+        "name": "Rio de Janeiro"
+      },
+      {
+        "id": "RN",
+        "name": "Rio Grande do Norte"
+      },
+      {
+        "id": "RS",
+        "name": "Rio Grande do Sul"
+      },
+      {
+        "id": "RO",
+        "name": "Rondônia"
+      },
+      {
+        "id": "RR",
+        "name": "Roraima"
+      },
+      {
+        "id": "SC",
+        "name": "Santa Catarina"
+      },
+      {
+        "id": "SP",
+        "name": "São Paulo"
+      },
+      {
+        "id": "SE",
+        "name": "Sergipe"
+      },
+      {
+        "id": "TO",
+        "name": "Tocantins"
+      }
+    ],
+    "validation": {
+      "name": "Informe seu nome.",
+      "emailRequired": "Informe seu e-mail.",
+      "emailInvalid": "Informe um e-mail válido.",
+      "postalCodeRequired": "Informe o CEP.",
+      "postalCodeInvalid": "Informe um CEP com 8 dígitos.",
+      "street": "Informe a rua ou avenida.",
+      "number": "Informe o número ou s/n.",
+      "neighborhood": "Informe o bairro.",
+      "city": "Informe a cidade.",
+      "state": "Selecione um estado válido.",
+      "payment": "Selecione Pix ou cartão.",
+      "summary": "Confira os campos destacados para continuar."
+    },
+    "shipping": {
+      "id": "standard",
+      "label": "Entrega padrão",
+      "priceCents": 1590,
+      "estimate": "5 a 8 dias úteis",
+      "summary": "Entrega padrão · 5 a 8 dias úteis"
+    },
+    "paymentHeading": "Pagamento",
+    "paymentOptions": [
+      {
+        "id": "pix",
+        "label": "Pix"
+      },
+      {
+        "id": "card",
+        "label": "Cartão"
+      }
+    ],
+    "defaultPaymentId": "pix",
+    "summaryHeading": "Resumo da compra",
+    "items": "Peças",
+    "shippingLabel": "Frete",
+    "total": "Total",
+    "submit": "Finalizar compra",
+    "submitting": "Finalizando…",
+    "emptyHeading": "Escolha as peças antes de continuar",
+    "emptyBody": "Sua sacola está vazia. Explore as roupas para começar.",
+    "emptyAction": "Explorar produtos",
+    "pending": "Carregando sua sacola para continuar.",
+    "preCommitFailure": "Não foi possível finalizar agora. Sua sacola e seus dados continuam aqui. Tente novamente.",
+    "cartChanged": "Sua sacola mudou. Confira as peças e o total antes de finalizar.",
+    "duplicateSubmission": "A finalização já está em andamento.",
+    "completion": {
+      "heading": "Pronto! Você concluiu a experiência.",
+      "disclosure": "Esta compra foi uma simulação. Nenhum pagamento foi realizado e nenhum pedido foi criado.",
+      "itemsHeading": "Peças escolhidas",
+      "deliveryHeading": "Dados de entrega",
+      "paymentHeading": "Forma de pagamento escolhida",
+      "subtotal": "Subtotal",
+      "shipping": "Frete",
+      "total": "Total",
+      "continueAction": {
+        "label": "Continuar comprando",
+        "href": "/produtos"
+      },
+      "failedCartSave": "A simulação foi concluída, mas não foi possível atualizar a sacola salva neste navegador. Ao recarregar a página, as escolhas anteriores podem voltar."
+    }
+  },
+  "sizeGuidance": {
+    "title": "Guia de tamanhos",
+    "intro": "Compare as medidas do corpo da criança com a tabela. As medidas estão em centímetros e servem como referência para escolher o tamanho.",
+    "columns": {
+      "size": "Tamanho",
+      "height": "Altura",
+      "chest": "Tórax",
+      "waist": "Cintura",
+      "hips": "Quadril"
+    },
+    "rows": [
+      {
+        "size": 2,
+        "heightCm": [
+          86,
+          95
+        ],
+        "chestCm": [
+          50,
+          54
+        ],
+        "waistCm": [
+          48,
+          52
+        ],
+        "hipsCm": [
+          52,
+          56
+        ]
+      },
+      {
+        "size": 4,
+        "heightCm": [
+          96,
+          107
+        ],
+        "chestCm": [
+          55,
+          59
+        ],
+        "waistCm": [
+          53,
+          56
+        ],
+        "hipsCm": [
+          57,
+          62
+        ]
+      },
+      {
+        "size": 6,
+        "heightCm": [
+          108,
+          119
+        ],
+        "chestCm": [
+          60,
+          64
+        ],
+        "waistCm": [
+          57,
+          60
+        ],
+        "hipsCm": [
+          63,
+          68
+        ]
+      },
+      {
+        "size": 8,
+        "heightCm": [
+          120,
+          131
+        ],
+        "chestCm": [
+          65,
+          69
+        ],
+        "waistCm": [
+          61,
+          64
+        ],
+        "hipsCm": [
+          69,
+          74
+        ]
+      }
+    ],
+    "instructionsHeading": "Como medir",
+    "instructions": [
+      {
+        "label": "Altura",
+        "body": "Sem sapatos, meça do chão até o topo da cabeça, com a criança em pé."
+      },
+      {
+        "label": "Tórax",
+        "body": "Passe a fita ao redor da parte mais larga do peito, sem apertar."
+      },
+      {
+        "label": "Cintura",
+        "body": "Meça ao redor da cintura natural, com a criança relaxada e sem prender a respiração."
+      },
+      {
+        "label": "Quadril",
+        "body": "Passe a fita ao redor da parte mais larga do quadril, com os pés juntos."
+      }
+    ],
+    "betweenSizes": "Se as medidas ficarem entre dois tamanhos ou indicarem tamanhos diferentes, escolha o maior. Veja também a indicação de como cada peça veste.",
+    "outsideChart": "Se alguma medida passar do intervalo do tamanho 8, a tabela não indica um tamanho adequado para essa medida.",
+    "close": "Fechar guia de tamanhos"
+  },
+  "errors": {
+    "notFoundHeading": "Essa página não está por aqui",
+    "notFoundBody": "Talvez o caminho tenha mudado. Explore as roupas para continuar.",
+    "notFoundAction": "Explorar produtos",
+    "pageHeading": "Não foi possível abrir esta página",
+    "pageBody": "Tente novamente ou volte para o início.",
+    "retryAction": "Tentar novamente",
+    "homeAction": "Ir para o início"
+  }
+}

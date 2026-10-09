@@ -1,0 +1,2235 @@
+{
+  "revision": "issue-23-proposal-v1",
+  "approvalStatus": "approved",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/23",
+  "language": "pt-BR",
+  "currency": "BRL",
+  "categories": [
+    {
+      "id": "t-shirts",
+      "name": "Camisetas",
+      "expectedCount": 8,
+      "priceRangeCents": [
+        4900,
+        7900
+      ]
+    },
+    {
+      "id": "tops",
+      "name": "Blusas",
+      "expectedCount": 4,
+      "priceRangeCents": [
+        4900,
+        7900
+      ]
+    },
+    {
+      "id": "shorts",
+      "name": "Shorts",
+      "expectedCount": 5,
+      "priceRangeCents": [
+        6900,
+        11900
+      ]
+    },
+    {
+      "id": "trousers",
+      "name": "Calças",
+      "expectedCount": 4,
+      "priceRangeCents": [
+        6900,
+        11900
+      ]
+    },
+    {
+      "id": "dresses",
+      "name": "Vestidos",
+      "expectedCount": 3,
+      "priceRangeCents": [
+        9900,
+        15900
+      ]
+    },
+    {
+      "id": "matching-sets",
+      "name": "Conjuntos",
+      "expectedCount": 4,
+      "priceRangeCents": [
+        11900,
+        17900
+      ]
+    },
+    {
+      "id": "light-layers",
+      "name": "Peças leves",
+      "expectedCount": 2,
+      "priceRangeCents": [
+        9900,
+        14900
+      ]
+    }
+  ],
+  "audiences": [
+    {
+      "id": "girls",
+      "name": "Meninas"
+    },
+    {
+      "id": "boys",
+      "name": "Meninos"
+    },
+    {
+      "id": "both",
+      "name": "Para meninas e meninos"
+    }
+  ],
+  "colorFamilies": [
+    {
+      "id": "cream",
+      "name": "Creme"
+    },
+    {
+      "id": "green",
+      "name": "Verde"
+    },
+    {
+      "id": "yellow",
+      "name": "Amarelo"
+    },
+    {
+      "id": "blue",
+      "name": "Azul"
+    },
+    {
+      "id": "pink",
+      "name": "Rosa e coral"
+    },
+    {
+      "id": "purple",
+      "name": "Lilás"
+    },
+    {
+      "id": "orange",
+      "name": "Pêssego e laranja"
+    }
+  ],
+  "collections": [
+    {
+      "id": "collection-001",
+      "slug": "quintal-de-descobertas",
+      "name": "Quintal de Descobertas",
+      "story": "Um besourinho na folha, uma semente no chão, um caminho novo entre as plantas. Cores de quintal e desenhos pequenos acompanham uma tarde de descobertas.",
+      "garmentPalette": [
+        {
+          "id": "cream",
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        },
+        {
+          "id": "leaf",
+          "name": "Verde-folha",
+          "hex": "#78946A"
+        },
+        {
+          "id": "teal",
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        },
+        {
+          "id": "butter",
+          "name": "Amarelo-manteiga",
+          "hex": "#F2D477"
+        }
+      ],
+      "garmentBrief": "Exploring a garden; airy hand-drawn leaves, beetles and seeds.",
+      "productIds": [
+        "product-001",
+        "product-002",
+        "product-003",
+        "product-004",
+        "product-005",
+        "product-006",
+        "product-007",
+        "product-008",
+        "product-009",
+        "product-010"
+      ]
+    },
+    {
+      "id": "collection-002",
+      "slug": "brincadeira-de-rua",
+      "name": "Brincadeira de Rua",
+      "story": "O giz desenha a amarelinha, a bicicleta faz a volta e a turma inventa outra brincadeira. Traços soltos e cores de céu e calçada acompanham esse vai e vem.",
+      "garmentPalette": [
+        {
+          "id": "cream",
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        },
+        {
+          "id": "sky",
+          "name": "Azul-céu",
+          "hex": "#A9CCE0"
+        },
+        {
+          "id": "teal",
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        },
+        {
+          "id": "coral",
+          "name": "Coral suave",
+          "hex": "#E9A18F"
+        }
+      ],
+      "garmentBrief": "Hopscotch, bicycle paths and chalk marks; lively but sparse repeats.",
+      "productIds": [
+        "product-011",
+        "product-012",
+        "product-013",
+        "product-014",
+        "product-015",
+        "product-016",
+        "product-017",
+        "product-018",
+        "product-019",
+        "product-020"
+      ]
+    },
+    {
+      "id": "collection-003",
+      "slug": "imaginacao-em-casa",
+      "name": "Imaginação em Casa",
+      "story": "Uma manta vira cabana, os blocos viram cidade e o papel ganha estrelas. Traços de desenho e cores suaves entram nas histórias inventadas em casa.",
+      "garmentPalette": [
+        {
+          "id": "cream",
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        },
+        {
+          "id": "lilac",
+          "name": "Lilás suave",
+          "hex": "#C8B8DC"
+        },
+        {
+          "id": "teal",
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        },
+        {
+          "id": "peach",
+          "name": "Pêssego",
+          "hex": "#EDB69B"
+        }
+      ],
+      "garmentBrief": "Crayon marks, building blocks and simple stars; ordinary objects becoming imagined worlds.",
+      "productIds": [
+        "product-021",
+        "product-022",
+        "product-023",
+        "product-024",
+        "product-025",
+        "product-026",
+        "product-027",
+        "product-028",
+        "product-029",
+        "product-030"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "product-001",
+      "slug": "camiseta-folhas-ao-vento",
+      "name": "Camiseta Folhas ao Vento",
+      "categoryId": "t-shirts",
+      "audienceId": "both",
+      "collectionId": "collection-001",
+      "pattern": "printed",
+      "priceCents": 5900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "cream-leaf-teal",
+      "initialSize": null,
+      "description": "Folhas pequenas espalhadas em uma camiseta de malha para acompanhar as descobertas do dia.",
+      "composition": "100% algodão.",
+      "fitGuidance": "Modelagem reta, com espaço no corpo e mangas curtas.",
+      "colorways": [
+        {
+          "id": "cream-leaf-teal",
+          "name": "Creme, verde-folha, verde-petróleo",
+          "swatch": "#F3EBDD",
+          "colorFamilyIds": [
+            "cream",
+            "green"
+          ],
+          "garmentColors": [
+            {
+              "name": "Creme",
+              "hex": "#F3EBDD"
+            },
+            {
+              "name": "Verde-folha",
+              "hex": "#78946A"
+            },
+            {
+              "name": "Verde-petróleo",
+              "hex": "#246B63"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [],
+      "coordinatingProductIds": [
+        "product-007",
+        "product-008"
+      ],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Straight short-sleeve jersey T-shirt; crew neck with cotton rib binding; hip length.",
+        "print": "Airy hand-drawn leaves, 20–30 mm, leaf green and deep teal on cream; no text.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "curatedRank": 1
+    },
+    {
+      "id": "product-002",
+      "slug": "camiseta-besourinhos",
+      "name": "Camiseta Besourinhos",
+      "categoryId": "t-shirts",
+      "audienceId": "boys",
+      "collectionId": "collection-001",
+      "pattern": "printed",
+      "priceCents": 5900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "butter-teal",
+      "initialSize": null,
+      "description": "Besourinhos desenhados aparecem entre espaços de amarelo em uma camiseta de mangas curtas.",
+      "composition": "100% algodão.",
+      "fitGuidance": "Modelagem reta, sem ajuste na cintura.",
+      "colorways": [
+        {
+          "id": "butter-teal",
+          "name": "Amarelo-manteiga, verde-petróleo",
+          "swatch": "#F2D477",
+          "colorFamilyIds": [
+            "yellow",
+            "green"
+          ],
+          "garmentColors": [
+            {
+              "name": "Amarelo-manteiga",
+              "hex": "#F2D477"
+            },
+            {
+              "name": "Verde-petróleo",
+              "hex": "#246B63"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [],
+      "coordinatingProductIds": [
+        "product-008"
+      ],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Straight short-sleeve jersey T-shirt; rib crew neck; hip length.",
+        "print": "Small simplified beetles, 15–25 mm, deep teal on butter yellow, spaced at least 40 mm apart.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "curatedRank": 2
+    },
+    {
+      "id": "product-003",
+      "slug": "camiseta-pequenas-sementes",
+      "name": "Camiseta Pequenas Sementes",
+      "categoryId": "t-shirts",
+      "audienceId": "girls",
+      "collectionId": "collection-001",
+      "pattern": "printed",
+      "priceCents": 5900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "cream-butter-leaf",
+      "initialSize": null,
+      "description": "Sementes e brotinhos dão cor à malha clara desta camiseta para brincar ao ar livre.",
+      "composition": "100% algodão.",
+      "fitGuidance": "Modelagem reta, com mangas curtas e comprimento até o quadril.",
+      "colorways": [
+        {
+          "id": "cream-butter-leaf",
+          "name": "Creme, amarelo-manteiga, verde-folha",
+          "swatch": "#F3EBDD",
+          "colorFamilyIds": [
+            "cream",
+            "yellow",
+            "green"
+          ],
+          "garmentColors": [
+            {
+              "name": "Creme",
+              "hex": "#F3EBDD"
+            },
+            {
+              "name": "Amarelo-manteiga",
+              "hex": "#F2D477"
+            },
+            {
+              "name": "Verde-folha",
+              "hex": "#78946A"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [],
+      "coordinatingProductIds": [
+        "product-007"
+      ],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Straight short-sleeve jersey T-shirt; crew neck; no gathers or ties.",
+        "print": "Tiny seed-and-sprout pairs, 15–25 mm, butter yellow and leaf green on cream; scattered, not a dense floral.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "curatedRank": 3
+    },
+    {
+      "id": "product-004",
+      "slug": "blusa-jardim-miudo",
+      "name": "Blusa Jardim Miúdo",
+      "categoryId": "tops",
+      "audienceId": "girls",
+      "collectionId": "collection-001",
+      "pattern": "printed",
+      "priceCents": 6900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "cream-leaf-teal",
+      "initialSize": null,
+      "description": "Uma blusa sem mangas com folhas e pequenos besouros, para combinar com os shorts do quintal.",
+      "composition": "100% algodão.",
+      "fitGuidance": "Modelagem levemente ampla, com alças largas e barra reta.",
+      "colorways": [
+        {
+          "id": "cream-leaf-teal",
+          "name": "Creme, verde-folha, verde-petróleo",
+          "swatch": "#F3EBDD",
+          "colorFamilyIds": [
+            "cream",
+            "green"
+          ],
+          "garmentColors": [
+            {
+              "name": "Creme",
+              "hex": "#F3EBDD"
+            },
+            {
+              "name": "Verde-folha",
+              "hex": "#78946A"
+            },
+            {
+              "name": "Verde-petróleo",
+              "hex": "#246B63"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [],
+      "coordinatingProductIds": [
+        "product-007"
+      ],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Sleeveless jersey top with broad 40 mm shoulder straps at size 4, rounded neckline, straight hem at hip; no closures.",
+        "print": "Hand-drawn leaves and beetles, 20–30 mm, leaf green and teal on cream; airy repeat.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "curatedRank": 4
+    },
+    {
+      "id": "product-005",
+      "slug": "vestido-passeio-no-quintal",
+      "name": "Vestido Passeio no Quintal",
+      "categoryId": "dresses",
+      "audienceId": "girls",
+      "collectionId": "collection-001",
+      "pattern": "printed",
+      "priceCents": 12900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "cream-leaf-butter",
+      "initialSize": null,
+      "description": "Folhas e brotinhos acompanham uma saia levemente franzida em um vestido de malha.",
+      "composition": "100% algodão.",
+      "fitGuidance": "Corpo com folga e saia acima dos joelhos; mangas curtas.",
+      "colorways": [
+        {
+          "id": "cream-leaf-butter",
+          "name": "Creme, verde-folha, amarelo-manteiga",
+          "swatch": "#F3EBDD",
+          "colorFamilyIds": [
+            "cream",
+            "green",
+            "yellow"
+          ],
+          "garmentColors": [
+            {
+              "name": "Creme",
+              "hex": "#F3EBDD"
+            },
+            {
+              "name": "Verde-folha",
+              "hex": "#78946A"
+            },
+            {
+              "name": "Amarelo-manteiga",
+              "hex": "#F2D477"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [],
+      "coordinatingProductIds": [],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Jersey dress; short sleeves; rounded neck; natural-waist seam and gently gathered skirt above knee; no pockets or fastening.",
+        "print": "Leaf-and-sprout repeat, 25–35 mm, leaf green and butter yellow on cream; same print scale on bodice and skirt.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "curatedRank": 5
+    },
+    {
+      "id": "product-006",
+      "slug": "conjunto-descobertas",
+      "name": "Conjunto Descobertas",
+      "categoryId": "matching-sets",
+      "audienceId": "boys",
+      "collectionId": "collection-001",
+      "pattern": "printed",
+      "priceCents": 14900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "cream-teal-leaf",
+      "initialSize": null,
+      "description": "Camiseta com folhas e short verde-petróleo vendidos juntos para um dia de pequenas descobertas.",
+      "composition": "100% algodão.",
+      "fitGuidance": "Camiseta reta e short com cintura elástica e comprimento no meio da coxa.",
+      "colorways": [
+        {
+          "id": "cream-teal-leaf",
+          "name": "Creme, verde-petróleo, verde-folha",
+          "swatch": "#F3EBDD",
+          "colorFamilyIds": [
+            "cream",
+            "green"
+          ],
+          "garmentColors": [
+            {
+              "name": "Creme",
+              "hex": "#F3EBDD"
+            },
+            {
+              "name": "Verde-petróleo",
+              "hex": "#246B63"
+            },
+            {
+              "name": "Verde-folha",
+              "hex": "#78946A"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [
+        "Camiseta de mangas curtas estampada",
+        "Short liso com cintura elástica"
+      ],
+      "coordinatingProductIds": [],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Two jersey pieces sold together: short-sleeve crew-neck T-shirt and solid deep-teal shorts with elastic waist, no drawstring, two side pockets.",
+        "print": "Leaves and beetles, 20–30 mm, leaf green and teal on cream T-shirt; shorts entirely plain teal.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "Two jersey pieces sold together: short-sleeve crew-neck T-shirt and solid deep-teal shorts with elastic waist, no drawstring, two side pockets."
+      },
+      "curatedRank": 6
+    },
+    {
+      "id": "product-007",
+      "slug": "short-passo-leve",
+      "name": "Short Passo Leve",
+      "categoryId": "shorts",
+      "audienceId": "girls",
+      "collectionId": "collection-001",
+      "pattern": "plain",
+      "priceCents": 8900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "leaf",
+      "initialSize": null,
+      "description": "Short de sarja com cintura elástica, dois bolsos e cores que se misturam às estampas do quintal.",
+      "composition": "98% algodão, 2% elastano.",
+      "fitGuidance": "Cintura elástica e pernas soltas, com barra no meio da coxa.",
+      "colorways": [
+        {
+          "id": "leaf",
+          "name": "Verde-folha",
+          "swatch": "#78946A",
+          "colorFamilyIds": [
+            "green"
+          ],
+          "garmentColors": [
+            {
+              "name": "Verde-folha",
+              "hex": "#78946A"
+            }
+          ]
+        },
+        {
+          "id": "cream",
+          "name": "Creme",
+          "swatch": "#F3EBDD",
+          "colorFamilyIds": [
+            "cream"
+          ],
+          "garmentColors": [
+            {
+              "name": "Creme",
+              "hex": "#F3EBDD"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [],
+      "coordinatingProductIds": [],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill shorts; elastic waistband; two side pockets; straight hem; no drawstrings or decoration.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "curatedRank": 7
+    },
+    {
+      "id": "product-008",
+      "slug": "short-explorador",
+      "name": "Short Explorador",
+      "categoryId": "shorts",
+      "audienceId": "boys",
+      "collectionId": "collection-001",
+      "pattern": "plain",
+      "priceCents": 8900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "teal",
+      "initialSize": null,
+      "description": "Dois bolsos e uma cintura elástica em um short de sarja para compor os passeios do dia.",
+      "composition": "98% algodão, 2% elastano.",
+      "fitGuidance": "Modelagem reta, com folga nas pernas e comprimento no meio da coxa.",
+      "colorways": [
+        {
+          "id": "teal",
+          "name": "Verde-petróleo",
+          "swatch": "#246B63",
+          "colorFamilyIds": [
+            "green"
+          ],
+          "garmentColors": [
+            {
+              "name": "Verde-petróleo",
+              "hex": "#246B63"
+            }
+          ]
+        },
+        {
+          "id": "butter",
+          "name": "Amarelo-manteiga",
+          "swatch": "#F2D477",
+          "colorFamilyIds": [
+            "yellow"
+          ],
+          "garmentColors": [
+            {
+              "name": "Amarelo-manteiga",
+              "hex": "#F2D477"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [],
+      "coordinatingProductIds": [],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill shorts; elastic waistband; two side pockets; no cargo flaps, drawstring or logos.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "curatedRank": 8
+    },
+    {
+      "id": "product-009",
+      "slug": "calca-caminho-de-terra",
+      "name": "Calça Caminho de Terra",
+      "categoryId": "trousers",
+      "audienceId": "boys",
+      "collectionId": "collection-001",
+      "pattern": "plain",
+      "priceCents": 10900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "leaf",
+      "initialSize": null,
+      "description": "Calça de sarja com pernas retas e bolsos para combinar com as camisetas de pequenas descobertas.",
+      "composition": "98% algodão, 2% elastano.",
+      "fitGuidance": "Cintura elástica e pernas retas até o tornozelo.",
+      "colorways": [
+        {
+          "id": "leaf",
+          "name": "Verde-folha",
+          "swatch": "#78946A",
+          "colorFamilyIds": [
+            "green"
+          ],
+          "garmentColors": [
+            {
+              "name": "Verde-folha",
+              "hex": "#78946A"
+            }
+          ]
+        },
+        {
+          "id": "cream",
+          "name": "Creme",
+          "swatch": "#F3EBDD",
+          "colorFamilyIds": [
+            "cream"
+          ],
+          "garmentColors": [
+            {
+              "name": "Creme",
+              "hex": "#F3EBDD"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [],
+      "coordinatingProductIds": [],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill trousers; elastic waist; two side pockets; straight ankle-length legs; no fly or drawstring.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "curatedRank": 9
+    },
+    {
+      "id": "product-010",
+      "slug": "casaco-brisa-do-quintal",
+      "name": "Casaco Brisa do Quintal",
+      "categoryId": "light-layers",
+      "audienceId": "both",
+      "collectionId": "collection-001",
+      "pattern": "plain",
+      "priceCents": 12900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "teal",
+      "initialSize": null,
+      "description": "Uma camada leve de moletinho, aberta na frente, para vestir por cima das peças do quintal.",
+      "composition": "100% algodão.",
+      "fitGuidance": "Modelagem reta, mangas longas e comprimento até o quadril.",
+      "colorways": [
+        {
+          "id": "teal",
+          "name": "Verde-petróleo",
+          "swatch": "#246B63",
+          "colorFamilyIds": [
+            "green"
+          ],
+          "garmentColors": [
+            {
+              "name": "Verde-petróleo",
+              "hex": "#246B63"
+            }
+          ]
+        },
+        {
+          "id": "cream",
+          "name": "Creme",
+          "swatch": "#F3EBDD",
+          "colorFamilyIds": [
+            "cream"
+          ],
+          "garmentColors": [
+            {
+              "name": "Creme",
+              "hex": "#F3EBDD"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [],
+      "coordinatingProductIds": [],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Lightweight cotton loopback, 220 g/m²",
+        "silhouette": "Lightweight cotton loopback cardigan; open front with no fasteners; long sleeves; cotton rib cuffs; no hood, pockets or print.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "curatedRank": 10
+    },
+    {
+      "id": "product-011",
+      "slug": "camiseta-volta-de-bicicleta",
+      "name": "Camiseta Volta de Bicicleta",
+      "categoryId": "t-shirts",
+      "audienceId": "boys",
+      "collectionId": "collection-002",
+      "pattern": "printed",
+      "priceCents": 5900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "sky-teal-cream",
+      "initialSize": null,
+      "description": "Linhas que lembram trajetos de bicicleta atravessam uma camiseta azul de mangas curtas.",
+      "composition": "100% algodão.",
+      "fitGuidance": "Modelagem reta, com espaço no corpo.",
+      "colorways": [
+        {
+          "id": "sky-teal-cream",
+          "name": "Azul-céu, verde-petróleo, creme",
+          "swatch": "#A9CCE0",
+          "colorFamilyIds": [
+            "blue",
+            "green",
+            "cream"
+          ],
+          "garmentColors": [
+            {
+              "name": "Azul-céu",
+              "hex": "#A9CCE0"
+            },
+            {
+              "name": "Verde-petróleo",
+              "hex": "#246B63"
+            },
+            {
+              "name": "Creme",
+              "hex": "#F3EBDD"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [],
+      "coordinatingProductIds": [
+        "product-018",
+        "product-020"
+      ],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Straight short-sleeve jersey T-shirt; rib crew neck; hip length.",
+        "print": "Looping chalk-texture bicycle paths, 2–3 mm strokes with occasional simple wheels, cream and teal on sky blue; no text.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "curatedRank": 11
+    },
+    {
+      "id": "product-012",
+      "slug": "camiseta-riscos-de-giz",
+      "name": "Camiseta Riscos de Giz",
+      "categoryId": "t-shirts",
+      "audienceId": "both",
+      "collectionId": "collection-002",
+      "pattern": "printed",
+      "priceCents": 5900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "cream-sky-coral",
+      "initialSize": null,
+      "description": "Riscos azuis e corais, como desenhos de giz, espalhados em uma camiseta de malha clara.",
+      "composition": "100% algodão.",
+      "fitGuidance": "Modelagem reta e mangas curtas.",
+      "colorways": [
+        {
+          "id": "cream-sky-coral",
+          "name": "Creme, azul-céu, coral suave",
+          "swatch": "#F3EBDD",
+          "colorFamilyIds": [
+            "cream",
+            "blue",
+            "pink"
+          ],
+          "garmentColors": [
+            {
+              "name": "Creme",
+              "hex": "#F3EBDD"
+            },
+            {
+              "name": "Azul-céu",
+              "hex": "#A9CCE0"
+            },
+            {
+              "name": "Coral suave",
+              "hex": "#E9A18F"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [],
+      "coordinatingProductIds": [
+        "product-018",
+        "product-019",
+        "product-020"
+      ],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Straight short-sleeve jersey T-shirt; rib crew neck; hip length.",
+        "print": "Irregular chalk-like stripes, 3–5 mm strokes, blue and coral on cream; loosely scattered diagonal groups, no lettering.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "curatedRank": 12
+    },
+    {
+      "id": "product-013",
+      "slug": "camiseta-pula-amarelinha",
+      "name": "Camiseta Pula Amarelinha",
+      "categoryId": "t-shirts",
+      "audienceId": "girls",
+      "collectionId": "collection-002",
+      "pattern": "printed",
+      "priceCents": 5900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "cream-coral-teal",
+      "initialSize": null,
+      "description": "Casas de amarelinha viram desenhos pequenos nesta camiseta para inventar brincadeiras.",
+      "composition": "100% algodão.",
+      "fitGuidance": "Modelagem reta, com comprimento até o quadril.",
+      "colorways": [
+        {
+          "id": "cream-coral-teal",
+          "name": "Creme, coral suave, verde-petróleo",
+          "swatch": "#F3EBDD",
+          "colorFamilyIds": [
+            "cream",
+            "pink",
+            "green"
+          ],
+          "garmentColors": [
+            {
+              "name": "Creme",
+              "hex": "#F3EBDD"
+            },
+            {
+              "name": "Coral suave",
+              "hex": "#E9A18F"
+            },
+            {
+              "name": "Verde-petróleo",
+              "hex": "#246B63"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [],
+      "coordinatingProductIds": [
+        "product-019"
+      ],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Straight short-sleeve jersey T-shirt; crew neck; no gathers or ties.",
+        "print": "Small incomplete hopscotch grids, 30–40 mm, coral and teal on cream; no numbers or typography.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "curatedRank": 13
+    },
+    {
+      "id": "product-014",
+      "slug": "vestido-desenho-na-calcada",
+      "name": "Vestido Desenho na Calçada",
+      "categoryId": "dresses",
+      "audienceId": "girls",
+      "collectionId": "collection-002",
+      "pattern": "printed",
+      "priceCents": 12900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "sky-cream-coral",
+      "initialSize": null,
+      "description": "Riscos de giz e uma saia com franzido leve dão forma a este vestido de malha azul.",
+      "composition": "100% algodão.",
+      "fitGuidance": "Corpo com folga, mangas curtas e saia acima dos joelhos.",
+      "colorways": [
+        {
+          "id": "sky-cream-coral",
+          "name": "Azul-céu, creme, coral suave",
+          "swatch": "#A9CCE0",
+          "colorFamilyIds": [
+            "blue",
+            "cream",
+            "pink"
+          ],
+          "garmentColors": [
+            {
+              "name": "Azul-céu",
+              "hex": "#A9CCE0"
+            },
+            {
+              "name": "Creme",
+              "hex": "#F3EBDD"
+            },
+            {
+              "name": "Coral suave",
+              "hex": "#E9A18F"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [],
+      "coordinatingProductIds": [],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Jersey dress; short sleeves; round neck; natural-waist seam; gently gathered skirt; no closures or pockets.",
+        "print": "Chalk-like irregular stripes and small looping paths, cream and coral on sky blue; airy 25–40 mm motif groups.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "curatedRank": 14
+    },
+    {
+      "id": "product-015",
+      "slug": "conjunto-volta-na-rua",
+      "name": "Conjunto Volta na Rua",
+      "categoryId": "matching-sets",
+      "audienceId": "boys",
+      "collectionId": "collection-002",
+      "pattern": "printed",
+      "priceCents": 14900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "cream-sky-teal",
+      "initialSize": null,
+      "description": "Uma camiseta com caminhos de bicicleta e um short verde-petróleo formam este conjunto de duas peças.",
+      "composition": "100% algodão.",
+      "fitGuidance": "Camiseta reta e short com cintura elástica, no meio da coxa.",
+      "colorways": [
+        {
+          "id": "cream-sky-teal",
+          "name": "Creme, azul-céu, verde-petróleo",
+          "swatch": "#F3EBDD",
+          "colorFamilyIds": [
+            "cream",
+            "blue",
+            "green"
+          ],
+          "garmentColors": [
+            {
+              "name": "Creme",
+              "hex": "#F3EBDD"
+            },
+            {
+              "name": "Azul-céu",
+              "hex": "#A9CCE0"
+            },
+            {
+              "name": "Verde-petróleo",
+              "hex": "#246B63"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [
+        "Camiseta de mangas curtas estampada",
+        "Short liso com cintura elástica"
+      ],
+      "coordinatingProductIds": [],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Two jersey pieces: short-sleeve crew-neck T-shirt and plain teal shorts with elastic waist, two side pockets, no drawstring.",
+        "print": "Looping bicycle paths, 25–40 mm, sky blue and teal on cream T-shirt; shorts plain teal.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "Two jersey pieces: short-sleeve crew-neck T-shirt and plain teal shorts with elastic waist, two side pockets, no drawstring."
+      },
+      "curatedRank": 15
+    },
+    {
+      "id": "product-016",
+      "slug": "conjunto-pulo-de-giz",
+      "name": "Conjunto Pulo de Giz",
+      "categoryId": "matching-sets",
+      "audienceId": "girls",
+      "collectionId": "collection-002",
+      "pattern": "printed",
+      "priceCents": 14900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "cream-coral-teal",
+      "initialSize": null,
+      "description": "Blusa com desenhos de amarelinha e short coral vendidos juntos para brincar de um jeito novo.",
+      "composition": "100% algodão.",
+      "fitGuidance": "Blusa sem mangas com alças largas e short solto com cintura elástica.",
+      "colorways": [
+        {
+          "id": "cream-coral-teal",
+          "name": "Creme, coral suave, verde-petróleo",
+          "swatch": "#F3EBDD",
+          "colorFamilyIds": [
+            "cream",
+            "pink",
+            "green"
+          ],
+          "garmentColors": [
+            {
+              "name": "Creme",
+              "hex": "#F3EBDD"
+            },
+            {
+              "name": "Coral suave",
+              "hex": "#E9A18F"
+            },
+            {
+              "name": "Verde-petróleo",
+              "hex": "#246B63"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [
+        "Blusa sem mangas estampada",
+        "Short liso com cintura elástica"
+      ],
+      "coordinatingProductIds": [],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Two jersey pieces: broad-strap sleeveless round-neck top and plain coral elastic-waist shorts; straight hems, no ties or pockets.",
+        "print": "Small hopscotch-grid outlines, 30–40 mm, coral and teal on cream top, no numbers; shorts solid coral.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "Two jersey pieces: broad-strap sleeveless round-neck top and plain coral elastic-waist shorts; straight hems, no ties or pockets."
+      },
+      "curatedRank": 16
+    },
+    {
+      "id": "product-017",
+      "slug": "blusa-ceu-da-rua",
+      "name": "Blusa Céu da Rua",
+      "categoryId": "tops",
+      "audienceId": "girls",
+      "collectionId": "collection-002",
+      "pattern": "plain",
+      "priceCents": 5900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "sky",
+      "initialSize": null,
+      "description": "Blusa canelada sem mangas, de cor lisa, para misturar aos desenhos e às cores da rua.",
+      "composition": "95% algodão, 5% elastano.",
+      "fitGuidance": "Modelagem próxima ao corpo, sem compressão; alças largas.",
+      "colorways": [
+        {
+          "id": "sky",
+          "name": "Azul-céu",
+          "swatch": "#A9CCE0",
+          "colorFamilyIds": [
+            "blue"
+          ],
+          "garmentColors": [
+            {
+              "name": "Azul-céu",
+              "hex": "#A9CCE0"
+            }
+          ]
+        },
+        {
+          "id": "cream",
+          "name": "Creme",
+          "swatch": "#F3EBDD",
+          "colorFamilyIds": [
+            "cream"
+          ],
+          "garmentColors": [
+            {
+              "name": "Creme",
+              "hex": "#F3EBDD"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [],
+      "coordinatingProductIds": [],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-elastane fine rib, 180 g/m²",
+        "silhouette": "Cotton-elastane fine-rib top; broad shoulder straps; rounded neckline; straight hip-length hem; no trim or closure.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "curatedRank": 17
+    },
+    {
+      "id": "product-018",
+      "slug": "short-vai-e-vem",
+      "name": "Short Vai e Vem",
+      "categoryId": "shorts",
+      "audienceId": "boys",
+      "collectionId": "collection-002",
+      "pattern": "plain",
+      "priceCents": 8900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "sky",
+      "initialSize": null,
+      "description": "Short de sarja com dois bolsos e cintura elástica, em cores para acompanhar as camisetas da coleção.",
+      "composition": "98% algodão, 2% elastano.",
+      "fitGuidance": "Pernas retas com folga, até o meio da coxa.",
+      "colorways": [
+        {
+          "id": "sky",
+          "name": "Azul-céu",
+          "swatch": "#A9CCE0",
+          "colorFamilyIds": [
+            "blue"
+          ],
+          "garmentColors": [
+            {
+              "name": "Azul-céu",
+              "hex": "#A9CCE0"
+            }
+          ]
+        },
+        {
+          "id": "teal",
+          "name": "Verde-petróleo",
+          "swatch": "#246B63",
+          "colorFamilyIds": [
+            "green"
+          ],
+          "garmentColors": [
+            {
+              "name": "Verde-petróleo",
+              "hex": "#246B63"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [],
+      "coordinatingProductIds": [],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill shorts; elastic waist; two side pockets; no drawstring or cargo pockets.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "curatedRank": 18
+    },
+    {
+      "id": "product-019",
+      "slug": "short-dia-de-brincar",
+      "name": "Short Dia de Brincar",
+      "categoryId": "shorts",
+      "audienceId": "both",
+      "collectionId": "collection-002",
+      "pattern": "plain",
+      "priceCents": 8900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "coral",
+      "initialSize": null,
+      "description": "Um short de sarja de linhas simples, com cintura elástica, para combinar com os riscos de giz.",
+      "composition": "98% algodão, 2% elastano.",
+      "fitGuidance": "Modelagem reta e solta, com comprimento no meio da coxa.",
+      "colorways": [
+        {
+          "id": "coral",
+          "name": "Coral suave",
+          "swatch": "#E9A18F",
+          "colorFamilyIds": [
+            "pink"
+          ],
+          "garmentColors": [
+            {
+              "name": "Coral suave",
+              "hex": "#E9A18F"
+            }
+          ]
+        },
+        {
+          "id": "cream",
+          "name": "Creme",
+          "swatch": "#F3EBDD",
+          "colorFamilyIds": [
+            "cream"
+          ],
+          "garmentColors": [
+            {
+              "name": "Creme",
+              "hex": "#F3EBDD"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [],
+      "coordinatingProductIds": [],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill shorts; elastic waist; two side pockets; straight hem; no drawstring, ruffles or logos.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "curatedRank": 19
+    },
+    {
+      "id": "product-020",
+      "slug": "calca-passos-na-rua",
+      "name": "Calça Passos na Rua",
+      "categoryId": "trousers",
+      "audienceId": "boys",
+      "collectionId": "collection-002",
+      "pattern": "plain",
+      "priceCents": 10900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "teal",
+      "initialSize": null,
+      "description": "Calça de sarja com dois bolsos e cores lisas que acompanham os desenhos da coleção.",
+      "composition": "98% algodão, 2% elastano.",
+      "fitGuidance": "Cintura elástica e pernas retas até o tornozelo.",
+      "colorways": [
+        {
+          "id": "teal",
+          "name": "Verde-petróleo",
+          "swatch": "#246B63",
+          "colorFamilyIds": [
+            "green"
+          ],
+          "garmentColors": [
+            {
+              "name": "Verde-petróleo",
+              "hex": "#246B63"
+            }
+          ]
+        },
+        {
+          "id": "sky",
+          "name": "Azul-céu",
+          "swatch": "#A9CCE0",
+          "colorFamilyIds": [
+            "blue"
+          ],
+          "garmentColors": [
+            {
+              "name": "Azul-céu",
+              "hex": "#A9CCE0"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [],
+      "coordinatingProductIds": [],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill trousers; elastic waist; two side pockets; straight ankle-length legs; no fly or drawstring.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "curatedRank": 20
+    },
+    {
+      "id": "product-021",
+      "slug": "camiseta-blocos-de-ideias",
+      "name": "Camiseta Blocos de Ideias",
+      "categoryId": "t-shirts",
+      "audienceId": "boys",
+      "collectionId": "collection-003",
+      "pattern": "printed",
+      "priceCents": 5900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "cream-teal-peach",
+      "initialSize": null,
+      "description": "Blocos desenhados se espalham na camiseta de malha, como peças de uma construção inventada.",
+      "composition": "100% algodão.",
+      "fitGuidance": "Modelagem reta, mangas curtas e comprimento até o quadril.",
+      "colorways": [
+        {
+          "id": "cream-teal-peach",
+          "name": "Creme, verde-petróleo, pêssego",
+          "swatch": "#F3EBDD",
+          "colorFamilyIds": [
+            "cream",
+            "green",
+            "orange"
+          ],
+          "garmentColors": [
+            {
+              "name": "Creme",
+              "hex": "#F3EBDD"
+            },
+            {
+              "name": "Verde-petróleo",
+              "hex": "#246B63"
+            },
+            {
+              "name": "Pêssego",
+              "hex": "#EDB69B"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [],
+      "coordinatingProductIds": [
+        "product-029",
+        "product-030"
+      ],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Straight short-sleeve jersey T-shirt; rib crew neck; hip length.",
+        "print": "Simple building-block squares and arches, 20–30 mm, teal and peach on cream; airy crayon-edge texture, no text.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "curatedRank": 21
+    },
+    {
+      "id": "product-022",
+      "slug": "camiseta-estrelas-de-papel",
+      "name": "Camiseta Estrelas de Papel",
+      "categoryId": "t-shirts",
+      "audienceId": "both",
+      "collectionId": "collection-003",
+      "pattern": "printed",
+      "priceCents": 5900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "lilac-cream-teal",
+      "initialSize": null,
+      "description": "Estrelas pequenas, com traços de desenho, em uma camiseta lilás para histórias de todos os dias.",
+      "composition": "100% algodão.",
+      "fitGuidance": "Modelagem reta, com espaço no corpo e mangas curtas.",
+      "colorways": [
+        {
+          "id": "lilac-cream-teal",
+          "name": "Lilás suave, creme, verde-petróleo",
+          "swatch": "#C8B8DC",
+          "colorFamilyIds": [
+            "purple",
+            "cream",
+            "green"
+          ],
+          "garmentColors": [
+            {
+              "name": "Lilás suave",
+              "hex": "#C8B8DC"
+            },
+            {
+              "name": "Creme",
+              "hex": "#F3EBDD"
+            },
+            {
+              "name": "Verde-petróleo",
+              "hex": "#246B63"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [],
+      "coordinatingProductIds": [
+        "product-028",
+        "product-029",
+        "product-030"
+      ],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Straight short-sleeve jersey T-shirt; rib crew neck; hip length.",
+        "print": "Simple irregular five-point stars, 15–25 mm, cream and teal on soft lilac; scattered, no glitter or lettering.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "curatedRank": 22
+    },
+    {
+      "id": "product-023",
+      "slug": "blusa-tracos-de-imaginacao",
+      "name": "Blusa Traços de Imaginação",
+      "categoryId": "tops",
+      "audienceId": "girls",
+      "collectionId": "collection-003",
+      "pattern": "printed",
+      "priceCents": 6900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "cream-lilac-peach",
+      "initialSize": null,
+      "description": "Traços de giz de cera em uma blusa sem mangas para combinar com as cores das brincadeiras em casa.",
+      "composition": "100% algodão.",
+      "fitGuidance": "Modelagem levemente ampla, com alças largas e barra reta.",
+      "colorways": [
+        {
+          "id": "cream-lilac-peach",
+          "name": "Creme, lilás suave, pêssego",
+          "swatch": "#F3EBDD",
+          "colorFamilyIds": [
+            "cream",
+            "purple",
+            "orange"
+          ],
+          "garmentColors": [
+            {
+              "name": "Creme",
+              "hex": "#F3EBDD"
+            },
+            {
+              "name": "Lilás suave",
+              "hex": "#C8B8DC"
+            },
+            {
+              "name": "Pêssego",
+              "hex": "#EDB69B"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [],
+      "coordinatingProductIds": [
+        "product-028"
+      ],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Sleeveless jersey top; broad shoulder straps; rounded neckline; straight hip-length hem; no fasteners or ties.",
+        "print": "Short crayon-like marks, 20–30 mm, lilac and peach on cream; airy scattered clusters.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "curatedRank": 23
+    },
+    {
+      "id": "product-024",
+      "slug": "vestido-historias-de-estrelas",
+      "name": "Vestido Histórias de Estrelas",
+      "categoryId": "dresses",
+      "audienceId": "girls",
+      "collectionId": "collection-003",
+      "pattern": "printed",
+      "priceCents": 12900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "peach-teal-cream",
+      "initialSize": null,
+      "description": "Uma saia levemente franzida e estrelas desenhadas para acompanhar as histórias da brincadeira.",
+      "composition": "100% algodão.",
+      "fitGuidance": "Mangas curtas, corpo com folga e saia acima dos joelhos.",
+      "colorways": [
+        {
+          "id": "peach-teal-cream",
+          "name": "Pêssego, verde-petróleo, creme",
+          "swatch": "#EDB69B",
+          "colorFamilyIds": [
+            "orange",
+            "green",
+            "cream"
+          ],
+          "garmentColors": [
+            {
+              "name": "Pêssego",
+              "hex": "#EDB69B"
+            },
+            {
+              "name": "Verde-petróleo",
+              "hex": "#246B63"
+            },
+            {
+              "name": "Creme",
+              "hex": "#F3EBDD"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [],
+      "coordinatingProductIds": [],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Jersey dress; short sleeves; rounded neckline; natural-waist seam; gently gathered skirt; no pockets or closure.",
+        "print": "Simple five-point stars, 20–30 mm, cream and teal on peach; irregular crayon outlines, no glitter.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "curatedRank": 24
+    },
+    {
+      "id": "product-025",
+      "slug": "conjunto-mundo-de-blocos",
+      "name": "Conjunto Mundo de Blocos",
+      "categoryId": "matching-sets",
+      "audienceId": "boys",
+      "collectionId": "collection-003",
+      "pattern": "printed",
+      "priceCents": 14900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "cream-lilac-teal",
+      "initialSize": null,
+      "description": "Camiseta com blocos desenhados e short verde-petróleo vendidos juntos para construir novas histórias.",
+      "composition": "100% algodão.",
+      "fitGuidance": "Camiseta reta e short com cintura elástica e comprimento no meio da coxa.",
+      "colorways": [
+        {
+          "id": "cream-lilac-teal",
+          "name": "Creme, lilás suave, verde-petróleo",
+          "swatch": "#F3EBDD",
+          "colorFamilyIds": [
+            "cream",
+            "purple",
+            "green"
+          ],
+          "garmentColors": [
+            {
+              "name": "Creme",
+              "hex": "#F3EBDD"
+            },
+            {
+              "name": "Lilás suave",
+              "hex": "#C8B8DC"
+            },
+            {
+              "name": "Verde-petróleo",
+              "hex": "#246B63"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [
+        "Camiseta de mangas curtas estampada",
+        "Short liso com cintura elástica"
+      ],
+      "coordinatingProductIds": [],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Two jersey pieces: short-sleeve round-neck T-shirt and plain teal elastic-waist shorts with two side pockets; no drawstring.",
+        "print": "Building-block squares and arches, 20–30 mm, lilac and teal on cream T-shirt; shorts plain teal.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "Two jersey pieces: short-sleeve round-neck T-shirt and plain teal elastic-waist shorts with two side pockets; no drawstring."
+      },
+      "curatedRank": 25
+    },
+    {
+      "id": "product-026",
+      "slug": "casaco-rabiscos-de-casa",
+      "name": "Casaco Rabiscos de Casa",
+      "categoryId": "light-layers",
+      "audienceId": "both",
+      "collectionId": "collection-003",
+      "pattern": "printed",
+      "priceCents": 12900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "cream-lilac-teal",
+      "initialSize": null,
+      "description": "Uma camada leve de moletinho com pequenos rabiscos para vestir sobre as peças da coleção.",
+      "composition": "100% algodão.",
+      "fitGuidance": "Modelagem reta, mangas longas e comprimento até o quadril.",
+      "colorways": [
+        {
+          "id": "cream-lilac-teal",
+          "name": "Creme, lilás suave, verde-petróleo",
+          "swatch": "#F3EBDD",
+          "colorFamilyIds": [
+            "cream",
+            "purple",
+            "green"
+          ],
+          "garmentColors": [
+            {
+              "name": "Creme",
+              "hex": "#F3EBDD"
+            },
+            {
+              "name": "Lilás suave",
+              "hex": "#C8B8DC"
+            },
+            {
+              "name": "Verde-petróleo",
+              "hex": "#246B63"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [],
+      "coordinatingProductIds": [
+        "product-028",
+        "product-029",
+        "product-030"
+      ],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Lightweight cotton loopback, 220 g/m²",
+        "silhouette": "Lightweight cotton loopback open-front cardigan; long sleeves and cotton rib cuffs; no fasteners, hood or pockets.",
+        "print": "Small crayon marks and stars, 15–25 mm, lilac and teal on cream; airy repeat, no text.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "curatedRank": 26
+    },
+    {
+      "id": "product-027",
+      "slug": "blusa-cor-de-historia",
+      "name": "Blusa Cor de História",
+      "categoryId": "tops",
+      "audienceId": "girls",
+      "collectionId": "collection-003",
+      "pattern": "plain",
+      "priceCents": 5900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "lilac",
+      "initialSize": null,
+      "description": "Blusa canelada sem mangas, em duas cores lisas para criar combinações do seu jeito.",
+      "composition": "95% algodão, 5% elastano.",
+      "fitGuidance": "Modelagem próxima ao corpo, sem compressão; alças largas.",
+      "colorways": [
+        {
+          "id": "lilac",
+          "name": "Lilás suave",
+          "swatch": "#C8B8DC",
+          "colorFamilyIds": [
+            "purple"
+          ],
+          "garmentColors": [
+            {
+              "name": "Lilás suave",
+              "hex": "#C8B8DC"
+            }
+          ]
+        },
+        {
+          "id": "cream",
+          "name": "Creme",
+          "swatch": "#F3EBDD",
+          "colorFamilyIds": [
+            "cream"
+          ],
+          "garmentColors": [
+            {
+              "name": "Creme",
+              "hex": "#F3EBDD"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [],
+      "coordinatingProductIds": [],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-elastane fine rib, 180 g/m²",
+        "silhouette": "Cotton-elastane fine-rib sleeveless top; broad straps; rounded neck; straight hip-length hem; no trim or closures.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "curatedRank": 27
+    },
+    {
+      "id": "product-028",
+      "slug": "short-canto-de-brincar",
+      "name": "Short Canto de Brincar",
+      "categoryId": "shorts",
+      "audienceId": "girls",
+      "collectionId": "collection-003",
+      "pattern": "plain",
+      "priceCents": 8900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "peach",
+      "initialSize": null,
+      "description": "Short de sarja com dois bolsos e cintura elástica para combinar com traços e estrelas.",
+      "composition": "98% algodão, 2% elastano.",
+      "fitGuidance": "Pernas soltas, com barra no meio da coxa.",
+      "colorways": [
+        {
+          "id": "peach",
+          "name": "Pêssego",
+          "swatch": "#EDB69B",
+          "colorFamilyIds": [
+            "orange"
+          ],
+          "garmentColors": [
+            {
+              "name": "Pêssego",
+              "hex": "#EDB69B"
+            }
+          ]
+        },
+        {
+          "id": "cream",
+          "name": "Creme",
+          "swatch": "#F3EBDD",
+          "colorFamilyIds": [
+            "cream"
+          ],
+          "garmentColors": [
+            {
+              "name": "Creme",
+              "hex": "#F3EBDD"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [],
+      "coordinatingProductIds": [],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill shorts; elastic waist; two side pockets; straight hem; no drawstring or ruffles.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "curatedRank": 28
+    },
+    {
+      "id": "product-029",
+      "slug": "calca-cantinho-de-ideias",
+      "name": "Calça Cantinho de Ideias",
+      "categoryId": "trousers",
+      "audienceId": "boys",
+      "collectionId": "collection-003",
+      "pattern": "plain",
+      "priceCents": 10900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "teal",
+      "initialSize": null,
+      "description": "Uma calça de sarja de linhas retas, para compor as cores das histórias em casa.",
+      "composition": "98% algodão, 2% elastano.",
+      "fitGuidance": "Cintura elástica e pernas retas até o tornozelo.",
+      "colorways": [
+        {
+          "id": "teal",
+          "name": "Verde-petróleo",
+          "swatch": "#246B63",
+          "colorFamilyIds": [
+            "green"
+          ],
+          "garmentColors": [
+            {
+              "name": "Verde-petróleo",
+              "hex": "#246B63"
+            }
+          ]
+        },
+        {
+          "id": "cream",
+          "name": "Creme",
+          "swatch": "#F3EBDD",
+          "colorFamilyIds": [
+            "cream"
+          ],
+          "garmentColors": [
+            {
+              "name": "Creme",
+              "hex": "#F3EBDD"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [],
+      "coordinatingProductIds": [],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill trousers; elastic waist; two side pockets; straight ankle-length legs; no fly or drawstring.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "curatedRank": 29
+    },
+    {
+      "id": "product-030",
+      "slug": "calca-faz-de-conta",
+      "name": "Calça Faz de Conta",
+      "categoryId": "trousers",
+      "audienceId": "boys",
+      "collectionId": "collection-003",
+      "pattern": "plain",
+      "priceCents": 10900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "defaultColorwayId": "lilac",
+      "initialSize": null,
+      "description": "Calça de malha com cintura elástica e cores lisas para misturar às estampas de blocos e estrelas.",
+      "composition": "100% algodão.",
+      "fitGuidance": "Modelagem solta, com pernas retas e comprimento até o tornozelo.",
+      "colorways": [
+        {
+          "id": "lilac",
+          "name": "Lilás suave",
+          "swatch": "#C8B8DC",
+          "colorFamilyIds": [
+            "purple"
+          ],
+          "garmentColors": [
+            {
+              "name": "Lilás suave",
+              "hex": "#C8B8DC"
+            }
+          ]
+        },
+        {
+          "id": "peach",
+          "name": "Pêssego",
+          "swatch": "#EDB69B",
+          "colorFamilyIds": [
+            "orange"
+          ],
+          "garmentColors": [
+            {
+              "name": "Pêssego",
+              "hex": "#EDB69B"
+            }
+          ]
+        }
+      ],
+      "includedPieces": [],
+      "coordinatingProductIds": [],
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Cotton jersey trousers; elastic waist; two side pockets; straight relaxed ankle-length legs; no cuffs, drawstring or fly.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "curatedRank": 30
+    }
+  ],
+  "merchandising": {
+    "curatedProductIds": [
+      "product-001",
+      "product-002",
+      "product-003",
+      "product-004",
+      "product-005",
+      "product-006",
+      "product-007",
+      "product-008",
+      "product-009",
+      "product-010",
+      "product-011",
+      "product-012",
+      "product-013",
+      "product-014",
+      "product-015",
+      "product-016",
+      "product-017",
+      "product-018",
+      "product-019",
+      "product-020",
+      "product-021",
+      "product-022",
+      "product-023",
+      "product-024",
+      "product-025",
+      "product-026",
+      "product-027",
+      "product-028",
+      "product-029",
+      "product-030"
+    ],
+    "newArrivalProductIds": [
+      "product-023",
+      "product-025",
+      "product-021",
+      "product-024",
+      "product-001",
+      "product-005",
+      "product-011",
+      "product-016"
+    ],
+    "homepage": {
+      "newArrivals": {
+        "heading": "Novidades para brincar",
+        "intro": "Traços, blocos e estrelas para as histórias de hoje.",
+        "productIds": [
+          "product-023",
+          "product-025",
+          "product-021",
+          "product-024"
+        ],
+        "viewAll": {
+          "label": "Ver todos",
+          "href": "/novidades"
+        }
+      },
+      "firstCollectionFeature": {
+        "collectionId": "collection-001",
+        "heading": "O quintal guarda pequenas descobertas",
+        "body": "Folhas, sementes e besourinhos viram desenhos para acompanhar uma tarde lá fora.",
+        "action": {
+          "label": "Explorar a coleção",
+          "href": "/colecoes/quintal-de-descobertas"
+        }
+      },
+      "secondCollectionFeature": {
+        "collectionId": "collection-002",
+        "heading": "A rua vira brincadeira",
+        "body": "Giz, bicicleta e amarelinha em peças que combinam entre si.",
+        "productIds": [
+          "product-011",
+          "product-017",
+          "product-019",
+          "product-016"
+        ],
+        "viewAll": {
+          "label": "Ver todos",
+          "href": "/colecoes/brincadeira-de-rua"
+        }
+      },
+      "categoryTiles": [
+        {
+          "categoryId": "t-shirts",
+          "label": "Camisetas",
+          "productId": "product-001",
+          "href": "/produtos?categoria=t-shirts",
+          "colorwayId": "cream-leaf-teal"
+        },
+        {
+          "categoryId": "tops",
+          "label": "Blusas",
+          "productId": "product-023",
+          "href": "/produtos?categoria=tops",
+          "colorwayId": "cream-lilac-peach"
+        },
+        {
+          "categoryId": "shorts",
+          "label": "Shorts",
+          "productId": "product-019",
+          "href": "/produtos?categoria=shorts",
+          "colorwayId": "coral"
+        },
+        {
+          "categoryId": "trousers",
+          "label": "Calças",
+          "productId": "product-029",
+          "href": "/produtos?categoria=trousers",
+          "colorwayId": "teal"
+        },
+        {
+          "categoryId": "dresses",
+          "label": "Vestidos",
+          "productId": "product-005",
+          "href": "/produtos?categoria=dresses",
+          "colorwayId": "cream-leaf-butter"
+        },
+        {
+          "categoryId": "matching-sets",
+          "label": "Conjuntos",
+          "productId": "product-016",
+          "href": "/produtos?categoria=matching-sets",
+          "colorwayId": "cream-coral-teal"
+        },
+        {
+          "categoryId": "light-layers",
+          "label": "Peças leves",
+          "productId": "product-010",
+          "href": "/produtos?categoria=light-layers",
+          "colorwayId": "teal"
+        }
+      ],
+      "brandCollectionLink": {
+        "label": "Conheça Imaginação em Casa",
+        "href": "/colecoes/imaginacao-em-casa"
+      }
+    }
+  }
+}
