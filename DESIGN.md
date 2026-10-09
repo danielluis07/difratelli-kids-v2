@@ -1,10 +1,10 @@
 # Difratelli Kids design contract
 
-Status: source-consistency review complete; final handoff confirmation pending. Implementation has not begun.
+Status: accepted planning handoff following final human confirmation. Implementation has not begun.
 
 This document specifies presentation. [Implementation specification](docs/implementation-spec.md) owns content, routes, behavior, and acceptance; [implementation plan](docs/implementation-plan.md) records the agreed delivery sequence, ownership, and integration checkpoints. Use [GLOSSARY.md](GLOSSARY.md) for domain terms.
 
-Canonical issue resolutions govern these documents. Every section links its authority. Surface contradictions for a human decision rather than silently changing requirements. The human still settles completeness and sequencing in [Review implementation completeness and sequencing](https://github.com/danielluis07/difratelli-kids-v2/issues/19). Artifact roles and bounded implementer autonomy come from [Define implementation handoff artifacts and detail level](https://github.com/danielluis07/difratelli-kids-v2/issues/12#issuecomment-6086870693).
+Canonical issue resolutions govern these documents. Every section links its authority. Surface contradictions for a human decision rather than silently changing requirements. The human confirmed completeness and sequencing in [Review implementation completeness and sequencing](https://github.com/danielluis07/difratelli-kids-v2/issues/19). Artifact roles and bounded implementer autonomy come from [Define implementation handoff artifacts and detail level](https://github.com/danielluis07/difratelli-kids-v2/issues/12#issuecomment-6086870693).
 
 ## Visual direction
 

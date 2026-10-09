@@ -1,6 +1,6 @@
 # Difratelli Kids implementation specification
 
-Status: source-consistency review complete; final handoff confirmation pending. This specifies the future storefront; it does not claim implementation, approved production content, passing tests, or a deployment.
+Status: accepted planning handoff following final human confirmation. This specifies the future storefront; it does not claim implementation, approved production content, passing tests, or a deployment.
 
 [DESIGN.md](../DESIGN.md) owns presentation; [implementation plan](implementation-plan.md) records the agreed dependencies, ownership, and checkpoints. Use [GLOSSARY.md](../GLOSSARY.md) for Product, Collection, Matching set, Colorway, Color family, Catalog imagery, Editorial imagery, Child model, Simulated checkout, and Favorite.
 
@@ -10,7 +10,7 @@ Authority: [Define implementation handoff artifacts and detail level](https://gi
 
 Build a convincing fictional everyday kidswear showcase for prospective clients, ages 2–8, with accessible mid-range prices. Site copy is Brazilian Portuguese; documentation, communication, code, and identifiers are English. Bun is required. There is no backend implementation, catalog API, database, real order, payment, or purchase-contact endpoint.
 
-Canonical issue resolutions govern disagreements. This specification translates them into requirements without repeating discussions. Explicit later revisions replace the earlier approximate catalog quantities, alternating desktop hero, and unconditional actual-device coverage gate. Do not choose silently between conflicting requirements; surface a decision ticket. The final human review remains [Review implementation completeness and sequencing](https://github.com/danielluis07/difratelli-kids-v2/issues/19).
+Canonical issue resolutions govern disagreements. This specification translates them into requirements without repeating discussions. Explicit later revisions replace the earlier approximate catalog quantities, alternating desktop hero, and unconditional actual-device coverage gate. Do not choose silently between conflicting requirements; surface a decision ticket. Final human acceptance is recorded in [Review implementation completeness and sequencing](https://github.com/danielluis07/difratelli-kids-v2/issues/19).
 
 Implementers may choose function names, files within module boundaries, internal helpers, equivalent techniques, exact compatible dependency versions, and test organization while preserving these observable contracts. Changes to visual direction, shopping behavior, catalog scope, dependencies, or release policy require another human decision. The already selected Zustand, shadcn Sheet, Next image treatment, Playwright, Vitest, axe, and Vercel are standing constraints.
 
@@ -253,4 +253,4 @@ Paid hosting is acceptable if needed, but no plan/price/purchase is authorized. 
 
 ## Completeness boundaries
 
-All detailed prerequisite decisions are resolved. The final source-consistency review identified no substantive contradiction or new planning gap. Remaining creative content and measurements are explicitly governed production approvals, not agent-invented values. The human accepted the plan's sequence, ownership, and integration checkpoints; final shared-understanding confirmation is pending. There is no claim that the current starter implements these contracts or that the future catalog/assets/tests/hosting already exist. New specific gaps found in review become decision tickets and native blockers before proceeding.
+All detailed prerequisite decisions are resolved. The final source-consistency review identified no substantive contradiction or new planning gap. Remaining creative content and measurements are explicitly governed production approvals, not agent-invented values. The human accepted the plan's sequence, ownership, and integration checkpoints and confirmed the complete planning handoff. There is no claim that the current starter implements these contracts or that the future catalog/assets/tests/hosting already exist. New specific gaps found during subsequent work require a human decision before affected work proceeds.
