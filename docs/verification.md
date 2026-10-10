@@ -244,3 +244,47 @@ CRLF bytes retained on Windows. Git attributes now preserve those exact bytes,
 and the approved working-copy files have been restaged verbatim. Approval hashes
 and production content remain unchanged. CI's existing readiness checks guard
 this cross-platform regression.
+
+## Shareable listing controls (issue #32)
+
+Listings expose category, size, color-family and collection filters; collection
+routes omit the redundant collection control, and audience controls appear only
+on catalog/search routes. Desktop uses category-specific popovers; mobile/tablet
+uses a scrollable filter Sheet. Both presentations commit changes immediately
+through the existing browsing/URL interface. Sorting offers curated order and
+both price directions. Local optimistic selection feedback accompanies router
+navigation; the committed server results and restored selections come from the URL.
+Controls are disabled until hydration makes their handlers available; the public
+heading, count and product results remain readable during that interval.
+
+Incoming links are interpreted without replacement. User changes serialize valid
+unique values canonically and push history entries without scrolling the page.
+Reset clears filters/sort while retaining the route and normalized search query.
+Filtered empty states provide that same reset action. The search route reuses the
+listing so shared search links can expose all applicable controls; blank and
+unmatched-query states use approved search copy. Search entry/submission remains
+the responsibility of the next search slice.
+
+`tests/browser/browsing.spec.ts` covers repeated/invalid incoming parameters,
+canonical changes, reload/Back/Forward, each filter dimension, keyboard selection,
+price sorting and curated ties, zero-result scoped resets, fresh shopping
+navigation, irrelevant control omission, tablet/desktop continuity, axe and
+overlay focus return. These cases run against the production build in all five
+configured browser/viewport profiles. A delayed-JavaScript case also verifies
+that controls enable after hydration and then accept keyboard input. The browsing
+contract suite additionally checks repeated sizes/families/collections/audiences,
+malformed numbers/encoding,
+first scalars, colorway matching and scoped reset assortments. Existing catalog
+tests retain category-link navigation and default assortment checks.
+
+Local Windows verification on 2026-10-10 passed ESLint, Next route generation and
+TypeScript, approved content readiness, all 44 Vitest contract tests, and the
+production build. With `SITE_URL=http://127.0.0.1:3100` set before building,
+`bun run test:e2e -- --workers=2 --timeout=60000` passed all 100 production browser
+cases across Chromium, Firefox, WebKit, Pixel 7 and iPhone 13 emulation. The
+60-second per-test allowance accommodates the local Windows WebKit runtime;
+it changes no assertions. Desktop popover and mobile Sheet screenshots were
+inspected locally. `bun run test:dev` also passed its public-route and client
+navigation diagnostic scan with no blocking URL-data or hydration diagnostics.
+This evidence is for the local working tree; it does not claim
+remote CI, actual-device review, human integration acceptance or publication.

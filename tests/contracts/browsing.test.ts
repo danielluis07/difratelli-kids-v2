@@ -56,3 +56,28 @@ it("uses first colorway scalar and falls back without substitution", () => {
   expect(parseProductColor(product, new URLSearchParams("cor=cream&cor=leaf"))).toBe("cream");
   expect(parseProductColor(product, new URLSearchParams("cor=missing&cor=cream"))).toBe(product.defaultColorwayId);
 });
+it("collects valid unique values in every filter and ignores malformed numbers and encoded values", () => {
+  const params = new URLSearchParams("tamanho=4&tamanho=02&tamanho=2&tamanho=4&tamanho=6.0&familia=cream&familia=purple&familia=cream&familia=invalid&colecao=collection-002&colecao=collection-001&colecao=collection-002&publico=boys&publico=girls&publico=boys&q=ignored&cor=ignored");
+  const state = parseBrowseUrl(full, params);
+  expect(state.sizes).toEqual([2, 4]);
+  expect(state.families).toEqual(catalog.colorFamilies.filter((family) => ["cream", "purple"].includes(family.id)).map((family) => family.id));
+  expect(state.collections).toEqual(["collection-001", "collection-002"]);
+  expect(state.audiences).toEqual(["girls", "boys"]);
+  expect(state.query).toBe("");
+  expect(serializeBrowseUrl(full, state)).not.toMatch(/invalid|ignored|tamanho=02|tamanho=6\.0/);
+  expect(parseBrowseUrl(search, new URLSearchParams("q=&q=camiseta&ordem=&ordem=preco-desc")).query).toBe("");
+  expect(parseBrowseUrl(full, new URLSearchParams("categoria=%70olos&categoria=%ZZ")).categories).toEqual(["polos"]);
+});
+it("applies sizes with OR and color families across all offered colorways", () => {
+  const selected = parseBrowseUrl(full, new URLSearchParams("tamanho=2&tamanho=8&familia=cream&familia=purple&categoria=polos"));
+  expect(browse(full, selected).products.map((product) => product.id)).toEqual(["product-002", "product-011"]);
+  expect(browse(full, parseBrowseUrl(full, new URLSearchParams("tamanho=2&tamanho=8"))).count).toBe(30);
+});
+it("resets each route scope without losing its assortment", () => {
+  for (const [scope, count] of [[full, 30], [{ kind: "audience", audienceId: "boys" }, 18], [{ kind: "collection", collectionId: "collection-002" }, 10], [{ kind: "new-arrivals" }, 8]] as const) {
+    const state = parseBrowseUrl(scope, new URLSearchParams("categoria=polos&familia=purple&ordem=preco-desc"));
+    const reset = resetBrowseFilters(scope, state);
+    expect(serializeBrowseUrl(scope, reset)).toBe("");
+    expect(browse(scope, reset).count).toBe(count);
+  }
+});
