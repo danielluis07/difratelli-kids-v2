@@ -1,0 +1,16 @@
+{
+  "revision": "issue-29-package-v1",
+  "status": "pending-human-review",
+  "manifestPath": "docs/content/package-manifest.json",
+  "manifestSha256": "4870ba04fd459dd40b54ef04cd48944a52636c09265321080e8529465f1c2132",
+  "reviewPath": "docs/content/package-review.html",
+  "reviewSha256": "3aa192276a9b9388c59c88a8a1bff58c3acf2e1de5b8502e30c58c192570455b",
+  "reviewer": null,
+  "evidence": null,
+  "implementationAllowed": false,
+  "remainingGates": [
+    "Complete-package human approval",
+    "Storefront integration acceptance",
+    "Release approval"
+  ]
+}

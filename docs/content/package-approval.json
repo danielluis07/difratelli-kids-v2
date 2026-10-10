@@ -1,0 +1,22 @@
+{
+  "revision": "issue-29-package-v1",
+  "status": "approved",
+  "manifestPath": "docs/content/package-manifest.json",
+  "manifestSha256": "4870ba04fd459dd40b54ef04cd48944a52636c09265321080e8529465f1c2132",
+  "reviewPath": "docs/content/package-review.html",
+  "reviewSha256": "3aa192276a9b9388c59c88a8a1bff58c3acf2e1de5b8502e30c58c192570455b",
+  "reviewer": "The user in this conversation",
+  "evidence": {
+    "message": "revision approved",
+    "context": "User approval of issue-29-package-v1 following the complete production package review and font-folder clarification."
+  },
+  "implementationAllowed": true,
+  "remainingGates": [
+    "Storefront integration acceptance",
+    "Release approval"
+  ],
+  "recordedAtUtc": "2026-10-10T12:40:39.835Z",
+  "approvalRequestPath": "docs/content/package-approval-request.json",
+  "approvalRequestSha256": "9a37bd618f23be482e7781a57372ed4f350aa2552f9bd2402b83c759b580483a",
+  "scope": "Complete production package content gate only; integration and release gates remain separate."
+}
