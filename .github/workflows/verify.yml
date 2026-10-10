@@ -9,6 +9,8 @@ jobs:
   verify:
     runs-on: ubuntu-latest
     timeout-minutes: 25
+    env:
+      SITE_URL: http://127.0.0.1:3100
     steps:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v2
@@ -22,6 +24,7 @@ jobs:
       - run: bun run test:unit
       - run: bun run build
       - run: bun run test:e2e
+      - run: bun run test:dev
       - uses: actions/upload-artifact@v4
         if: always()
         with:

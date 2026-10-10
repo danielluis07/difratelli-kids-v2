@@ -11,7 +11,8 @@
     "validate:content": "bun scripts/validate-content.ts",
     "test:unit": "vitest run",
     "test:e2e": "playwright test",
-    "verify": "bun run lint && bun run typecheck && bun run validate:content && bun run test:unit && bun run build && bun run test:e2e"
+    "test:dev": "playwright test --config playwright.dev.config.ts",
+    "verify": "bun run lint && bun run typecheck && bun run validate:content && bun run test:unit && bun run build && bun run test:e2e && bun run test:dev"
   },
   "dependencies": {
     "@base-ui/react": "^1.9.0",
