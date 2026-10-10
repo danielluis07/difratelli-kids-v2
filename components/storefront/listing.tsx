@@ -1,7 +1,8 @@
 import { Suspense } from "react";
 import Link from "next/link";
-import { browse, parseBrowseUrl, type BrowseScope } from "@/lib/browsing";
-import { copy, type Product } from "@/lib/catalog";
+import { browse, parseBrowseUrl, type BrowseScope, type BrowseState } from "@/lib/browsing";
+import { catalog, copy, type Product } from "@/lib/catalog";
+import { BrowseControls, ResetBrowseFilters, type FilterGroup } from "./browse-controls";
 import { ProductGrid } from "./product-grid";
 import { Button } from "@/components/ui/button";
 import { Empty, EmptyHeader, EmptyTitle, EmptyDescription, EmptyContent } from "@/components/ui/empty";
@@ -15,20 +16,37 @@ export function urlParams(values: Awaited<SearchParams>) {
   return params;
 }
 
-function Results({ products }: { products: readonly Product[] }) {
+function Results({ products, scope, state }: { products: readonly Product[]; scope?: BrowseScope; state?: BrowseState }) {
   const count = products.length;
   const label = count === 0 ? copy.browsing.resultCount.zero : count === 1 ? copy.browsing.resultCount.one : copy.browsing.resultCount.many.replace("{count}", String(count));
   return <>
     <p className="result-count" role="status">{label}</p>
     {count ? <ProductGrid products={products} /> : <Empty>
       <EmptyHeader><EmptyTitle>{copy.browsing.emptyFilteredHeading}</EmptyTitle><EmptyDescription>{copy.browsing.emptyFilteredBody}</EmptyDescription></EmptyHeader>
-      <EmptyContent><Button nativeButton={false} role="link" render={<Link href="/produtos" />}>{copy.common.exploreProducts}</Button></EmptyContent>
+      <EmptyContent>{scope && state ? <ResetBrowseFilters scope={scope} state={state} /> : <Button nativeButton={false} role="link" render={<Link href="/produtos" />}>{copy.common.exploreProducts}</Button>}</EmptyContent>
     </Empty>}
   </>;
 }
 async function ScopedResults({ scope, searchParams }: { scope: BrowseScope; searchParams: SearchParams }) {
   const state = parseBrowseUrl(scope, urlParams(await searchParams));
-  return <Results products={browse(scope, state).products} />;
+  const groups: FilterGroup[] = [
+    { key: "categories", label: copy.browsing.category, options: catalog.categories.map((item) => ({ value: item.id, label: item.name })) },
+    { key: "sizes", label: copy.browsing.size, options: [2, 4, 6, 8].map((size) => ({ value: size, label: String(size) })) },
+    { key: "families", label: copy.browsing.colorFamily, options: catalog.colorFamilies.map((item) => ({ value: item.id, label: item.name })) },
+  ];
+  if (scope.kind !== "collection") groups.push({ key: "collections", label: copy.browsing.collection, options: catalog.collections.map((item) => ({ value: item.id, label: item.name })) });
+  if (scope.kind === "catalog" || scope.kind === "search") groups.push({ key: "audiences", label: copy.browsing.audience, options: catalog.audiences.map((item) => ({ value: item.id, label: item.name })) });
+  if (scope.kind === "search" && !state.query) return <p>{copy.search.blankBody}</p>;
+  const result = browse(scope, state);
+  const unfilteredSearch = scope.kind === "search" && !browse(scope, { ...state, categories: [], sizes: [], families: [], collections: [], audiences: [] }).count;
+  return <>
+    {scope.kind === "search" ? <p className="search-query">“{state.query}”</p> : null}
+    <BrowseControls scope={scope} state={state} groups={groups} />
+    {unfilteredSearch ? <>
+      <p className="result-count" role="status">{copy.browsing.resultCount.zero}</p>
+      <Empty><EmptyHeader><EmptyTitle>{copy.search.noResultsHeading.replace("{query}", state.query)}</EmptyTitle><EmptyDescription>{copy.search.noResultsBody}</EmptyDescription></EmptyHeader><EmptyContent><Button nativeButton={false} role="link" render={<Link href="/produtos" />}>{copy.search.noResultsAction}</Button></EmptyContent></Empty>
+    </> : <Results products={result.products} scope={scope} state={state} />}
+  </>;
 }
 
 export function Listing({ heading, intro, scope, searchParams }: { heading: string; intro: string; scope: BrowseScope; searchParams: SearchParams }) {
