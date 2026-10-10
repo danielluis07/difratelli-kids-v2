@@ -1,0 +1,440 @@
+{
+  "revision": "issue-28-editorial-v3",
+  "records": [
+    {
+      "id": "hero-left",
+      "role": "hero-left",
+      "collectionIds": [
+        "collection-001"
+      ],
+      "modelIds": [
+        "model-002"
+      ],
+      "alt": "Bia observa uma folha no quintal, usando vestido creme com estampas de folhas verdes e brotos amarelos; a parede clara deixa espaço para o texto.",
+      "usage": [
+        "homepage-hero-left"
+      ],
+      "variants": [
+        {
+          "name": "desktop",
+          "ratio": [
+            6,
+            5
+          ],
+          "focusY": 0.1,
+          "usage": [
+            "homepage-hero-left-desktop"
+          ]
+        },
+        {
+          "name": "desktop-narrow",
+          "ratio": [
+            4,
+            5
+          ],
+          "focusY": 0,
+          "usage": [
+            "homepage-hero-1024-to-1279"
+          ]
+        },
+        {
+          "name": "compact",
+          "ratio": [
+            3,
+            4
+          ],
+          "focusX": 0.9,
+          "usage": [
+            "homepage-hero-left-below-1024"
+          ]
+        },
+        {
+          "name": "tablet",
+          "ratio": [
+            2,
+            1
+          ],
+          "focusY": 0,
+          "usage": [
+            "homepage-hero-left-480-to-1023"
+          ],
+          "sourcePath": "C:/Users/bombd/.codex/generated_images/01a1257c-87a4-74e1-b475-dd2b22ec3a5e/exec-4ef7326d-3144-4e58-9fdb-05d33c6514da.png",
+          "originalPath": "assets/originals/editorial/hero-left-tablet-v2.png",
+          "referencePaths": [
+            "assets/originals/editorial/hero-left-v2.png",
+            "assets/originals/editorial/hero-left-tablet-v1.png"
+          ],
+          "prompt": "Use case: identity-preserve / background expansion. Create the wide 2:1 art-directed tablet hero variant of image 1. Preserve Bia model-002 EXACTLY as shown: 5-year-old fictional girl, fair freckled skin, green eyes, straight copper-red bob, cream short-sleeve botanical cotton dress with natural waist and gently gathered skirt, leaf-green and butter-yellow sprout print, neutral shoes, holding a leaf and looking down. Expand the same pale ivory plaster wall leftward and garden around her. Composition like image 2's wide garden background and negative space, but its old child must be replaced entirely by Bia in the dress from image 1. The whole child including hair, complete dress hem and shoes must fit on the right half at 75% image height with clear margins above and below. Keep left 45% clear light wall for text. Same warm daylight and soft shadows. No curly-haired toddler, T-shirt or shorts. No text, logos, watermark or extra people. Landscape 2:1 canvas safe for 1023x520 and 768x520 displays."
+        }
+      ],
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a1257c-87a4-74e1-b475-dd2b22ec3a5e/exec-972c9444-75ad-4878-8438-2ee9c9c1bcce.png",
+      "referencePaths": [
+        "assets/originals/editorial/hero-left-v1.png",
+        "assets/originals/cast/model-002-reference-v2.png",
+        "assets/originals/catalog/product-005-cream-leaf-butter-isolated-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve / precise-object-edit. Edit image 1, the garden homepage hero: replace the child with Bia, the EXACT fictional model-002 from image 2, age 5, fair skin, freckles, green eyes and straight copper-red chin-length bob. Dress her in the EXACT cream cotton botanical dress in image 3: short sleeves, rounded neck, natural-waist seam, gently gathered above-knee skirt, small green-leaf and butter-yellow sprout repeat consistent across bodice and skirt, no pockets, closures or accessories. No T-shirt or shorts. Preserve image 1's pale ivory plaster wall, garden, lighting, camera angle, natural leaf-discovery gesture, calm candid expression, right-hand subject placement and uncluttered lower-left text space. Keep all hair, face and whole dress visible with breathing room. Place the dress hem within the upper 65% of the image so desktop crops can retain the entire garment. Full body including neutral shoes, portrait 4:5 canvas. Do not copy image 1's original child's face, age, curly hair or skin tone. Identity must come only from image 2. No text, logos or watermark.",
+      "tool": "built-in image_gen",
+      "approvalStatus": "pending-human-review",
+      "textSafeArea": {
+        "placement": "lower-left",
+        "foreground": "#382C25",
+        "localScrim": "#FAF7F0 at 72% opacity",
+        "constraint": "No overlay across face or garments; verify at intended viewport sizes."
+      },
+      "version": 2,
+      "supersedes": "hero-left-v1",
+      "changeRequest": "The user requested replacing model-001 with model-002 and dressing her in a dress. Output approval remains pending."
+    },
+    {
+      "id": "hero-right",
+      "role": "hero-right",
+      "collectionIds": [
+        "collection-001"
+      ],
+      "modelIds": [
+        "model-006"
+      ],
+      "alt": "Davi descobre sementes no quintal, usando camisa polo creme lisa, sem estampas, e short verde-petróleo.",
+      "usage": [
+        "homepage-hero-right-desktop"
+      ],
+      "variants": [
+        {
+          "name": "desktop",
+          "ratio": [
+            6,
+            5
+          ],
+          "focusY": 0,
+          "usage": [
+            "homepage-hero-right-desktop"
+          ]
+        },
+        {
+          "name": "desktop-narrow",
+          "ratio": [
+            4,
+            5
+          ],
+          "focusY": 0,
+          "usage": [
+            "homepage-hero-1024-to-1279"
+          ]
+        },
+        {
+          "name": "compact",
+          "ratio": [
+            3,
+            4
+          ],
+          "focusX": 0.5,
+          "usage": [
+            "retained-alternative-not-used-in-compact-hero"
+          ]
+        }
+      ],
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a1257c-87a4-74e1-b475-dd2b22ec3a5e/exec-3ad9b434-628a-4b36-8aaf-5fe08ffde91e.png",
+      "referencePaths": [
+        "assets/originals/editorial/hero-right-v1.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Edit this exact fictional child editorial hero photograph. Change ONLY Davi model-006's botanical crew-neck T-shirt into a plain cream cotton pique short-sleeve polo shirt: soft folded polo collar, short center-front placket with two small tonal cream buttons, straight relaxed hip-length hem, tonal stitching, NO leaf/beetle print, no logo, no pocket, no contrasting trim. Preserve the cream garment color. Keep EXACT child identity, apparent age 4, face, skin, short curly hair, expression, pose, hands and seeds, teal shorts, neutral shoes, pale garden wall, planter and greenery, sunlight and camera framing. Natural realistic cotton pique texture and garment folds. Preserve the entire polo including collar and hem in frame. Do not alter the scene or add people, accessories, text or watermark. Same portrait 4:5 image and composition.",
+      "tool": "built-in image_gen",
+      "approvalStatus": "pending-human-review",
+      "version": 2,
+      "supersedes": "hero-right-v1",
+      "changeRequest": "The user requested choosing a male model to wear a polo shirt, with catalog work deferred, then clarified that the polo must have no drawing details. Davi model-006 was selected; output approval remains pending.",
+      "garmentContext": {
+        "category": "polo-shirt",
+        "description": "Plain cream short-sleeve polo; no print, embroidery, logo or decorative details.",
+        "catalogProductId": null,
+        "catalogIntegrationStatus": "deferred-by-user",
+        "approvalStatus": "pending-human-review"
+      }
+    },
+    {
+      "id": "collection-quintal",
+      "role": "collection",
+      "collectionIds": [
+        "collection-001"
+      ],
+      "modelIds": [
+        "model-001",
+        "model-006"
+      ],
+      "alt": "Lia e Davi exploram folhas junto a um canteiro, com camisetas de estampas botânicas e shorts verde-petróleo.",
+      "usage": [
+        "collection-opening",
+        "collection-index",
+        "homepage-collection-feature"
+      ],
+      "variants": [
+        {
+          "name": "desktop",
+          "ratio": [
+            16,
+            9
+          ],
+          "usage": [
+            "collection-opening",
+            "collection-index",
+            "homepage-collection-feature"
+          ]
+        },
+        {
+          "name": "compact",
+          "ratio": [
+            4,
+            3
+          ],
+          "usage": [
+            "collection-opening-compact",
+            "collection-index-compact",
+            "homepage-collection-feature-compact"
+          ]
+        }
+      ],
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a1257c-87a4-74e1-b475-dd2b22ec3a5e/exec-74a023b5-8430-4090-ab5b-93e6ecf74086.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-003-cream-butter-leaf-model-v1.png",
+        "assets/originals/catalog/product-006-cream-teal-leaf-model-v1.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Create ONE new editorial fashion photograph for Difratelli Kids, everyday Brazilian kidswear ages 2–8. Preserve the fictional child's face, age, body proportions and clothes from the reference. Natural candid childhood play, tactile cotton clothing, warm soft daylight, understated ivory/teal palette, realistic photography. No text, logos or watermarks. Keep all faces and complete outfits inside the central safe area, generous environmental margins. Wide 16:9 landscape collection opening: Quintal de Descobertas. Both referenced children kneel beside a small garden bed discovering leaves and seeds. Cream small botanical prints, teal shorts, restrained leaf green and butter yellow. Keep both children and entire clothes in central 65% width for safe 4:3 crop. Lush modest backyard, no extravagant styling.",
+      "tool": "built-in image_gen",
+      "approvalStatus": "pending-human-review"
+    },
+    {
+      "id": "collection-brincadeira",
+      "role": "collection",
+      "collectionIds": [
+        "collection-002"
+      ],
+      "modelIds": [
+        "model-006"
+      ],
+      "alt": "Davi desenha uma amarelinha com giz no pátio, usando camiseta azul-céu estampada e short verde-petróleo.",
+      "usage": [
+        "collection-opening",
+        "collection-index",
+        "homepage-collection-feature"
+      ],
+      "variants": [
+        {
+          "name": "desktop",
+          "ratio": [
+            16,
+            9
+          ],
+          "usage": [
+            "collection-opening",
+            "collection-index",
+            "homepage-collection-feature"
+          ]
+        },
+        {
+          "name": "compact",
+          "ratio": [
+            4,
+            3
+          ],
+          "usage": [
+            "collection-opening-compact",
+            "collection-index-compact",
+            "homepage-collection-feature-compact"
+          ]
+        }
+      ],
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a1257c-87a4-74e1-b475-dd2b22ec3a5e/exec-7c0d44d7-c2a0-46b3-9350-1b6f19440822.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-011-sky-teal-cream-model-v1.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Create ONE new editorial fashion photograph for Difratelli Kids, everyday Brazilian kidswear ages 2–8. Preserve the fictional child's face, age, body proportions and clothes from the reference. Natural candid childhood play, tactile cotton clothing, warm soft daylight, understated ivory/teal palette, realistic photography. No text, logos or watermarks. Keep all faces and complete outfits inside the central safe area, generous environmental margins. Wide 16:9 landscape collection opening: Brincadeira de Rua. Referenced boy drawing a simple hopscotch grid with chalk on a safe pedestrian patio with no cars. Sky blue printed T-shirt, teal shorts. Cream plaster wall, sky blue, teal, restrained coral chalk. Keep whole child including shoes and chalk activity in central 65% width for safe 4:3 crop.",
+      "tool": "built-in image_gen",
+      "approvalStatus": "pending-human-review"
+    },
+    {
+      "id": "collection-imaginacao",
+      "role": "collection",
+      "collectionIds": [
+        "collection-003"
+      ],
+      "modelIds": [
+        "model-002"
+      ],
+      "alt": "Bia monta uma cidade de blocos junto a uma cabana de manta, com blusa creme de traços lilás e pêssego e short verde-petróleo.",
+      "usage": [
+        "collection-opening",
+        "collection-index",
+        "homepage-collection-feature"
+      ],
+      "variants": [
+        {
+          "name": "desktop",
+          "ratio": [
+            16,
+            9
+          ],
+          "usage": [
+            "collection-opening",
+            "collection-index",
+            "homepage-collection-feature"
+          ]
+        },
+        {
+          "name": "compact",
+          "ratio": [
+            4,
+            3
+          ],
+          "usage": [
+            "collection-opening-compact",
+            "collection-index-compact",
+            "homepage-collection-feature-compact"
+          ]
+        }
+      ],
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a1257c-87a4-74e1-b475-dd2b22ec3a5e/exec-51b564e4-4f84-4042-ad67-3308a6c5f400.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-023-cream-lilac-peach-model-v1.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Create ONE new editorial fashion photograph for Difratelli Kids, everyday Brazilian kidswear ages 2–8. Preserve the fictional child's face, age, body proportions and clothes from the reference. Natural candid childhood play, tactile cotton clothing, warm soft daylight, understated ivory/teal palette, realistic photography. No text, logos or watermarks. Keep all faces and complete outfits inside the central safe area, generous environmental margins. Wide 16:9 landscape collection opening: Imaginação em Casa. Referenced girl seated on a cream woven rug building a small wooden block city beside an improvised blanket tent in a sunlit ordinary living room. Cream crayon printed top, teal shorts. Soft lilac and peach details. Entire body and complete clothes inside central 65% width for safe 4:3 crop.",
+      "tool": "built-in image_gen",
+      "approvalStatus": "pending-human-review"
+    },
+    {
+      "id": "brand-opening",
+      "role": "brand-opening",
+      "collectionIds": [
+        "collection-001",
+        "collection-003"
+      ],
+      "modelIds": [
+        "model-001",
+        "model-007"
+      ],
+      "alt": "Lia e Theo juntam folhas em uma tigela de madeira no quintal, com roupas creme e verde-petróleo.",
+      "usage": [
+        "brand-page-opening"
+      ],
+      "variants": [
+        {
+          "name": "desktop",
+          "ratio": [
+            16,
+            9
+          ],
+          "usage": [
+            "brand-page-opening"
+          ]
+        },
+        {
+          "name": "compact",
+          "ratio": [
+            4,
+            3
+          ],
+          "usage": [
+            "brand-page-opening-compact"
+          ]
+        }
+      ],
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a1257c-87a4-74e1-b475-dd2b22ec3a5e/exec-8373d77d-c2b0-47b8-89bc-97499220b570.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-003-cream-butter-leaf-model-v1.png",
+        "assets/originals/catalog/product-029-teal-model-v1.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Create ONE new editorial fashion photograph for Difratelli Kids, everyday Brazilian kidswear ages 2–8. Preserve the fictional child's face, age, body proportions and clothes from the reference. Natural candid childhood play, tactile cotton clothing, warm soft daylight, understated ivory/teal palette, realistic photography. No text, logos or watermarks. Keep all faces and complete outfits inside the central safe area, generous environmental margins. Wide 16:9 landscape brand-page opening. Both referenced children in a quiet sunlit backyard collecting fallen leaves together in a shallow wooden bowl. Candid exchange, visible outfits, everyday childhood. Ivory wall, leaves, natural earthy texture. Entire children in central 65% width, safe 4:3 crop. No slogan.",
+      "tool": "built-in image_gen",
+      "approvalStatus": "pending-human-review"
+    },
+    {
+      "id": "brand-play",
+      "role": "brand-section",
+      "collectionIds": [
+        "collection-003"
+      ],
+      "modelIds": [
+        "model-002"
+      ],
+      "alt": "Bia desenha estrelas e brinca com blocos no tapete de casa, usando blusa creme estampada e short verde-petróleo.",
+      "usage": [
+        "brand-page-section-play",
+        "homepage-brand-introduction"
+      ],
+      "variants": [
+        {
+          "name": "desktop",
+          "ratio": [
+            4,
+            3
+          ],
+          "usage": [
+            "brand-page-section-play",
+            "homepage-brand-introduction"
+          ]
+        },
+        {
+          "name": "compact",
+          "ratio": [
+            4,
+            3
+          ],
+          "usage": [
+            "brand-page-section-play-compact",
+            "homepage-brand-introduction-compact"
+          ]
+        }
+      ],
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a1257c-87a4-74e1-b475-dd2b22ec3a5e/exec-a9cca983-790f-4659-85a6-4d502844316d.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-023-cream-lilac-peach-model-v1.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Create ONE new editorial fashion photograph for Difratelli Kids, everyday Brazilian kidswear ages 2–8. Preserve the fictional child's face, age, body proportions and clothes from the reference. Natural candid childhood play, tactile cotton clothing, warm soft daylight, understated ivory/teal palette, realistic photography. No text, logos or watermarks. Keep all faces and complete outfits inside the central safe area, generous environmental margins. Landscape 4:3 brand storytelling section Uma ideia vira brincadeira. Referenced girl seated at home on an ivory rug arranging wooden blocks and drawing simple stars on paper with crayons. Natural engrossed expression, visible cream printed cotton top and teal shorts. A modest folded blanket tent behind, soft lilac and peach accents. All child and garment visible in frame with generous margins.",
+      "tool": "built-in image_gen",
+      "approvalStatus": "pending-human-review"
+    },
+    {
+      "id": "brand-combinations",
+      "role": "brand-section",
+      "collectionIds": [
+        "collection-003"
+      ],
+      "modelIds": [
+        "model-007"
+      ],
+      "alt": "Theo escolhe uma camiseta junto ao banco de madeira, usando camiseta creme e calça verde-petróleo.",
+      "usage": [
+        "brand-page-section-combinations"
+      ],
+      "variants": [
+        {
+          "name": "desktop",
+          "ratio": [
+            4,
+            3
+          ],
+          "usage": [
+            "brand-page-section-combinations"
+          ]
+        },
+        {
+          "name": "compact",
+          "ratio": [
+            4,
+            3
+          ],
+          "usage": [
+            "brand-page-section-combinations-compact"
+          ]
+        }
+      ],
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a1257c-87a4-74e1-b475-dd2b22ec3a5e/exec-56af9720-e167-451a-9a97-8934be92e583.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-029-teal-model-v1.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Create ONE new editorial fashion photograph for Difratelli Kids, everyday Brazilian kidswear ages 2–8. Preserve the fictional child's face, age, body proportions and clothes from the reference. Natural candid childhood play, tactile cotton clothing, warm soft daylight, understated ivory/teal palette, realistic photography. No text, logos or watermarks. Keep all faces and complete outfits inside the central safe area, generous environmental margins. Landscape 4:3 brand storytelling section Peças para combinar do seu jeito. Referenced boy standing at home next to a low wooden bench with two neatly folded cream and soft lilac cotton tops, choosing one with a natural gesture. His plain cream T-shirt and full teal pull-on trousers clearly visible, no fly. Entire head, outfit and shoes comfortably inside frame, warm ivory walls, calm ordinary interior.",
+      "tool": "built-in image_gen",
+      "approvalStatus": "pending-human-review"
+    }
+  ]
+}

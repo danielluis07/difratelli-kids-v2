@@ -1,0 +1,752 @@
+{
+  "revision": "issue-28-editorial-v4",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/28",
+  "approvalStatus": "approved",
+  "technicalStatus": "passed",
+  "assets": [
+    {
+      "id": "hero-left-v2",
+      "role": "hero-left",
+      "collectionIds": [
+        "collection-001"
+      ],
+      "modelIds": [
+        "model-002"
+      ],
+      "originalPath": "assets/originals/editorial/hero-left-v2.png",
+      "originalSha256": "10ab733db5e273fe2951beb8fdaf89476d8a03d602fc9fc3a43492cb9bc98e14",
+      "width": 1122,
+      "height": 1402,
+      "originalBytes": 2247058,
+      "alt": "Bia observa uma folha no quintal, usando vestido creme com estampas de folhas verdes e brotos amarelos; a parede clara deixa espaço para o texto.",
+      "usage": [
+        "homepage-hero-left"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/editorial/hero-left-v1.png",
+          "sha256": "311b775da539f7e61d46388698bf5254403e9072bb6a1ebc89470355acce17b7"
+        },
+        {
+          "path": "assets/originals/cast/model-002-reference-v2.png",
+          "sha256": "c29fb497afb76beb42db5c7671b463d9f8261f94dc1bcebfd1d8821eae59a367"
+        },
+        {
+          "path": "assets/originals/catalog/product-005-cream-leaf-butter-isolated-v2.png",
+          "sha256": "96dddf848de4a9bbc02163025de2c0b167b4882a634cd85037ee629657aa0939"
+        }
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "6:5",
+          "sourceRect": {
+            "left": 0,
+            "top": 47,
+            "width": 1122,
+            "height": 935
+          },
+          "derivative": null,
+          "width": 1122,
+          "height": 935,
+          "webPath": "public/images/editorial/hero-left-desktop-v2.webp",
+          "src": "/images/editorial/hero-left-desktop-v2.webp",
+          "sha256": "00985aaca2c81e182a85278d03537b025632cc6970d28bdde425fdac20da3325",
+          "bytes": 139470,
+          "usage": [
+            "homepage-hero-left-desktop"
+          ],
+          "approvalStatus": "approved"
+        },
+        {
+          "name": "desktop-narrow",
+          "ratio": "4:5",
+          "sourceRect": {
+            "left": 1,
+            "top": 0,
+            "width": 1120,
+            "height": 1400
+          },
+          "derivative": null,
+          "width": 1120,
+          "height": 1400,
+          "webPath": "public/images/editorial/hero-left-desktop-narrow-v2.webp",
+          "src": "/images/editorial/hero-left-desktop-narrow-v2.webp",
+          "sha256": "b64f3665ea4950231844c381d16bcf186570f588bbf12781d27d33ae1bfccd9a",
+          "bytes": 232162,
+          "usage": [
+            "homepage-hero-1024-to-1279"
+          ],
+          "approvalStatus": "approved"
+        },
+        {
+          "name": "compact",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 65,
+            "top": 1,
+            "width": 1050,
+            "height": 1400
+          },
+          "derivative": null,
+          "width": 1050,
+          "height": 1400,
+          "webPath": "public/images/editorial/hero-left-compact-v2.webp",
+          "src": "/images/editorial/hero-left-compact-v2.webp",
+          "sha256": "185f583a756c4f791f6785a8073f961aefe3ee03036a6f8665ba4710c0b11684",
+          "bytes": 221690,
+          "usage": [
+            "homepage-hero-left-below-1024"
+          ],
+          "approvalStatus": "approved"
+        },
+        {
+          "name": "tablet",
+          "ratio": "2:1",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1774,
+            "height": 887
+          },
+          "derivative": {
+            "originalPath": "assets/originals/editorial/hero-left-tablet-v2.png",
+            "originalSha256": "e805349b4895c715d8463f192bb77134159308c9cb0fa08c90d2962ca19d8bae",
+            "width": 1774,
+            "height": 887,
+            "bytes": 2463470,
+            "prompt": "Use case: identity-preserve / background expansion. Create the wide 2:1 art-directed tablet hero variant of image 1. Preserve Bia model-002 EXACTLY as shown: 5-year-old fictional girl, fair freckled skin, green eyes, straight copper-red bob, cream short-sleeve botanical cotton dress with natural waist and gently gathered skirt, leaf-green and butter-yellow sprout print, neutral shoes, holding a leaf and looking down. Expand the same pale ivory plaster wall leftward and garden around her. Composition like image 2's wide garden background and negative space, but its old child must be replaced entirely by Bia in the dress from image 1. The whole child including hair, complete dress hem and shoes must fit on the right half at 75% image height with clear margins above and below. Keep left 45% clear light wall for text. Same warm daylight and soft shadows. No curly-haired toddler, T-shirt or shorts. No text, logos, watermark or extra people. Landscape 2:1 canvas safe for 1023x520 and 768x520 displays.",
+            "referencePaths": [
+              "assets/originals/editorial/hero-left-v2.png",
+              "assets/originals/editorial/hero-left-tablet-v1.png"
+            ],
+            "tool": "built-in image_gen"
+          },
+          "width": 1774,
+          "height": 887,
+          "webPath": "public/images/editorial/hero-left-tablet-v2.webp",
+          "src": "/images/editorial/hero-left-tablet-v2.webp",
+          "sha256": "4fb36a4a2d1b261fdf83e249bddf8359599ca248f28c7516ab7e81b6a73e53ca",
+          "bytes": 303982,
+          "usage": [
+            "homepage-hero-left-480-to-1023"
+          ],
+          "approvalStatus": "approved"
+        }
+      ],
+      "textSafeArea": {
+        "placement": "lower-left",
+        "foreground": "#382C25",
+        "localScrim": "#FAF7F0 at 72% opacity",
+        "constraint": "No overlay across face or garments; verify at intended viewport sizes."
+      },
+      "approvalStatus": "approved",
+      "technicalStatus": "passed",
+      "visualReview": "Approved by the user for editorial use; see editorial-approval.json."
+    },
+    {
+      "id": "hero-right-v3",
+      "role": "hero-right",
+      "collectionIds": [
+        "collection-001"
+      ],
+      "modelIds": [
+        "model-006"
+      ],
+      "originalPath": "assets/originals/editorial/hero-right-v3.png",
+      "originalSha256": "d54111f5c6a515d175df576f32ea48c723365546cef14759451acca860157efe",
+      "width": 1122,
+      "height": 1402,
+      "originalBytes": 2532036,
+      "alt": "Davi descobre sementes no quintal, usando camisa polo creme lisa e short areia.",
+      "usage": [
+        "homepage-hero-right-desktop"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/editorial/hero-right-v2.png",
+          "sha256": "9c05ae7f8148a90e3fcf4d03387877bee611eff21ecbc176ed7a32200b57481a"
+        }
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "6:5",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1122,
+            "height": 935
+          },
+          "derivative": null,
+          "width": 1122,
+          "height": 935,
+          "webPath": "public/images/editorial/hero-right-desktop-v3.webp",
+          "src": "/images/editorial/hero-right-desktop-v3.webp",
+          "sha256": "b88971c96648ae835b5687a434b84757929baf095686a05bba493826c62adc5f",
+          "bytes": 175348,
+          "usage": [
+            "homepage-hero-right-desktop"
+          ],
+          "approvalStatus": "approved"
+        },
+        {
+          "name": "desktop-narrow",
+          "ratio": "4:5",
+          "sourceRect": {
+            "left": 1,
+            "top": 0,
+            "width": 1120,
+            "height": 1400
+          },
+          "derivative": null,
+          "width": 1120,
+          "height": 1400,
+          "webPath": "public/images/editorial/hero-right-desktop-narrow-v3.webp",
+          "src": "/images/editorial/hero-right-desktop-narrow-v3.webp",
+          "sha256": "07256d3ae104f892956cf6b954ccb8a31e6fa93c8771ae6c74bd45cc30718eb3",
+          "bytes": 304448,
+          "usage": [
+            "homepage-hero-1024-to-1279"
+          ],
+          "approvalStatus": "approved"
+        },
+        {
+          "name": "compact",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 36,
+            "top": 1,
+            "width": 1050,
+            "height": 1400
+          },
+          "derivative": null,
+          "width": 1050,
+          "height": 1400,
+          "webPath": "public/images/editorial/hero-right-compact-v3.webp",
+          "src": "/images/editorial/hero-right-compact-v3.webp",
+          "sha256": "891b6b873ee3c20a7b189564ebc7d738cef8373eee7338a3cdf07ca800816d2d",
+          "bytes": 283404,
+          "usage": [
+            "retained-alternative-not-used-in-compact-hero"
+          ],
+          "approvalStatus": "approved"
+        }
+      ],
+      "textSafeArea": null,
+      "approvalStatus": "approved",
+      "technicalStatus": "passed",
+      "visualReview": "Approved by the user for editorial use; see editorial-approval.json.",
+      "garmentContext": {
+        "category": "polo-shirt",
+        "description": "Plain cream polo without drawings, print, embroidery or logos; shorts recolored to sand #D6BE96.",
+        "catalogProductId": null,
+        "catalogIntegrationStatus": "deferred-by-user",
+        "approvalStatus": "approved-for-editorial-use"
+      }
+    },
+    {
+      "id": "collection-quintal-v2",
+      "role": "collection",
+      "collectionIds": [
+        "collection-001"
+      ],
+      "modelIds": [
+        "model-001",
+        "model-006"
+      ],
+      "originalPath": "assets/originals/editorial/collection-quintal-v2.png",
+      "originalSha256": "3c92403a2234ea435e9eb259fec75e180d59821ae712fd1b9bf637b2be0dbe7d",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 2469332,
+      "alt": "Lia, com short areia, e Davi, com short verde-petróleo, exploram folhas junto a um canteiro usando camisetas de estampas botânicas.",
+      "usage": [
+        "collection-opening",
+        "collection-index",
+        "homepage-collection-feature"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/editorial/collection-quintal-v1.png",
+          "sha256": "2db4742e800eb8987dca0ff33302d297d2541935ae3d2e1cd02af246406a621f"
+        }
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "16:9",
+          "sourceRect": {
+            "left": 4,
+            "top": 3,
+            "width": 1664,
+            "height": 936
+          },
+          "derivative": null,
+          "width": 1664,
+          "height": 936,
+          "webPath": "public/images/editorial/collection-quintal-desktop-v2.webp",
+          "src": "/images/editorial/collection-quintal-desktop-v2.webp",
+          "sha256": "5545e8fb3646347fc2d66c57207b88b104b98f5abc2ef205220eabe91f2fbe25",
+          "bytes": 285428,
+          "usage": [
+            "collection-opening",
+            "collection-index",
+            "homepage-collection-feature"
+          ],
+          "approvalStatus": "approved"
+        },
+        {
+          "name": "compact",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 210,
+            "top": 1,
+            "width": 1252,
+            "height": 939
+          },
+          "derivative": null,
+          "width": 1252,
+          "height": 939,
+          "webPath": "public/images/editorial/collection-quintal-compact-v2.webp",
+          "src": "/images/editorial/collection-quintal-compact-v2.webp",
+          "sha256": "d71c0c3f5fabd6250fd79cf2507bd8bf72d63aa289e21f7dfb0e292110e4f13e",
+          "bytes": 220826,
+          "usage": [
+            "collection-opening-compact",
+            "collection-index-compact",
+            "homepage-collection-feature-compact"
+          ],
+          "approvalStatus": "approved"
+        }
+      ],
+      "textSafeArea": null,
+      "approvalStatus": "approved",
+      "technicalStatus": "passed",
+      "visualReview": "Approved by the user for editorial use; see editorial-approval.json.",
+      "garmentContext": {
+        "description": "Lia's shorts recolored to sand #D6BE96; Davi retains teal shorts.",
+        "catalogProductId": null,
+        "catalogIntegrationStatus": "deferred-by-user",
+        "approvalStatus": "approved-for-editorial-use"
+      }
+    },
+    {
+      "id": "collection-brincadeira-v2",
+      "role": "collection",
+      "collectionIds": [
+        "collection-002"
+      ],
+      "modelIds": [
+        "model-006"
+      ],
+      "originalPath": "assets/originals/editorial/collection-brincadeira-v2.png",
+      "originalSha256": "ba29cab2c83221a2217c2c5c94b6f80074c381c10ad19ca98d305913baaaccd4",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 2194637,
+      "alt": "Davi desenha uma amarelinha com giz no pátio, usando camiseta azul-céu estampada e short azul-céu liso.",
+      "usage": [
+        "collection-opening",
+        "collection-index",
+        "homepage-collection-feature"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/editorial/collection-brincadeira-v1.png",
+          "sha256": "2e9d1f11ecc4f7e40efa80f8bf14099c70b75ad7f52eed317ceb9b25772bef6e"
+        }
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "16:9",
+          "sourceRect": {
+            "left": 4,
+            "top": 3,
+            "width": 1664,
+            "height": 936
+          },
+          "derivative": null,
+          "width": 1664,
+          "height": 936,
+          "webPath": "public/images/editorial/collection-brincadeira-desktop-v2.webp",
+          "src": "/images/editorial/collection-brincadeira-desktop-v2.webp",
+          "sha256": "623f9d26cfdd5452652534d4e06aa30f4c897030380dcf8986ce32174cc1f91e",
+          "bytes": 229796,
+          "usage": [
+            "collection-opening",
+            "collection-index",
+            "homepage-collection-feature"
+          ],
+          "approvalStatus": "approved"
+        },
+        {
+          "name": "compact",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 210,
+            "top": 1,
+            "width": 1252,
+            "height": 939
+          },
+          "derivative": null,
+          "width": 1252,
+          "height": 939,
+          "webPath": "public/images/editorial/collection-brincadeira-compact-v2.webp",
+          "src": "/images/editorial/collection-brincadeira-compact-v2.webp",
+          "sha256": "0763163b1e078b80062793baab63120ddbd41b03c4f8c99888933412df1e91ca",
+          "bytes": 173780,
+          "usage": [
+            "collection-opening-compact",
+            "collection-index-compact",
+            "homepage-collection-feature-compact"
+          ],
+          "approvalStatus": "approved"
+        }
+      ],
+      "textSafeArea": null,
+      "approvalStatus": "approved",
+      "technicalStatus": "passed",
+      "visualReview": "Approved by the user for editorial use; see editorial-approval.json.",
+      "garmentContext": {
+        "description": "Shorts recolored to sky blue #A9CCE0.",
+        "catalogProductId": null,
+        "catalogIntegrationStatus": "deferred-by-user",
+        "approvalStatus": "approved-for-editorial-use"
+      }
+    },
+    {
+      "id": "collection-imaginacao-v2",
+      "role": "collection",
+      "collectionIds": [
+        "collection-003"
+      ],
+      "modelIds": [
+        "model-003"
+      ],
+      "originalPath": "assets/originals/editorial/collection-imaginacao-v2.png",
+      "originalSha256": "01313a3ae797355bdea7ddf6429ddc130da00fa899596742aa819b41e590fe28",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 2164133,
+      "alt": "Nina monta uma cidade de blocos junto a uma cabana de manta, com blusa creme de traços lilás e pêssego e short azul-céu.",
+      "usage": [
+        "collection-opening",
+        "collection-index",
+        "homepage-collection-feature"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/editorial/collection-imaginacao-v1.png",
+          "sha256": "97efdf1d0643feb776b9d5a9049596018e1c8427a3c4f0f61e35502f2b14393d"
+        }
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "16:9",
+          "sourceRect": {
+            "left": 4,
+            "top": 3,
+            "width": 1664,
+            "height": 936
+          },
+          "derivative": null,
+          "width": 1664,
+          "height": 936,
+          "webPath": "public/images/editorial/collection-imaginacao-desktop-v2.webp",
+          "src": "/images/editorial/collection-imaginacao-desktop-v2.webp",
+          "sha256": "fda9cc1e0b211b7ed9ab0a659dc9b51cd1ec42c6b8363959b6f09ffc8fedfb1b",
+          "bytes": 226226,
+          "usage": [
+            "collection-opening",
+            "collection-index",
+            "homepage-collection-feature"
+          ],
+          "approvalStatus": "approved"
+        },
+        {
+          "name": "compact",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 210,
+            "top": 1,
+            "width": 1252,
+            "height": 939
+          },
+          "derivative": null,
+          "width": 1252,
+          "height": 939,
+          "webPath": "public/images/editorial/collection-imaginacao-compact-v2.webp",
+          "src": "/images/editorial/collection-imaginacao-compact-v2.webp",
+          "sha256": "132b35c8aca09eca54dc5976e6cc8a89962043ee82c6a9a0916e591d1d88fff4",
+          "bytes": 162730,
+          "usage": [
+            "collection-opening-compact",
+            "collection-index-compact",
+            "homepage-collection-feature-compact"
+          ],
+          "approvalStatus": "approved"
+        }
+      ],
+      "textSafeArea": null,
+      "approvalStatus": "approved",
+      "technicalStatus": "passed",
+      "visualReview": "Approved by the user for editorial use; see editorial-approval.json.",
+      "garmentContext": {
+        "description": "Shorts recolored to sky blue #A9CCE0.",
+        "catalogProductId": null,
+        "catalogIntegrationStatus": "deferred-by-user",
+        "approvalStatus": "approved-for-editorial-use"
+      }
+    },
+    {
+      "id": "brand-opening-v2",
+      "role": "brand-opening",
+      "collectionIds": [
+        "collection-001",
+        "collection-003"
+      ],
+      "modelIds": [
+        "model-001",
+        "model-007"
+      ],
+      "originalPath": "assets/originals/editorial/brand-opening-v2.png",
+      "originalSha256": "66e1c9bd5ef36b60955f182ac0a28c99aae14daa30518a16f133f7e0018391c0",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 2718178,
+      "alt": "Lia, com short areia, e Theo, com camiseta vermelha de ursinho e calça azul-céu, juntam folhas em uma tigela de madeira no quintal.",
+      "usage": [
+        "brand-page-opening"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/editorial/brand-opening-v1.png",
+          "sha256": "ea802c8a6ae7c22318a0b89475e18c0a45bd66a82e15fbe106a8c9d8434d4d02"
+        },
+        {
+          "path": "assets/originals/editorial/brand-combinations-v2.png",
+          "sha256": "03bb8c039bbe7f51b1cd16a54e1a8a1f03fdb3c2ce710b6d0d7e20c166508b2a"
+        }
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "16:9",
+          "sourceRect": {
+            "left": 4,
+            "top": 3,
+            "width": 1664,
+            "height": 936
+          },
+          "derivative": null,
+          "width": 1664,
+          "height": 936,
+          "webPath": "public/images/editorial/brand-opening-desktop-v2.webp",
+          "src": "/images/editorial/brand-opening-desktop-v2.webp",
+          "sha256": "41b0c29fb0f8f00be9949b9cede9a7797c03edbcd418cda9441701657f9ec177",
+          "bytes": 356968,
+          "usage": [
+            "brand-page-opening"
+          ],
+          "approvalStatus": "approved"
+        },
+        {
+          "name": "compact",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 210,
+            "top": 1,
+            "width": 1252,
+            "height": 939
+          },
+          "derivative": null,
+          "width": 1252,
+          "height": 939,
+          "webPath": "public/images/editorial/brand-opening-compact-v2.webp",
+          "src": "/images/editorial/brand-opening-compact-v2.webp",
+          "sha256": "a12c866a88bbf82e445d780a377daf14826f8dee4da7fcde43d5cf174c69347b",
+          "bytes": 249954,
+          "usage": [
+            "brand-page-opening-compact"
+          ],
+          "approvalStatus": "approved"
+        }
+      ],
+      "textSafeArea": null,
+      "approvalStatus": "approved",
+      "technicalStatus": "passed",
+      "visualReview": "Approved by the user for editorial use; see editorial-approval.json.",
+      "garmentContext": {
+        "description": "Lia's shorts recolored to sand #D6BE96; Theo wears the same red bear T-shirt and sky-blue trousers as brand-combinations.",
+        "catalogProductId": null,
+        "catalogIntegrationStatus": "deferred-by-user",
+        "approvalStatus": "approved-for-editorial-use"
+      }
+    },
+    {
+      "id": "brand-play-v2",
+      "role": "brand-section",
+      "collectionIds": [
+        "collection-003"
+      ],
+      "modelIds": [
+        "model-003"
+      ],
+      "originalPath": "assets/originals/editorial/brand-play-v2.png",
+      "originalSha256": "c4f228755a44c8320a368208e365622bf2382d6839c49b5b4e76c1d08275ebbc",
+      "width": 1448,
+      "height": 1086,
+      "originalBytes": 2102969,
+      "alt": "Nina desenha estrelas e brinca com blocos no tapete de casa, usando blusa creme estampada e short azul-céu.",
+      "usage": [
+        "brand-page-section-play",
+        "homepage-brand-introduction"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/editorial/brand-play-v1.png",
+          "sha256": "6dd704b67918126aeab72115911a54fa681e9582833b05e31bb749e1e8ad48c5"
+        }
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1448,
+            "height": 1086
+          },
+          "derivative": null,
+          "width": 1448,
+          "height": 1086,
+          "webPath": "public/images/editorial/brand-play-desktop-v2.webp",
+          "src": "/images/editorial/brand-play-desktop-v2.webp",
+          "sha256": "7444359f056952b131194cda59d30542d6a346a2fab10f439b3d9218372e6457",
+          "bytes": 203666,
+          "usage": [
+            "brand-page-section-play",
+            "homepage-brand-introduction"
+          ],
+          "approvalStatus": "approved"
+        },
+        {
+          "name": "compact",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1448,
+            "height": 1086
+          },
+          "derivative": null,
+          "width": 1448,
+          "height": 1086,
+          "webPath": "public/images/editorial/brand-play-compact-v2.webp",
+          "src": "/images/editorial/brand-play-compact-v2.webp",
+          "sha256": "7444359f056952b131194cda59d30542d6a346a2fab10f439b3d9218372e6457",
+          "bytes": 203666,
+          "usage": [
+            "brand-page-section-play-compact",
+            "homepage-brand-introduction-compact"
+          ],
+          "approvalStatus": "approved"
+        }
+      ],
+      "textSafeArea": null,
+      "approvalStatus": "approved",
+      "technicalStatus": "passed",
+      "visualReview": "Approved by the user for editorial use; see editorial-approval.json.",
+      "garmentContext": {
+        "description": "Shorts recolored to sky blue #A9CCE0.",
+        "catalogProductId": null,
+        "catalogIntegrationStatus": "deferred-by-user",
+        "approvalStatus": "approved-for-editorial-use"
+      }
+    },
+    {
+      "id": "brand-combinations-v2",
+      "role": "brand-section",
+      "collectionIds": [
+        "collection-003"
+      ],
+      "modelIds": [
+        "model-007"
+      ],
+      "originalPath": "assets/originals/editorial/brand-combinations-v2.png",
+      "originalSha256": "03bb8c039bbe7f51b1cd16a54e1a8a1f03fdb3c2ce710b6d0d7e20c166508b2a",
+      "width": 1448,
+      "height": 1086,
+      "originalBytes": 1988358,
+      "alt": "Theo escolhe uma camiseta junto ao banco de madeira, usando camiseta vermelha com um grande desenho de ursinho e calça azul-céu.",
+      "usage": [
+        "brand-page-section-combinations"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/editorial/brand-combinations-v1.png",
+          "sha256": "131580dfda385ac53c243be812cdc5f6d4b9c42d25abd819c476b9bd33366383"
+        }
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1448,
+            "height": 1086
+          },
+          "derivative": null,
+          "width": 1448,
+          "height": 1086,
+          "webPath": "public/images/editorial/brand-combinations-desktop-v2.webp",
+          "src": "/images/editorial/brand-combinations-desktop-v2.webp",
+          "sha256": "6ca74c5ac2b925dcaa6300fd18df22e9dd90f99c70c63dfe28d4e241aa790875",
+          "bytes": 156764,
+          "usage": [
+            "brand-page-section-combinations"
+          ],
+          "approvalStatus": "approved"
+        },
+        {
+          "name": "compact",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1448,
+            "height": 1086
+          },
+          "derivative": null,
+          "width": 1448,
+          "height": 1086,
+          "webPath": "public/images/editorial/brand-combinations-compact-v2.webp",
+          "src": "/images/editorial/brand-combinations-compact-v2.webp",
+          "sha256": "6ca74c5ac2b925dcaa6300fd18df22e9dd90f99c70c63dfe28d4e241aa790875",
+          "bytes": 156764,
+          "usage": [
+            "brand-page-section-combinations-compact"
+          ],
+          "approvalStatus": "approved"
+        }
+      ],
+      "textSafeArea": null,
+      "approvalStatus": "approved",
+      "technicalStatus": "passed",
+      "visualReview": "Approved by the user for editorial use; see editorial-approval.json.",
+      "garmentContext": {
+        "description": "Warm red #C8443D T-shirt with a large original seated tan teddy-bear illustration; trousers recolored to sky blue #A9CCE0.",
+        "catalogProductId": null,
+        "catalogIntegrationStatus": "deferred-by-user",
+        "approvalStatus": "approved-for-editorial-use"
+      }
+    }
+  ],
+  "approvalSource": "docs/content/editorial-approval.json"
+}

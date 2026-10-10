@@ -1,0 +1,80 @@
+{
+  "revision": "issue-28-identity-v1",
+  "approvalStatus": "approved",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/28",
+  "palette": {
+    "ivory": "#FAF7F0",
+    "brown": "#382C25",
+    "teal": "#246B63",
+    "butter": "#F2D477",
+    "coral": "#E9A18F"
+  },
+  "typography": {
+    "wordmark": "Fraunces 600 / optical size 72 / SOFT 50 / WONK 1",
+    "descriptor": "DM Sans 500 / optical size 22"
+  },
+  "editing": "SVG paths and groups are editable; outlined glyphs render without font installation. Rerun the source script with retained OFL fonts to edit wording.",
+  "assets": [
+    {
+      "id": "favicon-v1",
+      "path": "public/identity/favicon-v1.svg",
+      "sha256": "2e3f0830c0bed89d5eb93ff239283eaee54a7e319102a46f598ff9f96e004d00",
+      "format": "editable-svg",
+      "approvalStatus": "approved"
+    },
+    {
+      "id": "motif-chalk-path-v1",
+      "path": "public/identity/motif-chalk-path-v1.svg",
+      "sha256": "f513fb4a92b812b36f468057d56997b8f0f8bfe737273b1d3060dae191d16b5c",
+      "format": "editable-svg",
+      "approvalStatus": "approved"
+    },
+    {
+      "id": "motif-spark-v1",
+      "path": "public/identity/motif-spark-v1.svg",
+      "sha256": "766eb1f7da39e6b4efe25e3c2bed137c80ec0cb3c7a59e6b49934566faac3dc4",
+      "format": "editable-svg",
+      "approvalStatus": "approved"
+    },
+    {
+      "id": "motif-sprout-v1",
+      "path": "public/identity/motif-sprout-v1.svg",
+      "sha256": "9673276c2d8f895d3a6620e92e35aeca4cd0f59e06a700adf4c37954fb433c10",
+      "format": "editable-svg",
+      "approvalStatus": "approved"
+    },
+    {
+      "id": "wordmark-brown-v1",
+      "path": "public/identity/wordmark-brown-v1.svg",
+      "sha256": "bc7498cfac658e4dfa0cc97283210185bbe400bc7f38aaf11c74a32ddb7a11fd",
+      "format": "editable-svg",
+      "approvalStatus": "approved"
+    },
+    {
+      "id": "wordmark-white-v1",
+      "path": "public/identity/wordmark-white-v1.svg",
+      "sha256": "dc27fdbe6184654a127266391be776cf3c1b29882682877c9f68469bbe3355b6",
+      "format": "editable-svg",
+      "approvalStatus": "approved"
+    }
+  ],
+  "fonts": [
+    {
+      "path": "assets/identity/fonts/DM-Sans-OFL.txt",
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    },
+    {
+      "path": "assets/identity/fonts/DM-Sans-variable.ttf",
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+    },
+    {
+      "path": "assets/identity/fonts/Fraunces-OFL.txt",
+      "sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b"
+    },
+    {
+      "path": "assets/identity/fonts/Fraunces-variable.ttf",
+      "sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb"
+    }
+  ],
+  "approvalSource": "docs/content/identity-approval.json"
+}
