@@ -1,13 +1,10 @@
-import { Geist, Geist_Mono, Inter } from "next/font/google";
+import localFont from "next/font/local";
 
-export const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
-
-export const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+export const dmSans = localFont({
+  src: "../assets/identity/fonts/DM-Sans-variable.ttf",
+  variable: "--font-shopping", display: "swap", weight: "100 1000",
 });
-
-export const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+export const fraunces = localFont({
+  src: "../assets/identity/fonts/Fraunces-variable.ttf",
+  variable: "--font-editorial", display: "swap", weight: "100 900",
 });

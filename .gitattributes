@@ -1,6 +1,6 @@
 # Content approval records bind exact JSON bytes to SHA-256 hashes.
 # Preserve those bytes across Windows and Unix checkouts.
-docs/content/*.json -text
+docs/content/*.json -text whitespace=cr-at-eol
 # The complete-package approval also binds the visual review's exact bytes.
 docs/content/package-review.html -text
 # Historical approval snapshots must retain their exact source bytes too.
@@ -9,3 +9,5 @@ docs/content/catalog-revisions/** -text whitespace=cr-at-eol
 assets/identity/fonts/* -text
 # Preserve upstream license formatting verbatim.
 assets/identity/fonts/*OFL.txt whitespace=-blank-at-eol
+# Approved SVG hashes include their original line endings; do not normalize.
+public/identity/*.svg -text whitespace=cr-at-eol

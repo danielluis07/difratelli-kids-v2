@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import { checkContentReadiness } from "./lib/catalog/readiness";
 
 const nextConfig: NextConfig = {
   /* config options here */
@@ -17,4 +18,8 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+export default async function configuration(): Promise<NextConfig> {
+  const result = await checkContentReadiness();
+  if (!result.valid) throw new Error(result.diagnostics.map(({ record, field, message }) => `${record}.${field}: ${message}`).join("\n"));
+  return nextConfig;
+}

@@ -1,7 +1,10 @@
+import { copy } from "@/lib/catalog";
+
 export default function Home() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </div>
+    <main>
+      <h1>{copy.editorial.hero.heading}</h1>
+      <p>{copy.editorial.hero.support}</p>
+    </main>
   );
 }
