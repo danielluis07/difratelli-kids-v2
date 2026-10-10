@@ -1,0 +1,785 @@
+{
+  "revision": "issue-26-brincadeira-v1",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/26",
+  "collectionId": "collection-002",
+  "status": "approved",
+  "approvalStatus": "approved",
+  "records": [
+    {
+      "productId": "product-011",
+      "colorwayId": "sky-teal-cream",
+      "collectionId": "collection-002",
+      "modelId": "model-006",
+      "photographedSize": 4,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-011-sky-teal-cream-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-006-reference-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve. Product-011 sky-teal-cream model-first catalog photograph, Difratelli Kids Brincadeira de Rua. Reference is APPROVED FICTIONAL child Davi, model-006 age 4: preserve exact face, deep brown skin, dark brown eyes, round cheeks, short tightly coiled black hair and child proportions. Wear photographed size 4 Camiseta Volta de Bicicleta: cotton single jersey 160 g/m², straight short-sleeve T-shirt with rib crew neck, hip length. Sky blue #A9CCE0 base; sparse looping chalk-texture bicycle paths with occasional simple wheel motifs in cream #F3EBDD and deep teal #246B63, thin 2–3 mm strokes. No lettering, logos, embroidery, added pockets or trim. Plain neutral shorts and shoes as supporting styling only. Frontal relaxed full-body pose with arms clear of the complete untucked garment. Entire head, shirt, legs and shoes in frame with breathing room. Opaque white seamless background, neutral soft studio light, natural cotton texture. Native output exactly 3:4, request 1536 x 2048 or larger, mandatory minimum 1200 x 1600 pixels. No props, text, watermark, accessories, extra seams or garment features.",
+      "alt": "Davi usando Camiseta Volta de Bicicleta na cor Azul-céu, verde-petróleo, creme, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a1230f-4aec-7170-8b8c-3959771375da/exec-1429477a-3911-4b6f-9e4c-5579e52a5c1b.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "fa3b9f59784ec7c387a523449c5ee9d5e6c67105cbca7839a0c9b38cfb241bff",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-011",
+      "colorwayId": "sky-teal-cream",
+      "collectionId": "collection-002",
+      "modelId": null,
+      "photographedSize": 4,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-011-sky-teal-cream-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-011-sky-teal-cream-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. product-011-sky-teal-cream-isolated-v1 catalog isolated photograph. Input image is the EXACT worn photograph; reproduce its featured Camiseta Volta de Bicicleta without redesign. Extract ONLY the featured garment; exclude all supporting clothes and shoes. Photorealistic front-facing invisible-mannequin presentation, neatly shaped without person, body parts, visible mannequin, hanger, labels or accessories. Preserve precise print motifs, scale, placement, colors, collar, sleeves, seams, hem, waistband, pockets and fabric of reference. Approved garment: Cotton single jersey, 160 g/m²; Straight short-sleeve jersey T-shirt; rib crew neck; hip length. Print: Looping chalk-texture bicycle paths, 2–3 mm strokes with occasional simple wheels, cream and teal on sky blue; no text. Color placement: Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Azul-céu #A9CCE0, Verde-petróleo #246B63, Creme #F3EBDD. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native 1086 x 1448 or larger, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly.",
+      "alt": "Camiseta Volta de Bicicleta na cor Azul-céu, verde-petróleo, creme, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-ac963baf-fe5d-4b5f-83dd-a927f56b1a6b.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "a32ec4c915f3c64b835de87363c7cecca7a4d59ae338da8c635f76fa774b076f",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-012",
+      "colorwayId": "cream-sky-coral",
+      "collectionId": "collection-002",
+      "modelId": "model-007",
+      "photographedSize": 6,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-012-cream-sky-coral-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-007-reference-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve. product-012-cream-sky-coral-model-v1 model-first catalog photograph, Difratelli Kids Brincadeira de Rua. Input 1 is APPROVED FICTIONAL child identity Theo model-007, age 6: Light skin with freckles; green eyes; oval face; slightly tousled short sandy blond hair. Preserve exact face, apparent age, hair and child proportions. Wear photographed size 6 Camiseta Riscos de Giz. Approved garment: Cotton single jersey, 160 g/m²; Straight short-sleeve jersey T-shirt; rib crew neck; hip length. Print: Irregular chalk-like stripes, 3–5 mm strokes, blue and coral on cream; loosely scattered diagonal groups, no lettering. Color placement: Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Creme #F3EBDD, Azul-céu #A9CCE0, Coral suave #E9A18F. Frontal relaxed full-body pose, arms down clear of garment, no hands in pockets, head and shoes entirely visible. Plain neutral supporting shorts and shoes; featured top untucked and fully visible. Sparse small print motifs at specified physical scale, no oversized repeat. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native 1086 x 1448 or larger, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly.",
+      "alt": "Theo usando Camiseta Riscos de Giz na cor Creme, azul-céu, coral suave, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-4baf28b6-978b-4917-98e7-687728fa42ca.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "0792f699b22c1042752a3355dcca629495b1b4404d484e515c3d6555dffa4de2",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-012",
+      "colorwayId": "cream-sky-coral",
+      "collectionId": "collection-002",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-012-cream-sky-coral-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-012-cream-sky-coral-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. product-012-cream-sky-coral-isolated-v1 catalog isolated photograph. Input image is the EXACT worn photograph; reproduce its featured Camiseta Riscos de Giz without redesign. Extract ONLY the featured garment; exclude all supporting clothes and shoes. Photorealistic front-facing invisible-mannequin presentation, neatly shaped without person, body parts, visible mannequin, hanger, labels or accessories. Preserve precise print motifs, scale, placement, colors, collar, sleeves, seams, hem, waistband, pockets and fabric of reference. Approved garment: Cotton single jersey, 160 g/m²; Straight short-sleeve jersey T-shirt; rib crew neck; hip length. Print: Irregular chalk-like stripes, 3–5 mm strokes, blue and coral on cream; loosely scattered diagonal groups, no lettering. Color placement: Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Creme #F3EBDD, Azul-céu #A9CCE0, Coral suave #E9A18F. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native 1086 x 1448 or larger, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly.",
+      "alt": "Camiseta Riscos de Giz na cor Creme, azul-céu, coral suave, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-fd7664b8-dffe-4e3f-be4d-af58fe6fb640.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "fc37bd0a6602cf90678d757d5606a1225760fbac3d9d659bf906b86e0019de59",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-013",
+      "colorwayId": "cream-coral-teal",
+      "collectionId": "collection-002",
+      "modelId": "model-002",
+      "photographedSize": 6,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-013-cream-coral-teal-model-v2.png",
+      "referencePaths": [
+        "assets/originals/cast/model-002-reference-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. product-013-cream-coral-teal-model-v2 model-first catalog photograph, Difratelli Kids Brincadeira de Rua. Input 1 is APPROVED FICTIONAL child identity Bia model-002, age 5: Light skin with a few freckles; green eyes; oval face; straight copper-red chin-length bob. Preserve exact face, apparent age, hair and child proportions. Wear photographed size 6 Camiseta Pula Amarelinha. Approved garment: Cotton single jersey, 160 g/m²; Straight short-sleeve jersey T-shirt; crew neck; no gathers or ties. Print: Small incomplete hopscotch grids, 30–40 mm, coral and teal on cream; no numbers or typography. Color placement: Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Creme #F3EBDD, Coral suave #E9A18F, Verde-petróleo #246B63. Frontal relaxed full-body pose, arms down clear of garment, no hands in pockets, head and shoes entirely visible. Plain neutral supporting shorts and shoes; featured top untucked and fully visible. Sparse small print motifs at specified physical scale, no oversized repeat. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly.",
+      "alt": "Bia usando Camiseta Pula Amarelinha na cor Creme, coral suave, verde-petróleo, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-94fe296e-4cc5-4764-9f13-dbd90eeac70e.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "5a160967db49aa2d289affbc07e66d12c4561ed0e39e88fd332ca96fc9d8a221",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-013",
+      "colorwayId": "cream-coral-teal",
+      "collectionId": "collection-002",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-013-cream-coral-teal-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-013-cream-coral-teal-model-v2.png"
+      ],
+      "prompt": "Use case: product-mockup. product-013-cream-coral-teal-isolated-v1 catalog isolated photograph. Input image is the EXACT worn photograph; reproduce its featured Camiseta Pula Amarelinha without redesign. Extract ONLY the featured garment; exclude all supporting clothes and shoes. Photorealistic front-facing invisible-mannequin presentation, neatly shaped without person, body parts, visible mannequin, hanger, labels or accessories. Preserve precise print motifs, scale, placement, colors, collar, sleeves, seams, hem, waistband, pockets and fabric of reference. Approved garment: Cotton single jersey, 160 g/m²; Straight short-sleeve jersey T-shirt; crew neck; no gathers or ties. Print: Small incomplete hopscotch grids, 30–40 mm, coral and teal on cream; no numbers or typography. Color placement: Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Creme #F3EBDD, Coral suave #E9A18F, Verde-petróleo #246B63. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly.",
+      "alt": "Camiseta Pula Amarelinha na cor Creme, coral suave, verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-b8c46052-67d1-4848-9816-12d5951c767b.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "1576f7b9d89993e83aa2d6c3a7b2da020987a5269b7884f8f1fabfd88cc462a3",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-014",
+      "colorwayId": "sky-cream-coral",
+      "collectionId": "collection-002",
+      "modelId": "model-004",
+      "photographedSize": 8,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-014-sky-cream-coral-model-v2.png",
+      "referencePaths": [
+        "assets/originals/cast/model-004-reference-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. product-014-sky-cream-coral-model-v2 model-first catalog photograph, Difratelli Kids Brincadeira de Rua. Input 1 is APPROVED FICTIONAL child identity Iara model-004, age 8: Fair skin; blue eyes; oval face; natural golden-blonde shoulder-length hair worn loose with a simple side part. Preserve exact face, apparent age, hair and child proportions. Wear photographed size 8 Vestido Desenho na Calçada. Approved garment: Cotton single jersey, 160 g/m²; Jersey dress; short sleeves; round neck; natural-waist seam; gently gathered skirt; no closures or pockets. Print: Chalk-like irregular stripes and small looping paths, cream and coral on sky blue; airy 25–40 mm motif groups. Color placement: Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Azul-céu #A9CCE0, Creme #F3EBDD, Coral suave #E9A18F. Frontal relaxed full-body pose, arms down clear of garment, no hands in pockets, head and shoes entirely visible. Plain neutral supporting shorts and shoes; featured top untucked and fully visible. Sparse small print motifs at specified physical scale, no oversized repeat. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly. Critical correction: print small sparse discrete chalk-mark groups only 25–40 mm wide, around one eighth of chest width. Reduce all motif groups to HALF the size of broad stripes, leave plenty of unprinted blue space. Do not create long stripes spanning the torso.",
+      "alt": "Iara usando Vestido Desenho na Calçada na cor Azul-céu, creme, coral suave, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-2e851e49-0f4e-498f-b704-57c18d0d6678.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "f6bb5afb4022b61534dcf734f99c46ad44bd193ba10bf7ab9f0cc3a9baa81e85",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-014",
+      "colorwayId": "sky-cream-coral",
+      "collectionId": "collection-002",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-014-sky-cream-coral-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-014-sky-cream-coral-model-v2.png"
+      ],
+      "prompt": "Use case: product-mockup. product-014-sky-cream-coral-isolated-v1 catalog isolated photograph. Input image is the EXACT worn photograph; reproduce its featured Vestido Desenho na Calçada without redesign. Extract ONLY the featured garment; exclude all supporting clothes and shoes. Photorealistic front-facing invisible-mannequin presentation, neatly shaped without person, body parts, visible mannequin, hanger, labels or accessories. Preserve precise print motifs, scale, placement, colors, collar, sleeves, seams, hem, waistband, pockets and fabric of reference. Approved garment: Cotton single jersey, 160 g/m²; Jersey dress; short sleeves; round neck; natural-waist seam; gently gathered skirt; no closures or pockets. Print: Chalk-like irregular stripes and small looping paths, cream and coral on sky blue; airy 25–40 mm motif groups. Color placement: Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Azul-céu #A9CCE0, Creme #F3EBDD, Coral suave #E9A18F. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly.",
+      "alt": "Vestido Desenho na Calçada na cor Azul-céu, creme, coral suave, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-36011da9-d1e9-407a-bbb4-40fc139a680e.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "8b28f5b4871833f8cf2d7a2d708397f1b50a09676a06581bf9bc5112027c95bb",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-015",
+      "colorwayId": "cream-sky-teal",
+      "collectionId": "collection-002",
+      "modelId": "model-007",
+      "photographedSize": 6,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-015-cream-sky-teal-model-v4.png",
+      "referencePaths": [
+        "assets/originals/cast/model-007-reference-v1.png",
+        "assets/originals/catalog-rejected/product-015-cream-sky-teal-model-v2.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Input 1 approved fictional child Theo identity, input 2 edit target product-015 matching set. Preserve exact child face, hair, age 6, pose, lighting, white background and whole-body framing of input2. Correct BOTH garments. T-shirt: cream cotton jersey, crew neck short sleeves, reduce every teal/sky-blue looping path motif to HALF its current size; each small discrete loop 25–40 mm, sparse spacing, no whole bicycles or wheels, no text. Shorts: replace current twill fly-front shorts completely with SOLID deep teal #246B63 soft cotton JERSEY elastic-waist shorts, mid thigh, two side seam pockets only. Smooth center front with just the normal crotch seam, NO fly outline, zipper topstitching, vertical flap, zipper, button, belt loop or drawstring. Keep T-shirt untucked. Both pieces fully visible. Do not copy shorts from casting reference. Exactly 1086 x 1448 native pixels, mandatory width 1086 height 1448, never 1087 x 1447, portrait 3:4, no watermark, props or added embellishments. Preserve all other details.",
+      "alt": "Theo usando Conjunto Volta na Rua na cor Creme, azul-céu, verde-petróleo, com as duas peças inteiras visíveis sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-ec43d1c5-82f2-41cf-a3fd-4e7a92ba59b4.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "3d6219b030270f2482ad6192fc6bbe703fc940e26442dfd7bb609b56d2866524",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-015",
+      "colorwayId": "cream-sky-teal",
+      "collectionId": "collection-002",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-015-cream-sky-teal-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-015-cream-sky-teal-model-v4.png"
+      ],
+      "prompt": "Use case: product-mockup. product-015-cream-sky-teal-isolated-v1 catalog isolated photograph. Input image is the EXACT worn photograph; reproduce its featured Conjunto Volta na Rua without redesign. Show BOTH complete set pieces separately, top above shorts, not overlapping, as one matching set. Photorealistic front-facing invisible-mannequin presentation, neatly shaped without person, body parts, visible mannequin, hanger, labels or accessories. Preserve precise print motifs, scale, placement, colors, collar, sleeves, seams, hem, waistband, pockets and fabric of reference. Approved garment: Cotton single jersey, 160 g/m²; Two jersey pieces: short-sleeve crew-neck T-shirt and plain teal shorts with elastic waist, two side pockets, no drawstring. Print: Looping bicycle paths, 25–40 mm, sky blue and teal on cream T-shirt; shorts plain teal. Color placement: Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: Two jersey pieces: short-sleeve crew-neck T-shirt and plain teal shorts with elastic waist, two side pockets, no drawstring.. Colors: Creme #F3EBDD, Azul-céu #A9CCE0, Verde-petróleo #246B63. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly.",
+      "alt": "Conjunto Volta na Rua na cor Creme, azul-céu, verde-petróleo, com as duas peças apresentadas sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-de1c8903-ecd9-4814-aa79-14fa60017e5c.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "4f78bde9ef3b84463273e4e7eb8710dd002b4b6e07f8dd0ea6cf410d80138cb4",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-016",
+      "colorwayId": "cream-coral-teal",
+      "collectionId": "collection-002",
+      "modelId": "model-003",
+      "photographedSize": 6,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-016-cream-coral-teal-model-v2.png",
+      "referencePaths": [
+        "assets/originals/cast/model-003-reference-v2.png",
+        "assets/originals/catalog-rejected/product-016-cream-coral-teal-model-v1.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Input 1 is approved fictional child Nina identity, input 2 is edit target matching-set photograph. Keep exact face, hair, age 6, proportions, pose, white background, light and full-body framing. Change print scale ONLY: reduce every cream top's coral and teal hopscotch motif to HALF its current size, 30–40 mm physical width, around one eighth of chest width, with sparse generous blank spacing and no numbers. Preserve broad straps, round neck, straight hem and cotton jersey. Coral cotton JERSEY shorts are elastic waist, no pockets or pocket outlines, ties, fly outline, zipper, ruffles or decoration; only normal center crotch and side construction seams. Both pieces visible fully. Output EXACT native 1086 x 1448 pixels, portrait 3:4. No logos, text, watermark or props.",
+      "alt": "Nina usando Conjunto Pulo de Giz na cor Creme, coral suave, verde-petróleo, com as duas peças inteiras visíveis sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-51ebdd06-445e-4c4d-9b74-d20a08013bf7.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "7d2af4345969da018d6950e8fceeed6a76a999161985026aa876ca74850cccea",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-016",
+      "colorwayId": "cream-coral-teal",
+      "collectionId": "collection-002",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-016-cream-coral-teal-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-016-cream-coral-teal-model-v2.png"
+      ],
+      "prompt": "Use case: product-mockup. product-016-cream-coral-teal-isolated-v1 catalog isolated photograph. Input image is the EXACT worn photograph; reproduce its featured Conjunto Pulo de Giz without redesign. Show BOTH complete set pieces separately, top above shorts, not overlapping, as one matching set. Photorealistic front-facing invisible-mannequin presentation, neatly shaped without person, body parts, visible mannequin, hanger, labels or accessories. Preserve precise print motifs, scale, placement, colors, collar, sleeves, seams, hem, waistband, pockets and fabric of reference. Approved garment: Cotton single jersey, 160 g/m²; Two jersey pieces: broad-strap sleeveless round-neck top and plain coral elastic-waist shorts; straight hems, no ties or pockets. Print: Small hopscotch-grid outlines, 30–40 mm, coral and teal on cream top, no numbers; shorts solid coral. Color placement: Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: Two jersey pieces: broad-strap sleeveless round-neck top and plain coral elastic-waist shorts; straight hems, no ties or pockets.. Colors: Creme #F3EBDD, Coral suave #E9A18F, Verde-petróleo #246B63. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly.",
+      "alt": "Conjunto Pulo de Giz na cor Creme, coral suave, verde-petróleo, com as duas peças apresentadas sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-aca459be-8638-439a-bcf4-f7e614041d63.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "5272f41bb2b7e30569cee00760760f0b04ead8e396e891d8ce7d282ba9f8c094",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-017",
+      "colorwayId": "sky",
+      "collectionId": "collection-002",
+      "modelId": "model-002",
+      "photographedSize": 6,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-017-sky-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-002-reference-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. product-017-sky-model-v1 model-first catalog photograph, Difratelli Kids Brincadeira de Rua. Input 1 is APPROVED FICTIONAL child identity Bia model-002, age 5: Light skin with a few freckles; green eyes; oval face; straight copper-red chin-length bob. Preserve exact face, apparent age, hair and child proportions. Wear photographed size 6 Blusa Céu da Rua. Approved garment: Cotton-elastane fine rib, 180 g/m²; Cotton-elastane fine-rib top; broad shoulder straps; rounded neckline; straight hip-length hem; no trim or closure. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Azul-céu #A9CCE0. Frontal relaxed full-body pose, arms down clear of garment, no hands in pockets, head and shoes entirely visible. Plain neutral supporting shorts and shoes; featured top untucked and fully visible. Sparse small print motifs at specified physical scale, no oversized repeat. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly.",
+      "alt": "Bia usando Blusa Céu da Rua na cor Azul-céu, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-e1bfc18f-61c6-40a7-9057-f5a686e355bc.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "6f7d92efce958ac4906dd8f3f66204f04d4fb86138469a1f2b550db1591c114c",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-017",
+      "colorwayId": "sky",
+      "collectionId": "collection-002",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-017-sky-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-017-sky-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. product-017-sky-isolated-v1 catalog isolated photograph. Input image is the EXACT worn photograph; reproduce its featured Blusa Céu da Rua without redesign. Extract ONLY the featured garment; exclude all supporting clothes and shoes. Photorealistic front-facing invisible-mannequin presentation, neatly shaped without person, body parts, visible mannequin, hanger, labels or accessories. Preserve precise print motifs, scale, placement, colors, collar, sleeves, seams, hem, waistband, pockets and fabric of reference. Approved garment: Cotton-elastane fine rib, 180 g/m²; Cotton-elastane fine-rib top; broad shoulder straps; rounded neckline; straight hip-length hem; no trim or closure. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Azul-céu #A9CCE0. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly.",
+      "alt": "Blusa Céu da Rua na cor Azul-céu, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-e82ab42a-668c-4448-bf03-62cd312bb98f.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "291f60e2da15b044d50419d47b3beaf75eef6e93d0335ed5b9ac9498d3482a8e",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-017",
+      "colorwayId": "cream",
+      "collectionId": "collection-002",
+      "modelId": "model-002",
+      "photographedSize": 6,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-017-cream-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-002-reference-v2.png",
+        "assets/originals/catalog/product-017-sky-model-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve. product-017-cream-model-v1 model-first catalog photograph, Difratelli Kids Brincadeira de Rua. Input 1 is APPROVED FICTIONAL child identity Bia model-002, age 5: Light skin with a few freckles; green eyes; oval face; straight copper-red chin-length bob. Preserve exact face, apparent age, hair and child proportions. Input 2 is the same product in the first colorway: preserve garment silhouette and construction; change only the featured garment color to this colorway. Wear photographed size 6 Blusa Céu da Rua. Approved garment: Cotton-elastane fine rib, 180 g/m²; Cotton-elastane fine-rib top; broad shoulder straps; rounded neckline; straight hip-length hem; no trim or closure. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Creme #F3EBDD. Frontal relaxed full-body pose, arms down clear of garment, no hands in pockets, head and shoes entirely visible. Plain neutral supporting shorts and shoes; featured top untucked and fully visible. Sparse small print motifs at specified physical scale, no oversized repeat. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly.",
+      "alt": "Bia usando Blusa Céu da Rua na cor Creme, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-e80bde68-ba36-43d4-82b7-055c38c07f21.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "b148b0ecf2dbc7a1f276a20953f7ccd37472906d627675791ec84bc9c77b9937",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-017",
+      "colorwayId": "cream",
+      "collectionId": "collection-002",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-017-cream-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-017-cream-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. product-017-cream-isolated-v1 catalog isolated photograph. Input image is the EXACT worn photograph; reproduce its featured Blusa Céu da Rua without redesign. Extract ONLY the featured garment; exclude all supporting clothes and shoes. Photorealistic front-facing invisible-mannequin presentation, neatly shaped without person, body parts, visible mannequin, hanger, labels or accessories. Preserve precise print motifs, scale, placement, colors, collar, sleeves, seams, hem, waistband, pockets and fabric of reference. Approved garment: Cotton-elastane fine rib, 180 g/m²; Cotton-elastane fine-rib top; broad shoulder straps; rounded neckline; straight hip-length hem; no trim or closure. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Creme #F3EBDD. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly.",
+      "alt": "Blusa Céu da Rua na cor Creme, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-4a645ba9-fc2d-4d3a-8f5d-2a1e9cb43eea.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "94526e690fda5b2c41548013ecb08fee40a3d477e0657eac11e0fef8160cdd80",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-018",
+      "colorwayId": "sky",
+      "collectionId": "collection-002",
+      "modelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-018-sky-model-v2.png",
+      "referencePaths": [
+        "assets/originals/cast/model-008-reference-v1.png",
+        "assets/originals/catalog-rejected/product-018-sky-model-v1.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Input1 is approved fictional child Noah, input2 edit target. Preserve exact Noah face, age 8, hair, pose, tucked cream T-shirt, shoes, white background and lighting. Correct ONLY sky-blue #A9CCE0 cotton-stretch twill shorts. SHORTEN legs to MID THIGH: hems halfway between hip and knee, not just above knees. Keep loose straight legs, elastic gathered waistband, exactly two side pockets, tonal stitching. Remove curved faux-fly seam completely; center front is PLAIN apart from one straight center crotch construction seam. No zipper, button, fly flap, drawstring, cargo pocket, belt loops or logos. Entire waistband, pockets and hems visible. Exact native 1086 x 1448 pixels, 3:4 portrait, no crop or enlargement.",
+      "alt": "Noah usando Short Vai e Vem na cor Azul-céu, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-7724edab-fe5e-451a-a733-e232e9fbb556.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "97f0ba87941a7ed4ac536f53a9c85597d7de0ec37b2bc35f764784ac25d4d9b3",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-018",
+      "colorwayId": "sky",
+      "collectionId": "collection-002",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-018-sky-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-018-sky-model-v2.png"
+      ],
+      "prompt": "Use case: product-mockup. product-018-sky-isolated-v1 catalog isolated photograph. Input image is the EXACT worn photograph; reproduce its featured Short Vai e Vem without redesign. Extract ONLY the featured garment; exclude all supporting clothes and shoes. Photorealistic front-facing invisible-mannequin presentation, neatly shaped without person, body parts, visible mannequin, hanger, labels or accessories. Preserve precise print motifs, scale, placement, colors, collar, sleeves, seams, hem, waistband, pockets and fabric of reference. Approved garment: Cotton-stretch twill, 190 g/m²; Cotton-stretch twill shorts; elastic waist; two side pockets; no drawstring or cargo pockets. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Azul-céu #A9CCE0. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly.",
+      "alt": "Short Vai e Vem na cor Azul-céu, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-f28d5bb4-8176-4013-8bf2-ce784c445a1c.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "e1d4a302e7da2b12f02a9e2b567c9a701a6de75e713f2d86369e35354834db15",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-018",
+      "colorwayId": "teal",
+      "collectionId": "collection-002",
+      "modelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-018-teal-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-008-reference-v1.png",
+        "assets/originals/catalog/product-018-sky-model-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. product-018-teal-model-v1 model-first catalog photograph, Difratelli Kids Brincadeira de Rua. Input 1 is APPROVED FICTIONAL child identity Noah model-008, age 8: Medium olive skin; brown eyes; long oval face; short dark-brown wavy hair. Preserve exact face, apparent age, hair and child proportions. Input 2 is the same product in the first colorway: preserve garment silhouette and construction; change only the featured garment color to this colorway. Wear photographed size 8 Short Vai e Vem. Approved garment: Cotton-stretch twill, 190 g/m²; Cotton-stretch twill shorts; elastic waist; two side pockets; no drawstring or cargo pockets. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Verde-petróleo #246B63. Frontal relaxed full-body pose, arms down clear of garment, no hands in pockets, head and shoes entirely visible. Plain neutral top tucked up enough to show entire waistband and pockets; simple neutral shoes. Featured bottom fully visible. Sparse small print motifs at specified physical scale, no oversized repeat. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly. Critical: supporting plain cream short-sleeve T-shirt neatly tucked INSIDE waistband so the full gathered elastic waistband and both side pockets are visible. Generate a NEW featured bottom per brief, do not keep casting reference shorts. No fly outline, faux-fly stitching, zipper, button, belt loops, drawstring, cargo pockets or extra embellishment. Normal center crotch seam only. Featured shorts must end at MID THIGH, halfway between hip and knee, NOT near knee.",
+      "alt": "Noah usando Short Vai e Vem na cor Verde-petróleo, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-d452f7bb-d248-442c-9044-c336b742320d.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "02f5a501a5dc9c16670ca84227c58d4fb04468e1fb59ed6a55984ecb05288540",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-018",
+      "colorwayId": "teal",
+      "collectionId": "collection-002",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-018-teal-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-018-teal-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. product-018-teal-isolated-v1 catalog isolated photograph. Input image is the EXACT worn photograph; reproduce its featured Short Vai e Vem without redesign. Extract ONLY the featured garment; exclude all supporting clothes and shoes. Photorealistic front-facing invisible-mannequin presentation, neatly shaped without person, body parts, visible mannequin, hanger, labels or accessories. Preserve precise print motifs, scale, placement, colors, collar, sleeves, seams, hem, waistband, pockets and fabric of reference. Approved garment: Cotton-stretch twill, 190 g/m²; Cotton-stretch twill shorts; elastic waist; two side pockets; no drawstring or cargo pockets. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Verde-petróleo #246B63. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly.",
+      "alt": "Short Vai e Vem na cor Verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-00fbcc13-e7f0-44a1-9058-e8a002bb6dcd.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "4b1704fe6ad2593a036506ba4aca3b83cb7286231c97d4fcaa5588698e4a8102",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-019",
+      "colorwayId": "coral",
+      "collectionId": "collection-002",
+      "modelId": "model-006",
+      "photographedSize": 4,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-019-coral-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-006-reference-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve. product-019-coral-model-v1 model-first catalog photograph, Difratelli Kids Brincadeira de Rua. Input 1 is APPROVED FICTIONAL child identity Davi model-006, age 4: Deep brown skin; dark brown eyes; round cheeks; short tightly coiled black hair. Preserve exact face, apparent age, hair and child proportions. Wear photographed size 4 Short Dia de Brincar. Approved garment: Cotton-stretch twill, 190 g/m²; Cotton-stretch twill shorts; elastic waist; two side pockets; straight hem; no drawstring, ruffles or logos. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Coral suave #E9A18F. Frontal relaxed full-body pose, arms down clear of garment, no hands in pockets, head and shoes entirely visible. Plain neutral top tucked up enough to show entire waistband and pockets; simple neutral shoes. Featured bottom fully visible. Sparse small print motifs at specified physical scale, no oversized repeat. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly. Critical: supporting plain cream short-sleeve T-shirt neatly tucked INSIDE waistband so the full gathered elastic waistband and both side pockets are visible. Generate a NEW featured bottom per brief, do not keep casting reference shorts. No fly outline, faux-fly stitching, zipper, button, belt loops, drawstring, cargo pockets or extra embellishment. Normal center crotch seam only. Featured shorts must end at MID THIGH, halfway between hip and knee, NOT near knee.",
+      "alt": "Davi usando Short Dia de Brincar na cor Coral suave, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-15fe9269-de02-4e35-97bc-e6cf28db7a22.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "454b6cd6e182ad6f8439c388d1577abeed66ba67d7791ba3ed7815e53ffaff14",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-019",
+      "colorwayId": "coral",
+      "collectionId": "collection-002",
+      "modelId": null,
+      "photographedSize": 4,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-019-coral-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-019-coral-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. product-019-coral-isolated-v1 catalog isolated photograph. Input image is the EXACT worn photograph; reproduce its featured Short Dia de Brincar without redesign. Extract ONLY the featured garment; exclude all supporting clothes and shoes. Photorealistic front-facing invisible-mannequin presentation, neatly shaped without person, body parts, visible mannequin, hanger, labels or accessories. Preserve precise print motifs, scale, placement, colors, collar, sleeves, seams, hem, waistband, pockets and fabric of reference. Approved garment: Cotton-stretch twill, 190 g/m²; Cotton-stretch twill shorts; elastic waist; two side pockets; straight hem; no drawstring, ruffles or logos. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Coral suave #E9A18F. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly.",
+      "alt": "Short Dia de Brincar na cor Coral suave, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-02806885-02d1-4dfa-94b5-77bab544b4fa.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "918b772e10538473e4ea72d64b3e62aae7028761f11559998b10371c477868d0",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-019",
+      "colorwayId": "cream",
+      "collectionId": "collection-002",
+      "modelId": "model-006",
+      "photographedSize": 4,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-019-cream-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-006-reference-v1.png",
+        "assets/originals/catalog/product-019-coral-model-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve. product-019-cream-model-v1 model-first catalog photograph, Difratelli Kids Brincadeira de Rua. Input 1 is APPROVED FICTIONAL child identity Davi model-006, age 4: Deep brown skin; dark brown eyes; round cheeks; short tightly coiled black hair. Preserve exact face, apparent age, hair and child proportions. Input 2 is the same product in the first colorway: preserve garment silhouette and construction; change only the featured garment color to this colorway. Wear photographed size 4 Short Dia de Brincar. Approved garment: Cotton-stretch twill, 190 g/m²; Cotton-stretch twill shorts; elastic waist; two side pockets; straight hem; no drawstring, ruffles or logos. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Creme #F3EBDD. Frontal relaxed full-body pose, arms down clear of garment, no hands in pockets, head and shoes entirely visible. Plain neutral top tucked up enough to show entire waistband and pockets; simple neutral shoes. Featured bottom fully visible. Sparse small print motifs at specified physical scale, no oversized repeat. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly. Critical: supporting plain cream short-sleeve T-shirt neatly tucked INSIDE waistband so the full gathered elastic waistband and both side pockets are visible. Generate a NEW featured bottom per brief, do not keep casting reference shorts. No fly outline, faux-fly stitching, zipper, button, belt loops, drawstring, cargo pockets or extra embellishment. Normal center crotch seam only. Featured shorts must end at MID THIGH, halfway between hip and knee, NOT near knee.",
+      "alt": "Davi usando Short Dia de Brincar na cor Creme, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-494a9547-a5d7-476c-b955-e3bf91b45f45.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "06facb5b0111edd049aa417be88d67bc79213db5cbb99ac9dae105d0593ef86f",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-019",
+      "colorwayId": "cream",
+      "collectionId": "collection-002",
+      "modelId": null,
+      "photographedSize": 4,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-019-cream-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-019-cream-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. product-019-cream-isolated-v1 catalog isolated photograph. Input image is the EXACT worn photograph; reproduce its featured Short Dia de Brincar without redesign. Extract ONLY the featured garment; exclude all supporting clothes and shoes. Photorealistic front-facing invisible-mannequin presentation, neatly shaped without person, body parts, visible mannequin, hanger, labels or accessories. Preserve precise print motifs, scale, placement, colors, collar, sleeves, seams, hem, waistband, pockets and fabric of reference. Approved garment: Cotton-stretch twill, 190 g/m²; Cotton-stretch twill shorts; elastic waist; two side pockets; straight hem; no drawstring, ruffles or logos. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Creme #F3EBDD. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly.",
+      "alt": "Short Dia de Brincar na cor Creme, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-5ebc815a-4d42-4d1b-8815-5357e632e705.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "b8be8b5bcdbef2595ad7256352a6f16d1c1330f8629255479bc9636f7f25eb94",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-020",
+      "colorwayId": "teal",
+      "collectionId": "collection-002",
+      "modelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-020-teal-model-v2.png",
+      "referencePaths": [
+        "assets/originals/cast/model-008-reference-v1.png",
+        "assets/originals/catalog-rejected/product-020-teal-model-v1.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Input1 approved fictional Noah identity; input2 exact edit target. Preserve all details of input2: child face, hair, age 8, pose, tucked cream tee, shoes, pure white background, light, teal color, trouser cut and ankle-length hem. REMOVE faux fly topstitching on front of trousers. Erase entire J-shaped curved seam and parallel vertical seam at front, leaving only ONE STRAIGHT CENTER construction seam from waist to crotch. Entire center front on each side of this single seam is uninterrupted PLAIN teal #246B63 twill fabric. No fly, flap, zipper, button or drawstring. Elastic gathered waistband and exactly two side pockets remain. Do not change anything else. Exact native 1086 x 1448 pixels, portrait 3:4.",
+      "alt": "Noah usando Calça Passos na Rua na cor Verde-petróleo, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-076995dc-cc54-442f-8010-31b93897c6c8.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "6e29acff2a12a2e78611c89202719bbf4f0e309a0f38c86d0f3c6b58129f7187",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-020",
+      "colorwayId": "teal",
+      "collectionId": "collection-002",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-020-teal-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-020-teal-model-v2.png"
+      ],
+      "prompt": "Use case: product-mockup. product-020-teal-isolated-v1 catalog isolated photograph. Input image is the EXACT worn photograph; reproduce its featured Calça Passos na Rua without redesign. Extract ONLY the featured garment; exclude all supporting clothes and shoes. Photorealistic front-facing invisible-mannequin presentation, neatly shaped without person, body parts, visible mannequin, hanger, labels or accessories. Preserve precise print motifs, scale, placement, colors, collar, sleeves, seams, hem, waistband, pockets and fabric of reference. Approved garment: Cotton-stretch twill, 190 g/m²; Cotton-stretch twill trousers; elastic waist; two side pockets; straight ankle-length legs; no fly or drawstring. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Verde-petróleo #246B63. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly.",
+      "alt": "Calça Passos na Rua na cor Verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-8a892403-9ed9-4361-abb6-6882fdc21633.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "15b914c88d1a3e4c6f0c18dd38b50d6da51e5659469a470af80a7b640fbe05a6",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-020",
+      "colorwayId": "sky",
+      "collectionId": "collection-002",
+      "modelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-020-sky-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-008-reference-v1.png",
+        "assets/originals/catalog/product-020-teal-model-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. product-020-sky-model-v1 model-first catalog photograph, Difratelli Kids Brincadeira de Rua. Input 1 is APPROVED FICTIONAL child identity Noah model-008, age 8: Medium olive skin; brown eyes; long oval face; short dark-brown wavy hair. Preserve exact face, apparent age, hair and child proportions. Input 2 is the same product in the first colorway: preserve garment silhouette and construction; change only the featured garment color to this colorway. Wear photographed size 8 Calça Passos na Rua. Approved garment: Cotton-stretch twill, 190 g/m²; Cotton-stretch twill trousers; elastic waist; two side pockets; straight ankle-length legs; no fly or drawstring. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Azul-céu #A9CCE0. Frontal relaxed full-body pose, arms down clear of garment, no hands in pockets, head and shoes entirely visible. Plain neutral top tucked up enough to show entire waistband and pockets; simple neutral shoes. Featured bottom fully visible. Sparse small print motifs at specified physical scale, no oversized repeat. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly. Critical: supporting plain cream short-sleeve T-shirt neatly tucked INSIDE waistband so the full gathered elastic waistband and both side pockets are visible. Generate a NEW featured bottom per brief, do not keep casting reference shorts. No fly outline, faux-fly stitching, zipper, button, belt loops, drawstring, cargo pockets or extra embellishment. Normal center crotch seam only.",
+      "alt": "Noah usando Calça Passos na Rua na cor Azul-céu, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-44fc0f5e-91ab-4212-a1db-64d81dc54803.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "5829aee5756fa18cf3392cc94deb61c58fd4918205e649431f8029a9154b2784",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-020",
+      "colorwayId": "sky",
+      "collectionId": "collection-002",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-020-sky-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-020-sky-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. product-020-sky-isolated-v1 catalog isolated photograph. Input image is the EXACT worn photograph; reproduce its featured Calça Passos na Rua without redesign. Extract ONLY the featured garment; exclude all supporting clothes and shoes. Photorealistic front-facing invisible-mannequin presentation, neatly shaped without person, body parts, visible mannequin, hanger, labels or accessories. Preserve precise print motifs, scale, placement, colors, collar, sleeves, seams, hem, waistband, pockets and fabric of reference. Approved garment: Cotton-stretch twill, 190 g/m²; Cotton-stretch twill trousers; elastic waist; two side pockets; straight ankle-length legs; no fly or drawstring. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Azul-céu #A9CCE0. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly.",
+      "alt": "Calça Passos na Rua na cor Azul-céu, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-a1f12a5b-a710-434d-9b94-c97ae73a9ab4.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "f853448bf124d50a0065d711794e34ce059f203a651d7524aa6f7d65f836444d",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    }
+  ],
+  "attempts": [
+    {
+      "tool": "higgsfield product-photoshoot",
+      "status": "failed-before-generation",
+      "mode": "virtual_model_tryout",
+      "aspectRatio": "3:4",
+      "referencePaths": [
+        "assets/originals/cast/model-006-reference-v1.png"
+      ],
+      "error": "Cannot reach https://fnf-api-gw.higgsfield.ai/fnf/developer/v2alpha/product-photoshoot/enhance."
+    },
+    {
+      "tool": "built-in image_gen",
+      "productId": "product-011",
+      "colorwayId": "sky-teal-cream",
+      "role": "model",
+      "modelId": "model-006",
+      "photographedSize": 4,
+      "status": "rejected-native-dimensions",
+      "originalPath": "assets/originals/catalog-rejected/product-011-sky-teal-cream-model-v1.png",
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a1230f-4aec-7170-8b8c-3959771375da/exec-1429477a-3911-4b6f-9e4c-5579e52a5c1b.png",
+      "originalSha256": "fa3b9f59784ec7c387a523449c5ee9d5e6c67105cbca7839a0c9b38cfb241bff",
+      "width": 1086,
+      "height": 1448,
+      "referencePaths": [
+        "assets/originals/cast/model-006-reference-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve. Product-011 sky-teal-cream model-first catalog photograph, Difratelli Kids Brincadeira de Rua. Reference is APPROVED FICTIONAL child Davi, model-006 age 4: preserve exact face, deep brown skin, dark brown eyes, round cheeks, short tightly coiled black hair and child proportions. Wear photographed size 4 Camiseta Volta de Bicicleta: cotton single jersey 160 g/m², straight short-sleeve T-shirt with rib crew neck, hip length. Sky blue #A9CCE0 base; sparse looping chalk-texture bicycle paths with occasional simple wheel motifs in cream #F3EBDD and deep teal #246B63, thin 2–3 mm strokes. No lettering, logos, embroidery, added pockets or trim. Plain neutral shorts and shoes as supporting styling only. Frontal relaxed full-body pose with arms clear of the complete untucked garment. Entire head, shirt, legs and shoes in frame with breathing room. Opaque white seamless background, neutral soft studio light, natural cotton texture. Native output exactly 3:4, request 1536 x 2048 or larger, mandatory minimum 1200 x 1600 pixels. No props, text, watermark, accessories, extra seams or garment features.",
+      "requiredMinimum": {
+        "width": 1200,
+        "height": 1600
+      },
+      "approvalStatus": "pending-human-review",
+      "subsequentDisposition": "Retained in rejected folder as historical attempt; identical original reused as selected product-011 image after user accepted collection-specific dimensions."
+    },
+    {
+      "productId": "product-013",
+      "colorwayId": "cream-coral-teal",
+      "role": "model",
+      "tool": "built-in image_gen",
+      "status": "rejected-native-dimensions",
+      "originalPath": "assets/originals/catalog-rejected/product-013-cream-coral-teal-model-v1.png",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-73e8f210-f61d-4a2b-86a1-05283387bf63.png",
+      "prompt": "Use case: identity-preserve. product-013-cream-coral-teal-model-v1 model-first catalog photograph, Difratelli Kids Brincadeira de Rua. Input 1 is APPROVED FICTIONAL child identity Bia model-002, age 5: Light skin with a few freckles; green eyes; oval face; straight copper-red chin-length bob. Preserve exact face, apparent age, hair and child proportions. Wear photographed size 6 Camiseta Pula Amarelinha. Approved garment: Cotton single jersey, 160 g/m²; Straight short-sleeve jersey T-shirt; crew neck; no gathers or ties. Print: Small incomplete hopscotch grids, 30–40 mm, coral and teal on cream; no numbers or typography. Color placement: Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Creme #F3EBDD, Coral suave #E9A18F, Verde-petróleo #246B63. Frontal relaxed full-body pose, arms down clear of garment, no hands in pockets, head and shoes entirely visible. Plain neutral supporting shorts and shoes; featured top untucked and fully visible. Sparse small print motifs at specified physical scale, no oversized repeat. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native 1086 x 1448 or larger, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly.",
+      "referencePaths": [
+        "assets/originals/cast/model-002-reference-v2.png"
+      ],
+      "width": 1087,
+      "height": 1447,
+      "originalSha256": "cdae67300fb01e48c8acb26412e2c0d56095dd3a09cb3d60e5c93cd4c6bba794"
+    },
+    {
+      "productId": "product-014",
+      "colorwayId": "sky-cream-coral",
+      "collectionId": "collection-002",
+      "modelId": "model-004",
+      "photographedSize": 8,
+      "role": "model",
+      "originalPath": "assets/originals/catalog-rejected/product-014-sky-cream-coral-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-004-reference-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. product-014-sky-cream-coral-model-v1 model-first catalog photograph, Difratelli Kids Brincadeira de Rua. Input 1 is APPROVED FICTIONAL child identity Iara model-004, age 8: Fair skin; blue eyes; oval face; natural golden-blonde shoulder-length hair worn loose with a simple side part. Preserve exact face, apparent age, hair and child proportions. Wear photographed size 8 Vestido Desenho na Calçada. Approved garment: Cotton single jersey, 160 g/m²; Jersey dress; short sleeves; round neck; natural-waist seam; gently gathered skirt; no closures or pockets. Print: Chalk-like irregular stripes and small looping paths, cream and coral on sky blue; airy 25–40 mm motif groups. Color placement: Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Azul-céu #A9CCE0, Creme #F3EBDD, Coral suave #E9A18F. Frontal relaxed full-body pose, arms down clear of garment, no hands in pockets, head and shoes entirely visible. Plain neutral supporting shorts and shoes; featured top untucked and fully visible. Sparse small print motifs at specified physical scale, no oversized repeat. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly.",
+      "alt": "Iara usando Vestido Desenho na Calçada na cor Azul-céu, creme, coral suave, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-24d037f5-37d6-4be9-9fba-a61a50188c35.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "2cbc6fc24cb0e737d40716bbcd18f602e0e357ea658bc32daf2bd65dc6ab57aa",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "pending-human-review",
+      "status": "rejected-visual-review",
+      "reason": "Chalk motif groups exceed approved 25–40 mm scale; reduce to half size."
+    },
+    {
+      "productId": "product-015",
+      "colorwayId": "cream-sky-teal",
+      "collectionId": "collection-002",
+      "modelId": "model-007",
+      "photographedSize": 6,
+      "role": "model",
+      "originalPath": "assets/originals/catalog-rejected/product-015-cream-sky-teal-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-007-reference-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve. product-015-cream-sky-teal-model-v1 model-first catalog photograph, Difratelli Kids Brincadeira de Rua. Input 1 is APPROVED FICTIONAL child identity Theo model-007, age 6: Light skin with freckles; green eyes; oval face; slightly tousled short sandy blond hair. Preserve exact face, apparent age, hair and child proportions. Wear photographed size 6 Conjunto Volta na Rua. Approved garment: Cotton single jersey, 160 g/m²; Two jersey pieces: short-sleeve crew-neck T-shirt and plain teal shorts with elastic waist, two side pockets, no drawstring. Print: Looping bicycle paths, 25–40 mm, sky blue and teal on cream T-shirt; shorts plain teal. Color placement: Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: Two jersey pieces: short-sleeve crew-neck T-shirt and plain teal shorts with elastic waist, two side pockets, no drawstring.. Colors: Creme #F3EBDD, Azul-céu #A9CCE0, Verde-petróleo #246B63. Frontal relaxed full-body pose, arms down clear of garment, no hands in pockets, head and shoes entirely visible. Both set pieces fully visible, top untucked and all of shorts visible. Sparse small print motifs at specified physical scale, no oversized repeat. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly.",
+      "alt": "Theo usando Conjunto Volta na Rua na cor Creme, azul-céu, verde-petróleo, com as duas peças inteiras visíveis sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-cbef1502-5fdb-4c79-a02a-f618591f2c4c.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "af07e981192300c89219fb1f94620da98dce856d8a779fa5ea3e067293ceda40",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "pending-human-review",
+      "status": "rejected-visual-review",
+      "reason": "Added full bicycle drawings instead of 25–40 mm looping paths, and fly seam/twill appearance on jersey shorts."
+    },
+    {
+      "productId": "product-015",
+      "colorwayId": "cream-sky-teal",
+      "collectionId": "collection-002",
+      "modelId": "model-007",
+      "photographedSize": 6,
+      "role": "model",
+      "originalPath": "assets/originals/catalog-rejected/product-015-cream-sky-teal-model-v2.png",
+      "referencePaths": [
+        "assets/originals/cast/model-007-reference-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve. product-015-cream-sky-teal-model-v2 model-first catalog photograph, Difratelli Kids Brincadeira de Rua. Input 1 is APPROVED FICTIONAL child identity Theo model-007, age 6: Light skin with freckles; green eyes; oval face; slightly tousled short sandy blond hair. Preserve exact face, apparent age, hair and child proportions. Wear photographed size 6 Conjunto Volta na Rua. Approved garment: Cotton single jersey, 160 g/m²; Two jersey pieces: short-sleeve crew-neck T-shirt and plain teal shorts with elastic waist, two side pockets, no drawstring. Print: Looping bicycle paths, 25–40 mm, sky blue and teal on cream T-shirt; shorts plain teal. Color placement: Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: Two jersey pieces: short-sleeve crew-neck T-shirt and plain teal shorts with elastic waist, two side pockets, no drawstring.. Colors: Creme #F3EBDD, Azul-céu #A9CCE0, Verde-petróleo #246B63. Frontal relaxed full-body pose, arms down clear of garment, no hands in pockets, head and shoes entirely visible. Both set pieces fully visible, top untucked and all of shorts visible. Sparse small print motifs at specified physical scale, no oversized repeat. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly. Critical constraints: print consists ONLY of small sparse looping curved bicycle route/path lines, every loop motif 25–40 mm, about one tenth of chest width, in sky blue and teal. No bicycle objects, wheels, spokes, dashed long routes or drawings. Shorts are soft cotton JERSEY KNIT, elastic gathered waistband and two side seam pockets, PLAIN CONTINUOUS CENTER FRONT, no fly seam, faux fly, zipper, button, belt loops, drawstring or twill appearance. Do not retain shorts from the casting reference.",
+      "alt": "Theo usando Conjunto Volta na Rua na cor Creme, azul-céu, verde-petróleo, com as duas peças inteiras visíveis sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-ff3c0452-6c77-4505-9637-2dfe77c9b13b.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "10ae6c79b6cc93fac94f7fe177b95b89505725b7e856bffbad6a94a0d5792074",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "pending-human-review",
+      "status": "rejected-visual-review",
+      "reason": "Shorts retain cast's fly seam/twill construction; route loops remain too large."
+    },
+    {
+      "productId": "product-015",
+      "colorwayId": "cream-sky-teal",
+      "role": "model",
+      "tool": "built-in image_gen",
+      "status": "rejected-native-dimensions",
+      "originalPath": "assets/originals/catalog-rejected/product-015-cream-sky-teal-model-v3.png",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-075d5b1e-de69-4c3b-8b79-75282c5e481b.png",
+      "prompt": "Use case: precise-object-edit. Input 1 approved fictional child Theo identity, input 2 edit target product-015 matching set. Preserve exact child face, hair, age 6, pose, lighting, white background and whole-body framing of input2. Correct BOTH garments. T-shirt: cream cotton jersey, crew neck short sleeves, reduce every teal/sky-blue looping path motif to HALF its current size; each small discrete loop 25–40 mm, sparse spacing, no whole bicycles or wheels, no text. Shorts: replace current twill fly-front shorts completely with SOLID deep teal #246B63 soft cotton JERSEY elastic-waist shorts, mid thigh, two side seam pockets only. Smooth center front with just the normal crotch seam, NO fly outline, zipper topstitching, vertical flap, zipper, button, belt loop or drawstring. Keep T-shirt untucked. Both pieces fully visible. Do not copy shorts from casting reference. Exactly 1086 x 1448 native pixels, portrait 3:4, no watermark, props or added embellishments. Preserve all other details.",
+      "referencePaths": [
+        "assets/originals/cast/model-007-reference-v1.png",
+        "assets/originals/catalog-rejected/product-015-cream-sky-teal-model-v2.png"
+      ],
+      "width": 1087,
+      "height": 1447,
+      "originalSha256": "b3efae697de409562cfb2544d9e7f406534f660ce58df322d5c2a39a8465b236"
+    },
+    {
+      "productId": "product-016",
+      "colorwayId": "cream-coral-teal",
+      "collectionId": "collection-002",
+      "modelId": "model-003",
+      "photographedSize": 6,
+      "role": "model",
+      "originalPath": "assets/originals/catalog-rejected/product-016-cream-coral-teal-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-003-reference-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve. product-016-cream-coral-teal-model-v1 model-first catalog photograph, Difratelli Kids Brincadeira de Rua. Input 1 is APPROVED FICTIONAL child identity Nina model-003, age 6: Fair skin; dark brown eyes; oval face; straight dark-brown shoulder-length hair parted slightly off center. Preserve exact face, apparent age, hair and child proportions. Wear photographed size 6 Conjunto Pulo de Giz. Approved garment: Cotton single jersey, 160 g/m²; Two jersey pieces: broad-strap sleeveless round-neck top and plain coral elastic-waist shorts; straight hems, no ties or pockets. Print: Small hopscotch-grid outlines, 30–40 mm, coral and teal on cream top, no numbers; shorts solid coral. Color placement: Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: Two jersey pieces: broad-strap sleeveless round-neck top and plain coral elastic-waist shorts; straight hems, no ties or pockets.. Colors: Creme #F3EBDD, Coral suave #E9A18F, Verde-petróleo #246B63. Frontal relaxed full-body pose, arms down clear of garment, no hands in pockets, head and shoes entirely visible. Both set pieces fully visible, top untucked and all of shorts visible. Sparse small print motifs at specified physical scale, no oversized repeat. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly. Critical: replace BOTH clothes from casting reference. Broad-strap sleeveless cream top, no short sleeves; tiny 30–40 mm sparse incomplete hopscotch outlines in coral and teal, no numbers. Bottom is NEW plain coral #E9A18F soft cotton jersey shorts with elastic waist, NO pockets, fly stitching, zipper, drawstring, ties, ruffles, belt loops or twill construction. Full front is plain, just normal crotch seam.",
+      "alt": "Nina usando Conjunto Pulo de Giz na cor Creme, coral suave, verde-petróleo, com as duas peças inteiras visíveis sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-3f905731-7661-4aa9-9be7-3644b9486eba.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "4b386263828a36f86813c22e56ef9eab4347adae0a797d4039000481f97be139",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "pending-human-review",
+      "status": "rejected-visual-review",
+      "reason": "Hopscotch motif groups too large; reduce to 30–40 mm and ensure pocket-free jersey shorts."
+    },
+    {
+      "productId": "product-018",
+      "colorwayId": "sky",
+      "collectionId": "collection-002",
+      "modelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "originalPath": "assets/originals/catalog-rejected/product-018-sky-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-008-reference-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve. product-018-sky-model-v1 model-first catalog photograph, Difratelli Kids Brincadeira de Rua. Input 1 is APPROVED FICTIONAL child identity Noah model-008, age 8: Medium olive skin; brown eyes; long oval face; short dark-brown wavy hair. Preserve exact face, apparent age, hair and child proportions. Wear photographed size 8 Short Vai e Vem. Approved garment: Cotton-stretch twill, 190 g/m²; Cotton-stretch twill shorts; elastic waist; two side pockets; no drawstring or cargo pockets. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Azul-céu #A9CCE0. Frontal relaxed full-body pose, arms down clear of garment, no hands in pockets, head and shoes entirely visible. Plain neutral top tucked up enough to show entire waistband and pockets; simple neutral shoes. Featured bottom fully visible. Sparse small print motifs at specified physical scale, no oversized repeat. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly. Critical: supporting plain cream short-sleeve T-shirt neatly tucked INSIDE waistband so the full gathered elastic waistband and both side pockets are visible. Generate a NEW featured bottom per brief, do not keep casting reference shorts. No fly outline, faux-fly stitching, zipper, button, belt loops, drawstring, cargo pockets or extra embellishment. Normal center crotch seam only.",
+      "alt": "Noah usando Short Vai e Vem na cor Azul-céu, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-4a26e769-eb5b-4d44-aeb2-df7eb3796dc4.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "ad92756ef07a47bb517e65b887b31472c772408f06816fa426d1278e47d80364",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "pending-human-review",
+      "status": "rejected-visual-review",
+      "reason": "Short length approaches knee rather than approved mid-thigh; added curved fly topstitching."
+    },
+    {
+      "productId": "product-020",
+      "colorwayId": "teal",
+      "collectionId": "collection-002",
+      "modelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "originalPath": "assets/originals/catalog-rejected/product-020-teal-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-008-reference-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve. product-020-teal-model-v1 model-first catalog photograph, Difratelli Kids Brincadeira de Rua. Input 1 is APPROVED FICTIONAL child identity Noah model-008, age 8: Medium olive skin; brown eyes; long oval face; short dark-brown wavy hair. Preserve exact face, apparent age, hair and child proportions. Wear photographed size 8 Calça Passos na Rua. Approved garment: Cotton-stretch twill, 190 g/m²; Cotton-stretch twill trousers; elastic waist; two side pockets; straight ankle-length legs; no fly or drawstring. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Verde-petróleo #246B63. Frontal relaxed full-body pose, arms down clear of garment, no hands in pockets, head and shoes entirely visible. Plain neutral top tucked up enough to show entire waistband and pockets; simple neutral shoes. Featured bottom fully visible. Sparse small print motifs at specified physical scale, no oversized repeat. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly. Critical: supporting plain cream short-sleeve T-shirt neatly tucked INSIDE waistband so the full gathered elastic waistband and both side pockets are visible. Generate a NEW featured bottom per brief, do not keep casting reference shorts. No fly outline, faux-fly stitching, zipper, button, belt loops, drawstring, cargo pockets or extra embellishment. Normal center crotch seam only.",
+      "alt": "Noah usando Calça Passos na Rua na cor Verde-petróleo, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-273af324-5ae3-4652-b94f-fdefcfcba592.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "b9d2d3444a853db1b83f797535c37e39945f19c30d2f810a8237400085a802de",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "pending-human-review",
+      "status": "rejected-visual-review",
+      "reason": "Trousers include curved fly topstitching explicitly excluded by approved brief."
+    }
+  ],
+  "remainingGates": [
+    "Complete content, integration and release approvals"
+  ],
+  "resolutionAcceptancePath": "docs/content/brincadeira-resolution-acceptance.json",
+  "tool": "built-in image_gen",
+  "limitations": "No seed, explicit output-size parameter or model revision exposed. Actual native outputs measured individually; no enlargement. Exact prompts and reference paths retained; identical regeneration not guaranteed.",
+  "scope": "All ten Brincadeira de Rua products and fourteen colorways, 28 selected photographs. Resolution acceptance does not constitute image approval."
+}
