@@ -72,7 +72,4 @@ export function browse(scope: BrowseScope, state: BrowseState): { readonly produ
     : (a.priceCents - b.priceCents) * (normalized.sort === "preco-asc" ? 1 : -1) || a.curatedRank - b.curatedRank);
   return Object.freeze({ products: Object.freeze(products), count: products.length });
 }
-export function parseProductColor(product: Product, params: Pick<URLSearchParams, "get">): string {
-  const color = params.get("cor");
-  return product.colorways.some((c) => c.id === color) ? color! : product.defaultColorwayId;
-}
+export { parseProductColor } from "./product-color";

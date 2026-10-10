@@ -15,5 +15,5 @@ export default defineConfig({
     { name: "mobile-chromium", use: { ...devices["Pixel 7"] } },
     { name: "mobile-webkit", use: { ...devices["iPhone 13"] } },
   ],
-  webServer: { command: "bun run start --hostname 127.0.0.1 --port 3100", url: "http://127.0.0.1:3100", reuseExistingServer: false, timeout: 120_000 },
+  webServer: { command: "bun run start --hostname 127.0.0.1 --port 3100", env: { SITE_URL: "http://127.0.0.1:3100" }, url: "http://127.0.0.1:3100", reuseExistingServer: false, timeout: 120_000 },
 });
