@@ -1,0 +1,587 @@
+{
+  "revision": "issue-27-imaginacao-v1",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/27",
+  "collectionId": "collection-003",
+  "status": "approved",
+  "approvalStatus": "approved",
+  "limitations": "The built-in generator exposes no size control, seed or model revision. Native 1086x1448 is explicitly accepted for this collection in imaginacao-resolution-acceptance.json. No enlargement.",
+  "records": [
+    {
+      "productId": "product-021",
+      "colorwayId": "cream-teal-peach",
+      "collectionId": "collection-003",
+      "modelId": "model-005",
+      "photographedSize": 2,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-021-cream-teal-peach-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-005-reference-v2.png"
+      ],
+      "prompt": "Use case: product-mockup. Create one NEW native high-resolution 1536x2048 portrait 3:4 studio catalog photograph, minimum 1200x1600, do not inherit the reference canvas dimensions. Reference image is approved fictional child Caio, age 2, size 2: preserve exact face, blue eyes, light skin, short dark-brown hair and toddler proportions. Product-021 Camiseta Blocos de Ideias: cream #F3EBDD straight hip-length short-sleeve cotton single jersey 160 gsm T-shirt, rib crew neck. Airy small 20–30 mm building-block squares and arches in teal #246B63 and peach #EDB69B, crayon-edge texture, no text. Motifs roughly 1/12 chest width, no oversized blocks. Tonal stitching, no logos, embroidery, extra trim. Keep neutral teal shorts and neutral shoes as styling only. Relaxed frontal full-body child pose with arms clear of garment, full head and shoes inside frame, ample breathing room. Opaque pure white seamless background, soft neutral diffused lighting, natural skin and cotton texture, no props, accessories, other people, text or watermark. Required fresh native output canvas 1536x2048 pixels.",
+      "alt": "Caio usando Camiseta Blocos de Ideias na cor Creme, verde-petróleo, pêssego, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a12353-51d3-72d0-a6f7-ddd60470f640/exec-78d2f856-9ac2-4f90-bb8a-5ea617a4554b.png",
+      "tool": "built-in image_gen",
+      "width": 1086,
+      "height": 1448,
+      "technicalStatus": "passed-under-accepted-collection-revision",
+      "approvalStatus": "approved",
+      "originalSha256": "8573225ddcbce962a48c1cb15c3f7a14147cee822bb95fcbf512a704ae15a3e4"
+    },
+    {
+      "productId": "product-021",
+      "colorwayId": "cream-teal-peach",
+      "collectionId": "collection-003",
+      "modelId": null,
+      "photographedSize": 2,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-021-cream-teal-peach-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-021-cream-teal-peach-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset: product-021 / cream-teal-peach / isolated, Difratelli Kids Imaginação em Casa catalog. ONE photorealistic photograph. Garment brief: Cotton single jersey, 160 g/m²; Straight short-sleeve jersey T-shirt; rib crew neck; hip length. Print: Simple building-block squares and arches, 20–30 mm, teal and peach on cream; airy crayon-edge texture, no text. Color placement: Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color. Colors: Creme #F3EBDD, Verde-petróleo #246B63, Pêssego #EDB69B. Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. One garment sold individually. Photographed size 2. Input: exact selected worn photograph. Isolate ONLY the purchased single garment, no supporting styling clothes. Faithfully preserve exact visible garment silhouette, collar/neckline, sleeve/hem length, fabric, pockets, seams, print shapes, scale and front placement, colors. Front-on invisible mannequin studio arrangement with no human/body parts/mannequin/hanger visible. Do not reinterpret or recolor print. Preserve proportions rather than stretching garment to fill canvas. Opaque pure white seamless studio background, soft neutral diffused studio lighting, natural fabric textures. Exact portrait 3:4, native 1086x1448 or larger, no enlargement. Complete garment with ample breathing room, no crops, no props, no text or watermark, no logos or unrequested garment features.",
+      "alt": "Camiseta Blocos de Ideias na cor Creme, verde-petróleo, pêssego, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a12353-51d3-72d0-a6f7-ddd60470f640\\exec-6a15da57-d54d-40a2-8e81-ee316146a0b9.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "fd248cd65dc8b57192f5421c40b4bb85cb44e190b65917307ee475701b474b3a",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-022",
+      "colorwayId": "lilac-cream-teal",
+      "collectionId": "collection-003",
+      "modelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-022-lilac-cream-teal-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-008-reference-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset: product-022 / lilac-cream-teal / model, Difratelli Kids Imaginação em Casa catalog. ONE photorealistic photograph. Garment brief: Cotton single jersey, 160 g/m²; Straight short-sleeve jersey T-shirt; rib crew neck; hip length. Print: Simple irregular five-point stars, 15–25 mm, cream and teal on soft lilac; scattered, no glitter or lettering. Color placement: Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color. Colors: Lilás suave #C8B8DC, Creme #F3EBDD, Verde-petróleo #246B63. Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. One garment sold individually. Photographed size 8. Input: exact APPROVED fictional child Noah, age 8, Medium olive skin; brown eyes; long oval face; short dark-brown wavy hair.. Preserve this child's exact face, eyes, hair, skin and child proportions. Replace casting clothing with the approved garment. Supporting plain neutral shorts and neutral shoes are styling only; for cardigan a plain cream undershirt. Keep the complete untucked purchased garment visible. Relaxed frontal full-body pose, arms clear of garment, entire head and shoes inside frame. Opaque pure white seamless studio background, soft neutral diffused studio lighting, natural fabric textures. Exact portrait 3:4, native 1086x1448 or larger, no enlargement. Complete garment with ample breathing room, no crops, no props, no text or watermark, no logos or unrequested garment features.",
+      "alt": "Noah usando Camiseta Estrelas de Papel na cor Lilás suave, creme, verde-petróleo, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a12353-51d3-72d0-a6f7-ddd60470f640\\exec-eaab2299-9edb-4deb-b55d-825ac8deba4c.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "64123a11252327d0515f5a664a2da02c12d4174459586b754ad9e048a4558f1c",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-022",
+      "colorwayId": "lilac-cream-teal",
+      "collectionId": "collection-003",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-022-lilac-cream-teal-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-022-lilac-cream-teal-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset: product-022 / lilac-cream-teal / isolated, Difratelli Kids Imaginação em Casa catalog. ONE photorealistic photograph. Garment brief: Cotton single jersey, 160 g/m²; Straight short-sleeve jersey T-shirt; rib crew neck; hip length. Print: Simple irregular five-point stars, 15–25 mm, cream and teal on soft lilac; scattered, no glitter or lettering. Color placement: Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color. Colors: Lilás suave #C8B8DC, Creme #F3EBDD, Verde-petróleo #246B63. Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. One garment sold individually. Photographed size 8. Input: exact selected worn photograph. Isolate ONLY the purchased single garment, no supporting styling clothes. Faithfully preserve exact visible garment silhouette, collar/neckline, sleeve/hem length, fabric, pockets, seams, print shapes, scale and front placement, colors. Front-on invisible mannequin studio arrangement with no human/body parts/mannequin/hanger visible. Do not reinterpret or recolor print. Preserve proportions rather than stretching garment to fill canvas. Opaque pure white seamless studio background, soft neutral diffused studio lighting, natural fabric textures. Exact portrait 3:4, native 1086x1448 or larger, no enlargement. Complete garment with ample breathing room, no crops, no props, no text or watermark, no logos or unrequested garment features.",
+      "alt": "Camiseta Estrelas de Papel na cor Lilás suave, creme, verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a12353-51d3-72d0-a6f7-ddd60470f640\\exec-8a26de7b-91ec-4a05-b3eb-dcfc7142aa2e.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "622bf5213303a703db596e248ec9c23c958cf62a02afb0766ba583afa30f01a9",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-023",
+      "colorwayId": "cream-lilac-peach",
+      "collectionId": "collection-003",
+      "modelId": "model-003",
+      "photographedSize": 6,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-023-cream-lilac-peach-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-003-reference-v2.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset: product-023 / cream-lilac-peach / model, Difratelli Kids Imaginação em Casa catalog. ONE photorealistic photograph. Garment brief: Cotton single jersey, 160 g/m²; Sleeveless jersey top; broad shoulder straps; rounded neckline; straight hip-length hem; no fasteners or ties. Print: Short crayon-like marks, 20–30 mm, lilac and peach on cream; airy scattered clusters. Color placement: Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color. Colors: Creme #F3EBDD, Lilás suave #C8B8DC, Pêssego #EDB69B. Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. One garment sold individually. Photographed size 6. Input: exact APPROVED fictional child Nina, age 6, Fair skin; dark brown eyes; oval face; straight dark-brown shoulder-length hair parted slightly off center.. Preserve this child's exact face, eyes, hair, skin and child proportions. Replace casting clothing with the approved garment. Supporting plain neutral shorts and neutral shoes are styling only; for cardigan a plain cream undershirt. Keep the complete untucked purchased garment visible. Relaxed frontal full-body pose, arms clear of garment, entire head and shoes inside frame. Opaque pure white seamless studio background, soft neutral diffused studio lighting, natural fabric textures. Exact portrait 3:4, native 1086x1448 or larger, no enlargement. Complete garment with ample breathing room, no crops, no props, no text or watermark, no logos or unrequested garment features.",
+      "alt": "Nina usando Blusa Traços de Imaginação na cor Creme, lilás suave, pêssego, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a12353-51d3-72d0-a6f7-ddd60470f640\\exec-0c695d58-efd5-4d4c-9d6b-069e3e923ed2.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "d8f6ee9b8d6080757ef02a3f739e1863dda2d15586b5c5db7a73ed04cae89606",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-023",
+      "colorwayId": "cream-lilac-peach",
+      "collectionId": "collection-003",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-023-cream-lilac-peach-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-023-cream-lilac-peach-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset: product-023 / cream-lilac-peach / isolated, Difratelli Kids Imaginação em Casa catalog. ONE photorealistic photograph. Garment brief: Cotton single jersey, 160 g/m²; Sleeveless jersey top; broad shoulder straps; rounded neckline; straight hip-length hem; no fasteners or ties. Print: Short crayon-like marks, 20–30 mm, lilac and peach on cream; airy scattered clusters. Color placement: Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color. Colors: Creme #F3EBDD, Lilás suave #C8B8DC, Pêssego #EDB69B. Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. One garment sold individually. Photographed size 6. Input: exact selected worn photograph. Isolate ONLY the purchased single garment, no supporting styling clothes. Faithfully preserve exact visible garment silhouette, collar/neckline, sleeve/hem length, fabric, pockets, seams, print shapes, scale and front placement, colors. Front-on invisible mannequin studio arrangement with no human/body parts/mannequin/hanger visible. Do not reinterpret or recolor print. Preserve proportions rather than stretching garment to fill canvas. Opaque pure white seamless studio background, soft neutral diffused studio lighting, natural fabric textures. Exact portrait 3:4, native 1086x1448 or larger, no enlargement. Complete garment with ample breathing room, no crops, no props, no text or watermark, no logos or unrequested garment features.",
+      "alt": "Blusa Traços de Imaginação na cor Creme, lilás suave, pêssego, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a12353-51d3-72d0-a6f7-ddd60470f640\\exec-773c4de8-b9e9-43f4-a821-0143257a1995.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "6824e0d63778a39eee77f60838e335ba2306f274a443e9aad00789f73cb02b54",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-024",
+      "colorwayId": "peach-teal-cream",
+      "collectionId": "collection-003",
+      "modelId": "model-004",
+      "photographedSize": 8,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-024-peach-teal-cream-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-004-reference-v2.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset: product-024 / peach-teal-cream / model, Difratelli Kids Imaginação em Casa catalog. ONE photorealistic photograph. Garment brief: Cotton single jersey, 160 g/m²; Jersey dress; short sleeves; rounded neckline; natural-waist seam; gently gathered skirt; no pockets or closure. Print: Simple five-point stars, 20–30 mm, cream and teal on peach; irregular crayon outlines, no glitter. Color placement: Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color. Colors: Pêssego #EDB69B, Verde-petróleo #246B63, Creme #F3EBDD. Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. One garment sold individually. Photographed size 8. Input: exact APPROVED fictional child Iara, age 8, Fair skin; blue eyes; oval face; natural golden-blonde shoulder-length hair worn loose with a simple side part.. Preserve this child's exact face, eyes, hair, skin and child proportions. Replace casting clothing with the approved garment. Wear only the dress and neutral shoes. Relaxed frontal full-body pose, arms clear of garment, entire head and shoes inside frame. Opaque pure white seamless studio background, soft neutral diffused studio lighting, natural fabric textures. Exact portrait 3:4, native 1086x1448 or larger, no enlargement. Complete garment with ample breathing room, no crops, no props, no text or watermark, no logos or unrequested garment features. CRITICAL print scale: small stars only 20–30 mm, approximately 1/14 of chest width; much smaller than palm size. Keep airy all-over star outlines, no oversized stars.",
+      "alt": "Iara usando Vestido Histórias de Estrelas na cor Pêssego, verde-petróleo, creme, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a12353-51d3-72d0-a6f7-ddd60470f640\\exec-ea742f1b-5970-4ddb-8519-49c5f7995d42.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "8fb711c8b9ee5efcdc09fd4dedcbe20b0775313927252ea298436ba9c482f5bc",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-024",
+      "colorwayId": "peach-teal-cream",
+      "collectionId": "collection-003",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-024-peach-teal-cream-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-024-peach-teal-cream-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset: product-024 / peach-teal-cream / isolated, Difratelli Kids Imaginação em Casa catalog. ONE photorealistic photograph. Garment brief: Cotton single jersey, 160 g/m²; Jersey dress; short sleeves; rounded neckline; natural-waist seam; gently gathered skirt; no pockets or closure. Print: Simple five-point stars, 20–30 mm, cream and teal on peach; irregular crayon outlines, no glitter. Color placement: Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color. Colors: Pêssego #EDB69B, Verde-petróleo #246B63, Creme #F3EBDD. Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. One garment sold individually. Photographed size 8. Input: exact selected worn photograph. Isolate ONLY the purchased single garment, no supporting styling clothes. Faithfully preserve exact visible garment silhouette, collar/neckline, sleeve/hem length, fabric, pockets, seams, print shapes, scale and front placement, colors. Front-on invisible mannequin studio arrangement with no human/body parts/mannequin/hanger visible. Do not reinterpret or recolor print. Preserve proportions rather than stretching garment to fill canvas. Opaque pure white seamless studio background, soft neutral diffused studio lighting, natural fabric textures. Exact portrait 3:4, native 1086x1448 or larger, no enlargement. Complete garment with ample breathing room, no crops, no props, no text or watermark, no logos or unrequested garment features.",
+      "alt": "Vestido Histórias de Estrelas na cor Pêssego, verde-petróleo, creme, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a12353-51d3-72d0-a6f7-ddd60470f640\\exec-443eef79-22d9-45cf-9cdc-c2984283c06f.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "99c6fcd9d7737f989eb7e427bf88474064a05fe174f49cb096c78f908e913a15",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-025",
+      "colorwayId": "cream-lilac-teal",
+      "collectionId": "collection-003",
+      "modelId": "model-007",
+      "photographedSize": 6,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-025-cream-lilac-teal-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-007-reference-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset: product-025 / cream-lilac-teal / model, Difratelli Kids Imaginação em Casa catalog. ONE photorealistic photograph. Garment brief: Cotton single jersey, 160 g/m²; Two jersey pieces: short-sleeve round-neck T-shirt and plain teal elastic-waist shorts with two side pockets; no drawstring. Print: Building-block squares and arches, 20–30 mm, lilac and teal on cream T-shirt; shorts plain teal. Color placement: Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color. Colors: Creme #F3EBDD, Lilás suave #C8B8DC, Verde-petróleo #246B63. Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Two jersey pieces: short-sleeve round-neck T-shirt and plain teal elastic-waist shorts with two side pockets; no drawstring. Photographed size 6. Input: exact APPROVED fictional child Theo, age 6, Light skin with freckles; green eyes; oval face; slightly tousled short sandy blond hair.. Preserve this child's exact face, eyes, hair, skin and child proportions. Replace casting clothing with the approved garment. Both complete set pieces worn visibly. Relaxed frontal full-body pose, arms clear of garment, entire head and shoes inside frame. Opaque pure white seamless studio background, soft neutral diffused studio lighting, natural fabric textures. Exact portrait 3:4, native 1086x1448 or larger, no enlargement. Complete garment with ample breathing room, no crops, no props, no text or watermark, no logos or unrequested garment features. CRITICAL replace casting shorts completely with soft cotton SINGLE JERSEY plain deep-teal shorts, elastic gathered waistband visibly exposed above shorts, two side pockets, mid-thigh. NO woven chino shorts, NO center-front curved fly topstitch, NO fly, zipper, buttons or drawstring. T-shirt hem must not obscure shorts construction; keep both complete pieces visible. PRINT SHAPES ONLY SQUARES AND ARCHES. No triangles, roofs, house shapes, circles, blue or extra colors. Separate solid lilac squares and solid dark teal or lilac arches, small 20–30mm. Do not overlap colors.",
+      "alt": "Theo usando Conjunto Mundo de Blocos na cor Creme, lilás suave, verde-petróleo, com as duas peças inteiras visíveis sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a12353-51d3-72d0-a6f7-ddd60470f640\\exec-c756532b-313d-489d-ae9f-8a5c61189b49.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "36f1d1fa2937f00d99c0d671eef837eadb03bbe87e899feeeace11ea145ce258",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-025",
+      "colorwayId": "cream-lilac-teal",
+      "collectionId": "collection-003",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-025-cream-lilac-teal-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-025-cream-lilac-teal-model-v1.png",
+        "assets/originals/catalog-inputs/product-025-isolated-construction-draft.png"
+      ],
+      "prompt": "Create ONE fresh photorealistic isolated catalog photograph of the EXACT matching set from image 1 (selected worn reference). Image 2 provides matching print placement and isolated layout. BOTH complete pieces: cream short-sleeve rib crew-neck cotton SINGLE JERSEY 160gsm T-shirt with small lilac squares and dark teal arches; plain teal soft cotton SINGLE JERSEY elastic-waist mid-thigh shorts with TWO side pockets. Top above shorts with white separation. CRITICAL shorts center front: ONLY one straight normal vertical center seam. Completely smooth fabric on either side. NO curved J-shaped fly seam, no raised fly/placket, zipper, belt loops, drawstring or buttons. Preserve exact T-shirt motif shapes, colors, spacing and front placement, silhouette, hems, garment proportions and fabric. Pure WHITE seamless studio background, natural soft light, both entire pieces inside frame with breathing room; invisible mannequin, no human, hanger, text or watermark. Generate a NEW native canvas EXACT 3:4 portrait, required 1536x2048 pixels or exact1086x1448. Do not inherit near-3:4 dimensions from image 2; canvas must be mathematically exact3:4.",
+      "alt": "Conjunto Mundo de Blocos na cor Creme, lilás suave, verde-petróleo, com as duas peças apresentadas sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a12353-51d3-72d0-a6f7-ddd60470f640\\exec-82a5366f-3440-4cfa-b1ee-4503a88b3c06.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "63d340fc5922cf0a110acb89893a8505e5f52755d464e3ed98dd4e6ddfa953c0",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-026",
+      "colorwayId": "cream-lilac-teal",
+      "collectionId": "collection-003",
+      "modelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-026-cream-lilac-teal-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-008-reference-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset: product-026 / cream-lilac-teal / model, Difratelli Kids Imaginação em Casa catalog. ONE photorealistic photograph. Garment brief: Lightweight cotton loopback, 220 g/m²; Lightweight cotton loopback open-front cardigan; long sleeves and cotton rib cuffs; no fasteners, hood or pockets. Print: Small crayon marks and stars, 15–25 mm, lilac and teal on cream; airy repeat, no text. Color placement: Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color. Colors: Creme #F3EBDD, Lilás suave #C8B8DC, Verde-petróleo #246B63. Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. One garment sold individually. Photographed size 8. Input: exact APPROVED fictional child Noah, age 8, Medium olive skin; brown eyes; long oval face; short dark-brown wavy hair.. Preserve this child's exact face, eyes, hair, skin and child proportions. Replace casting clothing with the approved garment. Supporting plain neutral shorts and neutral shoes are styling only; for cardigan a plain cream undershirt. Keep the complete untucked purchased garment visible. Relaxed frontal full-body pose, arms clear of garment, entire head and shoes inside frame. Opaque pure white seamless studio background, soft neutral diffused studio lighting, natural fabric textures. Exact portrait 3:4, native 1086x1448 or larger, no enlargement. Complete garment with ample breathing room, no crops, no props, no text or watermark, no logos or unrequested garment features. CRITICAL print consists of TWO colors only: soft lilac #C8B8DC and dark green-teal #246B63. NO blue or sky blue print. Include small short crayon stroke clusters AND stars throughout, airy 15–25 mm motifs. Plain open front, long sleeves with rib cuffs, no pockets, no fastening.",
+      "alt": "Noah usando Casaco Rabiscos de Casa na cor Creme, lilás suave, verde-petróleo, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a12353-51d3-72d0-a6f7-ddd60470f640\\exec-c76b5a91-9625-4388-9a4b-cd95c8169ca0.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "fc0d584fb658ab6ccfe54ff704d6355c994ec9e18fb6b464c016629d1bea2152",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-026",
+      "colorwayId": "cream-lilac-teal",
+      "collectionId": "collection-003",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-026-cream-lilac-teal-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-026-cream-lilac-teal-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset: product-026 / cream-lilac-teal / isolated, Difratelli Kids Imaginação em Casa catalog. ONE photorealistic photograph. Garment brief: Lightweight cotton loopback, 220 g/m²; Lightweight cotton loopback open-front cardigan; long sleeves and cotton rib cuffs; no fasteners, hood or pockets. Print: Small crayon marks and stars, 15–25 mm, lilac and teal on cream; airy repeat, no text. Color placement: Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color. Colors: Creme #F3EBDD, Lilás suave #C8B8DC, Verde-petróleo #246B63. Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. One garment sold individually. Photographed size 8. Input: exact selected worn photograph. Isolate ONLY the purchased single garment, no supporting styling clothes. Faithfully preserve exact visible garment silhouette, collar/neckline, sleeve/hem length, fabric, pockets, seams, print shapes, scale and front placement, colors. Front-on invisible mannequin studio arrangement with no human/body parts/mannequin/hanger visible. Do not reinterpret or recolor print. Preserve proportions rather than stretching garment to fill canvas. Opaque pure white seamless studio background, soft neutral diffused studio lighting, natural fabric textures. Exact portrait 3:4, native 1086x1448 or larger, no enlargement. Complete garment with ample breathing room, no crops, no props, no text or watermark, no logos or unrequested garment features.",
+      "alt": "Casaco Rabiscos de Casa na cor Creme, lilás suave, verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a12353-51d3-72d0-a6f7-ddd60470f640\\exec-ac7fa800-2e54-445c-969e-ff4d8341fb6d.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "6ee604aeb1d91350ac5bafb11cfaba0a491c3e40f316c6e94aef0e5481bee7d3",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-027",
+      "colorwayId": "lilac",
+      "collectionId": "collection-003",
+      "modelId": "model-002",
+      "photographedSize": 6,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-027-lilac-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-002-reference-v2.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset: product-027 / lilac / model, Difratelli Kids Imaginação em Casa catalog. ONE photorealistic photograph. Garment brief: Cotton-elastane fine rib, 180 g/m²; Cotton-elastane fine-rib sleeveless top; broad straps; rounded neck; straight hip-length hem; no trim or closures. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Colors: Lilás suave #C8B8DC. Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. One garment sold individually. Photographed size 6. Input: exact APPROVED fictional child Bia, age 5, Light skin with a few freckles; green eyes; oval face; straight copper-red chin-length bob.. Preserve this child's exact face, eyes, hair, skin and child proportions. Replace casting clothing with the approved garment. Supporting plain neutral shorts and neutral shoes are styling only; for cardigan a plain cream undershirt. Keep the complete untucked purchased garment visible. Relaxed frontal full-body pose, arms clear of garment, entire head and shoes inside frame. Opaque pure white seamless studio background, soft neutral diffused studio lighting, natural fabric textures. Exact portrait 3:4, native 1086x1448 or larger, no enlargement. Complete garment with ample breathing room, no crops, no props, no text or watermark, no logos or unrequested garment features.",
+      "alt": "Bia usando Blusa Cor de História na cor Lilás suave, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a12353-51d3-72d0-a6f7-ddd60470f640\\exec-cbf93956-14fb-47c1-92cb-df6bab4681ca.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "8cfd0181ff6a86b7d3066205e5174c8d102b3567500e91687207b748589d3888",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-027",
+      "colorwayId": "lilac",
+      "collectionId": "collection-003",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-027-lilac-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-027-lilac-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset: product-027 / lilac / isolated, Difratelli Kids Imaginação em Casa catalog. ONE photorealistic photograph. Garment brief: Cotton-elastane fine rib, 180 g/m²; Cotton-elastane fine-rib sleeveless top; broad straps; rounded neck; straight hip-length hem; no trim or closures. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Colors: Lilás suave #C8B8DC. Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. One garment sold individually. Photographed size 6. Input: exact selected worn photograph. Isolate ONLY the purchased single garment, no supporting styling clothes. Faithfully preserve exact visible garment silhouette, collar/neckline, sleeve/hem length, fabric, pockets, seams, print shapes, scale and front placement, colors. Front-on invisible mannequin studio arrangement with no human/body parts/mannequin/hanger visible. Do not reinterpret or recolor print. Preserve proportions rather than stretching garment to fill canvas. Opaque pure white seamless studio background, soft neutral diffused studio lighting, natural fabric textures. Exact portrait 3:4, native 1086x1448 or larger, no enlargement. Complete garment with ample breathing room, no crops, no props, no text or watermark, no logos or unrequested garment features.",
+      "alt": "Blusa Cor de História na cor Lilás suave, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a12353-51d3-72d0-a6f7-ddd60470f640\\exec-caa2c770-4924-445f-94f2-66778d5d4aa1.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "721f17c1379a201b9173e65955e310bac00ff7dd6108aab9b305dd5b57922db6",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-027",
+      "colorwayId": "cream",
+      "collectionId": "collection-003",
+      "modelId": "model-002",
+      "photographedSize": 6,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-027-cream-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-002-reference-v2.png",
+        "assets/originals/catalog/product-027-lilac-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset: product-027 / cream / model, Difratelli Kids Imaginação em Casa catalog. ONE photorealistic photograph. Garment brief: Cotton-elastane fine rib, 180 g/m²; Cotton-elastane fine-rib sleeveless top; broad straps; rounded neck; straight hip-length hem; no trim or closures. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Colors: Creme #F3EBDD. Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. One garment sold individually. Photographed size 6. Input: exact APPROVED fictional child Bia, age 5, Light skin with a few freckles; green eyes; oval face; straight copper-red chin-length bob.. Preserve this child's exact face, eyes, hair, skin and child proportions. Replace casting clothing with the approved garment. Supporting plain neutral shorts and neutral shoes are styling only; for cardigan a plain cream undershirt. Keep the complete untucked purchased garment visible. Relaxed frontal full-body pose, arms clear of garment, entire head and shoes inside frame. Opaque pure white seamless studio background, soft neutral diffused studio lighting, natural fabric textures. Exact portrait 3:4, native 1086x1448 or larger, no enlargement. Complete garment with ample breathing room, no crops, no props, no text or watermark, no logos or unrequested garment features. Input image 1 is Bia's approved identity reference; image 2 is the selected lilac top photograph. Preserve exact face, pose, styling and fine-rib top silhouette from image 2. Change ONLY purchased top color to cream #F3EBDD including binding and thread, same broad straps and rounded neck, no added trim.",
+      "alt": "Bia usando Blusa Cor de História na cor Creme, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a12353-51d3-72d0-a6f7-ddd60470f640\\exec-34bef4c1-89d1-46ac-8a99-8a58160ff0d4.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "b44d45212995cc06803cca719c56632012ee637875d4eb9254c395a39ee80272",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-027",
+      "colorwayId": "cream",
+      "collectionId": "collection-003",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-027-cream-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-027-cream-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset: product-027 / cream / isolated, Difratelli Kids Imaginação em Casa catalog. ONE photorealistic photograph. Garment brief: Cotton-elastane fine rib, 180 g/m²; Cotton-elastane fine-rib sleeveless top; broad straps; rounded neck; straight hip-length hem; no trim or closures. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Colors: Creme #F3EBDD. Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. One garment sold individually. Photographed size 6. Input: exact selected worn photograph. Isolate ONLY the purchased single garment, no supporting styling clothes. Faithfully preserve exact visible garment silhouette, collar/neckline, sleeve/hem length, fabric, pockets, seams, print shapes, scale and front placement, colors. Front-on invisible mannequin studio arrangement with no human/body parts/mannequin/hanger visible. Do not reinterpret or recolor print. Preserve proportions rather than stretching garment to fill canvas. Opaque pure white seamless studio background, soft neutral diffused studio lighting, natural fabric textures. Exact portrait 3:4, native 1086x1448 or larger, no enlargement. Complete garment with ample breathing room, no crops, no props, no text or watermark, no logos or unrequested garment features.",
+      "alt": "Blusa Cor de História na cor Creme, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a12353-51d3-72d0-a6f7-ddd60470f640\\exec-fcd8b2ee-ccfe-4a5e-8483-a24deea3f90b.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "d0c40cc96d8bd1e1779102dfdff98fe6b6f83bd0b9f151fa147b5092df2065e7",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-028",
+      "colorwayId": "peach",
+      "collectionId": "collection-003",
+      "modelId": "model-001",
+      "photographedSize": 4,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-028-peach-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-001-reference-v1.png",
+        "assets/originals/catalog-inputs/product-028-peach-model-v1-construction-draft.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Image 1 is the approved fictional child identity reference. Image 2 is the EDIT TARGET, preserve that photograph exactly except for the specified garment construction correction. Remove ALL belt loops from the peach elastic waistband and remove ALL curved fly-like stitching on the center front of the shorts. Replace removed details with uninterrupted peach cotton-stretch twill fabric texture. Keep ONLY a straight normal center seam between the two legs; absolutely NO J-shaped/U-shaped curved seam, zipper, button, belt loops or drawstring. Preserve the gathered elastic waistband, two side pockets, straight mid-thigh shorts hems, color, fabric, exact child face and pose, cream T-shirt and shoes, lighting, pure white background and full-body framing. Exact native 1086x1448 portrait 3:4. No text or watermark. This is a local seam removal edit; do not regenerate the design.",
+      "alt": "Lia usando Short Canto de Brincar na cor Pêssego, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a12353-51d3-72d0-a6f7-ddd60470f640\\exec-987e6cb9-5754-4e57-93d4-1aafcd5bc1be.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "a7e1b29fb7c4dcfb57b8494dc30aa8b5b26cb2ff34cf40c330b43645a0e9da3d",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-028",
+      "colorwayId": "peach",
+      "collectionId": "collection-003",
+      "modelId": null,
+      "photographedSize": 4,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-028-peach-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-028-peach-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset: product-028 / peach / isolated, Difratelli Kids Imaginação em Casa catalog. ONE photorealistic photograph. Garment brief: Cotton-stretch twill, 190 g/m²; Cotton-stretch twill shorts; elastic waist; two side pockets; straight hem; no drawstring or ruffles. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Colors: Pêssego #EDB69B. Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. One garment sold individually. Photographed size 4. Input: exact selected worn photograph. Isolate ONLY the purchased single garment, no supporting styling clothes. Faithfully preserve exact visible garment silhouette, collar/neckline, sleeve/hem length, fabric, pockets, seams, print shapes, scale and front placement, colors. Front-on invisible mannequin studio arrangement with no human/body parts/mannequin/hanger visible. Do not reinterpret or recolor print. Preserve proportions rather than stretching garment to fill canvas. Opaque pure white seamless studio background, soft neutral diffused studio lighting, natural fabric textures. Exact portrait 3:4, native 1086x1448 or larger, no enlargement. Complete garment with ample breathing room, no crops, no props, no text or watermark, no logos or unrequested garment features. Preserve the smooth center front with only a straight normal center seam. NO curved fly-like seam, placket, belt loops, buttons, drawstring or zipper. Preserve gathered elastic waistband and two side pockets.",
+      "alt": "Short Canto de Brincar na cor Pêssego, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a12353-51d3-72d0-a6f7-ddd60470f640\\exec-ddc45d2c-c0cb-471f-b9da-8410f03b8e51.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "cba6e7fce7e20bfeb0013943867b2b4d6ed22a85626e844b988940017de10f08",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-028",
+      "colorwayId": "cream",
+      "collectionId": "collection-003",
+      "modelId": "model-001",
+      "photographedSize": 4,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-028-cream-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-001-reference-v1.png",
+        "assets/originals/catalog/product-028-peach-model-v1.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Image 1 is the approved child identity reference; image 2 is the selected first colorway model photograph, EDIT TARGET. Preserve image 2 exactly including child's face, identity, apparent age, pose, cream supporting T-shirt, shoes, full-body framing and white background. Change ONLY the purchased shorts color to Creme #F3EBDD across the entire garment and tonal thread. Preserve exact cotton-stretch twill mid-thigh shorts, gathered elastic waist, two side pockets and straight center seam. NO fly, curved center-front seam, placket, belt loops, drawstring, buttons, cuffs, prints or logos.  Native 1086x1448 portrait 3:4, no cropping or watermark.",
+      "alt": "Lia usando Short Canto de Brincar na cor Creme, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a12353-51d3-72d0-a6f7-ddd60470f640\\exec-9bfe69aa-14a2-43d8-93bf-616dbc3f989c.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "b0769059a7e7d8bbe98f9c36ff5efde864fcd2f9dde34679ed899ee1ded7843d",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-028",
+      "colorwayId": "cream",
+      "collectionId": "collection-003",
+      "modelId": null,
+      "photographedSize": 4,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-028-cream-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-028-cream-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset: product-028 / cream / isolated, Difratelli Kids Imaginação em Casa catalog. ONE photorealistic photograph. Garment brief: Cotton-stretch twill, 190 g/m²; Cotton-stretch twill shorts; elastic waist; two side pockets; straight hem; no drawstring or ruffles. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Colors: Creme #F3EBDD. Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. One garment sold individually. Photographed size 4. Input: exact selected worn photograph. Isolate ONLY the purchased single garment, no supporting styling clothes. Faithfully preserve exact visible garment silhouette, collar/neckline, sleeve/hem length, fabric, pockets, seams, print shapes, scale and front placement, colors. Front-on invisible mannequin studio arrangement with no human/body parts/mannequin/hanger visible. Do not reinterpret or recolor print. Preserve proportions rather than stretching garment to fill canvas. Opaque pure white seamless studio background, soft neutral diffused studio lighting, natural fabric textures. Exact portrait 3:4, native 1086x1448 or larger, no enlargement. Complete garment with ample breathing room, no crops, no props, no text or watermark, no logos or unrequested garment features. CRITICAL center front is completely smooth except for one single straight normal center seam. Absolutely no curved J-shaped or U-shaped fly seam, placket, zipper, belt loops or buttons. Preserve the exact fabric, gathered elastic waist, two side pockets and full garment length.",
+      "alt": "Short Canto de Brincar na cor Creme, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a12353-51d3-72d0-a6f7-ddd60470f640/exec-8bff898b-4534-4768-852b-eaad3e30c99d.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "7a4610b0f703c89b3564e2de033c3fd7d6b95fc8d0e4897d4a76ba7455f3c422",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-029",
+      "colorwayId": "teal",
+      "collectionId": "collection-003",
+      "modelId": "model-007",
+      "photographedSize": 6,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-029-teal-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-007-reference-v1.png",
+        "assets/originals/catalog-inputs/product-029-teal-model-v1-construction-draft.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Image 1 is the approved fictional child identity reference. Image 2 is the EDIT TARGET, preserve that photograph exactly except for the specified garment construction correction. Remove ALL curved fly-like topstitching and any fly/placket shape from the center front of the full-length trousers. Replace removed details with uninterrupted deep-teal cotton-stretch twill fabric texture. Keep ONLY a straight normal center seam between the two legs; absolutely NO J-shaped/U-shaped curved seam, zipper, button, belt loops or drawstring. Preserve the gathered elastic waistband, two side pockets, straight ankle-length trouser hems, color, fabric, exact child face and pose, cream T-shirt and shoes, lighting, pure white background and full-body framing. Exact native 1086x1448 portrait 3:4. No text or watermark. This is a local seam removal edit; do not regenerate the design.",
+      "alt": "Theo usando Calça Cantinho de Ideias na cor Verde-petróleo, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a12353-51d3-72d0-a6f7-ddd60470f640\\exec-5341960b-aa44-4a36-bf2b-a4048f80fada.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "7ef3b05737da8bec91044402db9538c9633b07bebc87a3cce5789d3666ff3ecb",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-029",
+      "colorwayId": "teal",
+      "collectionId": "collection-003",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-029-teal-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-029-teal-model-v1.png",
+        "assets/originals/catalog-inputs/product-029-isolated-construction-draft.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Image 1 is the exact selected worn product-029 teal twill trousers, garment reference. Image 2 is the EDIT TARGET isolated trousers. Edit ONLY center-front construction: REMOVE the entire curved J-shaped fly-like topstitch line AND raised fly/placket contour from waist to crotch. Fill area with uninterrupted deep-teal cotton-stretch twill fabric, preserving its diagonal texture. Keep only a SINGLE STRAIGHT NORMAL CENTER SEAM from waistband to crotch. No curved seam, fly, zipper, belt loops, drawstring, buttons or cuffs. Preserve exact trouser silhouette, gathered elastic waistband, two side pockets, fabric, teal color and straight full-length ankle hems. Preserve pure white background, lighting, native 1086x1448 3:4 frame and breathing room. Do not regenerate the design or change anything else.",
+      "alt": "Calça Cantinho de Ideias na cor Verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a12353-51d3-72d0-a6f7-ddd60470f640/exec-dbefe158-228f-42fb-9582-aa1f90fe5009.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "4cae1fe70362b46bcecbdc40f68cd00fcd015e46f19334760c04f1f5424c04e0",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-029",
+      "colorwayId": "cream",
+      "collectionId": "collection-003",
+      "modelId": "model-007",
+      "photographedSize": 6,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-029-cream-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-007-reference-v1.png",
+        "assets/originals/catalog/product-029-teal-model-v1.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Image 1 is the approved child identity reference; image 2 is the selected first colorway model photograph, EDIT TARGET. Preserve image 2 exactly including child's face, identity, apparent age, pose, cream supporting T-shirt, shoes, full-body framing and white background. Change ONLY the purchased trousers color to Creme #F3EBDD across the entire garment and tonal thread. Preserve exact cotton-stretch twill straight ANKLE LENGTH TROUSERS, gathered elastic waist, two side pockets and straight center seam. NO fly, curved center-front seam, placket, belt loops, drawstring, buttons, cuffs, prints or logos. Both lower legs remain covered to the ankles. Native 1086x1448 portrait 3:4, no cropping or watermark.",
+      "alt": "Theo usando Calça Cantinho de Ideias na cor Creme, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a12353-51d3-72d0-a6f7-ddd60470f640\\exec-bf843a92-3231-4e24-a0df-e3f4d4e609ff.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "e05880fac1fe0da8c6b2bfff113b32ebbbf1e520b9cb6297486511d5e2bef014",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-029",
+      "colorwayId": "cream",
+      "collectionId": "collection-003",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-029-cream-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-029-cream-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset: product-029 / cream / isolated, Difratelli Kids Imaginação em Casa catalog. ONE photorealistic photograph. Garment brief: Cotton-stretch twill, 190 g/m²; Cotton-stretch twill trousers; elastic waist; two side pockets; straight ankle-length legs; no fly or drawstring. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Colors: Creme #F3EBDD. Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. One garment sold individually. Photographed size 6. Input: exact selected worn photograph. Isolate ONLY the purchased single garment, no supporting styling clothes. Faithfully preserve exact visible garment silhouette, collar/neckline, sleeve/hem length, fabric, pockets, seams, print shapes, scale and front placement, colors. Front-on invisible mannequin studio arrangement with no human/body parts/mannequin/hanger visible. Do not reinterpret or recolor print. Preserve proportions rather than stretching garment to fill canvas. Opaque pure white seamless studio background, soft neutral diffused studio lighting, natural fabric textures. Exact portrait 3:4, native 1086x1448 or larger, no enlargement. Complete garment with ample breathing room, no crops, no props, no text or watermark, no logos or unrequested garment features. CRITICAL center front is completely smooth except for one single straight normal center seam. Absolutely no curved J-shaped or U-shaped fly seam, placket, zipper, belt loops or buttons. Preserve the exact fabric, gathered elastic waist, two side pockets and full garment length.",
+      "alt": "Calça Cantinho de Ideias na cor Creme, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a12353-51d3-72d0-a6f7-ddd60470f640/exec-c5b00ccd-9ebe-4840-85d4-d94a2a03a572.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "6ffe5d62459156c420dbd90b1c4e2c59e4a7eb4cd09488c31dc2cacf7799eb73",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-030",
+      "colorwayId": "lilac",
+      "collectionId": "collection-003",
+      "modelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-030-lilac-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-008-reference-v1.png",
+        "assets/originals/catalog-inputs/product-030-lilac-model-v1-construction-draft.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Image 1 is the approved fictional child identity reference. Image 2 is the EDIT TARGET, preserve that photograph exactly except for the specified garment construction correction. Remove ALL curved fly-like topstitching and any fly/placket shape from the center front of the full-length trousers. Replace removed details with uninterrupted soft lilac cotton jersey fabric texture. Keep ONLY a straight normal center seam between the two legs; absolutely NO J-shaped/U-shaped curved seam, zipper, button, belt loops or drawstring. Preserve the gathered elastic waistband, two side pockets, straight ankle-length trouser hems, color, fabric, exact child face and pose, cream T-shirt and shoes, lighting, pure white background and full-body framing. Exact native 1086x1448 portrait 3:4. No text or watermark. This is a local seam removal edit; do not regenerate the design.",
+      "alt": "Noah usando Calça Faz de Conta na cor Lilás suave, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a12353-51d3-72d0-a6f7-ddd60470f640\\exec-97d800c0-fcbb-4686-b721-697ae2843c07.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "befe481a3835b3eaf79c23ac8b4b4e2e46e90596476901324b3c949914b19af7",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-030",
+      "colorwayId": "lilac",
+      "collectionId": "collection-003",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-030-lilac-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-030-lilac-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset: product-030 / lilac / isolated, Difratelli Kids Imaginação em Casa catalog. ONE photorealistic photograph. Garment brief: Cotton single jersey, 160 g/m²; Cotton jersey trousers; elastic waist; two side pockets; straight relaxed ankle-length legs; no cuffs, drawstring or fly. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Colors: Lilás suave #C8B8DC. Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. One garment sold individually. Photographed size 8. Input: exact selected worn photograph. Isolate ONLY the purchased single garment, no supporting styling clothes. Faithfully preserve exact visible garment silhouette, collar/neckline, sleeve/hem length, fabric, pockets, seams, print shapes, scale and front placement, colors. Front-on invisible mannequin studio arrangement with no human/body parts/mannequin/hanger visible. Do not reinterpret or recolor print. Preserve proportions rather than stretching garment to fill canvas. Opaque pure white seamless studio background, soft neutral diffused studio lighting, natural fabric textures. Exact portrait 3:4, native 1086x1448 or larger, no enlargement. Complete garment with ample breathing room, no crops, no props, no text or watermark, no logos or unrequested garment features. Preserve the smooth center front with only a straight normal center seam. NO curved fly-like seam, placket, belt loops, buttons, drawstring or zipper. Preserve gathered elastic waistband and two side pockets.",
+      "alt": "Calça Faz de Conta na cor Lilás suave, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a12353-51d3-72d0-a6f7-ddd60470f640\\exec-cacbe3ef-a16a-4088-a176-d74529fce8f5.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "e3b8cef3cf6a282cf7243fd120d09d6ecdbd9ff26dd0b696aa106fa34d2b96fa",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-030",
+      "colorwayId": "peach",
+      "collectionId": "collection-003",
+      "modelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-030-peach-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-008-reference-v1.png",
+        "assets/originals/catalog/product-030-lilac-model-v1.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Image 1 is the approved child identity reference; image 2 is the selected first colorway model photograph, EDIT TARGET. Preserve image 2 exactly including child's face, identity, apparent age, pose, cream supporting T-shirt, shoes, full-body framing and white background. Change ONLY the purchased trousers color to Pêssego #EDB69B across the entire garment and tonal thread. Preserve exact soft cotton single jersey relaxed straight ANKLE LENGTH TROUSERS, gathered elastic waist, two side pockets and straight center seam. NO fly, curved center-front seam, placket, belt loops, drawstring, buttons, cuffs, prints or logos. Both lower legs remain covered to the ankles. Native 1086x1448 portrait 3:4, no cropping or watermark.",
+      "alt": "Noah usando Calça Faz de Conta na cor Pêssego, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a12353-51d3-72d0-a6f7-ddd60470f640\\exec-abb8d79c-b3fa-44e6-89ec-4eac4923a789.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "7ae01d84fa0c84d624772b190cd3cd3806f2242ac4cadc0913a4694c67ba66b3",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    },
+    {
+      "productId": "product-030",
+      "colorwayId": "peach",
+      "collectionId": "collection-003",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-030-peach-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-030-peach-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Asset: product-030 / peach / isolated, Difratelli Kids Imaginação em Casa catalog. ONE photorealistic photograph. Garment brief: Cotton single jersey, 160 g/m²; Cotton jersey trousers; elastic waist; two side pockets; straight relaxed ankle-length legs; no cuffs, drawstring or fly. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Colors: Pêssego #EDB69B. Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. One garment sold individually. Photographed size 8. Input: exact selected worn photograph. Isolate ONLY the purchased single garment, no supporting styling clothes. Faithfully preserve exact visible garment silhouette, collar/neckline, sleeve/hem length, fabric, pockets, seams, print shapes, scale and front placement, colors. Front-on invisible mannequin studio arrangement with no human/body parts/mannequin/hanger visible. Do not reinterpret or recolor print. Preserve proportions rather than stretching garment to fill canvas. Opaque pure white seamless studio background, soft neutral diffused studio lighting, natural fabric textures. Exact portrait 3:4, native 1086x1448 or larger, no enlargement. Complete garment with ample breathing room, no crops, no props, no text or watermark, no logos or unrequested garment features. CRITICAL center front is completely smooth except for one single straight normal center seam. Absolutely no curved J-shaped or U-shaped fly seam, placket, zipper, belt loops or buttons. Preserve the exact fabric, gathered elastic waist, two side pockets and full garment length.",
+      "alt": "Calça Faz de Conta na cor Pêssego, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a12353-51d3-72d0-a6f7-ddd60470f640/exec-e30a0b4e-aebd-49ff-962b-de1b57d0bc7c.png",
+      "tool": "built-in image_gen",
+      "originalSha256": "f3e80b069e8ba04eca870c500e7b5d759097b584e79046b52aec63db759480c3",
+      "width": 1086,
+      "height": 1448,
+      "approvalStatus": "approved"
+    }
+  ],
+  "technicalStatus": "passed-under-accepted-collection-revision",
+  "productionNotes": [
+    "Dress print scale, set shorts construction, cardigan colors/marks, trouser length, and invented fly/belt-loop details were corrected before selecting the final photographs.",
+    "Five unapproved construction drafts are retained separately in assets/originals/catalog-inputs only because they were exact inputs for selected correction requests; they are not catalog deliverables.",
+    "The final set isolation was regenerated after a seam-removal result measured 1087x1447. Every selected catalog original and WebP is native exact1086x1448, without resizing or cropping."
+  ],
+  "approvalSource": "docs/content/imaginacao-approval.json"
+}
