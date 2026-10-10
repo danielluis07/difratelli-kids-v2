@@ -1,0 +1,1485 @@
+{
+  "revision": "issue-27-imaginacao-v1",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/27",
+  "collectionId": "collection-003",
+  "status": "requests-only",
+  "resolutionAcceptancePath": "docs/content/imaginacao-resolution-acceptance.json",
+  "contract": {
+    "minimumWidth": 1086,
+    "minimumHeight": 1448,
+    "aspectRatio": "3:4",
+    "background": "opaque-white",
+    "crop": "full-frame",
+    "webpQuality": 90,
+    "enlargementAllowed": false
+  },
+  "sampleReuse": "None: the approved product-006 sample belongs to collection-001.",
+  "requests": [
+    {
+      "id": "product-021-cream-teal-peach-model-v1",
+      "productId": "product-021",
+      "collectionId": "collection-003",
+      "colorwayId": "cream-teal-peach",
+      "modelId": "model-005",
+      "photographedSize": 2,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-021-cream-teal-peach-model-v1.png",
+      "webPath": "public/images/catalog/product-021-cream-teal-peach-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-005-reference-v2.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-005",
+        "name": "Caio",
+        "age": 2,
+        "audienceId": "boys",
+        "photographedSize": 2,
+        "identityBrief": "Light skin; blue eyes; round toddler face; short straight dark-brown hair.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-002",
+          "product-008",
+          "product-021"
+        ],
+        "referenceSha256": "446b8c30e3568325be58210aad97775878ae928a5c3495d7593668120526ecd8"
+      },
+      "productName": "Camiseta Blocos de Ideias",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Straight short-sleeve jersey T-shirt; rib crew neck; hip length.",
+        "print": "Simple building-block squares and arches, 20–30 mm, teal and peach on cream; airy crayon-edge texture, no text.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        },
+        {
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        },
+        {
+          "name": "Pêssego",
+          "hex": "#EDB69B"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Caio usando Camiseta Blocos de Ideias na cor Creme, verde-petróleo, pêssego, com a peça inteira visível sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-021-cream-teal-peach-isolated-v1",
+      "productId": "product-021",
+      "collectionId": "collection-003",
+      "colorwayId": "cream-teal-peach",
+      "modelId": null,
+      "photographedSize": 2,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-021-cream-teal-peach-isolated-v1.png",
+      "webPath": "public/images/catalog/product-021-cream-teal-peach-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-021-cream-teal-peach-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Camiseta Blocos de Ideias",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Straight short-sleeve jersey T-shirt; rib crew neck; hip length.",
+        "print": "Simple building-block squares and arches, 20–30 mm, teal and peach on cream; airy crayon-edge texture, no text.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        },
+        {
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        },
+        {
+          "name": "Pêssego",
+          "hex": "#EDB69B"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Camiseta Blocos de Ideias na cor Creme, verde-petróleo, pêssego, apresentado sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-022-lilac-cream-teal-model-v1",
+      "productId": "product-022",
+      "collectionId": "collection-003",
+      "colorwayId": "lilac-cream-teal",
+      "modelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-022-lilac-cream-teal-model-v1.png",
+      "webPath": "public/images/catalog/product-022-lilac-cream-teal-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-008-reference-v1.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-008",
+        "name": "Noah",
+        "age": 8,
+        "audienceId": "boys",
+        "photographedSize": 8,
+        "identityBrief": "Medium olive skin; brown eyes; long oval face; short dark-brown wavy hair.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-010",
+          "product-018",
+          "product-020",
+          "product-022",
+          "product-026",
+          "product-030"
+        ],
+        "referenceSha256": "84c4c5c21ee85c4271ca2134b09f12bdce3d3bf67ad4324504100ad4e18d4514"
+      },
+      "productName": "Camiseta Estrelas de Papel",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Straight short-sleeve jersey T-shirt; rib crew neck; hip length.",
+        "print": "Simple irregular five-point stars, 15–25 mm, cream and teal on soft lilac; scattered, no glitter or lettering.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Lilás suave",
+          "hex": "#C8B8DC"
+        },
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        },
+        {
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Noah usando Camiseta Estrelas de Papel na cor Lilás suave, creme, verde-petróleo, com a peça inteira visível sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-022-lilac-cream-teal-isolated-v1",
+      "productId": "product-022",
+      "collectionId": "collection-003",
+      "colorwayId": "lilac-cream-teal",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-022-lilac-cream-teal-isolated-v1.png",
+      "webPath": "public/images/catalog/product-022-lilac-cream-teal-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-022-lilac-cream-teal-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Camiseta Estrelas de Papel",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Straight short-sleeve jersey T-shirt; rib crew neck; hip length.",
+        "print": "Simple irregular five-point stars, 15–25 mm, cream and teal on soft lilac; scattered, no glitter or lettering.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Lilás suave",
+          "hex": "#C8B8DC"
+        },
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        },
+        {
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Camiseta Estrelas de Papel na cor Lilás suave, creme, verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-023-cream-lilac-peach-model-v1",
+      "productId": "product-023",
+      "collectionId": "collection-003",
+      "colorwayId": "cream-lilac-peach",
+      "modelId": "model-003",
+      "photographedSize": 6,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-023-cream-lilac-peach-model-v1.png",
+      "webPath": "public/images/catalog/product-023-cream-lilac-peach-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-003-reference-v2.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-003",
+        "name": "Nina",
+        "age": 6,
+        "audienceId": "girls",
+        "photographedSize": 6,
+        "fictionalBackground": "Russian",
+        "identityBrief": "Fair skin; dark brown eyes; oval face; straight dark-brown shoulder-length hair parted slightly off center.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-005",
+          "product-016",
+          "product-023"
+        ],
+        "referenceSha256": "ea2d3e643291642718bb4f5c51fd1306843f0de7a4b7cdc0265607ed9b55892a"
+      },
+      "productName": "Blusa Traços de Imaginação",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Sleeveless jersey top; broad shoulder straps; rounded neckline; straight hip-length hem; no fasteners or ties.",
+        "print": "Short crayon-like marks, 20–30 mm, lilac and peach on cream; airy scattered clusters.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        },
+        {
+          "name": "Lilás suave",
+          "hex": "#C8B8DC"
+        },
+        {
+          "name": "Pêssego",
+          "hex": "#EDB69B"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Nina usando Blusa Traços de Imaginação na cor Creme, lilás suave, pêssego, com a peça inteira visível sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-023-cream-lilac-peach-isolated-v1",
+      "productId": "product-023",
+      "collectionId": "collection-003",
+      "colorwayId": "cream-lilac-peach",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-023-cream-lilac-peach-isolated-v1.png",
+      "webPath": "public/images/catalog/product-023-cream-lilac-peach-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-023-cream-lilac-peach-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Blusa Traços de Imaginação",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Sleeveless jersey top; broad shoulder straps; rounded neckline; straight hip-length hem; no fasteners or ties.",
+        "print": "Short crayon-like marks, 20–30 mm, lilac and peach on cream; airy scattered clusters.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        },
+        {
+          "name": "Lilás suave",
+          "hex": "#C8B8DC"
+        },
+        {
+          "name": "Pêssego",
+          "hex": "#EDB69B"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Blusa Traços de Imaginação na cor Creme, lilás suave, pêssego, apresentado sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-024-peach-teal-cream-model-v1",
+      "productId": "product-024",
+      "collectionId": "collection-003",
+      "colorwayId": "peach-teal-cream",
+      "modelId": "model-004",
+      "photographedSize": 8,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-024-peach-teal-cream-model-v1.png",
+      "webPath": "public/images/catalog/product-024-peach-teal-cream-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-004-reference-v2.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-004",
+        "name": "Iara",
+        "age": 8,
+        "audienceId": "girls",
+        "photographedSize": 8,
+        "identityBrief": "Fair skin; blue eyes; oval face; natural golden-blonde shoulder-length hair worn loose with a simple side part.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-014",
+          "product-024"
+        ],
+        "referenceSha256": "27184a178f11556ed4048930462bce2f1e6dda6681c2172d278c4268753a8a18"
+      },
+      "productName": "Vestido Histórias de Estrelas",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Jersey dress; short sleeves; rounded neckline; natural-waist seam; gently gathered skirt; no pockets or closure.",
+        "print": "Simple five-point stars, 20–30 mm, cream and teal on peach; irregular crayon outlines, no glitter.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Pêssego",
+          "hex": "#EDB69B"
+        },
+        {
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        },
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Iara usando Vestido Histórias de Estrelas na cor Pêssego, verde-petróleo, creme, com a peça inteira visível sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-024-peach-teal-cream-isolated-v1",
+      "productId": "product-024",
+      "collectionId": "collection-003",
+      "colorwayId": "peach-teal-cream",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-024-peach-teal-cream-isolated-v1.png",
+      "webPath": "public/images/catalog/product-024-peach-teal-cream-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-024-peach-teal-cream-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Vestido Histórias de Estrelas",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Jersey dress; short sleeves; rounded neckline; natural-waist seam; gently gathered skirt; no pockets or closure.",
+        "print": "Simple five-point stars, 20–30 mm, cream and teal on peach; irregular crayon outlines, no glitter.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Pêssego",
+          "hex": "#EDB69B"
+        },
+        {
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        },
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Vestido Histórias de Estrelas na cor Pêssego, verde-petróleo, creme, apresentado sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-025-cream-lilac-teal-model-v1",
+      "productId": "product-025",
+      "collectionId": "collection-003",
+      "colorwayId": "cream-lilac-teal",
+      "modelId": "model-007",
+      "photographedSize": 6,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-025-cream-lilac-teal-model-v1.png",
+      "webPath": "public/images/catalog/product-025-cream-lilac-teal-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-007-reference-v1.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-007",
+        "name": "Theo",
+        "age": 6,
+        "audienceId": "boys",
+        "photographedSize": 6,
+        "identityBrief": "Light skin with freckles; green eyes; oval face; slightly tousled short sandy blond hair.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-009",
+          "product-012",
+          "product-015",
+          "product-025",
+          "product-029"
+        ],
+        "referenceSha256": "fd435230a5c3757ba17f2e2ccccae69f4c39eabb28d66ced2a46846c218469bd"
+      },
+      "productName": "Conjunto Mundo de Blocos",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Two jersey pieces: short-sleeve round-neck T-shirt and plain teal elastic-waist shorts with two side pockets; no drawstring.",
+        "print": "Building-block squares and arches, 20–30 mm, lilac and teal on cream T-shirt; shorts plain teal.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "Two jersey pieces: short-sleeve round-neck T-shirt and plain teal elastic-waist shorts with two side pockets; no drawstring."
+      },
+      "garmentColors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        },
+        {
+          "name": "Lilás suave",
+          "hex": "#C8B8DC"
+        },
+        {
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        }
+      ],
+      "includedPieces": [
+        "Camiseta de mangas curtas estampada",
+        "Short liso com cintura elástica"
+      ],
+      "alt": "Theo usando Conjunto Mundo de Blocos na cor Creme, lilás suave, verde-petróleo, com as duas peças inteiras visíveis sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-025-cream-lilac-teal-isolated-v1",
+      "productId": "product-025",
+      "collectionId": "collection-003",
+      "colorwayId": "cream-lilac-teal",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-025-cream-lilac-teal-isolated-v1.png",
+      "webPath": "public/images/catalog/product-025-cream-lilac-teal-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-025-cream-lilac-teal-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Conjunto Mundo de Blocos",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Two jersey pieces: short-sleeve round-neck T-shirt and plain teal elastic-waist shorts with two side pockets; no drawstring.",
+        "print": "Building-block squares and arches, 20–30 mm, lilac and teal on cream T-shirt; shorts plain teal.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "Two jersey pieces: short-sleeve round-neck T-shirt and plain teal elastic-waist shorts with two side pockets; no drawstring."
+      },
+      "garmentColors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        },
+        {
+          "name": "Lilás suave",
+          "hex": "#C8B8DC"
+        },
+        {
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        }
+      ],
+      "includedPieces": [
+        "Camiseta de mangas curtas estampada",
+        "Short liso com cintura elástica"
+      ],
+      "alt": "Conjunto Mundo de Blocos na cor Creme, lilás suave, verde-petróleo, com as duas peças apresentadas sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-026-cream-lilac-teal-model-v1",
+      "productId": "product-026",
+      "collectionId": "collection-003",
+      "colorwayId": "cream-lilac-teal",
+      "modelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-026-cream-lilac-teal-model-v1.png",
+      "webPath": "public/images/catalog/product-026-cream-lilac-teal-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-008-reference-v1.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-008",
+        "name": "Noah",
+        "age": 8,
+        "audienceId": "boys",
+        "photographedSize": 8,
+        "identityBrief": "Medium olive skin; brown eyes; long oval face; short dark-brown wavy hair.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-010",
+          "product-018",
+          "product-020",
+          "product-022",
+          "product-026",
+          "product-030"
+        ],
+        "referenceSha256": "84c4c5c21ee85c4271ca2134b09f12bdce3d3bf67ad4324504100ad4e18d4514"
+      },
+      "productName": "Casaco Rabiscos de Casa",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Lightweight cotton loopback, 220 g/m²",
+        "silhouette": "Lightweight cotton loopback open-front cardigan; long sleeves and cotton rib cuffs; no fasteners, hood or pockets.",
+        "print": "Small crayon marks and stars, 15–25 mm, lilac and teal on cream; airy repeat, no text.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        },
+        {
+          "name": "Lilás suave",
+          "hex": "#C8B8DC"
+        },
+        {
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Noah usando Casaco Rabiscos de Casa na cor Creme, lilás suave, verde-petróleo, com a peça inteira visível sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-026-cream-lilac-teal-isolated-v1",
+      "productId": "product-026",
+      "collectionId": "collection-003",
+      "colorwayId": "cream-lilac-teal",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-026-cream-lilac-teal-isolated-v1.png",
+      "webPath": "public/images/catalog/product-026-cream-lilac-teal-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-026-cream-lilac-teal-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Casaco Rabiscos de Casa",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Lightweight cotton loopback, 220 g/m²",
+        "silhouette": "Lightweight cotton loopback open-front cardigan; long sleeves and cotton rib cuffs; no fasteners, hood or pockets.",
+        "print": "Small crayon marks and stars, 15–25 mm, lilac and teal on cream; airy repeat, no text.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        },
+        {
+          "name": "Lilás suave",
+          "hex": "#C8B8DC"
+        },
+        {
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Casaco Rabiscos de Casa na cor Creme, lilás suave, verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-027-lilac-model-v1",
+      "productId": "product-027",
+      "collectionId": "collection-003",
+      "colorwayId": "lilac",
+      "modelId": "model-002",
+      "photographedSize": 6,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-027-lilac-model-v1.png",
+      "webPath": "public/images/catalog/product-027-lilac-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-002-reference-v2.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-002",
+        "name": "Bia",
+        "age": 5,
+        "audienceId": "girls",
+        "photographedSize": 6,
+        "identityBrief": "Light skin with a few freckles; green eyes; oval face; straight copper-red chin-length bob.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-004",
+          "product-013",
+          "product-017",
+          "product-027"
+        ],
+        "referenceSha256": "c29fb497afb76beb42db5c7671b463d9f8261f94dc1bcebfd1d8821eae59a367"
+      },
+      "productName": "Blusa Cor de História",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-elastane fine rib, 180 g/m²",
+        "silhouette": "Cotton-elastane fine-rib sleeveless top; broad straps; rounded neck; straight hip-length hem; no trim or closures.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Lilás suave",
+          "hex": "#C8B8DC"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Bia usando Blusa Cor de História na cor Lilás suave, com a peça inteira visível sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-027-lilac-isolated-v1",
+      "productId": "product-027",
+      "collectionId": "collection-003",
+      "colorwayId": "lilac",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-027-lilac-isolated-v1.png",
+      "webPath": "public/images/catalog/product-027-lilac-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-027-lilac-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Blusa Cor de História",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-elastane fine rib, 180 g/m²",
+        "silhouette": "Cotton-elastane fine-rib sleeveless top; broad straps; rounded neck; straight hip-length hem; no trim or closures.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Lilás suave",
+          "hex": "#C8B8DC"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Blusa Cor de História na cor Lilás suave, apresentado sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-027-cream-model-v1",
+      "productId": "product-027",
+      "collectionId": "collection-003",
+      "colorwayId": "cream",
+      "modelId": "model-002",
+      "photographedSize": 6,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-027-cream-model-v1.png",
+      "webPath": "public/images/catalog/product-027-cream-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-002-reference-v2.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-002",
+        "name": "Bia",
+        "age": 5,
+        "audienceId": "girls",
+        "photographedSize": 6,
+        "identityBrief": "Light skin with a few freckles; green eyes; oval face; straight copper-red chin-length bob.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-004",
+          "product-013",
+          "product-017",
+          "product-027"
+        ],
+        "referenceSha256": "c29fb497afb76beb42db5c7671b463d9f8261f94dc1bcebfd1d8821eae59a367"
+      },
+      "productName": "Blusa Cor de História",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-elastane fine rib, 180 g/m²",
+        "silhouette": "Cotton-elastane fine-rib sleeveless top; broad straps; rounded neck; straight hip-length hem; no trim or closures.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Bia usando Blusa Cor de História na cor Creme, com a peça inteira visível sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-027-cream-isolated-v1",
+      "productId": "product-027",
+      "collectionId": "collection-003",
+      "colorwayId": "cream",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-027-cream-isolated-v1.png",
+      "webPath": "public/images/catalog/product-027-cream-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-027-cream-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Blusa Cor de História",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-elastane fine rib, 180 g/m²",
+        "silhouette": "Cotton-elastane fine-rib sleeveless top; broad straps; rounded neck; straight hip-length hem; no trim or closures.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Blusa Cor de História na cor Creme, apresentado sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-028-peach-model-v1",
+      "productId": "product-028",
+      "collectionId": "collection-003",
+      "colorwayId": "peach",
+      "modelId": "model-001",
+      "photographedSize": 4,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-028-peach-model-v1.png",
+      "webPath": "public/images/catalog/product-028-peach-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-001-reference-v1.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-001",
+        "name": "Lia",
+        "age": 3,
+        "audienceId": "girls",
+        "photographedSize": 4,
+        "identityBrief": "Medium brown skin; dark brown eyes; round face; short dense dark curls.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-003",
+          "product-007",
+          "product-028"
+        ],
+        "referenceSha256": "4dfe5ae27cb5ed408505aa892ae3f012535e19ebb1e5917dbae39acb3294af43"
+      },
+      "productName": "Short Canto de Brincar",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill shorts; elastic waist; two side pockets; straight hem; no drawstring or ruffles.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Pêssego",
+          "hex": "#EDB69B"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Lia usando Short Canto de Brincar na cor Pêssego, com a peça inteira visível sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-028-peach-isolated-v1",
+      "productId": "product-028",
+      "collectionId": "collection-003",
+      "colorwayId": "peach",
+      "modelId": null,
+      "photographedSize": 4,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-028-peach-isolated-v1.png",
+      "webPath": "public/images/catalog/product-028-peach-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-028-peach-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Short Canto de Brincar",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill shorts; elastic waist; two side pockets; straight hem; no drawstring or ruffles.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Pêssego",
+          "hex": "#EDB69B"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Short Canto de Brincar na cor Pêssego, apresentado sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-028-cream-model-v1",
+      "productId": "product-028",
+      "collectionId": "collection-003",
+      "colorwayId": "cream",
+      "modelId": "model-001",
+      "photographedSize": 4,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-028-cream-model-v1.png",
+      "webPath": "public/images/catalog/product-028-cream-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-001-reference-v1.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-001",
+        "name": "Lia",
+        "age": 3,
+        "audienceId": "girls",
+        "photographedSize": 4,
+        "identityBrief": "Medium brown skin; dark brown eyes; round face; short dense dark curls.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-003",
+          "product-007",
+          "product-028"
+        ],
+        "referenceSha256": "4dfe5ae27cb5ed408505aa892ae3f012535e19ebb1e5917dbae39acb3294af43"
+      },
+      "productName": "Short Canto de Brincar",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill shorts; elastic waist; two side pockets; straight hem; no drawstring or ruffles.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Lia usando Short Canto de Brincar na cor Creme, com a peça inteira visível sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-028-cream-isolated-v1",
+      "productId": "product-028",
+      "collectionId": "collection-003",
+      "colorwayId": "cream",
+      "modelId": null,
+      "photographedSize": 4,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-028-cream-isolated-v1.png",
+      "webPath": "public/images/catalog/product-028-cream-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-028-cream-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Short Canto de Brincar",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill shorts; elastic waist; two side pockets; straight hem; no drawstring or ruffles.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Short Canto de Brincar na cor Creme, apresentado sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-029-teal-model-v1",
+      "productId": "product-029",
+      "collectionId": "collection-003",
+      "colorwayId": "teal",
+      "modelId": "model-007",
+      "photographedSize": 6,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-029-teal-model-v1.png",
+      "webPath": "public/images/catalog/product-029-teal-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-007-reference-v1.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-007",
+        "name": "Theo",
+        "age": 6,
+        "audienceId": "boys",
+        "photographedSize": 6,
+        "identityBrief": "Light skin with freckles; green eyes; oval face; slightly tousled short sandy blond hair.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-009",
+          "product-012",
+          "product-015",
+          "product-025",
+          "product-029"
+        ],
+        "referenceSha256": "fd435230a5c3757ba17f2e2ccccae69f4c39eabb28d66ced2a46846c218469bd"
+      },
+      "productName": "Calça Cantinho de Ideias",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill trousers; elastic waist; two side pockets; straight ankle-length legs; no fly or drawstring.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Theo usando Calça Cantinho de Ideias na cor Verde-petróleo, com a peça inteira visível sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-029-teal-isolated-v1",
+      "productId": "product-029",
+      "collectionId": "collection-003",
+      "colorwayId": "teal",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-029-teal-isolated-v1.png",
+      "webPath": "public/images/catalog/product-029-teal-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-029-teal-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Calça Cantinho de Ideias",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill trousers; elastic waist; two side pockets; straight ankle-length legs; no fly or drawstring.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Calça Cantinho de Ideias na cor Verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-029-cream-model-v1",
+      "productId": "product-029",
+      "collectionId": "collection-003",
+      "colorwayId": "cream",
+      "modelId": "model-007",
+      "photographedSize": 6,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-029-cream-model-v1.png",
+      "webPath": "public/images/catalog/product-029-cream-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-007-reference-v1.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-007",
+        "name": "Theo",
+        "age": 6,
+        "audienceId": "boys",
+        "photographedSize": 6,
+        "identityBrief": "Light skin with freckles; green eyes; oval face; slightly tousled short sandy blond hair.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-009",
+          "product-012",
+          "product-015",
+          "product-025",
+          "product-029"
+        ],
+        "referenceSha256": "fd435230a5c3757ba17f2e2ccccae69f4c39eabb28d66ced2a46846c218469bd"
+      },
+      "productName": "Calça Cantinho de Ideias",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill trousers; elastic waist; two side pockets; straight ankle-length legs; no fly or drawstring.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Theo usando Calça Cantinho de Ideias na cor Creme, com a peça inteira visível sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-029-cream-isolated-v1",
+      "productId": "product-029",
+      "collectionId": "collection-003",
+      "colorwayId": "cream",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-029-cream-isolated-v1.png",
+      "webPath": "public/images/catalog/product-029-cream-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-029-cream-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Calça Cantinho de Ideias",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill trousers; elastic waist; two side pockets; straight ankle-length legs; no fly or drawstring.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Calça Cantinho de Ideias na cor Creme, apresentado sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-030-lilac-model-v1",
+      "productId": "product-030",
+      "collectionId": "collection-003",
+      "colorwayId": "lilac",
+      "modelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-030-lilac-model-v1.png",
+      "webPath": "public/images/catalog/product-030-lilac-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-008-reference-v1.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-008",
+        "name": "Noah",
+        "age": 8,
+        "audienceId": "boys",
+        "photographedSize": 8,
+        "identityBrief": "Medium olive skin; brown eyes; long oval face; short dark-brown wavy hair.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-010",
+          "product-018",
+          "product-020",
+          "product-022",
+          "product-026",
+          "product-030"
+        ],
+        "referenceSha256": "84c4c5c21ee85c4271ca2134b09f12bdce3d3bf67ad4324504100ad4e18d4514"
+      },
+      "productName": "Calça Faz de Conta",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Cotton jersey trousers; elastic waist; two side pockets; straight relaxed ankle-length legs; no cuffs, drawstring or fly.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Lilás suave",
+          "hex": "#C8B8DC"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Noah usando Calça Faz de Conta na cor Lilás suave, com a peça inteira visível sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-030-lilac-isolated-v1",
+      "productId": "product-030",
+      "collectionId": "collection-003",
+      "colorwayId": "lilac",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-030-lilac-isolated-v1.png",
+      "webPath": "public/images/catalog/product-030-lilac-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-030-lilac-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Calça Faz de Conta",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Cotton jersey trousers; elastic waist; two side pockets; straight relaxed ankle-length legs; no cuffs, drawstring or fly.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Lilás suave",
+          "hex": "#C8B8DC"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Calça Faz de Conta na cor Lilás suave, apresentado sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-030-peach-model-v1",
+      "productId": "product-030",
+      "collectionId": "collection-003",
+      "colorwayId": "peach",
+      "modelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-030-peach-model-v1.png",
+      "webPath": "public/images/catalog/product-030-peach-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-008-reference-v1.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-008",
+        "name": "Noah",
+        "age": 8,
+        "audienceId": "boys",
+        "photographedSize": 8,
+        "identityBrief": "Medium olive skin; brown eyes; long oval face; short dark-brown wavy hair.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-010",
+          "product-018",
+          "product-020",
+          "product-022",
+          "product-026",
+          "product-030"
+        ],
+        "referenceSha256": "84c4c5c21ee85c4271ca2134b09f12bdce3d3bf67ad4324504100ad4e18d4514"
+      },
+      "productName": "Calça Faz de Conta",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Cotton jersey trousers; elastic waist; two side pockets; straight relaxed ankle-length legs; no cuffs, drawstring or fly.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Pêssego",
+          "hex": "#EDB69B"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Noah usando Calça Faz de Conta na cor Pêssego, com a peça inteira visível sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-030-peach-isolated-v1",
+      "productId": "product-030",
+      "collectionId": "collection-003",
+      "colorwayId": "peach",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-030-peach-isolated-v1.png",
+      "webPath": "public/images/catalog/product-030-peach-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-030-peach-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Calça Faz de Conta",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Cotton jersey trousers; elastic waist; two side pockets; straight relaxed ankle-length legs; no cuffs, drawstring or fly.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Pêssego",
+          "hex": "#EDB69B"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Calça Faz de Conta na cor Pêssego, apresentado sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    }
+  ]
+}

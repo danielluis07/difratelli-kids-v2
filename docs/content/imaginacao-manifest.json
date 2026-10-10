@@ -1,0 +1,1103 @@
+{
+  "revision": "issue-27-imaginacao-v1",
+  "collectionId": "collection-003",
+  "technicalStatus": "passed",
+  "approvalStatus": "approved",
+  "scope": "All ten Imaginação products and fourteen colorways, model first and isolated second. Complete-content and release gates are separate.",
+  "resolutionContract": {
+    "collectionId": "collection-003",
+    "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/27",
+    "status": "accepted",
+    "minimumWidth": 1086,
+    "minimumHeight": 1448,
+    "aspectRatio": "3:4",
+    "enlargementAllowed": false,
+    "reviewer": "The user in this conversation",
+    "recordedAtUtc": "2026-10-10T01:12:32Z",
+    "evidence": "The user replied 'approved' to the presented resolution decision between accepting native 1086 × 1448 for Imaginação and attempting compliant output through Higgsfield.",
+    "scope": "All 28 Imaginação em Casa catalog photographs only. This decision revises native dimensions; complete-batch visual approval remains separate."
+  },
+  "assets": [
+    {
+      "id": "product-021-cream-teal-peach-model-v1",
+      "productId": "product-021",
+      "collectionId": "collection-003",
+      "colorwayId": "cream-teal-peach",
+      "modelId": "model-005",
+      "photographedSize": 2,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-021-cream-teal-peach-model-v1.png",
+      "originalSha256": "8573225ddcbce962a48c1cb15c3f7a14147cee822bb95fcbf512a704ae15a3e4",
+      "webPath": "public/images/catalog/product-021-cream-teal-peach-model-v1.webp",
+      "webSha256": "563c1916aa9e4880e3568af6671485c6728653e4be7581c105a562f4e3d3170e",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1693888,
+      "webBytes": 71190,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-005-reference-v2.png",
+          "retainedPath": "assets/originals/cast/model-005-reference-v2.png",
+          "sha256": "446b8c30e3568325be58210aad97775878ae928a5c3495d7593668120526ecd8"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Caio usando Camiseta Blocos de Ideias na cor Creme, verde-petróleo, pêssego, com a peça inteira visível sobre fundo branco."
+    },
+    {
+      "id": "product-021-cream-teal-peach-isolated-v1",
+      "productId": "product-021",
+      "collectionId": "collection-003",
+      "colorwayId": "cream-teal-peach",
+      "modelId": null,
+      "photographedSize": 2,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-021-cream-teal-peach-isolated-v1.png",
+      "originalSha256": "fd248cd65dc8b57192f5421c40b4bb85cb44e190b65917307ee475701b474b3a",
+      "webPath": "public/images/catalog/product-021-cream-teal-peach-isolated-v1.webp",
+      "webSha256": "fea7398607f4d0068512bc70e5d2c705e3deef4efb3f1da84b595997f0325065",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1514480,
+      "webBytes": 77568,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-021-cream-teal-peach-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-021-cream-teal-peach-model-v1.png",
+          "sha256": "8573225ddcbce962a48c1cb15c3f7a14147cee822bb95fcbf512a704ae15a3e4"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Camiseta Blocos de Ideias na cor Creme, verde-petróleo, pêssego, apresentado sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-022-lilac-cream-teal-model-v1",
+      "productId": "product-022",
+      "collectionId": "collection-003",
+      "colorwayId": "lilac-cream-teal",
+      "modelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-022-lilac-cream-teal-model-v1.png",
+      "originalSha256": "64123a11252327d0515f5a664a2da02c12d4174459586b754ad9e048a4558f1c",
+      "webPath": "public/images/catalog/product-022-lilac-cream-teal-model-v1.webp",
+      "webSha256": "497154803e6f8f4a870363ff010f6b3d3fe3ca93784d5424ed93d5994724cf6a",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1722248,
+      "webBytes": 63380,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-008-reference-v1.png",
+          "retainedPath": "assets/originals/cast/model-008-reference-v1.png",
+          "sha256": "84c4c5c21ee85c4271ca2134b09f12bdce3d3bf67ad4324504100ad4e18d4514"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Noah usando Camiseta Estrelas de Papel na cor Lilás suave, creme, verde-petróleo, com a peça inteira visível sobre fundo branco."
+    },
+    {
+      "id": "product-022-lilac-cream-teal-isolated-v1",
+      "productId": "product-022",
+      "collectionId": "collection-003",
+      "colorwayId": "lilac-cream-teal",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-022-lilac-cream-teal-isolated-v1.png",
+      "originalSha256": "622bf5213303a703db596e248ec9c23c958cf62a02afb0766ba583afa30f01a9",
+      "webPath": "public/images/catalog/product-022-lilac-cream-teal-isolated-v1.webp",
+      "webSha256": "637823d29b0e0114cf09b8091ab7dc4c3845a4772c55dbfaf0fe417728389413",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1521165,
+      "webBytes": 79780,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-022-lilac-cream-teal-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-022-lilac-cream-teal-model-v1.png",
+          "sha256": "64123a11252327d0515f5a664a2da02c12d4174459586b754ad9e048a4558f1c"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Camiseta Estrelas de Papel na cor Lilás suave, creme, verde-petróleo, apresentado sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-023-cream-lilac-peach-model-v1",
+      "productId": "product-023",
+      "collectionId": "collection-003",
+      "colorwayId": "cream-lilac-peach",
+      "modelId": "model-003",
+      "photographedSize": 6,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-023-cream-lilac-peach-model-v1.png",
+      "originalSha256": "d8f6ee9b8d6080757ef02a3f739e1863dda2d15586b5c5db7a73ed04cae89606",
+      "webPath": "public/images/catalog/product-023-cream-lilac-peach-model-v1.webp",
+      "webSha256": "ff1ccf851aeb1410c1f48ded12407632fb85cfe4252aaaf674c7b5783448fdef",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1684785,
+      "webBytes": 62026,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-003-reference-v2.png",
+          "retainedPath": "assets/originals/cast/model-003-reference-v2.png",
+          "sha256": "ea2d3e643291642718bb4f5c51fd1306843f0de7a4b7cdc0265607ed9b55892a"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Nina usando Blusa Traços de Imaginação na cor Creme, lilás suave, pêssego, com a peça inteira visível sobre fundo branco."
+    },
+    {
+      "id": "product-023-cream-lilac-peach-isolated-v1",
+      "productId": "product-023",
+      "collectionId": "collection-003",
+      "colorwayId": "cream-lilac-peach",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-023-cream-lilac-peach-isolated-v1.png",
+      "originalSha256": "6824e0d63778a39eee77f60838e335ba2306f274a443e9aad00789f73cb02b54",
+      "webPath": "public/images/catalog/product-023-cream-lilac-peach-isolated-v1.webp",
+      "webSha256": "005c8d877b2897ab352c91a29fa55ab47c4e7ed0c45fee9d525f4b8aef69558c",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1422977,
+      "webBytes": 49100,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-023-cream-lilac-peach-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-023-cream-lilac-peach-model-v1.png",
+          "sha256": "d8f6ee9b8d6080757ef02a3f739e1863dda2d15586b5c5db7a73ed04cae89606"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Blusa Traços de Imaginação na cor Creme, lilás suave, pêssego, apresentado sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-024-peach-teal-cream-model-v1",
+      "productId": "product-024",
+      "collectionId": "collection-003",
+      "colorwayId": "peach-teal-cream",
+      "modelId": "model-004",
+      "photographedSize": 8,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-024-peach-teal-cream-model-v1.png",
+      "originalSha256": "8fb711c8b9ee5efcdc09fd4dedcbe20b0775313927252ea298436ba9c482f5bc",
+      "webPath": "public/images/catalog/product-024-peach-teal-cream-model-v1.webp",
+      "webSha256": "6f105f19e0d157bb7d51665bd231fca0d85fa4bf915a068c0c9766840a11ba70",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1718153,
+      "webBytes": 77998,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-004-reference-v2.png",
+          "retainedPath": "assets/originals/cast/model-004-reference-v2.png",
+          "sha256": "27184a178f11556ed4048930462bce2f1e6dda6681c2172d278c4268753a8a18"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Iara usando Vestido Histórias de Estrelas na cor Pêssego, verde-petróleo, creme, com a peça inteira visível sobre fundo branco."
+    },
+    {
+      "id": "product-024-peach-teal-cream-isolated-v1",
+      "productId": "product-024",
+      "collectionId": "collection-003",
+      "colorwayId": "peach-teal-cream",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-024-peach-teal-cream-isolated-v1.png",
+      "originalSha256": "99c6fcd9d7737f989eb7e427bf88474064a05fe174f49cb096c78f908e913a15",
+      "webPath": "public/images/catalog/product-024-peach-teal-cream-isolated-v1.webp",
+      "webSha256": "af40d511c11e3707e3495bcbd60da617ccdbf48ee9656a4bb45a6da3073fdf12",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1577118,
+      "webBytes": 112754,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-024-peach-teal-cream-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-024-peach-teal-cream-model-v1.png",
+          "sha256": "8fb711c8b9ee5efcdc09fd4dedcbe20b0775313927252ea298436ba9c482f5bc"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Vestido Histórias de Estrelas na cor Pêssego, verde-petróleo, creme, apresentado sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-025-cream-lilac-teal-model-v1",
+      "productId": "product-025",
+      "collectionId": "collection-003",
+      "colorwayId": "cream-lilac-teal",
+      "modelId": "model-007",
+      "photographedSize": 6,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-025-cream-lilac-teal-model-v1.png",
+      "originalSha256": "36f1d1fa2937f00d99c0d671eef837eadb03bbe87e899feeeace11ea145ce258",
+      "webPath": "public/images/catalog/product-025-cream-lilac-teal-model-v1.webp",
+      "webSha256": "a53f0213d8d523d8329b5fa8c38f1e597eef793f6a6e21f94c3bad8e5eb078ed",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1682139,
+      "webBytes": 60824,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-007-reference-v1.png",
+          "retainedPath": "assets/originals/cast/model-007-reference-v1.png",
+          "sha256": "fd435230a5c3757ba17f2e2ccccae69f4c39eabb28d66ced2a46846c218469bd"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Theo usando Conjunto Mundo de Blocos na cor Creme, lilás suave, verde-petróleo, com as duas peças inteiras visíveis sobre fundo branco."
+    },
+    {
+      "id": "product-025-cream-lilac-teal-isolated-v1",
+      "productId": "product-025",
+      "collectionId": "collection-003",
+      "colorwayId": "cream-lilac-teal",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-025-cream-lilac-teal-isolated-v1.png",
+      "originalSha256": "63d340fc5922cf0a110acb89893a8505e5f52755d464e3ed98dd4e6ddfa953c0",
+      "webPath": "public/images/catalog/product-025-cream-lilac-teal-isolated-v1.webp",
+      "webSha256": "d51076780a1ac1322f94022d051e836e6a69ac6710489a7ef2d8b43570db5260",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1532618,
+      "webBytes": 80686,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-025-cream-lilac-teal-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-025-cream-lilac-teal-model-v1.png",
+          "sha256": "36f1d1fa2937f00d99c0d671eef837eadb03bbe87e899feeeace11ea145ce258"
+        },
+        {
+          "inputPath": "assets/originals/catalog-inputs/product-025-isolated-construction-draft.png",
+          "retainedPath": "assets/originals/catalog-inputs/product-025-isolated-construction-draft.png",
+          "sha256": "5efceb49f2e6d6495098911811891043a67c6b40ee21826466910c989ccc56b3"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Conjunto Mundo de Blocos na cor Creme, lilás suave, verde-petróleo, com as duas peças apresentadas sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-026-cream-lilac-teal-model-v1",
+      "productId": "product-026",
+      "collectionId": "collection-003",
+      "colorwayId": "cream-lilac-teal",
+      "modelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-026-cream-lilac-teal-model-v1.png",
+      "originalSha256": "fc0d584fb658ab6ccfe54ff704d6355c994ec9e18fb6b464c016629d1bea2152",
+      "webPath": "public/images/catalog/product-026-cream-lilac-teal-model-v1.webp",
+      "webSha256": "a388e5f2b4491984205a94a6b66a4b9a5d09aafa35f26f886928852af95cfe1a",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1725661,
+      "webBytes": 70640,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-008-reference-v1.png",
+          "retainedPath": "assets/originals/cast/model-008-reference-v1.png",
+          "sha256": "84c4c5c21ee85c4271ca2134b09f12bdce3d3bf67ad4324504100ad4e18d4514"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Noah usando Casaco Rabiscos de Casa na cor Creme, lilás suave, verde-petróleo, com a peça inteira visível sobre fundo branco."
+    },
+    {
+      "id": "product-026-cream-lilac-teal-isolated-v1",
+      "productId": "product-026",
+      "collectionId": "collection-003",
+      "colorwayId": "cream-lilac-teal",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-026-cream-lilac-teal-isolated-v1.png",
+      "originalSha256": "6ee604aeb1d91350ac5bafb11cfaba0a491c3e40f316c6e94aef0e5481bee7d3",
+      "webPath": "public/images/catalog/product-026-cream-lilac-teal-isolated-v1.webp",
+      "webSha256": "5cf64922fdf8fa1cb7b78631f3221f642963d80cf1a5fc03fefc0a07e10be71c",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1706657,
+      "webBytes": 105256,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-026-cream-lilac-teal-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-026-cream-lilac-teal-model-v1.png",
+          "sha256": "fc0d584fb658ab6ccfe54ff704d6355c994ec9e18fb6b464c016629d1bea2152"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Casaco Rabiscos de Casa na cor Creme, lilás suave, verde-petróleo, apresentado sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-027-lilac-model-v1",
+      "productId": "product-027",
+      "collectionId": "collection-003",
+      "colorwayId": "lilac",
+      "modelId": "model-002",
+      "photographedSize": 6,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-027-lilac-model-v1.png",
+      "originalSha256": "8cfd0181ff6a86b7d3066205e5174c8d102b3567500e91687207b748589d3888",
+      "webPath": "public/images/catalog/product-027-lilac-model-v1.webp",
+      "webSha256": "57ff99eefd86d15fc4384cfe7db9c89ebd8bcb44937c90d6c89637779a91b487",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1686371,
+      "webBytes": 67820,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-002-reference-v2.png",
+          "retainedPath": "assets/originals/cast/model-002-reference-v2.png",
+          "sha256": "c29fb497afb76beb42db5c7671b463d9f8261f94dc1bcebfd1d8821eae59a367"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Bia usando Blusa Cor de História na cor Lilás suave, com a peça inteira visível sobre fundo branco."
+    },
+    {
+      "id": "product-027-lilac-isolated-v1",
+      "productId": "product-027",
+      "collectionId": "collection-003",
+      "colorwayId": "lilac",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-027-lilac-isolated-v1.png",
+      "originalSha256": "721f17c1379a201b9173e65955e310bac00ff7dd6108aab9b305dd5b57922db6",
+      "webPath": "public/images/catalog/product-027-lilac-isolated-v1.webp",
+      "webSha256": "5e04d375172cb5c4b8eee94078ef88446f91fff513b462fe1f134e9dd2078479",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1466598,
+      "webBytes": 87968,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-027-lilac-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-027-lilac-model-v1.png",
+          "sha256": "8cfd0181ff6a86b7d3066205e5174c8d102b3567500e91687207b748589d3888"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Blusa Cor de História na cor Lilás suave, apresentado sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-027-cream-model-v1",
+      "productId": "product-027",
+      "collectionId": "collection-003",
+      "colorwayId": "cream",
+      "modelId": "model-002",
+      "photographedSize": 6,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-027-cream-model-v1.png",
+      "originalSha256": "b44d45212995cc06803cca719c56632012ee637875d4eb9254c395a39ee80272",
+      "webPath": "public/images/catalog/product-027-cream-model-v1.webp",
+      "webSha256": "cef4a93cbd072a715da3da0572ee98fdce790a1e2538db4e33133be8b614ec8e",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1643315,
+      "webBytes": 63016,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-002-reference-v2.png",
+          "retainedPath": "assets/originals/cast/model-002-reference-v2.png",
+          "sha256": "c29fb497afb76beb42db5c7671b463d9f8261f94dc1bcebfd1d8821eae59a367"
+        },
+        {
+          "inputPath": "assets/originals/catalog/product-027-lilac-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-027-lilac-model-v1.png",
+          "sha256": "8cfd0181ff6a86b7d3066205e5174c8d102b3567500e91687207b748589d3888"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Bia usando Blusa Cor de História na cor Creme, com a peça inteira visível sobre fundo branco."
+    },
+    {
+      "id": "product-027-cream-isolated-v1",
+      "productId": "product-027",
+      "collectionId": "collection-003",
+      "colorwayId": "cream",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-027-cream-isolated-v1.png",
+      "originalSha256": "d0c40cc96d8bd1e1779102dfdff98fe6b6f83bd0b9f151fa147b5092df2065e7",
+      "webPath": "public/images/catalog/product-027-cream-isolated-v1.webp",
+      "webSha256": "539e1909a1085da7085850c0a7ddd196a380194e9cc5d01dfb762d582a897cb1",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1387358,
+      "webBytes": 58364,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-027-cream-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-027-cream-model-v1.png",
+          "sha256": "b44d45212995cc06803cca719c56632012ee637875d4eb9254c395a39ee80272"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Blusa Cor de História na cor Creme, apresentado sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-028-peach-model-v1",
+      "productId": "product-028",
+      "collectionId": "collection-003",
+      "colorwayId": "peach",
+      "modelId": "model-001",
+      "photographedSize": 4,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-028-peach-model-v1.png",
+      "originalSha256": "a7e1b29fb7c4dcfb57b8494dc30aa8b5b26cb2ff34cf40c330b43645a0e9da3d",
+      "webPath": "public/images/catalog/product-028-peach-model-v1.webp",
+      "webSha256": "b20f233fc22d26c513b23672d5a1f06436b408845ae81405a751cc72c244d5a2",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1696375,
+      "webBytes": 68652,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-001-reference-v1.png",
+          "retainedPath": "assets/originals/cast/model-001-reference-v1.png",
+          "sha256": "4dfe5ae27cb5ed408505aa892ae3f012535e19ebb1e5917dbae39acb3294af43"
+        },
+        {
+          "inputPath": "assets/originals/catalog-inputs/product-028-peach-model-v1-construction-draft.png",
+          "retainedPath": "assets/originals/catalog-inputs/product-028-peach-model-v1-construction-draft.png",
+          "sha256": "dc6365e1da0f5582b82246c0144484376509fef4fd8b6b29d235652138972ae6"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Lia usando Short Canto de Brincar na cor Pêssego, com a peça inteira visível sobre fundo branco."
+    },
+    {
+      "id": "product-028-peach-isolated-v1",
+      "productId": "product-028",
+      "collectionId": "collection-003",
+      "colorwayId": "peach",
+      "modelId": null,
+      "photographedSize": 4,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-028-peach-isolated-v1.png",
+      "originalSha256": "cba6e7fce7e20bfeb0013943867b2b4d6ed22a85626e844b988940017de10f08",
+      "webPath": "public/images/catalog/product-028-peach-isolated-v1.webp",
+      "webSha256": "b4455429a31736ae1e49c78d40dbc8751c2be33411c91b98b117449c9bc1a210",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1587037,
+      "webBytes": 105518,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-028-peach-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-028-peach-model-v1.png",
+          "sha256": "a7e1b29fb7c4dcfb57b8494dc30aa8b5b26cb2ff34cf40c330b43645a0e9da3d"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Short Canto de Brincar na cor Pêssego, apresentado sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-028-cream-model-v1",
+      "productId": "product-028",
+      "collectionId": "collection-003",
+      "colorwayId": "cream",
+      "modelId": "model-001",
+      "photographedSize": 4,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-028-cream-model-v1.png",
+      "originalSha256": "b0769059a7e7d8bbe98f9c36ff5efde864fcd2f9dde34679ed899ee1ded7843d",
+      "webPath": "public/images/catalog/product-028-cream-model-v1.webp",
+      "webSha256": "46a9beb34d34d3b5c33e1ac99168a8083f75adb790ee8d0f52f42c8311a20d68",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1693027,
+      "webBytes": 66056,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-001-reference-v1.png",
+          "retainedPath": "assets/originals/cast/model-001-reference-v1.png",
+          "sha256": "4dfe5ae27cb5ed408505aa892ae3f012535e19ebb1e5917dbae39acb3294af43"
+        },
+        {
+          "inputPath": "assets/originals/catalog/product-028-peach-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-028-peach-model-v1.png",
+          "sha256": "a7e1b29fb7c4dcfb57b8494dc30aa8b5b26cb2ff34cf40c330b43645a0e9da3d"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Lia usando Short Canto de Brincar na cor Creme, com a peça inteira visível sobre fundo branco."
+    },
+    {
+      "id": "product-028-cream-isolated-v1",
+      "productId": "product-028",
+      "collectionId": "collection-003",
+      "colorwayId": "cream",
+      "modelId": null,
+      "photographedSize": 4,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-028-cream-isolated-v1.png",
+      "originalSha256": "7a4610b0f703c89b3564e2de033c3fd7d6b95fc8d0e4897d4a76ba7455f3c422",
+      "webPath": "public/images/catalog/product-028-cream-isolated-v1.webp",
+      "webSha256": "c55fc479bf6b91e64e9586b9f0d4063706ea9a4c96fb5aaae66d13f992fddef2",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1717964,
+      "webBytes": 111520,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-028-cream-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-028-cream-model-v1.png",
+          "sha256": "b0769059a7e7d8bbe98f9c36ff5efde864fcd2f9dde34679ed899ee1ded7843d"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Short Canto de Brincar na cor Creme, apresentado sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-029-teal-model-v1",
+      "productId": "product-029",
+      "collectionId": "collection-003",
+      "colorwayId": "teal",
+      "modelId": "model-007",
+      "photographedSize": 6,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-029-teal-model-v1.png",
+      "originalSha256": "7ef3b05737da8bec91044402db9538c9633b07bebc87a3cce5789d3666ff3ecb",
+      "webPath": "public/images/catalog/product-029-teal-model-v1.webp",
+      "webSha256": "9861c4e8e8957ae6e4a3e556e7afc66bc55ecd7438402af91257334eac10b9e4",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1671967,
+      "webBytes": 59850,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-007-reference-v1.png",
+          "retainedPath": "assets/originals/cast/model-007-reference-v1.png",
+          "sha256": "fd435230a5c3757ba17f2e2ccccae69f4c39eabb28d66ced2a46846c218469bd"
+        },
+        {
+          "inputPath": "assets/originals/catalog-inputs/product-029-teal-model-v1-construction-draft.png",
+          "retainedPath": "assets/originals/catalog-inputs/product-029-teal-model-v1-construction-draft.png",
+          "sha256": "c1b96a860797ccf8811c92cde37cd47da0f0edef7fc775c6170d30e3461c976b"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Theo usando Calça Cantinho de Ideias na cor Verde-petróleo, com a peça inteira visível sobre fundo branco."
+    },
+    {
+      "id": "product-029-teal-isolated-v1",
+      "productId": "product-029",
+      "collectionId": "collection-003",
+      "colorwayId": "teal",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-029-teal-isolated-v1.png",
+      "originalSha256": "4cae1fe70362b46bcecbdc40f68cd00fcd015e46f19334760c04f1f5424c04e0",
+      "webPath": "public/images/catalog/product-029-teal-isolated-v1.webp",
+      "webSha256": "8b334ab1a8602442096f7073453b56c4796ecc08ea3e85add2058fefe8359a0b",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1789023,
+      "webBytes": 78098,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-029-teal-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-029-teal-model-v1.png",
+          "sha256": "7ef3b05737da8bec91044402db9538c9633b07bebc87a3cce5789d3666ff3ecb"
+        },
+        {
+          "inputPath": "assets/originals/catalog-inputs/product-029-isolated-construction-draft.png",
+          "retainedPath": "assets/originals/catalog-inputs/product-029-isolated-construction-draft.png",
+          "sha256": "a5053633fc7221bf38c5a48824d2ce6aae34a5dc5ac5c14894b519f360102f12"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Calça Cantinho de Ideias na cor Verde-petróleo, apresentado sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-029-cream-model-v1",
+      "productId": "product-029",
+      "collectionId": "collection-003",
+      "colorwayId": "cream",
+      "modelId": "model-007",
+      "photographedSize": 6,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-029-cream-model-v1.png",
+      "originalSha256": "e05880fac1fe0da8c6b2bfff113b32ebbbf1e520b9cb6297486511d5e2bef014",
+      "webPath": "public/images/catalog/product-029-cream-model-v1.webp",
+      "webSha256": "7ca88fceedc454c73e3ff0b81135e172b9140b08ab08c8d5982612b994628e6a",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1646646,
+      "webBytes": 52686,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-007-reference-v1.png",
+          "retainedPath": "assets/originals/cast/model-007-reference-v1.png",
+          "sha256": "fd435230a5c3757ba17f2e2ccccae69f4c39eabb28d66ced2a46846c218469bd"
+        },
+        {
+          "inputPath": "assets/originals/catalog/product-029-teal-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-029-teal-model-v1.png",
+          "sha256": "7ef3b05737da8bec91044402db9538c9633b07bebc87a3cce5789d3666ff3ecb"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Theo usando Calça Cantinho de Ideias na cor Creme, com a peça inteira visível sobre fundo branco."
+    },
+    {
+      "id": "product-029-cream-isolated-v1",
+      "productId": "product-029",
+      "collectionId": "collection-003",
+      "colorwayId": "cream",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-029-cream-isolated-v1.png",
+      "originalSha256": "6ffe5d62459156c420dbd90b1c4e2c59e4a7eb4cd09488c31dc2cacf7799eb73",
+      "webPath": "public/images/catalog/product-029-cream-isolated-v1.webp",
+      "webSha256": "c733819c820e0039df4a4243b362e39ce1fa5ccb123f40a3e911e5aa6c72f1d8",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1490723,
+      "webBytes": 57458,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-029-cream-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-029-cream-model-v1.png",
+          "sha256": "e05880fac1fe0da8c6b2bfff113b32ebbbf1e520b9cb6297486511d5e2bef014"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Calça Cantinho de Ideias na cor Creme, apresentado sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-030-lilac-model-v1",
+      "productId": "product-030",
+      "collectionId": "collection-003",
+      "colorwayId": "lilac",
+      "modelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-030-lilac-model-v1.png",
+      "originalSha256": "befe481a3835b3eaf79c23ac8b4b4e2e46e90596476901324b3c949914b19af7",
+      "webPath": "public/images/catalog/product-030-lilac-model-v1.webp",
+      "webSha256": "150b8b87a2d922197b3801b0f16ba564634411556089b280c0f0e94c4c42cb0f",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1672774,
+      "webBytes": 54328,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-008-reference-v1.png",
+          "retainedPath": "assets/originals/cast/model-008-reference-v1.png",
+          "sha256": "84c4c5c21ee85c4271ca2134b09f12bdce3d3bf67ad4324504100ad4e18d4514"
+        },
+        {
+          "inputPath": "assets/originals/catalog-inputs/product-030-lilac-model-v1-construction-draft.png",
+          "retainedPath": "assets/originals/catalog-inputs/product-030-lilac-model-v1-construction-draft.png",
+          "sha256": "bb6215de678c7097fb2ee251cd38179040148fea5ad588897f44a6bc880c0649"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Noah usando Calça Faz de Conta na cor Lilás suave, com a peça inteira visível sobre fundo branco."
+    },
+    {
+      "id": "product-030-lilac-isolated-v1",
+      "productId": "product-030",
+      "collectionId": "collection-003",
+      "colorwayId": "lilac",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-030-lilac-isolated-v1.png",
+      "originalSha256": "e3b8cef3cf6a282cf7243fd120d09d6ecdbd9ff26dd0b696aa106fa34d2b96fa",
+      "webPath": "public/images/catalog/product-030-lilac-isolated-v1.webp",
+      "webSha256": "df9f3bda08e3acbe3e116f5f8465054ac58522e39e30c40d15ccb2c91a93ff32",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1567984,
+      "webBytes": 78302,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-030-lilac-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-030-lilac-model-v1.png",
+          "sha256": "befe481a3835b3eaf79c23ac8b4b4e2e46e90596476901324b3c949914b19af7"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Calça Faz de Conta na cor Lilás suave, apresentado sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-030-peach-model-v1",
+      "productId": "product-030",
+      "collectionId": "collection-003",
+      "colorwayId": "peach",
+      "modelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-030-peach-model-v1.png",
+      "originalSha256": "7ae01d84fa0c84d624772b190cd3cd3806f2242ac4cadc0913a4694c67ba66b3",
+      "webPath": "public/images/catalog/product-030-peach-model-v1.webp",
+      "webSha256": "04741dcfd6ba8086fea8b505aa80dd856d68fe308e479af54a87c5c84e242c94",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1655015,
+      "webBytes": 55112,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-008-reference-v1.png",
+          "retainedPath": "assets/originals/cast/model-008-reference-v1.png",
+          "sha256": "84c4c5c21ee85c4271ca2134b09f12bdce3d3bf67ad4324504100ad4e18d4514"
+        },
+        {
+          "inputPath": "assets/originals/catalog/product-030-lilac-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-030-lilac-model-v1.png",
+          "sha256": "befe481a3835b3eaf79c23ac8b4b4e2e46e90596476901324b3c949914b19af7"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Noah usando Calça Faz de Conta na cor Pêssego, com a peça inteira visível sobre fundo branco."
+    },
+    {
+      "id": "product-030-peach-isolated-v1",
+      "productId": "product-030",
+      "collectionId": "collection-003",
+      "colorwayId": "peach",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/imaginacao-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-030-peach-isolated-v1.png",
+      "originalSha256": "f3e80b069e8ba04eca870c500e7b5d759097b584e79046b52aec63db759480c3",
+      "webPath": "public/images/catalog/product-030-peach-isolated-v1.webp",
+      "webSha256": "01ed9c6e7f03063d620fe970b3e176e84dca2986070be33bcb57d697e03fc54b",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1406762,
+      "webBytes": 50166,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-030-peach-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-030-peach-model-v1.png",
+          "sha256": "7ae01d84fa0c84d624772b190cd3cd3806f2242ac4cadc0913a4694c67ba66b3"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Calça Faz de Conta na cor Pêssego, apresentado sem modelo sobre fundo branco."
+    }
+  ]
+}
