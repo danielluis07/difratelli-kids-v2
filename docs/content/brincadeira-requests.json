@@ -1,0 +1,1493 @@
+{
+  "revision": "issue-26-brincadeira-v1",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/26",
+  "collectionId": "collection-002",
+  "status": "requests-only",
+  "resolutionAcceptancePath": "docs/content/brincadeira-resolution-acceptance.json",
+  "contract": {
+    "minimumWidth": 1086,
+    "minimumHeight": 1448,
+    "aspectRatio": "3:4",
+    "background": "opaque-white",
+    "crop": "full-frame",
+    "webpQuality": 90,
+    "enlargementAllowed": false
+  },
+  "sampleReuse": "None: the approved product-006 sample belongs to collection-001.",
+  "requests": [
+    {
+      "id": "product-011-sky-teal-cream-model-v1",
+      "productId": "product-011",
+      "collectionId": "collection-002",
+      "colorwayId": "sky-teal-cream",
+      "modelId": "model-006",
+      "photographedSize": 4,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-011-sky-teal-cream-model-v1.png",
+      "webPath": "public/images/catalog/product-011-sky-teal-cream-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-006-reference-v1.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-006",
+        "name": "Davi",
+        "age": 4,
+        "audienceId": "boys",
+        "photographedSize": 4,
+        "identityBrief": "Deep brown skin; dark brown eyes; round cheeks; short tightly coiled black hair.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-001",
+          "product-006",
+          "product-011",
+          "product-019"
+        ],
+        "referenceSha256": "054c88dacd8477098bf5b707ae3d809f08fe3f4c6ab900001dcd30f523fc0c03"
+      },
+      "productName": "Camiseta Volta de Bicicleta",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Straight short-sleeve jersey T-shirt; rib crew neck; hip length.",
+        "print": "Looping chalk-texture bicycle paths, 2–3 mm strokes with occasional simple wheels, cream and teal on sky blue; no text.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Azul-céu",
+          "hex": "#A9CCE0"
+        },
+        {
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        },
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Davi usando Camiseta Volta de Bicicleta na cor Azul-céu, verde-petróleo, creme, com a peça inteira visível sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-011-sky-teal-cream-isolated-v1",
+      "productId": "product-011",
+      "collectionId": "collection-002",
+      "colorwayId": "sky-teal-cream",
+      "modelId": null,
+      "photographedSize": 4,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-011-sky-teal-cream-isolated-v1.png",
+      "webPath": "public/images/catalog/product-011-sky-teal-cream-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-011-sky-teal-cream-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Camiseta Volta de Bicicleta",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Straight short-sleeve jersey T-shirt; rib crew neck; hip length.",
+        "print": "Looping chalk-texture bicycle paths, 2–3 mm strokes with occasional simple wheels, cream and teal on sky blue; no text.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Azul-céu",
+          "hex": "#A9CCE0"
+        },
+        {
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        },
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Camiseta Volta de Bicicleta na cor Azul-céu, verde-petróleo, creme, apresentado sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-012-cream-sky-coral-model-v1",
+      "productId": "product-012",
+      "collectionId": "collection-002",
+      "colorwayId": "cream-sky-coral",
+      "modelId": "model-007",
+      "photographedSize": 6,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-012-cream-sky-coral-model-v1.png",
+      "webPath": "public/images/catalog/product-012-cream-sky-coral-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-007-reference-v1.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-007",
+        "name": "Theo",
+        "age": 6,
+        "audienceId": "boys",
+        "photographedSize": 6,
+        "identityBrief": "Light skin with freckles; green eyes; oval face; slightly tousled short sandy blond hair.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-009",
+          "product-012",
+          "product-015",
+          "product-025",
+          "product-029"
+        ],
+        "referenceSha256": "fd435230a5c3757ba17f2e2ccccae69f4c39eabb28d66ced2a46846c218469bd"
+      },
+      "productName": "Camiseta Riscos de Giz",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Straight short-sleeve jersey T-shirt; rib crew neck; hip length.",
+        "print": "Irregular chalk-like stripes, 3–5 mm strokes, blue and coral on cream; loosely scattered diagonal groups, no lettering.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        },
+        {
+          "name": "Azul-céu",
+          "hex": "#A9CCE0"
+        },
+        {
+          "name": "Coral suave",
+          "hex": "#E9A18F"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Theo usando Camiseta Riscos de Giz na cor Creme, azul-céu, coral suave, com a peça inteira visível sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-012-cream-sky-coral-isolated-v1",
+      "productId": "product-012",
+      "collectionId": "collection-002",
+      "colorwayId": "cream-sky-coral",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-012-cream-sky-coral-isolated-v1.png",
+      "webPath": "public/images/catalog/product-012-cream-sky-coral-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-012-cream-sky-coral-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Camiseta Riscos de Giz",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Straight short-sleeve jersey T-shirt; rib crew neck; hip length.",
+        "print": "Irregular chalk-like stripes, 3–5 mm strokes, blue and coral on cream; loosely scattered diagonal groups, no lettering.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        },
+        {
+          "name": "Azul-céu",
+          "hex": "#A9CCE0"
+        },
+        {
+          "name": "Coral suave",
+          "hex": "#E9A18F"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Camiseta Riscos de Giz na cor Creme, azul-céu, coral suave, apresentado sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-013-cream-coral-teal-model-v1",
+      "productId": "product-013",
+      "collectionId": "collection-002",
+      "colorwayId": "cream-coral-teal",
+      "modelId": "model-002",
+      "photographedSize": 6,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-013-cream-coral-teal-model-v1.png",
+      "webPath": "public/images/catalog/product-013-cream-coral-teal-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-002-reference-v2.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-002",
+        "name": "Bia",
+        "age": 5,
+        "audienceId": "girls",
+        "photographedSize": 6,
+        "identityBrief": "Light skin with a few freckles; green eyes; oval face; straight copper-red chin-length bob.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-004",
+          "product-013",
+          "product-017",
+          "product-027"
+        ],
+        "referenceSha256": "c29fb497afb76beb42db5c7671b463d9f8261f94dc1bcebfd1d8821eae59a367"
+      },
+      "productName": "Camiseta Pula Amarelinha",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Straight short-sleeve jersey T-shirt; crew neck; no gathers or ties.",
+        "print": "Small incomplete hopscotch grids, 30–40 mm, coral and teal on cream; no numbers or typography.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        },
+        {
+          "name": "Coral suave",
+          "hex": "#E9A18F"
+        },
+        {
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Bia usando Camiseta Pula Amarelinha na cor Creme, coral suave, verde-petróleo, com a peça inteira visível sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-013-cream-coral-teal-isolated-v1",
+      "productId": "product-013",
+      "collectionId": "collection-002",
+      "colorwayId": "cream-coral-teal",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-013-cream-coral-teal-isolated-v1.png",
+      "webPath": "public/images/catalog/product-013-cream-coral-teal-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-013-cream-coral-teal-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Camiseta Pula Amarelinha",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Straight short-sleeve jersey T-shirt; crew neck; no gathers or ties.",
+        "print": "Small incomplete hopscotch grids, 30–40 mm, coral and teal on cream; no numbers or typography.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        },
+        {
+          "name": "Coral suave",
+          "hex": "#E9A18F"
+        },
+        {
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Camiseta Pula Amarelinha na cor Creme, coral suave, verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-014-sky-cream-coral-model-v1",
+      "productId": "product-014",
+      "collectionId": "collection-002",
+      "colorwayId": "sky-cream-coral",
+      "modelId": "model-004",
+      "photographedSize": 8,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-014-sky-cream-coral-model-v1.png",
+      "webPath": "public/images/catalog/product-014-sky-cream-coral-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-004-reference-v2.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-004",
+        "name": "Iara",
+        "age": 8,
+        "audienceId": "girls",
+        "photographedSize": 8,
+        "identityBrief": "Fair skin; blue eyes; oval face; natural golden-blonde shoulder-length hair worn loose with a simple side part.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-014",
+          "product-024"
+        ],
+        "referenceSha256": "27184a178f11556ed4048930462bce2f1e6dda6681c2172d278c4268753a8a18"
+      },
+      "productName": "Vestido Desenho na Calçada",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Jersey dress; short sleeves; round neck; natural-waist seam; gently gathered skirt; no closures or pockets.",
+        "print": "Chalk-like irregular stripes and small looping paths, cream and coral on sky blue; airy 25–40 mm motif groups.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Azul-céu",
+          "hex": "#A9CCE0"
+        },
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        },
+        {
+          "name": "Coral suave",
+          "hex": "#E9A18F"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Iara usando Vestido Desenho na Calçada na cor Azul-céu, creme, coral suave, com a peça inteira visível sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-014-sky-cream-coral-isolated-v1",
+      "productId": "product-014",
+      "collectionId": "collection-002",
+      "colorwayId": "sky-cream-coral",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-014-sky-cream-coral-isolated-v1.png",
+      "webPath": "public/images/catalog/product-014-sky-cream-coral-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-014-sky-cream-coral-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Vestido Desenho na Calçada",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Jersey dress; short sleeves; round neck; natural-waist seam; gently gathered skirt; no closures or pockets.",
+        "print": "Chalk-like irregular stripes and small looping paths, cream and coral on sky blue; airy 25–40 mm motif groups.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Azul-céu",
+          "hex": "#A9CCE0"
+        },
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        },
+        {
+          "name": "Coral suave",
+          "hex": "#E9A18F"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Vestido Desenho na Calçada na cor Azul-céu, creme, coral suave, apresentado sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-015-cream-sky-teal-model-v1",
+      "productId": "product-015",
+      "collectionId": "collection-002",
+      "colorwayId": "cream-sky-teal",
+      "modelId": "model-007",
+      "photographedSize": 6,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-015-cream-sky-teal-model-v1.png",
+      "webPath": "public/images/catalog/product-015-cream-sky-teal-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-007-reference-v1.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-007",
+        "name": "Theo",
+        "age": 6,
+        "audienceId": "boys",
+        "photographedSize": 6,
+        "identityBrief": "Light skin with freckles; green eyes; oval face; slightly tousled short sandy blond hair.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-009",
+          "product-012",
+          "product-015",
+          "product-025",
+          "product-029"
+        ],
+        "referenceSha256": "fd435230a5c3757ba17f2e2ccccae69f4c39eabb28d66ced2a46846c218469bd"
+      },
+      "productName": "Conjunto Volta na Rua",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Two jersey pieces: short-sleeve crew-neck T-shirt and plain teal shorts with elastic waist, two side pockets, no drawstring.",
+        "print": "Looping bicycle paths, 25–40 mm, sky blue and teal on cream T-shirt; shorts plain teal.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "Two jersey pieces: short-sleeve crew-neck T-shirt and plain teal shorts with elastic waist, two side pockets, no drawstring."
+      },
+      "garmentColors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        },
+        {
+          "name": "Azul-céu",
+          "hex": "#A9CCE0"
+        },
+        {
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        }
+      ],
+      "includedPieces": [
+        "Camiseta de mangas curtas estampada",
+        "Short liso com cintura elástica"
+      ],
+      "alt": "Theo usando Conjunto Volta na Rua na cor Creme, azul-céu, verde-petróleo, com as duas peças inteiras visíveis sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-015-cream-sky-teal-isolated-v1",
+      "productId": "product-015",
+      "collectionId": "collection-002",
+      "colorwayId": "cream-sky-teal",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-015-cream-sky-teal-isolated-v1.png",
+      "webPath": "public/images/catalog/product-015-cream-sky-teal-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-015-cream-sky-teal-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Conjunto Volta na Rua",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Two jersey pieces: short-sleeve crew-neck T-shirt and plain teal shorts with elastic waist, two side pockets, no drawstring.",
+        "print": "Looping bicycle paths, 25–40 mm, sky blue and teal on cream T-shirt; shorts plain teal.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "Two jersey pieces: short-sleeve crew-neck T-shirt and plain teal shorts with elastic waist, two side pockets, no drawstring."
+      },
+      "garmentColors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        },
+        {
+          "name": "Azul-céu",
+          "hex": "#A9CCE0"
+        },
+        {
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        }
+      ],
+      "includedPieces": [
+        "Camiseta de mangas curtas estampada",
+        "Short liso com cintura elástica"
+      ],
+      "alt": "Conjunto Volta na Rua na cor Creme, azul-céu, verde-petróleo, com as duas peças apresentadas sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-016-cream-coral-teal-model-v1",
+      "productId": "product-016",
+      "collectionId": "collection-002",
+      "colorwayId": "cream-coral-teal",
+      "modelId": "model-003",
+      "photographedSize": 6,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-016-cream-coral-teal-model-v1.png",
+      "webPath": "public/images/catalog/product-016-cream-coral-teal-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-003-reference-v2.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-003",
+        "name": "Nina",
+        "age": 6,
+        "audienceId": "girls",
+        "photographedSize": 6,
+        "fictionalBackground": "Russian",
+        "identityBrief": "Fair skin; dark brown eyes; oval face; straight dark-brown shoulder-length hair parted slightly off center.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-005",
+          "product-016",
+          "product-023"
+        ],
+        "referenceSha256": "ea2d3e643291642718bb4f5c51fd1306843f0de7a4b7cdc0265607ed9b55892a"
+      },
+      "productName": "Conjunto Pulo de Giz",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Two jersey pieces: broad-strap sleeveless round-neck top and plain coral elastic-waist shorts; straight hems, no ties or pockets.",
+        "print": "Small hopscotch-grid outlines, 30–40 mm, coral and teal on cream top, no numbers; shorts solid coral.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "Two jersey pieces: broad-strap sleeveless round-neck top and plain coral elastic-waist shorts; straight hems, no ties or pockets."
+      },
+      "garmentColors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        },
+        {
+          "name": "Coral suave",
+          "hex": "#E9A18F"
+        },
+        {
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        }
+      ],
+      "includedPieces": [
+        "Blusa sem mangas estampada",
+        "Short liso com cintura elástica"
+      ],
+      "alt": "Nina usando Conjunto Pulo de Giz na cor Creme, coral suave, verde-petróleo, com as duas peças inteiras visíveis sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-016-cream-coral-teal-isolated-v1",
+      "productId": "product-016",
+      "collectionId": "collection-002",
+      "colorwayId": "cream-coral-teal",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-016-cream-coral-teal-isolated-v1.png",
+      "webPath": "public/images/catalog/product-016-cream-coral-teal-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-016-cream-coral-teal-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Conjunto Pulo de Giz",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Two jersey pieces: broad-strap sleeveless round-neck top and plain coral elastic-waist shorts; straight hems, no ties or pockets.",
+        "print": "Small hopscotch-grid outlines, 30–40 mm, coral and teal on cream top, no numbers; shorts solid coral.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "Two jersey pieces: broad-strap sleeveless round-neck top and plain coral elastic-waist shorts; straight hems, no ties or pockets."
+      },
+      "garmentColors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        },
+        {
+          "name": "Coral suave",
+          "hex": "#E9A18F"
+        },
+        {
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        }
+      ],
+      "includedPieces": [
+        "Blusa sem mangas estampada",
+        "Short liso com cintura elástica"
+      ],
+      "alt": "Conjunto Pulo de Giz na cor Creme, coral suave, verde-petróleo, com as duas peças apresentadas sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-017-sky-model-v1",
+      "productId": "product-017",
+      "collectionId": "collection-002",
+      "colorwayId": "sky",
+      "modelId": "model-002",
+      "photographedSize": 6,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-017-sky-model-v1.png",
+      "webPath": "public/images/catalog/product-017-sky-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-002-reference-v2.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-002",
+        "name": "Bia",
+        "age": 5,
+        "audienceId": "girls",
+        "photographedSize": 6,
+        "identityBrief": "Light skin with a few freckles; green eyes; oval face; straight copper-red chin-length bob.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-004",
+          "product-013",
+          "product-017",
+          "product-027"
+        ],
+        "referenceSha256": "c29fb497afb76beb42db5c7671b463d9f8261f94dc1bcebfd1d8821eae59a367"
+      },
+      "productName": "Blusa Céu da Rua",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-elastane fine rib, 180 g/m²",
+        "silhouette": "Cotton-elastane fine-rib top; broad shoulder straps; rounded neckline; straight hip-length hem; no trim or closure.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Azul-céu",
+          "hex": "#A9CCE0"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Bia usando Blusa Céu da Rua na cor Azul-céu, com a peça inteira visível sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-017-sky-isolated-v1",
+      "productId": "product-017",
+      "collectionId": "collection-002",
+      "colorwayId": "sky",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-017-sky-isolated-v1.png",
+      "webPath": "public/images/catalog/product-017-sky-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-017-sky-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Blusa Céu da Rua",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-elastane fine rib, 180 g/m²",
+        "silhouette": "Cotton-elastane fine-rib top; broad shoulder straps; rounded neckline; straight hip-length hem; no trim or closure.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Azul-céu",
+          "hex": "#A9CCE0"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Blusa Céu da Rua na cor Azul-céu, apresentado sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-017-cream-model-v1",
+      "productId": "product-017",
+      "collectionId": "collection-002",
+      "colorwayId": "cream",
+      "modelId": "model-002",
+      "photographedSize": 6,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-017-cream-model-v1.png",
+      "webPath": "public/images/catalog/product-017-cream-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-002-reference-v2.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-002",
+        "name": "Bia",
+        "age": 5,
+        "audienceId": "girls",
+        "photographedSize": 6,
+        "identityBrief": "Light skin with a few freckles; green eyes; oval face; straight copper-red chin-length bob.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-004",
+          "product-013",
+          "product-017",
+          "product-027"
+        ],
+        "referenceSha256": "c29fb497afb76beb42db5c7671b463d9f8261f94dc1bcebfd1d8821eae59a367"
+      },
+      "productName": "Blusa Céu da Rua",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-elastane fine rib, 180 g/m²",
+        "silhouette": "Cotton-elastane fine-rib top; broad shoulder straps; rounded neckline; straight hip-length hem; no trim or closure.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Bia usando Blusa Céu da Rua na cor Creme, com a peça inteira visível sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-017-cream-isolated-v1",
+      "productId": "product-017",
+      "collectionId": "collection-002",
+      "colorwayId": "cream",
+      "modelId": null,
+      "photographedSize": 6,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-017-cream-isolated-v1.png",
+      "webPath": "public/images/catalog/product-017-cream-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-017-cream-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Blusa Céu da Rua",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-elastane fine rib, 180 g/m²",
+        "silhouette": "Cotton-elastane fine-rib top; broad shoulder straps; rounded neckline; straight hip-length hem; no trim or closure.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Blusa Céu da Rua na cor Creme, apresentado sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-018-sky-model-v1",
+      "productId": "product-018",
+      "collectionId": "collection-002",
+      "colorwayId": "sky",
+      "modelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-018-sky-model-v1.png",
+      "webPath": "public/images/catalog/product-018-sky-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-008-reference-v1.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-008",
+        "name": "Noah",
+        "age": 8,
+        "audienceId": "boys",
+        "photographedSize": 8,
+        "identityBrief": "Medium olive skin; brown eyes; long oval face; short dark-brown wavy hair.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-010",
+          "product-018",
+          "product-020",
+          "product-022",
+          "product-026",
+          "product-030"
+        ],
+        "referenceSha256": "84c4c5c21ee85c4271ca2134b09f12bdce3d3bf67ad4324504100ad4e18d4514"
+      },
+      "productName": "Short Vai e Vem",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill shorts; elastic waist; two side pockets; no drawstring or cargo pockets.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Azul-céu",
+          "hex": "#A9CCE0"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Noah usando Short Vai e Vem na cor Azul-céu, com a peça inteira visível sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-018-sky-isolated-v1",
+      "productId": "product-018",
+      "collectionId": "collection-002",
+      "colorwayId": "sky",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-018-sky-isolated-v1.png",
+      "webPath": "public/images/catalog/product-018-sky-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-018-sky-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Short Vai e Vem",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill shorts; elastic waist; two side pockets; no drawstring or cargo pockets.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Azul-céu",
+          "hex": "#A9CCE0"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Short Vai e Vem na cor Azul-céu, apresentado sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-018-teal-model-v1",
+      "productId": "product-018",
+      "collectionId": "collection-002",
+      "colorwayId": "teal",
+      "modelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-018-teal-model-v1.png",
+      "webPath": "public/images/catalog/product-018-teal-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-008-reference-v1.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-008",
+        "name": "Noah",
+        "age": 8,
+        "audienceId": "boys",
+        "photographedSize": 8,
+        "identityBrief": "Medium olive skin; brown eyes; long oval face; short dark-brown wavy hair.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-010",
+          "product-018",
+          "product-020",
+          "product-022",
+          "product-026",
+          "product-030"
+        ],
+        "referenceSha256": "84c4c5c21ee85c4271ca2134b09f12bdce3d3bf67ad4324504100ad4e18d4514"
+      },
+      "productName": "Short Vai e Vem",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill shorts; elastic waist; two side pockets; no drawstring or cargo pockets.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Noah usando Short Vai e Vem na cor Verde-petróleo, com a peça inteira visível sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-018-teal-isolated-v1",
+      "productId": "product-018",
+      "collectionId": "collection-002",
+      "colorwayId": "teal",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-018-teal-isolated-v1.png",
+      "webPath": "public/images/catalog/product-018-teal-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-018-teal-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Short Vai e Vem",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill shorts; elastic waist; two side pockets; no drawstring or cargo pockets.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Short Vai e Vem na cor Verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-019-coral-model-v1",
+      "productId": "product-019",
+      "collectionId": "collection-002",
+      "colorwayId": "coral",
+      "modelId": "model-006",
+      "photographedSize": 4,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-019-coral-model-v1.png",
+      "webPath": "public/images/catalog/product-019-coral-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-006-reference-v1.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-006",
+        "name": "Davi",
+        "age": 4,
+        "audienceId": "boys",
+        "photographedSize": 4,
+        "identityBrief": "Deep brown skin; dark brown eyes; round cheeks; short tightly coiled black hair.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-001",
+          "product-006",
+          "product-011",
+          "product-019"
+        ],
+        "referenceSha256": "054c88dacd8477098bf5b707ae3d809f08fe3f4c6ab900001dcd30f523fc0c03"
+      },
+      "productName": "Short Dia de Brincar",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill shorts; elastic waist; two side pockets; straight hem; no drawstring, ruffles or logos.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Coral suave",
+          "hex": "#E9A18F"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Davi usando Short Dia de Brincar na cor Coral suave, com a peça inteira visível sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-019-coral-isolated-v1",
+      "productId": "product-019",
+      "collectionId": "collection-002",
+      "colorwayId": "coral",
+      "modelId": null,
+      "photographedSize": 4,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-019-coral-isolated-v1.png",
+      "webPath": "public/images/catalog/product-019-coral-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-019-coral-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Short Dia de Brincar",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill shorts; elastic waist; two side pockets; straight hem; no drawstring, ruffles or logos.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Coral suave",
+          "hex": "#E9A18F"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Short Dia de Brincar na cor Coral suave, apresentado sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-019-cream-model-v1",
+      "productId": "product-019",
+      "collectionId": "collection-002",
+      "colorwayId": "cream",
+      "modelId": "model-006",
+      "photographedSize": 4,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-019-cream-model-v1.png",
+      "webPath": "public/images/catalog/product-019-cream-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-006-reference-v1.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-006",
+        "name": "Davi",
+        "age": 4,
+        "audienceId": "boys",
+        "photographedSize": 4,
+        "identityBrief": "Deep brown skin; dark brown eyes; round cheeks; short tightly coiled black hair.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-001",
+          "product-006",
+          "product-011",
+          "product-019"
+        ],
+        "referenceSha256": "054c88dacd8477098bf5b707ae3d809f08fe3f4c6ab900001dcd30f523fc0c03"
+      },
+      "productName": "Short Dia de Brincar",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill shorts; elastic waist; two side pockets; straight hem; no drawstring, ruffles or logos.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Davi usando Short Dia de Brincar na cor Creme, com a peça inteira visível sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-019-cream-isolated-v1",
+      "productId": "product-019",
+      "collectionId": "collection-002",
+      "colorwayId": "cream",
+      "modelId": null,
+      "photographedSize": 4,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-019-cream-isolated-v1.png",
+      "webPath": "public/images/catalog/product-019-cream-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-019-cream-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Short Dia de Brincar",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill shorts; elastic waist; two side pockets; straight hem; no drawstring, ruffles or logos.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Short Dia de Brincar na cor Creme, apresentado sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-020-teal-model-v1",
+      "productId": "product-020",
+      "collectionId": "collection-002",
+      "colorwayId": "teal",
+      "modelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-020-teal-model-v1.png",
+      "webPath": "public/images/catalog/product-020-teal-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-008-reference-v1.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-008",
+        "name": "Noah",
+        "age": 8,
+        "audienceId": "boys",
+        "photographedSize": 8,
+        "identityBrief": "Medium olive skin; brown eyes; long oval face; short dark-brown wavy hair.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-010",
+          "product-018",
+          "product-020",
+          "product-022",
+          "product-026",
+          "product-030"
+        ],
+        "referenceSha256": "84c4c5c21ee85c4271ca2134b09f12bdce3d3bf67ad4324504100ad4e18d4514"
+      },
+      "productName": "Calça Passos na Rua",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill trousers; elastic waist; two side pockets; straight ankle-length legs; no fly or drawstring.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Noah usando Calça Passos na Rua na cor Verde-petróleo, com a peça inteira visível sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-020-teal-isolated-v1",
+      "productId": "product-020",
+      "collectionId": "collection-002",
+      "colorwayId": "teal",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-020-teal-isolated-v1.png",
+      "webPath": "public/images/catalog/product-020-teal-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-020-teal-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Calça Passos na Rua",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill trousers; elastic waist; two side pockets; straight ankle-length legs; no fly or drawstring.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Verde-petróleo",
+          "hex": "#246B63"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Calça Passos na Rua na cor Verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-020-sky-model-v1",
+      "productId": "product-020",
+      "collectionId": "collection-002",
+      "colorwayId": "sky",
+      "modelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "galleryOrder": 1,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-020-sky-model-v1.png",
+      "webPath": "public/images/catalog/product-020-sky-model-v1.webp",
+      "mode": "virtual_model_tryout",
+      "referencePaths": [
+        "assets/originals/cast/model-008-reference-v1.png"
+      ],
+      "approvedIdentity": {
+        "id": "model-008",
+        "name": "Noah",
+        "age": 8,
+        "audienceId": "boys",
+        "photographedSize": 8,
+        "identityBrief": "Medium olive skin; brown eyes; long oval face; short dark-brown wavy hair.",
+        "approvalStatus": "approved",
+        "productIds": [
+          "product-010",
+          "product-018",
+          "product-020",
+          "product-022",
+          "product-026",
+          "product-030"
+        ],
+        "referenceSha256": "84c4c5c21ee85c4271ca2134b09f12bdce3d3bf67ad4324504100ad4e18d4514"
+      },
+      "productName": "Calça Passos na Rua",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill trousers; elastic waist; two side pockets; straight ankle-length legs; no fly or drawstring.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Azul-céu",
+          "hex": "#A9CCE0"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Noah usando Calça Passos na Rua na cor Azul-céu, com a peça inteira visível sobre fundo branco.",
+      "usage": [
+        "product-card-default",
+        "product-gallery"
+      ]
+    },
+    {
+      "id": "product-020-sky-isolated-v1",
+      "productId": "product-020",
+      "collectionId": "collection-002",
+      "colorwayId": "sky",
+      "modelId": null,
+      "photographedSize": 8,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "generationStatus": "not-generated",
+      "approvalStatus": "pending-human-review",
+      "originalPath": "assets/originals/catalog/product-020-sky-isolated-v1.png",
+      "webPath": "public/images/catalog/product-020-sky-isolated-v1.webp",
+      "mode": "product_shot",
+      "referencePaths": [
+        "assets/originals/catalog/product-020-sky-model-v1.png"
+      ],
+      "approvedIdentity": null,
+      "productName": "Calça Passos na Rua",
+      "garmentBrief": {
+        "language": "en",
+        "fabric": "Cotton-stretch twill, 190 g/m²",
+        "silhouette": "Cotton-stretch twill trousers; elastic waist; two side pockets; straight ankle-length legs; no fly or drawstring.",
+        "print": "Solid color, no print.",
+        "colorPlacement": "Apply each colorway as a single solid color over the entire garment, including binding and thread.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
+        "contents": "One garment sold individually."
+      },
+      "garmentColors": [
+        {
+          "name": "Azul-céu",
+          "hex": "#A9CCE0"
+        }
+      ],
+      "includedPieces": [],
+      "alt": "Calça Passos na Rua na cor Azul-céu, apresentado sem modelo sobre fundo branco.",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery"
+      ]
+    }
+  ]
+}

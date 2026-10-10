@@ -1,0 +1,13 @@
+{
+  "revision": "issue-26-native-resolution-v1",
+  "collectionId": "collection-002",
+  "status": "accepted",
+  "minimumWidth": 1086,
+  "minimumHeight": 1448,
+  "aspectRatio": "3:4",
+  "enlargementAllowed": false,
+  "reviewer": "The user in this conversation",
+  "recordedAtUtc": "2026-10-09T23:55:28Z",
+  "evidence": "The user replied yes to: Should I accept 1086 × 1448 for Brincadeira, or retain the minimum and resume when a suitable generator is available? The existing exception covers Quintal only.",
+  "scope": "Native dimensions for all 28 collection-002 photographs only. This accepts resolution, not photographs; individual and complete-batch image approval remain required. Other collections retain their existing contracts."
+}
