@@ -4,7 +4,7 @@ Revision: `issue-24-cast-v3`. Authority: [issue #24](https://github.com/daniellu
 
 ## Production gates
 
-Catalog, copy and garment briefs are approved in [approval.json](approval.json). The eight current cast references and their product assignments in [cast-proposal.json](cast-proposal.json) are approved in [cast-approval.json](cast-approval.json). Cast references use neutral casting clothes; they are identity references, not catalog photographs or proposed changes to approved garments.
+The initial catalog, copy and garment briefs were approved in the [retained issue #23 approval](catalog-revisions/pre-issue-51/approval.json). The later [issue #51 assortment approval](polo-assortment-approval.json) authorizes production of two replacement polos; [approval.json](approval.json) tracks exact revised catalog acceptance separately. The eight current cast references and their product assignments in [cast-proposal.json](cast-proposal.json) are approved in [cast-approval.json](cast-approval.json); the two revised colorway associations retain the same children and are recorded in [cast-manifest.json](cast-manifest.json). Cast references use neutral casting clothes; they are identity references, not catalog photographs or proposed changes to approved garments.
 
 After cast approval, produce and present the `product-006` / `cream-teal-leaf` sample pair on `model-006` (Davi), photographed in size 4. Record human approval of the exact worn and isolated images before producing collection batches. The sample exercises a printed two-piece set. Approving cast references does not approve this future pair.
 

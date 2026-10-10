@@ -1,0 +1,441 @@
+{
+  "revision": "issue-24-cast-v3",
+  "approvalStatus": "approved",
+  "scope": "Cast references only; no catalog photographs or sample-pair approval.",
+  "assets": [
+    {
+      "id": "model-001-reference-v1",
+      "modelId": "model-001",
+      "role": "cast-reference",
+      "approvalStatus": "approved",
+      "originalPath": "assets/originals/cast/model-001-reference-v1.png",
+      "originalSha256": "4dfe5ae27cb5ed408505aa892ae3f012535e19ebb1e5917dbae39acb3294af43",
+      "webPath": "public/images/cast/model-001-reference-v1.webp",
+      "webSha256": "346eda344c783cdc1b25e56af199901bc5cefdd6aa451028c44920b2beef36e4",
+      "width": 1086,
+      "height": 1448,
+      "crop": "full-frame",
+      "usage": [
+        "cast-review",
+        "identity-reference"
+      ],
+      "alt": "Referência de Lia, modelo infantil fictício de 3 anos, com camiseta creme e short verde-petróleo sobre fundo branco.",
+      "productIds": [
+        "product-003",
+        "product-007",
+        "product-028"
+      ],
+      "collectionIds": [
+        "collection-001",
+        "collection-003"
+      ],
+      "colorwayAssignments": [
+        {
+          "productId": "product-003",
+          "colorwayIds": [
+            "cream-butter-leaf"
+          ]
+        },
+        {
+          "productId": "product-007",
+          "colorwayIds": [
+            "leaf",
+            "cream"
+          ]
+        },
+        {
+          "productId": "product-028",
+          "colorwayIds": [
+            "peach",
+            "cream"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "model-002-reference-v2",
+      "modelId": "model-002",
+      "role": "cast-reference",
+      "approvalStatus": "approved",
+      "originalPath": "assets/originals/cast/model-002-reference-v2.png",
+      "originalSha256": "c29fb497afb76beb42db5c7671b463d9f8261f94dc1bcebfd1d8821eae59a367",
+      "webPath": "public/images/cast/model-002-reference-v2.webp",
+      "webSha256": "f648b8ac53d5dfa26b130987ce54555e7149f242462ee7f75c8da663ca89436c",
+      "width": 1086,
+      "height": 1448,
+      "crop": "full-frame",
+      "usage": [
+        "cast-review",
+        "identity-reference"
+      ],
+      "alt": "Referência de Bia, modelo infantil fictício de 5 anos, com camiseta creme e short verde-petróleo sobre fundo branco.",
+      "productIds": [
+        "product-004",
+        "product-013",
+        "product-017",
+        "product-027"
+      ],
+      "collectionIds": [
+        "collection-001",
+        "collection-002",
+        "collection-003"
+      ],
+      "colorwayAssignments": [
+        {
+          "productId": "product-004",
+          "colorwayIds": [
+            "cream-leaf-teal"
+          ]
+        },
+        {
+          "productId": "product-013",
+          "colorwayIds": [
+            "cream-coral-teal"
+          ]
+        },
+        {
+          "productId": "product-017",
+          "colorwayIds": [
+            "sky",
+            "cream"
+          ]
+        },
+        {
+          "productId": "product-027",
+          "colorwayIds": [
+            "lilac",
+            "cream"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "model-003-reference-v2",
+      "modelId": "model-003",
+      "role": "cast-reference",
+      "approvalStatus": "approved",
+      "originalPath": "assets/originals/cast/model-003-reference-v2.png",
+      "originalSha256": "ea2d3e643291642718bb4f5c51fd1306843f0de7a4b7cdc0265607ed9b55892a",
+      "webPath": "public/images/cast/model-003-reference-v2.webp",
+      "webSha256": "9ca90b8a319542f1acc91f14a7b5699098e68f473f319a3775e3724d99e5f9a8",
+      "width": 1086,
+      "height": 1448,
+      "crop": "full-frame",
+      "usage": [
+        "cast-review",
+        "identity-reference"
+      ],
+      "alt": "Referência de Nina, modelo infantil fictício de 6 anos, com camiseta creme e short verde-petróleo sobre fundo branco.",
+      "productIds": [
+        "product-005",
+        "product-016",
+        "product-023"
+      ],
+      "collectionIds": [
+        "collection-001",
+        "collection-002",
+        "collection-003"
+      ],
+      "colorwayAssignments": [
+        {
+          "productId": "product-005",
+          "colorwayIds": [
+            "cream-leaf-butter"
+          ]
+        },
+        {
+          "productId": "product-016",
+          "colorwayIds": [
+            "cream-coral-teal"
+          ]
+        },
+        {
+          "productId": "product-023",
+          "colorwayIds": [
+            "cream-lilac-peach"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "model-004-reference-v2",
+      "modelId": "model-004",
+      "role": "cast-reference",
+      "approvalStatus": "approved",
+      "originalPath": "assets/originals/cast/model-004-reference-v2.png",
+      "originalSha256": "27184a178f11556ed4048930462bce2f1e6dda6681c2172d278c4268753a8a18",
+      "webPath": "public/images/cast/model-004-reference-v2.webp",
+      "webSha256": "df40c3a8902f50bb09f079f943de0352757e1318ae6fbd65e48c0ee31b9316b8",
+      "width": 1086,
+      "height": 1448,
+      "crop": "full-frame",
+      "usage": [
+        "cast-review",
+        "identity-reference"
+      ],
+      "alt": "Referência de Iara, modelo infantil fictício de 8 anos, com camiseta creme e short verde-petróleo sobre fundo branco.",
+      "productIds": [
+        "product-014",
+        "product-024"
+      ],
+      "collectionIds": [
+        "collection-002",
+        "collection-003"
+      ],
+      "colorwayAssignments": [
+        {
+          "productId": "product-014",
+          "colorwayIds": [
+            "sky-cream-coral"
+          ]
+        },
+        {
+          "productId": "product-024",
+          "colorwayIds": [
+            "peach-teal-cream"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "model-005-reference-v2",
+      "modelId": "model-005",
+      "role": "cast-reference",
+      "approvalStatus": "approved",
+      "originalPath": "assets/originals/cast/model-005-reference-v2.png",
+      "originalSha256": "446b8c30e3568325be58210aad97775878ae928a5c3495d7593668120526ecd8",
+      "webPath": "public/images/cast/model-005-reference-v2.webp",
+      "webSha256": "9b68c3978af26b7b00eb7c30a3f0449bd334529367de2462d3b18547a615b390",
+      "width": 1086,
+      "height": 1448,
+      "crop": "full-frame",
+      "usage": [
+        "cast-review",
+        "identity-reference"
+      ],
+      "alt": "Referência de Caio, modelo infantil fictício de 2 anos, com camiseta creme e short verde-petróleo sobre fundo branco.",
+      "productIds": [
+        "product-002",
+        "product-008",
+        "product-021"
+      ],
+      "collectionIds": [
+        "collection-001",
+        "collection-003"
+      ],
+      "colorwayAssignments": [
+        {
+          "productId": "product-002",
+          "colorwayIds": [
+            "butter-teal"
+          ]
+        },
+        {
+          "productId": "product-008",
+          "colorwayIds": [
+            "teal",
+            "butter"
+          ]
+        },
+        {
+          "productId": "product-021",
+          "colorwayIds": [
+            "cream-teal-peach"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "model-006-reference-v1",
+      "modelId": "model-006",
+      "role": "cast-reference",
+      "approvalStatus": "approved",
+      "originalPath": "assets/originals/cast/model-006-reference-v1.png",
+      "originalSha256": "054c88dacd8477098bf5b707ae3d809f08fe3f4c6ab900001dcd30f523fc0c03",
+      "webPath": "public/images/cast/model-006-reference-v1.webp",
+      "webSha256": "8eb11535b5a1e97b6cba19585e44899220db7b9ae54886ed2a352f2c39aee8ed",
+      "width": 1086,
+      "height": 1448,
+      "crop": "full-frame",
+      "usage": [
+        "cast-review",
+        "identity-reference"
+      ],
+      "alt": "Referência de Davi, modelo infantil fictício de 4 anos, com camiseta creme e short verde-petróleo sobre fundo branco.",
+      "productIds": [
+        "product-001",
+        "product-006",
+        "product-011",
+        "product-019"
+      ],
+      "collectionIds": [
+        "collection-001",
+        "collection-002"
+      ],
+      "colorwayAssignments": [
+        {
+          "productId": "product-001",
+          "colorwayIds": [
+            "cream-leaf-teal"
+          ]
+        },
+        {
+          "productId": "product-006",
+          "colorwayIds": [
+            "cream-teal-leaf"
+          ]
+        },
+        {
+          "productId": "product-011",
+          "colorwayIds": [
+            "sky-teal-cream"
+          ]
+        },
+        {
+          "productId": "product-019",
+          "colorwayIds": [
+            "coral",
+            "cream"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "model-007-reference-v1",
+      "modelId": "model-007",
+      "role": "cast-reference",
+      "approvalStatus": "approved",
+      "originalPath": "assets/originals/cast/model-007-reference-v1.png",
+      "originalSha256": "fd435230a5c3757ba17f2e2ccccae69f4c39eabb28d66ced2a46846c218469bd",
+      "webPath": "public/images/cast/model-007-reference-v1.webp",
+      "webSha256": "bf32d4e88ab8de1f30b8c45ebc994d4b8250a7069f4395a4477e6c5f9a8e0bfa",
+      "width": 1086,
+      "height": 1448,
+      "crop": "full-frame",
+      "usage": [
+        "cast-review",
+        "identity-reference"
+      ],
+      "alt": "Referência de Theo, modelo infantil fictício de 6 anos, com camiseta creme e short verde-petróleo sobre fundo branco.",
+      "productIds": [
+        "product-009",
+        "product-012",
+        "product-015",
+        "product-025",
+        "product-029"
+      ],
+      "collectionIds": [
+        "collection-001",
+        "collection-002",
+        "collection-003"
+      ],
+      "colorwayAssignments": [
+        {
+          "productId": "product-009",
+          "colorwayIds": [
+            "leaf",
+            "cream"
+          ]
+        },
+        {
+          "productId": "product-012",
+          "colorwayIds": [
+            "cream-sky-coral"
+          ]
+        },
+        {
+          "productId": "product-015",
+          "colorwayIds": [
+            "cream-sky-teal"
+          ]
+        },
+        {
+          "productId": "product-025",
+          "colorwayIds": [
+            "cream-lilac-teal"
+          ]
+        },
+        {
+          "productId": "product-029",
+          "colorwayIds": [
+            "teal",
+            "cream"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "model-008-reference-v1",
+      "modelId": "model-008",
+      "role": "cast-reference",
+      "approvalStatus": "approved",
+      "originalPath": "assets/originals/cast/model-008-reference-v1.png",
+      "originalSha256": "84c4c5c21ee85c4271ca2134b09f12bdce3d3bf67ad4324504100ad4e18d4514",
+      "webPath": "public/images/cast/model-008-reference-v1.webp",
+      "webSha256": "5640029404a9dbde3dd83c42f789953aecb8cf7d9a624c413ed576f9603b80d8",
+      "width": 1086,
+      "height": 1448,
+      "crop": "full-frame",
+      "usage": [
+        "cast-review",
+        "identity-reference"
+      ],
+      "alt": "Referência de Noah, modelo infantil fictício de 8 anos, com camiseta creme e short verde-petróleo sobre fundo branco.",
+      "productIds": [
+        "product-010",
+        "product-018",
+        "product-020",
+        "product-022",
+        "product-026",
+        "product-030"
+      ],
+      "collectionIds": [
+        "collection-001",
+        "collection-002",
+        "collection-003"
+      ],
+      "colorwayAssignments": [
+        {
+          "productId": "product-010",
+          "colorwayIds": [
+            "teal",
+            "cream"
+          ]
+        },
+        {
+          "productId": "product-018",
+          "colorwayIds": [
+            "sky",
+            "teal"
+          ]
+        },
+        {
+          "productId": "product-020",
+          "colorwayIds": [
+            "teal",
+            "sky"
+          ]
+        },
+        {
+          "productId": "product-022",
+          "colorwayIds": [
+            "lilac-cream-teal"
+          ]
+        },
+        {
+          "productId": "product-026",
+          "colorwayIds": [
+            "cream-lilac-teal"
+          ]
+        },
+        {
+          "productId": "product-030",
+          "colorwayIds": [
+            "lilac",
+            "peach"
+          ]
+        }
+      ]
+    }
+  ]
+}

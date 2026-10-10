@@ -71,6 +71,10 @@ for (const [index, model] of proposal.models.entries()) {
 const manifest = {
   revision: proposal.revision, approvalStatus: proposal.approvalStatus,
   scope: "Cast references only; no catalog photographs or sample-pair approval.",
+  ...(catalog.revision === "issue-51-polos-v1" ? {
+    catalogRevision: catalog.revision,
+    assignmentRevisionSource: "docs/content/polo-assortment-approval.json",
+  } : {}),
   assets,
 };
 await writeFile(resolve(root, "docs/content/cast-manifest.json"), `${JSON.stringify(manifest, null, 2)}\n`);

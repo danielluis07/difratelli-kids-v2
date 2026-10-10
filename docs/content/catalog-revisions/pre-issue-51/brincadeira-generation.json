@@ -1,49 +1,49 @@
 {
-  "revision": "issue-51-polos-v1",
-  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/51",
+  "revision": "issue-26-brincadeira-v1",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/26",
   "collectionId": "collection-002",
   "status": "approved",
   "approvalStatus": "approved",
   "records": [
     {
       "productId": "product-011",
-      "colorwayId": "cream-sky",
+      "colorwayId": "sky-teal-cream",
       "collectionId": "collection-002",
       "modelId": "model-006",
       "photographedSize": 4,
       "role": "model",
-      "originalPath": "assets/originals/catalog/product-011-cream-sky-model-v1.png",
+      "originalPath": "assets/originals/catalog/product-011-sky-teal-cream-model-v1.png",
       "referencePaths": [
         "assets/originals/cast/model-006-reference-v1.png"
       ],
-      "prompt": "Use case: identity-preserve. Difratelli Kids striped polo model-first catalog photograph. Input image is approved fictional Davi model-006 child identity reference and framing. Change ONLY his T-shirt to 100% cotton pique short-sleeve polo with narrow equal-width horizontal cream #F3EBDD and sky-blue #A9CCE0 stripes, about 6 mm each, consistently repeating across body and sleeves; SOLID CREAM folded collar and short center-front cream placket, exactly TWO small tonal cream buttons. Relaxed straight fit, hip length, plain sleeve hems, tonal stitching. No rib cuff contrast, pocket, logo, embroidery, graphics, contrasting trim or third color. Preserve Davi's exact face, apparent age 4, deep brown complexion, eyes, coiled black hair, expression, pose, body proportions, supporting deep teal shorts and cream shoes. Photograph size 4. Opaque white seamless studio backdrop, neutral diffused light, visible fine pique texture. Entire child, collar, sleeves and hem visible with breathing room, arms at sides clear of shirt. Native portrait exactly 3:4, request 1536x2048 or larger. No props, text, watermark. One photograph.",
-      "alt": "Davi usando Polo Listrada da Rua com listras finas creme e azul-céu e gola creme lisa, com a peça inteira sobre fundo branco.",
-      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a125b7-1657-7293-9185-60b3ffcc9043/exec-1a35a483-34f8-4e96-b1b4-427322a5fb22.png",
+      "prompt": "Use case: identity-preserve. Product-011 sky-teal-cream model-first catalog photograph, Difratelli Kids Brincadeira de Rua. Reference is APPROVED FICTIONAL child Davi, model-006 age 4: preserve exact face, deep brown skin, dark brown eyes, round cheeks, short tightly coiled black hair and child proportions. Wear photographed size 4 Camiseta Volta de Bicicleta: cotton single jersey 160 g/m², straight short-sleeve T-shirt with rib crew neck, hip length. Sky blue #A9CCE0 base; sparse looping chalk-texture bicycle paths with occasional simple wheel motifs in cream #F3EBDD and deep teal #246B63, thin 2–3 mm strokes. No lettering, logos, embroidery, added pockets or trim. Plain neutral shorts and shoes as supporting styling only. Frontal relaxed full-body pose with arms clear of the complete untucked garment. Entire head, shirt, legs and shoes in frame with breathing room. Opaque white seamless background, neutral soft studio light, natural cotton texture. Native output exactly 3:4, request 1536 x 2048 or larger, mandatory minimum 1200 x 1600 pixels. No props, text, watermark, accessories, extra seams or garment features.",
+      "alt": "Davi usando Camiseta Volta de Bicicleta na cor Azul-céu, verde-petróleo, creme, com a peça inteira visível sobre fundo branco.",
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a1230f-4aec-7170-8b8c-3959771375da/exec-1429477a-3911-4b6f-9e4c-5579e52a5c1b.png",
       "tool": "built-in image_gen",
-      "approvalStatus": "approved",
-      "originalSha256": "015f24fbfadca07fa47775fc141a2db210050d085ae1d676c5292dc5b002bbed",
+      "originalSha256": "fa3b9f59784ec7c387a523449c5ee9d5e6c67105cbca7839a0c9b38cfb241bff",
       "width": 1086,
-      "height": 1448
+      "height": 1448,
+      "approvalStatus": "approved"
     },
     {
       "productId": "product-011",
-      "colorwayId": "cream-sky",
+      "colorwayId": "sky-teal-cream",
       "collectionId": "collection-002",
       "modelId": null,
       "photographedSize": 4,
       "role": "isolated",
-      "originalPath": "assets/originals/catalog/product-011-cream-sky-isolated-v1.png",
+      "originalPath": "assets/originals/catalog/product-011-sky-teal-cream-isolated-v1.png",
       "referencePaths": [
-        "assets/originals/catalog/product-011-cream-sky-model-v1.png"
+        "assets/originals/catalog/product-011-sky-teal-cream-model-v1.png"
       ],
-      "prompt": "Use case: product-mockup. Difratelli Kids striped cream/sky-blue polo isolated-garment-second catalog photograph. Input is exact selected worn polo photo. Show ONLY the polo, no child, body parts, shorts, shoes, hanger, mannequin or other garments. Photorealistic front-facing invisible-mannequin studio photograph, opaque pure white seamless background, subtle natural shadow, complete garment including collar, sleeves, hem, centered with breathing room. Preserve exact input design and construction: cotton pique, narrow equal-width horizontal cream and sky-blue stripes on torso and sleeves, solid cream folded collar, solid cream short placket with exactly TWO small tonal cream buttons, relaxed straight hip-length silhouette, plain sleeve hems, tonal stitching. Match stripe widths and repeat spacing, colors and pattern phase/placement relative to placket and hem as closely as possible. No third color, pockets, logos, embroidery, graphics or contrasting trim. Natural fine pique texture, neutral diffused light. Native portrait exactly 3:4, request 1536x2048 or larger. No labels, text, watermark or props.",
-      "alt": "Polo Listrada da Rua em piquê, com listras horizontais finas creme e azul-céu, gola creme lisa e dois botões no mesmo tom, apresentada sem modelo sobre fundo branco.",
-      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a125b7-1657-7293-9185-60b3ffcc9043/exec-30e7c603-b5f2-47ae-8ae0-140964295329.png",
+      "prompt": "Use case: product-mockup. product-011-sky-teal-cream-isolated-v1 catalog isolated photograph. Input image is the EXACT worn photograph; reproduce its featured Camiseta Volta de Bicicleta without redesign. Extract ONLY the featured garment; exclude all supporting clothes and shoes. Photorealistic front-facing invisible-mannequin presentation, neatly shaped without person, body parts, visible mannequin, hanger, labels or accessories. Preserve precise print motifs, scale, placement, colors, collar, sleeves, seams, hem, waistband, pockets and fabric of reference. Approved garment: Cotton single jersey, 160 g/m²; Straight short-sleeve jersey T-shirt; rib crew neck; hip length. Print: Looping chalk-texture bicycle paths, 2–3 mm strokes with occasional simple wheels, cream and teal on sky blue; no text. Color placement: Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Azul-céu #A9CCE0, Verde-petróleo #246B63, Creme #F3EBDD. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native 1086 x 1448 or larger, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly.",
+      "alt": "Camiseta Volta de Bicicleta na cor Azul-céu, verde-petróleo, creme, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-ac963baf-fe5d-4b5f-83dd-a927f56b1a6b.png",
       "tool": "built-in image_gen",
-      "approvalStatus": "approved",
-      "originalSha256": "260995ac3cafcebb96ddb111283e924fd32e5f0fd39ada2e38a6101a6322e085",
+      "originalSha256": "a32ec4c915f3c64b835de87363c7cecca7a4d59ae338da8c635f76fa774b076f",
       "width": 1086,
-      "height": 1448
+      "height": 1448,
+      "approvalStatus": "approved"
     },
     {
       "productId": "product-012",
@@ -781,6 +781,5 @@
   "resolutionAcceptancePath": "docs/content/brincadeira-resolution-acceptance.json",
   "tool": "built-in image_gen",
   "limitations": "No seed, explicit output-size parameter or model revision exposed. Actual native outputs measured individually; no enlargement. Exact prompts and reference paths retained; identical regeneration not guaranteed.",
-  "scope": "Ten products and fourteen colorways, 28 approved active photographs. Prior approval covers 26 unchanged images; the replacement polo pair is approved in docs/content/polo-approval.json.",
-  "previousRevision": "issue-26-brincadeira-v1"
+  "scope": "All ten Brincadeira de Rua products and fourteen colorways, 28 selected photographs. Resolution acceptance does not constitute image approval."
 }

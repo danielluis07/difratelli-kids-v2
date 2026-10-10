@@ -1,0 +1,324 @@
+{
+  "revision": "issue-26-brincadeira-v1",
+  "status": "approved",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/26",
+  "collectionId": "collection-002",
+  "reviewer": "The user in this conversation",
+  "evidence": "The user replied \"approved. create a PR\" to: \"Do you approve the complete batch including that detail?\" The preceding message linked the complete contact sheet and full-size review and explicitly disclosed curved fly-like stitching on the two plain-short products, affecting eight photographs.",
+  "recordedAtUtc": "2026-10-10T00:34:41Z",
+  "scope": [
+    "All ten Brincadeira products and fourteen colorways",
+    "All 28 exact model-first and isolated-garment-second photographs",
+    "Separate PNG originals and full-frame quality-90 WebP exports, associations, dimensions, usage and Portuguese alt text"
+  ],
+  "reviewedManifestPath": "docs/content/brincadeira-manifest.json",
+  "reviewedManifestSha256": "7e54f09868b2359a161c4b99572e139c052209f399fdbb9c6f667907fc0a103d",
+  "reviewedContactSheetPath": "docs/content/brincadeira-contact-sheet.webp",
+  "reviewedContactSheetSha256": "53bbf29c3dcf49070dbcf2b3da0f9d82e48c83df2d4e7338e11fb5fa4e503e5d",
+  "resolutionAcceptancePath": "docs/content/brincadeira-resolution-acceptance.json",
+  "requestedCorrections": [],
+  "acceptedExceptions": [
+    {
+      "description": "Curved fly-like center-front topstitching on both roles of product-018 sky/teal and product-019 coral/cream; accept exact images explicitly or request correction.",
+      "status": "accepted",
+      "assetIds": [
+        "product-018-sky-model-v2",
+        "product-018-sky-isolated-v1",
+        "product-018-teal-model-v1",
+        "product-018-teal-isolated-v1",
+        "product-019-coral-model-v1",
+        "product-019-coral-isolated-v1",
+        "product-019-cream-model-v1",
+        "product-019-cream-isolated-v1"
+      ],
+      "evidence": "The user replied \"approved. create a PR\" to: \"Do you approve the complete batch including that detail?\" The preceding message linked the complete contact sheet and full-size review and explicitly disclosed curved fly-like stitching on the two plain-short products, affecting eight photographs.",
+      "scope": "These eight exact photograph hashes only; approved garment briefs remain unchanged."
+    }
+  ],
+  "detailsRequiringDecision": [],
+  "assets": [
+    {
+      "id": "product-011-sky-teal-cream-model-v1",
+      "productId": "product-011",
+      "colorwayId": "sky-teal-cream",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-011-sky-teal-cream-model-v1.png",
+      "originalSha256": "fa3b9f59784ec7c387a523449c5ee9d5e6c67105cbca7839a0c9b38cfb241bff",
+      "webPath": "public/images/catalog/product-011-sky-teal-cream-model-v1.webp",
+      "webSha256": "328a4e684d3e4187db1a02adb0751c91483528ef2508e8bd6bbb81b5dda0d322"
+    },
+    {
+      "id": "product-011-sky-teal-cream-isolated-v1",
+      "productId": "product-011",
+      "colorwayId": "sky-teal-cream",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-011-sky-teal-cream-isolated-v1.png",
+      "originalSha256": "a32ec4c915f3c64b835de87363c7cecca7a4d59ae338da8c635f76fa774b076f",
+      "webPath": "public/images/catalog/product-011-sky-teal-cream-isolated-v1.webp",
+      "webSha256": "c6b49b560b5fa1ab1aca1083533f19401dc9c492c6e68c40b8334b03dc3c2a52"
+    },
+    {
+      "id": "product-012-cream-sky-coral-model-v1",
+      "productId": "product-012",
+      "colorwayId": "cream-sky-coral",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-012-cream-sky-coral-model-v1.png",
+      "originalSha256": "0792f699b22c1042752a3355dcca629495b1b4404d484e515c3d6555dffa4de2",
+      "webPath": "public/images/catalog/product-012-cream-sky-coral-model-v1.webp",
+      "webSha256": "26235cfda4d7e6024adbfbf5d6933fed87882ca02d9edccd8f6b58cb0b3fd593"
+    },
+    {
+      "id": "product-012-cream-sky-coral-isolated-v1",
+      "productId": "product-012",
+      "colorwayId": "cream-sky-coral",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-012-cream-sky-coral-isolated-v1.png",
+      "originalSha256": "fc37bd0a6602cf90678d757d5606a1225760fbac3d9d659bf906b86e0019de59",
+      "webPath": "public/images/catalog/product-012-cream-sky-coral-isolated-v1.webp",
+      "webSha256": "b960a284983365985340945721f67601dba26d3ecc9d3836c4e4a732d8d89cda"
+    },
+    {
+      "id": "product-013-cream-coral-teal-model-v2",
+      "productId": "product-013",
+      "colorwayId": "cream-coral-teal",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-013-cream-coral-teal-model-v2.png",
+      "originalSha256": "5a160967db49aa2d289affbc07e66d12c4561ed0e39e88fd332ca96fc9d8a221",
+      "webPath": "public/images/catalog/product-013-cream-coral-teal-model-v2.webp",
+      "webSha256": "ac9e1fce958db3c6d6096c340efacd0fbf9adab0dd1ffdba218906187a7cb746"
+    },
+    {
+      "id": "product-013-cream-coral-teal-isolated-v1",
+      "productId": "product-013",
+      "colorwayId": "cream-coral-teal",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-013-cream-coral-teal-isolated-v1.png",
+      "originalSha256": "1576f7b9d89993e83aa2d6c3a7b2da020987a5269b7884f8f1fabfd88cc462a3",
+      "webPath": "public/images/catalog/product-013-cream-coral-teal-isolated-v1.webp",
+      "webSha256": "57ac3b30c683fb79351efd1fb187f3809ddc66255b1a841014817114ef190c97"
+    },
+    {
+      "id": "product-014-sky-cream-coral-model-v2",
+      "productId": "product-014",
+      "colorwayId": "sky-cream-coral",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-014-sky-cream-coral-model-v2.png",
+      "originalSha256": "f6bb5afb4022b61534dcf734f99c46ad44bd193ba10bf7ab9f0cc3a9baa81e85",
+      "webPath": "public/images/catalog/product-014-sky-cream-coral-model-v2.webp",
+      "webSha256": "665af1988e650362b4b66de3120f3ca5a2da417d4c7fca42686259cdc90e9036"
+    },
+    {
+      "id": "product-014-sky-cream-coral-isolated-v1",
+      "productId": "product-014",
+      "colorwayId": "sky-cream-coral",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-014-sky-cream-coral-isolated-v1.png",
+      "originalSha256": "8b28f5b4871833f8cf2d7a2d708397f1b50a09676a06581bf9bc5112027c95bb",
+      "webPath": "public/images/catalog/product-014-sky-cream-coral-isolated-v1.webp",
+      "webSha256": "17d027c3ea249090f882b233cdfbcb8838e8e66531f3aaafcd48de3b3375202a"
+    },
+    {
+      "id": "product-015-cream-sky-teal-model-v4",
+      "productId": "product-015",
+      "colorwayId": "cream-sky-teal",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-015-cream-sky-teal-model-v4.png",
+      "originalSha256": "3d6219b030270f2482ad6192fc6bbe703fc940e26442dfd7bb609b56d2866524",
+      "webPath": "public/images/catalog/product-015-cream-sky-teal-model-v4.webp",
+      "webSha256": "c62168777155fe47fa5c47655692defd410255c9b14354ae08c1f3dace4f1346"
+    },
+    {
+      "id": "product-015-cream-sky-teal-isolated-v1",
+      "productId": "product-015",
+      "colorwayId": "cream-sky-teal",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-015-cream-sky-teal-isolated-v1.png",
+      "originalSha256": "4f78bde9ef3b84463273e4e7eb8710dd002b4b6e07f8dd0ea6cf410d80138cb4",
+      "webPath": "public/images/catalog/product-015-cream-sky-teal-isolated-v1.webp",
+      "webSha256": "da245709d03b5a1a7eefc54d0752b1d5405c3d039743d5aceab10a625dc759f9"
+    },
+    {
+      "id": "product-016-cream-coral-teal-model-v2",
+      "productId": "product-016",
+      "colorwayId": "cream-coral-teal",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-016-cream-coral-teal-model-v2.png",
+      "originalSha256": "7d2af4345969da018d6950e8fceeed6a76a999161985026aa876ca74850cccea",
+      "webPath": "public/images/catalog/product-016-cream-coral-teal-model-v2.webp",
+      "webSha256": "e8dc7b54a76643ea01b813030f51c9f86a5daaeebdd134e51d9ee09be2bb152f"
+    },
+    {
+      "id": "product-016-cream-coral-teal-isolated-v1",
+      "productId": "product-016",
+      "colorwayId": "cream-coral-teal",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-016-cream-coral-teal-isolated-v1.png",
+      "originalSha256": "5272f41bb2b7e30569cee00760760f0b04ead8e396e891d8ce7d282ba9f8c094",
+      "webPath": "public/images/catalog/product-016-cream-coral-teal-isolated-v1.webp",
+      "webSha256": "f8cf418c09553a7adaed5706f8682e56fe9b7c5230be51361db8db0f961f4fe9"
+    },
+    {
+      "id": "product-017-sky-model-v1",
+      "productId": "product-017",
+      "colorwayId": "sky",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-017-sky-model-v1.png",
+      "originalSha256": "6f7d92efce958ac4906dd8f3f66204f04d4fb86138469a1f2b550db1591c114c",
+      "webPath": "public/images/catalog/product-017-sky-model-v1.webp",
+      "webSha256": "28b84aa478c48fccf9e6f4ab42dcc3b649ca3464d5fa6da8125686bc9eea4152"
+    },
+    {
+      "id": "product-017-sky-isolated-v1",
+      "productId": "product-017",
+      "colorwayId": "sky",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-017-sky-isolated-v1.png",
+      "originalSha256": "291f60e2da15b044d50419d47b3beaf75eef6e93d0335ed5b9ac9498d3482a8e",
+      "webPath": "public/images/catalog/product-017-sky-isolated-v1.webp",
+      "webSha256": "3bbeb07a62d570a7a91cba03748505fc788c55438d2d0fcaa0a1283862445a3c"
+    },
+    {
+      "id": "product-017-cream-model-v1",
+      "productId": "product-017",
+      "colorwayId": "cream",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-017-cream-model-v1.png",
+      "originalSha256": "b148b0ecf2dbc7a1f276a20953f7ccd37472906d627675791ec84bc9c77b9937",
+      "webPath": "public/images/catalog/product-017-cream-model-v1.webp",
+      "webSha256": "ac48ca0b8fd26978e753dea7d83718d022dd386bf1775ebfd6bd59157a429b39"
+    },
+    {
+      "id": "product-017-cream-isolated-v1",
+      "productId": "product-017",
+      "colorwayId": "cream",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-017-cream-isolated-v1.png",
+      "originalSha256": "94526e690fda5b2c41548013ecb08fee40a3d477e0657eac11e0fef8160cdd80",
+      "webPath": "public/images/catalog/product-017-cream-isolated-v1.webp",
+      "webSha256": "979bd19e903b2617be08eee2948e02060562551977fd33ff31336ed855c10b72"
+    },
+    {
+      "id": "product-018-sky-model-v2",
+      "productId": "product-018",
+      "colorwayId": "sky",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-018-sky-model-v2.png",
+      "originalSha256": "97f0ba87941a7ed4ac536f53a9c85597d7de0ec37b2bc35f764784ac25d4d9b3",
+      "webPath": "public/images/catalog/product-018-sky-model-v2.webp",
+      "webSha256": "994e53128fe205df7380db3fab2b772f0da98bc6f2050b4ebb056fabdfd027b4"
+    },
+    {
+      "id": "product-018-sky-isolated-v1",
+      "productId": "product-018",
+      "colorwayId": "sky",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-018-sky-isolated-v1.png",
+      "originalSha256": "e1d4a302e7da2b12f02a9e2b567c9a701a6de75e713f2d86369e35354834db15",
+      "webPath": "public/images/catalog/product-018-sky-isolated-v1.webp",
+      "webSha256": "884fcfc01d03b22f771742b46832a7228cf47a31da88f637dec1061dd7746620"
+    },
+    {
+      "id": "product-018-teal-model-v1",
+      "productId": "product-018",
+      "colorwayId": "teal",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-018-teal-model-v1.png",
+      "originalSha256": "02f5a501a5dc9c16670ca84227c58d4fb04468e1fb59ed6a55984ecb05288540",
+      "webPath": "public/images/catalog/product-018-teal-model-v1.webp",
+      "webSha256": "3c26b4cedfc0fe4ec695b3760f74665d71b1e6a5fff7feba11248cb8ec2ca2b5"
+    },
+    {
+      "id": "product-018-teal-isolated-v1",
+      "productId": "product-018",
+      "colorwayId": "teal",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-018-teal-isolated-v1.png",
+      "originalSha256": "4b1704fe6ad2593a036506ba4aca3b83cb7286231c97d4fcaa5588698e4a8102",
+      "webPath": "public/images/catalog/product-018-teal-isolated-v1.webp",
+      "webSha256": "e6fbf76d7bc4bc89e4a8c8d108175c946d5a4424c082322ede3fe43bade10bd6"
+    },
+    {
+      "id": "product-019-coral-model-v1",
+      "productId": "product-019",
+      "colorwayId": "coral",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-019-coral-model-v1.png",
+      "originalSha256": "454b6cd6e182ad6f8439c388d1577abeed66ba67d7791ba3ed7815e53ffaff14",
+      "webPath": "public/images/catalog/product-019-coral-model-v1.webp",
+      "webSha256": "478edcacbf927150894ae0ec4a9923e3c506c187dabd32989ade6ce60b322923"
+    },
+    {
+      "id": "product-019-coral-isolated-v1",
+      "productId": "product-019",
+      "colorwayId": "coral",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-019-coral-isolated-v1.png",
+      "originalSha256": "918b772e10538473e4ea72d64b3e62aae7028761f11559998b10371c477868d0",
+      "webPath": "public/images/catalog/product-019-coral-isolated-v1.webp",
+      "webSha256": "2be321c5bb27b340f1a7502a25946b90a93cb4d88e6ddc9d8467b1cc73e87bed"
+    },
+    {
+      "id": "product-019-cream-model-v1",
+      "productId": "product-019",
+      "colorwayId": "cream",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-019-cream-model-v1.png",
+      "originalSha256": "06facb5b0111edd049aa417be88d67bc79213db5cbb99ac9dae105d0593ef86f",
+      "webPath": "public/images/catalog/product-019-cream-model-v1.webp",
+      "webSha256": "46f327f3355a0f531ce8727dca38a192476b1f7aa50034f116041299610ed84a"
+    },
+    {
+      "id": "product-019-cream-isolated-v1",
+      "productId": "product-019",
+      "colorwayId": "cream",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-019-cream-isolated-v1.png",
+      "originalSha256": "b8be8b5bcdbef2595ad7256352a6f16d1c1330f8629255479bc9636f7f25eb94",
+      "webPath": "public/images/catalog/product-019-cream-isolated-v1.webp",
+      "webSha256": "31d903de5e07dc8c4f6d351214288eb6fe474ede1d5c0665722d3a39f7d67616"
+    },
+    {
+      "id": "product-020-teal-model-v2",
+      "productId": "product-020",
+      "colorwayId": "teal",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-020-teal-model-v2.png",
+      "originalSha256": "6e29acff2a12a2e78611c89202719bbf4f0e309a0f38c86d0f3c6b58129f7187",
+      "webPath": "public/images/catalog/product-020-teal-model-v2.webp",
+      "webSha256": "81dffe7d4e330f2f1fae531c3020453692576ae8359728040cb1d27cf7b0878f"
+    },
+    {
+      "id": "product-020-teal-isolated-v1",
+      "productId": "product-020",
+      "colorwayId": "teal",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-020-teal-isolated-v1.png",
+      "originalSha256": "15b914c88d1a3e4c6f0c18dd38b50d6da51e5659469a470af80a7b640fbe05a6",
+      "webPath": "public/images/catalog/product-020-teal-isolated-v1.webp",
+      "webSha256": "478a5bd5cc504faac1ef6ccb31082ff1433951f55cceef7d5b1b9740c4e1a2c6"
+    },
+    {
+      "id": "product-020-sky-model-v1",
+      "productId": "product-020",
+      "colorwayId": "sky",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-020-sky-model-v1.png",
+      "originalSha256": "5829aee5756fa18cf3392cc94deb61c58fd4918205e649431f8029a9154b2784",
+      "webPath": "public/images/catalog/product-020-sky-model-v1.webp",
+      "webSha256": "7981664a825a2e4ef548ac31800c2aa6123c22c0d94a7af5b65c5f1e62c1d8a4"
+    },
+    {
+      "id": "product-020-sky-isolated-v1",
+      "productId": "product-020",
+      "colorwayId": "sky",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-020-sky-isolated-v1.png",
+      "originalSha256": "f853448bf124d50a0065d711794e34ce059f203a651d7524aa6f7d65f836444d",
+      "webPath": "public/images/catalog/product-020-sky-isolated-v1.webp",
+      "webSha256": "91d7d1dc508418d0f7e46c977abf083462e16888e694576622ead55ee04fcbe6"
+    }
+  ],
+  "remainingGates": [
+    "Complete content, integration and release approvals"
+  ]
+}

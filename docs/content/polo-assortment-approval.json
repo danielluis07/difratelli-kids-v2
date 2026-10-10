@@ -1,0 +1,65 @@
+{
+  "revision": "issue-51-polos-v1",
+  "status": "approved",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/51",
+  "reviewer": "The user in this conversation",
+  "recordedAtUtc": "2026-10-10T12:23:00.261Z",
+  "evidence": "The user agreed to separate solid and striped products, two replacements and narrow horizontal stripes, then replied 'agree on all' to the exact replacements, colors, dedicated Polos category, fabric, fit, sizes and prices; subsequently confirmed implementation with 'yes'.",
+  "scope": "Assortment and garment direction only; exact Portuguese copy, four generated photographs and revised file hashes still require human review.",
+  "products": [
+    {
+      "productId": "product-002",
+      "replacesName": "Camiseta Besourinhos",
+      "collectionId": "collection-001",
+      "pattern": "plain",
+      "colorwayId": "cream",
+      "colors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        }
+      ],
+      "priceCents": 7900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "fabric": "100% cotton pique",
+      "fit": "Relaxed straight, short sleeves, two tonal buttons, no logos or contrasting trim"
+    },
+    {
+      "productId": "product-011",
+      "replacesName": "Camiseta Volta de Bicicleta",
+      "collectionId": "collection-002",
+      "pattern": "striped",
+      "colorwayId": "cream-sky",
+      "colors": [
+        {
+          "name": "Creme",
+          "hex": "#F3EBDD"
+        },
+        {
+          "name": "Azul-céu",
+          "hex": "#A9CCE0"
+        }
+      ],
+      "priceCents": 7900,
+      "sizes": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "fabric": "100% cotton pique",
+      "fit": "Relaxed straight, short sleeves, two tonal buttons, no logos or contrasting trim"
+    }
+  ],
+  "totals": {
+    "products": 30,
+    "colorways": 42,
+    "catalogPhotographs": 84,
+    "categories": 8
+  }
+}

@@ -1,9 +1,9 @@
 {
-  "revision": "issue-51-polos-v1",
+  "revision": "issue-25-quintal-v1",
   "collectionId": "collection-001",
   "technicalStatus": "passed",
   "approvalStatus": "approved",
-  "scope": "Ten products and fourteen colorways, 28 approved active photographs. Prior approval covers 26 unchanged images; the replacement polo pair is approved in docs/content/polo-approval.json.",
+  "scope": "All ten Quintal products and fourteen colorways, model first and isolated second. Complete-content and release gates are separate.",
   "resolutionAcceptance": {
     "collectionId": "collection-001",
     "minimumWidth": 1086,
@@ -93,37 +93,32 @@
       "alt": "Camiseta Folhas ao Vento na cor Creme, verde-folha, verde-petróleo, apresentado sem modelo sobre fundo branco."
     },
     {
-      "id": "product-002-cream-model-v1",
+      "id": "product-002-butter-teal-model-v1",
       "productId": "product-002",
       "collectionId": "collection-001",
-      "colorwayId": "cream",
+      "colorwayId": "butter-teal",
       "modelId": "model-005",
       "photographedSize": 2,
       "role": "model",
       "galleryOrder": 1,
       "approvalStatus": "approved",
-      "approvalSource": "docs/content/polo-approval.json",
+      "approvalSource": "docs/content/quintal-approval.json",
       "technicalStatus": "passed",
-      "originalPath": "assets/originals/catalog/product-002-cream-model-v1.png",
-      "originalSha256": "b34a0c3fb5f34c64cbc1296441e3cea8671c50edf88852ddd95fe8cc61a53058",
-      "webPath": "public/images/catalog/product-002-cream-model-v1.webp",
-      "webSha256": "c1ac7d9b70f44bdb5760c33eebca1473e1208c87952856ceb2a21bb07003db8c",
+      "originalPath": "assets/originals/catalog/product-002-butter-teal-model-v1.png",
+      "originalSha256": "dc38d9cb4fc28b3ce6c6513df6db98eb91b1d4ed508bd54c931c4803487681a3",
+      "webPath": "public/images/catalog/product-002-butter-teal-model-v1.webp",
+      "webSha256": "1c06f072283e60c00497a0db2a6379085163f3b3c9d0a17cb251f34d4b6f1c9e",
       "width": 1086,
       "height": 1448,
       "webWidth": 1086,
       "webHeight": 1448,
-      "originalBytes": 1705377,
-      "webBytes": 69712,
+      "originalBytes": 1703245,
+      "webBytes": 78620,
       "references": [
         {
           "inputPath": "assets/originals/cast/model-005-reference-v2.png",
           "retainedPath": "assets/originals/cast/model-005-reference-v2.png",
           "sha256": "446b8c30e3568325be58210aad97775878ae928a5c3495d7593668120526ecd8"
-        },
-        {
-          "inputPath": "public/images/editorial/hero-right-desktop-v3.webp",
-          "retainedPath": "public/images/editorial/hero-right-desktop-v3.webp",
-          "sha256": "b88971c96648ae835b5687a434b84757929baf095686a05bba493826c62adc5f"
         }
       ],
       "crop": "full-frame",
@@ -132,35 +127,35 @@
         "product-gallery",
         "batch-review"
       ],
-      "alt": "Caio usando Polo Lisa do Quintal creme, com gola, mangas e barra inteiras sobre fundo branco."
+      "alt": "Caio usando Camiseta Besourinhos na cor Amarelo-manteiga, verde-petróleo, com a peça inteira visível sobre fundo branco."
     },
     {
-      "id": "product-002-cream-isolated-v1",
+      "id": "product-002-butter-teal-isolated-v1",
       "productId": "product-002",
       "collectionId": "collection-001",
-      "colorwayId": "cream",
+      "colorwayId": "butter-teal",
       "modelId": null,
       "photographedSize": 2,
       "role": "isolated",
       "galleryOrder": 2,
       "approvalStatus": "approved",
-      "approvalSource": "docs/content/polo-approval.json",
+      "approvalSource": "docs/content/quintal-approval.json",
       "technicalStatus": "passed",
-      "originalPath": "assets/originals/catalog/product-002-cream-isolated-v1.png",
-      "originalSha256": "9f5b7d7ad50847d1f70f04a2fd04f7d5acca0e14fd2a805077c26b000f9e66f3",
-      "webPath": "public/images/catalog/product-002-cream-isolated-v1.webp",
-      "webSha256": "cf4344da72032482338dcb7027784abb3232f06178748cb1e758558c7af57cd8",
+      "originalPath": "assets/originals/catalog/product-002-butter-teal-isolated-v1.png",
+      "originalSha256": "4cfc1bfec1c164504e41acf4fc209b818a6ca3c75dfa2e97ddd05813cf76cc9d",
+      "webPath": "public/images/catalog/product-002-butter-teal-isolated-v1.webp",
+      "webSha256": "a7c191198430543e7911b009893356988595d5dbe996f7fb54c778179f063eb0",
       "width": 1086,
       "height": 1448,
       "webWidth": 1086,
       "webHeight": 1448,
-      "originalBytes": 1931086,
-      "webBytes": 142948,
+      "originalBytes": 1446289,
+      "webBytes": 83982,
       "references": [
         {
-          "inputPath": "assets/originals/catalog/product-002-cream-model-v1.png",
-          "retainedPath": "assets/originals/catalog/product-002-cream-model-v1.png",
-          "sha256": "b34a0c3fb5f34c64cbc1296441e3cea8671c50edf88852ddd95fe8cc61a53058"
+          "inputPath": "assets/originals/catalog/product-002-butter-teal-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-002-butter-teal-model-v1.png",
+          "sha256": "dc38d9cb4fc28b3ce6c6513df6db98eb91b1d4ed508bd54c931c4803487681a3"
         }
       ],
       "crop": "full-frame",
@@ -169,7 +164,7 @@
         "product-gallery",
         "batch-review"
       ],
-      "alt": "Polo Lisa do Quintal creme em piquê, com gola dobrada e dois botões no mesmo tom, apresentada sem modelo sobre fundo branco."
+      "alt": "Camiseta Besourinhos na cor Amarelo-manteiga, verde-petróleo, apresentado sem modelo sobre fundo branco."
     },
     {
       "id": "product-003-cream-butter-leaf-model-v1",
@@ -1089,7 +1084,5 @@
       ],
       "alt": "Casaco Brisa do Quintal na cor Creme, apresentado sem modelo sobre fundo branco."
     }
-  ],
-  "previousRevision": "issue-25-quintal-v1",
-  "previousApprovalSnapshot": "docs/content/catalog-revisions/pre-issue-51/quintal-approval.json"
+  ]
 }

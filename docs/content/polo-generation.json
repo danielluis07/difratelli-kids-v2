@@ -1,0 +1,88 @@
+{
+  "revision": "issue-51-polos-v1",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/51",
+  "status": "approved",
+  "records": [
+    {
+      "productId": "product-002",
+      "colorwayId": "cream",
+      "collectionId": "collection-001",
+      "modelId": "model-005",
+      "photographedSize": 2,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-002-cream-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-005-reference-v2.png",
+        "public/images/editorial/hero-right-desktop-v3.webp"
+      ],
+      "prompt": "Use case: identity-preserve. Catalog model-first photograph for Difratelli Kids solid cream polo. Image 1 is the approved fictional toddler Caio model-005 identity reference and studio framing. Image 2 is garment reference only: the approved editorial cream polo, not the child or setting to copy. Change Caio's crew-neck shirt to this plain cream #F3EBDD 100% cotton pique short-sleeve polo, soft folded cream collar, short center-front cream placket with exactly TWO small tonal cream buttons, relaxed straight hip-length fit, plain sleeve hems, tonal stitching, no pocket, no logo, no embroidery, no print, no contrasting trim. Preserve Caio's face, apparent age 2, blue eyes, complexion, short brown hair, proportions, expression, pose and supporting deep teal shorts and neutral shoes from image 1. Photograph size 2. All of polo, sleeves and hem unobstructed, arms at sides. Opaque white seamless studio background, soft neutral light, realistic cotton pique texture. Native portrait exactly 3:4, request 1536x2048 or larger, preserve complete child and garment with breathing room. No text, labels, watermark, props. Single photo.",
+      "alt": "Caio usando Polo Lisa do Quintal creme, com gola, mangas e barra inteiras sobre fundo branco.",
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a125b7-1657-7293-9185-60b3ffcc9043/exec-a0bcc0c8-ee08-4aa6-b3b1-50dc53243491.png",
+      "tool": "built-in image_gen",
+      "approvalStatus": "approved",
+      "originalSha256": "b34a0c3fb5f34c64cbc1296441e3cea8671c50edf88852ddd95fe8cc61a53058",
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "productId": "product-002",
+      "colorwayId": "cream",
+      "collectionId": "collection-001",
+      "modelId": null,
+      "photographedSize": 2,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-002-cream-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-002-cream-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Difratelli Kids solid cream polo isolated-garment-second catalog photograph. Input is exact selected worn polo photo. Show ONLY the polo, no child, body, shorts, shoes, hanger, mannequin, labels or other garments. Front-facing invisible-mannequin studio product photo on opaque white seamless background, subtle natural shadow, softly shaped as worn with complete sleeves and straight hem and breathing room. Preserve exactly the input cream cotton pique polo: relaxed straight hip length, short sleeves, plain sleeve hems, soft folded cream collar, short center-front cream placket, TWO small tonal cream buttons. Same cream color, fabric texture, construction, no pocket, no graphics, no logo, no embroidery or contrasting trim. Neutral diffused studio light. Native portrait exactly 3:4, request 1536x2048 or larger. No text, watermark, props.",
+      "alt": "Polo Lisa do Quintal creme em piquê, com gola dobrada e dois botões no mesmo tom, apresentada sem modelo sobre fundo branco.",
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a125b7-1657-7293-9185-60b3ffcc9043/exec-7a931347-986d-42b3-b151-d845daf49ba5.png",
+      "tool": "built-in image_gen",
+      "approvalStatus": "approved",
+      "originalSha256": "9f5b7d7ad50847d1f70f04a2fd04f7d5acca0e14fd2a805077c26b000f9e66f3",
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "productId": "product-011",
+      "colorwayId": "cream-sky",
+      "collectionId": "collection-002",
+      "modelId": "model-006",
+      "photographedSize": 4,
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-011-cream-sky-model-v1.png",
+      "referencePaths": [
+        "assets/originals/cast/model-006-reference-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve. Difratelli Kids striped polo model-first catalog photograph. Input image is approved fictional Davi model-006 child identity reference and framing. Change ONLY his T-shirt to 100% cotton pique short-sleeve polo with narrow equal-width horizontal cream #F3EBDD and sky-blue #A9CCE0 stripes, about 6 mm each, consistently repeating across body and sleeves; SOLID CREAM folded collar and short center-front cream placket, exactly TWO small tonal cream buttons. Relaxed straight fit, hip length, plain sleeve hems, tonal stitching. No rib cuff contrast, pocket, logo, embroidery, graphics, contrasting trim or third color. Preserve Davi's exact face, apparent age 4, deep brown complexion, eyes, coiled black hair, expression, pose, body proportions, supporting deep teal shorts and cream shoes. Photograph size 4. Opaque white seamless studio backdrop, neutral diffused light, visible fine pique texture. Entire child, collar, sleeves and hem visible with breathing room, arms at sides clear of shirt. Native portrait exactly 3:4, request 1536x2048 or larger. No props, text, watermark. One photograph.",
+      "alt": "Davi usando Polo Listrada da Rua com listras finas creme e azul-céu e gola creme lisa, com a peça inteira sobre fundo branco.",
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a125b7-1657-7293-9185-60b3ffcc9043/exec-1a35a483-34f8-4e96-b1b4-427322a5fb22.png",
+      "tool": "built-in image_gen",
+      "approvalStatus": "approved",
+      "originalSha256": "015f24fbfadca07fa47775fc141a2db210050d085ae1d676c5292dc5b002bbed",
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "productId": "product-011",
+      "colorwayId": "cream-sky",
+      "collectionId": "collection-002",
+      "modelId": null,
+      "photographedSize": 4,
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-011-cream-sky-isolated-v1.png",
+      "referencePaths": [
+        "assets/originals/catalog/product-011-cream-sky-model-v1.png"
+      ],
+      "prompt": "Use case: product-mockup. Difratelli Kids striped cream/sky-blue polo isolated-garment-second catalog photograph. Input is exact selected worn polo photo. Show ONLY the polo, no child, body parts, shorts, shoes, hanger, mannequin or other garments. Photorealistic front-facing invisible-mannequin studio photograph, opaque pure white seamless background, subtle natural shadow, complete garment including collar, sleeves, hem, centered with breathing room. Preserve exact input design and construction: cotton pique, narrow equal-width horizontal cream and sky-blue stripes on torso and sleeves, solid cream folded collar, solid cream short placket with exactly TWO small tonal cream buttons, relaxed straight hip-length silhouette, plain sleeve hems, tonal stitching. Match stripe widths and repeat spacing, colors and pattern phase/placement relative to placket and hem as closely as possible. No third color, pockets, logos, embroidery, graphics or contrasting trim. Natural fine pique texture, neutral diffused light. Native portrait exactly 3:4, request 1536x2048 or larger. No labels, text, watermark or props.",
+      "alt": "Polo Listrada da Rua em piquê, com listras horizontais finas creme e azul-céu, gola creme lisa e dois botões no mesmo tom, apresentada sem modelo sobre fundo branco.",
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a125b7-1657-7293-9185-60b3ffcc9043/exec-30e7c603-b5f2-47ae-8ae0-140964295329.png",
+      "tool": "built-in image_gen",
+      "approvalStatus": "approved",
+      "originalSha256": "260995ac3cafcebb96ddb111283e924fd32e5f0fd39ada2e38a6101a6322e085",
+      "width": 1086,
+      "height": 1448
+    }
+  ]
+}
