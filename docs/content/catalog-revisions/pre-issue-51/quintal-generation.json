@@ -1,6 +1,6 @@
 {
-  "revision": "issue-51-polos-v1",
-  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/51",
+  "revision": "issue-25-quintal-v1",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/25",
   "collectionId": "collection-001",
   "tool": "built-in image_gen",
   "approvalStatus": "approved",
@@ -44,44 +44,37 @@
     },
     {
       "productId": "product-002",
-      "colorwayId": "cream",
+      "colorwayId": "butter-teal",
       "collectionId": "collection-001",
       "modelId": "model-005",
       "photographedSize": 2,
       "role": "model",
-      "originalPath": "assets/originals/catalog/product-002-cream-model-v1.png",
+      "originalPath": "assets/originals/catalog/product-002-butter-teal-model-v1.png",
       "referencePaths": [
-        "assets/originals/cast/model-005-reference-v2.png",
-        "public/images/editorial/hero-right-desktop-v3.webp"
+        "assets/originals/cast/model-005-reference-v2.png"
       ],
-      "prompt": "Use case: identity-preserve. Catalog model-first photograph for Difratelli Kids solid cream polo. Image 1 is the approved fictional toddler Caio model-005 identity reference and studio framing. Image 2 is garment reference only: the approved editorial cream polo, not the child or setting to copy. Change Caio's crew-neck shirt to this plain cream #F3EBDD 100% cotton pique short-sleeve polo, soft folded cream collar, short center-front cream placket with exactly TWO small tonal cream buttons, relaxed straight hip-length fit, plain sleeve hems, tonal stitching, no pocket, no logo, no embroidery, no print, no contrasting trim. Preserve Caio's face, apparent age 2, blue eyes, complexion, short brown hair, proportions, expression, pose and supporting deep teal shorts and neutral shoes from image 1. Photograph size 2. All of polo, sleeves and hem unobstructed, arms at sides. Opaque white seamless studio background, soft neutral light, realistic cotton pique texture. Native portrait exactly 3:4, request 1536x2048 or larger, preserve complete child and garment with breathing room. No text, labels, watermark, props. Single photo.",
-      "alt": "Caio usando Polo Lisa do Quintal creme, com gola, mangas e barra inteiras sobre fundo branco.",
-      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a125b7-1657-7293-9185-60b3ffcc9043/exec-a0bcc0c8-ee08-4aa6-b3b1-50dc53243491.png",
-      "tool": "built-in image_gen",
-      "approvalStatus": "approved",
-      "originalSha256": "b34a0c3fb5f34c64cbc1296441e3cea8671c50edf88852ddd95fe8cc61a53058",
-      "width": 1086,
-      "height": 1448
+      "prompt": "Use case: identity-preserve. Asset type: product-002 / butter-teal model-first catalog photograph for Difratelli Kids, Quintal de Descobertas. Input image 1 is the APPROVED FICTIONAL CHILD IDENTITY REFERENCE, Caio, model-005, age 2. Preserve exact face, Light skin; blue eyes; round toddler face; short straight dark-brown hair. and natural child proportions and apparent age.  Photograph this child wearing size 2 Camiseta Besourinhos. Approved garment brief: fabric Cotton single jersey, 160 g/m²; silhouette Straight short-sleeve jersey T-shirt; rib crew neck; hip length.; print Small simplified beetles, 15–25 mm, deep teal on butter yellow, spaced at least 40 mm apart.; color placement Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.; finishing Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. This colorway colors: Amarelo-manteiga #F2D477, Verde-petróleo #246B63. Small airy hand-drawn motifs at the specified physical scale, not oversized; retain the specified base and print colors. Simple plain neutral shorts and shoes, separate supporting styling; the featured top must remain untucked and completely visible. Opaque pure white seamless background, soft neutral studio lighting, natural skin and fabric detail. Frontal or very slightly angled relaxed full-body pose, arms relaxed clear of the featured garment, no hands in pockets, entire featured garment and head and shoes in frame with breathing room. Output portrait exactly 3:4, native 1086 x 1448 pixels or larger. No logos, text, watermarks, props, hats, jewelry, added garment pockets, closures or decorations absent from the approved brief. No fly stitching or fasteners if the brief excludes a fly. This is ONE individually sold garment; supporting styling is not included in the isolated product image.",
+      "alt": "Caio usando Camiseta Besourinhos na cor Amarelo-manteiga, verde-petróleo, com a peça inteira visível sobre fundo branco.",
+      "isolatedAlt": "Camiseta Besourinhos na cor Amarelo-manteiga, verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-03c19163-3702-4a77-97e1-5a92b03b2853.png",
+      "tool": "built-in image_gen"
     },
     {
       "productId": "product-002",
-      "colorwayId": "cream",
+      "colorwayId": "butter-teal",
       "collectionId": "collection-001",
       "modelId": null,
       "photographedSize": 2,
       "role": "isolated",
-      "originalPath": "assets/originals/catalog/product-002-cream-isolated-v1.png",
+      "originalPath": "assets/originals/catalog/product-002-butter-teal-isolated-v1.png",
       "referencePaths": [
-        "assets/originals/catalog/product-002-cream-model-v1.png"
+        "assets/originals/catalog/product-002-butter-teal-model-v1.png"
       ],
-      "prompt": "Use case: product-mockup. Difratelli Kids solid cream polo isolated-garment-second catalog photograph. Input is exact selected worn polo photo. Show ONLY the polo, no child, body, shorts, shoes, hanger, mannequin, labels or other garments. Front-facing invisible-mannequin studio product photo on opaque white seamless background, subtle natural shadow, softly shaped as worn with complete sleeves and straight hem and breathing room. Preserve exactly the input cream cotton pique polo: relaxed straight hip length, short sleeves, plain sleeve hems, soft folded cream collar, short center-front cream placket, TWO small tonal cream buttons. Same cream color, fabric texture, construction, no pocket, no graphics, no logo, no embroidery or contrasting trim. Neutral diffused studio light. Native portrait exactly 3:4, request 1536x2048 or larger. No text, watermark, props.",
-      "alt": "Polo Lisa do Quintal creme em piquê, com gola dobrada e dois botões no mesmo tom, apresentada sem modelo sobre fundo branco.",
-      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a125b7-1657-7293-9185-60b3ffcc9043/exec-7a931347-986d-42b3-b151-d845daf49ba5.png",
-      "tool": "built-in image_gen",
-      "approvalStatus": "approved",
-      "originalSha256": "9f5b7d7ad50847d1f70f04a2fd04f7d5acca0e14fd2a805077c26b000f9e66f3",
-      "width": 1086,
-      "height": 1448
+      "prompt": "Use case: product-mockup. Asset type: product-002 / butter-teal isolated-garment-second photograph, Difratelli Kids. Input is the EXACT worn photograph of this garment. Extract ONLY the featured Camiseta Besourinhos, one garment sold individually; do NOT include the child's supporting clothes, shoes, person, mannequin or body parts. Photorealistic front-facing invisible-mannequin studio product photograph on opaque pure white seamless background with subtle natural shadows. Show the entire garment, front surface and construction clearly, neatly shaped without a hanger; centered with breathing room, all sleeves and hems complete. Native portrait exactly 3:4, 1086x1448 or larger. Preserve the exact garment in the input: Cotton single jersey, 160 g/m²; Straight short-sleeve jersey T-shirt; rib crew neck; hip length.; Small simplified beetles, 15–25 mm, deep teal on butter yellow, spaced at least 40 mm apart.; Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.. Match colors, silhouette, fabric, collar/neckline, sleeve length, hem length, pockets, waistband, print motif shapes/scale/placement and repeat spacing. Do not redesign or add closures, pockets, trim, logos, labels, text, watermark, props or accessories.    Soft neutral diffused light, clear natural material texture.",
+      "alt": "Camiseta Besourinhos na cor Amarelo-manteiga, verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "isolatedAlt": "Camiseta Besourinhos na cor Amarelo-manteiga, verde-petróleo, apresentado sem modelo sobre fundo branco.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a122c4-af25-7732-8e2d-fd1307544131\\exec-697e5cec-6985-4e83-ac28-8d5d45ddcc3e.png",
+      "tool": "built-in image_gen"
     },
     {
       "productId": "product-003",
@@ -621,11 +614,5 @@
       "reason": "Oversized leaf motifs; replaced by v2.",
       "retainedPath": "assets/originals/catalog-rejected/product-001-cream-leaf-teal-model-v1.png"
     }
-  ],
-  "previousRevision": "issue-25-quintal-v1",
-  "status": "approved",
-  "scope": "Ten products and fourteen colorways, 28 approved active photographs. Prior approval covers 26 unchanged images; the replacement polo pair is approved in docs/content/polo-approval.json.",
-  "remainingGates": [
-    "Complete content, integration and release approvals"
   ]
 }

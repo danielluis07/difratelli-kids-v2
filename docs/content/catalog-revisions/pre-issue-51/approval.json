@@ -1,0 +1,40 @@
+{
+  "revision": "issue-23-proposal-v1",
+  "status": "approved",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/23",
+  "reviewer": "The user in this conversation",
+  "evidence": "The user replied approved to the request to approve the complete catalog and copy package.",
+  "recordedAtUtc": "2026-10-09T21:44:40Z",
+  "scope": [
+    "All 30 products and 42 colorways, identifiers, slugs, sizes and default options",
+    "Collection allocations, coordinating separates and regular prices",
+    "Garment briefs, matching-set contents, composition and fit guidance",
+    "Collection stories, hero, brand and all Portuguese editorial/shopping copy",
+    "Validation, recovery, checkout and exact completion disclosure copy",
+    "Size chart and measuring instructions",
+    "Fictional delivery defaults and fixed shipping illustration",
+    "Curated ordering, eight new arrivals, homepage products and category tiles"
+  ],
+  "requestedCorrections": [],
+  "acceptedExceptions": [],
+  "files": [
+    {
+      "path": "docs/content/catalog-proposal.json",
+      "reviewedSha256": "85f1086348e7c5ca9422e3fcd377e9e270551a722f247957a78bc75ba8adf005",
+      "approvedSha256": "618ac3ec9c23a22b91fa5a9c4169c6a96947be62d247b625846b268dfde85ab5"
+    },
+    {
+      "path": "docs/content/copy-proposal.json",
+      "reviewedSha256": "2324a208ab3d8cf7c319a4079289a58930f789e281ea80ef7b1f99f3acf33c4a",
+      "approvedSha256": "a560cce004ff8092ad31e2b4cea3722441d16bc452f6a8dce3ebb0af1fe47014"
+    }
+  ],
+  "postReviewChanges": "Only approvalStatus changed from pending-human-review to approved in each JSON source. Shopper-facing content and garment briefs are unchanged.",
+  "remainingGates": [
+    "Child-reference approval before sample photography",
+    "Sample-pair approval before full catalog photography",
+    "Collection-photo, editorial and identity approvals",
+    "Complete content and asset package approval before storefront implementation",
+    "Integration acceptance and exact release-candidate approval"
+  ]
+}

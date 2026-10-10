@@ -1,9 +1,9 @@
 {
-  "revision": "issue-51-polos-v1",
+  "revision": "issue-26-brincadeira-v1",
   "collectionId": "collection-002",
   "technicalStatus": "passed",
   "approvalStatus": "approved",
-  "scope": "Ten products and fourteen colorways, 28 approved active photographs. Prior approval covers 26 unchanged images; the replacement polo pair is approved in docs/content/polo-approval.json.",
+  "scope": "All ten Brincadeira products and fourteen colorways, model first and isolated second. Complete-content and release gates are separate.",
   "resolutionAcceptance": {
     "revision": "issue-26-native-resolution-v1",
     "collectionId": "collection-002",
@@ -19,27 +19,27 @@
   },
   "assets": [
     {
-      "id": "product-011-cream-sky-model-v1",
+      "id": "product-011-sky-teal-cream-model-v1",
       "productId": "product-011",
       "collectionId": "collection-002",
-      "colorwayId": "cream-sky",
+      "colorwayId": "sky-teal-cream",
       "modelId": "model-006",
       "photographedSize": 4,
       "role": "model",
       "galleryOrder": 1,
       "approvalStatus": "approved",
-      "approvalSource": "docs/content/polo-approval.json",
+      "approvalSource": "docs/content/brincadeira-approval.json",
       "technicalStatus": "passed",
-      "originalPath": "assets/originals/catalog/product-011-cream-sky-model-v1.png",
-      "originalSha256": "015f24fbfadca07fa47775fc141a2db210050d085ae1d676c5292dc5b002bbed",
-      "webPath": "public/images/catalog/product-011-cream-sky-model-v1.webp",
-      "webSha256": "31eec481dcb1bf50375fe7288719e1230aad96f8aa1ab99d0b42c9c8fba23000",
+      "originalPath": "assets/originals/catalog/product-011-sky-teal-cream-model-v1.png",
+      "originalSha256": "fa3b9f59784ec7c387a523449c5ee9d5e6c67105cbca7839a0c9b38cfb241bff",
+      "webPath": "public/images/catalog/product-011-sky-teal-cream-model-v1.webp",
+      "webSha256": "328a4e684d3e4187db1a02adb0751c91483528ef2508e8bd6bbb81b5dda0d322",
       "width": 1086,
       "height": 1448,
       "webWidth": 1086,
       "webHeight": 1448,
-      "originalBytes": 1778556,
-      "webBytes": 81382,
+      "originalBytes": 1746942,
+      "webBytes": 76778,
       "references": [
         {
           "inputPath": "assets/originals/cast/model-006-reference-v1.png",
@@ -53,35 +53,35 @@
         "product-gallery",
         "batch-review"
       ],
-      "alt": "Davi usando Polo Listrada da Rua com listras finas creme e azul-céu e gola creme lisa, com a peça inteira sobre fundo branco."
+      "alt": "Davi usando Camiseta Volta de Bicicleta na cor Azul-céu, verde-petróleo, creme, com a peça inteira visível sobre fundo branco."
     },
     {
-      "id": "product-011-cream-sky-isolated-v1",
+      "id": "product-011-sky-teal-cream-isolated-v1",
       "productId": "product-011",
       "collectionId": "collection-002",
-      "colorwayId": "cream-sky",
+      "colorwayId": "sky-teal-cream",
       "modelId": null,
       "photographedSize": 4,
       "role": "isolated",
       "galleryOrder": 2,
       "approvalStatus": "approved",
-      "approvalSource": "docs/content/polo-approval.json",
+      "approvalSource": "docs/content/brincadeira-approval.json",
       "technicalStatus": "passed",
-      "originalPath": "assets/originals/catalog/product-011-cream-sky-isolated-v1.png",
-      "originalSha256": "260995ac3cafcebb96ddb111283e924fd32e5f0fd39ada2e38a6101a6322e085",
-      "webPath": "public/images/catalog/product-011-cream-sky-isolated-v1.webp",
-      "webSha256": "8dc3d8a4f37d3323351d2ded493d1cd5d323801247b8f7481743c3391c4dde0b",
+      "originalPath": "assets/originals/catalog/product-011-sky-teal-cream-isolated-v1.png",
+      "originalSha256": "a32ec4c915f3c64b835de87363c7cecca7a4d59ae338da8c635f76fa774b076f",
+      "webPath": "public/images/catalog/product-011-sky-teal-cream-isolated-v1.webp",
+      "webSha256": "c6b49b560b5fa1ab1aca1083533f19401dc9c492c6e68c40b8334b03dc3c2a52",
       "width": 1086,
       "height": 1448,
       "webWidth": 1086,
       "webHeight": 1448,
-      "originalBytes": 2271197,
-      "webBytes": 211576,
+      "originalBytes": 1779630,
+      "webBytes": 144176,
       "references": [
         {
-          "inputPath": "assets/originals/catalog/product-011-cream-sky-model-v1.png",
-          "retainedPath": "assets/originals/catalog/product-011-cream-sky-model-v1.png",
-          "sha256": "015f24fbfadca07fa47775fc141a2db210050d085ae1d676c5292dc5b002bbed"
+          "inputPath": "assets/originals/catalog/product-011-sky-teal-cream-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-011-sky-teal-cream-model-v1.png",
+          "sha256": "fa3b9f59784ec7c387a523449c5ee9d5e6c67105cbca7839a0c9b38cfb241bff"
         }
       ],
       "crop": "full-frame",
@@ -90,7 +90,7 @@
         "product-gallery",
         "batch-review"
       ],
-      "alt": "Polo Listrada da Rua em piquê, com listras horizontais finas creme e azul-céu, gola creme lisa e dois botões no mesmo tom, apresentada sem modelo sobre fundo branco."
+      "alt": "Camiseta Volta de Bicicleta na cor Azul-céu, verde-petróleo, creme, apresentado sem modelo sobre fundo branco."
     },
     {
       "id": "product-012-cream-sky-coral-model-v1",
@@ -1094,7 +1094,5 @@
       ],
       "alt": "Calça Passos na Rua na cor Azul-céu, apresentado sem modelo sobre fundo branco."
     }
-  ],
-  "previousRevision": "issue-26-brincadeira-v1",
-  "previousApprovalSnapshot": "docs/content/catalog-revisions/pre-issue-51/brincadeira-approval.json"
+  ]
 }

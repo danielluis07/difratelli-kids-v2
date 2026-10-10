@@ -1,25 +1,16 @@
 {
-  "revision": "issue-51-polos-v1",
+  "revision": "issue-23-proposal-v1",
   "approvalStatus": "approved",
-  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/51",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/23",
   "language": "pt-BR",
   "currency": "BRL",
   "categories": [
     {
       "id": "t-shirts",
       "name": "Camisetas",
-      "expectedCount": 6,
+      "expectedCount": 8,
       "priceRangeCents": [
         4900,
-        7900
-      ]
-    },
-    {
-      "id": "polos",
-      "name": "Polos",
-      "expectedCount": 2,
-      "priceRangeCents": [
-        7900,
         7900
       ]
     },
@@ -311,36 +302,41 @@
     },
     {
       "id": "product-002",
-      "slug": "polo-lisa-do-quintal",
-      "name": "Polo Lisa do Quintal",
-      "categoryId": "polos",
+      "slug": "camiseta-besourinhos",
+      "name": "Camiseta Besourinhos",
+      "categoryId": "t-shirts",
       "audienceId": "boys",
       "collectionId": "collection-001",
-      "pattern": "plain",
-      "priceCents": 7900,
+      "pattern": "printed",
+      "priceCents": 5900,
       "sizes": [
         2,
         4,
         6,
         8
       ],
-      "defaultColorwayId": "cream",
+      "defaultColorwayId": "butter-teal",
       "initialSize": null,
-      "description": "Polo creme em piquê de algodão, com gola dobrada e dois botões no mesmo tom, para combinar com as descobertas do dia.",
+      "description": "Besourinhos desenhados aparecem entre espaços de amarelo em uma camiseta de mangas curtas.",
       "composition": "100% algodão.",
-      "fitGuidance": "Modelagem reta e confortável, com mangas curtas e comprimento até o quadril.",
+      "fitGuidance": "Modelagem reta, sem ajuste na cintura.",
       "colorways": [
         {
-          "id": "cream",
-          "name": "Creme",
-          "swatch": "#F3EBDD",
+          "id": "butter-teal",
+          "name": "Amarelo-manteiga, verde-petróleo",
+          "swatch": "#F2D477",
           "colorFamilyIds": [
-            "cream"
+            "yellow",
+            "green"
           ],
           "garmentColors": [
             {
-              "name": "Creme",
-              "hex": "#F3EBDD"
+              "name": "Amarelo-manteiga",
+              "hex": "#F2D477"
+            },
+            {
+              "name": "Verde-petróleo",
+              "hex": "#246B63"
             }
           ]
         }
@@ -351,11 +347,11 @@
       ],
       "garmentBrief": {
         "language": "en",
-        "fabric": "100% cotton pique knit",
-        "silhouette": "Relaxed straight short-sleeve polo, hip length, soft folded collar and short center-front placket with exactly two tonal cream buttons; plain sleeve hems.",
-        "print": "Solid cream #F3EBDD throughout; no print, drawings, embroidery, logos or graphics.",
-        "colorPlacement": "Cream body, sleeves, collar and short center-front placket; two tonal cream buttons.",
-        "finishing": "Tonal stitching; no pockets, logos, slogans, embroidery, decorative graphics or contrasting trim. Preserve construction across sizes and both photograph roles.",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Straight short-sleeve jersey T-shirt; rib crew neck; hip length.",
+        "print": "Small simplified beetles, 15–25 mm, deep teal on butter yellow, spaced at least 40 mm apart.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
         "contents": "One garment sold individually."
       },
       "curatedRank": 2
@@ -855,41 +851,46 @@
     },
     {
       "id": "product-011",
-      "slug": "polo-listrada-da-rua",
-      "name": "Polo Listrada da Rua",
-      "categoryId": "polos",
+      "slug": "camiseta-volta-de-bicicleta",
+      "name": "Camiseta Volta de Bicicleta",
+      "categoryId": "t-shirts",
       "audienceId": "boys",
       "collectionId": "collection-002",
-      "pattern": "striped",
-      "priceCents": 7900,
+      "pattern": "printed",
+      "priceCents": 5900,
       "sizes": [
         2,
         4,
         6,
         8
       ],
-      "defaultColorwayId": "cream-sky",
+      "defaultColorwayId": "sky-teal-cream",
       "initialSize": null,
-      "description": "Listras finas creme e azul-céu acompanham esta polo em piquê de algodão, com gola creme lisa e dois botões no mesmo tom.",
+      "description": "Linhas que lembram trajetos de bicicleta atravessam uma camiseta azul de mangas curtas.",
       "composition": "100% algodão.",
-      "fitGuidance": "Modelagem reta e confortável, com mangas curtas e comprimento até o quadril.",
+      "fitGuidance": "Modelagem reta, com espaço no corpo.",
       "colorways": [
         {
-          "id": "cream-sky",
-          "name": "Creme e azul-céu",
-          "swatch": "#F3EBDD",
+          "id": "sky-teal-cream",
+          "name": "Azul-céu, verde-petróleo, creme",
+          "swatch": "#A9CCE0",
           "colorFamilyIds": [
-            "cream",
-            "blue"
+            "blue",
+            "green",
+            "cream"
           ],
           "garmentColors": [
             {
-              "name": "Creme",
-              "hex": "#F3EBDD"
-            },
-            {
               "name": "Azul-céu",
               "hex": "#A9CCE0"
+            },
+            {
+              "name": "Verde-petróleo",
+              "hex": "#246B63"
+            },
+            {
+              "name": "Creme",
+              "hex": "#F3EBDD"
             }
           ]
         }
@@ -901,11 +902,11 @@
       ],
       "garmentBrief": {
         "language": "en",
-        "fabric": "100% cotton pique knit",
-        "silhouette": "Relaxed straight short-sleeve polo, hip length, soft folded collar and short center-front placket with exactly two tonal cream buttons; plain sleeve hems.",
-        "print": "Narrow equal-width horizontal cream #F3EBDD and sky-blue #A9CCE0 stripes, approximately 6 mm per band, repeating across body and sleeves; no graphic motifs.",
-        "colorPlacement": "Cream and sky-blue striped body and sleeves; solid cream folded collar and short center-front placket; two tonal cream buttons.",
-        "finishing": "Tonal stitching; no pockets, logos, slogans, embroidery, decorative graphics or contrasting trim. Preserve construction across sizes and both photograph roles.",
+        "fabric": "Cotton single jersey, 160 g/m²",
+        "silhouette": "Straight short-sleeve jersey T-shirt; rib crew neck; hip length.",
+        "print": "Looping chalk-texture bicycle paths, 2–3 mm strokes with occasional simple wheels, cream and teal on sky blue; no text.",
+        "colorPlacement": "Use the first garment color as the base; use remaining garment colors for the print, exactly as described. For sets, follow the explicitly specified plain-bottom color.",
+        "finishing": "Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles.",
         "contents": "One garment sold individually."
       },
       "curatedRank": 11
@@ -2183,13 +2184,6 @@
           "colorwayId": "cream-leaf-teal"
         },
         {
-          "categoryId": "polos",
-          "label": "Polos",
-          "productId": "product-002",
-          "href": "/produtos?categoria=polos",
-          "colorwayId": "cream"
-        },
-        {
           "categoryId": "tops",
           "label": "Blusas",
           "productId": "product-023",
@@ -2237,7 +2231,5 @@
         "href": "/colecoes/imaginacao-em-casa"
       }
     }
-  },
-  "previousRevision": "issue-23-proposal-v1",
-  "assortmentApprovalSource": "docs/content/polo-assortment-approval.json"
+  }
 }

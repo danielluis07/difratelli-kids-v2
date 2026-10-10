@@ -8,6 +8,10 @@ const readJson = async (path) => JSON.parse(await readFile(path, "utf8"));
 const hash = (bytes) => createHash("sha256").update(bytes).digest("hex");
 const fail = (message) => { throw new Error(message); };
 const generation = await readJson("docs/content/quintal-generation.json");
+if (generation.revision === "issue-51-polos-v1") {
+  await import("./prepare-polos.mjs");
+  process.exit(0);
+}
 const catalog = await readJson("docs/content/catalog-proposal.json");
 const contentApproval = await readJson("docs/content/approval.json");
 const cast = await readJson("docs/content/cast-proposal.json");

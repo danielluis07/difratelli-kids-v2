@@ -46,7 +46,8 @@ Exactly 30 distinct products, clothing only; accessories and footwear are exclud
 
 | Category | Products | Regular BRL price range |
 | --- | --- | --- |
-| T-shirts | 8 | R$49–79 |
+| T-shirts | 6 | R$49–79 |
+| Polos | 2 | R$79 |
 | Tops | 4 | R$49–79 |
 | Shorts | 5 | R$69–119 |
 | Trousers | 4 | R$69–119 |
@@ -54,7 +55,7 @@ Exactly 30 distinct products, clothing only; accessories and footwear are exclud
 | Matching sets | 4 | R$119–179 |
 | Light layers | 2 | R$99–149 |
 
-Each of three collections has ten products: six printed with one colorway each and four plain with two colorways each. Total: 18 printed, 12 plain, 42 colorways, 84 catalog photographs. Each collection has four girls' products, four boys' products, and two suitable for both: disjoint overall counts of 12/12/6. Products suitable for both appear in both audience views without duplicate catalog records. Every printed separate has at least one coordinating plain separate in its own collection. Producers propose category allocation while preserving the global totals.
+Each of three collections has ten products and fourteen colorways. The user-approved [issue #51 polo assortment](content/polo-assortment-approval.json) replaces two boys' printed T-shirts with separate solid and striped polos, each with one colorway. Quintal has five printed and five plain products (the cream polo has one colorway; the other four plain products retain two). Brincadeira has five printed, four plain and one striped product. Imaginação retains six printed and four plain products. Total: 16 printed, 13 plain, one striped, 42 colorways, 84 active catalog photographs. Each collection has four girls' products, four boys' products, and two suitable for both: disjoint overall counts of 12/12/6. Products suitable for both appear in both audience views without duplicate catalog records. Every printed separate has at least one coordinating plain separate in its own collection. Solid and striped polos use 100% cotton piqué, a relaxed straight fit, short sleeves and two tonal buttons, without logos or contrasting trim. Both cost R$79 and retain all four offered sizes. Earlier photograph approvals apply only to the unchanged assets; exact replacement files require revised human content approval.
 
 Prices are regular, consistent within categories, and shared across a product's sizes/colorways. No launch discounts.
 

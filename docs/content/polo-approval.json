@@ -1,0 +1,83 @@
+{
+  "revision": "issue-51-polos-v1",
+  "status": "approved",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/51",
+  "reviewer": "The user in this conversation",
+  "evidence": "The user replied \"approved\" after presentation of issue-51-polos-v1, its photograph review and product-copy review, in response to the request for approval of the exact replacement photos and revised content.",
+  "recordedAtUtc": "2026-10-10T12:30:47.168Z",
+  "scope": "Exact Portuguese polo names, copy and garment briefs, revised catalog/category tile and cast colorway associations, four exact polo photographs and both revised collection selections. Original editorial imagery remains unchanged.",
+  "files": [
+    {
+      "path": "docs/content/catalog-proposal.json",
+      "reviewedSha256": "d5308d0cd51aefc9a6fdb2d44d06393647acf004e8caf490cb559f6ac11667c5",
+      "approvedSha256": "02654dc79f66f76bba83f275b1602da6ef68589c65c35614428e35fd6a815743"
+    },
+    {
+      "path": "docs/content/polo-manifest.json",
+      "reviewedSha256": "df93c1ba8be599731ca5afcf6b8dfe4f06d95174d3d6f3acd4e5d973a7b0eea2",
+      "approvedSha256": "28c9522e931932dd33d8071cee9471f39d9d12ccce4dfbd559fd33d73d4aac26"
+    },
+    {
+      "path": "docs/content/quintal-manifest.json",
+      "reviewedSha256": "a6cd318ebfe38283448e3a84e40b2ee91f750c5bce062d83ebda33e3004106f0",
+      "approvedSha256": "40618f8866882a6d8c297433041aa44907f02bdc6f20e2f6f5c038cc6368b83b"
+    },
+    {
+      "path": "docs/content/brincadeira-manifest.json",
+      "reviewedSha256": "094edaa24ce05068376df31294dfe7128ca18c09a2544fcf89721b471ed3c3c8",
+      "approvedSha256": "304b67362c6ea6b7438d0a04bd95c5865ffd116cf5ba1e9470122238368fe27f"
+    },
+    {
+      "path": "docs/content/cast-manifest.json",
+      "reviewedSha256": "fb194f1b8a9745dbd5486b7857cfe527759b3df96e310feb8a678dd3af6c45ff",
+      "approvedSha256": "fb194f1b8a9745dbd5486b7857cfe527759b3df96e310feb8a678dd3af6c45ff"
+    }
+  ],
+  "assets": [
+    {
+      "id": "product-002-cream-model-v1",
+      "productId": "product-002",
+      "colorwayId": "cream",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-002-cream-model-v1.png",
+      "originalSha256": "b34a0c3fb5f34c64cbc1296441e3cea8671c50edf88852ddd95fe8cc61a53058",
+      "webPath": "public/images/catalog/product-002-cream-model-v1.webp",
+      "webSha256": "c1ac7d9b70f44bdb5760c33eebca1473e1208c87952856ceb2a21bb07003db8c"
+    },
+    {
+      "id": "product-002-cream-isolated-v1",
+      "productId": "product-002",
+      "colorwayId": "cream",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-002-cream-isolated-v1.png",
+      "originalSha256": "9f5b7d7ad50847d1f70f04a2fd04f7d5acca0e14fd2a805077c26b000f9e66f3",
+      "webPath": "public/images/catalog/product-002-cream-isolated-v1.webp",
+      "webSha256": "cf4344da72032482338dcb7027784abb3232f06178748cb1e758558c7af57cd8"
+    },
+    {
+      "id": "product-011-cream-sky-model-v1",
+      "productId": "product-011",
+      "colorwayId": "cream-sky",
+      "role": "model",
+      "originalPath": "assets/originals/catalog/product-011-cream-sky-model-v1.png",
+      "originalSha256": "015f24fbfadca07fa47775fc141a2db210050d085ae1d676c5292dc5b002bbed",
+      "webPath": "public/images/catalog/product-011-cream-sky-model-v1.webp",
+      "webSha256": "31eec481dcb1bf50375fe7288719e1230aad96f8aa1ab99d0b42c9c8fba23000"
+    },
+    {
+      "id": "product-011-cream-sky-isolated-v1",
+      "productId": "product-011",
+      "colorwayId": "cream-sky",
+      "role": "isolated",
+      "originalPath": "assets/originals/catalog/product-011-cream-sky-isolated-v1.png",
+      "originalSha256": "260995ac3cafcebb96ddb111283e924fd32e5f0fd39ada2e38a6101a6322e085",
+      "webPath": "public/images/catalog/product-011-cream-sky-isolated-v1.webp",
+      "webSha256": "8dc3d8a4f37d3323351d2ded493d1cd5d323801247b8f7481743c3391c4dde0b"
+    }
+  ],
+  "requestedCorrections": [],
+  "remainingGates": [
+    "Complete content, integration and release approvals"
+  ],
+  "postReviewChanges": "Only approval status, approval-source links and review/gate descriptions changed. Product copy, garment briefs, associations, photograph bytes and editorial imagery are unchanged."
+}

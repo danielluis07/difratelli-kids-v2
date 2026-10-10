@@ -1,0 +1,161 @@
+{
+  "revision": "issue-51-polos-v1",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/51",
+  "technicalStatus": "passed",
+  "approvalStatus": "approved",
+  "assets": [
+    {
+      "id": "product-002-cream-model-v1",
+      "productId": "product-002",
+      "collectionId": "collection-001",
+      "colorwayId": "cream",
+      "modelId": "model-005",
+      "photographedSize": 2,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/polo-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-002-cream-model-v1.png",
+      "originalSha256": "b34a0c3fb5f34c64cbc1296441e3cea8671c50edf88852ddd95fe8cc61a53058",
+      "webPath": "public/images/catalog/product-002-cream-model-v1.webp",
+      "webSha256": "c1ac7d9b70f44bdb5760c33eebca1473e1208c87952856ceb2a21bb07003db8c",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1705377,
+      "webBytes": 69712,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-005-reference-v2.png",
+          "retainedPath": "assets/originals/cast/model-005-reference-v2.png",
+          "sha256": "446b8c30e3568325be58210aad97775878ae928a5c3495d7593668120526ecd8"
+        },
+        {
+          "inputPath": "public/images/editorial/hero-right-desktop-v3.webp",
+          "retainedPath": "public/images/editorial/hero-right-desktop-v3.webp",
+          "sha256": "b88971c96648ae835b5687a434b84757929baf095686a05bba493826c62adc5f"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Caio usando Polo Lisa do Quintal creme, com gola, mangas e barra inteiras sobre fundo branco."
+    },
+    {
+      "id": "product-002-cream-isolated-v1",
+      "productId": "product-002",
+      "collectionId": "collection-001",
+      "colorwayId": "cream",
+      "modelId": null,
+      "photographedSize": 2,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/polo-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-002-cream-isolated-v1.png",
+      "originalSha256": "9f5b7d7ad50847d1f70f04a2fd04f7d5acca0e14fd2a805077c26b000f9e66f3",
+      "webPath": "public/images/catalog/product-002-cream-isolated-v1.webp",
+      "webSha256": "cf4344da72032482338dcb7027784abb3232f06178748cb1e758558c7af57cd8",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1931086,
+      "webBytes": 142948,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-002-cream-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-002-cream-model-v1.png",
+          "sha256": "b34a0c3fb5f34c64cbc1296441e3cea8671c50edf88852ddd95fe8cc61a53058"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Polo Lisa do Quintal creme em piquê, com gola dobrada e dois botões no mesmo tom, apresentada sem modelo sobre fundo branco."
+    },
+    {
+      "id": "product-011-cream-sky-model-v1",
+      "productId": "product-011",
+      "collectionId": "collection-002",
+      "colorwayId": "cream-sky",
+      "modelId": "model-006",
+      "photographedSize": 4,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/polo-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-011-cream-sky-model-v1.png",
+      "originalSha256": "015f24fbfadca07fa47775fc141a2db210050d085ae1d676c5292dc5b002bbed",
+      "webPath": "public/images/catalog/product-011-cream-sky-model-v1.webp",
+      "webSha256": "31eec481dcb1bf50375fe7288719e1230aad96f8aa1ab99d0b42c9c8fba23000",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1778556,
+      "webBytes": 81382,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-006-reference-v1.png",
+          "retainedPath": "assets/originals/cast/model-006-reference-v1.png",
+          "sha256": "054c88dacd8477098bf5b707ae3d809f08fe3f4c6ab900001dcd30f523fc0c03"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Davi usando Polo Listrada da Rua com listras finas creme e azul-céu e gola creme lisa, com a peça inteira sobre fundo branco."
+    },
+    {
+      "id": "product-011-cream-sky-isolated-v1",
+      "productId": "product-011",
+      "collectionId": "collection-002",
+      "colorwayId": "cream-sky",
+      "modelId": null,
+      "photographedSize": 4,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/polo-approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog/product-011-cream-sky-isolated-v1.png",
+      "originalSha256": "260995ac3cafcebb96ddb111283e924fd32e5f0fd39ada2e38a6101a6322e085",
+      "webPath": "public/images/catalog/product-011-cream-sky-isolated-v1.webp",
+      "webSha256": "8dc3d8a4f37d3323351d2ded493d1cd5d323801247b8f7481743c3391c4dde0b",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 2271197,
+      "webBytes": 211576,
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog/product-011-cream-sky-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-011-cream-sky-model-v1.png",
+          "sha256": "015f24fbfadca07fa47775fc141a2db210050d085ae1d676c5292dc5b002bbed"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Polo Listrada da Rua em piquê, com listras horizontais finas creme e azul-céu, gola creme lisa e dois botões no mesmo tom, apresentada sem modelo sobre fundo branco."
+    }
+  ]
+}

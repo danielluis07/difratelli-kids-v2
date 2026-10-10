@@ -227,7 +227,7 @@
         {
           "productId": "product-002",
           "colorwayIds": [
-            "butter-teal"
+            "cream"
           ]
         },
         {
@@ -288,7 +288,7 @@
         {
           "productId": "product-011",
           "colorwayIds": [
-            "sky-teal-cream"
+            "cream-sky"
           ]
         },
         {
@@ -437,5 +437,7 @@
         }
       ]
     }
-  ]
+  ],
+  "catalogRevision": "issue-51-polos-v1",
+  "assignmentRevisionSource": "docs/content/polo-assortment-approval.json"
 }
