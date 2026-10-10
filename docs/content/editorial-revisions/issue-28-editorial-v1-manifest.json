@@ -1,0 +1,703 @@
+{
+  "revision": "issue-28-editorial-v1",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/28",
+  "approvalStatus": "pending-human-review",
+  "technicalStatus": "passed",
+  "assets": [
+    {
+      "id": "hero-left-v1",
+      "role": "hero-left",
+      "collectionIds": [
+        "collection-001"
+      ],
+      "modelIds": [
+        "model-001"
+      ],
+      "originalPath": "assets/originals/editorial/hero-left-v1.png",
+      "originalSha256": "311b775da539f7e61d46388698bf5254403e9072bb6a1ebc89470355acce17b7",
+      "width": 1122,
+      "height": 1402,
+      "originalBytes": 2265866,
+      "alt": "Lia observa uma folha no quintal, com camiseta creme estampada de brotos e short verde-petróleo; a parede clara deixa espaço para o texto.",
+      "usage": [
+        "homepage-hero-left"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/catalog/product-003-cream-butter-leaf-model-v1.png",
+          "sha256": "4fcd3299b875104deed2071651b61fa979a0c2a1dc7947865bfb40de6cf156e3"
+        }
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "6:5",
+          "sourceRect": {
+            "left": 0,
+            "top": 47,
+            "width": 1122,
+            "height": 935
+          },
+          "derivative": null,
+          "width": 1122,
+          "height": 935,
+          "webPath": "public/images/editorial/hero-left-desktop-v1.webp",
+          "src": "/images/editorial/hero-left-desktop-v1.webp",
+          "sha256": "91e9bdddf5266295a0879846574f8a6a36ec393c12935069454d35febbaaef89",
+          "bytes": 134184,
+          "usage": [
+            "homepage-hero-left-desktop"
+          ],
+          "approvalStatus": "pending-human-review"
+        },
+        {
+          "name": "desktop-narrow",
+          "ratio": "4:5",
+          "sourceRect": {
+            "left": 1,
+            "top": 0,
+            "width": 1120,
+            "height": 1400
+          },
+          "derivative": null,
+          "width": 1120,
+          "height": 1400,
+          "webPath": "public/images/editorial/hero-left-desktop-narrow-v1.webp",
+          "src": "/images/editorial/hero-left-desktop-narrow-v1.webp",
+          "sha256": "059716f2c7c378f376ece14e130772ab083b9ad06a39eb5ced23c5e391e3dfae",
+          "bytes": 232032,
+          "usage": [
+            "homepage-hero-1024-to-1279"
+          ],
+          "approvalStatus": "pending-human-review"
+        },
+        {
+          "name": "compact",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 65,
+            "top": 1,
+            "width": 1050,
+            "height": 1400
+          },
+          "derivative": null,
+          "width": 1050,
+          "height": 1400,
+          "webPath": "public/images/editorial/hero-left-compact-v1.webp",
+          "src": "/images/editorial/hero-left-compact-v1.webp",
+          "sha256": "42f0236f3d769897a25217e30bfc31ec310ccd468d2beee5f62384154915b746",
+          "bytes": 221448,
+          "usage": [
+            "homepage-hero-left-below-1024"
+          ],
+          "approvalStatus": "pending-human-review"
+        },
+        {
+          "name": "tablet",
+          "ratio": "2:1",
+          "sourceRect": {
+            "left": 1,
+            "top": 0,
+            "width": 1758,
+            "height": 879
+          },
+          "derivative": {
+            "originalPath": "assets/originals/editorial/hero-left-tablet-v1.png",
+            "originalSha256": "26df8418ad9963c4a1f4a561b3fa33e5d183ac804e381d313610db58593e3026",
+            "width": 1759,
+            "height": 894,
+            "bytes": 2490338,
+            "prompt": "Use case: identity-preserve / background expansion. Create one wide 16:9 art-directed tablet hero variant of the referenced photograph. Preserve the exact fictional girl, curly hair, face, cream botanical T-shirt, teal shorts and natural leaf-discovery gesture. Expand the same cream plaster garden wall to the left and the garden environment around the child; photorealistic seamless outpainting. Compose her entire head, body and shoes on the right half, occupying only about 75% of image height with breathing room above and below. Lower-left 45% must be uninterrupted pale plaster wall for website heading and two buttons. Preserve source lighting and natural textures. No text, logos, watermarks or extra people. The whole face and both complete garments must remain visible in a wide 1023x520 tablet crop.",
+            "referencePaths": [
+              "assets/originals/editorial/hero-left-v1.png"
+            ],
+            "tool": "built-in image_gen"
+          },
+          "width": 1758,
+          "height": 879,
+          "webPath": "public/images/editorial/hero-left-tablet-v1.webp",
+          "src": "/images/editorial/hero-left-tablet-v1.webp",
+          "sha256": "8d151e4fa3f83aabef675de3a0ca162fd51038c953e2b34e137d1e1108ff4229",
+          "bytes": 291956,
+          "usage": [
+            "homepage-hero-left-480-to-1023"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "textSafeArea": {
+        "placement": "lower-left",
+        "foreground": "#382C25",
+        "localScrim": "#FAF7F0 at 72% opacity",
+        "constraint": "No overlay across face or garments; verify at intended viewport sizes."
+      },
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed",
+      "visualReview": "See editorial-review.md; human approval remains pending."
+    },
+    {
+      "id": "hero-right-v1",
+      "role": "hero-right",
+      "collectionIds": [
+        "collection-001"
+      ],
+      "modelIds": [
+        "model-006"
+      ],
+      "originalPath": "assets/originals/editorial/hero-right-v1.png",
+      "originalSha256": "29790ca6a0e988bbbcf2c2ebb3ec6ded18a25166b9884e176921a4668cd73a12",
+      "width": 1122,
+      "height": 1402,
+      "originalBytes": 2701064,
+      "alt": "Davi descobre sementes no quintal, usando camiseta creme com folhas e besouros e short verde-petróleo.",
+      "usage": [
+        "homepage-hero-right-desktop"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/catalog/product-006-cream-teal-leaf-model-v1.png",
+          "sha256": "62be990d3689aaa967e01cc667d1b0b35c888325cd04f70a2714054d00ae7535"
+        }
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "6:5",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1122,
+            "height": 935
+          },
+          "derivative": null,
+          "width": 1122,
+          "height": 935,
+          "webPath": "public/images/editorial/hero-right-desktop-v1.webp",
+          "src": "/images/editorial/hero-right-desktop-v1.webp",
+          "sha256": "749fb82ece9c4a02258a95d9a70a0c42b42bbdd1447c5a0c9d7bca80bcfea37d",
+          "bytes": 198890,
+          "usage": [
+            "homepage-hero-right-desktop"
+          ],
+          "approvalStatus": "pending-human-review"
+        },
+        {
+          "name": "desktop-narrow",
+          "ratio": "4:5",
+          "sourceRect": {
+            "left": 1,
+            "top": 0,
+            "width": 1120,
+            "height": 1400
+          },
+          "derivative": null,
+          "width": 1120,
+          "height": 1400,
+          "webPath": "public/images/editorial/hero-right-desktop-narrow-v1.webp",
+          "src": "/images/editorial/hero-right-desktop-narrow-v1.webp",
+          "sha256": "21a8211517c4ed49b4ab7c299c1b5823d438b48ec6aaa11fa107517ebfccd49f",
+          "bytes": 354348,
+          "usage": [
+            "homepage-hero-1024-to-1279"
+          ],
+          "approvalStatus": "pending-human-review"
+        },
+        {
+          "name": "compact",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 36,
+            "top": 1,
+            "width": 1050,
+            "height": 1400
+          },
+          "derivative": null,
+          "width": 1050,
+          "height": 1400,
+          "webPath": "public/images/editorial/hero-right-compact-v1.webp",
+          "src": "/images/editorial/hero-right-compact-v1.webp",
+          "sha256": "5423f71e6c8c152b1a897cfaf28ef518b2acfaff5a834ed1f2351f673ee91c5b",
+          "bytes": 329590,
+          "usage": [
+            "retained-alternative-not-used-in-compact-hero"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "textSafeArea": null,
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed",
+      "visualReview": "See editorial-review.md; human approval remains pending."
+    },
+    {
+      "id": "collection-quintal-v1",
+      "role": "collection",
+      "collectionIds": [
+        "collection-001"
+      ],
+      "modelIds": [
+        "model-001",
+        "model-006"
+      ],
+      "originalPath": "assets/originals/editorial/collection-quintal-v1.png",
+      "originalSha256": "2db4742e800eb8987dca0ff33302d297d2541935ae3d2e1cd02af246406a621f",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 2671685,
+      "alt": "Lia e Davi exploram folhas junto a um canteiro, com camisetas de estampas botânicas e shorts verde-petróleo.",
+      "usage": [
+        "collection-opening",
+        "collection-index",
+        "homepage-collection-feature"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/catalog/product-003-cream-butter-leaf-model-v1.png",
+          "sha256": "4fcd3299b875104deed2071651b61fa979a0c2a1dc7947865bfb40de6cf156e3"
+        },
+        {
+          "path": "assets/originals/catalog/product-006-cream-teal-leaf-model-v1.png",
+          "sha256": "62be990d3689aaa967e01cc667d1b0b35c888325cd04f70a2714054d00ae7535"
+        }
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "16:9",
+          "sourceRect": {
+            "left": 4,
+            "top": 3,
+            "width": 1664,
+            "height": 936
+          },
+          "derivative": null,
+          "width": 1664,
+          "height": 936,
+          "webPath": "public/images/editorial/collection-quintal-desktop-v1.webp",
+          "src": "/images/editorial/collection-quintal-desktop-v1.webp",
+          "sha256": "f1d9c9de0c839500210a69dc12f3d7daed2714d868a953eda97dcaa520d3f804",
+          "bytes": 338450,
+          "usage": [
+            "collection-opening",
+            "collection-index",
+            "homepage-collection-feature"
+          ],
+          "approvalStatus": "pending-human-review"
+        },
+        {
+          "name": "compact",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 210,
+            "top": 1,
+            "width": 1252,
+            "height": 939
+          },
+          "derivative": null,
+          "width": 1252,
+          "height": 939,
+          "webPath": "public/images/editorial/collection-quintal-compact-v1.webp",
+          "src": "/images/editorial/collection-quintal-compact-v1.webp",
+          "sha256": "64999693747f851367e9d0bca6663fd2b741ffe82fb4a420b938af1d42f95b91",
+          "bytes": 263890,
+          "usage": [
+            "collection-opening-compact",
+            "collection-index-compact",
+            "homepage-collection-feature-compact"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "textSafeArea": null,
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed",
+      "visualReview": "See editorial-review.md; human approval remains pending."
+    },
+    {
+      "id": "collection-brincadeira-v1",
+      "role": "collection",
+      "collectionIds": [
+        "collection-002"
+      ],
+      "modelIds": [
+        "model-006"
+      ],
+      "originalPath": "assets/originals/editorial/collection-brincadeira-v1.png",
+      "originalSha256": "2e9d1f11ecc4f7e40efa80f8bf14099c70b75ad7f52eed317ceb9b25772bef6e",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 2403774,
+      "alt": "Davi desenha uma amarelinha com giz no pátio, usando camiseta azul-céu estampada e short verde-petróleo.",
+      "usage": [
+        "collection-opening",
+        "collection-index",
+        "homepage-collection-feature"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/catalog/product-011-sky-teal-cream-model-v1.png",
+          "sha256": "fa3b9f59784ec7c387a523449c5ee9d5e6c67105cbca7839a0c9b38cfb241bff"
+        }
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "16:9",
+          "sourceRect": {
+            "left": 4,
+            "top": 3,
+            "width": 1664,
+            "height": 936
+          },
+          "derivative": null,
+          "width": 1664,
+          "height": 936,
+          "webPath": "public/images/editorial/collection-brincadeira-desktop-v1.webp",
+          "src": "/images/editorial/collection-brincadeira-desktop-v1.webp",
+          "sha256": "bf5656a1278b171ff84a19ce10d1c0daafc6d34cb7d636c408145dda550e96ff",
+          "bytes": 261902,
+          "usage": [
+            "collection-opening",
+            "collection-index",
+            "homepage-collection-feature"
+          ],
+          "approvalStatus": "pending-human-review"
+        },
+        {
+          "name": "compact",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 210,
+            "top": 1,
+            "width": 1252,
+            "height": 939
+          },
+          "derivative": null,
+          "width": 1252,
+          "height": 939,
+          "webPath": "public/images/editorial/collection-brincadeira-compact-v1.webp",
+          "src": "/images/editorial/collection-brincadeira-compact-v1.webp",
+          "sha256": "04fcb4f84274a41caaebfe5de6e2cd3f8e5fb4bb959613e1d638835a5355e82c",
+          "bytes": 196794,
+          "usage": [
+            "collection-opening-compact",
+            "collection-index-compact",
+            "homepage-collection-feature-compact"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "textSafeArea": null,
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed",
+      "visualReview": "See editorial-review.md; human approval remains pending."
+    },
+    {
+      "id": "collection-imaginacao-v1",
+      "role": "collection",
+      "collectionIds": [
+        "collection-003"
+      ],
+      "modelIds": [
+        "model-002"
+      ],
+      "originalPath": "assets/originals/editorial/collection-imaginacao-v1.png",
+      "originalSha256": "97efdf1d0643feb776b9d5a9049596018e1c8427a3c4f0f61e35502f2b14393d",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 2363476,
+      "alt": "Bia monta uma cidade de blocos junto a uma cabana de manta, com blusa creme de traços lilás e pêssego e short verde-petróleo.",
+      "usage": [
+        "collection-opening",
+        "collection-index",
+        "homepage-collection-feature"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/catalog/product-023-cream-lilac-peach-model-v1.png",
+          "sha256": "d8f6ee9b8d6080757ef02a3f739e1863dda2d15586b5c5db7a73ed04cae89606"
+        }
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "16:9",
+          "sourceRect": {
+            "left": 4,
+            "top": 3,
+            "width": 1664,
+            "height": 936
+          },
+          "derivative": null,
+          "width": 1664,
+          "height": 936,
+          "webPath": "public/images/editorial/collection-imaginacao-desktop-v1.webp",
+          "src": "/images/editorial/collection-imaginacao-desktop-v1.webp",
+          "sha256": "0d72a13910e1009843439cdcd328f713ce8803c95e967e19feff301692ba4528",
+          "bytes": 255790,
+          "usage": [
+            "collection-opening",
+            "collection-index",
+            "homepage-collection-feature"
+          ],
+          "approvalStatus": "pending-human-review"
+        },
+        {
+          "name": "compact",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 210,
+            "top": 1,
+            "width": 1252,
+            "height": 939
+          },
+          "derivative": null,
+          "width": 1252,
+          "height": 939,
+          "webPath": "public/images/editorial/collection-imaginacao-compact-v1.webp",
+          "src": "/images/editorial/collection-imaginacao-compact-v1.webp",
+          "sha256": "a75963fb736938e18526f7f7e3be5cdec2a63c40e7d1724995522ab722bb8ac4",
+          "bytes": 187332,
+          "usage": [
+            "collection-opening-compact",
+            "collection-index-compact",
+            "homepage-collection-feature-compact"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "textSafeArea": null,
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed",
+      "visualReview": "See editorial-review.md; human approval remains pending."
+    },
+    {
+      "id": "brand-opening-v1",
+      "role": "brand-opening",
+      "collectionIds": [
+        "collection-001",
+        "collection-003"
+      ],
+      "modelIds": [
+        "model-001",
+        "model-007"
+      ],
+      "originalPath": "assets/originals/editorial/brand-opening-v1.png",
+      "originalSha256": "ea802c8a6ae7c22318a0b89475e18c0a45bd66a82e15fbe106a8c9d8434d4d02",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 2772962,
+      "alt": "Lia e Theo juntam folhas em uma tigela de madeira no quintal, com roupas creme e verde-petróleo.",
+      "usage": [
+        "brand-page-opening"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/catalog/product-003-cream-butter-leaf-model-v1.png",
+          "sha256": "4fcd3299b875104deed2071651b61fa979a0c2a1dc7947865bfb40de6cf156e3"
+        },
+        {
+          "path": "assets/originals/catalog/product-029-teal-model-v1.png",
+          "sha256": "7ef3b05737da8bec91044402db9538c9633b07bebc87a3cce5789d3666ff3ecb"
+        }
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "16:9",
+          "sourceRect": {
+            "left": 4,
+            "top": 3,
+            "width": 1664,
+            "height": 936
+          },
+          "derivative": null,
+          "width": 1664,
+          "height": 936,
+          "webPath": "public/images/editorial/brand-opening-desktop-v1.webp",
+          "src": "/images/editorial/brand-opening-desktop-v1.webp",
+          "sha256": "3d577f250f1fa92db6af5454d2222a3b029971124c6cdfa26cb67166047ed69c",
+          "bytes": 366088,
+          "usage": [
+            "brand-page-opening"
+          ],
+          "approvalStatus": "pending-human-review"
+        },
+        {
+          "name": "compact",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 210,
+            "top": 1,
+            "width": 1252,
+            "height": 939
+          },
+          "derivative": null,
+          "width": 1252,
+          "height": 939,
+          "webPath": "public/images/editorial/brand-opening-compact-v1.webp",
+          "src": "/images/editorial/brand-opening-compact-v1.webp",
+          "sha256": "892c0ac5b360acd461596abd1fa07ea78f519d9d70dee436865a832ca90d0fa3",
+          "bytes": 258500,
+          "usage": [
+            "brand-page-opening-compact"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "textSafeArea": null,
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed",
+      "visualReview": "See editorial-review.md; human approval remains pending."
+    },
+    {
+      "id": "brand-play-v1",
+      "role": "brand-section",
+      "collectionIds": [
+        "collection-003"
+      ],
+      "modelIds": [
+        "model-002"
+      ],
+      "originalPath": "assets/originals/editorial/brand-play-v1.png",
+      "originalSha256": "6dd704b67918126aeab72115911a54fa681e9582833b05e31bb749e1e8ad48c5",
+      "width": 1448,
+      "height": 1086,
+      "originalBytes": 2139377,
+      "alt": "Bia desenha estrelas e brinca com blocos no tapete de casa, usando blusa creme estampada e short verde-petróleo.",
+      "usage": [
+        "brand-page-section-play",
+        "homepage-brand-introduction"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/catalog/product-023-cream-lilac-peach-model-v1.png",
+          "sha256": "d8f6ee9b8d6080757ef02a3f739e1863dda2d15586b5c5db7a73ed04cae89606"
+        }
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1448,
+            "height": 1086
+          },
+          "derivative": null,
+          "width": 1448,
+          "height": 1086,
+          "webPath": "public/images/editorial/brand-play-desktop-v1.webp",
+          "src": "/images/editorial/brand-play-desktop-v1.webp",
+          "sha256": "8ab422cfe8faf48ede16858bda85c62a9208c107b600d3835dc65334e8c55f74",
+          "bytes": 207316,
+          "usage": [
+            "brand-page-section-play",
+            "homepage-brand-introduction"
+          ],
+          "approvalStatus": "pending-human-review"
+        },
+        {
+          "name": "compact",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1448,
+            "height": 1086
+          },
+          "derivative": null,
+          "width": 1448,
+          "height": 1086,
+          "webPath": "public/images/editorial/brand-play-compact-v1.webp",
+          "src": "/images/editorial/brand-play-compact-v1.webp",
+          "sha256": "8ab422cfe8faf48ede16858bda85c62a9208c107b600d3835dc65334e8c55f74",
+          "bytes": 207316,
+          "usage": [
+            "brand-page-section-play-compact",
+            "homepage-brand-introduction-compact"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "textSafeArea": null,
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed",
+      "visualReview": "See editorial-review.md; human approval remains pending."
+    },
+    {
+      "id": "brand-combinations-v1",
+      "role": "brand-section",
+      "collectionIds": [
+        "collection-003"
+      ],
+      "modelIds": [
+        "model-007"
+      ],
+      "originalPath": "assets/originals/editorial/brand-combinations-v1.png",
+      "originalSha256": "131580dfda385ac53c243be812cdc5f6d4b9c42d25abd819c476b9bd33366383",
+      "width": 1448,
+      "height": 1086,
+      "originalBytes": 2097704,
+      "alt": "Theo escolhe uma camiseta junto ao banco de madeira, usando camiseta creme e calça verde-petróleo.",
+      "usage": [
+        "brand-page-section-combinations"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/catalog/product-029-teal-model-v1.png",
+          "sha256": "7ef3b05737da8bec91044402db9538c9633b07bebc87a3cce5789d3666ff3ecb"
+        }
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1448,
+            "height": 1086
+          },
+          "derivative": null,
+          "width": 1448,
+          "height": 1086,
+          "webPath": "public/images/editorial/brand-combinations-desktop-v1.webp",
+          "src": "/images/editorial/brand-combinations-desktop-v1.webp",
+          "sha256": "190fd4a581a855f9229e289f1bf0d3094d966c4c991fedc8f36c4eeb46e830e4",
+          "bytes": 167544,
+          "usage": [
+            "brand-page-section-combinations"
+          ],
+          "approvalStatus": "pending-human-review"
+        },
+        {
+          "name": "compact",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1448,
+            "height": 1086
+          },
+          "derivative": null,
+          "width": 1448,
+          "height": 1086,
+          "webPath": "public/images/editorial/brand-combinations-compact-v1.webp",
+          "src": "/images/editorial/brand-combinations-compact-v1.webp",
+          "sha256": "190fd4a581a855f9229e289f1bf0d3094d966c4c991fedc8f36c4eeb46e830e4",
+          "bytes": 167544,
+          "usage": [
+            "brand-page-section-combinations-compact"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "textSafeArea": null,
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed",
+      "visualReview": "See editorial-review.md; human approval remains pending."
+    }
+  ]
+}

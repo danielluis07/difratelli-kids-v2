@@ -1,0 +1,493 @@
+{
+  "revision": "issue-28-editorial-v4",
+  "records": [
+    {
+      "id": "hero-left",
+      "role": "hero-left",
+      "collectionIds": [
+        "collection-001"
+      ],
+      "modelIds": [
+        "model-002"
+      ],
+      "alt": "Bia observa uma folha no quintal, usando vestido creme com estampas de folhas verdes e brotos amarelos; a parede clara deixa espaço para o texto.",
+      "usage": [
+        "homepage-hero-left"
+      ],
+      "variants": [
+        {
+          "name": "desktop",
+          "ratio": [
+            6,
+            5
+          ],
+          "focusY": 0.1,
+          "usage": [
+            "homepage-hero-left-desktop"
+          ]
+        },
+        {
+          "name": "desktop-narrow",
+          "ratio": [
+            4,
+            5
+          ],
+          "focusY": 0,
+          "usage": [
+            "homepage-hero-1024-to-1279"
+          ]
+        },
+        {
+          "name": "compact",
+          "ratio": [
+            3,
+            4
+          ],
+          "focusX": 0.9,
+          "usage": [
+            "homepage-hero-left-below-1024"
+          ]
+        },
+        {
+          "name": "tablet",
+          "ratio": [
+            2,
+            1
+          ],
+          "focusY": 0,
+          "usage": [
+            "homepage-hero-left-480-to-1023"
+          ],
+          "sourcePath": "C:/Users/bombd/.codex/generated_images/01a1257c-87a4-74e1-b475-dd2b22ec3a5e/exec-4ef7326d-3144-4e58-9fdb-05d33c6514da.png",
+          "originalPath": "assets/originals/editorial/hero-left-tablet-v2.png",
+          "referencePaths": [
+            "assets/originals/editorial/hero-left-v2.png",
+            "assets/originals/editorial/hero-left-tablet-v1.png"
+          ],
+          "prompt": "Use case: identity-preserve / background expansion. Create the wide 2:1 art-directed tablet hero variant of image 1. Preserve Bia model-002 EXACTLY as shown: 5-year-old fictional girl, fair freckled skin, green eyes, straight copper-red bob, cream short-sleeve botanical cotton dress with natural waist and gently gathered skirt, leaf-green and butter-yellow sprout print, neutral shoes, holding a leaf and looking down. Expand the same pale ivory plaster wall leftward and garden around her. Composition like image 2's wide garden background and negative space, but its old child must be replaced entirely by Bia in the dress from image 1. The whole child including hair, complete dress hem and shoes must fit on the right half at 75% image height with clear margins above and below. Keep left 45% clear light wall for text. Same warm daylight and soft shadows. No curly-haired toddler, T-shirt or shorts. No text, logos, watermark or extra people. Landscape 2:1 canvas safe for 1023x520 and 768x520 displays."
+        }
+      ],
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a1257c-87a4-74e1-b475-dd2b22ec3a5e/exec-972c9444-75ad-4878-8438-2ee9c9c1bcce.png",
+      "referencePaths": [
+        "assets/originals/editorial/hero-left-v1.png",
+        "assets/originals/cast/model-002-reference-v2.png",
+        "assets/originals/catalog/product-005-cream-leaf-butter-isolated-v2.png"
+      ],
+      "prompt": "Use case: identity-preserve / precise-object-edit. Edit image 1, the garden homepage hero: replace the child with Bia, the EXACT fictional model-002 from image 2, age 5, fair skin, freckles, green eyes and straight copper-red chin-length bob. Dress her in the EXACT cream cotton botanical dress in image 3: short sleeves, rounded neck, natural-waist seam, gently gathered above-knee skirt, small green-leaf and butter-yellow sprout repeat consistent across bodice and skirt, no pockets, closures or accessories. No T-shirt or shorts. Preserve image 1's pale ivory plaster wall, garden, lighting, camera angle, natural leaf-discovery gesture, calm candid expression, right-hand subject placement and uncluttered lower-left text space. Keep all hair, face and whole dress visible with breathing room. Place the dress hem within the upper 65% of the image so desktop crops can retain the entire garment. Full body including neutral shoes, portrait 4:5 canvas. Do not copy image 1's original child's face, age, curly hair or skin tone. Identity must come only from image 2. No text, logos or watermark.",
+      "tool": "built-in image_gen",
+      "approvalStatus": "pending-human-review",
+      "textSafeArea": {
+        "placement": "lower-left",
+        "foreground": "#382C25",
+        "localScrim": "#FAF7F0 at 72% opacity",
+        "constraint": "No overlay across face or garments; verify at intended viewport sizes."
+      },
+      "version": 2,
+      "supersedes": "hero-left-v1",
+      "changeRequest": "The user requested replacing model-001 with model-002 and dressing her in a dress. Output approval remains pending."
+    },
+    {
+      "id": "hero-right",
+      "role": "hero-right",
+      "collectionIds": [
+        "collection-001"
+      ],
+      "modelIds": [
+        "model-006"
+      ],
+      "alt": "Davi descobre sementes no quintal, usando camisa polo creme lisa e short areia.",
+      "usage": [
+        "homepage-hero-right-desktop"
+      ],
+      "variants": [
+        {
+          "name": "desktop",
+          "ratio": [
+            6,
+            5
+          ],
+          "focusY": 0,
+          "usage": [
+            "homepage-hero-right-desktop"
+          ]
+        },
+        {
+          "name": "desktop-narrow",
+          "ratio": [
+            4,
+            5
+          ],
+          "focusY": 0,
+          "usage": [
+            "homepage-hero-1024-to-1279"
+          ]
+        },
+        {
+          "name": "compact",
+          "ratio": [
+            3,
+            4
+          ],
+          "focusX": 0.5,
+          "usage": [
+            "retained-alternative-not-used-in-compact-hero"
+          ]
+        }
+      ],
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a1257c-87a4-74e1-b475-dd2b22ec3a5e/exec-661f60c0-ac0a-4f24-b1b6-f15b3f28095f.png",
+      "referencePaths": [
+        "assets/originals/editorial/hero-right-v2.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Edit this exact editorial photograph, changing ONLY the specified garments. Preserve every child's EXACT identity, age, face, skin, hair, expression, pose, hands, body proportions and shoes; preserve all other clothing, scene, props, lighting, framing and original aspect ratio. Keep natural cotton texture, original garment construction and folds, no new trim, text, logos or watermark. Recolor ONLY Davi's teal shorts to warm sand beige #D6BE96. Keep his polo plain cream, with no drawing, print, embroidery or logo. Preserve collar, buttons, shorts seams, length and pockets. Keep every other detail exactly.",
+      "tool": "built-in image_gen",
+      "approvalStatus": "pending-human-review",
+      "version": 3,
+      "supersedes": "hero-right-v2",
+      "changeRequest": "The user requested two additional colors for editorial shorts/trousers and a red T-shirt with a large cute bear drawing for the blonde boy. Catalog changes remain deferred; generated output approval is pending.",
+      "garmentContext": {
+        "category": "polo-shirt",
+        "description": "Plain cream polo without drawings, print, embroidery or logos; shorts recolored to sand #D6BE96.",
+        "catalogProductId": null,
+        "catalogIntegrationStatus": "deferred-by-user",
+        "approvalStatus": "pending-human-review"
+      }
+    },
+    {
+      "id": "collection-quintal",
+      "role": "collection",
+      "collectionIds": [
+        "collection-001"
+      ],
+      "modelIds": [
+        "model-001",
+        "model-006"
+      ],
+      "alt": "Lia, com short areia, e Davi, com short verde-petróleo, exploram folhas junto a um canteiro usando camisetas de estampas botânicas.",
+      "usage": [
+        "collection-opening",
+        "collection-index",
+        "homepage-collection-feature"
+      ],
+      "variants": [
+        {
+          "name": "desktop",
+          "ratio": [
+            16,
+            9
+          ],
+          "usage": [
+            "collection-opening",
+            "collection-index",
+            "homepage-collection-feature"
+          ]
+        },
+        {
+          "name": "compact",
+          "ratio": [
+            4,
+            3
+          ],
+          "usage": [
+            "collection-opening-compact",
+            "collection-index-compact",
+            "homepage-collection-feature-compact"
+          ]
+        }
+      ],
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a1257c-87a4-74e1-b475-dd2b22ec3a5e/exec-229bae1d-3468-46fa-87e7-6a081cd1181b.png",
+      "referencePaths": [
+        "assets/originals/editorial/collection-quintal-v1.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Edit this exact editorial photograph, changing ONLY the specified garments. Preserve every child's EXACT identity, age, face, skin, hair, expression, pose, hands, body proportions and shoes; preserve all other clothing, scene, props, lighting, framing and original aspect ratio. Keep natural cotton texture, original garment construction and folds, no new trim, text, logos or watermark. Recolor ONLY the curly-haired girl's teal shorts on the LEFT to warm sand beige #D6BE96. Keep the boy's shorts on the RIGHT green-teal exactly as they are, and keep both botanical T-shirts unchanged. Preserve the whole composition and all details.",
+      "tool": "built-in image_gen",
+      "approvalStatus": "pending-human-review",
+      "version": 2,
+      "supersedes": "collection-quintal-v1",
+      "changeRequest": "The user requested two additional colors for editorial shorts/trousers and a red T-shirt with a large cute bear drawing for the blonde boy. Catalog changes remain deferred; generated output approval is pending.",
+      "garmentContext": {
+        "description": "Lia's shorts recolored to sand #D6BE96; Davi retains teal shorts.",
+        "catalogProductId": null,
+        "catalogIntegrationStatus": "deferred-by-user",
+        "approvalStatus": "pending-human-review"
+      }
+    },
+    {
+      "id": "collection-brincadeira",
+      "role": "collection",
+      "collectionIds": [
+        "collection-002"
+      ],
+      "modelIds": [
+        "model-006"
+      ],
+      "alt": "Davi desenha uma amarelinha com giz no pátio, usando camiseta azul-céu estampada e short azul-céu liso.",
+      "usage": [
+        "collection-opening",
+        "collection-index",
+        "homepage-collection-feature"
+      ],
+      "variants": [
+        {
+          "name": "desktop",
+          "ratio": [
+            16,
+            9
+          ],
+          "usage": [
+            "collection-opening",
+            "collection-index",
+            "homepage-collection-feature"
+          ]
+        },
+        {
+          "name": "compact",
+          "ratio": [
+            4,
+            3
+          ],
+          "usage": [
+            "collection-opening-compact",
+            "collection-index-compact",
+            "homepage-collection-feature-compact"
+          ]
+        }
+      ],
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a1257c-87a4-74e1-b475-dd2b22ec3a5e/exec-365abbff-7774-4d17-8ba4-67ebc3b8ffa5.png",
+      "referencePaths": [
+        "assets/originals/editorial/collection-brincadeira-v1.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Edit this exact editorial photograph, changing ONLY the specified garments. Preserve every child's EXACT identity, age, face, skin, hair, expression, pose, hands, body proportions and shoes; preserve all other clothing, scene, props, lighting, framing and original aspect ratio. Keep natural cotton texture, original garment construction and folds, no new trim, text, logos or watermark. Recolor ONLY the boy's teal shorts to plain soft sky blue #A9CCE0. Keep his existing printed blue T-shirt unchanged. Preserve every seam, pocket, fold, length, chalk, hopscotch and whole scene.",
+      "tool": "built-in image_gen",
+      "approvalStatus": "pending-human-review",
+      "version": 2,
+      "supersedes": "collection-brincadeira-v1",
+      "changeRequest": "The user requested two additional colors for editorial shorts/trousers and a red T-shirt with a large cute bear drawing for the blonde boy. Catalog changes remain deferred; generated output approval is pending.",
+      "garmentContext": {
+        "description": "Shorts recolored to sky blue #A9CCE0.",
+        "catalogProductId": null,
+        "catalogIntegrationStatus": "deferred-by-user",
+        "approvalStatus": "pending-human-review"
+      }
+    },
+    {
+      "id": "collection-imaginacao",
+      "role": "collection",
+      "collectionIds": [
+        "collection-003"
+      ],
+      "modelIds": [
+        "model-003"
+      ],
+      "alt": "Nina monta uma cidade de blocos junto a uma cabana de manta, com blusa creme de traços lilás e pêssego e short azul-céu.",
+      "usage": [
+        "collection-opening",
+        "collection-index",
+        "homepage-collection-feature"
+      ],
+      "variants": [
+        {
+          "name": "desktop",
+          "ratio": [
+            16,
+            9
+          ],
+          "usage": [
+            "collection-opening",
+            "collection-index",
+            "homepage-collection-feature"
+          ]
+        },
+        {
+          "name": "compact",
+          "ratio": [
+            4,
+            3
+          ],
+          "usage": [
+            "collection-opening-compact",
+            "collection-index-compact",
+            "homepage-collection-feature-compact"
+          ]
+        }
+      ],
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a1257c-87a4-74e1-b475-dd2b22ec3a5e/exec-0ffe91e3-b8f9-4e55-afed-b0c9b4056510.png",
+      "referencePaths": [
+        "assets/originals/editorial/collection-imaginacao-v1.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Edit this exact editorial photograph, changing ONLY the specified garments. Preserve every child's EXACT identity, age, face, skin, hair, expression, pose, hands, body proportions and shoes; preserve all other clothing, scene, props, lighting, framing and original aspect ratio. Keep natural cotton texture, original garment construction and folds, no new trim, text, logos or watermark. Recolor ONLY the girl's teal shorts to plain soft sky blue #A9CCE0. Keep her cream printed sleeveless top unchanged. Preserve every seam, fold, fit, length, skin and blocks, tent and whole scene.",
+      "tool": "built-in image_gen",
+      "approvalStatus": "pending-human-review",
+      "version": 2,
+      "supersedes": "collection-imaginacao-v1",
+      "changeRequest": "The user requested two additional colors for editorial shorts/trousers and a red T-shirt with a large cute bear drawing for the blonde boy. Catalog changes remain deferred; generated output approval is pending.",
+      "garmentContext": {
+        "description": "Shorts recolored to sky blue #A9CCE0.",
+        "catalogProductId": null,
+        "catalogIntegrationStatus": "deferred-by-user",
+        "approvalStatus": "pending-human-review"
+      }
+    },
+    {
+      "id": "brand-opening",
+      "role": "brand-opening",
+      "collectionIds": [
+        "collection-001",
+        "collection-003"
+      ],
+      "modelIds": [
+        "model-001",
+        "model-007"
+      ],
+      "alt": "Lia, com short areia, e Theo, com camiseta vermelha de ursinho e calça azul-céu, juntam folhas em uma tigela de madeira no quintal.",
+      "usage": [
+        "brand-page-opening"
+      ],
+      "variants": [
+        {
+          "name": "desktop",
+          "ratio": [
+            16,
+            9
+          ],
+          "usage": [
+            "brand-page-opening"
+          ]
+        },
+        {
+          "name": "compact",
+          "ratio": [
+            4,
+            3
+          ],
+          "usage": [
+            "brand-page-opening-compact"
+          ]
+        }
+      ],
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a1257c-87a4-74e1-b475-dd2b22ec3a5e/exec-99730f1f-449d-470d-9571-53be4262bc34.png",
+      "referencePaths": [
+        "assets/originals/editorial/brand-opening-v1.png",
+        "assets/originals/editorial/brand-combinations-v2.png"
+      ],
+      "prompt": "Use case: precise-object-edit / garment consistency. Edit image 1, the garden photo with two fictional children collecting leaves. Keep exact children, faces, ages, hair, expressions, poses, hands, shoes, background, wooden bowl, leaves, lighting, framing and landscape 16:9 ratio. Change ONLY specified clothes: the blonde boy Theo on the RIGHT must wear the SAME warm red cotton crew-neck T-shirt and SAME LARGE cute seated tan-brown teddy bear drawing shown in image 2, with identical bear face, cream muzzle/belly, round ears, limbs, outline, colors, scale and chest placement, naturally following the folds of his crouched pose. Also give him the SAME plain soft sky-blue trousers as image 2, preserving image 1's existing trouser shape and fit. The curly-haired girl on the LEFT keeps her cream botanical T-shirt unchanged but her shorts become warm sand beige #D6BE96. Do not transfer the standing pose or indoor scene from image 2. No extra graphic, words, logos, trim or watermark. Preserve whole outfits and faces inside the same framing.",
+      "tool": "built-in image_gen",
+      "approvalStatus": "pending-human-review",
+      "version": 2,
+      "supersedes": "brand-opening-v1",
+      "changeRequest": "The user requested two additional colors for editorial shorts/trousers and a red T-shirt with a large cute bear drawing for the blonde boy. Catalog changes remain deferred; generated output approval is pending.",
+      "garmentContext": {
+        "description": "Lia's shorts recolored to sand #D6BE96; Theo wears the same red bear T-shirt and sky-blue trousers as brand-combinations.",
+        "catalogProductId": null,
+        "catalogIntegrationStatus": "deferred-by-user",
+        "approvalStatus": "pending-human-review"
+      }
+    },
+    {
+      "id": "brand-play",
+      "role": "brand-section",
+      "collectionIds": [
+        "collection-003"
+      ],
+      "modelIds": [
+        "model-003"
+      ],
+      "alt": "Nina desenha estrelas e brinca com blocos no tapete de casa, usando blusa creme estampada e short azul-céu.",
+      "usage": [
+        "brand-page-section-play",
+        "homepage-brand-introduction"
+      ],
+      "variants": [
+        {
+          "name": "desktop",
+          "ratio": [
+            4,
+            3
+          ],
+          "usage": [
+            "brand-page-section-play",
+            "homepage-brand-introduction"
+          ]
+        },
+        {
+          "name": "compact",
+          "ratio": [
+            4,
+            3
+          ],
+          "usage": [
+            "brand-page-section-play-compact",
+            "homepage-brand-introduction-compact"
+          ]
+        }
+      ],
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a1257c-87a4-74e1-b475-dd2b22ec3a5e/exec-817d7226-c4ee-461a-843a-abfc9dd9d3a6.png",
+      "referencePaths": [
+        "assets/originals/editorial/brand-play-v1.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Edit this exact editorial photograph, changing ONLY the specified garments. Preserve every child's EXACT identity, age, face, skin, hair, expression, pose, hands, body proportions and shoes; preserve all other clothing, scene, props, lighting, framing and original aspect ratio. Keep natural cotton texture, original garment construction and folds, no new trim, text, logos or watermark. Recolor ONLY the girl's teal shorts to plain soft sky blue #A9CCE0. Keep her cream printed sleeveless top unchanged. Preserve every seam, fold, fit, length, skin, drawing, crayons, blocks, tent and whole scene.",
+      "tool": "built-in image_gen",
+      "approvalStatus": "pending-human-review",
+      "version": 2,
+      "supersedes": "brand-play-v1",
+      "changeRequest": "The user requested two additional colors for editorial shorts/trousers and a red T-shirt with a large cute bear drawing for the blonde boy. Catalog changes remain deferred; generated output approval is pending.",
+      "garmentContext": {
+        "description": "Shorts recolored to sky blue #A9CCE0.",
+        "catalogProductId": null,
+        "catalogIntegrationStatus": "deferred-by-user",
+        "approvalStatus": "pending-human-review"
+      }
+    },
+    {
+      "id": "brand-combinations",
+      "role": "brand-section",
+      "collectionIds": [
+        "collection-003"
+      ],
+      "modelIds": [
+        "model-007"
+      ],
+      "alt": "Theo escolhe uma camiseta junto ao banco de madeira, usando camiseta vermelha com um grande desenho de ursinho e calça azul-céu.",
+      "usage": [
+        "brand-page-section-combinations"
+      ],
+      "variants": [
+        {
+          "name": "desktop",
+          "ratio": [
+            4,
+            3
+          ],
+          "usage": [
+            "brand-page-section-combinations"
+          ]
+        },
+        {
+          "name": "compact",
+          "ratio": [
+            4,
+            3
+          ],
+          "usage": [
+            "brand-page-section-combinations-compact"
+          ]
+        }
+      ],
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a1257c-87a4-74e1-b475-dd2b22ec3a5e/exec-a38355ad-6fbe-4160-a67a-a399a72b7ee3.png",
+      "referencePaths": [
+        "assets/originals/editorial/brand-combinations-v1.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Edit this exact editorial photograph, changing ONLY the specified garments. Preserve every child's EXACT identity, age, face, skin, hair, expression, pose, hands, body proportions and shoes; preserve all other clothing, scene, props, lighting, framing and original aspect ratio. Keep natural cotton texture, original garment construction and folds, no new trim, text, logos or watermark. Replace ONLY the blonde boy Theo model-007's cream T-shirt with a warm red #C8443D short-sleeve cotton crew-neck T-shirt bearing ONE LARGE adorable ORIGINAL teddy-bear illustration centered on the chest, about 55% of chest width. Bear is a seated rounded tan-brown teddy with little round ears, soft cream muzzle and belly, tiny dark dot eyes, smiling face, simple hand-drawn outline; no words, no licensed character. Illustration should be large and clearly readable, lying naturally on the fabric. Also recolor his teal trousers to plain soft sky blue #A9CCE0, preserving their fit, elastic waist, length and all construction. Preserve his blonde face and the folded shirts and bench exactly.",
+      "tool": "built-in image_gen",
+      "approvalStatus": "pending-human-review",
+      "version": 2,
+      "supersedes": "brand-combinations-v1",
+      "changeRequest": "The user requested two additional colors for editorial shorts/trousers and a red T-shirt with a large cute bear drawing for the blonde boy. Catalog changes remain deferred; generated output approval is pending.",
+      "garmentContext": {
+        "description": "Warm red #C8443D T-shirt with a large original seated tan teddy-bear illustration; trousers recolored to sky blue #A9CCE0.",
+        "catalogProductId": null,
+        "catalogIntegrationStatus": "deferred-by-user",
+        "approvalStatus": "pending-human-review"
+      }
+    }
+  ]
+}

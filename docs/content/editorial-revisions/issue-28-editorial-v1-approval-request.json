@@ -1,0 +1,128 @@
+{
+  "revision": "issue-28-editorial-v1",
+  "scope": "Eight editorial scenes, retained tablet art-direction derivative, all placement crops and Portuguese alt text",
+  "status": "pending-human-review",
+  "reviewer": null,
+  "evidence": null,
+  "recordedAtUtc": null,
+  "requestedCorrections": [],
+  "acceptedExceptions": [],
+  "files": [
+    {
+      "path": "docs/content/editorial-manifest.json",
+      "sha256": "3816b881d7333ca4155160c242ac1cd4fb9b4aca58a914f03f13b6ca6c82b528"
+    },
+    {
+      "path": "assets/originals/editorial/hero-left-v1.png",
+      "sha256": "311b775da539f7e61d46388698bf5254403e9072bb6a1ebc89470355acce17b7"
+    },
+    {
+      "path": "public/images/editorial/hero-left-desktop-v1.webp",
+      "sha256": "91e9bdddf5266295a0879846574f8a6a36ec393c12935069454d35febbaaef89"
+    },
+    {
+      "path": "public/images/editorial/hero-left-desktop-narrow-v1.webp",
+      "sha256": "059716f2c7c378f376ece14e130772ab083b9ad06a39eb5ced23c5e391e3dfae"
+    },
+    {
+      "path": "public/images/editorial/hero-left-compact-v1.webp",
+      "sha256": "42f0236f3d769897a25217e30bfc31ec310ccd468d2beee5f62384154915b746"
+    },
+    {
+      "path": "public/images/editorial/hero-left-tablet-v1.webp",
+      "sha256": "8d151e4fa3f83aabef675de3a0ca162fd51038c953e2b34e137d1e1108ff4229"
+    },
+    {
+      "path": "assets/originals/editorial/hero-left-tablet-v1.png",
+      "sha256": "26df8418ad9963c4a1f4a561b3fa33e5d183ac804e381d313610db58593e3026"
+    },
+    {
+      "path": "assets/originals/editorial/hero-right-v1.png",
+      "sha256": "29790ca6a0e988bbbcf2c2ebb3ec6ded18a25166b9884e176921a4668cd73a12"
+    },
+    {
+      "path": "public/images/editorial/hero-right-desktop-v1.webp",
+      "sha256": "749fb82ece9c4a02258a95d9a70a0c42b42bbdd1447c5a0c9d7bca80bcfea37d"
+    },
+    {
+      "path": "public/images/editorial/hero-right-desktop-narrow-v1.webp",
+      "sha256": "21a8211517c4ed49b4ab7c299c1b5823d438b48ec6aaa11fa107517ebfccd49f"
+    },
+    {
+      "path": "public/images/editorial/hero-right-compact-v1.webp",
+      "sha256": "5423f71e6c8c152b1a897cfaf28ef518b2acfaff5a834ed1f2351f673ee91c5b"
+    },
+    {
+      "path": "assets/originals/editorial/collection-quintal-v1.png",
+      "sha256": "2db4742e800eb8987dca0ff33302d297d2541935ae3d2e1cd02af246406a621f"
+    },
+    {
+      "path": "public/images/editorial/collection-quintal-desktop-v1.webp",
+      "sha256": "f1d9c9de0c839500210a69dc12f3d7daed2714d868a953eda97dcaa520d3f804"
+    },
+    {
+      "path": "public/images/editorial/collection-quintal-compact-v1.webp",
+      "sha256": "64999693747f851367e9d0bca6663fd2b741ffe82fb4a420b938af1d42f95b91"
+    },
+    {
+      "path": "assets/originals/editorial/collection-brincadeira-v1.png",
+      "sha256": "2e9d1f11ecc4f7e40efa80f8bf14099c70b75ad7f52eed317ceb9b25772bef6e"
+    },
+    {
+      "path": "public/images/editorial/collection-brincadeira-desktop-v1.webp",
+      "sha256": "bf5656a1278b171ff84a19ce10d1c0daafc6d34cb7d636c408145dda550e96ff"
+    },
+    {
+      "path": "public/images/editorial/collection-brincadeira-compact-v1.webp",
+      "sha256": "04fcb4f84274a41caaebfe5de6e2cd3f8e5fb4bb959613e1d638835a5355e82c"
+    },
+    {
+      "path": "assets/originals/editorial/collection-imaginacao-v1.png",
+      "sha256": "97efdf1d0643feb776b9d5a9049596018e1c8427a3c4f0f61e35502f2b14393d"
+    },
+    {
+      "path": "public/images/editorial/collection-imaginacao-desktop-v1.webp",
+      "sha256": "0d72a13910e1009843439cdcd328f713ce8803c95e967e19feff301692ba4528"
+    },
+    {
+      "path": "public/images/editorial/collection-imaginacao-compact-v1.webp",
+      "sha256": "a75963fb736938e18526f7f7e3be5cdec2a63c40e7d1724995522ab722bb8ac4"
+    },
+    {
+      "path": "assets/originals/editorial/brand-opening-v1.png",
+      "sha256": "ea802c8a6ae7c22318a0b89475e18c0a45bd66a82e15fbe106a8c9d8434d4d02"
+    },
+    {
+      "path": "public/images/editorial/brand-opening-desktop-v1.webp",
+      "sha256": "3d577f250f1fa92db6af5454d2222a3b029971124c6cdfa26cb67166047ed69c"
+    },
+    {
+      "path": "public/images/editorial/brand-opening-compact-v1.webp",
+      "sha256": "892c0ac5b360acd461596abd1fa07ea78f519d9d70dee436865a832ca90d0fa3"
+    },
+    {
+      "path": "assets/originals/editorial/brand-play-v1.png",
+      "sha256": "6dd704b67918126aeab72115911a54fa681e9582833b05e31bb749e1e8ad48c5"
+    },
+    {
+      "path": "public/images/editorial/brand-play-desktop-v1.webp",
+      "sha256": "8ab422cfe8faf48ede16858bda85c62a9208c107b600d3835dc65334e8c55f74"
+    },
+    {
+      "path": "public/images/editorial/brand-play-compact-v1.webp",
+      "sha256": "8ab422cfe8faf48ede16858bda85c62a9208c107b600d3835dc65334e8c55f74"
+    },
+    {
+      "path": "assets/originals/editorial/brand-combinations-v1.png",
+      "sha256": "131580dfda385ac53c243be812cdc5f6d4b9c42d25abd819c476b9bd33366383"
+    },
+    {
+      "path": "public/images/editorial/brand-combinations-desktop-v1.webp",
+      "sha256": "190fd4a581a855f9229e289f1bf0d3094d966c4c991fedc8f36c4eeb46e830e4"
+    },
+    {
+      "path": "public/images/editorial/brand-combinations-compact-v1.webp",
+      "sha256": "190fd4a581a855f9229e289f1bf0d3094d966c4c991fedc8f36c4eeb46e830e4"
+    }
+  ]
+}

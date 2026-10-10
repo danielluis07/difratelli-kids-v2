@@ -1,0 +1,127 @@
+{
+  "revision": "issue-28-identity-v1",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/28",
+  "scope": "Brown/white wordmarks, three decorative motifs and favicon as editable SVG",
+  "status": "approved",
+  "reviewer": "User in this conversation",
+  "evidence": {
+    "message": "approved, you can create a PR. then, i want you to create an issue to add the polo t-shirts in the catalog",
+    "context": "User approved after being informed that editorial approval was recorded and separate identity approval remained pending."
+  },
+  "recordedAtUtc": "2026-10-10T12:00:52.271Z",
+  "requestedCorrections": [],
+  "acceptedExceptions": [],
+  "reviewedFiles": [
+    {
+      "path": "docs/content/identity-manifest.json",
+      "sha256": "6b999227640f423af6ca0162b331526d486f8b4ef7dbd19f2f1527fe1f9fec90"
+    },
+    {
+      "path": "public/identity/favicon-v1.svg",
+      "sha256": "2e3f0830c0bed89d5eb93ff239283eaee54a7e319102a46f598ff9f96e004d00"
+    },
+    {
+      "path": "public/identity/motif-chalk-path-v1.svg",
+      "sha256": "f513fb4a92b812b36f468057d56997b8f0f8bfe737273b1d3060dae191d16b5c"
+    },
+    {
+      "path": "public/identity/motif-spark-v1.svg",
+      "sha256": "766eb1f7da39e6b4efe25e3c2bed137c80ec0cb3c7a59e6b49934566faac3dc4"
+    },
+    {
+      "path": "public/identity/motif-sprout-v1.svg",
+      "sha256": "9673276c2d8f895d3a6620e92e35aeca4cd0f59e06a700adf4c37954fb433c10"
+    },
+    {
+      "path": "public/identity/wordmark-brown-v1.svg",
+      "sha256": "bc7498cfac658e4dfa0cc97283210185bbe400bc7f38aaf11c74a32ddb7a11fd"
+    },
+    {
+      "path": "public/identity/wordmark-white-v1.svg",
+      "sha256": "dc27fdbe6184654a127266391be776cf3c1b29882682877c9f68469bbe3355b6"
+    },
+    {
+      "path": "docs/content/identity-approval-request.json",
+      "sha256": "a0911844f48a489de9dc41cdb825a8456427afbe4525866334e21ca23f96f9d7"
+    },
+    {
+      "path": "docs/content/identity-contact-sheet.webp",
+      "sha256": "4bfb824f112f4b1cab79675295458b80acf4950c4f37755c422ed67b1c2d793e"
+    },
+    {
+      "path": "assets/identity/fonts/DM-Sans-OFL.txt",
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    },
+    {
+      "path": "assets/identity/fonts/DM-Sans-variable.ttf",
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+    },
+    {
+      "path": "assets/identity/fonts/Fraunces-OFL.txt",
+      "sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b"
+    },
+    {
+      "path": "assets/identity/fonts/Fraunces-variable.ttf",
+      "sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb"
+    }
+  ],
+  "files": [
+    {
+      "path": "docs/content/identity-manifest.json",
+      "sha256": "ae493ccd890fc5cf40ce10dcaf1d6251e67193b83a543e2faee9faf40b32a8e9"
+    },
+    {
+      "path": "public/identity/favicon-v1.svg",
+      "sha256": "2e3f0830c0bed89d5eb93ff239283eaee54a7e319102a46f598ff9f96e004d00"
+    },
+    {
+      "path": "public/identity/motif-chalk-path-v1.svg",
+      "sha256": "f513fb4a92b812b36f468057d56997b8f0f8bfe737273b1d3060dae191d16b5c"
+    },
+    {
+      "path": "public/identity/motif-spark-v1.svg",
+      "sha256": "766eb1f7da39e6b4efe25e3c2bed137c80ec0cb3c7a59e6b49934566faac3dc4"
+    },
+    {
+      "path": "public/identity/motif-sprout-v1.svg",
+      "sha256": "9673276c2d8f895d3a6620e92e35aeca4cd0f59e06a700adf4c37954fb433c10"
+    },
+    {
+      "path": "public/identity/wordmark-brown-v1.svg",
+      "sha256": "bc7498cfac658e4dfa0cc97283210185bbe400bc7f38aaf11c74a32ddb7a11fd"
+    },
+    {
+      "path": "public/identity/wordmark-white-v1.svg",
+      "sha256": "dc27fdbe6184654a127266391be776cf3c1b29882682877c9f68469bbe3355b6"
+    },
+    {
+      "path": "docs/content/identity-approval-request.json",
+      "sha256": "a0911844f48a489de9dc41cdb825a8456427afbe4525866334e21ca23f96f9d7"
+    },
+    {
+      "path": "docs/content/identity-contact-sheet.webp",
+      "sha256": "4bfb824f112f4b1cab79675295458b80acf4950c4f37755c422ed67b1c2d793e"
+    },
+    {
+      "path": "assets/identity/fonts/DM-Sans-OFL.txt",
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    },
+    {
+      "path": "assets/identity/fonts/DM-Sans-variable.ttf",
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+    },
+    {
+      "path": "assets/identity/fonts/Fraunces-OFL.txt",
+      "sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b"
+    },
+    {
+      "path": "assets/identity/fonts/Fraunces-variable.ttf",
+      "sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb"
+    }
+  ],
+  "remainingGates": [
+    "Complete-content approval",
+    "Storefront integration acceptance",
+    "Release approval"
+  ]
+}

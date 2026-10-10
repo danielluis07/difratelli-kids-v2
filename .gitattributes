@@ -1,3 +1,7 @@
 # Content approval records bind exact JSON bytes to SHA-256 hashes.
 # Preserve those bytes across Windows and Unix checkouts.
 docs/content/*.json -text
+# Identity approval records also bind the original font/license bytes.
+assets/identity/fonts/* -text
+# Preserve upstream license formatting verbatim.
+assets/identity/fonts/*OFL.txt whitespace=-blank-at-eol
