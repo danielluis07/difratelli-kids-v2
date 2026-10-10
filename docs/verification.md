@@ -105,3 +105,10 @@ installation, TypeScript and all 41 contract tests passed again. The GitHub
 Actions workflow has been configured but
 has not been run remotely for these uncommitted changes. No public preview,
 actual-device/manual review, integration acceptance or deployment is claimed.
+
+The first Linux CI run caught checkout normalization of `cast-approval.json`
+and the six identity SVGs: their committed LF bytes differed from the approved
+CRLF bytes retained on Windows. Git attributes now preserve those exact bytes,
+and the approved working-copy files have been restaged verbatim. Approval hashes
+and production content remain unchanged. CI's existing readiness checks guard
+this cross-platform regression.
