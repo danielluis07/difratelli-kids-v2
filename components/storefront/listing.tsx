@@ -36,7 +36,7 @@ async function ScopedResults({ scope, searchParams }: { scope: BrowseScope; sear
   ];
   if (scope.kind !== "collection") groups.push({ key: "collections", label: copy.browsing.collection, options: catalog.collections.map((item) => ({ value: item.id, label: item.name })) });
   if (scope.kind === "catalog" || scope.kind === "search") groups.push({ key: "audiences", label: copy.browsing.audience, options: catalog.audiences.map((item) => ({ value: item.id, label: item.name })) });
-  if (scope.kind === "search" && !state.query) return <p>{copy.search.blankBody}</p>;
+  if (scope.kind === "search" && !state.query) return <Empty><EmptyHeader><EmptyTitle>{copy.search.blankHeading}</EmptyTitle><EmptyDescription>{copy.search.blankBody}</EmptyDescription></EmptyHeader></Empty>;
   const result = browse(scope, state);
   const unfilteredSearch = scope.kind === "search" && !browse(scope, { ...state, categories: [], sizes: [], families: [], collections: [], audiences: [] }).count;
   return <>

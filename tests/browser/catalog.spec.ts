@@ -41,7 +41,8 @@ test("responsive grids, sticky navigation and compact destinations work at the a
       await opener.click();
       const sheet = page.getByRole("dialog", { name: copy.navigation.mobileMenuTitle });
       await expect(sheet).toBeVisible();
-      for (const label of [copy.navigation.newArrivals, copy.navigation.girls, copy.navigation.boys, copy.navigation.collections, copy.navigation.brand, copy.navigation.search, copy.navigation.favorites]) {
+        await expect(sheet.getByRole("button", { name: copy.navigation.search, exact: true })).toBeVisible();
+        for (const label of [copy.navigation.newArrivals, copy.navigation.girls, copy.navigation.boys, copy.navigation.collections, copy.navigation.brand, copy.navigation.favorites]) {
         await expect(sheet.getByRole("link", { name: label, exact: true })).toBeVisible();
       }
       await page.keyboard.press("Escape");

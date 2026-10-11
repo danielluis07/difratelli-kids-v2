@@ -106,6 +106,8 @@
 .sheet-body { padding: 24px; }
 .compact-links { display: flex; flex-direction: column; gap: 4px; padding: 8px 24px 32px; }
 .compact-links a { display: flex; align-items: center; min-height: 48px; gap: 12px; }
+.compact-search { justify-content: flex-start; min-height: 48px; }
+.search-panel { position: relative; max-width: 640px; padding-bottom: 24px; }
 .compact-links svg { width: 20px; height: 20px; }
 .compact-group-heading { display: flex; justify-content: space-between; align-items: center; }
 .compact-group-heading > a { flex: 1; }

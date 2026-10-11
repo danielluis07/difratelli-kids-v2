@@ -40,6 +40,12 @@ test("public pages have no blocking URL-data diagnostics", async ({ page, contex
   await page.getByRole("contentinfo").getByRole("link", { name: copy.navigation.collections, exact: true }).click();
   await page.getByRole("main").getByRole("link", { name: catalog.collections[0].name, exact: true }).click();
   await expect(page.getByRole("heading", { level: 1 })).toHaveText(catalog.collections[0].name);
+  await page.getByRole("button", { name: copy.navigation.search, exact: true }).click();
+  const search = page.getByRole("dialog", { name: copy.search.dialogTitle });
+  await search.getByRole("searchbox", { name: copy.search.fieldLabel }).fill("descobertas");
+  await search.getByRole("button", { name: copy.search.submit, exact: true }).click();
+  await expect(page).toHaveURL(/\/busca\?q=descobertas$/);
+  await expect(page.locator("main:visible .product-card")).toHaveCount(10);
   await page.waitForLoadState("networkidle");
   expect(diagnostics, "Development diagnostics during storefront navigation").toEqual([]);
   expect(await readFile(".next/dev/logs/next-development.log", "utf8")).not.toMatch(blockingDiagnostics);
