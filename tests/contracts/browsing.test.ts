@@ -1,9 +1,19 @@
 import { expect, it } from "vitest";
-import { browse, parseBrowseUrl, serializeBrowseUrl, resetBrowseFilters, parseProductColor } from "../../lib/browsing";
+import { browse, parseBrowseUrl, serializeBrowseUrl, resetBrowseFilters, parseProductColor, normalizeQuery } from "../../lib/browsing";
 import { catalog } from "../../lib/catalog";
 
 const full = { kind: "catalog" } as const;
 const search = { kind: "search" } as const;
+it("retains spelling and safely round-trips search whitespace and reserved characters", () => {
+  const query = normalizeQuery(" \t ImAgInAção\n em\u00a0casa & + ? # / ");
+  expect(query).toBe("ImAgInAção em casa & + ? # /");
+  const state = parseBrowseUrl(search, new URLSearchParams({ q: query }));
+  const serialized = serializeBrowseUrl(search, state);
+  expect(new URLSearchParams(serialized).get("q")).toBe(query);
+  expect(parseBrowseUrl(search, new URLSearchParams(serialized))).toEqual(state);
+  expect(browse(search, parseBrowseUrl(search, new URLSearchParams({ q: "IMA CASA" }))).count).toBe(10);
+  expect(browse(search, parseBrowseUrl(search, new URLSearchParams({ q: "POL descob" }))).products.map((product) => product.id)).toEqual(["product-002"]);
+});
 it("parses repeated values, first scalars and invalid input without rewriting the URL", () => {
   const params = new URLSearchParams("categoria=polos&categoria=unknown&categoria=polos&categoria=t-shirts&ordem=bad&ordem=preco-asc&publico=girls&tracking=abc");
   const original = params.toString();

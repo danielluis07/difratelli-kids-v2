@@ -262,8 +262,8 @@ unique values canonically and push history entries without scrolling the page.
 Reset clears filters/sort while retaining the route and normalized search query.
 Filtered empty states provide that same reset action. The search route reuses the
 listing so shared search links can expose all applicable controls; blank and
-unmatched-query states use approved search copy. Search entry/submission remains
-the responsibility of the next search slice.
+unmatched-query states use approved search copy. Search entry/submission is
+covered by issue #33 below.
 
 `tests/browser/browsing.spec.ts` covers repeated/invalid incoming parameters,
 canonical changes, reload/Back/Forward, each filter dimension, keyboard selection,
@@ -288,3 +288,42 @@ inspected locally. `bun run test:dev` also passed its public-route and client
 navigation diagnostic scan with no blocking URL-data or hydration diagnostics.
 This evidence is for the local working tree; it does not claim
 remote CI, actual-device review, human integration acceptance or publication.
+
+## Header catalog search (issue #33)
+
+Desktop search and the compact menu open a labeled search Sheet with the approved
+Portuguese copy. Opening on `/busca` reads the first committed `q` value; other
+routes start blank. Closing or Escape discards the draft, returns focus to the
+trigger and preserves the page URL. Compact search nests within navigation;
+submission closes both surfaces. URL-dependent form content has a focused
+Suspense boundary, preserving the public header's prerendered navigation.
+
+Enter and the search button normalize whitespace while preserving spelling and
+submit a new `/busca` URL containing only the query. Existing listing controls,
+counts and sorting apply to results; reset retains the query. Blank searches
+show the approved prompt, and unmatched searches offer the catalog. No query is
+stored and no autocomplete is provided. The input remounts when its committed
+route/query changes, preventing a previous query from surviving navigation.
+
+`tests/browser/search.spec.ts` checks submissions, cross-field matching, spelling,
+reload/Back/Forward, current-query reopening, cancellation and focus return,
+fresh search sorting reset, query-preserving filter reset, blank/unmatched
+recovery and representative axe scans. The browsing contract suite covers
+whitespace, reserved-character URL round trips, case/accent-insensitive partial
+words and collection/category matching. The development diagnostic sweep also
+opens and submits search during client navigation.
+
+Local Windows verification on 2026-10-11 passed ESLint, generated route types and
+TypeScript, approved content readiness, all 45 Vitest contracts and the production
+build. The full production run passed 114 of 115 cases; one existing Firefox
+history case reached its 60-second timeout while the development scan ran
+concurrently. After the final 48px search-input height adjustment and rebuild,
+all 20 search/history cases passed across the five configured profiles, including
+that Firefox case. Search-panel and no-match axe scans reported no violations.
+`bun run test:dev` passed the public-route scan and client search submission with
+no blocking URL-data or hydration diagnostics. Desktop and 390px mobile search
+screenshots were inspected locally with no horizontal overflow. Reports remain
+in the ignored Playwright output directories. Next.js feedback review found no
+qualifying framework issue in this slice. This is local agent evidence; remote
+CI, actual-device/manual review, human integration acceptance and publication
+remain unclaimed.

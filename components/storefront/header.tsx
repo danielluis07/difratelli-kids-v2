@@ -3,7 +3,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { ChevronDown, Heart, Menu, Search, ShoppingBag, X } from "lucide-react";
+import { ChevronDown, Heart, Menu, ShoppingBag, X } from "lucide-react";
+import { HeaderSearch } from "./search";
 import copy from "@/docs/content/copy-proposal.json";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetTrigger, SheetContent, SheetHeader, SheetTitle, SheetClose } from "@/components/ui/sheet";
@@ -29,7 +30,7 @@ export function StorefrontHeader({ groups, wordmark }: { groups: NavigationGroup
               {groups.map((group) => <CompactGroup key={group.href} group={group} close={() => setMenuOpen(false)} />)}
               <Link href="/colecoes" onClick={() => setMenuOpen(false)}>{copy.navigation.collections}</Link>
               <Link href="/sobre" onClick={() => setMenuOpen(false)}>{copy.navigation.brand}</Link>
-              <Link href="/busca" onClick={() => setMenuOpen(false)}><Search aria-hidden="true" />{copy.navigation.search}</Link>
+              <HeaderSearch compact onSubmit={() => setMenuOpen(false)} />
               <Link href="/favoritos" onClick={() => setMenuOpen(false)}><Heart aria-hidden="true" />{copy.navigation.favorites}</Link>
             </nav>
           </SheetContent>
@@ -52,7 +53,7 @@ export function StorefrontHeader({ groups, wordmark }: { groups: NavigationGroup
         <Link href="/sobre">{copy.navigation.brand}</Link>
       </nav>
       <div className="header-actions">
-        <Button className="desktop-action" variant="ghost" size="icon" render={<Link href="/busca" />} nativeButton={false} role="link" aria-label={copy.navigation.search}><Search /></Button>
+        <HeaderSearch />
         <Button className="desktop-action" variant="ghost" size="icon" render={<Link href="/favoritos" />} nativeButton={false} role="link" aria-label={copy.navigation.favorites}><Heart /></Button>
         <Sheet open={cartOpen} onOpenChange={setCartOpen}>
           <SheetTrigger render={<Button variant="ghost" size="icon" />} aria-label={copy.cart.open}><ShoppingBag /></SheetTrigger>
