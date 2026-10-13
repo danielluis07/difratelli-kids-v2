@@ -1,0 +1,116 @@
+{
+  "revision": "issue-34-image-refresh-v2",
+  "parentRevision": "issue-34-content-v1",
+  "tool": "built-in image_gen",
+  "status": "pending-human-review",
+  "request": "Replace right hero with clothes only and four homepage category tiles with varied environments/poses.",
+  "records": [
+    {
+      "id": "hero-right-clothes-v2",
+      "slot": "hero-right",
+      "refs": [
+        "assets/originals/catalog/product-002-cream-isolated-v1.png",
+        "assets/originals/catalog/product-022-lilac-cream-teal-isolated-v1.png",
+        "assets/originals/catalog/product-008-teal-isolated-v1.png"
+      ],
+      "modelIds": [],
+      "productIds": [
+        "product-002",
+        "product-022",
+        "product-008"
+      ],
+      "alt": "Polo creme, camiseta lilás de estrelas e short verde-petróleo sobre tecido claro, sem modelo.",
+      "prompt": "Use case: precise-object-edit / background expansion. Edit this exact clothes-only flat-lay photograph for art direction. Keep the SAME three garments: plain cream polo, lilac teal/cream star T-shirt and teal shorts, same arrangement and exact texture/colors/cuts/buttons/prints, no new items. ZOOM OUT approximately 40 percent, shrinking the ENTIRE clothing arrangement as one group while expanding the same warm ivory linen background around it. The complete clothing group must fit between x=28% and x=72% of the final image and y=20% and y=80%; ALL sleeves, collars and hems wholly inside this safe central rectangle. This strict rectangle ensures an actual centered 4:5 crop of this 3:2 landscape retains every garment. Maintain soft sunlight and leafy shadows mostly at outer corners. The photo should fill a 3:2 landscape canvas, request 2400x1600 or larger. No people, models, hands, mannequins, text, logos, watermark, changed garment design or duplicate clothing. Do not retain the old overly close framing; the generous linen margins are essential.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1371c-6382-7280-9c34-e6190981440d\\exec-9dba39a9-1b21-483f-af10-47f9fb776a7d.png",
+      "tool": "built-in image_gen",
+      "discardedVariants": [
+        {
+          "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1371c-6382-7280-9c34-e6190981440d\\exec-62871b2d-ebca-489e-a1e3-3d4f46abbb4a.png",
+          "prompt": "Use case: product-mockup. ONE photorealistic clothes-only Difratelli Kids hero image, landscape 3:2, request 2400x1600 or larger. Three reference images are exact clothes: plain cream polo, lilac T-shirt with teal and cream stars, teal shorts. Arrange each garment once on warm ivory linen in a refined natural flat-lay. Keep ALL garments entirely inside CENTRAL 48% of the canvas width with generous margins above and below, so a centered 4:5 crop retains every garment. Relaxed natural cotton folds, gentle diagonal arrangement, full sleeves/collars/hems/waistbands visible, warm side sunlight and light leafy shadows at outer edges, editorial fashion photography. Preserve exact colors, cuts, print scale and motifs, no invented trim, logos or extra garments. No people, models, faces, hands, mannequins, text or watermark. The frame must read as a photograph of clothes, not a graphic layout.",
+          "reason": "Close framing clipped garment sleeves in narrower hero panel."
+        }
+      ],
+      "editReferencePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1371c-6382-7280-9c34-e6190981440d\\exec-62871b2d-ebca-489e-a1e3-3d4f46abbb4a.png",
+      "narrow": {
+        "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1371c-6382-7280-9c34-e6190981440d\\exec-412ae2d5-3882-4aef-87ed-5b5c038c67a1.png",
+        "prompt": "Use case: precise-object-edit / art direction. Create a PORTRAIT 4:5 version of this EXACT three-garment flat-lay for the narrow desktop hero. Preserve the cream plain polo, lilac star T-shirt and teal shorts, exact cut/colors/prints/texture and their triangular arrangement. Keep the ENTIRE clothing group fully visible, no clipped sleeve, collar, hem, waistband or leg, with margins on all sides. The group should occupy about 75% of the portrait frame width and the middle 65% of height. Extend the SAME ivory linen background above and below; remove only surplus linen at the left/right edges. Match soft sunshine and leafy corner shadows. No people, models, hands, mannequin, additional garments, typography, logos or watermarks. Request 1600x2000 or larger, opaque portrait 4:5 canvas. Full garment framing is more important than filling the image.",
+        "editReferencePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1371c-6382-7280-9c34-e6190981440d\\exec-9dba39a9-1b21-483f-af10-47f9fb776a7d.png"
+      }
+    },
+    {
+      "id": "category-t-shirts-park-v2",
+      "slot": "category-t-shirts",
+      "refs": [
+        "assets/originals/cast/model-006-reference-v1.png",
+        "assets/originals/catalog/product-001-cream-leaf-teal-model-v2.png"
+      ],
+      "modelIds": [
+        "model-006"
+      ],
+      "productIds": [
+        "product-001"
+      ],
+      "alt": "Davi corre por um parque urbano com camiseta creme de folhas e short verde-petróleo.",
+      "prompt": "Use case: identity-preserve. ONE photorealistic portrait 3:4 lifestyle kidswear category photograph, request 1536x2048 or larger. Input 1 approved fictional Davi age 4 is exact identity reference; input 2 is exact full wardrobe reference. Preserve his face, deep brown complexion, short tightly coiled hair, apparent age and proportions, and cream cotton T-shirt with green/teal leaf print and teal shorts exactly. Davi RUNS happily on a broad path through a Brazilian CITY PARK, captured mid-stride with one foot off ground and naturally swinging arms, side-front three-quarter view toward camera. Show complete T-shirt and shorts clearly, full body with breathing room and crisp face, slight motion blur only in background. Green grass, mature park trees, a city skyline or distant apartment buildings subtly visible, bright natural daylight. No garden courtyard, plaster wall, fashion standing pose, extra people in foreground, new garment details, text, logos or watermark. Authentic happy childhood action.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1371c-6382-7280-9c34-e6190981440d\\exec-947f5906-95cb-4538-87b0-769e59d70476.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "category-polos-city-v2",
+      "slot": "category-polos",
+      "refs": [
+        "assets/originals/cast/model-005-reference-v2.png",
+        "assets/originals/catalog/product-002-cream-model-v1.png"
+      ],
+      "modelIds": [
+        "model-005"
+      ],
+      "productIds": [
+        "product-002"
+      ],
+      "alt": "Miguel usa óculos de sol e polo lisa creme em uma calçada da cidade.",
+      "prompt": "Use case: identity-preserve. ONE photorealistic portrait 3:4 lifestyle kidswear category photograph, request 1536x2048 or larger. Image 1 is approved fictional Miguel identity reference; image 2 exact plain cream polo and teal shorts wardrobe. Preserve apparent child age, face shape, complexion, short brown hair, body proportions, exact plain polo collar and buttons, and teal shorts. Miguel wears small dark SUNGLASSES appropriate for a young child, walking casually on a sunlit Brazilian CITY sidewalk with modern pale stone architecture and storefront windows softly blurred behind him, glancing sideways with a cheerful relaxed smile and one hand lightly touching sunglasses. Full body with air above hair and below shoes, complete polo unobstructed. Soft late-afternoon daylight, modern urban editorial fashion photograph. No garden plants dominant, plaster garden wall, added polo embroidery or prints, adult, extra foreground people, text, logos or watermark. Sunglasses are an editorial accessory only.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1371c-6382-7280-9c34-e6190981440d\\exec-7a32eb19-84b1-40dc-a964-a1f061df11f4.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "category-matching-sets-clothes-v2",
+      "slot": "category-matching-sets",
+      "refs": [
+        "assets/originals/catalog/product-006-cream-teal-leaf-isolated-v1.png",
+        "assets/originals/catalog/product-025-cream-lilac-teal-isolated-v1.png"
+      ],
+      "modelIds": [],
+      "productIds": [
+        "product-006",
+        "product-025"
+      ],
+      "alt": "Dois conjuntos infantis, com camisetas creme estampadas e shorts verde-petróleo, sobre um banco de madeira.",
+      "prompt": "Use case: product-mockup. ONE photorealistic portrait 3:4 lifestyle category photograph for matching sets, request 1536x2048 or larger. Input 1 and input 2 are exact two-piece sets: botanical cream T-shirt with teal shorts, and geometric block cream T-shirt with teal shorts. Show ALL FOUR garments once each, complete and carefully laid out in two coordinated outfits on a warm natural wooden bench or broad wooden tabletop on a sunny urban apartment balcony. Three-quarter overhead camera, airy modern balcony details and softly blurred city rooftops at top, gentle soft light, natural cotton texture. Both tops above their matching teal shorts, complete hems, sleeves, collars and waistbands, no overlaps hiding clothes. Preserve exact garment silhouettes, motifs/print scale and colors. NO MODEL, people, hands, mannequins, accessories, text, logos, new trim or watermark. This should feel like a lifestyle editorial photograph of a few clothes, distinct from an ivory linen studio flat-lay.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1371c-6382-7280-9c34-e6190981440d\\exec-b941c367-6d33-4903-a7cb-a17169f262a2.png",
+      "tool": "built-in image_gen"
+    },
+    {
+      "id": "category-dresses-friends-v2",
+      "slot": "category-dresses",
+      "refs": [
+        "assets/originals/cast/model-004-reference-v2.png",
+        "assets/originals/cast/model-006-reference-v1.png",
+        "assets/originals/catalog/product-014-sky-cream-coral-model-v2.png",
+        "assets/originals/catalog/product-011-cream-sky-model-v1.png"
+      ],
+      "modelIds": [
+        "model-004",
+        "model-006"
+      ],
+      "productIds": [
+        "product-014",
+        "product-011"
+      ],
+      "alt": "Iara e Davi sorriem juntos sob o céu azul; ela usa vestido azul-claro e ele, polo listrada e short verde-petróleo.",
+      "prompt": "Use case: identity-preserve. ONE photorealistic portrait 3:4 lifestyle kidswear category image, request 1536x2048 or larger. Input 1 is exact approved fictional Iara age 8, input 2 exact approved fictional Davi age 4. Input 3 exact wardrobe for Iara: sky-blue short-sleeved dress with cream/coral chalk marks, gathered natural waist. Input 4 exact wardrobe for Davi: cream/sky-blue striped polo and teal shorts. Preserve each child's exact face, complexion, hair and apparent age; Iara is naturally taller than Davi. They stand CLOSE TOGETHER smiling joyfully at camera on an open grassy city-park hill, Iara gently placing one arm near Davi's shoulder, relaxed friendly pose, low-angle camera. Expansive clear BLUE SKY fills upper THIRD with a few soft white clouds ABOVE their complete heads. Show both full bodies and entire dress/polo/shorts, generous side margins and clear garment details. Sunny natural light, upbeat candid editorial photograph, no garden walls or enclosed courtyard. No extra children, sunglasses, changed garment details, new print, text, logos or watermark. Keep both children within central 85% of image.",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1371c-6382-7280-9c34-e6190981440d\\exec-f9a63284-5f8a-4f2e-b9ea-a39167cf4f80.png",
+      "tool": "built-in image_gen"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import { Suspense } from "react";
+import { Suspense, type ReactNode } from "react";
 import Link from "next/link";
 import { browse, parseBrowseUrl, type BrowseScope, type BrowseState } from "@/lib/browsing";
 import { catalog, copy, type Product } from "@/lib/catalog";
@@ -16,18 +16,19 @@ export function urlParams(values: Awaited<SearchParams>) {
   return params;
 }
 
-function Results({ products, scope, state }: { products: readonly Product[]; scope?: BrowseScope; state?: BrowseState }) {
+const fullWidthSizes = "(min-width:1024px) calc((100vw - 168px) / 4), (min-width:768px) calc((100vw - 112px) / 3), calc((100vw - 48px) / 2)";
+function Results({ products, scope, state, fullBleed = false }: { products: readonly Product[]; scope?: BrowseScope; state?: BrowseState; fullBleed?: boolean }) {
   const count = products.length;
   const label = count === 0 ? copy.browsing.resultCount.zero : count === 1 ? copy.browsing.resultCount.one : copy.browsing.resultCount.many.replace("{count}", String(count));
   return <>
     <p className="result-count" role="status">{label}</p>
-    {count ? <ProductGrid products={products} /> : <Empty>
+    {count ? <ProductGrid products={products} sizes={fullBleed ? fullWidthSizes : undefined} /> : <Empty>
       <EmptyHeader><EmptyTitle>{copy.browsing.emptyFilteredHeading}</EmptyTitle><EmptyDescription>{copy.browsing.emptyFilteredBody}</EmptyDescription></EmptyHeader>
       <EmptyContent>{scope && state ? <ResetBrowseFilters scope={scope} state={state} /> : <Button nativeButton={false} role="link" render={<Link href="/produtos" />}>{copy.common.exploreProducts}</Button>}</EmptyContent>
     </Empty>}
   </>;
 }
-async function ScopedResults({ scope, searchParams }: { scope: BrowseScope; searchParams: SearchParams }) {
+async function ScopedResults({ scope, searchParams, fullBleed }: { scope: BrowseScope; searchParams: SearchParams; fullBleed: boolean }) {
   const state = parseBrowseUrl(scope, urlParams(await searchParams));
   const groups: FilterGroup[] = [
     { key: "categories", label: copy.browsing.category, options: catalog.categories.map((item) => ({ value: item.id, label: item.name })) },
@@ -45,14 +46,17 @@ async function ScopedResults({ scope, searchParams }: { scope: BrowseScope; sear
     {unfilteredSearch ? <>
       <p className="result-count" role="status">{copy.browsing.resultCount.zero}</p>
       <Empty><EmptyHeader><EmptyTitle>{copy.search.noResultsHeading.replace("{query}", state.query)}</EmptyTitle><EmptyDescription>{copy.search.noResultsBody}</EmptyDescription></EmptyHeader><EmptyContent><Button nativeButton={false} role="link" render={<Link href="/produtos" />}>{copy.search.noResultsAction}</Button></EmptyContent></Empty>
-    </> : <Results products={result.products} scope={scope} state={state} />}
+    </> : <Results products={result.products} scope={scope} state={state} fullBleed={fullBleed} />}
   </>;
 }
 
-export function Listing({ heading, intro, scope, searchParams }: { heading: string; intro: string; scope: BrowseScope; searchParams: SearchParams }) {
+export function Listing({ heading, intro, scope, searchParams, opening, fullBleed = false }: { heading: string; intro: string; scope: BrowseScope; searchParams: SearchParams; opening?: ReactNode; fullBleed?: boolean }) {
   const initial = browse(scope, parseBrowseUrl(scope, new URLSearchParams()));
-  return <main id="main-content" className="content-container listing-page">
+  return <main id="main-content" className={fullBleed ? "editorial-page collection-detail" : "content-container listing-page"}>
+    {opening}
+    <div className={fullBleed ? "editorial-padding listing-page" : undefined}>
     <div className="page-intro"><h1>{heading}</h1><p>{intro}</p></div>
-    <Suspense fallback={<Results products={initial.products} />}><ScopedResults scope={scope} searchParams={searchParams} /></Suspense>
+    <Suspense fallback={<Results products={initial.products} fullBleed={fullBleed} />}><ScopedResults scope={scope} searchParams={searchParams} fullBleed={fullBleed} /></Suspense>
+    </div>
   </main>;
 }

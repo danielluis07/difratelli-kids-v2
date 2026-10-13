@@ -3,6 +3,9 @@
 docs/content/*.json -text whitespace=cr-at-eol
 # The complete-package approval also binds the visual review's exact bytes.
 docs/content/package-review.html -text
+# Homepage approvals also bind their visual review and review notes.
+docs/content/homepage*-review.html -text
+docs/content/homepage*-review.md -text
 # Historical approval snapshots must retain their exact source bytes too.
 docs/content/catalog-revisions/** -text whitespace=cr-at-eol
 # Identity approval records also bind the original font/license bytes.

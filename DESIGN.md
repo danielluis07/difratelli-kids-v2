@@ -1,6 +1,6 @@
 # Difratelli Kids design contract
 
-Status: accepted planning handoff following final human confirmation. Implementation has not begun.
+Status: accepted design contract, including the approved issue #34 editorial revision.
 
 This document specifies presentation. [Implementation specification](docs/implementation-spec.md) owns content, routes, behavior, and acceptance; [implementation plan](docs/implementation-plan.md) records the agreed delivery sequence, ownership, and integration checkpoints. Use [GLOSSARY.md](GLOSSARY.md) for domain terms.
 
@@ -26,8 +26,8 @@ Use Fraunces for expressive headings and DM Sans for navigation, shopping inform
 | Selection, focus, selective accent | Deep teal `#246B63` |
 | Decorative accents | Butter yellow `#F2D477`, soft coral `#E9A18F` |
 | Body / supporting text | 16px / 14px |
-| Section heading, desktop / mobile | 36px / 28px |
-| Hero heading, desktop / mobile | 56px / 36px |
+| Section heading, desktop / mobile | 32px / 28px on editorial pages; 36px / 28px elsewhere |
+| Hero heading, desktop / mobile | About 90px at wide desktop, 64px at narrow desktop/tablet, 48px mobile |
 | Primary control height / corners | 48px / 6px |
 | Focus indicator | Visible 2px teal outline with offset |
 | Feedback transition | Approximately 150ms; immediate with reduced motion |
@@ -46,7 +46,7 @@ Authority: [Define the visual system and page layouts for DESIGN.md](https://git
 | Header | Compact | Compact | Full navigation |
 | Hero | Left image only | Left image only | Equal split |
 
-Maximum content width is 1440px. Section spacing is 80px desktop and 48px mobile. Tablet-specific type and section-spacing interpolation is an implementation detail within this responsive system; preserve the approved compact header/hero threshold. Cards have no borders or shadows.
+The homepage, collection index/details and brand page run edge to edge with no 1440px cap, per [issue #34](https://github.com/danielluis07/difratelli-kids-v2/issues/34) and [ADR 0001](docs/adr/0001-full-bleed-editorial-storefront.md). Apply side padding only to text and shopping rows; other routes retain their 1440px maximum. Section spacing is 80px desktop and 48px mobile. Preserve the compact header/hero threshold. Cards have no borders or shadows.
 
 Product imagery is 3:4 portrait and preserves the whole garment. Category tiles are also 3:4. Editorial openings use 16:9 desktop and 4:3 mobile; the hero has its own placement-compatible crops. Paired image/text sections stack image-first on mobile. Crops preserve faces and clothing; approximate heights must grow when text or zoom needs more space.
 
@@ -54,21 +54,25 @@ Product imagery is 3:4 portrait and preserves the whole garment. Category tiles 
 
 Authority: [Define the visual system and page layouts for DESIGN.md](https://github.com/danielluis07/difratelli-kids-v2/issues/13#issuecomment-6087100152), [Define responsive behavior, accessibility, and interaction quality](https://github.com/danielluis07/difratelli-kids-v2/issues/9#issuecomment-6086531343).
 
-Use a sticky header. Desktop includes the wordmark; Novidades, Meninas, Meninos, Coleções, Sobre a Difratelli; search; favorites; and cart. Shopping menus open on click or keyboard activation and present category links in a simple panel. Compact navigation shows menu, logo, and cart; a left-opening Sheet with expandable groups retains every desktop destination, search, and favorites. No announcement strip is approved without subsequently agreed useful content.
+Use the existing sticky header. Desktop includes the wordmark; Novidades, Meninas, Meninos, Coleções, Sobre a Difratelli; search; favorites; and cart. Shopping menus open on click or keyboard activation and present category links in a simple panel. Compact navigation shows menu, logo, and cart; a left-opening Sheet with expandable groups retains every desktop destination, search, and favorites. Issue #34 approves a thin full-width announcement bar above this header, rotating approved Portuguese messages with previous/next, Detalhes and pause controls. Reduced motion stops rotation; header transparency and image mega menus remain a separate follow-up.
 
 Search opens from the header and submits to its results page. Favorites has a dedicated page; the cart opens a right Sheet. Keep public navigation usable while personalized state restores; counts and favorite indicators use neutral pending presentation.
 
-Footer includes shopping links, collection links, and a short brand introduction. Place the wordmark in header and footer. Use playful motifs sparsely in editorial sections without decorative animation. Do not add dead-end social/contact links, newsletter forms, discount banners, or invented service promises.
+Keep the existing footer with shopping links, collection links, and a short brand introduction. Place the wordmark in header and footer. Use playful motifs sparsely in editorial sections without decorative animation. Issue #34 permits approved fictional non-price promotions such as collection launches and combining pieces; never advertise a discount that catalog/cart/checkout do not apply. Do not add dead-end social/contact links, email-capture popups, signup forms, quick-add or invented service promises.
 
 ## Homepage
 
 Authority: [Choose the storefront structure and homepage opening](https://github.com/danielluis07/difratelli-kids-v2/issues/6#issuecomment-6086002380), [Define the visual system and page layouts for DESIGN.md](https://github.com/danielluis07/difratelli-kids-v2/issues/13#issuecomment-6087100152).
 
-Sequence: static hero; new-arrival product row; editorial collection feature; clothing-category tiles; second collection feature with products; short brand introduction; footer. Rotate the three collections through editorial and product sections. Product sections each use four explicitly approved products: four across on desktop, two-by-two on mobile, and the general three-column tablet rule. Each has a Ver todos link to its corresponding listing or collection.
+Authority for the following revision: [issue #34](https://github.com/danielluis07/difratelli-kids-v2/issues/34), the owner's approval in `docs/content/homepage-approval.json`, and [ADR 0001](docs/adr/0001-full-bleed-editorial-storefront.md). This supersedes the earlier homepage sequence and the issue #28 hero mockup/review screenshots; do not reapply them.
 
-Desktop hero: equal 50/50 split without a gap, approximately 600px tall, one static photograph per side. Left shows a child wearing clothing with quiet space for text; right shows a complementary everyday childhood scene. Below 1024px, show only the left image at approximately 520px with its separate crop. Place a short heading, one supporting sentence, and Comprar para meninas / Comprar para meninos in the lower-left area, left-aligned. Their destinations are the girls' and boys' listings.
+Follow Tea Collection's mapped homepage structure section by section: announcement bar; existing sticky header; static split hero; Novidades product carousel with all eight approved arrivals; promo heading strip; lifestyle category carousel with all eight categories; full-bleed quote editorial; full-bleed collection editorial with text right; three shop-the-look tabs with a large image beside a 2×2 product grid; Brincadeira de Rua product carousel using its approved selection; seven square editorial photos in a carousel; existing footer. Omit Tea's “Inspired by the world” row and email signup band. All three collections appear through arrivals, the collection feature and look tabs.
 
-Use brown text over a light photographic area or white over a dark area, with a restrained local scrim where needed. Never place text across the child's face or garment. There is no autoplay, crossfade loop, or hero playback control. This explicitly replaces the earlier alternating right-side hero requirement, including its reduced-motion alternative; both hero sides are static for everyone.
+Product carousels show about four cards on desktop, category tiles about 3.3, and photo strips about five. Compact widths expose part of the next card. Native horizontal scrolling/swipe, labeled previous/next buttons and arrow/Home/End keyboard navigation work without autoplay. Fully off-screen items leave the tab order. Ver todos and all editorial/category destinations lead to existing store routes.
+
+Desktop hero: equal 50/50 split without a gap, about 600–640px tall, one static photograph per side. Place large white Fraunces text, a small eyebrow and a 2×2 grid of light outlined actions directly over the lower-left photograph. Comprar para meninas and Comprar para meninos are required; Novidades and Todas as roupas complete the grid. Below 1024px, show only the left image with art-directed portrait/tablet crops and overlaid text. Allow the section to grow when text or zoom requires space.
+
+Use a localized dark gradient where needed for white text contrast; there is no ivory copy box. Preserve faces and clothing through the approved placement crops. The hero is static for everyone, with no autoplay, crossfade, video or playback control. The quote block has a large pull-quote, cast attribution with age, body and listing link; its wording is fictional approved editorial copy. The collection block has an eyebrow, bold heading, story and dark action on the right; stack copy below imagery at compact widths. Each look image matches its four linked product/colorway cards from one collection. The square photo strip has captions and no external social links.
 
 ## Listings, search, favorites, and collections
 
@@ -78,7 +82,7 @@ Listings use heading, short introduction where useful, result count, compact fil
 
 Cards show the product name, regular price, color swatches, and a favorite button over the photograph. Model photograph first; desktop hover and keyboard focus reveal the isolated garment photograph. Touch retains the model photograph and opens product detail on tap. Swatches preview the selected colorway. There is no quick-add button.
 
-The collections index leads to the three collection pages. Each detail opens with a wide photograph and short story, then its ten-product grid. Reuse collection photographs in homepage features. Use catalog photographs for category tiles. Collections group coordinating products; a matching set remains one separately purchasable product.
+The full-width collections index links to all three collection pages with their approved photographs and stories. Each detail opens with its approved full-bleed photograph, then its story and ten-product grid using shared filters/sorting. Known collection slugs are prerendered; unknown slugs return a 404 with a catalog action. Homepage category tiles use the lifestyle photographs approved for issue #34. Collections group coordinating products; a matching set remains one separately purchasable product.
 
 ## Product detail
 
@@ -92,7 +96,7 @@ Expandable description, fabric, and fit sections follow the purchase action; the
 
 Authority: [Define the visual system and page layouts for DESIGN.md](https://github.com/danielluis07/difratelli-kids-v2/issues/13#issuecomment-6087100152), [Choose imagery, brand assets, and editorial voice](https://github.com/danielluis07/difratelli-kids-v2/issues/7#issuecomment-6086244718).
 
-Use an opening photograph, concise introduction, and two alternating image/text sections about everyday childhood and comfortable clothing. Keep storytelling concrete and approachable. Do not introduce an earlier fictional-store disclosure into this or another shopping surface.
+Use the approved full-bleed opening photograph, concise introduction, and two alternating image/text sections about everyday childhood and clothing combinations. The page has no 1440px cap. Stack images before copy on compact screens; use sparse approved motifs without decorative motion. Keep storytelling concrete and approachable. Do not introduce an earlier fictional-store disclosure into this or another shopping surface.
 
 ## Cart, checkout, and confirmation
 

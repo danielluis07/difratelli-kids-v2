@@ -1,0 +1,663 @@
+{
+  "revision": "issue-34-content-v1",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/34",
+  "status": "approved",
+  "scope": "Issue 34 content review v1: imagery, WebP crops, Portuguese copy and approved editorial reuse",
+  "reviewer": "User in this conversation",
+  "evidence": {
+    "message": "approved, you can close the port",
+    "context": "Explicit user approval after reviewing the content page served on port 8000."
+  },
+  "recordedAtUtc": "2026-10-13T21:39:05.570Z",
+  "approvalRequestSha256": "38deba08bb85c1db97a5d0beb23f199a1cad8134bff992104673936ac55a39da",
+  "implementationAllowed": true,
+  "files": [
+    {
+      "path": "assets/originals/editorial/brand-combinations-v2.png",
+      "sha256": "03bb8c039bbe7f51b1cd16a54e1a8a1f03fdb3c2ce710b6d0d7e20c166508b2a"
+    },
+    {
+      "path": "assets/originals/editorial/brand-opening-v2.png",
+      "sha256": "66e1c9bd5ef36b60955f182ac0a28c99aae14daa30518a16f133f7e0018391c0"
+    },
+    {
+      "path": "assets/originals/editorial/brand-play-v2.png",
+      "sha256": "c4f228755a44c8320a368208e365622bf2382d6839c49b5b4e76c1d08275ebbc"
+    },
+    {
+      "path": "assets/originals/editorial/collection-brincadeira-v2.png",
+      "sha256": "ba29cab2c83221a2217c2c5c94b6f80074c381c10ad19ca98d305913baaaccd4"
+    },
+    {
+      "path": "assets/originals/editorial/collection-imaginacao-v2.png",
+      "sha256": "01313a3ae797355bdea7ddf6429ddc130da00fa899596742aa819b41e590fe28"
+    },
+    {
+      "path": "assets/originals/editorial/collection-quintal-v2.png",
+      "sha256": "3c92403a2234ea435e9eb259fec75e180d59821ae712fd1b9bf637b2be0dbe7d"
+    },
+    {
+      "path": "assets/originals/editorial/hero-left-tablet-v2.png",
+      "sha256": "e805349b4895c715d8463f192bb77134159308c9cb0fa08c90d2962ca19d8bae"
+    },
+    {
+      "path": "assets/originals/editorial/hero-left-v2.png",
+      "sha256": "10ab733db5e273fe2951beb8fdaf89476d8a03d602fc9fc3a43492cb9bc98e14"
+    },
+    {
+      "path": "assets/originals/editorial/hero-right-v3.png",
+      "sha256": "d54111f5c6a515d175df576f32ea48c723365546cef14759451acca860157efe"
+    },
+    {
+      "path": "assets/originals/homepage/category-dresses-v1.png",
+      "sha256": "63057a721f7e9e1b6998b9d84632f6319b35a9d696eda0f2aa78685678800c69"
+    },
+    {
+      "path": "assets/originals/homepage/category-light-layers-v1.png",
+      "sha256": "8deabe332eff17d99b46cda9a6fcef47256aa8213332d98c1df413e648474281"
+    },
+    {
+      "path": "assets/originals/homepage/category-matching-sets-v1.png",
+      "sha256": "a658424557cb84a76a635ad1eaaa2ef17d2f84d9eceb9c184d1e8dba906ed273"
+    },
+    {
+      "path": "assets/originals/homepage/category-polos-v1.png",
+      "sha256": "952764d3c8aeeb615951ea09f1d884dea6ee787727f06434eba81f3cd2d4a75c"
+    },
+    {
+      "path": "assets/originals/homepage/category-shorts-v1.png",
+      "sha256": "3d230ed9d39f4a7dcc2a58ae0b6c51665774633284935dca0a950fe339c337d2"
+    },
+    {
+      "path": "assets/originals/homepage/category-t-shirts-v1.png",
+      "sha256": "9e2c101d2618d54b89cc40285d36b9f41f212095f0939686a0d519cf186d05fc"
+    },
+    {
+      "path": "assets/originals/homepage/category-tops-v1.png",
+      "sha256": "18c63f8f49ec9842d4f1cbc90a46b5acdbda358a2b5c9fcdadfed42967f1009d"
+    },
+    {
+      "path": "assets/originals/homepage/category-trousers-v1.png",
+      "sha256": "75a8428ae6ec7349b4279255a85df1490135260064e1f3eea44c24cd72aff41c"
+    },
+    {
+      "path": "assets/originals/homepage/editorial-quintal-v1.png",
+      "sha256": "eb09e2d830a8773d1e4ad99245efd2bec12544a738e1f7a2c5cf0e8a205a984d"
+    },
+    {
+      "path": "assets/originals/homepage/hero-left-wide-v1.png",
+      "sha256": "b0f6b66111b81dbf2be131ef8e7753c0b2c57ea220b6fe3a8c854496d4276b6c"
+    },
+    {
+      "path": "assets/originals/homepage/hero-right-wide-v1.png",
+      "sha256": "94bb42536ed82dcbbbe55d552f4a3471b144264d5b14ba5f5004f50ad9740955"
+    },
+    {
+      "path": "assets/originals/homepage/look-brincadeira-v1.png",
+      "sha256": "d1dfebe9c01357c56c1fc70cd87d4eb5d5c65ece2186eb3d040aac379d306d9d"
+    },
+    {
+      "path": "assets/originals/homepage/look-imaginacao-v1.png",
+      "sha256": "df7f3a471575cb42ff4297414d77933e6bfe7e303a7cdfdafe2d6e9cc5611b27"
+    },
+    {
+      "path": "assets/originals/homepage/look-quintal-v1.png",
+      "sha256": "acf68313eb7b33460135f2d2cdcb9d93cb692d63d0dade75e211a603a39de07e"
+    },
+    {
+      "path": "assets/originals/homepage/quote-garments-v1.png",
+      "sha256": "6d44fc124974fd08d29142d4eebe124031b59b15c2af039dee01ca0860c98a2d"
+    },
+    {
+      "path": "docs/content/catalog-proposal.json",
+      "sha256": "02654dc79f66f76bba83f275b1602da6ef68589c65c35614428e35fd6a815743"
+    },
+    {
+      "path": "docs/content/copy-proposal.json",
+      "sha256": "a560cce004ff8092ad31e2b4cea3722441d16bc452f6a8dce3ebb0af1fe47014"
+    },
+    {
+      "path": "docs/content/editorial-approval.json",
+      "sha256": "0d888f5ee6e7f6c824ab78b73f6d836496e0e301eaf267daab7cf906888656ba"
+    },
+    {
+      "path": "docs/content/editorial-manifest.json",
+      "sha256": "9b385b8df778717e2f0731a7bdf0a64627cae1f2a4e5aca98a503889323741cc"
+    },
+    {
+      "path": "docs/content/homepage-contact-sheet.webp",
+      "sha256": "ee2da53764fba805d7c37b179f2e0edceafaa41a32b7f6953af8d228e3656a07"
+    },
+    {
+      "path": "docs/content/homepage-copy-proposal.json",
+      "sha256": "71571c9643047fabcdaa201a6d14033376014f21d79e8e23980d8026415cd76b"
+    },
+    {
+      "path": "docs/content/homepage-generation.json",
+      "sha256": "f9e58d252a18a1dbf5fbbd6239272e6d015ac478e22221ec9f23e9cacc2610ef"
+    },
+    {
+      "path": "docs/content/homepage-hero-1024-review.png",
+      "sha256": "2d5c9389d6cec54ac7d01524aa5f56742a2828993f034baffffacffbdcde77eb"
+    },
+    {
+      "path": "docs/content/homepage-hero-1440-review.png",
+      "sha256": "d700c8a0704c9f6006a3f79ff9563018e29ecf914cf1de8f2667f27bafc399f1"
+    },
+    {
+      "path": "docs/content/homepage-hero-1920-review.png",
+      "sha256": "ce7dc43aa2e0772e7d874e36cb793b92e16ddae64b6335b39a18a57a18a9c830"
+    },
+    {
+      "path": "docs/content/homepage-hero-390-review.png",
+      "sha256": "74181c2004dd9e1db5cf3a441e9b57332c306e2e0c921a6e029f917e2c466855"
+    },
+    {
+      "path": "docs/content/homepage-hero-768-review.png",
+      "sha256": "1eda7f20fb9bd7535f98170549f823d7132ae958019084f9b4d6ba37c1ad9b94"
+    },
+    {
+      "path": "docs/content/homepage-input-review.png",
+      "sha256": "7cd901812b15abead98373dd0ade6faf56615afc750991b74b3b4fa38ac23b5c"
+    },
+    {
+      "path": "docs/content/homepage-manifest.json",
+      "sha256": "3756b8c2a80eee0122fdf8e98be5901c1c14b09b765e59b0f741ed6ddcb7d1a6"
+    },
+    {
+      "path": "docs/content/homepage-review.html",
+      "sha256": "8085d193441947eceb336a7a50b470eb4ba3cfc8c5811923b02cd4308535872f"
+    },
+    {
+      "path": "docs/content/homepage-review.md",
+      "sha256": "7cff571e3c64d7c4ccfcfdab94b390e1272f4feada46d81245a6b6250ec7d4b4"
+    },
+    {
+      "path": "public/images/editorial/brand-combinations-compact-v2.webp",
+      "sha256": "6ca74c5ac2b925dcaa6300fd18df22e9dd90f99c70c63dfe28d4e241aa790875"
+    },
+    {
+      "path": "public/images/editorial/brand-combinations-desktop-v2.webp",
+      "sha256": "6ca74c5ac2b925dcaa6300fd18df22e9dd90f99c70c63dfe28d4e241aa790875"
+    },
+    {
+      "path": "public/images/editorial/brand-opening-compact-v2.webp",
+      "sha256": "a12c866a88bbf82e445d780a377daf14826f8dee4da7fcde43d5cf174c69347b"
+    },
+    {
+      "path": "public/images/editorial/brand-opening-desktop-v2.webp",
+      "sha256": "41b0c29fb0f8f00be9949b9cede9a7797c03edbcd418cda9441701657f9ec177"
+    },
+    {
+      "path": "public/images/editorial/brand-play-compact-v2.webp",
+      "sha256": "7444359f056952b131194cda59d30542d6a346a2fab10f439b3d9218372e6457"
+    },
+    {
+      "path": "public/images/editorial/brand-play-desktop-v2.webp",
+      "sha256": "7444359f056952b131194cda59d30542d6a346a2fab10f439b3d9218372e6457"
+    },
+    {
+      "path": "public/images/editorial/collection-brincadeira-compact-v2.webp",
+      "sha256": "0763163b1e078b80062793baab63120ddbd41b03c4f8c99888933412df1e91ca"
+    },
+    {
+      "path": "public/images/editorial/collection-brincadeira-desktop-v2.webp",
+      "sha256": "623f9d26cfdd5452652534d4e06aa30f4c897030380dcf8986ce32174cc1f91e"
+    },
+    {
+      "path": "public/images/editorial/collection-imaginacao-compact-v2.webp",
+      "sha256": "132b35c8aca09eca54dc5976e6cc8a89962043ee82c6a9a0916e591d1d88fff4"
+    },
+    {
+      "path": "public/images/editorial/collection-imaginacao-desktop-v2.webp",
+      "sha256": "fda9cc1e0b211b7ed9ab0a659dc9b51cd1ec42c6b8363959b6f09ffc8fedfb1b"
+    },
+    {
+      "path": "public/images/editorial/collection-quintal-compact-v2.webp",
+      "sha256": "d71c0c3f5fabd6250fd79cf2507bd8bf72d63aa289e21f7dfb0e292110e4f13e"
+    },
+    {
+      "path": "public/images/editorial/collection-quintal-desktop-v2.webp",
+      "sha256": "5545e8fb3646347fc2d66c57207b88b104b98f5abc2ef205220eabe91f2fbe25"
+    },
+    {
+      "path": "public/images/homepage/category-dresses-portrait-v1.webp",
+      "sha256": "945c63667b84865b84b49738a780b1d53657b94de0b2f42ed5bc710796317b78"
+    },
+    {
+      "path": "public/images/homepage/category-light-layers-portrait-v1.webp",
+      "sha256": "f8e5997fde8eb0e9ab79c590bd72bb813ab9e224889ebdb37dfe8f684ef65461"
+    },
+    {
+      "path": "public/images/homepage/category-matching-sets-portrait-v1.webp",
+      "sha256": "2b3d917e78ba3fc3476190d9919ae4e5f878447c20dfdb4cea31a8a35cac49f5"
+    },
+    {
+      "path": "public/images/homepage/category-polos-portrait-v1.webp",
+      "sha256": "95c83f2a8770d9dfb6a9703a5c78f660e87cc42aa50addf6664ab92027f6b8f5"
+    },
+    {
+      "path": "public/images/homepage/category-shorts-portrait-v1.webp",
+      "sha256": "c4bb22850addb8d46b4988358b5b3a5d08f7784d03609b6ee669e85a50be81eb"
+    },
+    {
+      "path": "public/images/homepage/category-t-shirts-portrait-v1.webp",
+      "sha256": "b2e2ebb9b27705bf4c2eef37b28a3ba33acb8470bd1b2dca50e4eb41b9e49559"
+    },
+    {
+      "path": "public/images/homepage/category-tops-portrait-v1.webp",
+      "sha256": "767ce1e9d87d852c87d33fe086978787c8c93bcf11e25e94fd716731a9cc1ba3"
+    },
+    {
+      "path": "public/images/homepage/category-trousers-portrait-v1.webp",
+      "sha256": "2eb6c8570ef590c9e8cff70fda8c364fbf289925e82723d93e730005a4e441d6"
+    },
+    {
+      "path": "public/images/homepage/editorial-quintal-compact-v1.webp",
+      "sha256": "95d9fa385e37f27fc1f84280dc7b758f0eda2ea50070644477dc6192399726ff"
+    },
+    {
+      "path": "public/images/homepage/editorial-quintal-desktop-v1.webp",
+      "sha256": "2834e58e32462920b12fec9c95b00a8a822b3bc54136354982f5481f70f5ddf0"
+    },
+    {
+      "path": "public/images/homepage/hero-left-narrow-v1.webp",
+      "sha256": "b64f3665ea4950231844c381d16bcf186570f588bbf12781d27d33ae1bfccd9a"
+    },
+    {
+      "path": "public/images/homepage/hero-left-portrait-v1.webp",
+      "sha256": "32eb38681bfad10d00dbf87c092d4a90c46d1acb8d3ad9d6325014ff1909e335"
+    },
+    {
+      "path": "public/images/homepage/hero-left-tablet-tablet-v1.webp",
+      "sha256": "4fb36a4a2d1b261fdf83e249bddf8359599ca248f28c7516ab7e81b6a73e53ca"
+    },
+    {
+      "path": "public/images/homepage/hero-left-wide-desktop-v1.webp",
+      "sha256": "2273e33c767c11078c34ee3c85c1087555d2810ca4452c462ae724666f190542"
+    },
+    {
+      "path": "public/images/homepage/hero-right-narrow-v1.webp",
+      "sha256": "07256d3ae104f892956cf6b954ccb8a31e6fa93c8771ae6c74bd45cc30718eb3"
+    },
+    {
+      "path": "public/images/homepage/hero-right-wide-desktop-v1.webp",
+      "sha256": "25b67f20dac7f729674383f37d9751802a6cd922bcba18b22956f6fe4c277ed5"
+    },
+    {
+      "path": "public/images/homepage/look-brincadeira-landscape-v1.webp",
+      "sha256": "a8780015cfe83cdfeb8c9ad4616b209fe420558f7b5acd7d52939e13cadb7bd2"
+    },
+    {
+      "path": "public/images/homepage/look-imaginacao-landscape-v1.webp",
+      "sha256": "23fa13ee5277181f300fdc4937b8bb47e7377e5af5bdd17e3e1d966e8362e7b9"
+    },
+    {
+      "path": "public/images/homepage/look-quintal-landscape-v1.webp",
+      "sha256": "309690bf808931472bbf73fb7f1ba780e5f060ef6da4c5a1a630f44fe159f939"
+    },
+    {
+      "path": "public/images/homepage/quote-garments-compact-v1.webp",
+      "sha256": "4c611675a37630fb4c4c9f37a6927624650adc5cf76719c382a304f358aef560"
+    },
+    {
+      "path": "public/images/homepage/quote-garments-desktop-v1.webp",
+      "sha256": "2116bb3772453a059ee2f6685070198322f5111e03549a59f7a9e5e59a6398e8"
+    },
+    {
+      "path": "public/images/homepage/social-1-square-v1.webp",
+      "sha256": "9a315ebba005af937e62796a94f8bc34a26ea83a9c313bd7421fb5cffc171cfa"
+    },
+    {
+      "path": "public/images/homepage/social-2-square-v1.webp",
+      "sha256": "c99e66a0b0585c3c6eac7fd2d4cfbead4a9b3585c256c14f434e9342f8870254"
+    },
+    {
+      "path": "public/images/homepage/social-3-square-v1.webp",
+      "sha256": "69e12f8caa10a2d4f8be80f90867f90415cc37073250a07065ca6f409db41038"
+    },
+    {
+      "path": "public/images/homepage/social-4-square-v1.webp",
+      "sha256": "ed2c958e819605547dc6d2898f9c07736ee23a7b4f060ff121dc4f58e5ecf12d"
+    },
+    {
+      "path": "public/images/homepage/social-5-square-v1.webp",
+      "sha256": "662f41f4811108629dc5702d9a7879a212ac2a66b4bd3dc984ad16d011172726"
+    },
+    {
+      "path": "public/images/homepage/social-6-square-v1.webp",
+      "sha256": "0fd7a2135bb5f2af4a7e4adb16c85a6cfb159debae031b174f8d9e767a278a94"
+    },
+    {
+      "path": "public/images/homepage/social-7-square-v1.webp",
+      "sha256": "1739f9a7620e8659e0816005849a44282744a999a517f1ac1978ccc8002665e2"
+    }
+  ],
+  "reviewedFiles": [
+    {
+      "path": "assets/originals/editorial/brand-combinations-v2.png",
+      "sha256": "03bb8c039bbe7f51b1cd16a54e1a8a1f03fdb3c2ce710b6d0d7e20c166508b2a"
+    },
+    {
+      "path": "assets/originals/editorial/brand-opening-v2.png",
+      "sha256": "66e1c9bd5ef36b60955f182ac0a28c99aae14daa30518a16f133f7e0018391c0"
+    },
+    {
+      "path": "assets/originals/editorial/brand-play-v2.png",
+      "sha256": "c4f228755a44c8320a368208e365622bf2382d6839c49b5b4e76c1d08275ebbc"
+    },
+    {
+      "path": "assets/originals/editorial/collection-brincadeira-v2.png",
+      "sha256": "ba29cab2c83221a2217c2c5c94b6f80074c381c10ad19ca98d305913baaaccd4"
+    },
+    {
+      "path": "assets/originals/editorial/collection-imaginacao-v2.png",
+      "sha256": "01313a3ae797355bdea7ddf6429ddc130da00fa899596742aa819b41e590fe28"
+    },
+    {
+      "path": "assets/originals/editorial/collection-quintal-v2.png",
+      "sha256": "3c92403a2234ea435e9eb259fec75e180d59821ae712fd1b9bf637b2be0dbe7d"
+    },
+    {
+      "path": "assets/originals/editorial/hero-left-tablet-v2.png",
+      "sha256": "e805349b4895c715d8463f192bb77134159308c9cb0fa08c90d2962ca19d8bae"
+    },
+    {
+      "path": "assets/originals/editorial/hero-left-v2.png",
+      "sha256": "10ab733db5e273fe2951beb8fdaf89476d8a03d602fc9fc3a43492cb9bc98e14"
+    },
+    {
+      "path": "assets/originals/editorial/hero-right-v3.png",
+      "sha256": "d54111f5c6a515d175df576f32ea48c723365546cef14759451acca860157efe"
+    },
+    {
+      "path": "assets/originals/homepage/category-dresses-v1.png",
+      "sha256": "63057a721f7e9e1b6998b9d84632f6319b35a9d696eda0f2aa78685678800c69"
+    },
+    {
+      "path": "assets/originals/homepage/category-light-layers-v1.png",
+      "sha256": "8deabe332eff17d99b46cda9a6fcef47256aa8213332d98c1df413e648474281"
+    },
+    {
+      "path": "assets/originals/homepage/category-matching-sets-v1.png",
+      "sha256": "a658424557cb84a76a635ad1eaaa2ef17d2f84d9eceb9c184d1e8dba906ed273"
+    },
+    {
+      "path": "assets/originals/homepage/category-polos-v1.png",
+      "sha256": "952764d3c8aeeb615951ea09f1d884dea6ee787727f06434eba81f3cd2d4a75c"
+    },
+    {
+      "path": "assets/originals/homepage/category-shorts-v1.png",
+      "sha256": "3d230ed9d39f4a7dcc2a58ae0b6c51665774633284935dca0a950fe339c337d2"
+    },
+    {
+      "path": "assets/originals/homepage/category-t-shirts-v1.png",
+      "sha256": "9e2c101d2618d54b89cc40285d36b9f41f212095f0939686a0d519cf186d05fc"
+    },
+    {
+      "path": "assets/originals/homepage/category-tops-v1.png",
+      "sha256": "18c63f8f49ec9842d4f1cbc90a46b5acdbda358a2b5c9fcdadfed42967f1009d"
+    },
+    {
+      "path": "assets/originals/homepage/category-trousers-v1.png",
+      "sha256": "75a8428ae6ec7349b4279255a85df1490135260064e1f3eea44c24cd72aff41c"
+    },
+    {
+      "path": "assets/originals/homepage/editorial-quintal-v1.png",
+      "sha256": "eb09e2d830a8773d1e4ad99245efd2bec12544a738e1f7a2c5cf0e8a205a984d"
+    },
+    {
+      "path": "assets/originals/homepage/hero-left-wide-v1.png",
+      "sha256": "b0f6b66111b81dbf2be131ef8e7753c0b2c57ea220b6fe3a8c854496d4276b6c"
+    },
+    {
+      "path": "assets/originals/homepage/hero-right-wide-v1.png",
+      "sha256": "94bb42536ed82dcbbbe55d552f4a3471b144264d5b14ba5f5004f50ad9740955"
+    },
+    {
+      "path": "assets/originals/homepage/look-brincadeira-v1.png",
+      "sha256": "d1dfebe9c01357c56c1fc70cd87d4eb5d5c65ece2186eb3d040aac379d306d9d"
+    },
+    {
+      "path": "assets/originals/homepage/look-imaginacao-v1.png",
+      "sha256": "df7f3a471575cb42ff4297414d77933e6bfe7e303a7cdfdafe2d6e9cc5611b27"
+    },
+    {
+      "path": "assets/originals/homepage/look-quintal-v1.png",
+      "sha256": "acf68313eb7b33460135f2d2cdcb9d93cb692d63d0dade75e211a603a39de07e"
+    },
+    {
+      "path": "assets/originals/homepage/quote-garments-v1.png",
+      "sha256": "6d44fc124974fd08d29142d4eebe124031b59b15c2af039dee01ca0860c98a2d"
+    },
+    {
+      "path": "docs/content/catalog-proposal.json",
+      "sha256": "02654dc79f66f76bba83f275b1602da6ef68589c65c35614428e35fd6a815743"
+    },
+    {
+      "path": "docs/content/copy-proposal.json",
+      "sha256": "a560cce004ff8092ad31e2b4cea3722441d16bc452f6a8dce3ebb0af1fe47014"
+    },
+    {
+      "path": "docs/content/editorial-approval.json",
+      "sha256": "0d888f5ee6e7f6c824ab78b73f6d836496e0e301eaf267daab7cf906888656ba"
+    },
+    {
+      "path": "docs/content/editorial-manifest.json",
+      "sha256": "9b385b8df778717e2f0731a7bdf0a64627cae1f2a4e5aca98a503889323741cc"
+    },
+    {
+      "path": "docs/content/homepage-contact-sheet.webp",
+      "sha256": "ee2da53764fba805d7c37b179f2e0edceafaa41a32b7f6953af8d228e3656a07"
+    },
+    {
+      "path": "docs/content/homepage-copy-proposal.json",
+      "sha256": "71571c9643047fabcdaa201a6d14033376014f21d79e8e23980d8026415cd76b"
+    },
+    {
+      "path": "docs/content/homepage-generation.json",
+      "sha256": "f9e58d252a18a1dbf5fbbd6239272e6d015ac478e22221ec9f23e9cacc2610ef"
+    },
+    {
+      "path": "docs/content/homepage-hero-1024-review.png",
+      "sha256": "2d5c9389d6cec54ac7d01524aa5f56742a2828993f034baffffacffbdcde77eb"
+    },
+    {
+      "path": "docs/content/homepage-hero-1440-review.png",
+      "sha256": "d700c8a0704c9f6006a3f79ff9563018e29ecf914cf1de8f2667f27bafc399f1"
+    },
+    {
+      "path": "docs/content/homepage-hero-1920-review.png",
+      "sha256": "ce7dc43aa2e0772e7d874e36cb793b92e16ddae64b6335b39a18a57a18a9c830"
+    },
+    {
+      "path": "docs/content/homepage-hero-390-review.png",
+      "sha256": "74181c2004dd9e1db5cf3a441e9b57332c306e2e0c921a6e029f917e2c466855"
+    },
+    {
+      "path": "docs/content/homepage-hero-768-review.png",
+      "sha256": "1eda7f20fb9bd7535f98170549f823d7132ae958019084f9b4d6ba37c1ad9b94"
+    },
+    {
+      "path": "docs/content/homepage-input-review.png",
+      "sha256": "7cd901812b15abead98373dd0ade6faf56615afc750991b74b3b4fa38ac23b5c"
+    },
+    {
+      "path": "docs/content/homepage-manifest.json",
+      "sha256": "3756b8c2a80eee0122fdf8e98be5901c1c14b09b765e59b0f741ed6ddcb7d1a6"
+    },
+    {
+      "path": "docs/content/homepage-review.html",
+      "sha256": "8085d193441947eceb336a7a50b470eb4ba3cfc8c5811923b02cd4308535872f"
+    },
+    {
+      "path": "docs/content/homepage-review.md",
+      "sha256": "7cff571e3c64d7c4ccfcfdab94b390e1272f4feada46d81245a6b6250ec7d4b4"
+    },
+    {
+      "path": "public/images/editorial/brand-combinations-compact-v2.webp",
+      "sha256": "6ca74c5ac2b925dcaa6300fd18df22e9dd90f99c70c63dfe28d4e241aa790875"
+    },
+    {
+      "path": "public/images/editorial/brand-combinations-desktop-v2.webp",
+      "sha256": "6ca74c5ac2b925dcaa6300fd18df22e9dd90f99c70c63dfe28d4e241aa790875"
+    },
+    {
+      "path": "public/images/editorial/brand-opening-compact-v2.webp",
+      "sha256": "a12c866a88bbf82e445d780a377daf14826f8dee4da7fcde43d5cf174c69347b"
+    },
+    {
+      "path": "public/images/editorial/brand-opening-desktop-v2.webp",
+      "sha256": "41b0c29fb0f8f00be9949b9cede9a7797c03edbcd418cda9441701657f9ec177"
+    },
+    {
+      "path": "public/images/editorial/brand-play-compact-v2.webp",
+      "sha256": "7444359f056952b131194cda59d30542d6a346a2fab10f439b3d9218372e6457"
+    },
+    {
+      "path": "public/images/editorial/brand-play-desktop-v2.webp",
+      "sha256": "7444359f056952b131194cda59d30542d6a346a2fab10f439b3d9218372e6457"
+    },
+    {
+      "path": "public/images/editorial/collection-brincadeira-compact-v2.webp",
+      "sha256": "0763163b1e078b80062793baab63120ddbd41b03c4f8c99888933412df1e91ca"
+    },
+    {
+      "path": "public/images/editorial/collection-brincadeira-desktop-v2.webp",
+      "sha256": "623f9d26cfdd5452652534d4e06aa30f4c897030380dcf8986ce32174cc1f91e"
+    },
+    {
+      "path": "public/images/editorial/collection-imaginacao-compact-v2.webp",
+      "sha256": "132b35c8aca09eca54dc5976e6cc8a89962043ee82c6a9a0916e591d1d88fff4"
+    },
+    {
+      "path": "public/images/editorial/collection-imaginacao-desktop-v2.webp",
+      "sha256": "fda9cc1e0b211b7ed9ab0a659dc9b51cd1ec42c6b8363959b6f09ffc8fedfb1b"
+    },
+    {
+      "path": "public/images/editorial/collection-quintal-compact-v2.webp",
+      "sha256": "d71c0c3f5fabd6250fd79cf2507bd8bf72d63aa289e21f7dfb0e292110e4f13e"
+    },
+    {
+      "path": "public/images/editorial/collection-quintal-desktop-v2.webp",
+      "sha256": "5545e8fb3646347fc2d66c57207b88b104b98f5abc2ef205220eabe91f2fbe25"
+    },
+    {
+      "path": "public/images/homepage/category-dresses-portrait-v1.webp",
+      "sha256": "945c63667b84865b84b49738a780b1d53657b94de0b2f42ed5bc710796317b78"
+    },
+    {
+      "path": "public/images/homepage/category-light-layers-portrait-v1.webp",
+      "sha256": "f8e5997fde8eb0e9ab79c590bd72bb813ab9e224889ebdb37dfe8f684ef65461"
+    },
+    {
+      "path": "public/images/homepage/category-matching-sets-portrait-v1.webp",
+      "sha256": "2b3d917e78ba3fc3476190d9919ae4e5f878447c20dfdb4cea31a8a35cac49f5"
+    },
+    {
+      "path": "public/images/homepage/category-polos-portrait-v1.webp",
+      "sha256": "95c83f2a8770d9dfb6a9703a5c78f660e87cc42aa50addf6664ab92027f6b8f5"
+    },
+    {
+      "path": "public/images/homepage/category-shorts-portrait-v1.webp",
+      "sha256": "c4bb22850addb8d46b4988358b5b3a5d08f7784d03609b6ee669e85a50be81eb"
+    },
+    {
+      "path": "public/images/homepage/category-t-shirts-portrait-v1.webp",
+      "sha256": "b2e2ebb9b27705bf4c2eef37b28a3ba33acb8470bd1b2dca50e4eb41b9e49559"
+    },
+    {
+      "path": "public/images/homepage/category-tops-portrait-v1.webp",
+      "sha256": "767ce1e9d87d852c87d33fe086978787c8c93bcf11e25e94fd716731a9cc1ba3"
+    },
+    {
+      "path": "public/images/homepage/category-trousers-portrait-v1.webp",
+      "sha256": "2eb6c8570ef590c9e8cff70fda8c364fbf289925e82723d93e730005a4e441d6"
+    },
+    {
+      "path": "public/images/homepage/editorial-quintal-compact-v1.webp",
+      "sha256": "95d9fa385e37f27fc1f84280dc7b758f0eda2ea50070644477dc6192399726ff"
+    },
+    {
+      "path": "public/images/homepage/editorial-quintal-desktop-v1.webp",
+      "sha256": "2834e58e32462920b12fec9c95b00a8a822b3bc54136354982f5481f70f5ddf0"
+    },
+    {
+      "path": "public/images/homepage/hero-left-narrow-v1.webp",
+      "sha256": "b64f3665ea4950231844c381d16bcf186570f588bbf12781d27d33ae1bfccd9a"
+    },
+    {
+      "path": "public/images/homepage/hero-left-portrait-v1.webp",
+      "sha256": "32eb38681bfad10d00dbf87c092d4a90c46d1acb8d3ad9d6325014ff1909e335"
+    },
+    {
+      "path": "public/images/homepage/hero-left-tablet-tablet-v1.webp",
+      "sha256": "4fb36a4a2d1b261fdf83e249bddf8359599ca248f28c7516ab7e81b6a73e53ca"
+    },
+    {
+      "path": "public/images/homepage/hero-left-wide-desktop-v1.webp",
+      "sha256": "2273e33c767c11078c34ee3c85c1087555d2810ca4452c462ae724666f190542"
+    },
+    {
+      "path": "public/images/homepage/hero-right-narrow-v1.webp",
+      "sha256": "07256d3ae104f892956cf6b954ccb8a31e6fa93c8771ae6c74bd45cc30718eb3"
+    },
+    {
+      "path": "public/images/homepage/hero-right-wide-desktop-v1.webp",
+      "sha256": "25b67f20dac7f729674383f37d9751802a6cd922bcba18b22956f6fe4c277ed5"
+    },
+    {
+      "path": "public/images/homepage/look-brincadeira-landscape-v1.webp",
+      "sha256": "a8780015cfe83cdfeb8c9ad4616b209fe420558f7b5acd7d52939e13cadb7bd2"
+    },
+    {
+      "path": "public/images/homepage/look-imaginacao-landscape-v1.webp",
+      "sha256": "23fa13ee5277181f300fdc4937b8bb47e7377e5af5bdd17e3e1d966e8362e7b9"
+    },
+    {
+      "path": "public/images/homepage/look-quintal-landscape-v1.webp",
+      "sha256": "309690bf808931472bbf73fb7f1ba780e5f060ef6da4c5a1a630f44fe159f939"
+    },
+    {
+      "path": "public/images/homepage/quote-garments-compact-v1.webp",
+      "sha256": "4c611675a37630fb4c4c9f37a6927624650adc5cf76719c382a304f358aef560"
+    },
+    {
+      "path": "public/images/homepage/quote-garments-desktop-v1.webp",
+      "sha256": "2116bb3772453a059ee2f6685070198322f5111e03549a59f7a9e5e59a6398e8"
+    },
+    {
+      "path": "public/images/homepage/social-1-square-v1.webp",
+      "sha256": "9a315ebba005af937e62796a94f8bc34a26ea83a9c313bd7421fb5cffc171cfa"
+    },
+    {
+      "path": "public/images/homepage/social-2-square-v1.webp",
+      "sha256": "c99e66a0b0585c3c6eac7fd2d4cfbead4a9b3585c256c14f434e9342f8870254"
+    },
+    {
+      "path": "public/images/homepage/social-3-square-v1.webp",
+      "sha256": "69e12f8caa10a2d4f8be80f90867f90415cc37073250a07065ca6f409db41038"
+    },
+    {
+      "path": "public/images/homepage/social-4-square-v1.webp",
+      "sha256": "ed2c958e819605547dc6d2898f9c07736ee23a7b4f060ff121dc4f58e5ecf12d"
+    },
+    {
+      "path": "public/images/homepage/social-5-square-v1.webp",
+      "sha256": "662f41f4811108629dc5702d9a7879a212ac2a66b4bd3dc984ad16d011172726"
+    },
+    {
+      "path": "public/images/homepage/social-6-square-v1.webp",
+      "sha256": "0fd7a2135bb5f2af4a7e4adb16c85a6cfb159debae031b174f8d9e767a278a94"
+    },
+    {
+      "path": "public/images/homepage/social-7-square-v1.webp",
+      "sha256": "1739f9a7620e8659e0816005849a44282744a999a517f1ac1978ccc8002665e2"
+    }
+  ],
+  "requestedCorrections": [],
+  "remainingGates": [
+    "Storefront implementation acceptance",
+    "Release approval"
+  ]
+}

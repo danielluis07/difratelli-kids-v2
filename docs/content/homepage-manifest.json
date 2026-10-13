@@ -1,0 +1,1623 @@
+{
+  "revision": "issue-34-content-v1",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/34",
+  "approvalStatus": "pending-human-review",
+  "implementationAllowed": false,
+  "technicalStatus": "passed",
+  "assets": [
+    {
+      "id": "category-t-shirts",
+      "role": "category-tile",
+      "productIds": [
+        "product-003"
+      ],
+      "modelIds": [
+        "model-001"
+      ],
+      "collectionIds": [
+        "collection-001"
+      ],
+      "originalPath": "assets/originals/homepage/category-t-shirts-v1.png",
+      "originalSha256": "9e2c101d2618d54b89cc40285d36b9f41f212095f0939686a0d519cf186d05fc",
+      "width": 1086,
+      "height": 1448,
+      "originalBytes": 2491618,
+      "alt": "Lia no quintal com camiseta creme estampada com sementes e brotos e short verde-petróleo.",
+      "usage": [
+        "category-tile"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/cast/model-001-reference-v1.png",
+          "sha256": "4dfe5ae27cb5ed408505aa892ae3f012535e19ebb1e5917dbae39acb3294af43"
+        },
+        {
+          "path": "assets/originals/catalog/product-003-cream-butter-leaf-model-v1.png",
+          "sha256": "4fcd3299b875104deed2071651b61fa979a0c2a1dc7947865bfb40de6cf156e3"
+        }
+      ],
+      "crops": [
+        {
+          "name": "portrait",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1086,
+            "height": 1448
+          },
+          "width": 1086,
+          "height": 1448,
+          "webPath": "public/images/homepage/category-t-shirts-portrait-v1.webp",
+          "src": "/images/homepage/category-t-shirts-portrait-v1.webp",
+          "sha256": "b2e2ebb9b27705bf4c2eef37b28a3ba33acb8470bd1b2dca50e4eb41b9e49559",
+          "bytes": 305622,
+          "usage": [
+            "category-tile"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed"
+    },
+    {
+      "id": "category-polos",
+      "role": "category-tile",
+      "productIds": [
+        "product-002"
+      ],
+      "modelIds": [
+        "model-005"
+      ],
+      "collectionIds": [
+        "collection-001"
+      ],
+      "originalPath": "assets/originals/homepage/category-polos-v1.png",
+      "originalSha256": "952764d3c8aeeb615951ea09f1d884dea6ee787727f06434eba81f3cd2d4a75c",
+      "width": 1086,
+      "height": 1448,
+      "originalBytes": 2293278,
+      "alt": "Miguel no pátio com polo lisa creme e short verde-petróleo.",
+      "usage": [
+        "category-tile"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/cast/model-005-reference-v2.png",
+          "sha256": "446b8c30e3568325be58210aad97775878ae928a5c3495d7593668120526ecd8"
+        },
+        {
+          "path": "assets/originals/catalog/product-002-cream-model-v1.png",
+          "sha256": "b34a0c3fb5f34c64cbc1296441e3cea8671c50edf88852ddd95fe8cc61a53058"
+        }
+      ],
+      "crops": [
+        {
+          "name": "portrait",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1086,
+            "height": 1448
+          },
+          "width": 1086,
+          "height": 1448,
+          "webPath": "public/images/homepage/category-polos-portrait-v1.webp",
+          "src": "/images/homepage/category-polos-portrait-v1.webp",
+          "sha256": "95c83f2a8770d9dfb6a9703a5c78f660e87cc42aa50addf6664ab92027f6b8f5",
+          "bytes": 245046,
+          "usage": [
+            "category-tile"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed"
+    },
+    {
+      "id": "category-tops",
+      "role": "category-tile",
+      "productIds": [
+        "product-004"
+      ],
+      "modelIds": [
+        "model-002"
+      ],
+      "collectionIds": [
+        "collection-001"
+      ],
+      "originalPath": "assets/originals/homepage/category-tops-v1.png",
+      "originalSha256": "18c63f8f49ec9842d4f1cbc90a46b5acdbda358a2b5c9fcdadfed42967f1009d",
+      "width": 1086,
+      "height": 1448,
+      "originalBytes": 2724510,
+      "alt": "Bia no jardim com blusa creme estampada com folhas e besouros e short verde-petróleo.",
+      "usage": [
+        "category-tile"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/cast/model-002-reference-v2.png",
+          "sha256": "c29fb497afb76beb42db5c7671b463d9f8261f94dc1bcebfd1d8821eae59a367"
+        },
+        {
+          "path": "assets/originals/catalog/product-004-cream-leaf-teal-model-v1.png",
+          "sha256": "66e677626862eef89c3798e6618c777b03f15bc81bdaa27ccf97e794bdafa0a2"
+        }
+      ],
+      "crops": [
+        {
+          "name": "portrait",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1086,
+            "height": 1448
+          },
+          "width": 1086,
+          "height": 1448,
+          "webPath": "public/images/homepage/category-tops-portrait-v1.webp",
+          "src": "/images/homepage/category-tops-portrait-v1.webp",
+          "sha256": "767ce1e9d87d852c87d33fe086978787c8c93bcf11e25e94fd716731a9cc1ba3",
+          "bytes": 376344,
+          "usage": [
+            "category-tile"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed"
+    },
+    {
+      "id": "category-shorts",
+      "role": "category-tile",
+      "productIds": [
+        "product-007"
+      ],
+      "modelIds": [
+        "model-001"
+      ],
+      "collectionIds": [
+        "collection-001"
+      ],
+      "originalPath": "assets/originals/homepage/category-shorts-v1.png",
+      "originalSha256": "3d230ed9d39f4a7dcc2a58ae0b6c51665774633284935dca0a950fe339c337d2",
+      "width": 1086,
+      "height": 1448,
+      "originalBytes": 2350983,
+      "alt": "Lia no pátio com short verde-folha e camiseta creme.",
+      "usage": [
+        "category-tile"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/cast/model-001-reference-v1.png",
+          "sha256": "4dfe5ae27cb5ed408505aa892ae3f012535e19ebb1e5917dbae39acb3294af43"
+        },
+        {
+          "path": "assets/originals/catalog/product-007-leaf-model-v1.png",
+          "sha256": "235156f6bcb1719ec4bf7fd8c91ba1ebaa8aa1b6ccb668f2950a30beeb8881b7"
+        }
+      ],
+      "crops": [
+        {
+          "name": "portrait",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1086,
+            "height": 1448
+          },
+          "width": 1086,
+          "height": 1448,
+          "webPath": "public/images/homepage/category-shorts-portrait-v1.webp",
+          "src": "/images/homepage/category-shorts-portrait-v1.webp",
+          "sha256": "c4bb22850addb8d46b4988358b5b3a5d08f7784d03609b6ee669e85a50be81eb",
+          "bytes": 250952,
+          "usage": [
+            "category-tile"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed"
+    },
+    {
+      "id": "category-trousers",
+      "role": "category-tile",
+      "productIds": [
+        "product-009"
+      ],
+      "modelIds": [
+        "model-007"
+      ],
+      "collectionIds": [
+        "collection-001"
+      ],
+      "originalPath": "assets/originals/homepage/category-trousers-v1.png",
+      "originalSha256": "75a8428ae6ec7349b4279255a85df1490135260064e1f3eea44c24cd72aff41c",
+      "width": 1086,
+      "height": 1448,
+      "originalBytes": 2746058,
+      "alt": "Theo no caminho do jardim com calça verde-folha e camiseta creme.",
+      "usage": [
+        "category-tile"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/cast/model-007-reference-v1.png",
+          "sha256": "fd435230a5c3757ba17f2e2ccccae69f4c39eabb28d66ced2a46846c218469bd"
+        },
+        {
+          "path": "assets/originals/catalog/product-009-leaf-model-v3.png",
+          "sha256": "7bab701404d6d29c5054d54c8beb1ef8293a643b7a8bbe3416131723899d929b"
+        }
+      ],
+      "crops": [
+        {
+          "name": "portrait",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1086,
+            "height": 1448
+          },
+          "width": 1086,
+          "height": 1448,
+          "webPath": "public/images/homepage/category-trousers-portrait-v1.webp",
+          "src": "/images/homepage/category-trousers-portrait-v1.webp",
+          "sha256": "2eb6c8570ef590c9e8cff70fda8c364fbf289925e82723d93e730005a4e441d6",
+          "bytes": 349932,
+          "usage": [
+            "category-tile"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed"
+    },
+    {
+      "id": "category-matching-sets",
+      "role": "category-tile",
+      "productIds": [
+        "product-006"
+      ],
+      "modelIds": [
+        "model-006"
+      ],
+      "collectionIds": [
+        "collection-001"
+      ],
+      "originalPath": "assets/originals/homepage/category-matching-sets-v1.png",
+      "originalSha256": "a658424557cb84a76a635ad1eaaa2ef17d2f84d9eceb9c184d1e8dba906ed273",
+      "width": 1086,
+      "height": 1448,
+      "originalBytes": 2524838,
+      "alt": "Davi no quintal com conjunto de camiseta creme estampada e short verde-petróleo.",
+      "usage": [
+        "category-tile"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/cast/model-006-reference-v1.png",
+          "sha256": "054c88dacd8477098bf5b707ae3d809f08fe3f4c6ab900001dcd30f523fc0c03"
+        },
+        {
+          "path": "assets/originals/catalog/product-006-cream-teal-leaf-model-v1.png",
+          "sha256": "62be990d3689aaa967e01cc667d1b0b35c888325cd04f70a2714054d00ae7535"
+        }
+      ],
+      "crops": [
+        {
+          "name": "portrait",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1086,
+            "height": 1448
+          },
+          "width": 1086,
+          "height": 1448,
+          "webPath": "public/images/homepage/category-matching-sets-portrait-v1.webp",
+          "src": "/images/homepage/category-matching-sets-portrait-v1.webp",
+          "sha256": "2b3d917e78ba3fc3476190d9919ae4e5f878447c20dfdb4cea31a8a35cac49f5",
+          "bytes": 296574,
+          "usage": [
+            "category-tile"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed"
+    },
+    {
+      "id": "category-light-layers",
+      "role": "category-tile",
+      "productIds": [
+        "product-010"
+      ],
+      "modelIds": [
+        "model-008"
+      ],
+      "collectionIds": [
+        "collection-001"
+      ],
+      "originalPath": "assets/originals/homepage/category-light-layers-v1.png",
+      "originalSha256": "8deabe332eff17d99b46cda9a6fcef47256aa8213332d98c1df413e648474281",
+      "width": 1086,
+      "height": 1448,
+      "originalBytes": 2696689,
+      "alt": "Noah no jardim com casaco leve verde-petróleo sobre camiseta creme.",
+      "usage": [
+        "category-tile"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/cast/model-008-reference-v1.png",
+          "sha256": "84c4c5c21ee85c4271ca2134b09f12bdce3d3bf67ad4324504100ad4e18d4514"
+        },
+        {
+          "path": "assets/originals/catalog/product-010-teal-model-v1.png",
+          "sha256": "87a3541e082fc2e093f4324978a7dbb4fd25cc43dd10695d1c07737633786640"
+        }
+      ],
+      "crops": [
+        {
+          "name": "portrait",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1086,
+            "height": 1448
+          },
+          "width": 1086,
+          "height": 1448,
+          "webPath": "public/images/homepage/category-light-layers-portrait-v1.webp",
+          "src": "/images/homepage/category-light-layers-portrait-v1.webp",
+          "sha256": "f8e5997fde8eb0e9ab79c590bd72bb813ab9e224889ebdb37dfe8f684ef65461",
+          "bytes": 350008,
+          "usage": [
+            "category-tile"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed"
+    },
+    {
+      "id": "look-quintal",
+      "role": "shop-the-look",
+      "productIds": [
+        "product-001",
+        "product-002",
+        "product-007",
+        "product-008"
+      ],
+      "modelIds": [],
+      "collectionIds": [
+        "collection-001"
+      ],
+      "originalPath": "assets/originals/homepage/look-quintal-v1.png",
+      "originalSha256": "acf68313eb7b33460135f2d2cdcb9d93cb692d63d0dade75e211a603a39de07e",
+      "width": 1448,
+      "height": 1086,
+      "originalBytes": 3012454,
+      "alt": "Camiseta de folhas, polo creme e shorts verde-folha e verde-petróleo sobre tecido claro.",
+      "usage": [
+        "shop-the-look"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/catalog/product-001-cream-leaf-teal-isolated-v2.png",
+          "sha256": "93c4fd4daf31fa8d1d92ec2baa9597df20262e024cdcc47b7a2ba26daf6a3903"
+        },
+        {
+          "path": "assets/originals/catalog/product-002-cream-isolated-v1.png",
+          "sha256": "9f5b7d7ad50847d1f70f04a2fd04f7d5acca0e14fd2a805077c26b000f9e66f3"
+        },
+        {
+          "path": "assets/originals/catalog/product-007-leaf-isolated-v1.png",
+          "sha256": "6a8ccffc276df1d006d1c5f8df657d9f1ec1743bbd56754a686816b642606940"
+        },
+        {
+          "path": "assets/originals/catalog/product-008-teal-isolated-v1.png",
+          "sha256": "e5265be7b8772e68acaffd9475038a594dba93d97a520756fe70c687e623b4f0"
+        }
+      ],
+      "crops": [
+        {
+          "name": "landscape",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1448,
+            "height": 1086
+          },
+          "width": 1448,
+          "height": 1086,
+          "webPath": "public/images/homepage/look-quintal-landscape-v1.webp",
+          "src": "/images/homepage/look-quintal-landscape-v1.webp",
+          "sha256": "309690bf808931472bbf73fb7f1ba780e5f060ef6da4c5a1a630f44fe159f939",
+          "bytes": 375650,
+          "usage": [
+            "shop-the-look"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed"
+    },
+    {
+      "id": "look-brincadeira",
+      "role": "shop-the-look",
+      "productIds": [
+        "product-011",
+        "product-012",
+        "product-018",
+        "product-019"
+      ],
+      "modelIds": [],
+      "collectionIds": [
+        "collection-002"
+      ],
+      "originalPath": "assets/originals/homepage/look-brincadeira-v1.png",
+      "originalSha256": "d1dfebe9c01357c56c1fc70cd87d4eb5d5c65ece2186eb3d040aac379d306d9d",
+      "width": 1448,
+      "height": 1086,
+      "originalBytes": 3026046,
+      "alt": "Polo listrada, camiseta com riscos de giz e shorts azul-claro e coral sobre tecido claro.",
+      "usage": [
+        "shop-the-look"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/catalog/product-011-cream-sky-isolated-v1.png",
+          "sha256": "260995ac3cafcebb96ddb111283e924fd32e5f0fd39ada2e38a6101a6322e085"
+        },
+        {
+          "path": "assets/originals/catalog/product-012-cream-sky-coral-isolated-v1.png",
+          "sha256": "fc37bd0a6602cf90678d757d5606a1225760fbac3d9d659bf906b86e0019de59"
+        },
+        {
+          "path": "assets/originals/catalog/product-018-sky-isolated-v1.png",
+          "sha256": "e1d4a302e7da2b12f02a9e2b567c9a701a6de75e713f2d86369e35354834db15"
+        },
+        {
+          "path": "assets/originals/catalog/product-019-coral-isolated-v1.png",
+          "sha256": "918b772e10538473e4ea72d64b3e62aae7028761f11559998b10371c477868d0"
+        }
+      ],
+      "crops": [
+        {
+          "name": "landscape",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1448,
+            "height": 1086
+          },
+          "width": 1448,
+          "height": 1086,
+          "webPath": "public/images/homepage/look-brincadeira-landscape-v1.webp",
+          "src": "/images/homepage/look-brincadeira-landscape-v1.webp",
+          "sha256": "a8780015cfe83cdfeb8c9ad4616b209fe420558f7b5acd7d52939e13cadb7bd2",
+          "bytes": 404986,
+          "usage": [
+            "shop-the-look"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed"
+    },
+    {
+      "id": "look-imaginacao",
+      "role": "shop-the-look",
+      "productIds": [
+        "product-021",
+        "product-022",
+        "product-028",
+        "product-030"
+      ],
+      "modelIds": [],
+      "collectionIds": [
+        "collection-003"
+      ],
+      "originalPath": "assets/originals/homepage/look-imaginacao-v1.png",
+      "originalSha256": "df7f3a471575cb42ff4297414d77933e6bfe7e303a7cdfdafe2d6e9cc5611b27",
+      "width": 1448,
+      "height": 1086,
+      "originalBytes": 2818260,
+      "alt": "Camisetas de blocos e estrelas, short pêssego e calça lilás sobre tecido claro.",
+      "usage": [
+        "shop-the-look"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/catalog/product-021-cream-teal-peach-isolated-v1.png",
+          "sha256": "fd248cd65dc8b57192f5421c40b4bb85cb44e190b65917307ee475701b474b3a"
+        },
+        {
+          "path": "assets/originals/catalog/product-022-lilac-cream-teal-isolated-v1.png",
+          "sha256": "622bf5213303a703db596e248ec9c23c958cf62a02afb0766ba583afa30f01a9"
+        },
+        {
+          "path": "assets/originals/catalog/product-028-peach-isolated-v1.png",
+          "sha256": "cba6e7fce7e20bfeb0013943867b2b4d6ed22a85626e844b988940017de10f08"
+        },
+        {
+          "path": "assets/originals/catalog/product-030-lilac-isolated-v1.png",
+          "sha256": "e3b8cef3cf6a282cf7243fd120d09d6ecdbd9ff26dd0b696aa106fa34d2b96fa"
+        }
+      ],
+      "crops": [
+        {
+          "name": "landscape",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1448,
+            "height": 1086
+          },
+          "width": 1448,
+          "height": 1086,
+          "webPath": "public/images/homepage/look-imaginacao-landscape-v1.webp",
+          "src": "/images/homepage/look-imaginacao-landscape-v1.webp",
+          "sha256": "23fa13ee5277181f300fdc4937b8bb47e7377e5af5bdd17e3e1d966e8362e7b9",
+          "bytes": 342768,
+          "usage": [
+            "shop-the-look"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed"
+    },
+    {
+      "id": "quote-garments",
+      "role": "quote-garments",
+      "productIds": [
+        "product-005"
+      ],
+      "modelIds": [],
+      "collectionIds": [
+        "collection-001"
+      ],
+      "originalPath": "assets/originals/homepage/quote-garments-v1.png",
+      "originalSha256": "6d44fc124974fd08d29142d4eebe124031b59b15c2af039dee01ca0860c98a2d",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 2675700,
+      "alt": "Vestido creme com folhas verdes e amarelas sobre tecido claro, com espaço livre à esquerda.",
+      "usage": [
+        "quote-garments"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/catalog/product-005-cream-leaf-butter-isolated-v2.png",
+          "sha256": "96dddf848de4a9bbc02163025de2c0b167b4882a634cd85037ee629657aa0939"
+        }
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "16:9",
+          "sourceRect": {
+            "left": 4,
+            "top": 3,
+            "width": 1664,
+            "height": 936
+          },
+          "width": 1664,
+          "height": 936,
+          "webPath": "public/images/homepage/quote-garments-desktop-v1.webp",
+          "src": "/images/homepage/quote-garments-desktop-v1.webp",
+          "sha256": "2116bb3772453a059ee2f6685070198322f5111e03549a59f7a9e5e59a6398e8",
+          "bytes": 299774,
+          "usage": [
+            "quote-garments"
+          ],
+          "approvalStatus": "pending-human-review"
+        },
+        {
+          "name": "compact",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 420,
+            "top": 1,
+            "width": 1252,
+            "height": 939
+          },
+          "width": 1252,
+          "height": 939,
+          "webPath": "public/images/homepage/quote-garments-compact-v1.webp",
+          "src": "/images/homepage/quote-garments-compact-v1.webp",
+          "sha256": "4c611675a37630fb4c4c9f37a6927624650adc5cf76719c382a304f358aef560",
+          "bytes": 234394,
+          "usage": [
+            "quote-garments"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed",
+      "textSafeArea": {
+        "desktop": "left 40%",
+        "compact": "place copy below photograph"
+      }
+    },
+    {
+      "id": "editorial-quintal",
+      "role": "editorial-quintal",
+      "productIds": [
+        "product-001",
+        "product-002",
+        "product-007",
+        "product-008"
+      ],
+      "modelIds": [],
+      "collectionIds": [
+        "collection-001"
+      ],
+      "originalPath": "assets/originals/homepage/editorial-quintal-v1.png",
+      "originalSha256": "eb09e2d830a8773d1e4ad99245efd2bec12544a738e1f7a2c5cf0e8a205a984d",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 2676351,
+      "alt": "Peças creme e verdes de Quintal de Descobertas sobre tecido claro, com espaço livre à direita.",
+      "usage": [
+        "editorial-quintal"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/catalog/product-001-cream-leaf-teal-isolated-v2.png",
+          "sha256": "93c4fd4daf31fa8d1d92ec2baa9597df20262e024cdcc47b7a2ba26daf6a3903"
+        },
+        {
+          "path": "assets/originals/catalog/product-002-cream-isolated-v1.png",
+          "sha256": "9f5b7d7ad50847d1f70f04a2fd04f7d5acca0e14fd2a805077c26b000f9e66f3"
+        },
+        {
+          "path": "assets/originals/catalog/product-007-leaf-isolated-v1.png",
+          "sha256": "6a8ccffc276df1d006d1c5f8df657d9f1ec1743bbd56754a686816b642606940"
+        },
+        {
+          "path": "assets/originals/catalog/product-008-teal-isolated-v1.png",
+          "sha256": "e5265be7b8772e68acaffd9475038a594dba93d97a520756fe70c687e623b4f0"
+        }
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "16:9",
+          "sourceRect": {
+            "left": 4,
+            "top": 3,
+            "width": 1664,
+            "height": 936
+          },
+          "width": 1664,
+          "height": 936,
+          "webPath": "public/images/homepage/editorial-quintal-desktop-v1.webp",
+          "src": "/images/homepage/editorial-quintal-desktop-v1.webp",
+          "sha256": "2834e58e32462920b12fec9c95b00a8a822b3bc54136354982f5481f70f5ddf0",
+          "bytes": 280848,
+          "usage": [
+            "editorial-quintal"
+          ],
+          "approvalStatus": "pending-human-review"
+        },
+        {
+          "name": "compact",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 0,
+            "top": 1,
+            "width": 1252,
+            "height": 939
+          },
+          "width": 1252,
+          "height": 939,
+          "webPath": "public/images/homepage/editorial-quintal-compact-v1.webp",
+          "src": "/images/homepage/editorial-quintal-compact-v1.webp",
+          "sha256": "95d9fa385e37f27fc1f84280dc7b758f0eda2ea50070644477dc6192399726ff",
+          "bytes": 236780,
+          "usage": [
+            "editorial-quintal"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed",
+      "textSafeArea": {
+        "desktop": "right 38%",
+        "compact": "place copy below photograph"
+      }
+    },
+    {
+      "id": "category-dresses",
+      "role": "category-tile",
+      "productIds": [
+        "product-014"
+      ],
+      "modelIds": [
+        "model-004"
+      ],
+      "collectionIds": [
+        "collection-002"
+      ],
+      "originalPath": "assets/originals/homepage/category-dresses-v1.png",
+      "originalSha256": "63057a721f7e9e1b6998b9d84632f6319b35a9d696eda0f2aa78685678800c69",
+      "width": 1086,
+      "height": 1448,
+      "originalBytes": 2229088,
+      "alt": "Iara no pátio com vestido azul-claro estampado com riscos de giz creme e coral.",
+      "usage": [
+        "category-tile"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/cast/model-004-reference-v2.png",
+          "sha256": "27184a178f11556ed4048930462bce2f1e6dda6681c2172d278c4268753a8a18"
+        },
+        {
+          "path": "assets/originals/catalog/product-014-sky-cream-coral-model-v2.png",
+          "sha256": "f6bb5afb4022b61534dcf734f99c46ad44bd193ba10bf7ab9f0cc3a9baa81e85"
+        }
+      ],
+      "crops": [
+        {
+          "name": "portrait",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1086,
+            "height": 1448
+          },
+          "width": 1086,
+          "height": 1448,
+          "webPath": "public/images/homepage/category-dresses-portrait-v1.webp",
+          "src": "/images/homepage/category-dresses-portrait-v1.webp",
+          "sha256": "945c63667b84865b84b49738a780b1d53657b94de0b2f42ed5bc710796317b78",
+          "bytes": 223048,
+          "usage": [
+            "category-tile"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed"
+    },
+    {
+      "id": "hero-left-wide",
+      "role": "hero-left-wide",
+      "productIds": [
+        "product-005"
+      ],
+      "modelIds": [
+        "model-002"
+      ],
+      "collectionIds": [
+        "collection-001"
+      ],
+      "originalPath": "assets/originals/homepage/hero-left-wide-v1.png",
+      "originalSha256": "b0f6b66111b81dbf2be131ef8e7753c0b2c57ea220b6fe3a8c854496d4276b6c",
+      "width": 1536,
+      "height": 1024,
+      "originalBytes": 2479797,
+      "alt": "Bia observa uma folha no quintal com vestido creme de folhas verdes e amarelas; a parede clara ocupa o lado esquerdo.",
+      "usage": [
+        "hero-left-wide"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/editorial/hero-left-v2.png",
+          "sha256": "10ab733db5e273fe2951beb8fdaf89476d8a03d602fc9fc3a43492cb9bc98e14"
+        },
+        {
+          "path": "assets/originals/cast/model-002-reference-v2.png",
+          "sha256": "c29fb497afb76beb42db5c7671b463d9f8261f94dc1bcebfd1d8821eae59a367"
+        }
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "3:2",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1536,
+            "height": 1024
+          },
+          "width": 1536,
+          "height": 1024,
+          "webPath": "public/images/homepage/hero-left-wide-desktop-v1.webp",
+          "src": "/images/homepage/hero-left-wide-desktop-v1.webp",
+          "sha256": "2273e33c767c11078c34ee3c85c1087555d2810ca4452c462ae724666f190542",
+          "bytes": 305108,
+          "usage": [
+            "hero-left-wide"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed",
+      "garmentContext": "Approved editorial wardrobe continuity; not a catalog product representation or reassignment.",
+      "textSafeArea": {
+        "desktop": "left 60%; use localized dark gradient for white copy"
+      }
+    },
+    {
+      "id": "hero-right-wide",
+      "role": "hero-right-wide",
+      "productIds": [
+        "product-002"
+      ],
+      "modelIds": [
+        "model-006"
+      ],
+      "collectionIds": [
+        "collection-001"
+      ],
+      "originalPath": "assets/originals/homepage/hero-right-wide-v1.png",
+      "originalSha256": "94bb42536ed82dcbbbe55d552f4a3471b144264d5b14ba5f5004f50ad9740955",
+      "width": 1536,
+      "height": 1024,
+      "originalBytes": 2931897,
+      "alt": "Davi observa um besourinho no jardim, com polo lisa creme e short areia.",
+      "usage": [
+        "hero-right-wide"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/editorial/hero-right-v3.png",
+          "sha256": "d54111f5c6a515d175df576f32ea48c723365546cef14759451acca860157efe"
+        },
+        {
+          "path": "assets/originals/cast/model-006-reference-v1.png",
+          "sha256": "054c88dacd8477098bf5b707ae3d809f08fe3f4c6ab900001dcd30f523fc0c03"
+        }
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "3:2",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1536,
+            "height": 1024
+          },
+          "width": 1536,
+          "height": 1024,
+          "webPath": "public/images/homepage/hero-right-wide-desktop-v1.webp",
+          "src": "/images/homepage/hero-right-wide-desktop-v1.webp",
+          "sha256": "25b67f20dac7f729674383f37d9751802a6cd922bcba18b22956f6fe4c277ed5",
+          "bytes": 460248,
+          "usage": [
+            "hero-right-wide"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed",
+      "garmentContext": "Approved editorial wardrobe continuity; not a catalog product representation or reassignment.",
+      "textSafeArea": null
+    },
+    {
+      "id": "hero-left",
+      "role": "homepage-hero-left",
+      "collectionIds": [
+        "collection-001"
+      ],
+      "modelIds": [
+        "model-002"
+      ],
+      "originalPath": "assets/originals/editorial/hero-left-v2.png",
+      "originalSha256": "10ab733db5e273fe2951beb8fdaf89476d8a03d602fc9fc3a43492cb9bc98e14",
+      "width": 1122,
+      "height": 1402,
+      "originalBytes": 2247058,
+      "alt": "Bia observa uma folha no quintal, usando vestido creme com estampas de folhas verdes e brotos amarelos; a parede clara deixa espaço para o texto.",
+      "usage": [
+        "homepage-hero-left"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/editorial/hero-left-v2.png",
+          "sha256": "10ab733db5e273fe2951beb8fdaf89476d8a03d602fc9fc3a43492cb9bc98e14"
+        }
+      ],
+      "crops": [
+        {
+          "name": "narrow",
+          "ratio": "4:5",
+          "sourceRect": {
+            "left": 1,
+            "top": 0,
+            "width": 1120,
+            "height": 1400
+          },
+          "width": 1120,
+          "height": 1400,
+          "webPath": "public/images/homepage/hero-left-narrow-v1.webp",
+          "src": "/images/homepage/hero-left-narrow-v1.webp",
+          "sha256": "b64f3665ea4950231844c381d16bcf186570f588bbf12781d27d33ae1bfccd9a",
+          "bytes": 232162,
+          "usage": [
+            "homepage-hero-left"
+          ],
+          "approvalStatus": "pending-human-review"
+        },
+        {
+          "name": "portrait",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 65,
+            "top": 0,
+            "width": 1050,
+            "height": 1400
+          },
+          "width": 1050,
+          "height": 1400,
+          "webPath": "public/images/homepage/hero-left-portrait-v1.webp",
+          "src": "/images/homepage/hero-left-portrait-v1.webp",
+          "sha256": "32eb38681bfad10d00dbf87c092d4a90c46d1acb8d3ad9d6325014ff1909e335",
+          "bytes": 221890,
+          "usage": [
+            "homepage-hero-left"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "textSafeArea": {
+        "placement": "lower-left",
+        "foreground": "#382C25",
+        "localScrim": "#FAF7F0 at 72% opacity",
+        "constraint": "No overlay across face or garments; verify at intended viewport sizes."
+      },
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed",
+      "visualReview": "Approved by the user for editorial use; see editorial-approval.json.",
+      "reuse": {
+        "sourceManifest": "docs/content/editorial-manifest.json",
+        "sourceId": "hero-left-v2",
+        "sourceApproval": "docs/content/editorial-approval.json"
+      }
+    },
+    {
+      "id": "hero-left-tablet",
+      "role": "homepage-hero-tablet",
+      "collectionIds": [
+        "collection-001"
+      ],
+      "modelIds": [
+        "model-002"
+      ],
+      "originalPath": "assets/originals/editorial/hero-left-tablet-v2.png",
+      "originalSha256": "e805349b4895c715d8463f192bb77134159308c9cb0fa08c90d2962ca19d8bae",
+      "width": 1774,
+      "height": 887,
+      "originalBytes": 2463470,
+      "alt": "Bia observa uma folha no quintal, usando vestido creme com estampas de folhas verdes e brotos amarelos; a parede clara deixa espaço para o texto.",
+      "usage": [
+        "homepage-hero-tablet"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/editorial/hero-left-tablet-v2.png",
+          "sha256": "e805349b4895c715d8463f192bb77134159308c9cb0fa08c90d2962ca19d8bae"
+        }
+      ],
+      "crops": [
+        {
+          "name": "tablet",
+          "ratio": "2:1",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1774,
+            "height": 887
+          },
+          "width": 1774,
+          "height": 887,
+          "webPath": "public/images/homepage/hero-left-tablet-tablet-v1.webp",
+          "src": "/images/homepage/hero-left-tablet-tablet-v1.webp",
+          "sha256": "4fb36a4a2d1b261fdf83e249bddf8359599ca248f28c7516ab7e81b6a73e53ca",
+          "bytes": 303982,
+          "usage": [
+            "homepage-hero-tablet"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "textSafeArea": {
+        "placement": "lower-left",
+        "foreground": "#382C25",
+        "localScrim": "#FAF7F0 at 72% opacity",
+        "constraint": "No overlay across face or garments; verify at intended viewport sizes."
+      },
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed",
+      "visualReview": "Approved by the user for editorial use; see editorial-approval.json.",
+      "reuse": {
+        "sourceManifest": "docs/content/editorial-manifest.json",
+        "sourceId": "hero-left-v2",
+        "sourceApproval": "docs/content/editorial-approval.json"
+      }
+    },
+    {
+      "id": "hero-right",
+      "role": "homepage-hero-right",
+      "collectionIds": [
+        "collection-001"
+      ],
+      "modelIds": [
+        "model-006"
+      ],
+      "originalPath": "assets/originals/editorial/hero-right-v3.png",
+      "originalSha256": "d54111f5c6a515d175df576f32ea48c723365546cef14759451acca860157efe",
+      "width": 1122,
+      "height": 1402,
+      "originalBytes": 2532036,
+      "alt": "Davi descobre sementes no quintal, usando camisa polo creme lisa e short areia.",
+      "usage": [
+        "homepage-hero-right"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/editorial/hero-right-v3.png",
+          "sha256": "d54111f5c6a515d175df576f32ea48c723365546cef14759451acca860157efe"
+        }
+      ],
+      "crops": [
+        {
+          "name": "narrow",
+          "ratio": "4:5",
+          "sourceRect": {
+            "left": 1,
+            "top": 0,
+            "width": 1120,
+            "height": 1400
+          },
+          "width": 1120,
+          "height": 1400,
+          "webPath": "public/images/homepage/hero-right-narrow-v1.webp",
+          "src": "/images/homepage/hero-right-narrow-v1.webp",
+          "sha256": "07256d3ae104f892956cf6b954ccb8a31e6fa93c8771ae6c74bd45cc30718eb3",
+          "bytes": 304448,
+          "usage": [
+            "homepage-hero-right"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "textSafeArea": null,
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed",
+      "visualReview": "Approved by the user for editorial use; see editorial-approval.json.",
+      "garmentContext": {
+        "category": "polo-shirt",
+        "description": "Plain cream polo without drawings, print, embroidery or logos; shorts recolored to sand #D6BE96.",
+        "catalogProductId": null,
+        "catalogIntegrationStatus": "deferred-by-user",
+        "approvalStatus": "approved-for-editorial-use"
+      },
+      "reuse": {
+        "sourceManifest": "docs/content/editorial-manifest.json",
+        "sourceId": "hero-right-v3",
+        "sourceApproval": "docs/content/editorial-approval.json"
+      }
+    },
+    {
+      "id": "social-1",
+      "role": "social-photo",
+      "collectionIds": [
+        "collection-001"
+      ],
+      "modelIds": [
+        "model-002"
+      ],
+      "originalPath": "assets/originals/editorial/hero-left-v2.png",
+      "originalSha256": "10ab733db5e273fe2951beb8fdaf89476d8a03d602fc9fc3a43492cb9bc98e14",
+      "width": 1122,
+      "height": 1402,
+      "originalBytes": 2247058,
+      "alt": "Bia observa uma folha no quintal, usando vestido creme com estampas de folhas verdes e brotos amarelos; a parede clara deixa espaço para o texto.",
+      "usage": [
+        "social-photo"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/editorial/hero-left-v2.png",
+          "sha256": "10ab733db5e273fe2951beb8fdaf89476d8a03d602fc9fc3a43492cb9bc98e14"
+        }
+      ],
+      "crops": [
+        {
+          "name": "square",
+          "ratio": "1:1",
+          "sourceRect": {
+            "left": 0,
+            "top": 56,
+            "width": 1122,
+            "height": 1122
+          },
+          "width": 1122,
+          "height": 1122,
+          "webPath": "public/images/homepage/social-1-square-v1.webp",
+          "src": "/images/homepage/social-1-square-v1.webp",
+          "sha256": "9a315ebba005af937e62796a94f8bc34a26ea83a9c313bd7421fb5cffc171cfa",
+          "bytes": 174948,
+          "usage": [
+            "social-photo"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "textSafeArea": {
+        "placement": "lower-left",
+        "foreground": "#382C25",
+        "localScrim": "#FAF7F0 at 72% opacity",
+        "constraint": "No overlay across face or garments; verify at intended viewport sizes."
+      },
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed",
+      "visualReview": "Approved by the user for editorial use; see editorial-approval.json.",
+      "reuse": {
+        "sourceManifest": "docs/content/editorial-manifest.json",
+        "sourceId": "hero-left-v2",
+        "sourceApproval": "docs/content/editorial-approval.json"
+      }
+    },
+    {
+      "id": "social-2",
+      "role": "social-photo",
+      "collectionIds": [
+        "collection-001"
+      ],
+      "modelIds": [
+        "model-006"
+      ],
+      "originalPath": "assets/originals/editorial/hero-right-v3.png",
+      "originalSha256": "d54111f5c6a515d175df576f32ea48c723365546cef14759451acca860157efe",
+      "width": 1122,
+      "height": 1402,
+      "originalBytes": 2532036,
+      "alt": "Davi descobre sementes no quintal, usando camisa polo creme lisa e short areia.",
+      "usage": [
+        "social-photo"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/editorial/hero-right-v3.png",
+          "sha256": "d54111f5c6a515d175df576f32ea48c723365546cef14759451acca860157efe"
+        }
+      ],
+      "crops": [
+        {
+          "name": "square",
+          "ratio": "1:1",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1122,
+            "height": 1122
+          },
+          "width": 1122,
+          "height": 1122,
+          "webPath": "public/images/homepage/social-2-square-v1.webp",
+          "src": "/images/homepage/social-2-square-v1.webp",
+          "sha256": "c99e66a0b0585c3c6eac7fd2d4cfbead4a9b3585c256c14f434e9342f8870254",
+          "bytes": 216258,
+          "usage": [
+            "social-photo"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "textSafeArea": null,
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed",
+      "visualReview": "Approved by the user for editorial use; see editorial-approval.json.",
+      "garmentContext": {
+        "category": "polo-shirt",
+        "description": "Plain cream polo without drawings, print, embroidery or logos; shorts recolored to sand #D6BE96.",
+        "catalogProductId": null,
+        "catalogIntegrationStatus": "deferred-by-user",
+        "approvalStatus": "approved-for-editorial-use"
+      },
+      "reuse": {
+        "sourceManifest": "docs/content/editorial-manifest.json",
+        "sourceId": "hero-right-v3",
+        "sourceApproval": "docs/content/editorial-approval.json"
+      }
+    },
+    {
+      "id": "social-3",
+      "role": "social-photo",
+      "collectionIds": [
+        "collection-001"
+      ],
+      "modelIds": [
+        "model-001",
+        "model-006"
+      ],
+      "originalPath": "assets/originals/editorial/collection-quintal-v2.png",
+      "originalSha256": "3c92403a2234ea435e9eb259fec75e180d59821ae712fd1b9bf637b2be0dbe7d",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 2469332,
+      "alt": "Lia, com short areia, e Davi, com short verde-petróleo, exploram folhas junto a um canteiro usando camisetas de estampas botânicas.",
+      "usage": [
+        "social-photo"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/editorial/collection-quintal-v2.png",
+          "sha256": "3c92403a2234ea435e9eb259fec75e180d59821ae712fd1b9bf637b2be0dbe7d"
+        }
+      ],
+      "crops": [
+        {
+          "name": "square",
+          "ratio": "1:1",
+          "sourceRect": {
+            "left": 366,
+            "top": 0,
+            "width": 941,
+            "height": 941
+          },
+          "width": 941,
+          "height": 941,
+          "webPath": "public/images/homepage/social-3-square-v1.webp",
+          "src": "/images/homepage/social-3-square-v1.webp",
+          "sha256": "69e12f8caa10a2d4f8be80f90867f90415cc37073250a07065ca6f409db41038",
+          "bytes": 169980,
+          "usage": [
+            "social-photo"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "textSafeArea": null,
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed",
+      "visualReview": "Approved by the user for editorial use; see editorial-approval.json.",
+      "garmentContext": {
+        "description": "Lia's shorts recolored to sand #D6BE96; Davi retains teal shorts.",
+        "catalogProductId": null,
+        "catalogIntegrationStatus": "deferred-by-user",
+        "approvalStatus": "approved-for-editorial-use"
+      },
+      "reuse": {
+        "sourceManifest": "docs/content/editorial-manifest.json",
+        "sourceId": "collection-quintal-v2",
+        "sourceApproval": "docs/content/editorial-approval.json"
+      }
+    },
+    {
+      "id": "social-4",
+      "role": "social-photo",
+      "collectionIds": [
+        "collection-002"
+      ],
+      "modelIds": [
+        "model-006"
+      ],
+      "originalPath": "assets/originals/editorial/collection-brincadeira-v2.png",
+      "originalSha256": "ba29cab2c83221a2217c2c5c94b6f80074c381c10ad19ca98d305913baaaccd4",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 2194637,
+      "alt": "Davi desenha uma amarelinha com giz no pátio, usando camiseta azul-céu estampada e short azul-céu liso.",
+      "usage": [
+        "social-photo"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/editorial/collection-brincadeira-v2.png",
+          "sha256": "ba29cab2c83221a2217c2c5c94b6f80074c381c10ad19ca98d305913baaaccd4"
+        }
+      ],
+      "crops": [
+        {
+          "name": "square",
+          "ratio": "1:1",
+          "sourceRect": {
+            "left": 366,
+            "top": 0,
+            "width": 941,
+            "height": 941
+          },
+          "width": 941,
+          "height": 941,
+          "webPath": "public/images/homepage/social-4-square-v1.webp",
+          "src": "/images/homepage/social-4-square-v1.webp",
+          "sha256": "ed2c958e819605547dc6d2898f9c07736ee23a7b4f060ff121dc4f58e5ecf12d",
+          "bytes": 136910,
+          "usage": [
+            "social-photo"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "textSafeArea": null,
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed",
+      "visualReview": "Approved by the user for editorial use; see editorial-approval.json.",
+      "garmentContext": {
+        "description": "Shorts recolored to sky blue #A9CCE0.",
+        "catalogProductId": null,
+        "catalogIntegrationStatus": "deferred-by-user",
+        "approvalStatus": "approved-for-editorial-use"
+      },
+      "reuse": {
+        "sourceManifest": "docs/content/editorial-manifest.json",
+        "sourceId": "collection-brincadeira-v2",
+        "sourceApproval": "docs/content/editorial-approval.json"
+      }
+    },
+    {
+      "id": "social-5",
+      "role": "social-photo",
+      "collectionIds": [
+        "collection-003"
+      ],
+      "modelIds": [
+        "model-003"
+      ],
+      "originalPath": "assets/originals/editorial/collection-imaginacao-v2.png",
+      "originalSha256": "01313a3ae797355bdea7ddf6429ddc130da00fa899596742aa819b41e590fe28",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 2164133,
+      "alt": "Nina monta uma cidade de blocos junto a uma cabana de manta, com blusa creme de traços lilás e pêssego e short azul-céu.",
+      "usage": [
+        "social-photo"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/editorial/collection-imaginacao-v2.png",
+          "sha256": "01313a3ae797355bdea7ddf6429ddc130da00fa899596742aa819b41e590fe28"
+        }
+      ],
+      "crops": [
+        {
+          "name": "square",
+          "ratio": "1:1",
+          "sourceRect": {
+            "left": 366,
+            "top": 0,
+            "width": 941,
+            "height": 941
+          },
+          "width": 941,
+          "height": 941,
+          "webPath": "public/images/homepage/social-5-square-v1.webp",
+          "src": "/images/homepage/social-5-square-v1.webp",
+          "sha256": "662f41f4811108629dc5702d9a7879a212ac2a66b4bd3dc984ad16d011172726",
+          "bytes": 123322,
+          "usage": [
+            "social-photo"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "textSafeArea": null,
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed",
+      "visualReview": "Approved by the user for editorial use; see editorial-approval.json.",
+      "garmentContext": {
+        "description": "Shorts recolored to sky blue #A9CCE0.",
+        "catalogProductId": null,
+        "catalogIntegrationStatus": "deferred-by-user",
+        "approvalStatus": "approved-for-editorial-use"
+      },
+      "reuse": {
+        "sourceManifest": "docs/content/editorial-manifest.json",
+        "sourceId": "collection-imaginacao-v2",
+        "sourceApproval": "docs/content/editorial-approval.json"
+      }
+    },
+    {
+      "id": "social-6",
+      "role": "social-photo",
+      "collectionIds": [
+        "collection-001",
+        "collection-003"
+      ],
+      "modelIds": [
+        "model-001",
+        "model-007"
+      ],
+      "originalPath": "assets/originals/editorial/brand-opening-v2.png",
+      "originalSha256": "66e1c9bd5ef36b60955f182ac0a28c99aae14daa30518a16f133f7e0018391c0",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 2718178,
+      "alt": "Lia, com short areia, e Theo, com camiseta vermelha de ursinho e calça azul-céu, juntam folhas em uma tigela de madeira no quintal.",
+      "usage": [
+        "social-photo"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/editorial/brand-opening-v2.png",
+          "sha256": "66e1c9bd5ef36b60955f182ac0a28c99aae14daa30518a16f133f7e0018391c0"
+        }
+      ],
+      "crops": [
+        {
+          "name": "square",
+          "ratio": "1:1",
+          "sourceRect": {
+            "left": 366,
+            "top": 0,
+            "width": 941,
+            "height": 941
+          },
+          "width": 941,
+          "height": 941,
+          "webPath": "public/images/homepage/social-6-square-v1.webp",
+          "src": "/images/homepage/social-6-square-v1.webp",
+          "sha256": "0fd7a2135bb5f2af4a7e4adb16c85a6cfb159debae031b174f8d9e767a278a94",
+          "bytes": 187744,
+          "usage": [
+            "social-photo"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "textSafeArea": null,
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed",
+      "visualReview": "Approved by the user for editorial use; see editorial-approval.json.",
+      "garmentContext": {
+        "description": "Lia's shorts recolored to sand #D6BE96; Theo wears the same red bear T-shirt and sky-blue trousers as brand-combinations.",
+        "catalogProductId": null,
+        "catalogIntegrationStatus": "deferred-by-user",
+        "approvalStatus": "approved-for-editorial-use"
+      },
+      "reuse": {
+        "sourceManifest": "docs/content/editorial-manifest.json",
+        "sourceId": "brand-opening-v2",
+        "sourceApproval": "docs/content/editorial-approval.json"
+      }
+    },
+    {
+      "id": "social-7",
+      "role": "social-photo",
+      "collectionIds": [
+        "collection-003"
+      ],
+      "modelIds": [
+        "model-003"
+      ],
+      "originalPath": "assets/originals/editorial/brand-play-v2.png",
+      "originalSha256": "c4f228755a44c8320a368208e365622bf2382d6839c49b5b4e76c1d08275ebbc",
+      "width": 1448,
+      "height": 1086,
+      "originalBytes": 2102969,
+      "alt": "Nina desenha estrelas e brinca com blocos no tapete de casa, usando blusa creme estampada e short azul-céu.",
+      "usage": [
+        "social-photo"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/editorial/brand-play-v2.png",
+          "sha256": "c4f228755a44c8320a368208e365622bf2382d6839c49b5b4e76c1d08275ebbc"
+        }
+      ],
+      "crops": [
+        {
+          "name": "square",
+          "ratio": "1:1",
+          "sourceRect": {
+            "left": 181,
+            "top": 0,
+            "width": 1086,
+            "height": 1086
+          },
+          "width": 1086,
+          "height": 1086,
+          "webPath": "public/images/homepage/social-7-square-v1.webp",
+          "src": "/images/homepage/social-7-square-v1.webp",
+          "sha256": "1739f9a7620e8659e0816005849a44282744a999a517f1ac1978ccc8002665e2",
+          "bytes": 150464,
+          "usage": [
+            "social-photo"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "textSafeArea": null,
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed",
+      "visualReview": "Approved by the user for editorial use; see editorial-approval.json.",
+      "garmentContext": {
+        "description": "Shorts recolored to sky blue #A9CCE0.",
+        "catalogProductId": null,
+        "catalogIntegrationStatus": "deferred-by-user",
+        "approvalStatus": "approved-for-editorial-use"
+      },
+      "reuse": {
+        "sourceManifest": "docs/content/editorial-manifest.json",
+        "sourceId": "brand-play-v2",
+        "sourceApproval": "docs/content/editorial-approval.json"
+      }
+    }
+  ],
+  "existingPageAssets": [
+    {
+      "id": "collection-quintal-v2",
+      "manifest": "docs/content/editorial-manifest.json",
+      "approval": "docs/content/editorial-approval.json",
+      "originalSha256": "3c92403a2234ea435e9eb259fec75e180d59821ae712fd1b9bf637b2be0dbe7d"
+    },
+    {
+      "id": "collection-brincadeira-v2",
+      "manifest": "docs/content/editorial-manifest.json",
+      "approval": "docs/content/editorial-approval.json",
+      "originalSha256": "ba29cab2c83221a2217c2c5c94b6f80074c381c10ad19ca98d305913baaaccd4"
+    },
+    {
+      "id": "collection-imaginacao-v2",
+      "manifest": "docs/content/editorial-manifest.json",
+      "approval": "docs/content/editorial-approval.json",
+      "originalSha256": "01313a3ae797355bdea7ddf6429ddc130da00fa899596742aa819b41e590fe28"
+    },
+    {
+      "id": "brand-opening-v2",
+      "manifest": "docs/content/editorial-manifest.json",
+      "approval": "docs/content/editorial-approval.json",
+      "originalSha256": "66e1c9bd5ef36b60955f182ac0a28c99aae14daa30518a16f133f7e0018391c0"
+    },
+    {
+      "id": "brand-play-v2",
+      "manifest": "docs/content/editorial-manifest.json",
+      "approval": "docs/content/editorial-approval.json",
+      "originalSha256": "c4f228755a44c8320a368208e365622bf2382d6839c49b5b4e76c1d08275ebbc"
+    },
+    {
+      "id": "brand-combinations-v2",
+      "manifest": "docs/content/editorial-manifest.json",
+      "approval": "docs/content/editorial-approval.json",
+      "originalSha256": "03bb8c039bbe7f51b1cd16a54e1a8a1f03fdb3c2ce710b6d0d7e20c166508b2a"
+    }
+  ],
+  "castCoverage": [
+    "model-001",
+    "model-002",
+    "model-003",
+    "model-004",
+    "model-005",
+    "model-006",
+    "model-007",
+    "model-008"
+  ]
+}
