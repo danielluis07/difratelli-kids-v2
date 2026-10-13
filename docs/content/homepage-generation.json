@@ -1,0 +1,149 @@
+{
+  "revision": "issue-34-content-v1",
+  "tool": "built-in image_gen",
+  "fallbackReason": "Higgsfield product-photoshoot enhancement endpoint could not be reached.",
+  "records": [
+    {
+      "id": "category-t-shirts",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1371c-6382-7280-9c34-e6190981440d\\exec-cd5bce60-e49f-4586-be79-a1b325f15aa9.png",
+      "prompt": "Use case: identity-preserve. Create one photorealistic portrait 3:4 lifestyle category photograph for Difratelli Kids. Image 1 is the approved fictional Lia, age 3: preserve exact face, age, complexion and curls. Image 2 is clothing reference: preserve cream T-shirt with small green seedlings and yellow seeds and teal shorts exactly. Lia stands naturally beside a garden planter on a sunlit Brazilian patio, smiling while looking at a leaf. Complete shirt and shorts visible, arms clear of clothing, full body with breathing room. Soft warm natural daylight, real cotton texture, warm ivory wall and green plants; candid editorial photography. No lettering, logos, watermark, additional children or added garment details. Opaque output, request 1536x2048 or larger.",
+      "referencePaths": [
+        "assets/originals/cast/model-001-reference-v1.png",
+        "assets/originals/catalog/product-003-cream-butter-leaf-model-v1.png"
+      ]
+    },
+    {
+      "id": "category-polos",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1371c-6382-7280-9c34-e6190981440d\\exec-b1c78a3b-7697-4767-a645-323c7a316ba9.png",
+      "prompt": "Use case: identity-preserve. Create ONE photoreal portrait 3:4 lifestyle category photograph for Difratelli Kids. Image 1 is approved fictional child Miguel: preserve exact age, face, complexion, hair and body proportions. Image 2 is approved wardrobe: preserve all clothes exactly, especially a plain cream polo, no new trim, logos or print. Place child naturally in a sunlit patio near leafy planters, full body with margins, complete garments unobstructed. Soft warm natural daylight, warm ivory and muted green palette, realistic cotton, relaxed candid pose, slight variation from studio pose. Outdoor setting must be evident. No letters, watermark, extra people or accessories covering clothes. Opaque image, request 1536x2048 or larger.",
+      "referencePaths": [
+        "assets/originals/cast/model-005-reference-v2.png",
+        "assets/originals/catalog/product-002-cream-model-v1.png"
+      ]
+    },
+    {
+      "id": "category-tops",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1371c-6382-7280-9c34-e6190981440d\\exec-aac478de-9c02-40fd-ab45-2283d599cde5.png",
+      "prompt": "Use case: identity-preserve. Create ONE photoreal portrait 3:4 lifestyle category photograph for Difratelli Kids. Image 1 is approved fictional child Bia: preserve exact age, face, complexion, hair and body proportions. Image 2 is approved wardrobe: preserve all clothes exactly, especially the botanical blouse, no new trim, logos or print. Place child naturally in a warm garden wall, full body with margins, complete garments unobstructed. Soft warm natural daylight, warm ivory and muted green palette, realistic cotton, relaxed candid pose, slight variation from studio pose. Outdoor setting must be evident. No letters, watermark, extra people or accessories covering clothes. Opaque image, request 1536x2048 or larger.",
+      "referencePaths": [
+        "assets/originals/cast/model-002-reference-v2.png",
+        "assets/originals/catalog/product-004-cream-leaf-teal-model-v1.png"
+      ]
+    },
+    {
+      "id": "category-shorts",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1371c-6382-7280-9c34-e6190981440d\\exec-a8df8fd9-c3fb-459a-983f-b2267cffae30.png",
+      "prompt": "Use case: identity-preserve. Create ONE photoreal portrait 3:4 lifestyle category photograph for Difratelli Kids. Image 1 is approved fictional child Lia: preserve exact age, face, complexion, hair and body proportions. Image 2 is approved wardrobe: preserve all clothes exactly, especially the leaf-green shorts, no new trim, logos or print. Place child naturally in a patio with a wooden toy, full body with margins, complete garments unobstructed. Soft warm natural daylight, warm ivory and muted green palette, realistic cotton, relaxed candid pose, slight variation from studio pose. Outdoor setting must be evident. No letters, watermark, extra people or accessories covering clothes. Opaque image, request 1536x2048 or larger.",
+      "referencePaths": [
+        "assets/originals/cast/model-001-reference-v1.png",
+        "assets/originals/catalog/product-007-leaf-model-v1.png"
+      ]
+    },
+    {
+      "id": "category-trousers",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1371c-6382-7280-9c34-e6190981440d\\exec-cb3270e4-e70d-46b4-8ee9-aa6aaedec375.png",
+      "prompt": "Use case: identity-preserve. Create ONE photoreal portrait 3:4 lifestyle category photograph for Difratelli Kids. Image 1 is approved fictional child Theo: preserve exact age, face, complexion, hair and body proportions. Image 2 is approved wardrobe: preserve all clothes exactly, especially the leaf-green trousers, no new trim, logos or print. Place child naturally in a quiet garden path, full body with margins, complete garments unobstructed. Soft warm natural daylight, warm ivory and muted green palette, realistic cotton, relaxed candid pose, slight variation from studio pose. Outdoor setting must be evident. No letters, watermark, extra people or accessories covering clothes. Opaque image, request 1536x2048 or larger.",
+      "referencePaths": [
+        "assets/originals/cast/model-007-reference-v1.png",
+        "assets/originals/catalog/product-009-leaf-model-v3.png"
+      ]
+    },
+    {
+      "id": "category-matching-sets",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1371c-6382-7280-9c34-e6190981440d\\exec-4f7e1efc-d42a-46c7-9f1d-47de47895e4d.png",
+      "prompt": "Use case: identity-preserve. Create ONE photoreal portrait 3:4 lifestyle category photograph for Difratelli Kids. Image 1 is approved fictional child Davi: preserve exact age, face, complexion, hair and body proportions. Image 2 is approved wardrobe: preserve all clothes exactly, especially the printed cream top and teal shorts matching set, no new trim, logos or print. Place child naturally in a garden patio, full body with margins, complete garments unobstructed. Soft warm natural daylight, warm ivory and muted green palette, realistic cotton, relaxed candid pose, slight variation from studio pose. Outdoor setting must be evident. No letters, watermark, extra people or accessories covering clothes. Opaque image, request 1536x2048 or larger.",
+      "referencePaths": [
+        "assets/originals/cast/model-006-reference-v1.png",
+        "assets/originals/catalog/product-006-cream-teal-leaf-model-v1.png"
+      ]
+    },
+    {
+      "id": "category-light-layers",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1371c-6382-7280-9c34-e6190981440d\\exec-fa6ecd19-bc88-409b-b74b-bd04ded9ee2e.png",
+      "prompt": "Use case: identity-preserve. Create ONE photoreal portrait 3:4 lifestyle category photograph for Difratelli Kids. Image 1 is approved fictional child Noah: preserve exact age, face, complexion, hair and body proportions. Image 2 is approved wardrobe: preserve all clothes exactly, especially the teal light jacket, no new trim, logos or print. Place child naturally in a garden in mild morning light, full body with margins, complete garments unobstructed. Soft warm natural daylight, warm ivory and muted green palette, realistic cotton, relaxed candid pose, slight variation from studio pose. Outdoor setting must be evident. No letters, watermark, extra people or accessories covering clothes. Opaque image, request 1536x2048 or larger.",
+      "referencePaths": [
+        "assets/originals/cast/model-008-reference-v1.png",
+        "assets/originals/catalog/product-010-teal-model-v1.png"
+      ]
+    },
+    {
+      "id": "look-quintal",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1371c-6382-7280-9c34-e6190981440d\\exec-c4ae9aa0-4308-481e-9f70-69c07507aa59.png",
+      "prompt": "Use case: product-mockup. Create ONE photoreal editorial flat-lay photograph for a kidswear shop-the-look section, 4:3 landscape. The four input images are exact garment references. Show EACH of the four complete garments exactly once, arranged naturally on warm ivory linen, in two complementary outfits with generous air around them. Preserve silhouettes, collars, hems, pockets, waistbands, cotton textures, colors and exact motifs/print scale; no new trim or logos. Overhead soft window daylight, subtle organic shadows, high quality fashion photography. Garments occupy central 80% with margin for a square crop retaining all four pieces. No people, hands, shoes, extra garments, text, watermark. Request 2048x1536 or larger. Garden greens and cream, a small loose leaf far from garments.",
+      "referencePaths": [
+        "assets/originals/catalog/product-001-cream-leaf-teal-isolated-v2.png",
+        "assets/originals/catalog/product-002-cream-isolated-v1.png",
+        "assets/originals/catalog/product-007-leaf-isolated-v1.png",
+        "assets/originals/catalog/product-008-teal-isolated-v1.png"
+      ]
+    },
+    {
+      "id": "look-brincadeira",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1371c-6382-7280-9c34-e6190981440d\\exec-1e48873a-a49a-4a66-9670-f3dc1495bbd2.png",
+      "prompt": "Use case: product-mockup. Create ONE photoreal editorial flat-lay photograph for a kidswear shop-the-look section, 4:3 landscape. The four input images are exact garment references. Show EACH of the four complete garments exactly once, arranged naturally on warm ivory linen, in two complementary outfits with generous air around them. Preserve silhouettes, collars, hems, pockets, waistbands, cotton textures, colors and exact motifs/print scale; no new trim or logos. Overhead soft window daylight, subtle organic shadows, high quality fashion photography. Garments occupy central 80% with margin for a square crop retaining all four pieces. No people, hands, shoes, extra garments, text, watermark. Request 2048x1536 or larger. Sky blue and coral, tiny pieces of chalk far from garments.",
+      "referencePaths": [
+        "assets/originals/catalog/product-011-cream-sky-isolated-v1.png",
+        "assets/originals/catalog/product-012-cream-sky-coral-isolated-v1.png",
+        "assets/originals/catalog/product-018-sky-isolated-v1.png",
+        "assets/originals/catalog/product-019-coral-isolated-v1.png"
+      ]
+    },
+    {
+      "id": "look-imaginacao",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1371c-6382-7280-9c34-e6190981440d\\exec-a779ea1f-ef33-43ef-803f-ced844bb0d1c.png",
+      "prompt": "Use case: product-mockup. Create ONE photoreal editorial flat-lay photograph for a kidswear shop-the-look section, 4:3 landscape. The four input images are exact garment references. Show EACH of the four complete garments exactly once, arranged naturally on warm ivory linen, in two complementary outfits with generous air around them. Preserve silhouettes, collars, hems, pockets, waistbands, cotton textures, colors and exact motifs/print scale; no new trim or logos. Overhead soft window daylight, subtle organic shadows, high quality fashion photography. Garments occupy central 80% with margin for a square crop retaining all four pieces. No people, hands, shoes, extra garments, text, watermark. Request 2048x1536 or larger. Lilac and peach, a few wooden blocks far from garments.",
+      "referencePaths": [
+        "assets/originals/catalog/product-021-cream-teal-peach-isolated-v1.png",
+        "assets/originals/catalog/product-022-lilac-cream-teal-isolated-v1.png",
+        "assets/originals/catalog/product-028-peach-isolated-v1.png",
+        "assets/originals/catalog/product-030-lilac-isolated-v1.png"
+      ]
+    },
+    {
+      "id": "quote-garments",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1371c-6382-7280-9c34-e6190981440d\\exec-436b6bdc-3db2-47f2-b985-e0adf1931a09.png",
+      "prompt": "Use case: product-mockup. Create ONE photoreal editorial wide 16:9 flat-lay image for a Difratelli kids clothing homepage. Show the exact botanical cream dress from image 1 laid naturally on the RIGHT 50% of pale warm ivory linen, complete neckline sleeves and hem visible, slightly relaxed fabric folds. LEFT 45% completely empty quiet ivory linen for large dark brown text overlay. Preserve short sleeves, natural waist, gathered skirt, green/yellow leaf print and cotton texture. A small loose leaf at far right, not over clothing. Overhead soft window daylight, subtle realistic shadows, high-end but natural cotton fashion photography. No people, hands, text, logos, watermarks. Request 2560x1440 or larger; negative space is essential.",
+      "referencePaths": [
+        "assets/originals/catalog/product-005-cream-leaf-butter-isolated-v2.png"
+      ]
+    },
+    {
+      "id": "editorial-quintal",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1371c-6382-7280-9c34-e6190981440d\\exec-3db804db-3264-4c3a-905e-d1e549db817d.png",
+      "prompt": "Use case: product-mockup. Create ONE photoreal editorial wide 16:9 flat-lay image for a Difratelli kids clothing homepage. Arrange all four exact referenced garments on LEFT 55% of warm ivory linen, two complementary outfits with each garment exactly once. RIGHT 40% completely empty quiet ivory linen for dark brown heading and button. Preserve each garment's colors, silhouettes, waistband and print motifs. No extra clothes. Overhead soft window daylight, subtle realistic shadows, high-end but natural cotton fashion photography. No people, hands, text, logos, watermarks. Request 2560x1440 or larger; negative space is essential.",
+      "referencePaths": [
+        "assets/originals/catalog/product-001-cream-leaf-teal-isolated-v2.png",
+        "assets/originals/catalog/product-002-cream-isolated-v1.png",
+        "assets/originals/catalog/product-007-leaf-isolated-v1.png",
+        "assets/originals/catalog/product-008-teal-isolated-v1.png"
+      ]
+    },
+    {
+      "id": "category-dresses",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1371c-6382-7280-9c34-e6190981440d\\exec-b57bc22b-8e53-4673-941e-3c6c72019eb8.png",
+      "prompt": "Use case: identity-preserve. ONE photorealistic portrait 3:4 outdoor lifestyle kidswear category image. Image 1: approved fictional Iara age 8, preserve exact face, apparent age, long blonde hair, blue eyes and proportions. Image 2: exact approved sky-blue short-sleeve cotton dress with cream and coral chalk marks, natural waist and gathered skirt. Preserve full dress including sleeves and hem, all print and colors. Iara standing naturally on a sunny quiet Brazilian patio beside a warm ivory wall with a few faint chalk marks on ground, full body with margins, soft daylight, relaxed candid smile. No extra children, accessories covering dress, added trim, logos, text or watermark. Request 1536x2048 or larger, opaque.",
+      "referencePaths": [
+        "assets/originals/cast/model-004-reference-v2.png",
+        "assets/originals/catalog/product-014-sky-cream-coral-model-v2.png"
+      ]
+    },
+    {
+      "id": "hero-left-wide",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1371c-6382-7280-9c34-e6190981440d\\exec-6e23b0b1-2690-41fc-973b-f7492d619d23.png",
+      "prompt": "Use case: identity-preserve / background expansion. Create ONE landscape 3:2 photorealistic hero photograph from image 1. Image 2 is supporting approved identity reference. Keep Bia's exact cream botanical green/yellow dress, face, copper bob, freckles and leaf-holding pose. Place her full body on the RIGHT 32% of frame, top hair at 6% and shoes at 95%. Expand same ivory garden wall on LEFT 65%, especially lower left completely calm for white serif text with gradient overlay. No new garments or child. Match original natural warm daylight and cotton textures. Preserve complete outfit within frame, no typography, logos, watermarks, extra people. Request 2400x1600 or larger.",
+      "referencePaths": [
+        "assets/originals/editorial/hero-left-v2.png",
+        "assets/originals/cast/model-002-reference-v2.png"
+      ]
+    },
+    {
+      "id": "hero-right-wide",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1371c-6382-7280-9c34-e6190981440d\\exec-618ea8c8-f715-41b0-9eb0-1fb207971bdf.png",
+      "prompt": "Use case: identity-preserve / background expansion. Create ONE landscape 3:2 photorealistic hero photograph from image 1. Image 2 is supporting approved identity reference. Keep Davi's exact plain cream polo, sand shorts, face, curls and looking-at-beetle pose. Place him full body in CENTER, top hair at 5% and shoes at 95%. Expand same ivy garden, pale wall and planter naturally around him. Polo stays entirely plain. No new garments or child. Match original natural warm daylight and cotton textures. Preserve complete outfit within frame, no typography, logos, watermarks, extra people. Request 2400x1600 or larger.",
+      "referencePaths": [
+        "assets/originals/editorial/hero-right-v3.png",
+        "assets/originals/cast/model-006-reference-v1.png"
+      ]
+    }
+  ]
+}

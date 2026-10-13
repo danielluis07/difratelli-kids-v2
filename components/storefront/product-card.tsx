@@ -7,11 +7,12 @@ import { AssetImage } from "./asset-image";
 import type { ProductCardData } from "@/lib/presentation/catalog";
 import copy from "@/docs/content/copy-proposal.json";
 
-export function ProductCard({ product, sizes }: { product: ProductCardData; sizes: string }) {
+export function ProductCard({ product, sizes, headingLevel = 2 }: { product: ProductCardData; sizes: string; headingLevel?: 2 | 3 }) {
   const [colorId, setColorId] = useState(product.defaultColorwayId);
   const color = product.colorways.find((option) => option.id === colorId)!;
   const [model, isolated] = color.photos;
   const href = `/produto/${product.slug}?cor=${encodeURIComponent(color.id)}`;
+  const Heading = headingLevel === 3 ? "h3" : "h2";
   return (
     <li className="product-card" data-product-id={product.id}>
       <Link className="product-link" href={href}>
@@ -19,7 +20,7 @@ export function ProductCard({ product, sizes }: { product: ProductCardData; size
           <AssetImage key={model.src} {...model} fill sizes={sizes} className="model-photo" />
           <AssetImage key={isolated.src} {...isolated} alt="" aria-hidden="true" fill sizes={sizes} className="isolated-photo" />
         </div>
-        <h2 className="product-name">{product.name}</h2>
+        <Heading className="product-name">{product.name}</Heading>
         <p className="product-price">{product.price}</p>
       </Link>
       <ToggleGroup className="color-swatches" aria-label={`${copy.product.color}: ${product.name}`} value={[color.id]} onValueChange={(values) => { if (values[0]) setColorId(values[0]); }}>

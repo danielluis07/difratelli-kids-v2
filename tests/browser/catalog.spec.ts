@@ -28,11 +28,10 @@ test("responsive grids, sticky navigation and compact destinations work at the a
     await page.setViewportSize({ width, height: 900 });
     await page.goto("/produtos");
     await expect(page.locator("main .product-card")).toHaveCount(30);
-    const layout = await page.locator(".product-grid:visible").evaluate((grid) => ({
+    await expect.poll(() => page.locator(".product-grid:visible").evaluate((grid) => ({
       columns: getComputedStyle(grid).gridTemplateColumns.split(" ").length,
       overflow: document.documentElement.scrollWidth > window.innerWidth,
-    }));
-    expect(layout).toEqual({ columns, overflow: false });
+    }))).toEqual({ columns, overflow: false });
     await page.evaluate(() => window.scrollTo(0, 500));
     expect(await page.locator("header").evaluate((header) => header.getBoundingClientRect().top)).toBe(0);
     await page.evaluate(() => window.scrollTo(0, 0));

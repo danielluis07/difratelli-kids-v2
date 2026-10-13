@@ -1,0 +1,155 @@
+{
+  "revision": "issue-34-image-refresh-v2",
+  "parentRevision": "issue-34-content-v1",
+  "status": "approved",
+  "implementationAllowed": true,
+  "reviewer": "User in this conversation",
+  "evidence": {
+    "message": "approved. and finally one more change. in the Uma ideia, quatro escolhas section, the editorial image on the left must scroll with the page until section ends",
+    "context": "Explicit approval of the five image replacements and six reviewed crops after the local image refresh review; additional sticky-image instruction recorded separately in implementation."
+  },
+  "recordedAtUtc": "2026-10-13T23:13:04.643Z",
+  "approvalRequestSha256": "42159e256bd62ff0b3179df6c9bac9e2047d6f28c7ee1751498183e0bd3e0099",
+  "files": [
+    {
+      "path": "assets/originals/cast/model-004-reference-v2.png",
+      "sha256": "27184a178f11556ed4048930462bce2f1e6dda6681c2172d278c4268753a8a18"
+    },
+    {
+      "path": "assets/originals/cast/model-005-reference-v2.png",
+      "sha256": "446b8c30e3568325be58210aad97775878ae928a5c3495d7593668120526ecd8"
+    },
+    {
+      "path": "assets/originals/cast/model-006-reference-v1.png",
+      "sha256": "054c88dacd8477098bf5b707ae3d809f08fe3f4c6ab900001dcd30f523fc0c03"
+    },
+    {
+      "path": "assets/originals/catalog/product-001-cream-leaf-teal-model-v2.png",
+      "sha256": "613552606f2eb7e3fcdc85abbf20a32d925ccf10b2a5473d4b070d133f8d1296"
+    },
+    {
+      "path": "assets/originals/catalog/product-002-cream-isolated-v1.png",
+      "sha256": "9f5b7d7ad50847d1f70f04a2fd04f7d5acca0e14fd2a805077c26b000f9e66f3"
+    },
+    {
+      "path": "assets/originals/catalog/product-002-cream-model-v1.png",
+      "sha256": "b34a0c3fb5f34c64cbc1296441e3cea8671c50edf88852ddd95fe8cc61a53058"
+    },
+    {
+      "path": "assets/originals/catalog/product-006-cream-teal-leaf-isolated-v1.png",
+      "sha256": "3d08ed2216e04cec10f6ef7f09e8f7a8dffafe31072177006e9eb20e29cdf53a"
+    },
+    {
+      "path": "assets/originals/catalog/product-008-teal-isolated-v1.png",
+      "sha256": "e5265be7b8772e68acaffd9475038a594dba93d97a520756fe70c687e623b4f0"
+    },
+    {
+      "path": "assets/originals/catalog/product-011-cream-sky-model-v1.png",
+      "sha256": "015f24fbfadca07fa47775fc141a2db210050d085ae1d676c5292dc5b002bbed"
+    },
+    {
+      "path": "assets/originals/catalog/product-014-sky-cream-coral-model-v2.png",
+      "sha256": "f6bb5afb4022b61534dcf734f99c46ad44bd193ba10bf7ab9f0cc3a9baa81e85"
+    },
+    {
+      "path": "assets/originals/catalog/product-022-lilac-cream-teal-isolated-v1.png",
+      "sha256": "622bf5213303a703db596e248ec9c23c958cf62a02afb0766ba583afa30f01a9"
+    },
+    {
+      "path": "assets/originals/catalog/product-025-cream-lilac-teal-isolated-v1.png",
+      "sha256": "63d340fc5922cf0a110acb89893a8505e5f52755d464e3ed98dd4e6ddfa953c0"
+    },
+    {
+      "path": "assets/originals/homepage/category-dresses-friends-v2.png",
+      "sha256": "f8b28acfe11ce5ea2895b3bd220cacea17f866ee5834d2c2c8cf7c6a53e043ef"
+    },
+    {
+      "path": "assets/originals/homepage/category-matching-sets-clothes-v2.png",
+      "sha256": "48000558792739e2713dca054bd90b7d899677ec3f0b3224ff790ac033b6abe0"
+    },
+    {
+      "path": "assets/originals/homepage/category-polos-city-v2.png",
+      "sha256": "2bcf6db49bfbdeba3c47d266df47f0fbed6dcdaec10c68cbf2e799089c54aa39"
+    },
+    {
+      "path": "assets/originals/homepage/category-t-shirts-park-v2.png",
+      "sha256": "59ff83c9eee0dc1b831dde2ace497c185280594f15aa264de5046199e0c6350c"
+    },
+    {
+      "path": "assets/originals/homepage/hero-right-clothes-narrow-v2.png",
+      "sha256": "bd1ed78a281230469313d5677d0d14b405ec021aa59297b25e5416a000b0e76a"
+    },
+    {
+      "path": "assets/originals/homepage/hero-right-clothes-v2.png",
+      "sha256": "55a48f205c033b0ce331d01cd1c3809796c9aab2d3ca154d6a0091caed165d54"
+    },
+    {
+      "path": "docs/content/homepage-image-refresh-contact-sheet.webp",
+      "sha256": "088865bf963848225ccecce1da06eacddfed7fb5c9f5d6c3abffdf305f12e790"
+    },
+    {
+      "path": "docs/content/homepage-image-refresh-generation.json",
+      "sha256": "dfed644988b16a9b4b11ef0e1c838b8d88d7284f0793185db1d797cac77a6fe2"
+    },
+    {
+      "path": "docs/content/homepage-image-refresh-hero-1024.png",
+      "sha256": "9dc4db2bdfbf1255ec578984407687a85ebf3e9815ed720e3cdc25bda8d73f73"
+    },
+    {
+      "path": "docs/content/homepage-image-refresh-hero-1440.png",
+      "sha256": "81f37d24df8407396ea33d07181fb2ec892629cad638a117fc860806134f3f40"
+    },
+    {
+      "path": "docs/content/homepage-image-refresh-hero-1920.png",
+      "sha256": "91d96ffd64e9b77741783b67e5a0df8e2f5bd6a416993fdcc056a6a1d07e0461"
+    },
+    {
+      "path": "docs/content/homepage-image-refresh-hero-390.png",
+      "sha256": "b627a7502f663485b7c7ca467e387ab11ccc47a51bf1a78e95adcac85668f25f"
+    },
+    {
+      "path": "docs/content/homepage-image-refresh-hero-768.png",
+      "sha256": "d3f7fad5a79837ebe790789b021795d204d9b06720d52a44d12a1607d8087052"
+    },
+    {
+      "path": "docs/content/homepage-image-refresh-manifest.json",
+      "sha256": "55d2ff2b43dd4602d755412ceabb63c6a0bcead13b4b3533e3b9c1110fcfe46b"
+    },
+    {
+      "path": "docs/content/homepage-image-refresh-review.html",
+      "sha256": "5bd1951eef91f98ab96a56186768e025f05f90e7d89186d89828560acba65058"
+    },
+    {
+      "path": "docs/content/homepage-image-refresh-review.md",
+      "sha256": "be1ddc78cf531abb42fa45552baa8f55d1ede1a9c43f26cff065107f40f5e640"
+    },
+    {
+      "path": "public/images/homepage/category-dresses-friends-v2-portrait.webp",
+      "sha256": "6a0308359797cf3cebb6855054f1d6125a190ac0645290d799f00ba515bf2439"
+    },
+    {
+      "path": "public/images/homepage/category-matching-sets-clothes-v2-portrait.webp",
+      "sha256": "e17ebc6961eac3777bb573206cd9d97170ee69d46a2c5ee53f3fdfe902827b75"
+    },
+    {
+      "path": "public/images/homepage/category-polos-city-v2-portrait.webp",
+      "sha256": "9678a27630ae3ebedb5d8a91e87828345eafa7aba8d36613f4cb0d31a298f9e6"
+    },
+    {
+      "path": "public/images/homepage/category-t-shirts-park-v2-portrait.webp",
+      "sha256": "c541fb6e7a161d0d8ee88fca9fb7f97435f23a29f2ecf6a0f2f663ae9aa59076"
+    },
+    {
+      "path": "public/images/homepage/hero-right-clothes-v2-desktop.webp",
+      "sha256": "d1a931dc40c041436bd50fd4d5aceff211ec1a00685081d1860ea24b2f2f0c89"
+    },
+    {
+      "path": "public/images/homepage/hero-right-clothes-v2-narrow.webp",
+      "sha256": "b9a21d3ea5cca45235b095c79a4600687ce43ae848bafb697587b3d3bdcd2723"
+    }
+  ],
+  "remainingGates": [
+    "Storefront implementation acceptance",
+    "Release approval"
+  ]
+}

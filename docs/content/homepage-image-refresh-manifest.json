@@ -1,0 +1,361 @@
+{
+  "revision": "issue-34-image-refresh-v2",
+  "parentRevision": "issue-34-content-v1",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/34",
+  "approvalStatus": "pending-human-review",
+  "implementationAllowed": false,
+  "technicalStatus": "passed",
+  "assets": [
+    {
+      "id": "hero-right-clothes-v2",
+      "slot": "hero-right",
+      "role": "homepage-hero-right",
+      "originalPath": "assets/originals/homepage/hero-right-clothes-v2.png",
+      "originalSha256": "55a48f205c033b0ce331d01cd1c3809796c9aab2d3ca154d6a0091caed165d54",
+      "width": 1536,
+      "height": 1024,
+      "originalBytes": 3012313,
+      "alt": "Polo creme, camiseta lilás de estrelas e short verde-petróleo sobre tecido claro, sem modelo.",
+      "modelIds": [],
+      "productIds": [
+        "product-002",
+        "product-022",
+        "product-008"
+      ],
+      "usage": [
+        "hero-right"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/catalog/product-002-cream-isolated-v1.png",
+          "sha256": "9f5b7d7ad50847d1f70f04a2fd04f7d5acca0e14fd2a805077c26b000f9e66f3"
+        },
+        {
+          "path": "assets/originals/catalog/product-022-lilac-cream-teal-isolated-v1.png",
+          "sha256": "622bf5213303a703db596e248ec9c23c958cf62a02afb0766ba583afa30f01a9"
+        },
+        {
+          "path": "assets/originals/catalog/product-008-teal-isolated-v1.png",
+          "sha256": "e5265be7b8772e68acaffd9475038a594dba93d97a520756fe70c687e623b4f0"
+        }
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "3:2",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1536,
+            "height": 1024
+          },
+          "width": 1536,
+          "height": 1024,
+          "webPath": "public/images/homepage/hero-right-clothes-v2-desktop.webp",
+          "src": "/images/homepage/hero-right-clothes-v2-desktop.webp",
+          "sha256": "d1a931dc40c041436bd50fd4d5aceff211ec1a00685081d1860ea24b2f2f0c89",
+          "bytes": 404502,
+          "approvalStatus": "pending-human-review"
+        },
+        {
+          "name": "narrow",
+          "ratio": "4:5",
+          "sourceRect": {
+            "left": 1,
+            "top": 1,
+            "width": 1120,
+            "height": 1400
+          },
+          "width": 1120,
+          "height": 1400,
+          "webPath": "public/images/homepage/hero-right-clothes-v2-narrow.webp",
+          "src": "/images/homepage/hero-right-clothes-v2-narrow.webp",
+          "sha256": "b9a21d3ea5cca45235b095c79a4600687ce43ae848bafb697587b3d3bdcd2723",
+          "bytes": 395756,
+          "approvalStatus": "pending-human-review",
+          "derivative": {
+            "originalPath": "assets/originals/homepage/hero-right-clothes-narrow-v2.png",
+            "originalSha256": "bd1ed78a281230469313d5677d0d14b405ec021aa59297b25e5416a000b0e76a",
+            "width": 1122,
+            "height": 1402,
+            "originalBytes": 2964430
+          }
+        }
+      ],
+      "approvalStatus": "pending-human-review"
+    },
+    {
+      "id": "category-t-shirts-park-v2",
+      "slot": "category-t-shirts",
+      "role": "category-tile",
+      "originalPath": "assets/originals/homepage/category-t-shirts-park-v2.png",
+      "originalSha256": "59ff83c9eee0dc1b831dde2ace497c185280594f15aa264de5046199e0c6350c",
+      "width": 1086,
+      "height": 1448,
+      "originalBytes": 2431396,
+      "alt": "Davi corre por um parque urbano com camiseta creme de folhas e short verde-petróleo.",
+      "modelIds": [
+        "model-006"
+      ],
+      "productIds": [
+        "product-001"
+      ],
+      "usage": [
+        "category-t-shirts"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/cast/model-006-reference-v1.png",
+          "sha256": "054c88dacd8477098bf5b707ae3d809f08fe3f4c6ab900001dcd30f523fc0c03"
+        },
+        {
+          "path": "assets/originals/catalog/product-001-cream-leaf-teal-model-v2.png",
+          "sha256": "613552606f2eb7e3fcdc85abbf20a32d925ccf10b2a5473d4b070d133f8d1296"
+        }
+      ],
+      "crops": [
+        {
+          "name": "portrait",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1086,
+            "height": 1448
+          },
+          "width": 1086,
+          "height": 1448,
+          "webPath": "public/images/homepage/category-t-shirts-park-v2-portrait.webp",
+          "src": "/images/homepage/category-t-shirts-park-v2-portrait.webp",
+          "sha256": "c541fb6e7a161d0d8ee88fca9fb7f97435f23a29f2ecf6a0f2f663ae9aa59076",
+          "bytes": 267104,
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "approvalStatus": "pending-human-review"
+    },
+    {
+      "id": "category-polos-city-v2",
+      "slot": "category-polos",
+      "role": "category-tile",
+      "originalPath": "assets/originals/homepage/category-polos-city-v2.png",
+      "originalSha256": "2bcf6db49bfbdeba3c47d266df47f0fbed6dcdaec10c68cbf2e799089c54aa39",
+      "width": 1086,
+      "height": 1448,
+      "originalBytes": 1954385,
+      "alt": "Miguel usa óculos de sol e polo lisa creme em uma calçada da cidade.",
+      "modelIds": [
+        "model-005"
+      ],
+      "productIds": [
+        "product-002"
+      ],
+      "usage": [
+        "category-polos"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/cast/model-005-reference-v2.png",
+          "sha256": "446b8c30e3568325be58210aad97775878ae928a5c3495d7593668120526ecd8"
+        },
+        {
+          "path": "assets/originals/catalog/product-002-cream-model-v1.png",
+          "sha256": "b34a0c3fb5f34c64cbc1296441e3cea8671c50edf88852ddd95fe8cc61a53058"
+        }
+      ],
+      "crops": [
+        {
+          "name": "portrait",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1086,
+            "height": 1448
+          },
+          "width": 1086,
+          "height": 1448,
+          "webPath": "public/images/homepage/category-polos-city-v2-portrait.webp",
+          "src": "/images/homepage/category-polos-city-v2-portrait.webp",
+          "sha256": "9678a27630ae3ebedb5d8a91e87828345eafa7aba8d36613f4cb0d31a298f9e6",
+          "bytes": 176624,
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "approvalStatus": "pending-human-review"
+    },
+    {
+      "id": "category-matching-sets-clothes-v2",
+      "slot": "category-matching-sets",
+      "role": "category-tile",
+      "originalPath": "assets/originals/homepage/category-matching-sets-clothes-v2.png",
+      "originalSha256": "48000558792739e2713dca054bd90b7d899677ec3f0b3224ff790ac033b6abe0",
+      "width": 1086,
+      "height": 1448,
+      "originalBytes": 2883119,
+      "alt": "Dois conjuntos infantis, com camisetas creme estampadas e shorts verde-petróleo, sobre um banco de madeira.",
+      "modelIds": [],
+      "productIds": [
+        "product-006",
+        "product-025"
+      ],
+      "usage": [
+        "category-matching-sets"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/catalog/product-006-cream-teal-leaf-isolated-v1.png",
+          "sha256": "3d08ed2216e04cec10f6ef7f09e8f7a8dffafe31072177006e9eb20e29cdf53a"
+        },
+        {
+          "path": "assets/originals/catalog/product-025-cream-lilac-teal-isolated-v1.png",
+          "sha256": "63d340fc5922cf0a110acb89893a8505e5f52755d464e3ed98dd4e6ddfa953c0"
+        }
+      ],
+      "crops": [
+        {
+          "name": "portrait",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1086,
+            "height": 1448
+          },
+          "width": 1086,
+          "height": 1448,
+          "webPath": "public/images/homepage/category-matching-sets-clothes-v2-portrait.webp",
+          "src": "/images/homepage/category-matching-sets-clothes-v2-portrait.webp",
+          "sha256": "e17ebc6961eac3777bb573206cd9d97170ee69d46a2c5ee53f3fdfe902827b75",
+          "bytes": 416222,
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "approvalStatus": "pending-human-review"
+    },
+    {
+      "id": "category-dresses-friends-v2",
+      "slot": "category-dresses",
+      "role": "category-tile",
+      "originalPath": "assets/originals/homepage/category-dresses-friends-v2.png",
+      "originalSha256": "f8b28acfe11ce5ea2895b3bd220cacea17f866ee5834d2c2c8cf7c6a53e043ef",
+      "width": 1086,
+      "height": 1448,
+      "originalBytes": 2470747,
+      "alt": "Iara e Davi sorriem juntos sob o céu azul; ela usa vestido azul-claro e ele, polo listrada e short verde-petróleo.",
+      "modelIds": [
+        "model-004",
+        "model-006"
+      ],
+      "productIds": [
+        "product-014",
+        "product-011"
+      ],
+      "usage": [
+        "category-dresses"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/cast/model-004-reference-v2.png",
+          "sha256": "27184a178f11556ed4048930462bce2f1e6dda6681c2172d278c4268753a8a18"
+        },
+        {
+          "path": "assets/originals/cast/model-006-reference-v1.png",
+          "sha256": "054c88dacd8477098bf5b707ae3d809f08fe3f4c6ab900001dcd30f523fc0c03"
+        },
+        {
+          "path": "assets/originals/catalog/product-014-sky-cream-coral-model-v2.png",
+          "sha256": "f6bb5afb4022b61534dcf734f99c46ad44bd193ba10bf7ab9f0cc3a9baa81e85"
+        },
+        {
+          "path": "assets/originals/catalog/product-011-cream-sky-model-v1.png",
+          "sha256": "015f24fbfadca07fa47775fc141a2db210050d085ae1d676c5292dc5b002bbed"
+        }
+      ],
+      "crops": [
+        {
+          "name": "portrait",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1086,
+            "height": 1448
+          },
+          "width": 1086,
+          "height": 1448,
+          "webPath": "public/images/homepage/category-dresses-friends-v2-portrait.webp",
+          "src": "/images/homepage/category-dresses-friends-v2-portrait.webp",
+          "sha256": "6a0308359797cf3cebb6855054f1d6125a190ac0645290d799f00ba515bf2439",
+          "bytes": 296448,
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "approvalStatus": "pending-human-review"
+    }
+  ],
+  "integration": {
+    "revision": "issue-34-image-refresh-v2",
+    "parentRevision": "issue-34-content-v1",
+    "implementationAllowed": false,
+    "replacements": [
+      {
+        "assetId": "hero-right-clothes-v2",
+        "slot": "hero-right",
+        "replacesAssetIds": [
+          "hero-right-wide",
+          "hero-right"
+        ],
+        "cropMapping": {
+          "hero-right-wide": "desktop",
+          "hero-right/narrow": "narrow"
+        },
+        "href": null
+      },
+      {
+        "assetId": "category-t-shirts-park-v2",
+        "slot": "category-t-shirts",
+        "replacesAssetIds": [
+          "category-t-shirts"
+        ],
+        "cropMapping": {
+          "default": "portrait"
+        },
+        "href": "/produtos?categoria=t-shirts"
+      },
+      {
+        "assetId": "category-polos-city-v2",
+        "slot": "category-polos",
+        "replacesAssetIds": [
+          "category-polos"
+        ],
+        "cropMapping": {
+          "default": "portrait"
+        },
+        "href": "/produtos?categoria=polos"
+      },
+      {
+        "assetId": "category-matching-sets-clothes-v2",
+        "slot": "category-matching-sets",
+        "replacesAssetIds": [
+          "category-matching-sets"
+        ],
+        "cropMapping": {
+          "default": "portrait"
+        },
+        "href": "/produtos?categoria=matching-sets"
+      },
+      {
+        "assetId": "category-dresses-friends-v2",
+        "slot": "category-dresses",
+        "replacesAssetIds": [
+          "category-dresses"
+        ],
+        "cropMapping": {
+          "default": "portrait"
+        },
+        "href": "/produtos?categoria=dresses"
+      }
+    ]
+  }
+}

@@ -1,0 +1,368 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Issue 34 — content review v1</title><style>
+@font-face{font-family:Fraunces;src:url('../../assets/identity/fonts/Fraunces-variable.ttf')}@font-face{font-family:DM Sans;src:url('../../assets/identity/fonts/DM-Sans-variable.ttf')}
+*{box-sizing:border-box}body{margin:0;background:#FAF7F0;color:#382C25;font:16px 'DM Sans',sans-serif}h1,h2,h3,blockquote{font-family:Fraunces,serif}h2{font-size:32px;font-weight:500}p{line-height:1.6}a{color:#246B63}img{display:block;width:100%;height:auto}section{margin:64px 0}.review-note{padding:24px;background:#eee5d5}.review-note h1{font-size:30px;margin-top:0}.review-note p{max-width:80ch}.review-label{padding:12px 24px;background:#eee5d5;font-size:14px}.announcement{text-align:center;background:#246B63;color:white;padding:14px}header{padding:22px;text-align:center;font:30px Fraunces}.hero{display:grid;grid-template-columns:1fr 1fr;margin:0}.hero-panel{position:relative;min-width:0}.hero picture{display:block}.hero img{height:640px;object-fit:cover;object-position:50% 0}.hero-left:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(35,25,18,.76),rgba(35,25,18,.42) 52%,transparent 82%);pointer-events:none}.hero-copy{position:absolute;z-index:1;left:clamp(24px,3vw,56px);bottom:48px;width:calc(100% - 80px);max-width:550px;color:white}.hero-copy h2{font-size:clamp(56px,4.7vw,90px);line-height:1.02;margin:16px 0 24px;max-width:10ch}.eyebrow{text-transform:uppercase;letter-spacing:.1em;font-size:12px}.hero-actions{display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:470px}.hero-actions span{border:1px solid white;padding:14px 10px;text-align:center;font-size:14px;background:rgba(35,25,18,.3)}.heading{text-align:center;padding:0 24px}.products{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;padding:0 32px}.products article{min-width:0}.products p{margin:12px 0 4px}.products small{font-size:12px}.strip{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:24px 32px}.strip h2{margin:0}.tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;padding:0 32px}.tiles h3{font:18px 'DM Sans'}.tile{margin-bottom:24px;min-width:0}.photo-block{position:relative}.photo-block>picture{display:block}.photo-block img{width:100%;height:auto}.block-copy{position:absolute;left:5%;top:50%;transform:translateY(-50%);max-width:36%;padding:8px}.block-copy blockquote{font-size:clamp(32px,3.8vw,70px);line-height:1.1;margin:0 0 18px}.block-copy h2{font-size:clamp(32px,3vw,54px);line-height:1.1}.right .block-copy{left:auto;right:4%;max-width:33%}.action{display:inline-block;background:#382C25;color:white;padding:14px 20px;margin:12px 0}.destination{display:block;overflow-wrap:anywhere;font-size:12px}.looks article{margin:32px 0 60px}.look-row{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:start}.look-row .products{grid-template-columns:repeat(2,minmax(0,1fr));padding:0 32px 0 0}.social{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px;padding:0 16px}.social p{font-size:12px}.pages,.inventory{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px;padding:0 32px}.inventory article{min-width:0}.inventory h3{overflow-wrap:anywhere}.inventory pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px}.copy-review{padding:0 32px}.copy-review pre{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.5}.footer-note{padding:32px;background:#382C25;color:white}
+@media(max-width:1279px) and (min-width:1024px){.hero img{height:640px}.hero-copy{left:24px;width:calc(100% - 48px)}.hero-copy h2{font-size:64px}}
+@media(max-width:1023px){.hero{grid-template-columns:1fr}.hero-right{display:none}.hero img{height:560px}.hero-copy{max-width:490px}.hero-copy h2{font-size:64px}.tiles,.products{grid-template-columns:repeat(3,minmax(0,1fr))}.block-copy blockquote{font-size:36px}.block-copy p{font-size:14px}.look-row{grid-template-columns:1fr}.look-row .products{padding:0 24px}.social{grid-template-columns:repeat(4,minmax(0,1fr))}.strip{flex-wrap:wrap}}
+@media(max-width:767px){.products,.tiles{grid-template-columns:repeat(2,minmax(0,1fr));padding:0 16px;gap:16px}.hero-copy{left:24px;bottom:32px;width:calc(100% - 48px)}.hero-copy h2{font-size:48px;max-width:10ch}.hero img{height:600px}.hero-actions span{padding:14px 6px;font-size:13px}.hero-left:after{background:linear-gradient(0deg,rgba(35,25,18,.88),rgba(35,25,18,.1) 85%)}.photo-block .block-copy{position:static;transform:none;max-width:none;padding:24px}.right .block-copy{max-width:none}.social{grid-template-columns:repeat(2,minmax(0,1fr));padding:0 16px}.pages,.inventory{grid-template-columns:1fr;padding:0 16px}.strip{padding:24px 16px}.copy-review{padding:0 16px}}
+</style></head><body><div class="review-note"><h1>Issue #34 — content review v1</h1><p>Pending owner approval. This page presents photographs, crop placement and Brazilian Portuguese copy. Storefront implementation, carousel behavior, accessibility acceptance and deployment remain later work. Review all eight categories, three product-matched looks, seven social crops, hero overlays and reused collection/brand content.</p><p>Promotions carry no discounts. The quote is fictional and attributed to the established fictional cast. Actions below show their future destinations; this review does not navigate the store.</p><a href="#inventory">Asset inventory and dimensions</a> · <a href="#copy">Complete copy proposal</a> · <a href="homepage-contact-sheet.webp">Contact sheet</a></div>
+<div class="review-label">1. Announcement messages — all proposed messages shown for approval</div><div class="announcement" lang="pt-BR"><p>Três coleções, muitos jeitos de brincar. · Detalhes <small>(/colecoes)</small></p><p>Novas combinações para os dias de quintal, rua e casa. · Detalhes <small>(/novidades)</small></p><p>Cores que se encontram. Escolhas do seu jeito. · Detalhes <small>(/colecoes/imaginacao-em-casa)</small></p></div>
+<header>Difratelli Kids</header><div class="review-label">2. Existing sticky header retained during implementation · 3. Static split hero</div>
+<section class="hero" lang="pt-BR"><div class="hero-panel hero-left"><picture><source media="(max-width:479px)" srcset="../../public/images/homepage/hero-left-portrait-v1.webp"><source media="(max-width:1023px)" srcset="../../public/images/homepage/hero-left-tablet-tablet-v1.webp"><source media="(max-width:1279px)" srcset="../../public/images/homepage/hero-left-narrow-v1.webp"><img src="../../public/images/homepage/hero-left-wide-desktop-v1.webp" width="1536" height="1024" alt="Bia observa uma folha no quintal com vestido creme de folhas verdes e amarelas; a parede clara ocupa o lado esquerdo."></picture><div class="hero-copy"><span class="eyebrow">Difratelli Kids · 2 a 8 anos</span><h2>Um dia inteiro para brincar</h2><div class="hero-actions"><span>Comprar para meninas</span><span>Comprar para meninos</span><span>Novidades</span><span>Todas as roupas</span></div></div></div><div class="hero-panel hero-right"><picture><source media="(max-width:1279px)" srcset="../../public/images/homepage/hero-right-narrow-v1.webp"><img src="../../public/images/homepage/hero-right-wide-desktop-v1.webp" width="1536" height="1024" alt="Davi observa um besourinho no jardim, com polo lisa creme e short areia."></picture></div></section>
+<section><div class="review-label">4. Novidades — all eight approved products shown in review</div><h2 class="heading" lang="pt-BR">Novidades</h2><div class="products"><article><img src="../../public/images/catalog/product-023-cream-lilac-peach-model-v1.webp" width="1086" height="1448" alt="Nina usando Blusa Traços de Imaginação na cor Creme, lilás suave, pêssego, com a peça inteira visível sobre fundo branco."><p>Blusa Traços de Imaginação</p><small>cream-lilac-peach</small></article><article><img src="../../public/images/catalog/product-025-cream-lilac-teal-model-v1.webp" width="1086" height="1448" alt="Theo usando Conjunto Mundo de Blocos na cor Creme, lilás suave, verde-petróleo, com as duas peças inteiras visíveis sobre fundo branco."><p>Conjunto Mundo de Blocos</p><small>cream-lilac-teal</small></article><article><img src="../../public/images/catalog/product-021-cream-teal-peach-model-v1.webp" width="1086" height="1448" alt="Caio usando Camiseta Blocos de Ideias na cor Creme, verde-petróleo, pêssego, com a peça inteira visível sobre fundo branco."><p>Camiseta Blocos de Ideias</p><small>cream-teal-peach</small></article><article><img src="../../public/images/catalog/product-024-peach-teal-cream-model-v1.webp" width="1086" height="1448" alt="Iara usando Vestido Histórias de Estrelas na cor Pêssego, verde-petróleo, creme, com a peça inteira visível sobre fundo branco."><p>Vestido Histórias de Estrelas</p><small>peach-teal-cream</small></article><article><img src="../../public/images/catalog/product-001-cream-leaf-teal-model-v2.webp" width="1086" height="1448" alt="Davi usando Camiseta Folhas ao Vento na cor Creme, verde-folha, verde-petróleo, com a peça inteira visível sobre fundo branco."><p>Camiseta Folhas ao Vento</p><small>cream-leaf-teal</small></article><article><img src="../../public/images/catalog/product-005-cream-leaf-butter-model-v2.webp" width="1086" height="1448" alt="Nina usando Vestido Passeio no Quintal na cor Creme, verde-folha, amarelo-manteiga, com a peça inteira visível sobre fundo branco."><p>Vestido Passeio no Quintal</p><small>cream-leaf-butter</small></article><article><img src="../../public/images/catalog/product-011-cream-sky-model-v1.webp" width="1086" height="1448" alt="Davi usando Polo Listrada da Rua com listras finas creme e azul-céu e gola creme lisa, com a peça inteira sobre fundo branco."><p>Polo Listrada da Rua</p><small>cream-sky</small></article><article><img src="../../public/images/catalog/product-016-cream-coral-teal-model-v2.webp" width="1086" height="1448" alt="Nina usando Conjunto Pulo de Giz na cor Creme, coral suave, verde-petróleo, com as duas peças inteiras visíveis sobre fundo branco."><p>Conjunto Pulo de Giz</p><small>cream-coral-teal</small></article></div><p class="heading" lang="pt-BR"><span class="action">Ver todos</span><small class="destination">/novidades</small></p></section>
+<div class="review-label">5. Promotional heading strip</div><div class="strip" lang="pt-BR"><span class="eyebrow">Uma peça puxa outra</span><h2>Combine do seu jeito</h2><span><span class="action">Explore as coleções</span><small class="destination">/colecoes</small></span></div>
+<section><div class="review-label">6. Lifestyle categories — all eight tiles shown in review</div><div class="tiles"><article class="tile"><img src="../../public/images/homepage/category-t-shirts-portrait-v1.webp" width="1086" height="1448" alt="Lia no quintal com camiseta creme estampada com sementes e brotos e short verde-petróleo."><h3 lang="pt-BR">Camisetas</h3><small class="destination">/produtos?categoria=t-shirts</small></article><article class="tile"><img src="../../public/images/homepage/category-polos-portrait-v1.webp" width="1086" height="1448" alt="Miguel no pátio com polo lisa creme e short verde-petróleo."><h3 lang="pt-BR">Polos</h3><small class="destination">/produtos?categoria=polos</small></article><article class="tile"><img src="../../public/images/homepage/category-tops-portrait-v1.webp" width="1086" height="1448" alt="Bia no jardim com blusa creme estampada com folhas e besouros e short verde-petróleo."><h3 lang="pt-BR">Blusas</h3><small class="destination">/produtos?categoria=tops</small></article><article class="tile"><img src="../../public/images/homepage/category-shorts-portrait-v1.webp" width="1086" height="1448" alt="Lia no pátio com short verde-folha e camiseta creme."><h3 lang="pt-BR">Shorts</h3><small class="destination">/produtos?categoria=shorts</small></article><article class="tile"><img src="../../public/images/homepage/category-trousers-portrait-v1.webp" width="1086" height="1448" alt="Theo no caminho do jardim com calça verde-folha e camiseta creme."><h3 lang="pt-BR">Calças</h3><small class="destination">/produtos?categoria=trousers</small></article><article class="tile"><img src="../../public/images/homepage/category-dresses-portrait-v1.webp" width="1086" height="1448" alt="Iara no pátio com vestido azul-claro estampado com riscos de giz creme e coral."><h3 lang="pt-BR">Vestidos</h3><small class="destination">/produtos?categoria=dresses</small></article><article class="tile"><img src="../../public/images/homepage/category-matching-sets-portrait-v1.webp" width="1086" height="1448" alt="Davi no quintal com conjunto de camiseta creme estampada e short verde-petróleo."><h3 lang="pt-BR">Conjuntos</h3><small class="destination">/produtos?categoria=matching-sets</small></article><article class="tile"><img src="../../public/images/homepage/category-light-layers-portrait-v1.webp" width="1086" height="1448" alt="Noah no jardim com casaco leve verde-petróleo sobre camiseta creme."><h3 lang="pt-BR">Peças leves</h3><small class="destination">/produtos?categoria=light-layers</small></article></div></section>
+<div class="review-label">7. Quote block — fictional cast quote</div><section class="photo-block" lang="pt-BR"><img src="../../public/images/homepage/quote-garments-desktop-v1.webp" width="1664" height="936" alt="Vestido creme com folhas verdes e amarelas sobre tecido claro, com espaço livre à esquerda."><div class="block-copy"><blockquote>“Meu vestido tem um jardim!”</blockquote><span>Bia, 5 anos</span><p>Folhas verdes e brotos amarelos acompanham as pequenas descobertas do quintal.</p><span class="action">Descubra os vestidos</span><small class="destination">/produtos?categoria=dresses</small></div></section>
+<div class="review-label">8. Collection editorial — text right</div><section class="photo-block right" lang="pt-BR"><img src="../../public/images/homepage/editorial-quintal-desktop-v1.webp" width="1664" height="936" alt="Peças creme e verdes de Quintal de Descobertas sobre tecido claro, com espaço livre à direita."><div class="block-copy"><span class="eyebrow">Quintal de Descobertas</span><h2>Uma tarde lá fora</h2><p>Folhas, sementes e besourinhos viram desenhos. Misture os verdes e os tons de creme para inventar novas combinações.</p><span class="action">Explorar a coleção</span><small class="destination">/colecoes/quintal-de-descobertas</small></div></section>
+<section class="looks"><div class="review-label">9. Shop the look — all three tab panels shown for approval</div><h2 class="heading" lang="pt-BR">Uma ideia, quatro escolhas</h2><article><h3 class="heading" lang="pt-BR">Dia de quintal</h3><div class="look-row"><img src="../../public/images/homepage/look-quintal-landscape-v1.webp" width="1448" height="1086" alt="Camiseta de folhas, polo creme e shorts verde-folha e verde-petróleo sobre tecido claro."><div class="products"><article><img src="../../public/images/catalog/product-001-cream-leaf-teal-model-v2.webp" width="1086" height="1448" alt="Davi usando Camiseta Folhas ao Vento na cor Creme, verde-folha, verde-petróleo, com a peça inteira visível sobre fundo branco."><p>Camiseta Folhas ao Vento</p><small>cream-leaf-teal</small></article><article><img src="../../public/images/catalog/product-002-cream-model-v1.webp" width="1086" height="1448" alt="Caio usando Polo Lisa do Quintal creme, com gola, mangas e barra inteiras sobre fundo branco."><p>Polo Lisa do Quintal</p><small>cream</small></article><article><img src="../../public/images/catalog/product-007-leaf-model-v1.webp" width="1086" height="1448" alt="Lia usando Short Passo Leve na cor Verde-folha, com a peça inteira visível sobre fundo branco."><p>Short Passo Leve</p><small>leaf</small></article><article><img src="../../public/images/catalog/product-008-teal-model-v1.webp" width="1086" height="1448" alt="Caio usando Short Explorador na cor Verde-petróleo, com a peça inteira visível sobre fundo branco."><p>Short Explorador</p><small>teal</small></article></div></div></article><article><h3 class="heading" lang="pt-BR">Riscos na calçada</h3><div class="look-row"><img src="../../public/images/homepage/look-brincadeira-landscape-v1.webp" width="1448" height="1086" alt="Polo listrada, camiseta com riscos de giz e shorts azul-claro e coral sobre tecido claro."><div class="products"><article><img src="../../public/images/catalog/product-011-cream-sky-model-v1.webp" width="1086" height="1448" alt="Davi usando Polo Listrada da Rua com listras finas creme e azul-céu e gola creme lisa, com a peça inteira sobre fundo branco."><p>Polo Listrada da Rua</p><small>cream-sky</small></article><article><img src="../../public/images/catalog/product-012-cream-sky-coral-model-v1.webp" width="1086" height="1448" alt="Theo usando Camiseta Riscos de Giz na cor Creme, azul-céu, coral suave, com a peça inteira visível sobre fundo branco."><p>Camiseta Riscos de Giz</p><small>cream-sky-coral</small></article><article><img src="../../public/images/catalog/product-018-sky-model-v2.webp" width="1086" height="1448" alt="Noah usando Short Vai e Vem na cor Azul-céu, com a peça inteira visível sobre fundo branco."><p>Short Vai e Vem</p><small>sky</small></article><article><img src="../../public/images/catalog/product-019-coral-model-v1.webp" width="1086" height="1448" alt="Davi usando Short Dia de Brincar na cor Coral suave, com a peça inteira visível sobre fundo branco."><p>Short Dia de Brincar</p><small>coral</small></article></div></div></article><article><h3 class="heading" lang="pt-BR">Histórias em casa</h3><div class="look-row"><img src="../../public/images/homepage/look-imaginacao-landscape-v1.webp" width="1448" height="1086" alt="Camisetas de blocos e estrelas, short pêssego e calça lilás sobre tecido claro."><div class="products"><article><img src="../../public/images/catalog/product-021-cream-teal-peach-model-v1.webp" width="1086" height="1448" alt="Caio usando Camiseta Blocos de Ideias na cor Creme, verde-petróleo, pêssego, com a peça inteira visível sobre fundo branco."><p>Camiseta Blocos de Ideias</p><small>cream-teal-peach</small></article><article><img src="../../public/images/catalog/product-022-lilac-cream-teal-model-v1.webp" width="1086" height="1448" alt="Noah usando Camiseta Estrelas de Papel na cor Lilás suave, creme, verde-petróleo, com a peça inteira visível sobre fundo branco."><p>Camiseta Estrelas de Papel</p><small>lilac-cream-teal</small></article><article><img src="../../public/images/catalog/product-028-peach-model-v1.webp" width="1086" height="1448" alt="Lia usando Short Canto de Brincar na cor Pêssego, com a peça inteira visível sobre fundo branco."><p>Short Canto de Brincar</p><small>peach</small></article><article><img src="../../public/images/catalog/product-030-lilac-model-v1.webp" width="1086" height="1448" alt="Noah usando Calça Faz de Conta na cor Lilás suave, com a peça inteira visível sobre fundo branco."><p>Calça Faz de Conta</p><small>lilac</small></article></div></div></article></section>
+<section><div class="review-label">10. Second product carousel — approved Brincadeira de Rua selection</div><h2 class="heading" lang="pt-BR">Brincadeira de Rua</h2><div class="products"><article><img src="../../public/images/catalog/product-011-cream-sky-model-v1.webp" width="1086" height="1448" alt="Davi usando Polo Listrada da Rua com listras finas creme e azul-céu e gola creme lisa, com a peça inteira sobre fundo branco."><p>Polo Listrada da Rua</p><small>cream-sky</small></article><article><img src="../../public/images/catalog/product-017-sky-model-v1.webp" width="1086" height="1448" alt="Bia usando Blusa Céu da Rua na cor Azul-céu, com a peça inteira visível sobre fundo branco."><p>Blusa Céu da Rua</p><small>sky</small></article><article><img src="../../public/images/catalog/product-019-coral-model-v1.webp" width="1086" height="1448" alt="Davi usando Short Dia de Brincar na cor Coral suave, com a peça inteira visível sobre fundo branco."><p>Short Dia de Brincar</p><small>coral</small></article><article><img src="../../public/images/catalog/product-016-cream-coral-teal-model-v2.webp" width="1086" height="1448" alt="Nina usando Conjunto Pulo de Giz na cor Creme, coral suave, verde-petróleo, com as duas peças inteiras visíveis sobre fundo branco."><p>Conjunto Pulo de Giz</p><small>cream-coral-teal</small></article></div><p class="heading"><span class="action">Ver todos</span><small class="destination">/colecoes/brincadeira-de-rua</small></p></section>
+<section><div class="review-label">11. Photo strip — no external links</div><h2 class="heading" lang="pt-BR">Dias de brincar com Difratelli</h2><div class="social"><article><img src="../../public/images/homepage/social-1-square-v1.webp" width="1122" height="1122" alt="Bia observa uma folha no quintal, usando vestido creme com estampas de folhas verdes e brotos amarelos; a parede clara deixa espaço para o texto."><p lang="pt-BR">Uma folha, uma descoberta</p></article><article><img src="../../public/images/homepage/social-2-square-v1.webp" width="1122" height="1122" alt="Davi descobre sementes no quintal, usando camisa polo creme lisa e short areia."><p lang="pt-BR">Olha o besourinho!</p></article><article><img src="../../public/images/homepage/social-3-square-v1.webp" width="941" height="941" alt="Lia, com short areia, e Davi, com short verde-petróleo, exploram folhas junto a um canteiro usando camisetas de estampas botânicas."><p lang="pt-BR">Juntos no quintal</p></article><article><img src="../../public/images/homepage/social-4-square-v1.webp" width="941" height="941" alt="Davi desenha uma amarelinha com giz no pátio, usando camiseta azul-céu estampada e short azul-céu liso."><p lang="pt-BR">A calçada vira desenho</p></article><article><img src="../../public/images/homepage/social-5-square-v1.webp" width="941" height="941" alt="Nina monta uma cidade de blocos junto a uma cabana de manta, com blusa creme de traços lilás e pêssego e short azul-céu."><p lang="pt-BR">Blocos e novas ideias</p></article><article><img src="../../public/images/homepage/social-6-square-v1.webp" width="941" height="941" alt="Lia, com short areia, e Theo, com camiseta vermelha de ursinho e calça azul-céu, juntam folhas em uma tigela de madeira no quintal."><p lang="pt-BR">Pequenas descobertas em dupla</p></article><article><img src="../../public/images/homepage/social-7-square-v1.webp" width="1086" height="1086" alt="Nina desenha estrelas e brinca com blocos no tapete de casa, usando blusa creme estampada e short azul-céu."><p lang="pt-BR">Uma história no papel</p></article></div></section><div class="footer-note">12. Existing footer retained. Omit “Inspired by the world” and email signup.</div>
+<section><h2 class="heading">Collection index, three details and brand page — approved reuse</h2><div class="pages"><article><img src="../../public/images/editorial/collection-quintal-desktop-v2.webp" width="1664" height="936" alt="Lia, com short areia, e Davi, com short verde-petróleo, exploram folhas junto a um canteiro usando camisetas de estampas botânicas."><h3 lang="pt-BR">Quintal de Descobertas</h3><p lang="pt-BR">Um besourinho na folha, uma semente no chão, um caminho novo entre as plantas. Cores de quintal e desenhos pequenos acompanham uma tarde de descobertas.</p><small>Reuse approved collection-quintal-v2. Detail page will list all ten collection products.</small></article><article><img src="../../public/images/editorial/collection-brincadeira-desktop-v2.webp" width="1664" height="936" alt="Davi desenha uma amarelinha com giz no pátio, usando camiseta azul-céu estampada e short azul-céu liso."><h3 lang="pt-BR">Brincadeira de Rua</h3><p lang="pt-BR">O giz desenha a amarelinha, a bicicleta faz a volta e a turma inventa outra brincadeira. Traços soltos e cores de céu e calçada acompanham esse vai e vem.</p><small>Reuse approved collection-brincadeira-v2. Detail page will list all ten collection products.</small></article><article><img src="../../public/images/editorial/collection-imaginacao-desktop-v2.webp" width="1664" height="936" alt="Nina monta uma cidade de blocos junto a uma cabana de manta, com blusa creme de traços lilás e pêssego e short azul-céu."><h3 lang="pt-BR">Imaginação em Casa</h3><p lang="pt-BR">Uma manta vira cabana, os blocos viram cidade e o papel ganha estrelas. Traços de desenho e cores suaves entram nas histórias inventadas em casa.</p><small>Reuse approved collection-imaginacao-v2. Detail page will list all ten collection products.</small></article><article><img src="../../public/images/editorial/brand-opening-desktop-v2.webp" width="1664" height="936" alt="Lia, com short areia, e Theo, com camiseta vermelha de ursinho e calça azul-céu, juntam folhas em uma tigela de madeira no quintal."><h3 lang="pt-BR">Roupa para acompanhar a infância</h3><p lang="pt-BR">Tem dia de explorar o quintal. Tem dia de desenhar na calçada ou transformar a sala em cabana. A Difratelli Kids reúne roupas para essas brincadeiras, com cores que se encontram e desenhos que puxam uma história.</p><small>Reuse approved brand-opening-v2. Brand section copy unchanged.</small></article><article><img src="../../public/images/editorial/brand-play-desktop-v2.webp" width="1448" height="1086" alt="Nina desenha estrelas e brinca com blocos no tapete de casa, usando blusa creme estampada e short azul-céu."><h3 lang="pt-BR">Uma ideia vira brincadeira</h3><p lang="pt-BR">Uma folha, um risco de giz, uma pilha de blocos. As coleções começam nas coisas pequenas que entram nas brincadeiras de todos os dias.</p><small>Reuse approved brand-play-v2. Brand section copy unchanged.</small></article><article><img src="../../public/images/editorial/brand-combinations-desktop-v2.webp" width="1448" height="1086" alt="Theo escolhe uma camiseta junto ao banco de madeira, usando camiseta vermelha com um grande desenho de ursinho e calça azul-céu."><h3 lang="pt-BR">Peças para combinar do seu jeito</h3><p lang="pt-BR">Camisetas, blusas, shorts e calças misturam cores lisas e estampas. Vestidos, conjuntos de duas peças e camadas leves completam as escolhas para crianças de 2 a 8 anos.</p><small>Reuse approved brand-combinations-v2. Brand section copy unchanged.</small></article></div></section>
+<section id="inventory"><h2 class="heading">Asset inventory</h2><div class="inventory"><article><h3>category-t-shirts</h3><img src="../../public/images/homepage/category-t-shirts-portrait-v1.webp" width="1086" height="1448" alt="Lia no quintal com camiseta creme estampada com sementes e brotos e short verde-petróleo."><pre>Original: 1086 × 1448
+assets/originals/homepage/category-t-shirts-v1.png
+9e2c101d2618d54b89cc40285d36b9f41f212095f0939686a0d519cf186d05fc
+portrait: 1086 × 1448, 3:4
+b2e2ebb9b27705bf4c2eef37b28a3ba33acb8470bd1b2dca50e4eb41b9e49559
+Lia no quintal com camiseta creme estampada com sementes e brotos e short verde-petróleo.</pre></article><article><h3>category-polos</h3><img src="../../public/images/homepage/category-polos-portrait-v1.webp" width="1086" height="1448" alt="Miguel no pátio com polo lisa creme e short verde-petróleo."><pre>Original: 1086 × 1448
+assets/originals/homepage/category-polos-v1.png
+952764d3c8aeeb615951ea09f1d884dea6ee787727f06434eba81f3cd2d4a75c
+portrait: 1086 × 1448, 3:4
+95c83f2a8770d9dfb6a9703a5c78f660e87cc42aa50addf6664ab92027f6b8f5
+Miguel no pátio com polo lisa creme e short verde-petróleo.</pre></article><article><h3>category-tops</h3><img src="../../public/images/homepage/category-tops-portrait-v1.webp" width="1086" height="1448" alt="Bia no jardim com blusa creme estampada com folhas e besouros e short verde-petróleo."><pre>Original: 1086 × 1448
+assets/originals/homepage/category-tops-v1.png
+18c63f8f49ec9842d4f1cbc90a46b5acdbda358a2b5c9fcdadfed42967f1009d
+portrait: 1086 × 1448, 3:4
+767ce1e9d87d852c87d33fe086978787c8c93bcf11e25e94fd716731a9cc1ba3
+Bia no jardim com blusa creme estampada com folhas e besouros e short verde-petróleo.</pre></article><article><h3>category-shorts</h3><img src="../../public/images/homepage/category-shorts-portrait-v1.webp" width="1086" height="1448" alt="Lia no pátio com short verde-folha e camiseta creme."><pre>Original: 1086 × 1448
+assets/originals/homepage/category-shorts-v1.png
+3d230ed9d39f4a7dcc2a58ae0b6c51665774633284935dca0a950fe339c337d2
+portrait: 1086 × 1448, 3:4
+c4bb22850addb8d46b4988358b5b3a5d08f7784d03609b6ee669e85a50be81eb
+Lia no pátio com short verde-folha e camiseta creme.</pre></article><article><h3>category-trousers</h3><img src="../../public/images/homepage/category-trousers-portrait-v1.webp" width="1086" height="1448" alt="Theo no caminho do jardim com calça verde-folha e camiseta creme."><pre>Original: 1086 × 1448
+assets/originals/homepage/category-trousers-v1.png
+75a8428ae6ec7349b4279255a85df1490135260064e1f3eea44c24cd72aff41c
+portrait: 1086 × 1448, 3:4
+2eb6c8570ef590c9e8cff70fda8c364fbf289925e82723d93e730005a4e441d6
+Theo no caminho do jardim com calça verde-folha e camiseta creme.</pre></article><article><h3>category-matching-sets</h3><img src="../../public/images/homepage/category-matching-sets-portrait-v1.webp" width="1086" height="1448" alt="Davi no quintal com conjunto de camiseta creme estampada e short verde-petróleo."><pre>Original: 1086 × 1448
+assets/originals/homepage/category-matching-sets-v1.png
+a658424557cb84a76a635ad1eaaa2ef17d2f84d9eceb9c184d1e8dba906ed273
+portrait: 1086 × 1448, 3:4
+2b3d917e78ba3fc3476190d9919ae4e5f878447c20dfdb4cea31a8a35cac49f5
+Davi no quintal com conjunto de camiseta creme estampada e short verde-petróleo.</pre></article><article><h3>category-light-layers</h3><img src="../../public/images/homepage/category-light-layers-portrait-v1.webp" width="1086" height="1448" alt="Noah no jardim com casaco leve verde-petróleo sobre camiseta creme."><pre>Original: 1086 × 1448
+assets/originals/homepage/category-light-layers-v1.png
+8deabe332eff17d99b46cda9a6fcef47256aa8213332d98c1df413e648474281
+portrait: 1086 × 1448, 3:4
+f8e5997fde8eb0e9ab79c590bd72bb813ab9e224889ebdb37dfe8f684ef65461
+Noah no jardim com casaco leve verde-petróleo sobre camiseta creme.</pre></article><article><h3>look-quintal</h3><img src="../../public/images/homepage/look-quintal-landscape-v1.webp" width="1448" height="1086" alt="Camiseta de folhas, polo creme e shorts verde-folha e verde-petróleo sobre tecido claro."><pre>Original: 1448 × 1086
+assets/originals/homepage/look-quintal-v1.png
+acf68313eb7b33460135f2d2cdcb9d93cb692d63d0dade75e211a603a39de07e
+landscape: 1448 × 1086, 4:3
+309690bf808931472bbf73fb7f1ba780e5f060ef6da4c5a1a630f44fe159f939
+Camiseta de folhas, polo creme e shorts verde-folha e verde-petróleo sobre tecido claro.</pre></article><article><h3>look-brincadeira</h3><img src="../../public/images/homepage/look-brincadeira-landscape-v1.webp" width="1448" height="1086" alt="Polo listrada, camiseta com riscos de giz e shorts azul-claro e coral sobre tecido claro."><pre>Original: 1448 × 1086
+assets/originals/homepage/look-brincadeira-v1.png
+d1dfebe9c01357c56c1fc70cd87d4eb5d5c65ece2186eb3d040aac379d306d9d
+landscape: 1448 × 1086, 4:3
+a8780015cfe83cdfeb8c9ad4616b209fe420558f7b5acd7d52939e13cadb7bd2
+Polo listrada, camiseta com riscos de giz e shorts azul-claro e coral sobre tecido claro.</pre></article><article><h3>look-imaginacao</h3><img src="../../public/images/homepage/look-imaginacao-landscape-v1.webp" width="1448" height="1086" alt="Camisetas de blocos e estrelas, short pêssego e calça lilás sobre tecido claro."><pre>Original: 1448 × 1086
+assets/originals/homepage/look-imaginacao-v1.png
+df7f3a471575cb42ff4297414d77933e6bfe7e303a7cdfdafe2d6e9cc5611b27
+landscape: 1448 × 1086, 4:3
+23fa13ee5277181f300fdc4937b8bb47e7377e5af5bdd17e3e1d966e8362e7b9
+Camisetas de blocos e estrelas, short pêssego e calça lilás sobre tecido claro.</pre></article><article><h3>quote-garments</h3><img src="../../public/images/homepage/quote-garments-desktop-v1.webp" width="1664" height="936" alt="Vestido creme com folhas verdes e amarelas sobre tecido claro, com espaço livre à esquerda."><pre>Original: 1672 × 941
+assets/originals/homepage/quote-garments-v1.png
+6d44fc124974fd08d29142d4eebe124031b59b15c2af039dee01ca0860c98a2d
+desktop: 1664 × 936, 16:9
+2116bb3772453a059ee2f6685070198322f5111e03549a59f7a9e5e59a6398e8
+compact: 1252 × 939, 4:3
+4c611675a37630fb4c4c9f37a6927624650adc5cf76719c382a304f358aef560
+Vestido creme com folhas verdes e amarelas sobre tecido claro, com espaço livre à esquerda.</pre></article><article><h3>editorial-quintal</h3><img src="../../public/images/homepage/editorial-quintal-desktop-v1.webp" width="1664" height="936" alt="Peças creme e verdes de Quintal de Descobertas sobre tecido claro, com espaço livre à direita."><pre>Original: 1672 × 941
+assets/originals/homepage/editorial-quintal-v1.png
+eb09e2d830a8773d1e4ad99245efd2bec12544a738e1f7a2c5cf0e8a205a984d
+desktop: 1664 × 936, 16:9
+2834e58e32462920b12fec9c95b00a8a822b3bc54136354982f5481f70f5ddf0
+compact: 1252 × 939, 4:3
+95d9fa385e37f27fc1f84280dc7b758f0eda2ea50070644477dc6192399726ff
+Peças creme e verdes de Quintal de Descobertas sobre tecido claro, com espaço livre à direita.</pre></article><article><h3>category-dresses</h3><img src="../../public/images/homepage/category-dresses-portrait-v1.webp" width="1086" height="1448" alt="Iara no pátio com vestido azul-claro estampado com riscos de giz creme e coral."><pre>Original: 1086 × 1448
+assets/originals/homepage/category-dresses-v1.png
+63057a721f7e9e1b6998b9d84632f6319b35a9d696eda0f2aa78685678800c69
+portrait: 1086 × 1448, 3:4
+945c63667b84865b84b49738a780b1d53657b94de0b2f42ed5bc710796317b78
+Iara no pátio com vestido azul-claro estampado com riscos de giz creme e coral.</pre></article><article><h3>hero-left-wide</h3><img src="../../public/images/homepage/hero-left-wide-desktop-v1.webp" width="1536" height="1024" alt="Bia observa uma folha no quintal com vestido creme de folhas verdes e amarelas; a parede clara ocupa o lado esquerdo."><pre>Original: 1536 × 1024
+assets/originals/homepage/hero-left-wide-v1.png
+b0f6b66111b81dbf2be131ef8e7753c0b2c57ea220b6fe3a8c854496d4276b6c
+desktop: 1536 × 1024, 3:2
+2273e33c767c11078c34ee3c85c1087555d2810ca4452c462ae724666f190542
+Bia observa uma folha no quintal com vestido creme de folhas verdes e amarelas; a parede clara ocupa o lado esquerdo.</pre></article><article><h3>hero-right-wide</h3><img src="../../public/images/homepage/hero-right-wide-desktop-v1.webp" width="1536" height="1024" alt="Davi observa um besourinho no jardim, com polo lisa creme e short areia."><pre>Original: 1536 × 1024
+assets/originals/homepage/hero-right-wide-v1.png
+94bb42536ed82dcbbbe55d552f4a3471b144264d5b14ba5f5004f50ad9740955
+desktop: 1536 × 1024, 3:2
+25b67f20dac7f729674383f37d9751802a6cd922bcba18b22956f6fe4c277ed5
+Davi observa um besourinho no jardim, com polo lisa creme e short areia.</pre></article><article><h3>hero-left</h3><img src="../../public/images/homepage/hero-left-narrow-v1.webp" width="1120" height="1400" alt="Bia observa uma folha no quintal, usando vestido creme com estampas de folhas verdes e brotos amarelos; a parede clara deixa espaço para o texto."><pre>Original: 1122 × 1402
+assets/originals/editorial/hero-left-v2.png
+10ab733db5e273fe2951beb8fdaf89476d8a03d602fc9fc3a43492cb9bc98e14
+narrow: 1120 × 1400, 4:5
+b64f3665ea4950231844c381d16bcf186570f588bbf12781d27d33ae1bfccd9a
+portrait: 1050 × 1400, 3:4
+32eb38681bfad10d00dbf87c092d4a90c46d1acb8d3ad9d6325014ff1909e335
+Bia observa uma folha no quintal, usando vestido creme com estampas de folhas verdes e brotos amarelos; a parede clara deixa espaço para o texto.</pre></article><article><h3>hero-left-tablet</h3><img src="../../public/images/homepage/hero-left-tablet-tablet-v1.webp" width="1774" height="887" alt="Bia observa uma folha no quintal, usando vestido creme com estampas de folhas verdes e brotos amarelos; a parede clara deixa espaço para o texto."><pre>Original: 1774 × 887
+assets/originals/editorial/hero-left-tablet-v2.png
+e805349b4895c715d8463f192bb77134159308c9cb0fa08c90d2962ca19d8bae
+tablet: 1774 × 887, 2:1
+4fb36a4a2d1b261fdf83e249bddf8359599ca248f28c7516ab7e81b6a73e53ca
+Bia observa uma folha no quintal, usando vestido creme com estampas de folhas verdes e brotos amarelos; a parede clara deixa espaço para o texto.</pre></article><article><h3>hero-right</h3><img src="../../public/images/homepage/hero-right-narrow-v1.webp" width="1120" height="1400" alt="Davi descobre sementes no quintal, usando camisa polo creme lisa e short areia."><pre>Original: 1122 × 1402
+assets/originals/editorial/hero-right-v3.png
+d54111f5c6a515d175df576f32ea48c723365546cef14759451acca860157efe
+narrow: 1120 × 1400, 4:5
+07256d3ae104f892956cf6b954ccb8a31e6fa93c8771ae6c74bd45cc30718eb3
+Davi descobre sementes no quintal, usando camisa polo creme lisa e short areia.</pre></article><article><h3>social-1</h3><img src="../../public/images/homepage/social-1-square-v1.webp" width="1122" height="1122" alt="Bia observa uma folha no quintal, usando vestido creme com estampas de folhas verdes e brotos amarelos; a parede clara deixa espaço para o texto."><pre>Original: 1122 × 1402
+assets/originals/editorial/hero-left-v2.png
+10ab733db5e273fe2951beb8fdaf89476d8a03d602fc9fc3a43492cb9bc98e14
+square: 1122 × 1122, 1:1
+9a315ebba005af937e62796a94f8bc34a26ea83a9c313bd7421fb5cffc171cfa
+Bia observa uma folha no quintal, usando vestido creme com estampas de folhas verdes e brotos amarelos; a parede clara deixa espaço para o texto.</pre></article><article><h3>social-2</h3><img src="../../public/images/homepage/social-2-square-v1.webp" width="1122" height="1122" alt="Davi descobre sementes no quintal, usando camisa polo creme lisa e short areia."><pre>Original: 1122 × 1402
+assets/originals/editorial/hero-right-v3.png
+d54111f5c6a515d175df576f32ea48c723365546cef14759451acca860157efe
+square: 1122 × 1122, 1:1
+c99e66a0b0585c3c6eac7fd2d4cfbead4a9b3585c256c14f434e9342f8870254
+Davi descobre sementes no quintal, usando camisa polo creme lisa e short areia.</pre></article><article><h3>social-3</h3><img src="../../public/images/homepage/social-3-square-v1.webp" width="941" height="941" alt="Lia, com short areia, e Davi, com short verde-petróleo, exploram folhas junto a um canteiro usando camisetas de estampas botânicas."><pre>Original: 1672 × 941
+assets/originals/editorial/collection-quintal-v2.png
+3c92403a2234ea435e9eb259fec75e180d59821ae712fd1b9bf637b2be0dbe7d
+square: 941 × 941, 1:1
+69e12f8caa10a2d4f8be80f90867f90415cc37073250a07065ca6f409db41038
+Lia, com short areia, e Davi, com short verde-petróleo, exploram folhas junto a um canteiro usando camisetas de estampas botânicas.</pre></article><article><h3>social-4</h3><img src="../../public/images/homepage/social-4-square-v1.webp" width="941" height="941" alt="Davi desenha uma amarelinha com giz no pátio, usando camiseta azul-céu estampada e short azul-céu liso."><pre>Original: 1672 × 941
+assets/originals/editorial/collection-brincadeira-v2.png
+ba29cab2c83221a2217c2c5c94b6f80074c381c10ad19ca98d305913baaaccd4
+square: 941 × 941, 1:1
+ed2c958e819605547dc6d2898f9c07736ee23a7b4f060ff121dc4f58e5ecf12d
+Davi desenha uma amarelinha com giz no pátio, usando camiseta azul-céu estampada e short azul-céu liso.</pre></article><article><h3>social-5</h3><img src="../../public/images/homepage/social-5-square-v1.webp" width="941" height="941" alt="Nina monta uma cidade de blocos junto a uma cabana de manta, com blusa creme de traços lilás e pêssego e short azul-céu."><pre>Original: 1672 × 941
+assets/originals/editorial/collection-imaginacao-v2.png
+01313a3ae797355bdea7ddf6429ddc130da00fa899596742aa819b41e590fe28
+square: 941 × 941, 1:1
+662f41f4811108629dc5702d9a7879a212ac2a66b4bd3dc984ad16d011172726
+Nina monta uma cidade de blocos junto a uma cabana de manta, com blusa creme de traços lilás e pêssego e short azul-céu.</pre></article><article><h3>social-6</h3><img src="../../public/images/homepage/social-6-square-v1.webp" width="941" height="941" alt="Lia, com short areia, e Theo, com camiseta vermelha de ursinho e calça azul-céu, juntam folhas em uma tigela de madeira no quintal."><pre>Original: 1672 × 941
+assets/originals/editorial/brand-opening-v2.png
+66e1c9bd5ef36b60955f182ac0a28c99aae14daa30518a16f133f7e0018391c0
+square: 941 × 941, 1:1
+0fd7a2135bb5f2af4a7e4adb16c85a6cfb159debae031b174f8d9e767a278a94
+Lia, com short areia, e Theo, com camiseta vermelha de ursinho e calça azul-céu, juntam folhas em uma tigela de madeira no quintal.</pre></article><article><h3>social-7</h3><img src="../../public/images/homepage/social-7-square-v1.webp" width="1086" height="1086" alt="Nina desenha estrelas e brinca com blocos no tapete de casa, usando blusa creme estampada e short azul-céu."><pre>Original: 1448 × 1086
+assets/originals/editorial/brand-play-v2.png
+c4f228755a44c8320a368208e365622bf2382d6839c49b5b4e76c1d08275ebbc
+square: 1086 × 1086, 1:1
+1739f9a7620e8659e0816005849a44282744a999a517f1ac1978ccc8002665e2
+Nina desenha estrelas e brinca com blocos no tapete de casa, usando blusa creme estampada e short azul-céu.</pre></article></div></section>
+<section id="copy" class="copy-review"><h2>Complete Portuguese copy proposal</h2><pre>{
+  &quot;revision&quot;: &quot;issue-34-content-v1&quot;,
+  &quot;sourceIssue&quot;: &quot;https://github.com/danielluis07/difratelli-kids-v2/issues/34&quot;,
+  &quot;approvalStatus&quot;: &quot;pending-human-review&quot;,
+  &quot;language&quot;: &quot;pt-BR&quot;,
+  &quot;basePackage&quot;: &quot;docs/content/copy-proposal.json&quot;,
+  &quot;scope&quot;: &quot;Additive homepage copy; approved collection stories and brand copy are reused unchanged.&quot;,
+  &quot;announcement&quot;: [
+    {
+      &quot;text&quot;: &quot;Três coleções, muitos jeitos de brincar.&quot;,
+      &quot;details&quot;: {
+        &quot;label&quot;: &quot;Detalhes&quot;,
+        &quot;href&quot;: &quot;/colecoes&quot;
+      }
+    },
+    {
+      &quot;text&quot;: &quot;Novas combinações para os dias de quintal, rua e casa.&quot;,
+      &quot;details&quot;: {
+        &quot;label&quot;: &quot;Detalhes&quot;,
+        &quot;href&quot;: &quot;/novidades&quot;
+      }
+    },
+    {
+      &quot;text&quot;: &quot;Cores que se encontram. Escolhas do seu jeito.&quot;,
+      &quot;details&quot;: {
+        &quot;label&quot;: &quot;Detalhes&quot;,
+        &quot;href&quot;: &quot;/colecoes/imaginacao-em-casa&quot;
+      }
+    }
+  ],
+  &quot;announcementControls&quot;: {
+    &quot;previous&quot;: &quot;Mensagem anterior&quot;,
+    &quot;next&quot;: &quot;Próxima mensagem&quot;,
+    &quot;pause&quot;: &quot;Pausar mensagens&quot;,
+    &quot;resume&quot;: &quot;Retomar mensagens&quot;
+  },
+  &quot;hero&quot;: {
+    &quot;eyebrow&quot;: &quot;Difratelli Kids · 2 a 8 anos&quot;,
+    &quot;heading&quot;: &quot;Um dia inteiro para brincar&quot;,
+    &quot;actions&quot;: [
+      {
+        &quot;label&quot;: &quot;Comprar para meninas&quot;,
+        &quot;href&quot;: &quot;/meninas&quot;
+      },
+      {
+        &quot;label&quot;: &quot;Comprar para meninos&quot;,
+        &quot;href&quot;: &quot;/meninos&quot;
+      },
+      {
+        &quot;label&quot;: &quot;Novidades&quot;,
+        &quot;href&quot;: &quot;/novidades&quot;
+      },
+      {
+        &quot;label&quot;: &quot;Todas as roupas&quot;,
+        &quot;href&quot;: &quot;/produtos&quot;
+      }
+    ]
+  },
+  &quot;newArrivals&quot;: {
+    &quot;heading&quot;: &quot;Novidades&quot;,
+    &quot;viewAll&quot;: {
+      &quot;label&quot;: &quot;Ver todos&quot;,
+      &quot;href&quot;: &quot;/novidades&quot;
+    },
+    &quot;selection&quot;: &quot;All eight approved merchandising.newArrivalProductIds&quot;,
+    &quot;badge&quot;: &quot;Novidade&quot;
+  },
+  &quot;promoStrip&quot;: {
+    &quot;eyebrow&quot;: &quot;Uma peça puxa outra&quot;,
+    &quot;heading&quot;: &quot;Combine do seu jeito&quot;,
+    &quot;action&quot;: {
+      &quot;label&quot;: &quot;Explore as coleções&quot;,
+      &quot;href&quot;: &quot;/colecoes&quot;
+    }
+  },
+  &quot;categories&quot;: {
+    &quot;heading&quot;: &quot;Roupas para cada brincadeira&quot;,
+    &quot;selection&quot;: &quot;All eight approved categories&quot;,
+    &quot;imageIds&quot;: [
+      &quot;category-t-shirts&quot;,
+      &quot;category-polos&quot;,
+      &quot;category-tops&quot;,
+      &quot;category-shorts&quot;,
+      &quot;category-trousers&quot;,
+      &quot;category-dresses&quot;,
+      &quot;category-matching-sets&quot;,
+      &quot;category-light-layers&quot;
+    ]
+  },
+  &quot;quote&quot;: {
+    &quot;text&quot;: &quot;Meu vestido tem um jardim!&quot;,
+    &quot;attribution&quot;: &quot;Bia, 5 anos&quot;,
+    &quot;fictional&quot;: true,
+    &quot;body&quot;: &quot;Folhas verdes e brotos amarelos acompanham as pequenas descobertas do quintal.&quot;,
+    &quot;action&quot;: {
+      &quot;label&quot;: &quot;Descubra os vestidos&quot;,
+      &quot;href&quot;: &quot;/produtos?categoria=dresses&quot;
+    }
+  },
+  &quot;editorial&quot;: {
+    &quot;eyebrow&quot;: &quot;Quintal de Descobertas&quot;,
+    &quot;heading&quot;: &quot;Uma tarde lá fora&quot;,
+    &quot;body&quot;: &quot;Folhas, sementes e besourinhos viram desenhos. Misture os verdes e os tons de creme para inventar novas combinações.&quot;,
+    &quot;action&quot;: {
+      &quot;label&quot;: &quot;Explorar a coleção&quot;,
+      &quot;href&quot;: &quot;/colecoes/quintal-de-descobertas&quot;
+    }
+  },
+  &quot;shopTheLook&quot;: {
+    &quot;heading&quot;: &quot;Uma ideia, quatro escolhas&quot;,
+    &quot;tabs&quot;: [
+      {
+        &quot;id&quot;: &quot;quintal&quot;,
+        &quot;label&quot;: &quot;Dia de quintal&quot;,
+        &quot;collectionId&quot;: &quot;collection-001&quot;,
+        &quot;imageId&quot;: &quot;look-quintal&quot;,
+        &quot;products&quot;: [
+          {
+            &quot;productId&quot;: &quot;product-001&quot;,
+            &quot;colorwayId&quot;: &quot;cream-leaf-teal&quot;
+          },
+          {
+            &quot;productId&quot;: &quot;product-002&quot;,
+            &quot;colorwayId&quot;: &quot;cream&quot;
+          },
+          {
+            &quot;productId&quot;: &quot;product-007&quot;,
+            &quot;colorwayId&quot;: &quot;leaf&quot;
+          },
+          {
+            &quot;productId&quot;: &quot;product-008&quot;,
+            &quot;colorwayId&quot;: &quot;teal&quot;
+          }
+        ]
+      },
+      {
+        &quot;id&quot;: &quot;brincadeira&quot;,
+        &quot;label&quot;: &quot;Riscos na calçada&quot;,
+        &quot;collectionId&quot;: &quot;collection-002&quot;,
+        &quot;imageId&quot;: &quot;look-brincadeira&quot;,
+        &quot;products&quot;: [
+          {
+            &quot;productId&quot;: &quot;product-011&quot;,
+            &quot;colorwayId&quot;: &quot;cream-sky&quot;
+          },
+          {
+            &quot;productId&quot;: &quot;product-012&quot;,
+            &quot;colorwayId&quot;: &quot;cream-sky-coral&quot;
+          },
+          {
+            &quot;productId&quot;: &quot;product-018&quot;,
+            &quot;colorwayId&quot;: &quot;sky&quot;
+          },
+          {
+            &quot;productId&quot;: &quot;product-019&quot;,
+            &quot;colorwayId&quot;: &quot;coral&quot;
+          }
+        ]
+      },
+      {
+        &quot;id&quot;: &quot;imaginacao&quot;,
+        &quot;label&quot;: &quot;Histórias em casa&quot;,
+        &quot;collectionId&quot;: &quot;collection-003&quot;,
+        &quot;imageId&quot;: &quot;look-imaginacao&quot;,
+        &quot;products&quot;: [
+          {
+            &quot;productId&quot;: &quot;product-021&quot;,
+            &quot;colorwayId&quot;: &quot;cream-teal-peach&quot;
+          },
+          {
+            &quot;productId&quot;: &quot;product-022&quot;,
+            &quot;colorwayId&quot;: &quot;lilac-cream-teal&quot;
+          },
+          {
+            &quot;productId&quot;: &quot;product-028&quot;,
+            &quot;colorwayId&quot;: &quot;peach&quot;
+          },
+          {
+            &quot;productId&quot;: &quot;product-030&quot;,
+            &quot;colorwayId&quot;: &quot;lilac&quot;
+          }
+        ]
+      }
+    ]
+  },
+  &quot;secondCarousel&quot;: {
+    &quot;heading&quot;: &quot;Brincadeira de Rua&quot;,
+    &quot;selection&quot;: &quot;Approved merchandising.homepage.secondCollectionFeature.productIds&quot;,
+    &quot;viewAll&quot;: {
+      &quot;label&quot;: &quot;Ver todos&quot;,
+      &quot;href&quot;: &quot;/colecoes/brincadeira-de-rua&quot;
+    }
+  },
+  &quot;social&quot;: {
+    &quot;heading&quot;: &quot;Dias de brincar com Difratelli&quot;,
+    &quot;captions&quot;: [
+      &quot;Uma folha, uma descoberta&quot;,
+      &quot;Olha o besourinho!&quot;,
+      &quot;Juntos no quintal&quot;,
+      &quot;A calçada vira desenho&quot;,
+      &quot;Blocos e novas ideias&quot;,
+      &quot;Pequenas descobertas em dupla&quot;,
+      &quot;Uma história no papel&quot;
+    ],
+    &quot;externalLinks&quot;: false
+  },
+  &quot;carouselControls&quot;: {
+    &quot;previous&quot;: &quot;Anterior&quot;,
+    &quot;next&quot;: &quot;Próximo&quot;
+  },
+  &quot;collectionAndBrandPages&quot;: {
+    &quot;copyPackage&quot;: &quot;docs/content/copy-proposal.json&quot;,
+    &quot;collectionStories&quot;: &quot;docs/content/catalog-proposal.json&quot;,
+    &quot;reuse&quot;: &quot;Approved introductions, stories and two brand sections; no new service or sustainability claims.&quot;
+  },
+  &quot;promotions&quot;: &quot;Non-price fictional editorial messages only; no discounts or revised pricing.&quot;
+}</pre></section></body></html>

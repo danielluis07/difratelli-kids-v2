@@ -1,0 +1,217 @@
+{
+  "revision": "issue-34-content-v1",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/34",
+  "approvalStatus": "pending-human-review",
+  "language": "pt-BR",
+  "basePackage": "docs/content/copy-proposal.json",
+  "scope": "Additive homepage copy; approved collection stories and brand copy are reused unchanged.",
+  "announcement": [
+    {
+      "text": "Três coleções, muitos jeitos de brincar.",
+      "details": {
+        "label": "Detalhes",
+        "href": "/colecoes"
+      }
+    },
+    {
+      "text": "Novas combinações para os dias de quintal, rua e casa.",
+      "details": {
+        "label": "Detalhes",
+        "href": "/novidades"
+      }
+    },
+    {
+      "text": "Cores que se encontram. Escolhas do seu jeito.",
+      "details": {
+        "label": "Detalhes",
+        "href": "/colecoes/imaginacao-em-casa"
+      }
+    }
+  ],
+  "announcementControls": {
+    "previous": "Mensagem anterior",
+    "next": "Próxima mensagem",
+    "pause": "Pausar mensagens",
+    "resume": "Retomar mensagens"
+  },
+  "hero": {
+    "eyebrow": "Difratelli Kids · 2 a 8 anos",
+    "heading": "Um dia inteiro para brincar",
+    "actions": [
+      {
+        "label": "Comprar para meninas",
+        "href": "/meninas"
+      },
+      {
+        "label": "Comprar para meninos",
+        "href": "/meninos"
+      },
+      {
+        "label": "Novidades",
+        "href": "/novidades"
+      },
+      {
+        "label": "Todas as roupas",
+        "href": "/produtos"
+      }
+    ]
+  },
+  "newArrivals": {
+    "heading": "Novidades",
+    "viewAll": {
+      "label": "Ver todos",
+      "href": "/novidades"
+    },
+    "selection": "All eight approved merchandising.newArrivalProductIds",
+    "badge": "Novidade"
+  },
+  "promoStrip": {
+    "eyebrow": "Uma peça puxa outra",
+    "heading": "Combine do seu jeito",
+    "action": {
+      "label": "Explore as coleções",
+      "href": "/colecoes"
+    }
+  },
+  "categories": {
+    "heading": "Roupas para cada brincadeira",
+    "selection": "All eight approved categories",
+    "imageIds": [
+      "category-t-shirts",
+      "category-polos",
+      "category-tops",
+      "category-shorts",
+      "category-trousers",
+      "category-dresses",
+      "category-matching-sets",
+      "category-light-layers"
+    ]
+  },
+  "quote": {
+    "text": "Meu vestido tem um jardim!",
+    "attribution": "Bia, 5 anos",
+    "fictional": true,
+    "body": "Folhas verdes e brotos amarelos acompanham as pequenas descobertas do quintal.",
+    "action": {
+      "label": "Descubra os vestidos",
+      "href": "/produtos?categoria=dresses"
+    }
+  },
+  "editorial": {
+    "eyebrow": "Quintal de Descobertas",
+    "heading": "Uma tarde lá fora",
+    "body": "Folhas, sementes e besourinhos viram desenhos. Misture os verdes e os tons de creme para inventar novas combinações.",
+    "action": {
+      "label": "Explorar a coleção",
+      "href": "/colecoes/quintal-de-descobertas"
+    }
+  },
+  "shopTheLook": {
+    "heading": "Uma ideia, quatro escolhas",
+    "tabs": [
+      {
+        "id": "quintal",
+        "label": "Dia de quintal",
+        "collectionId": "collection-001",
+        "imageId": "look-quintal",
+        "products": [
+          {
+            "productId": "product-001",
+            "colorwayId": "cream-leaf-teal"
+          },
+          {
+            "productId": "product-002",
+            "colorwayId": "cream"
+          },
+          {
+            "productId": "product-007",
+            "colorwayId": "leaf"
+          },
+          {
+            "productId": "product-008",
+            "colorwayId": "teal"
+          }
+        ]
+      },
+      {
+        "id": "brincadeira",
+        "label": "Riscos na calçada",
+        "collectionId": "collection-002",
+        "imageId": "look-brincadeira",
+        "products": [
+          {
+            "productId": "product-011",
+            "colorwayId": "cream-sky"
+          },
+          {
+            "productId": "product-012",
+            "colorwayId": "cream-sky-coral"
+          },
+          {
+            "productId": "product-018",
+            "colorwayId": "sky"
+          },
+          {
+            "productId": "product-019",
+            "colorwayId": "coral"
+          }
+        ]
+      },
+      {
+        "id": "imaginacao",
+        "label": "Histórias em casa",
+        "collectionId": "collection-003",
+        "imageId": "look-imaginacao",
+        "products": [
+          {
+            "productId": "product-021",
+            "colorwayId": "cream-teal-peach"
+          },
+          {
+            "productId": "product-022",
+            "colorwayId": "lilac-cream-teal"
+          },
+          {
+            "productId": "product-028",
+            "colorwayId": "peach"
+          },
+          {
+            "productId": "product-030",
+            "colorwayId": "lilac"
+          }
+        ]
+      }
+    ]
+  },
+  "secondCarousel": {
+    "heading": "Brincadeira de Rua",
+    "selection": "Approved merchandising.homepage.secondCollectionFeature.productIds",
+    "viewAll": {
+      "label": "Ver todos",
+      "href": "/colecoes/brincadeira-de-rua"
+    }
+  },
+  "social": {
+    "heading": "Dias de brincar com Difratelli",
+    "captions": [
+      "Uma folha, uma descoberta",
+      "Olha o besourinho!",
+      "Juntos no quintal",
+      "A calçada vira desenho",
+      "Blocos e novas ideias",
+      "Pequenas descobertas em dupla",
+      "Uma história no papel"
+    ],
+    "externalLinks": false
+  },
+  "carouselControls": {
+    "previous": "Anterior",
+    "next": "Próximo"
+  },
+  "collectionAndBrandPages": {
+    "copyPackage": "docs/content/copy-proposal.json",
+    "collectionStories": "docs/content/catalog-proposal.json",
+    "reuse": "Approved introductions, stories and two brand sections; no new service or sustainability claims."
+  },
+  "promotions": "Non-price fictional editorial messages only; no discounts or revised pricing."
+}
