@@ -1,0 +1,338 @@
+[
+  {
+    "path": "/",
+    "width": 390,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-0-390.png"
+  },
+  {
+    "path": "/produtos",
+    "width": 390,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-1-390.png"
+  },
+  {
+    "path": "/novidades",
+    "width": 390,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-2-390.png"
+  },
+  {
+    "path": "/meninas",
+    "width": 390,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-3-390.png"
+  },
+  {
+    "path": "/meninos",
+    "width": 390,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-4-390.png"
+  },
+  {
+    "path": "/colecoes",
+    "width": 390,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-5-390.png"
+  },
+  {
+    "path": "/colecoes/quintal-de-descobertas",
+    "width": 390,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-6-390.png"
+  },
+  {
+    "path": "/colecoes/brincadeira-de-rua",
+    "width": 390,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-7-390.png"
+  },
+  {
+    "path": "/colecoes/imaginacao-em-casa",
+    "width": 390,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-8-390.png"
+  },
+  {
+    "path": "/sobre",
+    "width": 390,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-9-390.png"
+  },
+  {
+    "path": "/busca",
+    "width": 390,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-10-390.png"
+  },
+  {
+    "path": "/busca?q=descobertas",
+    "width": 390,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-11-390.png"
+  },
+  {
+    "path": "/busca?q=inexistente",
+    "width": 390,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-12-390.png"
+  },
+  {
+    "path": "/produtos?categoria=polos&familia=purple",
+    "width": 390,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-13-390.png"
+  },
+  {
+    "path": "/favoritos",
+    "width": 390,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-14-390.png"
+  },
+  {
+    "path": "/not-a-route",
+    "width": 390,
+    "status": 404,
+    "axeViolations": 0,
+    "screenshot": "route-15-390.png"
+  },
+  {
+    "path": "/",
+    "width": 768,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-0-768.png"
+  },
+  {
+    "path": "/produtos",
+    "width": 768,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-1-768.png"
+  },
+  {
+    "path": "/novidades",
+    "width": 768,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-2-768.png"
+  },
+  {
+    "path": "/meninas",
+    "width": 768,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-3-768.png"
+  },
+  {
+    "path": "/meninos",
+    "width": 768,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-4-768.png"
+  },
+  {
+    "path": "/colecoes",
+    "width": 768,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-5-768.png"
+  },
+  {
+    "path": "/colecoes/quintal-de-descobertas",
+    "width": 768,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-6-768.png"
+  },
+  {
+    "path": "/colecoes/brincadeira-de-rua",
+    "width": 768,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-7-768.png"
+  },
+  {
+    "path": "/colecoes/imaginacao-em-casa",
+    "width": 768,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-8-768.png"
+  },
+  {
+    "path": "/sobre",
+    "width": 768,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-9-768.png"
+  },
+  {
+    "path": "/busca",
+    "width": 768,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-10-768.png"
+  },
+  {
+    "path": "/busca?q=descobertas",
+    "width": 768,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-11-768.png"
+  },
+  {
+    "path": "/busca?q=inexistente",
+    "width": 768,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-12-768.png"
+  },
+  {
+    "path": "/produtos?categoria=polos&familia=purple",
+    "width": 768,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-13-768.png"
+  },
+  {
+    "path": "/favoritos",
+    "width": 768,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-14-768.png"
+  },
+  {
+    "path": "/not-a-route",
+    "width": 768,
+    "status": 404,
+    "axeViolations": 0,
+    "screenshot": "route-15-768.png"
+  },
+  {
+    "path": "/",
+    "width": 1440,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-0-1440.png"
+  },
+  {
+    "path": "/produtos",
+    "width": 1440,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-1-1440.png"
+  },
+  {
+    "path": "/novidades",
+    "width": 1440,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-2-1440.png"
+  },
+  {
+    "path": "/meninas",
+    "width": 1440,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-3-1440.png"
+  },
+  {
+    "path": "/meninos",
+    "width": 1440,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-4-1440.png"
+  },
+  {
+    "path": "/colecoes",
+    "width": 1440,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-5-1440.png"
+  },
+  {
+    "path": "/colecoes/quintal-de-descobertas",
+    "width": 1440,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-6-1440.png"
+  },
+  {
+    "path": "/colecoes/brincadeira-de-rua",
+    "width": 1440,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-7-1440.png"
+  },
+  {
+    "path": "/colecoes/imaginacao-em-casa",
+    "width": 1440,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-8-1440.png"
+  },
+  {
+    "path": "/sobre",
+    "width": 1440,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-9-1440.png"
+  },
+  {
+    "path": "/busca",
+    "width": 1440,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-10-1440.png"
+  },
+  {
+    "path": "/busca?q=descobertas",
+    "width": 1440,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-11-1440.png"
+  },
+  {
+    "path": "/busca?q=inexistente",
+    "width": 1440,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-12-1440.png"
+  },
+  {
+    "path": "/produtos?categoria=polos&familia=purple",
+    "width": 1440,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-13-1440.png"
+  },
+  {
+    "path": "/favoritos",
+    "width": 1440,
+    "status": 200,
+    "axeViolations": 0,
+    "screenshot": "route-14-1440.png"
+  },
+  {
+    "path": "/not-a-route",
+    "width": 1440,
+    "status": 404,
+    "axeViolations": 0,
+    "screenshot": "route-15-1440.png"
+  }
+]

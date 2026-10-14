@@ -1,0 +1,716 @@
+{
+  "metadata": {
+    "actualWorkers": 2
+  },
+  "startTime": 1791935541156,
+  "duration": 430647.199,
+  "files": [
+    {
+      "fileId": "2318db75e0c613437198",
+      "fileName": "checkpoint.spec.ts",
+      "tests": [
+        {
+          "testId": "2318db75e0c613437198-cc792cc72cde4f58aee6",
+          "title": "checkpoint: every product and offered color has readable approved content",
+          "projectName": "webkit",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 20,
+            "column": 5
+          },
+          "duration": 58693,
+          "annotations": [],
+          "tags": [],
+          "outcome": "unexpected",
+          "path": [],
+          "ok": false,
+          "results": [
+            {
+              "attachments": [
+                {
+                  "name": "screenshot",
+                  "contentType": "image/png",
+                  "path": "data/1d30a65360bf3fdbd09b7244f1e974770fd2e935.png"
+                },
+                {
+                  "name": "error-context",
+                  "contentType": "text/markdown",
+                  "path": "data/3648f10b278b9dbc693696ec765c7a4bcafceb03.md"
+                },
+                {
+                  "name": "trace",
+                  "contentType": "application/zip",
+                  "path": "data/5e21aa4cdf651a5ec81cd786253e6eadf84d941d.zip"
+                }
+              ],
+              "startTime": "2026-10-13T23:55:10.487Z",
+              "workerIndex": 3
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-4c78e0591ffc637f3fa8",
+          "title": "checkpoint: keyboard skip link leaves the main heading below the sticky header",
+          "projectName": "chromium",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 5,
+            "column": 5
+          },
+          "duration": 6639,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:52:24.588Z",
+              "workerIndex": 1
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-82bec5a365ec48d0af4f",
+          "title": "checkpoint: every product and offered color has readable approved content",
+          "projectName": "chromium",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 20,
+            "column": 5
+          },
+          "duration": 23744,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:52:31.591Z",
+              "workerIndex": 1
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-303bf3df73cc07b40dd6",
+          "title": "checkpoint: public route matrix retains loaded imagery, responsive layout and accessibility",
+          "projectName": "chromium",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 51,
+            "column": 5
+          },
+          "duration": 158193,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [
+                {
+                  "name": "route-matrix",
+                  "contentType": "application/json"
+                }
+              ],
+              "startTime": "2026-10-13T23:52:33.023Z",
+              "workerIndex": 0
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-d8bb9bfd51e587eb8575",
+          "title": "checkpoint: keyboard skip link leaves the main heading below the sticky header",
+          "projectName": "firefox",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 5,
+            "column": 5
+          },
+          "duration": 5900,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:53:36.324Z",
+              "workerIndex": 2
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-e6a1dc5a26cf2e2543a0",
+          "title": "checkpoint: every product and offered color has readable approved content",
+          "projectName": "firefox",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 20,
+            "column": 5
+          },
+          "duration": 48831,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:53:42.258Z",
+              "workerIndex": 2
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-962c194587e8ba8b2171",
+          "title": "checkpoint: public route matrix retains loaded imagery, responsive layout and accessibility",
+          "projectName": "firefox",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 51,
+            "column": 5
+          },
+          "duration": 919,
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "The other projects exercise route behavior; this matrix records desktop Chromium captures.",
+              "location": {
+                "file": "C:\\Users\\bombd\\projects\\difratelli-kids-v2\\tests\\browser\\checkpoint.spec.ts",
+                "line": 52,
+                "column": 8
+              }
+            }
+          ],
+          "tags": [],
+          "outcome": "skipped",
+          "path": [],
+          "ok": false,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:54:31.121Z",
+              "workerIndex": 2
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-0296ea6557a7d851a303",
+          "title": "checkpoint: keyboard skip link leaves the main heading below the sticky header",
+          "projectName": "webkit",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 5,
+            "column": 5
+          },
+          "duration": 9393,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:55:01.053Z",
+              "workerIndex": 3
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-324f85303234fe9091f9",
+          "title": "checkpoint: public route matrix retains loaded imagery, responsive layout and accessibility",
+          "projectName": "webkit",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 51,
+            "column": 5
+          },
+          "duration": 613,
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "The other projects exercise route behavior; this matrix records desktop Chromium captures.",
+              "location": {
+                "file": "C:\\Users\\bombd\\projects\\difratelli-kids-v2\\tests\\browser\\checkpoint.spec.ts",
+                "line": 52,
+                "column": 8
+              }
+            }
+          ],
+          "tags": [],
+          "outcome": "skipped",
+          "path": [],
+          "ok": false,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:55:13.175Z",
+              "workerIndex": 4
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-cfc87d3cae525bb0dd2e",
+          "title": "checkpoint: keyboard skip link leaves the main heading below the sticky header",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 5,
+            "column": 5
+          },
+          "duration": 7929,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:56:15.221Z",
+              "workerIndex": 6
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-eed74a0a7b13fff2c0fb",
+          "title": "checkpoint: every product and offered color has readable approved content",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 20,
+            "column": 5
+          },
+          "duration": 32532,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:56:23.515Z",
+              "workerIndex": 6
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-8f90c1eea31829530734",
+          "title": "checkpoint: public route matrix retains loaded imagery, responsive layout and accessibility",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 51,
+            "column": 5
+          },
+          "duration": 578,
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "The other projects exercise route behavior; this matrix records desktop Chromium captures.",
+              "location": {
+                "file": "C:\\Users\\bombd\\projects\\difratelli-kids-v2\\tests\\browser\\checkpoint.spec.ts",
+                "line": 52,
+                "column": 8
+              }
+            }
+          ],
+          "tags": [],
+          "outcome": "skipped",
+          "path": [],
+          "ok": false,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:56:23.666Z",
+              "workerIndex": 5
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-56825fa9467ce182769f",
+          "title": "checkpoint: keyboard skip link leaves the main heading below the sticky header",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 5,
+            "column": 5
+          },
+          "duration": 16195,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:57:30.672Z",
+              "workerIndex": 7
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-0739007f900e680dbb3c",
+          "title": "checkpoint: every product and offered color has readable approved content",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 20,
+            "column": 5
+          },
+          "duration": 102653,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:57:48.370Z",
+              "workerIndex": 8
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-6512e2f2e282eaa15ae3",
+          "title": "checkpoint: public route matrix retains loaded imagery, responsive layout and accessibility",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 51,
+            "column": 5
+          },
+          "duration": 698,
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "The other projects exercise route behavior; this matrix records desktop Chromium captures.",
+              "location": {
+                "file": "C:\\Users\\bombd\\projects\\difratelli-kids-v2\\tests\\browser\\checkpoint.spec.ts",
+                "line": 52,
+                "column": 8
+              }
+            }
+          ],
+          "tags": [],
+          "outcome": "skipped",
+          "path": [],
+          "ok": false,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:57:46.928Z",
+              "workerIndex": 7
+            }
+          ]
+        }
+      ],
+      "stats": {
+        "total": 15,
+        "expected": 10,
+        "unexpected": 1,
+        "flaky": 0,
+        "skipped": 4,
+        "ok": false
+      }
+    },
+    {
+      "fileId": "ec079a02c0facf936b0d",
+      "fileName": "editorial.spec.ts",
+      "tests": [
+        {
+          "testId": "ec079a02c0facf936b0d-5aed7f31bfcf4e869dd2",
+          "title": "full-bleed homepage keeps the approved structure, hero sources and destinations at five widths",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 6,
+            "column": 5
+          },
+          "duration": 96666,
+          "annotations": [],
+          "tags": [],
+          "outcome": "unexpected",
+          "path": [],
+          "ok": false,
+          "results": [
+            {
+              "attachments": [
+                {
+                  "name": "error-context",
+                  "contentType": "text/markdown",
+                  "path": "data/7b241e9baa0e6264ea211b7408b3379c4e39cf7c.md"
+                },
+                {
+                  "name": "trace",
+                  "contentType": "application/zip",
+                  "path": "data/eb0b3110eb8490251abe52b99c9869ef56c8220c.zip"
+                }
+              ],
+              "startTime": "2026-10-13T23:57:47.732Z",
+              "workerIndex": 7
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-871e2a1a9f47d2abc48a",
+          "title": "full-bleed homepage keeps the approved structure, hero sources and destinations at five widths",
+          "projectName": "chromium",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 6,
+            "column": 5
+          },
+          "duration": 15324,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:52:55.385Z",
+              "workerIndex": 1
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-d5956e8968564d2c9fd5",
+          "title": "full-bleed homepage keeps the approved structure, hero sources and destinations at five widths",
+          "projectName": "firefox",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 6,
+            "column": 5
+          },
+          "duration": 12539,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:54:32.091Z",
+              "workerIndex": 2
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-58bf7f7292bfd874d70f",
+          "title": "full-bleed homepage keeps the approved structure, hero sources and destinations at five widths",
+          "projectName": "webkit",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 6,
+            "column": 5
+          },
+          "duration": 58694,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:55:14.045Z",
+              "workerIndex": 4
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-8b5dabfc9efd5d132da5",
+          "title": "full-bleed homepage keeps the approved structure, hero sources and destinations at five widths",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 6,
+            "column": 5
+          },
+          "duration": 81492,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:56:24.353Z",
+              "workerIndex": 5
+            }
+          ]
+        }
+      ],
+      "stats": {
+        "total": 5,
+        "expected": 4,
+        "unexpected": 1,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": false
+      }
+    },
+    {
+      "fileId": "30aa42b97d8966d0c2dc",
+      "fileName": "catalog.spec.ts",
+      "tests": [
+        {
+          "testId": "30aa42b97d8966d0c2dc-e316c065ee9b24555260",
+          "title": "responsive grids, sticky navigation and compact destinations work at the approved widths",
+          "projectName": "chromium",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 26,
+            "column": 5
+          },
+          "duration": 8067,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:52:24.611Z",
+              "workerIndex": 0
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-2e2de545890a0571bb8f",
+          "title": "responsive grids, sticky navigation and compact destinations work at the approved widths",
+          "projectName": "firefox",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 26,
+            "column": 5
+          },
+          "duration": 15034,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:53:19.436Z",
+              "workerIndex": 2
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-cb9c5afd1b6c7223556e",
+          "title": "responsive grids, sticky navigation and compact destinations work at the approved widths",
+          "projectName": "webkit",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 26,
+            "column": 5
+          },
+          "duration": 12644,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:54:48.171Z",
+              "workerIndex": 3
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-f7f42af6d370a52a56b8",
+          "title": "responsive grids, sticky navigation and compact destinations work at the approved widths",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 26,
+            "column": 5
+          },
+          "duration": 10920,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:56:12.331Z",
+              "workerIndex": 5
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-85c0561969e64e68f5cb",
+          "title": "responsive grids, sticky navigation and compact destinations work at the approved widths",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 26,
+            "column": 5
+          },
+          "duration": 32373,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:56:57.637Z",
+              "workerIndex": 7
+            }
+          ]
+        }
+      ],
+      "stats": {
+        "total": 5,
+        "expected": 5,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": true
+      }
+    }
+  ],
+  "projectNames": [
+    "chromium",
+    "firefox",
+    "webkit",
+    "mobile-chromium",
+    "mobile-webkit"
+  ],
+  "stats": {
+    "total": 25,
+    "expected": 19,
+    "unexpected": 2,
+    "flaky": 0,
+    "skipped": 4,
+    "ok": false
+  },
+  "errors": [],
+  "options": {},
+  "machines": []
+}

@@ -1,0 +1,28 @@
+{
+  "testId": "2318db75e0c613437198-303bf3df73cc07b40dd6",
+  "title": "checkpoint: public route matrix retains loaded imagery, responsive layout and accessibility",
+  "projectName": "chromium",
+  "location": {
+    "file": "checkpoint.spec.ts",
+    "line": 51,
+    "column": 5
+  },
+  "duration": 158193,
+  "annotations": [],
+  "tags": [],
+  "outcome": "expected",
+  "path": [],
+  "ok": true,
+  "results": [
+    {
+      "attachments": [
+        {
+          "name": "route-matrix",
+          "contentType": "application/json"
+        }
+      ],
+      "startTime": "2026-10-13T23:52:33.023Z",
+      "workerIndex": 0
+    }
+  ]
+}

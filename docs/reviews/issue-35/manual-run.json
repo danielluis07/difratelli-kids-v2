@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "actualWorkers": 1
+  },
+  "startTime": 1791936399421,
+  "duration": 24327.703,
+  "files": [
+    {
+      "fileId": "dbd356b2e662b68fc13e",
+      "fileName": "manual-review.spec.ts",
+      "tests": [
+        {
+          "testId": "dbd356b2e662b68fc13e-f890bcf0402902df4766",
+          "title": "retain production retry, product and skip-link artifacts",
+          "projectName": "chromium",
+          "location": {
+            "file": "manual-review.spec.ts",
+            "line": 5,
+            "column": 5
+          },
+          "duration": 15166,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [
+                {
+                  "name": "stdout",
+                  "contentType": "text/plain"
+                }
+              ],
+              "startTime": "2026-10-14T00:06:48.101Z",
+              "workerIndex": 0
+            }
+          ]
+        }
+      ],
+      "stats": {
+        "total": 1,
+        "expected": 1,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": true
+      }
+    }
+  ],
+  "projectNames": [
+    "chromium"
+  ],
+  "stats": {
+    "total": 1,
+    "expected": 1,
+    "unexpected": 0,
+    "flaky": 0,
+    "skipped": 0,
+    "ok": true
+  },
+  "errors": [],
+  "options": {},
+  "machines": []
+}

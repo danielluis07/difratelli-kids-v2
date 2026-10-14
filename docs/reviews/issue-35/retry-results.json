@@ -1,0 +1,11 @@
+{
+  "condition": "One intercepted /sobre document contains a synthetic server-page Flight error; subsequent requests are unchanged.",
+  "engine": "156.0.8078.4",
+  "widths": [
+    1440,
+    390
+  ],
+  "axeViolations": 0,
+  "homepageAction": "/",
+  "keyboardRetryRecovered": true
+}

@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "actualWorkers": 1
+  },
+  "startTime": 1791936235877,
+  "duration": 63101.835,
+  "files": [
+    {
+      "fileId": "ec079a02c0facf936b0d",
+      "fileName": "editorial.spec.ts",
+      "tests": [
+        {
+          "testId": "ec079a02c0facf936b0d-5aed7f31bfcf4e869dd2",
+          "title": "full-bleed homepage keeps the approved structure, hero sources and destinations at five widths",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 6,
+            "column": 5
+          },
+          "duration": 59388,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-14T00:03:59.012Z",
+              "workerIndex": 0
+            }
+          ]
+        }
+      ],
+      "stats": {
+        "total": 1,
+        "expected": 1,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": true
+      }
+    }
+  ],
+  "projectNames": [
+    "mobile-webkit"
+  ],
+  "stats": {
+    "total": 1,
+    "expected": 1,
+    "unexpected": 0,
+    "flaky": 0,
+    "skipped": 0,
+    "ok": true
+  },
+  "errors": [],
+  "options": {},
+  "machines": []
+}
