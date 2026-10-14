@@ -21,24 +21,39 @@ export function createFavorites(storage?: () => FavoritesStorage): Favorites {
     subscribe: (listener: () => void) => store.subscribe(listener),
     restore() {
       if (storageStatus.restoration !== "pending") return;
+      const temporary = (warning: StorageStatus["warning"]) => {
+        storageStatus = { restoration: "temporary", persistence: "unavailable", warning };
+        store.setState(snapshot([]), true);
+      };
+      let available: FavoritesStorage;
+      let raw: string | null;
       try {
-        const available = storage!();
-        const raw = available.getItem(favoritesStorageKey);
-        let ids: string[] = [];
+        available = storage!();
+        raw = available.getItem(favoritesStorageKey);
+      } catch {
+        temporary("readFailure"); return;
+      }
+      try {
+        const ids: string[] = [];
+        const recovery = { removed: false, duplicates: false, quantities: false, prices: false };
         if (raw !== null) {
           const envelope = JSON.parse(raw);
-          if (envelope?.version !== 1 || !Array.isArray(envelope.productIds)) throw new Error("Invalid favorites envelope");
-          // Normal saved favorites only; tolerant recovery belongs to the storage-recovery ticket.
-          ids = envelope.productIds;
-          if (ids.some((id) => typeof id !== "string" || findProduct(id).status === "missing")
-            || new Set(ids).size !== ids.length) throw new Error("Invalid saved product");
+          if (!envelope || typeof envelope !== "object" || Array.isArray(envelope) || !Number.isInteger(envelope.version)) {
+            temporary("invalidStorage"); return;
+          }
+          if (envelope.version !== 1) { temporary("unsupportedStorage"); return; }
+          if (!Array.isArray(envelope.productIds)) { temporary("invalidStorage"); return; }
+          for (const id of envelope.productIds) {
+            if (typeof id !== "string" || findProduct(id).status === "missing") recovery.removed = true;
+            else if (ids.includes(id)) recovery.duplicates = true;
+            else ids.push(id);
+          }
         }
         target = available;
-        storageStatus = { restoration: "ready", persistence: raw === null ? "idle" : "saved" };
+        storageStatus = { restoration: "ready", persistence: raw === null ? "idle" : "saved", recovery };
         store.setState(snapshot(ids), true);
       } catch {
-        storageStatus = { restoration: "temporary", persistence: "unavailable" };
-        store.setState(snapshot([]), true);
+        temporary("invalidStorage");
       }
     },
     has: (productId: string) => store.getState().products.some((p) => p.id === productId),
@@ -51,10 +66,10 @@ export function createFavorites(storage?: () => FavoritesStorage): Favorites {
       if (target) {
         try {
           target.setItem(favoritesStorageKey, JSON.stringify({ version: 1, productIds: next }));
-          storageStatus = { restoration: "ready", persistence: "saved" };
+          storageStatus = { ...storageStatus, restoration: "ready", persistence: "saved" };
         } catch {
           target = undefined;
-          storageStatus = { restoration: "temporary", persistence: "unavailable" };
+          storageStatus = { ...storageStatus, restoration: "temporary", persistence: "unavailable", warning: "writeFailure" };
         }
       }
       store.setState(snapshot(next), true);

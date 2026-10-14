@@ -37,10 +37,10 @@ export function createCart(storage?: () => CartStorage): Cart {
           productId: line.productId, colorwayId: line.colorwayId, size: line.size,
           quantity: line.quantity, lastSeenUnitPriceCents: line.product.priceCents,
         })) }));
-        storageStatus = { restoration: "ready", persistence: "saved" };
+        storageStatus = { ...storageStatus, restoration: "ready", persistence: "saved" };
       } catch {
         target = undefined;
-        storageStatus = { restoration: "temporary", persistence: "unavailable" };
+        storageStatus = { ...storageStatus, restoration: "temporary", persistence: "unavailable", warning: "writeFailure" };
       }
     }
     store.setState(snapshot(lines), true);
@@ -50,30 +50,57 @@ export function createCart(storage?: () => CartStorage): Cart {
     subscribe: (listener: () => void) => store.subscribe(listener),
     restore() {
       if (storageStatus.restoration !== "pending") return;
+      const temporary = (warning: StorageStatus["warning"]) => {
+        storageStatus = { restoration: "temporary", persistence: "unavailable", warning };
+        store.setState(snapshot([]), true);
+      };
+      let available: CartStorage;
+      let raw: string | null;
       try {
-        const available = storage!();
-        const raw = available.getItem(cartStorageKey);
+        available = storage!();
+        raw = available.getItem(cartStorageKey);
+      } catch {
+        temporary("readFailure");
+        return;
+      }
+      try {
         const restored: ResolvedLine[] = [];
+        const recovery = { removed: false, duplicates: false, quantities: false, prices: false };
         if (raw !== null) {
           const envelope = JSON.parse(raw);
-          if (envelope?.version !== 1 || !Array.isArray(envelope.lines)) throw new Error("Invalid cart envelope");
-          // This slice supports normal saved carts. Tolerant entry recovery is
-          // deliberately left to the separate storage-recovery ticket.
+          if (!envelope || typeof envelope !== "object" || Array.isArray(envelope) || !Number.isInteger(envelope.version)) {
+            temporary("invalidStorage"); return;
+          }
+          if (envelope.version !== 1) { temporary("unsupportedStorage"); return; }
+          if (!Array.isArray(envelope.lines)) { temporary("invalidStorage"); return; }
           for (const entry of envelope.lines) {
             const resolved = resolveSelection(entry);
-            if (!resolved || !Number.isInteger(entry.quantity) || entry.quantity < 1 || entry.quantity > 10
-              || !Number.isSafeInteger(entry.lastSeenUnitPriceCents) || entry.lastSeenUnitPriceCents <= 0
-              || restored.some((line) => same(line, entry))) throw new Error("Invalid saved selection");
+            if (!resolved || !Number.isInteger(entry.quantity) || entry.quantity < 1) {
+              recovery.removed = true; continue;
+            }
+            // A missing/malformed comparison price cannot invalidate a selection.
+            if (Number.isSafeInteger(entry.lastSeenUnitPriceCents) && entry.lastSeenUnitPriceCents > 0
+              && entry.lastSeenUnitPriceCents !== resolved.product.priceCents) recovery.prices = true;
+            const quantity = Math.min(10, entry.quantity);
+            if (quantity !== entry.quantity) recovery.quantities = true;
+            const existing = restored.find((line) => same(line, entry));
+            if (existing) {
+              recovery.duplicates = true;
+              const totalQuantity = existing.quantity + quantity;
+              if (totalQuantity > 10) recovery.quantities = true;
+              const mergedQuantity = Math.min(10, totalQuantity);
+              restored[restored.indexOf(existing)] = { ...existing, quantity: mergedQuantity, totalCents: mergedQuantity * existing.product.priceCents };
+              continue;
+            }
             restored.push({ productId: resolved.product.id, colorwayId: resolved.colorway.id,
-              size: entry.size, quantity: entry.quantity, ...resolved, totalCents: entry.quantity * resolved.product.priceCents });
+              size: entry.size, quantity, ...resolved, totalCents: quantity * resolved.product.priceCents });
           }
         }
         target = available;
-        storageStatus = { restoration: "ready", persistence: raw === null ? "idle" : "saved" };
+        storageStatus = { restoration: "ready", persistence: raw === null ? "idle" : "saved", recovery };
         store.setState(snapshot(restored), true);
       } catch {
-        storageStatus = { restoration: "temporary", persistence: "unavailable" };
-        store.setState(snapshot([]), true);
+        temporary("invalidStorage");
       }
     },
     add(selection: Selection, quantity = 1): CartOutcome {
