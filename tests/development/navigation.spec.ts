@@ -17,7 +17,7 @@ test("public pages have no blocking URL-data diagnostics", async ({ page, contex
   });
   const paths = [
     `/produto/${catalog.products[0].slug}`, `/colecoes/${catalog.collections[0].slug}`,
-    "/", "/produtos", "/novidades", "/meninas", "/meninos", "/colecoes", "/sobre", "/busca", "/favoritos",
+    "/", "/produtos", "/novidades", "/meninas", "/meninos", "/colecoes", "/sobre", "/busca", "/favoritos", "/checkout",
     ...catalog.products.map(({ slug }) => `/produto/${slug}`),
     ...catalog.collections.map(({ slug }) => `/colecoes/${slug}`),
   ];
@@ -46,6 +46,17 @@ test("public pages have no blocking URL-data diagnostics", async ({ page, contex
   const cart = page.getByRole("dialog", { name: copy.cart.title });
   await expect(cart.locator(".cart-line")).toContainText(color.name);
   await page.keyboard.press("Escape");
+  await page.getByRole("button", { name: /Abrir sacola/ }).click();
+  await cart.getByRole("link", { name: copy.cart.checkout, exact: true }).click();
+  await expect(page.getByRole("textbox", { name: copy.checkout.fields.name, exact: true })).toHaveValue(copy.checkout.defaults.name);
+  await page.getByRole("button", { name: copy.checkout.submit, exact: true }).click();
+  await expect(page.getByText(copy.checkout.completion.disclosure, { exact: true })).toBeVisible();
+  await expect(page.locator(".cart-count")).toHaveText("0");
+  await expect(page.locator(".favorites-count").first()).toHaveText("1");
+  await page.getByRole("link", { name: copy.checkout.completion.continueAction.label }).click();
+  await page.locator(`main:visible [data-product-id="${product.id}"]`).getByRole("link").click();
+  await page.getByRole("button", { name: "Tamanho 4", exact: true }).click();
+  await page.getByRole("button", { name: copy.product.addToCart, exact: true }).click();
   await page.reload();
   await expect(page.locator(".cart-count")).toHaveText("1");
   await expect(page.locator(".favorites-count").first()).toHaveText("1");

@@ -1,0 +1,50 @@
+{
+  "baseCommit": "11ebae5a53c789ae60856cf6a750aaec55163ef8",
+  "source": [
+    {
+      "sha256": "0df16ca48969199efd21f50a8ceaffdec25ebaa1e2ab1344891e8896d12d1a13",
+      "path": "app/checkout/page.tsx"
+    },
+    {
+      "sha256": "f5aadbb2c8f3b3e5c3ad5405950f517aafee8ea7ec93c0b4b4773e34d287b727",
+      "path": "app/layout.tsx"
+    },
+    {
+      "sha256": "caa0e0d9b966ba9aa1c504c63028218c5509ace1f373df1f308605abd78e10ae",
+      "path": "app/globals.css"
+    },
+    {
+      "sha256": "93453ff0a1b941f1cf804c71a5e4c0704b0d4b12bb45238c59773ac290649082",
+      "path": "components/storefront/checkout-content.tsx"
+    },
+    {
+      "sha256": "a04257da72e9e845f92263bbfe8c9ec8f28d5139610eb040f44659e0311f41f7",
+      "path": "components/storefront/checkout-provider.tsx"
+    },
+    {
+      "sha256": "9719b7b208f54c1fd6291d3395c50d3c3a4de6cbce675b3782d08d4639e0a505",
+      "path": "components/storefront/checkout-summary.tsx"
+    },
+    {
+      "sha256": "d6e732af8c41a29d3db8c63b71592b95d45eaee356927dcd98dcd753eda725fc",
+      "path": "lib/checkout/index.ts"
+    },
+    {
+      "sha256": "2147bd5b6a9528163ad83a9afdd60bd42f3cfb2ce333d142b77d34dd217a5ed8",
+      "path": "lib/shopping/contracts.ts"
+    },
+    {
+      "sha256": "08d1b80534458826bd5eb8ffecce6ca532c4c9d88532e8de8297b0a81cc21588",
+      "path": "tests/contracts/checkout.test.ts"
+    },
+    {
+      "sha256": "42b2ecc0ea76474c0edaa7c5051c62764961d91b92f2b5f57c6e9e8762b6ef77",
+      "path": "tests/browser/checkout.spec.ts"
+    },
+    {
+      "sha256": "c52c078c9a77857db732b43e0bfa8718921a33c8ff8e3d901cc3ae70ba20043a",
+      "path": "tests/development/navigation.spec.ts"
+    }
+  ],
+  "buildId": "0NOjgjGfx4l_RF3h473h6"
+}

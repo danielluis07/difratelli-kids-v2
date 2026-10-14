@@ -10,6 +10,7 @@ import { AnnouncementBar } from "@/components/storefront/announcement-bar";
 import { CartProvider } from "@/components/storefront/cart-provider";
 import { FavoritesProvider } from "@/components/storefront/favorites-provider";
 import { ShoppingFeedback } from "@/components/storefront/storage-feedback";
+import { CheckoutProvider } from "@/components/storefront/checkout-provider";
 
 export const metadata: Metadata = {
   ...pageMetadata(copy.editorial.metadata.siteName, "/"),
@@ -31,7 +32,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         dmSans.variable,
         fraunces.variable,
       )}>
-      <body className="min-h-full flex flex-col"><CartProvider><FavoritesProvider><AnnouncementBar /><StorefrontHeader groups={groups} wordmark={wordmark.path.replace(/^public/, "")} />{children}<StorefrontFooter /><ShoppingFeedback /></FavoritesProvider></CartProvider></body>
+      <body className="min-h-full flex flex-col"><CartProvider><FavoritesProvider><CheckoutProvider><AnnouncementBar /><StorefrontHeader groups={groups} wordmark={wordmark.path.replace(/^public/, "")} />{children}<StorefrontFooter /><ShoppingFeedback /></CheckoutProvider></FavoritesProvider></CartProvider></body>
     </html>
   );
 }
