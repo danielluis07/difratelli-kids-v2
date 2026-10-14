@@ -34,19 +34,51 @@ two-piece matching sets, whose approved records have no coordinating IDs.
 | --- | --- | --- |
 | Catalog/content | `lib/catalog/index.ts`, `validation.ts`, `content-validation.ts`, `readiness.ts` | Deep readonly approved records, explicit found/missing lookups, ordered photograph pairs, curated selections, BRL formatting, structural and file/approval validation |
 | Browsing/URL | `lib/browsing/index.ts` | Framework-independent scopes, parsing/canonical serialization, reset, every-word search, filter OR/AND and curated price ties |
-| Cart | `lib/cart/index.ts`, `lib/shopping/contracts.ts` | Isolated vanilla Zustand command core, resolved immutable snapshots, typed outcomes, tuple merging and quantity limits |
+| Cart | `lib/cart/index.ts`, `lib/shopping/contracts.ts` | Isolated vanilla Zustand commands, immutable resolved snapshots, tuple/quantity rules and opt-in version-1 persistence with post-mount restoration |
 | Favorites | `lib/favorites/index.ts`, `lib/shopping/contracts.ts` | Independent vanilla Zustand command core, product membership and typed outcomes |
 | Visit checkout | `lib/checkout/index.ts`, `lib/shopping/contracts.ts` | Approved draft defaults, delivery validation, centavo totals and interface for future visit/completion lifecycle |
 | Presentation | `lib/presentation/contracts.ts`, `app/` | Invoke domain interfaces and translate outcomes to approved Portuguese copy; no direct array mutations |
 
-The store factories are explicitly temporary, in-memory command cores. They
-do not read or write browser storage and are not connected to public controls.
-Later shopping slices must add separate version-1 cart/favorites persistence,
-post-mount restoration gates, tolerant recovery and once-only warnings, then
+The cart factory supports independent in-memory commands or an injected storage
+adapter acquired by its explicit `restore()` command. The shared-layout cart
+provider opts into persistence and restores only after mounting; public content
+continues rendering while dependent cart controls wait. Favorites remain an
+unconnected in-memory command core. Later shopping slices must add independent
+favorites persistence, tolerant storage recovery and once-only warnings, then
 implement the shared-layout visit checkout provider, completion and confirmation
 lifetime. The public shell uses approved copy, local approved fonts and noindex;
 issue #31 adds the public browsing presentation documented below; later slices
 complete the shopping interactions.
+
+## Persistent cart slice (issue #37)
+
+Product detail now invokes cart commands with the selected product/colorway/size.
+Missing-size submission announces the approved copy and focuses the first size
+control. Successful additions announce briefly without opening the cart. Identical
+selections merge to ten; different colors or sizes remain separate. The right
+Sheet shows approved selected imagery/options, current catalog unit/line prices,
+quantity controls, immediate removal, subtotal and the `/checkout` action.
+Checkout itself belongs to its later delivery slice; this action currently targets
+that reserved route. The header badge counts units, using a neutral ellipsis
+during restoration. Empty carts offer the approved catalog exploration action.
+
+`difratelli.cart` stores `{ version: 1, lines: [...] }`, with stable product and
+colorway IDs, size, quantity and last-seen unit price only. Restoration does not
+write storage and is idempotent; pending commands reject without changing state.
+Current catalog prices always govern resolved totals. Normal carts survive reload
+and client navigation. The defensive temporary fallback preserves unreadable
+data; partial recovery, obsolete-entry correction and once-only failure/price
+notices remain the storage-recovery ticket's responsibility before shopping
+acceptance. Cart state remains independent of favorites and public rendering.
+
+The new command contracts cover restoration gates, absence of initial writes,
+the version-1 envelope, normal resume, current-price totals and invalid commands.
+Browser contracts cover missing-size focus, add feedback, tuple merge/limits,
+distinct lines, counts/totals, decrement limits, removal, empty exploration,
+reload/navigation, prerendered pending controls, Sheet width/focus and axe scans.
+Local verification and responsive captures are recorded in
+[`reviews/issue-37/review.md`](reviews/issue-37/review.md). Integration and release
+approval remain separate from these implementation checks.
 
 ## Testing seams and CI
 

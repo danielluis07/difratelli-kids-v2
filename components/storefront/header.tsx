@@ -3,7 +3,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { ChevronDown, Heart, Menu, ShoppingBag, X } from "lucide-react";
+import { ChevronDown, Heart, Menu, X } from "lucide-react";
+import { CartSheet } from "./cart-sheet";
 import { HeaderSearch } from "./search";
 import copy from "@/docs/content/copy-proposal.json";
 import { Button } from "@/components/ui/button";
@@ -15,7 +16,6 @@ export type NavigationGroup = { label: string; href: string; links: { label: str
 
 export function StorefrontHeader({ groups, wordmark }: { groups: NavigationGroup[]; wordmark: string }) {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [cartOpen, setCartOpen] = useState(false);
   return <header className="store-header">
     <a href="#main-content" className="skip-link">{copy.navigation.skipLink}</a>
     <div className="header-inner content-container">
@@ -55,14 +55,7 @@ export function StorefrontHeader({ groups, wordmark }: { groups: NavigationGroup
       <div className="header-actions">
         <HeaderSearch />
         <Button className="desktop-action" variant="ghost" size="icon" render={<Link href="/favoritos" />} nativeButton={false} role="link" aria-label={copy.navigation.favorites}><Heart /></Button>
-        <Sheet open={cartOpen} onOpenChange={setCartOpen}>
-          <SheetTrigger render={<Button variant="ghost" size="icon" />} aria-label={copy.cart.open}><ShoppingBag /></SheetTrigger>
-          <SheetContent className="cart-sheet" side="right" showCloseButton={false}>
-            <SheetHeader><SheetTitle>{copy.cart.title}</SheetTitle></SheetHeader>
-            <SheetClose className="sheet-close" render={<Button variant="ghost" size="icon" />} aria-label={copy.cart.close}><X /></SheetClose>
-            <div className="sheet-body"><Button nativeButton={false} role="link" render={<Link href="/produtos" />} onClick={() => setCartOpen(false)}>{copy.common.continueShopping}</Button></div>
-          </SheetContent>
-        </Sheet>
+        <CartSheet />
       </div>
     </div>
   </header>;
