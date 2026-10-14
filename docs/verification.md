@@ -35,7 +35,7 @@ two-piece matching sets, whose approved records have no coordinating IDs.
 | Catalog/content | `lib/catalog/index.ts`, `validation.ts`, `content-validation.ts`, `readiness.ts` | Deep readonly approved records, explicit found/missing lookups, ordered photograph pairs, curated selections, BRL formatting, structural and file/approval validation |
 | Browsing/URL | `lib/browsing/index.ts` | Framework-independent scopes, parsing/canonical serialization, reset, every-word search, filter OR/AND and curated price ties |
 | Cart | `lib/cart/index.ts`, `lib/shopping/contracts.ts` | Isolated vanilla Zustand commands, immutable resolved snapshots, tuple/quantity rules and opt-in version-1 persistence with post-mount restoration |
-| Favorites | `lib/favorites/index.ts`, `lib/shopping/contracts.ts` | Independent persistent vanilla Zustand store, product membership/count, normal restoration and typed outcomes |
+| Favorites | `lib/favorites/index.ts`, `lib/shopping/contracts.ts` | Independent persistent vanilla Zustand store, product membership/count, tolerant restoration and typed outcomes |
 | Visit checkout | `lib/checkout/index.ts`, `lib/shopping/contracts.ts` | Approved draft defaults, delivery validation, centavo totals and interface for future visit/completion lifecycle |
 | Presentation | `lib/presentation/contracts.ts`, `app/` | Invoke domain interfaces and translate outcomes to approved Portuguese copy; no direct array mutations |
 
@@ -43,8 +43,8 @@ The cart factory supports independent in-memory commands or an injected storage
 adapter acquired by its explicit `restore()` command. The shared-layout cart
 provider opts into persistence and restores only after mounting; public content
 continues rendering while dependent cart controls wait. The independent favorites
-provider follows the same mount/restoration boundary. Later shopping slices must add
-tolerant storage recovery and once-only warnings, then
+provider follows the same mount/restoration boundary. Both stores recover valid
+entries and expose visit-only correction/failure feedback. Later shopping slices
 implement the shared-layout visit checkout provider, completion and confirmation
 lifetime. The public shell uses approved copy, local approved fonts and noindex;
 issue #31 adds the public browsing presentation documented below; later slices
@@ -72,8 +72,41 @@ directions. Production browser tests cover card/detail synchronization, option
 independence, navigation/reload, keyboard toggles/focus, announcements, pending
 server rendering, populated/empty axe scans and responsive grids. Local results
 and remaining integration gates are recorded in `docs/reviews/issue-38/review.md`.
-Malformed/unsupported/obsolete-state recovery and independent once-only storage
-warnings remain required in the storage-recovery ticket before shopping acceptance.
+The recovery behavior and independent once-only storage warnings are covered by
+issue #39 below. Combined shopping integration acceptance remains a separate gate.
+
+## Storage recovery slice (issue #39)
+
+Readable version-1 envelopes recover valid entries individually. Favorites remove
+malformed/obsolete IDs and deduplicate products. Cart recovery removes obsolete
+products/colorways/sizes without substitution, discards nonpositive/noninteger
+quantities, merges duplicate tuples and caps positive integer quantities and sums
+at ten. Current catalog prices govern every resolved line and subtotal; valid
+saved comparison prices detect changes. Missing/malformed comparison metadata
+does not invalidate an otherwise usable selection.
+
+Restoration never writes storage. Corrupt JSON, malformed envelopes, unsupported
+versions and failed reads leave saved data untouched and use temporary shopping
+with approved feedback. A failed write retains the successful command in memory,
+preserves the last saved value and disables further persistence for that store
+during the visit. The other store continues restoring/saving independently.
+Existing tabs retain their own snapshots; there is no storage-event synchronization.
+
+Snapshots expose restoration/persistence status, correction flags and one warning
+reason, none of which enter saved envelopes. The shared layout mounts persistent
+polite live regions and dismissible notices using approved copy. Corrections are
+combined once per store restoration; routine commands, client navigation and
+Sheet reopening do not repeat dismissed notices. A first write failure inside the
+modal cart is also included in its action announcement because the modal hides
+the page's live regions. Personalized actions/counts retain their neutral pending
+state while public content renders; no initial empty state overwrites saved data.
+
+`tests/contracts/recovery.test.ts` covers recovery, envelope preservation, independent
+failures, command outcomes and last-successful saves. `tests/browser/recovery.spec.ts`
+covers production-browser recovery/feedback, corrupt/unsupported data, independent
+read/write failures, modal feedback, delayed hydration without a false empty flash
+or storage overwrite, and tab independence. Local evidence is recorded in
+`docs/reviews/issue-39/review.md`.
 
 ## Persistent cart slice (issue #37)
 
@@ -93,8 +126,8 @@ write storage and is idempotent; pending commands reject without changing state.
 Current catalog prices always govern resolved totals. Normal carts survive reload
 and client navigation. The defensive temporary fallback preserves unreadable
 data; partial recovery, obsolete-entry correction and once-only failure/price
-notices remain the storage-recovery ticket's responsibility before shopping
-acceptance. Cart state remains independent of favorites and public rendering.
+notices are implemented by issue #39 above. Cart state remains independent of
+favorites and public rendering. Combined shopping acceptance remains separate.
 
 The new command contracts cover restoration gates, absence of initial writes,
 the version-1 envelope, normal resume, current-price totals and invalid commands.

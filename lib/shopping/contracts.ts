@@ -8,7 +8,14 @@ export type CartLine = Selection & { readonly quantity: number };
 export type ResolvedLine = CartLine & { readonly product: Product; readonly colorway: Colorway; readonly totalCents: number };
 export type RestorationStatus = "pending" | "ready" | "temporary";
 export type PersistenceStatus = "idle" | "saved" | "unavailable";
-export type StorageStatus = { readonly restoration: RestorationStatus; readonly persistence: PersistenceStatus };
+export type StorageWarning = "invalidStorage" | "unsupportedStorage" | "readFailure" | "writeFailure";
+export type StorageRecovery = {
+  readonly removed: boolean; readonly duplicates: boolean; readonly quantities: boolean; readonly prices: boolean;
+};
+export type StorageStatus = {
+  readonly restoration: RestorationStatus; readonly persistence: PersistenceStatus;
+  readonly recovery?: StorageRecovery; readonly warning?: StorageWarning;
+};
 export type CartOutcome = CommandOutcome<"added" | "merged" | "quantity-limited" | "updated" | "removed" | "cleared", "not-ready" | "invalid-selection" | "invalid-quantity" | "missing-line">;
 export interface CartSnapshot extends StorageStatus {
   readonly lines: readonly ResolvedLine[]; readonly units: number; readonly subtotalCents: number;

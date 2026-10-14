@@ -20,6 +20,12 @@ export function CartSheet() {
   const pending = snapshot.restoration === "pending";
   const count = snapshot.units === 0 ? copy.cart.unitCount.zero : snapshot.units === 1 ? copy.cart.unitCount.one : copy.cart.unitCount.many.replace("{count}", String(snapshot.units));
   function announce(text: string) { setMessage(previous => ({ text, sequence: (previous?.sequence ?? 0) + 1 })); }
+  function announceCommand(text: string) {
+    // The modal hides the page's live regions. Announce the first failed save
+    // inside the Sheet as part of the successful action's feedback.
+    const failedSave = snapshot.warning !== "writeFailure" && cart.getSnapshot().warning === "writeFailure";
+    announce(failedSave ? `${text} ${copy.recovery.cart.writeFailure}` : text);
+  }
   function change(line: ResolvedLine, delta: number) {
     const quantity = line.quantity + delta;
     if (quantity < 1 || quantity > 10) {
@@ -27,7 +33,7 @@ export function CartSheet() {
       return;
     }
     const outcome = cart.setQuantity(line, quantity);
-    announce(outcome.status === "success" ? copy.cart.quantityUpdated.replace("{product}", line.product.name).replace("{quantity}", String(quantity)) : copy.cart.invalidLine);
+    announceCommand(outcome.status === "success" ? copy.cart.quantityUpdated.replace("{product}", line.product.name).replace("{quantity}", String(quantity)) : copy.cart.invalidLine);
   }
   return <Sheet open={open} onOpenChange={(next) => { setOpen(next); setMessage(null); }}>
     <SheetTrigger className="cart-trigger" render={<Button variant="ghost" size="icon" />} aria-label={`${copy.cart.open} — ${pending ? copy.cart.pending : count}`}>
@@ -59,7 +65,7 @@ export function CartSheet() {
               <Button variant="link" aria-label={copy.cart.remove.replace("{product}", line.product.name)} onClick={() => {
                 if (cart.remove(line).status === "success") {
                   closeButton.current?.focus();
-                  announce(copy.cart.removed.replace("{product}", line.product.name));
+                  announceCommand(copy.cart.removed.replace("{product}", line.product.name));
                 }
               }}>{copy.cart.remove.replace("{product}", line.product.name)}</Button>
             </div>

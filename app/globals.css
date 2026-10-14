@@ -91,6 +91,11 @@
   :focus-visible { outline: 2px solid var(--ring); outline-offset: 4px; }
 }
 
+.shopping-feedback { position: fixed; bottom: 16px; left: 16px; right: 16px; z-index: 40; max-width: 640px; margin-left: auto; pointer-events: none; max-height: 45dvh; overflow-y: auto; }
+.storage-notice { display: flex; align-items: center; gap: 12px; }
+.storage-notice[data-visible="true"] { padding: 16px; margin-top: 8px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--background); box-shadow: 0 4px 16px #0001; pointer-events: auto; }
+.storage-notice p { flex: 1; font-size: 14px; line-height: 1.6; }
+
 .content-container { width: 100%; max-width: 1440px; margin-inline: auto; padding-inline: 16px; }
 .store-header { position: sticky; top: 0; z-index: 30; background: var(--background); border-bottom: 1px solid var(--border); }
 #main-content { scroll-margin-top: 104px; }
