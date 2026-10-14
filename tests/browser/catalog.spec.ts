@@ -103,7 +103,7 @@ test("product gallery shows one image, supports thumbnail selection and resets f
   await page.goto(`/produto/${product.slug}`);
   const gallery = page.locator(".product-gallery:visible");
   const mainImage = gallery.locator(".detail-photo img");
-  const thumbnails = gallery.getByRole("button");
+  const thumbnails = gallery.locator(".gallery-thumbnails").getByRole("button");
   await expect(mainImage).toHaveCount(1);
   await expect(mainImage).toHaveAttribute("alt", photos[0].alt);
   await expect(thumbnails).toHaveCount(photos.length);
@@ -143,7 +143,7 @@ test("gallery thumbnails become interactive when their hydrated color view is re
   });
   await page.goto(`/produto/${catalog.products[0].slug}`, { waitUntil: "commit" });
   const gallery = page.locator(".product-gallery:visible");
-  const thumbnails = gallery.getByRole("button");
+  const thumbnails = gallery.locator(".gallery-thumbnails").getByRole("button");
   try {
     await expect(page.getByRole("heading", { level: 1 })).toHaveText(catalog.products[0].name);
     await expect(thumbnails.nth(1)).toBeDisabled();

@@ -1,10 +1,11 @@
 import { Suspense } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { catalog, copy, findProductBySlug, photographs } from "@/lib/catalog";
+import { catalog, copy, findProductBySlug, photographs, relatedProducts } from "@/lib/catalog";
 import { pageMetadata } from "@/lib/presentation/metadata";
 import { ProductContent } from "@/components/storefront/product-content";
 import { ProductSelection } from "@/components/storefront/product-selection";
+import { ProductGrid } from "@/components/storefront/product-grid";
 
 // Known products must render complete static content, including without JS.
 // Slug resolution can block the URL-independent shell; no server work is
@@ -29,6 +30,7 @@ export default async function Page({ params }: PageProps<"/produto/[slug]">) {
   const product = result.value;
   return <main id="main-content" className="content-container product-page">
     <nav className="breadcrumbs" aria-label={copy.navigation.breadcrumbLabel}><Link href="/">{copy.navigation.home}</Link><span aria-hidden="true">/</span><Link href="/produtos">{copy.navigation.catalog}</Link></nav>
-    <Suspense fallback={<ProductContent product={product} colorwayId={product.defaultColorwayId} galleryInteractive={false} />}><ProductSelection defaultColorwayId={product.defaultColorwayId} colorways={product.colorways.map((color) => ({ id: color.id, content: <ProductContent key={color.id} product={product} colorwayId={color.id} /> }))} /></Suspense>
+    <Suspense fallback={<ProductContent product={product} colorwayId={product.defaultColorwayId} galleryInteractive={false} />}><ProductSelection key={product.id} defaultColorwayId={product.defaultColorwayId} colorways={product.colorways.map((color) => ({ id: color.id, content: <ProductContent product={product} colorwayId={color.id} /> }))} /></Suspense>
+    <section className="related-products" aria-labelledby="related-heading"><h2 id="related-heading">{copy.product.relatedHeading}</h2><ProductGrid products={relatedProducts(product)} /></section>
   </main>;
 }
