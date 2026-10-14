@@ -17,7 +17,16 @@
     { "command": "bun run build", "outcome": "passed", "publicOutputs": 48 },
     { "command": "bunx playwright test --config playwright.dev.config.ts --reporter=list,json", "outcome": "passed", "cases": 1, "report": "development-run.json" }
   ],
-  "humanCheckpointAcceptance": "pending",
+  "humanCheckpointAcceptance": "accepted",
+  "acceptanceRecord": {
+    "date": "2026-10-14",
+    "source": "Project owner in the Codex conversation after PR #63 was presented",
+    "statement": "approved",
+    "reviewedPrHead": "0d06a9af66848244408f0f57c71d29c4d767d3e2",
+    "ciOverride": "you can ignore the CI",
+    "ciOutcome": "Failed PR workflow retained; merge explicitly authorized without passing CI",
+    "releaseCoverageWaiver": "not provided"
+  },
   "publicPreview": null,
   "releaseApproval": "not requested"
 }

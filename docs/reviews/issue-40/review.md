@@ -1,8 +1,8 @@
 # Integrated shopping checkpoint — issue #40
 
 Status: agent shopping/visual/development review complete;
-human product/cart/favorites acceptance pending.
-Checkout implementation remains gated by the owner's explicit decision.
+human product/cart/favorites checkpoint accepted on 2026-10-14.
+The owner also explicitly authorized ignoring CI for the PR merge.
 
 ## Exact revision and review scope
 
@@ -224,25 +224,34 @@ to match generic English typography or localization advice.
 
 ## Human acceptance record
 
-No human acceptance has been recorded. Automated checks and agent image
-inspection do not create product acceptance or cover manual assistive-technology
-checks. Actual devices, NVDA/Chrome, VoiceOver/Safari, browser-toolbar 200% zoom,
-and real-phone slow-connection performance remain not checked in this session.
-Coverage gaps need an explicit owner decision; release approval remains separate.
+The project owner replied “approved” in the Codex conversation after PR #63
+and the review packet were presented. This records explicit acceptance of the
+product/cart/favorites checkpoint for application revision
+`7e1c9545d205aee3a170f2932bf43c7844c4a52b`, presented in PR head
+`0d06a9af66848244408f0f57c71d29c4d767d3e2`. The acceptance-record commit
+changes documentation only and preserves that application source.
 
-Suggested decision, only after reviewing the exact revision and linked evidence:
+When informed that CI had failed, the owner explicitly replied “you can ignore
+the CI,” authorizing the PR merge without waiting for passing CI. The failed
+[PR workflow](https://github.com/danielluis07/difratelli-kids-v2/actions/runs/38600211796)
+reported two WebKit sticky-look failures and one flaky WebKit filter axe case:
+311 passed, 11 skipped, two failed and one flaky. These failures were not fixed
+or verified away by this approval. The other workflow was still running when
+the override was given. Earlier local evidence remains historical evidence;
+this override does not turn the remote checks into passes.
 
-> I accept the product/cart/favorites checkpoint for application revision
-> 7e1c9545d205aee3a170f2932bf43c7844c4a52b, reviewed with the issue #40 packet.
-> Coverage gaps accepted for this checkpoint: [explicit list, or none].
-> Required follow-up before release: [explicit list, or none].
+Actual devices, NVDA/Chrome, VoiceOver/Safari, browser-toolbar 200% zoom and
+real-phone slow-connection performance remain not checked. No separate waiver
+of those release coverage gaps, public-preview acceptance or release approval
+was provided. Carry them into the release review.
 
 The gate comes directly from issue #40: “Record explicit human
 product/cart/favorites checkpoint acceptance before checkout implementation
 advances,” and [implementation plan](../../implementation-plan.md): “Obtain
 checkpoint acceptance before advancing to the next implementation stage.”
-Keep this issue pending acceptance and do not implement checkout, merge,
-publish, or infer permission for hosting purchases from this review.
+This checkpoint gate is now satisfied. Checkout may advance when separately
+requested. The owner authorized this PR merge; public publication, hosting
+purchases and release approval remain separate decisions.
 
 Next.js feedback reporting pass: no verified qualifying framework issue retained.
 Concurrent assertion timeouts and capture-harness corrections are recorded above;

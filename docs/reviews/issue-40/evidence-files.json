@@ -245,9 +245,9 @@
     },
     {
       "file": "docs/reviews/issue-40/checks.json",
-      "bytes": 1406,
+      "bytes": 1824,
       "hashMode": "exact",
-      "sha256": "80c55c97ce60a0f77ebd9c2b38ffcb9bbc33e080b5398ff946f826b491e70d8a"
+      "sha256": "fc501bc794b3adc84dae65d3d7df7f8f4689aff93f39b058696d007578fd3e8b"
     },
     {
       "file": "docs/reviews/issue-40/development-run.json",
@@ -329,9 +329,9 @@
     },
     {
       "file": "docs/reviews/issue-40/gallery.html",
-      "bytes": 8666,
+      "bytes": 8632,
       "hashMode": "exact",
-      "sha256": "d70b5586b59b3ee14feac32249cf683ce9c3f2bc18b6a21643f8d01b39dbf9c1"
+      "sha256": "1b1183b632c40434b70dbdcf339b51467cee28bf78ec386863c707d70da5726f"
     },
     {
       "file": "docs/reviews/issue-40/production-rerun.json",
@@ -347,9 +347,9 @@
     },
     {
       "file": "docs/reviews/issue-40/review.md",
-      "bytes": 18163,
+      "bytes": 18800,
       "hashMode": "exact",
-      "sha256": "01e7bfe346b4ace76fe1e2d521747911a8e6f593b42ca7918bc168fb6f243eee"
+      "sha256": "334c5599cee7f1d6a13f132fbb6de6a7e4867d69e92d9f6b2a7d1c617a40272b"
     },
     {
       "file": "docs/reviews/issue-40/thumbnail-before-fix-390.png",
@@ -371,9 +371,9 @@
     },
     {
       "file": "scripts/verification/capture-shopping-checkpoint.mjs",
-      "bytes": 8931,
+      "bytes": 8897,
       "hashMode": "lf-normalized",
-      "sha256": "b105942fbfdf468aab0a6987a82e44b5d5e6e93f8b84fe74fbe4a1e624599bec"
+      "sha256": "07bd91ae4a5cba96aff388170b23acb9dac4c6c5bf253c6ed6296b3ea75ec75e"
     },
     {
       "file": "scripts/verification/record-shopping-checkpoint.mjs",
