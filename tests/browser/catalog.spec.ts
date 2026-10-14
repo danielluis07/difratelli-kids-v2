@@ -15,7 +15,7 @@ test("catalog, curated arrivals and audience views retain the approved assortmen
     if (path !== "/produtos") await page.getByRole("contentinfo").getByRole("link", { name: label, exact: true }).click();
     await expect(page).toHaveURL(new RegExp(`${path}$`));
     await expect(page.locator("main:visible .product-card")).toHaveCount(products.length);
-    await expect(page.getByRole("status")).toHaveText(`${products.length} produtos`);
+    await expect(page.locator("main:visible").getByRole("status")).toHaveText(`${products.length} produtos`);
     const ids = await page.locator("main:visible .product-card").evaluateAll((cards) => cards.map((card) => card.getAttribute("data-product-id")));
     expect(ids).toEqual(products.map((product) => product.id));
     expect(new Set(ids).size).toBe(products.length);
@@ -41,7 +41,7 @@ test("responsive grids, sticky navigation and compact destinations work at the a
       const sheet = page.getByRole("dialog", { name: copy.navigation.mobileMenuTitle });
       await expect(sheet).toBeVisible();
         await expect(sheet.getByRole("button", { name: copy.navigation.search, exact: true })).toBeVisible();
-        for (const label of [copy.navigation.newArrivals, copy.navigation.girls, copy.navigation.boys, copy.navigation.collections, copy.navigation.brand, copy.navigation.favorites]) {
+        for (const label of [copy.navigation.newArrivals, copy.navigation.girls, copy.navigation.boys, copy.navigation.collections, copy.navigation.brand, copy.favorites.count.zero]) {
         await expect(sheet.getByRole("link", { name: label, exact: true })).toBeVisible();
       }
       await page.keyboard.press("Escape");

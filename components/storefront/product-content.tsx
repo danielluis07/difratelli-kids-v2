@@ -3,6 +3,7 @@ import { copy, photographs, formatMoney, type Product } from "@/lib/catalog";
 import { ProductGallery } from "./product-gallery";
 import { ProductSize } from "./product-size";
 import { ProductAdd } from "./product-add";
+import { FavoriteButton } from "./favorite-button";
 
 export function ProductContent({ product, colorwayId, galleryInteractive = true }: { product: Product; colorwayId: string; galleryInteractive?: boolean }) {
   const colorway = product.colorways.find((color) => color.id === colorwayId)!;
@@ -16,6 +17,7 @@ export function ProductContent({ product, colorwayId, galleryInteractive = true 
       <ProductSize sizes={product.sizes} disabled={!galleryInteractive} />
       {product.includedPieces.length > 0 ? <p className="set-contents">{copy.product.setContents.replace("{pieceOne}", product.includedPieces[0]).replace("{pieceTwo}", product.includedPieces[1])}</p> : null}
       <ProductAdd productId={product.id} colorwayId={colorway.id} name={product.name} color={colorway.name} disabled={!galleryInteractive} />
+      <FavoriteButton productId={product.id} name={product.name} disabled={!galleryInteractive} />
       <div className="product-description">
         <details open><summary>{copy.product.description}</summary><p>{product.description}</p></details>
         <details open><summary>{copy.product.composition}</summary><p>{product.composition}</p></details>

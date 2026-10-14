@@ -87,7 +87,7 @@ test("zero-result reset retains audience, collection and search scopes; navigati
   const collection = catalog.collections[0];
   for (const [path, count] of [["/meninas", 18], [`/colecoes/${collection.slug}`, 10], ["/busca?q=descobertas", 10]] as const) {
     await page.goto(`${path}${path.includes("?") ? "&" : "?"}categoria=polos&familia=purple&publico=invalid&colecao=invalid`);
-    await expect(page.getByRole("status")).toHaveText(copy.browsing.resultCount.zero);
+    await expect(page.locator("main:visible").getByRole("status")).toHaveText(copy.browsing.resultCount.zero);
     await expect(cards(page)).toHaveCount(0);
     await page.locator('[data-slot="empty"]:visible').getByRole("button", { name: copy.browsing.clearFilters }).click();
     await expect(page).toHaveURL(new RegExp(`${path.replace("?", "\\?")}$`));

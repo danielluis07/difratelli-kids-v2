@@ -35,20 +35,45 @@ two-piece matching sets, whose approved records have no coordinating IDs.
 | Catalog/content | `lib/catalog/index.ts`, `validation.ts`, `content-validation.ts`, `readiness.ts` | Deep readonly approved records, explicit found/missing lookups, ordered photograph pairs, curated selections, BRL formatting, structural and file/approval validation |
 | Browsing/URL | `lib/browsing/index.ts` | Framework-independent scopes, parsing/canonical serialization, reset, every-word search, filter OR/AND and curated price ties |
 | Cart | `lib/cart/index.ts`, `lib/shopping/contracts.ts` | Isolated vanilla Zustand commands, immutable resolved snapshots, tuple/quantity rules and opt-in version-1 persistence with post-mount restoration |
-| Favorites | `lib/favorites/index.ts`, `lib/shopping/contracts.ts` | Independent vanilla Zustand command core, product membership and typed outcomes |
+| Favorites | `lib/favorites/index.ts`, `lib/shopping/contracts.ts` | Independent persistent vanilla Zustand store, product membership/count, normal restoration and typed outcomes |
 | Visit checkout | `lib/checkout/index.ts`, `lib/shopping/contracts.ts` | Approved draft defaults, delivery validation, centavo totals and interface for future visit/completion lifecycle |
 | Presentation | `lib/presentation/contracts.ts`, `app/` | Invoke domain interfaces and translate outcomes to approved Portuguese copy; no direct array mutations |
 
 The cart factory supports independent in-memory commands or an injected storage
 adapter acquired by its explicit `restore()` command. The shared-layout cart
 provider opts into persistence and restores only after mounting; public content
-continues rendering while dependent cart controls wait. Favorites remain an
-unconnected in-memory command core. Later shopping slices must add independent
-favorites persistence, tolerant storage recovery and once-only warnings, then
+continues rendering while dependent cart controls wait. The independent favorites
+provider follows the same mount/restoration boundary. Later shopping slices must add
+tolerant storage recovery and once-only warnings, then
 implement the shared-layout visit checkout provider, completion and confirmation
 lifetime. The public shell uses approved copy, local approved fonts and noindex;
 issue #31 adds the public browsing presentation documented below; later slices
 complete the shopping interactions.
+
+## Persistent favorites slice (issue #38)
+
+Card and product-detail hearts toggle product membership with labeled controls,
+pressed states and a shared polite announcement that survives card removal.
+The shared-layout provider restores a separate Zustand store after mount, using
+the original pending snapshot for hydration. Pending counts show an ellipsis;
+dependent actions and the favorites page wait without displaying false emptiness.
+The available detail control also waits for its interactive color view.
+
+`difratelli.favorites` stores `{ version: 1, productIds: [...] }` only. Normal
+restoration is idempotent and never writes storage. Favorites do not contain
+options or quantities, and commands never alter the independently persisted cart.
+The header and compact menu count products. `/favoritos` uses default-colorway
+cards, immediate removal with focus on the next remaining control (or the page
+content when empty), and the approved Explorar produtos action.
+
+Contract tests cover pending rejection, no initial access/overwrite, membership,
+count, normal reload persistence, invalid commands and independence in both
+directions. Production browser tests cover card/detail synchronization, option
+independence, navigation/reload, keyboard toggles/focus, announcements, pending
+server rendering, populated/empty axe scans and responsive grids. Local results
+and remaining integration gates are recorded in `docs/reviews/issue-38/review.md`.
+Malformed/unsupported/obsolete-state recovery and independent once-only storage
+warnings remain required in the storage-recovery ticket before shopping acceptance.
 
 ## Persistent cart slice (issue #37)
 

@@ -4,10 +4,11 @@ import Link from "next/link";
 import { useState } from "react";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import { AssetImage } from "./asset-image";
+import { FavoriteButton } from "./favorite-button";
 import type { ProductCardData } from "@/lib/presentation/catalog";
 import copy from "@/docs/content/copy-proposal.json";
 
-export function ProductCard({ product, sizes, headingLevel = 2 }: { product: ProductCardData; sizes: string; headingLevel?: 2 | 3 }) {
+export function ProductCard({ product, sizes, headingLevel = 2, onFavoriteRemoved }: { product: ProductCardData; sizes: string; headingLevel?: 2 | 3; onFavoriteRemoved?: () => void }) {
   const [colorId, setColorId] = useState(product.defaultColorwayId);
   const color = product.colorways.find((option) => option.id === colorId)!;
   const [model, isolated] = color.photos;
@@ -23,6 +24,7 @@ export function ProductCard({ product, sizes, headingLevel = 2 }: { product: Pro
         <Heading className="product-name">{product.name}</Heading>
         <p className="product-price">{product.price}</p>
       </Link>
+      <FavoriteButton productId={product.id} name={product.name} card onRemoved={onFavoriteRemoved} />
       <ToggleGroup className="color-swatches" aria-label={`${copy.product.color}: ${product.name}`} value={[color.id]} onValueChange={(values) => { if (values[0]) setColorId(values[0]); }}>
         {product.colorways.map((option) => (
           <ToggleGroupItem key={option.id} value={option.id} className="color-swatch" aria-label={copy.product.colorOption.replace("{color}", option.name)} title={option.name}>
