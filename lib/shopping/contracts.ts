@@ -14,6 +14,7 @@ export interface CartSnapshot extends StorageStatus {
   readonly lines: readonly ResolvedLine[]; readonly units: number; readonly subtotalCents: number;
 }
 export interface Cart {
+  restore(): void;
   getSnapshot(): CartSnapshot;
   subscribe(listener: () => void): () => void;
   add(selection: Selection, quantity?: number): CartOutcome;

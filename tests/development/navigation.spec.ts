@@ -37,6 +37,15 @@ test("public pages have no blocking URL-data diagnostics", async ({ page, contex
   const color = product.colorways.find((color) => color.id !== product.defaultColorwayId)!;
   await page.locator(".detail-colors:visible").getByRole("link", { name: color.name, exact: true }).click();
   await expect(page.locator(".product-information strong:visible")).toHaveText(color.name);
+  await page.getByRole("button", { name: "Tamanho 4", exact: true }).click();
+  await page.getByRole("button", { name: copy.product.addToCart, exact: true }).click();
+  await expect(page.locator(".cart-count")).toHaveText("1");
+  await page.getByRole("button", { name: /Abrir sacola/ }).click();
+  const cart = page.getByRole("dialog", { name: copy.cart.title });
+  await expect(cart.locator(".cart-line")).toContainText(color.name);
+  await page.keyboard.press("Escape");
+  await page.reload();
+  await expect(page.locator(".cart-count")).toHaveText("1");
   await page.getByRole("contentinfo").getByRole("link", { name: copy.navigation.collections, exact: true }).click();
   await page.getByRole("main").getByRole("link", { name: catalog.collections[0].name, exact: true }).click();
   await expect(page.getByRole("heading", { level: 1 })).toHaveText(catalog.collections[0].name);
