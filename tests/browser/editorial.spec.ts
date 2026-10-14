@@ -3,9 +3,11 @@ import AxeBuilder from "@axe-core/playwright";
 import { catalog } from "../../lib/catalog";
 import homepage from "../../docs/content/homepage-copy-proposal.json";
 import heroIntegration from "../../docs/content/hero-color-refresh-integration.json";
+import homepageImagery from "../../docs/content/homepage-unsplash-manifest.json";
 
 test("full-bleed homepage keeps the approved structure, hero sources and destinations at eight widths", async ({ page }) => {
-  test.setTimeout(90_000);
+  // Eight viewport visits also decode both restored full-width banner images.
+  test.setTimeout(180_000);
   for (const width of [390, 480, 768, 1024, 1279, 1280, 1440, 1920]) {
     await page.setViewportSize({ width, height: 1000 });
     await page.goto("/");
@@ -15,10 +17,10 @@ test("full-bleed homepage keeps the approved structure, hero sources and destina
     expect(await page.locator("main").evaluate(main => Math.round(main.getBoundingClientRect().width))).toBe(width);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
     const source = await page.locator(".hero-left img").evaluate((image: HTMLImageElement) => decodeURIComponent(image.currentSrc));
-    expect(source).toContain(width < 480 ? "hero-left-court-compact-v1-portrait" : width < 768 ? "hero-left-court-compact-v1-narrow" : width < 1024 ? "hero-left-court-wide-v2-tablet" : width < 1280 ? "hero-left-court-compact-v1-narrow" : "hero-left-court-wide-v2-desktop");
+    expect(source).toContain(`photo-1604303768345-038b79a8c47a-${width < 480 ? "portrait" : width < 768 ? "narrow" : width < 1024 ? "tablet" : width < 1280 ? "narrow" : "desktop"}`);
     if (width >= 1024) {
       const rightSource = await page.locator(".hero-right img").evaluate((image: HTMLImageElement) => decodeURIComponent(image.currentSrc));
-      expect(rightSource).toContain(width < 1280 ? "hero-right-clothes-v2-narrow" : "hero-right-clothes-v2-desktop");
+      expect(rightSource).toContain(`photo-1622290291468-a28f7a7dc6a8-${width < 1280 ? "narrow" : "desktop"}`);
       const panels = await page.locator(".hero-panel").evaluateAll(items => items.map(item => item.getBoundingClientRect().width));
       expect(panels[0]).toBeCloseTo(width / 2, 0);
       expect(panels[1]).toBeCloseTo(width / 2, 0);
@@ -39,6 +41,13 @@ test("full-bleed homepage keeps the approved structure, hero sources and destina
     expect(await page.locator(".category-tile a").evaluateAll(links => links.map(link => link.getAttribute("href")))).toEqual(catalog.categories.map(c => `/produtos?categoria=${c.id}`));
     await expect(page.locator(".social-photo")).toHaveCount(7);
     await expect(page.locator(".social-section a, main form, main video")).toHaveCount(0);
+    for (const [selector, filename] of [[".quote-editorial", "quote-garments"], [".collection-editorial", "editorial-quintal"]]) {
+      const image = page.locator(`${selector} img`);
+      await image.scrollIntoViewIfNeeded();
+      await image.evaluate((image: HTMLImageElement) => image.decode());
+      expect(await image.evaluate((image: HTMLImageElement) => decodeURIComponent(image.currentSrc))).toContain(`${filename}-${width < 768 ? "compact" : "desktop"}-v1`);
+      expect(await page.locator(`${selector} .editorial-overlay`).evaluate(el => getComputedStyle(el).backgroundColor)).toBe("rgba(0, 0, 0, 0)");
+    }
     await page.locator(".editorial-hero").screenshot({ path: test.info().outputPath(`homepage-hero-${width}.png`) });
   }
 });
@@ -47,8 +56,8 @@ test("approved category replacements and section-bounded sticky look photography
   test.setTimeout(90_000);
   await page.emulateMedia({ reducedMotion: "reduce" });
   await page.goto("/");
-  for (const filename of ["category-t-shirts-park-v2", "category-polos-city-v2", "category-matching-sets-clothes-v2", "category-dresses-friends-v2"]) {
-    const image = page.locator(`.category-tile img[src*="${filename}"]`);
+  for (const asset of homepageImagery.assets.filter(asset => asset.slotIds.some(slot => slot.startsWith("category-")))) {
+    const image = page.locator(`.category-tile img[src*="${asset.id}"]`);
     await expect(image).toHaveCount(1);
     await image.scrollIntoViewIfNeeded();
     await expect.poll(() => image.evaluate((el: HTMLImageElement) => el.complete && el.naturalWidth > 0)).toBe(true);
@@ -156,7 +165,7 @@ test("announcement rotates, pauses and obeys reduced motion; details navigate", 
   await expect(page).toHaveURL(/\/novidades$/);
 });
 
-test("look tabs work by keyboard and each image matches its product/colorway links", async ({ page }) => {
+test("look tabs work by keyboard and retain product/colorway links beside clothes-only imagery", async ({ page }) => {
   await page.goto("/");
   const tabs = page.getByRole("tablist", { name: "Combinações por coleção" });
   await tabs.getByRole("tab").first().focus();
@@ -167,7 +176,9 @@ test("look tabs work by keyboard and each image matches its product/colorway lin
     await expect(panel.locator(".product-card")).toHaveCount(4);
     expect(await panel.locator(".product-card").evaluateAll(cards => cards.map(c => c.getAttribute("data-product-id")))).toEqual(look.products.map(p => p.productId));
     for (const p of look.products) await expect(panel.locator(`[data-product-id="${p.productId}"] .product-link`)).toHaveAttribute("href", new RegExp(`cor=${p.colorwayId}$`));
-    await expect(panel.locator(".look-photo img")).toHaveAttribute("src", new RegExp(look.imageId));
+    const asset = homepageImagery.assets.find(asset => asset.slotIds.includes(look.imageId))!;
+    expect(asset.kind).toBe("clothes-only");
+    await expect(panel.locator(".look-photo img")).toHaveAttribute("src", new RegExp(asset.id));
   }
 });
 
@@ -214,7 +225,7 @@ test("responsive editorial pages remain accessible with reduced motion and 200% 
 });
 
 test("a failed editorial image retains its space and readable fallback", async ({ page }) => {
-  await page.route("**/_next/image?*", route => decodeURIComponent(route.request().url()).includes("hero-left") ? route.abort() : route.continue());
+  await page.route("**/_next/image?*", route => decodeURIComponent(route.request().url()).includes("photo-1604303768345-038b79a8c47a") ? route.abort() : route.continue());
   await page.goto("/");
   await expect(page.locator(".hero-left .image-fallback")).toBeVisible();
   expect((await page.locator(".hero-left").boundingBox())!.height).toBeGreaterThanOrEqual(560);

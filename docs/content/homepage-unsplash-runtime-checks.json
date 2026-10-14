@@ -1,0 +1,41 @@
+{
+  "revision": "homepage-unsplash-v1",
+  "status": "passed",
+  "recordedAtUtc": "2026-10-14T22:51:06.944Z",
+  "productPageCatalogSources": "passed",
+  "checks": [
+    {
+      "width": 390,
+      "editorialImageLoading": "passed",
+      "imageSources": "local Unsplash exports and two restored original banners",
+      "restoredBannerCropsAndStyling": "passed",
+      "catalogCardSources": "unchanged catalog",
+      "responsiveHero": "passed",
+      "allThreeClothesOnlyLooks": "passed",
+      "horizontalOverflow": false,
+      "browserErrors": []
+    },
+    {
+      "width": 768,
+      "editorialImageLoading": "passed",
+      "imageSources": "local Unsplash exports and two restored original banners",
+      "restoredBannerCropsAndStyling": "passed",
+      "catalogCardSources": "unchanged catalog",
+      "responsiveHero": "passed",
+      "allThreeClothesOnlyLooks": "passed",
+      "horizontalOverflow": false,
+      "browserErrors": []
+    },
+    {
+      "width": 1440,
+      "editorialImageLoading": "passed",
+      "imageSources": "local Unsplash exports and two restored original banners",
+      "restoredBannerCropsAndStyling": "passed",
+      "catalogCardSources": "unchanged catalog",
+      "responsiveHero": "passed",
+      "allThreeClothesOnlyLooks": "passed",
+      "horizontalOverflow": false,
+      "browserErrors": []
+    }
+  ]
+}
