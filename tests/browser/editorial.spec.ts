@@ -6,7 +6,8 @@ import heroIntegration from "../../docs/content/hero-color-refresh-integration.j
 import homepageImagery from "../../docs/content/homepage-unsplash-manifest.json";
 
 test("full-bleed homepage keeps the approved structure, hero sources and destinations at eight widths", async ({ page }) => {
-  test.setTimeout(90_000);
+  // Eight viewport visits also decode both restored full-width banner images.
+  test.setTimeout(180_000);
   for (const width of [390, 480, 768, 1024, 1279, 1280, 1440, 1920]) {
     await page.setViewportSize({ width, height: 1000 });
     await page.goto("/");
