@@ -1,0 +1,91 @@
+{
+  "revision": "issue-66-hero-integration-v2",
+  "recordedAtUtc": "2026-10-14T21:39:19.477Z",
+  "status": "passed",
+  "shoppingDestinations": [
+    "/meninas",
+    "/meninos"
+  ],
+  "checks": [
+    {
+      "width": 390,
+      "imageLoading": "passed",
+      "selectedSource": "hero-left-court-compact-v1-portrait",
+      "copyBounds": "passed",
+      "overlayContrast": {
+        "heading": 8.320346499168942,
+        "smallText": 7.7829724509716485
+      }
+    },
+    {
+      "width": 480,
+      "imageLoading": "passed",
+      "selectedSource": "hero-left-court-compact-v1-narrow",
+      "copyBounds": "passed",
+      "overlayContrast": {
+        "heading": 8.899343191654019,
+        "smallText": 7.89220832557123
+      }
+    },
+    {
+      "width": 768,
+      "imageLoading": "passed",
+      "selectedSource": "hero-left-court-wide-v2-tablet",
+      "copyBounds": "passed",
+      "overlayContrast": {
+        "heading": 6.422488337479476,
+        "smallText": 5.677143265602682
+      }
+    },
+    {
+      "width": 1024,
+      "imageLoading": "passed",
+      "selectedSource": "hero-left-court-compact-v1-narrow",
+      "copyBounds": "passed",
+      "overlayContrast": {
+        "heading": 4.565446364073435,
+        "smallText": 7.731736001756084
+      }
+    },
+    {
+      "width": 1279,
+      "imageLoading": "passed",
+      "selectedSource": "hero-left-court-compact-v1-narrow",
+      "copyBounds": "passed",
+      "overlayContrast": {
+        "heading": 5.103929657325728,
+        "smallText": 8.240559200544793
+      }
+    },
+    {
+      "width": 1280,
+      "imageLoading": "passed",
+      "selectedSource": "hero-left-court-wide-v2-desktop",
+      "copyBounds": "passed",
+      "overlayContrast": {
+        "heading": 5.172876826606026,
+        "smallText": 7.912257121863633
+      }
+    },
+    {
+      "width": 1440,
+      "imageLoading": "passed",
+      "selectedSource": "hero-left-court-wide-v2-desktop",
+      "copyBounds": "passed",
+      "overlayContrast": {
+        "heading": 5.50087043418423,
+        "smallText": 8.61713535340778
+      }
+    },
+    {
+      "width": 1920,
+      "imageLoading": "passed",
+      "selectedSource": "hero-left-court-wide-v2-desktop",
+      "copyBounds": "passed",
+      "overlayContrast": {
+        "heading": 5.06567856845192,
+        "smallText": 5.762927598078347
+      }
+    }
+  ]
+}

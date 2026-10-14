@@ -1,0 +1,325 @@
+{
+  "revision": "issue-66-hero-color-v1",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/66",
+  "approvalStatus": "pending-human-review",
+  "implementationAllowed": false,
+  "assets": [
+    {
+      "id": "hero-left-court-compact-v1",
+      "slot": "hero-left",
+      "originalPath": "assets/originals/homepage/issue-66/hero-left-court-compact-v1.png",
+      "originalSha256": "811c729ab4fc05205e87e13a90c5dd840f4e41e78ed2511abd917030542f13ba",
+      "width": 1122,
+      "height": 1402,
+      "originalBytes": 2472120,
+      "alt": "Bia brinca com uma bola coral em uma quadra azul, usando blusa lilás sem mangas e calça pêssego.",
+      "modelIds": [
+        "model-002"
+      ],
+      "productColorways": [
+        {
+          "productId": "product-027",
+          "colorwayId": "lilac"
+        },
+        {
+          "productId": "product-030",
+          "colorwayId": "peach"
+        }
+      ],
+      "references": [
+        {
+          "path": "assets/originals/cast/model-002-reference-v2.png",
+          "sha256": "c29fb497afb76beb42db5c7671b463d9f8261f94dc1bcebfd1d8821eae59a367"
+        },
+        {
+          "path": "assets/originals/catalog/product-027-lilac-model-v1.png",
+          "sha256": "8cfd0181ff6a86b7d3066205e5174c8d102b3567500e91687207b748589d3888"
+        },
+        {
+          "path": "assets/originals/catalog/product-030-peach-isolated-v1.png",
+          "sha256": "f3e80b069e8ba04eca870c500e7b5d759097b584e79046b52aec63db759480c3"
+        },
+        {
+          "path": "assets/originals/homepage/issue-66/hero-left-court-portrait-v1.png",
+          "sha256": "3ff66abd1cd44dfb16052ca9f1448ee6af247ebe8f682897d66675925625edb7"
+        }
+      ],
+      "crops": [
+        {
+          "name": "portrait",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 36,
+            "top": 1,
+            "width": 1050,
+            "height": 1400
+          },
+          "width": 1050,
+          "height": 1400,
+          "webPath": "public/images/homepage/issue-66/hero-left-court-compact-v1-portrait.webp",
+          "src": "/images/homepage/issue-66/hero-left-court-compact-v1-portrait.webp",
+          "sha256": "c879ee2fc642ec3f1222d8bbd7d88786f35c7971c8b4a04f249dd3af34ab9a28",
+          "bytes": 257640
+        },
+        {
+          "name": "narrow",
+          "ratio": "4:5",
+          "sourceRect": {
+            "left": 1,
+            "top": 1,
+            "width": 1120,
+            "height": 1400
+          },
+          "width": 1120,
+          "height": 1400,
+          "webPath": "public/images/homepage/issue-66/hero-left-court-compact-v1-narrow.webp",
+          "src": "/images/homepage/issue-66/hero-left-court-compact-v1-narrow.webp",
+          "sha256": "672e5debe218c301e480be8ae02eac3a3309651881cd365ed145d8c6ddecb2d2",
+          "bytes": 283230
+        }
+      ],
+      "approvalStatus": "pending-human-review"
+    },
+    {
+      "id": "hero-right-color-rail-wide-v1",
+      "slot": "hero-right",
+      "originalPath": "assets/originals/homepage/issue-66/hero-right-color-rail-wide-v1.png",
+      "originalSha256": "00f4b2c8b540afce4258fc76071de53408841527553fd1e1456935ce5626db18",
+      "width": 1536,
+      "height": 1024,
+      "originalBytes": 2226206,
+      "alt": "Vestido azul com desenhos de giz e shorts amarelo e coral pendurados em uma arara azul, sem modelos.",
+      "modelIds": [],
+      "productColorways": [
+        {
+          "productId": "product-014",
+          "colorwayId": "sky-cream-coral"
+        },
+        {
+          "productId": "product-008",
+          "colorwayId": "butter"
+        },
+        {
+          "productId": "product-019",
+          "colorwayId": "coral"
+        }
+      ],
+      "references": [
+        {
+          "path": "assets/originals/catalog/product-014-sky-cream-coral-isolated-v1.png",
+          "sha256": "8b28f5b4871833f8cf2d7a2d708397f1b50a09676a06581bf9bc5112027c95bb"
+        },
+        {
+          "path": "assets/originals/catalog/product-008-butter-isolated-v1.png",
+          "sha256": "43790213e665bd99589a33eb665052b44072bb6a677733979800f3625c030618"
+        },
+        {
+          "path": "assets/originals/catalog/product-019-coral-isolated-v1.png",
+          "sha256": "918b772e10538473e4ea72d64b3e62aae7028761f11559998b10371c477868d0"
+        },
+        {
+          "path": "assets/originals/homepage/issue-66/hero-right-color-rail-v1.png",
+          "sha256": "5140990963a8e6ddefce0e00cb3048831db40f453d070ba1b61e6fe1d810db01"
+        }
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "3:2",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1536,
+            "height": 1024
+          },
+          "width": 1536,
+          "height": 1024,
+          "webPath": "public/images/homepage/issue-66/hero-right-color-rail-wide-v1-desktop.webp",
+          "src": "/images/homepage/issue-66/hero-right-color-rail-wide-v1-desktop.webp",
+          "sha256": "5ad1002ec3cf30d7c2668be055d61cf1a7944d4395430acc2f113167f5403645",
+          "bytes": 134974
+        },
+        {
+          "name": "narrow",
+          "ratio": "4:5",
+          "sourceRect": {
+            "left": 360,
+            "top": 2,
+            "width": 816,
+            "height": 1020
+          },
+          "width": 816,
+          "height": 1020,
+          "webPath": "public/images/homepage/issue-66/hero-right-color-rail-wide-v1-narrow.webp",
+          "src": "/images/homepage/issue-66/hero-right-color-rail-wide-v1-narrow.webp",
+          "sha256": "83cfa67d540ab15a2ca9d6c51f9ec9e70a004617e1c195141f941548e51e0881",
+          "bytes": 80184
+        }
+      ],
+      "approvalStatus": "pending-human-review"
+    },
+    {
+      "id": "hero-left-court-wide-v2",
+      "slot": "hero-left-wide",
+      "originalPath": "assets/originals/homepage/issue-66/hero-left-court-wide-v2.png",
+      "originalSha256": "7c082a34edd1a0eaf431987a89dffadb6985995801450caac3971f12d49aac6e",
+      "width": 1536,
+      "height": 1024,
+      "originalBytes": 2267154,
+      "alt": "Bia brinca com uma bola coral em uma quadra azul, usando blusa lilás sem mangas e calça pêssego.",
+      "modelIds": [
+        "model-002"
+      ],
+      "productColorways": [
+        {
+          "productId": "product-027",
+          "colorwayId": "lilac"
+        },
+        {
+          "productId": "product-030",
+          "colorwayId": "peach"
+        }
+      ],
+      "references": [
+        {
+          "path": "assets/originals/cast/model-002-reference-v2.png",
+          "sha256": "c29fb497afb76beb42db5c7671b463d9f8261f94dc1bcebfd1d8821eae59a367"
+        },
+        {
+          "path": "assets/originals/catalog/product-027-lilac-model-v1.png",
+          "sha256": "8cfd0181ff6a86b7d3066205e5174c8d102b3567500e91687207b748589d3888"
+        },
+        {
+          "path": "assets/originals/catalog/product-030-peach-isolated-v1.png",
+          "sha256": "f3e80b069e8ba04eca870c500e7b5d759097b584e79046b52aec63db759480c3"
+        },
+        {
+          "path": "assets/originals/homepage/issue-66/hero-left-court-wide-v1.png",
+          "sha256": "630c6d86c15550a7b42cd24a592613f27ac8627d6e3890f35838176813de5e30"
+        }
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "3:2",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1536,
+            "height": 1024
+          },
+          "width": 1536,
+          "height": 1024,
+          "webPath": "public/images/homepage/issue-66/hero-left-court-wide-v2-desktop.webp",
+          "src": "/images/homepage/issue-66/hero-left-court-wide-v2-desktop.webp",
+          "sha256": "20f89440f917567a6cf5d4a32ea50901ecb41e11658083dd3ddf5cce667b14cc",
+          "bytes": 226214
+        },
+        {
+          "name": "tablet",
+          "ratio": "2:1",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1536,
+            "height": 768
+          },
+          "width": 1536,
+          "height": 768,
+          "webPath": "public/images/homepage/issue-66/hero-left-court-wide-v2-tablet.webp",
+          "src": "/images/homepage/issue-66/hero-left-court-wide-v2-tablet.webp",
+          "sha256": "a35f3ca556000008a3782e60319a1d179de90544a1c6c8da58155511fe12e1a5",
+          "bytes": 135364
+        }
+      ],
+      "approvalStatus": "pending-human-review"
+    }
+  ],
+  "drafts": [
+    {
+      "id": "hero-left-court-close-draft-v1",
+      "originalPath": "assets/originals/homepage/issue-66/hero-left-court-close-draft-v1.png",
+      "originalSha256": "2349ec95f39c201a522efd9206a3084d0bea814a5a7114dc57d2b86383b632ca",
+      "width": 1536,
+      "height": 1024,
+      "originalBytes": 2215578,
+      "disposition": "rejected-framing",
+      "reason": "Too tight for tablet and portrait crops."
+    },
+    {
+      "id": "hero-left-court-wide-v1",
+      "originalPath": "assets/originals/homepage/issue-66/hero-left-court-wide-v1.png",
+      "originalSha256": "630c6d86c15550a7b42cd24a592613f27ac8627d6e3890f35838176813de5e30",
+      "width": 1536,
+      "height": 1024,
+      "originalBytes": 2204515,
+      "disposition": "rejected-framing",
+      "reason": "Wide desktop headline overlaps trouser/shoe and white court stripe; rendered overlay contrast fails."
+    },
+    {
+      "id": "hero-left-court-portrait-v1",
+      "originalPath": "assets/originals/homepage/issue-66/hero-left-court-portrait-v1.png",
+      "originalSha256": "3ff66abd1cd44dfb16052ca9f1448ee6af247ebe8f682897d66675925625edb7",
+      "width": 1122,
+      "height": 1402,
+      "originalBytes": 2389013,
+      "disposition": "rejected-framing",
+      "reason": "Child overlapped mobile eyebrow and headline; rendered contrast failed."
+    },
+    {
+      "id": "hero-right-color-rail-v1",
+      "originalPath": "assets/originals/homepage/issue-66/hero-right-color-rail-v1.png",
+      "originalSha256": "5140990963a8e6ddefce0e00cb3048831db40f453d070ba1b61e6fe1d810db01",
+      "width": 1536,
+      "height": 1024,
+      "originalBytes": 2156466,
+      "disposition": "rejected-framing",
+      "reason": "Too wide; narrow desktop crop cuts both shorts."
+    }
+  ],
+  "integration": {
+    "implementationAllowed": false,
+    "responsiveSelection": {
+      "0-479": "hero-left/portrait",
+      "480-767": "hero-left/narrow",
+      "768-1023": "hero-left-tablet/tablet",
+      "1024-1279": "hero-left/narrow + hero-right/narrow",
+      "1280+": "hero-left-wide/desktop + hero-right-wide/desktop"
+    },
+    "replacements": [
+      {
+        "assetId": "hero-left-court-wide-v2",
+        "replacesAssetIds": [
+          "hero-left-wide",
+          "hero-left-tablet"
+        ],
+        "cropMapping": {
+          "hero-left-wide": "desktop",
+          "hero-left-tablet": "tablet"
+        }
+      },
+      {
+        "assetId": "hero-left-court-compact-v1",
+        "replacesAssetIds": [
+          "hero-left"
+        ],
+        "cropMapping": {
+          "portrait": "portrait",
+          "narrow": "narrow"
+        }
+      },
+      {
+        "assetId": "hero-right-color-rail-wide-v1",
+        "replacesAssetIds": [
+          "hero-right-wide",
+          "hero-right"
+        ],
+        "supersedesAssetId": "hero-right-clothes-v2",
+        "cropMapping": {
+          "hero-right-wide": "desktop",
+          "hero-right/narrow": "narrow"
+        }
+      }
+    ]
+  }
+}

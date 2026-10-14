@@ -23,6 +23,7 @@ export default function Home() {
         <div className="hero-panel hero-left">
           <EditorialPicture photo={homepagePhoto("hero-left-wide")} eager sizes="(min-width:1024px) 50vw, 100vw" variants={[
             { media: "(max-width:479px)", photo: homepagePhoto("hero-left", "portrait") },
+            { media: "(max-width:767px)", photo: homepagePhoto("hero-left", "narrow") },
             { media: "(max-width:1023px)", photo: homepagePhoto("hero-left-tablet") },
             { media: "(max-width:1279px)", photo: homepagePhoto("hero-left", "narrow") },
           ]} />
