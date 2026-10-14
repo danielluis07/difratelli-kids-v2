@@ -5,6 +5,7 @@ import sharp from "sharp";
 import { validateContent } from "./content-validation";
 import type { Diagnostic, ValidationResult } from "./validation";
 import { checkHomepageReadiness } from "./homepage-readiness";
+import { checkHomepageUnsplashReadiness } from "./homepage-unsplash-readiness";
 
 const digest = (bytes: Uint8Array) => createHash("sha256").update(bytes).digest("hex");
 
@@ -66,5 +67,6 @@ export async function checkContentReadiness(root = process.cwd()): Promise<Valid
     fail("package", "readiness", error instanceof Error ? error.message : "Unreadable package");
   }
   diagnostics.push(...(await checkHomepageReadiness(root)).diagnostics);
+  diagnostics.push(...(await checkHomepageUnsplashReadiness(root)).diagnostics);
   return { valid: diagnostics.length === 0, diagnostics };
 }

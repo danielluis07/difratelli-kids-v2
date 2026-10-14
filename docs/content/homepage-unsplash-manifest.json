@@ -1,0 +1,958 @@
+{
+  "revision": "homepage-unsplash-v1",
+  "status": "approved",
+  "integrationScope": "Default homepage photography in development and production",
+  "recordedAtUtc": "2026-10-14T22:41:03.333Z",
+  "directionEvidence": "User requested random children photos for every homepage editorial model scene, children's clothes only for existing scenes without models, untouched catalog imagery, and a dev port for page review.",
+  "catalogChanges": false,
+  "userSelections": [
+    {
+      "slot": "category-polos",
+      "sourceUrl": "https://images.unsplash.com/photo-1671438118097-479e63198629",
+      "evidence": "Exact image URL supplied by user for this category tile.",
+      "recordedAtUtc": "2026-10-14T22:33:35.922Z"
+    },
+    {
+      "slot": "category-t-shirts",
+      "sourceUrl": "https://images.unsplash.com/photo-1605813945635-10fdefb45dd1",
+      "evidence": "Exact image URL supplied by user for this category tile.",
+      "recordedAtUtc": "2026-10-14T22:33:35.922Z"
+    },
+    {
+      "slot": "category-shorts",
+      "sourceUrl": "https://images.unsplash.com/photo-1785828642909-676851fe3db2",
+      "evidence": "Exact image URL supplied by user for this category tile.",
+      "recordedAtUtc": "2026-10-14T22:33:35.922Z"
+    },
+    {
+      "slot": "hero-left-wide",
+      "sourceUrl": "https://images.unsplash.com/photo-1604303768345-038b79a8c47a",
+      "evidence": "Exact hero image URL supplied by user, left then right.",
+      "recordedAtUtc": "2026-10-14T22:40:57.391Z"
+    },
+    {
+      "slot": "hero-right-wide",
+      "sourceUrl": "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8",
+      "evidence": "Exact hero image URL supplied by user, left then right.",
+      "recordedAtUtc": "2026-10-14T22:40:57.391Z"
+    }
+  ],
+  "retainedSlotIds": [
+    "quote-garments",
+    "editorial-quintal"
+  ],
+  "retainedAssets": [
+    {
+      "id": "quote-garments",
+      "role": "quote-garments",
+      "productIds": [
+        "product-005"
+      ],
+      "modelIds": [],
+      "collectionIds": [
+        "collection-001"
+      ],
+      "originalPath": "assets/originals/homepage/quote-garments-v1.png",
+      "originalSha256": "6d44fc124974fd08d29142d4eebe124031b59b15c2af039dee01ca0860c98a2d",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 2675700,
+      "alt": "Vestido creme com folhas verdes e amarelas sobre tecido claro, com espaço livre à esquerda.",
+      "usage": [
+        "quote-garments"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/catalog/product-005-cream-leaf-butter-isolated-v2.png",
+          "sha256": "96dddf848de4a9bbc02163025de2c0b167b4882a634cd85037ee629657aa0939"
+        }
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "16:9",
+          "sourceRect": {
+            "left": 4,
+            "top": 3,
+            "width": 1664,
+            "height": 936
+          },
+          "width": 1664,
+          "height": 936,
+          "webPath": "public/images/homepage/quote-garments-desktop-v1.webp",
+          "src": "/images/homepage/quote-garments-desktop-v1.webp",
+          "sha256": "2116bb3772453a059ee2f6685070198322f5111e03549a59f7a9e5e59a6398e8",
+          "bytes": 299774,
+          "usage": [
+            "quote-garments"
+          ],
+          "approvalStatus": "pending-human-review"
+        },
+        {
+          "name": "compact",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 420,
+            "top": 1,
+            "width": 1252,
+            "height": 939
+          },
+          "width": 1252,
+          "height": 939,
+          "webPath": "public/images/homepage/quote-garments-compact-v1.webp",
+          "src": "/images/homepage/quote-garments-compact-v1.webp",
+          "sha256": "4c611675a37630fb4c4c9f37a6927624650adc5cf76719c382a304f358aef560",
+          "bytes": 234394,
+          "usage": [
+            "quote-garments"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed",
+      "textSafeArea": {
+        "desktop": "left 40%",
+        "compact": "place copy below photograph"
+      }
+    },
+    {
+      "id": "editorial-quintal",
+      "role": "editorial-quintal",
+      "productIds": [
+        "product-001",
+        "product-002",
+        "product-007",
+        "product-008"
+      ],
+      "modelIds": [],
+      "collectionIds": [
+        "collection-001"
+      ],
+      "originalPath": "assets/originals/homepage/editorial-quintal-v1.png",
+      "originalSha256": "eb09e2d830a8773d1e4ad99245efd2bec12544a738e1f7a2c5cf0e8a205a984d",
+      "width": 1672,
+      "height": 941,
+      "originalBytes": 2676351,
+      "alt": "Peças creme e verdes de Quintal de Descobertas sobre tecido claro, com espaço livre à direita.",
+      "usage": [
+        "editorial-quintal"
+      ],
+      "references": [
+        {
+          "path": "assets/originals/catalog/product-001-cream-leaf-teal-isolated-v2.png",
+          "sha256": "93c4fd4daf31fa8d1d92ec2baa9597df20262e024cdcc47b7a2ba26daf6a3903"
+        },
+        {
+          "path": "assets/originals/catalog/product-002-cream-isolated-v1.png",
+          "sha256": "9f5b7d7ad50847d1f70f04a2fd04f7d5acca0e14fd2a805077c26b000f9e66f3"
+        },
+        {
+          "path": "assets/originals/catalog/product-007-leaf-isolated-v1.png",
+          "sha256": "6a8ccffc276df1d006d1c5f8df657d9f1ec1743bbd56754a686816b642606940"
+        },
+        {
+          "path": "assets/originals/catalog/product-008-teal-isolated-v1.png",
+          "sha256": "e5265be7b8772e68acaffd9475038a594dba93d97a520756fe70c687e623b4f0"
+        }
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "16:9",
+          "sourceRect": {
+            "left": 4,
+            "top": 3,
+            "width": 1664,
+            "height": 936
+          },
+          "width": 1664,
+          "height": 936,
+          "webPath": "public/images/homepage/editorial-quintal-desktop-v1.webp",
+          "src": "/images/homepage/editorial-quintal-desktop-v1.webp",
+          "sha256": "2834e58e32462920b12fec9c95b00a8a822b3bc54136354982f5481f70f5ddf0",
+          "bytes": 280848,
+          "usage": [
+            "editorial-quintal"
+          ],
+          "approvalStatus": "pending-human-review"
+        },
+        {
+          "name": "compact",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 0,
+            "top": 1,
+            "width": 1252,
+            "height": 939
+          },
+          "width": 1252,
+          "height": 939,
+          "webPath": "public/images/homepage/editorial-quintal-compact-v1.webp",
+          "src": "/images/homepage/editorial-quintal-compact-v1.webp",
+          "sha256": "95d9fa385e37f27fc1f84280dc7b758f0eda2ea50070644477dc6192399726ff",
+          "bytes": 236780,
+          "usage": [
+            "editorial-quintal"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ],
+      "approvalStatus": "pending-human-review",
+      "technicalStatus": "passed",
+      "textSafeArea": {
+        "desktop": "right 38%",
+        "compact": "place copy below photograph"
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "photo-1604303768345-038b79a8c47a",
+      "slotIds": [
+        "hero-left-wide",
+        "hero-left-tablet",
+        "hero-left"
+      ],
+      "kind": "children",
+      "alt": "Duas crianças com cabelos cacheados posam juntas; uma usa camisa xadrez e calça preta, e a outra, camisa clara, colete e bermuda preta.",
+      "photographer": null,
+      "sourceUrl": "https://images.unsplash.com/photo-1604303768345-038b79a8c47a",
+      "license": "Unsplash License",
+      "originalPath": "assets/originals/homepage/unsplash/photo-1604303768345-038b79a8c47a.jpg",
+      "originalSha256": "82f00080298327436ef48d836026a4ba0096f8d96ae357a2ef7d8562b99b7bcf",
+      "width": 3000,
+      "height": 3750,
+      "originalBytes": 1482997,
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "3:2",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 3000,
+            "height": 2000
+          },
+          "width": 1920,
+          "height": 1280,
+          "webPath": "public/images/homepage/unsplash/photo-1604303768345-038b79a8c47a-desktop.webp",
+          "src": "/images/homepage/unsplash/photo-1604303768345-038b79a8c47a-desktop.webp",
+          "sha256": "c74ef862d8f634ee683c68cb30bfe47d4137ee0931a03ecc91bedcd468ccad9e",
+          "bytes": 391340
+        },
+        {
+          "name": "tablet",
+          "ratio": "2:1",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 3000,
+            "height": 1500
+          },
+          "width": 1920,
+          "height": 960,
+          "webPath": "public/images/homepage/unsplash/photo-1604303768345-038b79a8c47a-tablet.webp",
+          "src": "/images/homepage/unsplash/photo-1604303768345-038b79a8c47a-tablet.webp",
+          "sha256": "9ef26c43aca07a3f1f8e5acf4077e8c8d6be5b255024c4d6364aa7d672e94452",
+          "bytes": 287450
+        },
+        {
+          "name": "portrait",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 95,
+            "top": 0,
+            "width": 2811,
+            "height": 3748
+          },
+          "width": 1200,
+          "height": 1600,
+          "webPath": "public/images/homepage/unsplash/photo-1604303768345-038b79a8c47a-portrait.webp",
+          "src": "/images/homepage/unsplash/photo-1604303768345-038b79a8c47a-portrait.webp",
+          "sha256": "498192541a2a2487ffcf32cde446b7660e034359e0dd3b68398b21db47fff559",
+          "bytes": 247404
+        },
+        {
+          "name": "narrow",
+          "ratio": "4:5",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 3000,
+            "height": 3750
+          },
+          "width": 1200,
+          "height": 1500,
+          "webPath": "public/images/homepage/unsplash/photo-1604303768345-038b79a8c47a-narrow.webp",
+          "src": "/images/homepage/unsplash/photo-1604303768345-038b79a8c47a-narrow.webp",
+          "sha256": "462bafa190d42c0a747634f1302e01e9a761e8a5a0e7b16216a534979953e997",
+          "bytes": 226904
+        }
+      ]
+    },
+    {
+      "id": "photo-1622290291468-a28f7a7dc6a8",
+      "slotIds": [
+        "hero-right-wide",
+        "hero-right"
+      ],
+      "kind": "clothes-only",
+      "alt": "Camiseta infantil branca com gorro verde, meias, ursinho e câmera de brinquedo sobre fundo rosa, sem modelo.",
+      "photographer": null,
+      "sourceUrl": "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8",
+      "license": "Unsplash License",
+      "originalPath": "assets/originals/homepage/unsplash/photo-1622290291468-a28f7a7dc6a8.jpg",
+      "originalSha256": "95409d2fe2dfe46af3b2f6137d04dd500b58e0ba06cea8c8d1974fdd0ecaeb18",
+      "width": 5536,
+      "height": 4160,
+      "originalBytes": 2383404,
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "3:2",
+          "sourceRect": {
+            "left": 1,
+            "top": 235,
+            "width": 5535,
+            "height": 3690
+          },
+          "width": 1920,
+          "height": 1280,
+          "webPath": "public/images/homepage/unsplash/photo-1622290291468-a28f7a7dc6a8-desktop.webp",
+          "src": "/images/homepage/unsplash/photo-1622290291468-a28f7a7dc6a8-desktop.webp",
+          "sha256": "91aea6418a10a08e021e7f68de1a967bc089716847cd91deb71d350e10cb4961",
+          "bytes": 225270
+        },
+        {
+          "name": "narrow",
+          "ratio": "4:5",
+          "sourceRect": {
+            "left": 1104,
+            "top": 0,
+            "width": 3328,
+            "height": 4160
+          },
+          "width": 1200,
+          "height": 1500,
+          "webPath": "public/images/homepage/unsplash/photo-1622290291468-a28f7a7dc6a8-narrow.webp",
+          "src": "/images/homepage/unsplash/photo-1622290291468-a28f7a7dc6a8-narrow.webp",
+          "sha256": "94d96f3532daf538b3498aecd79f8451a8e4d75207ef8afe34d986a0bc107e89",
+          "bytes": 182078
+        }
+      ]
+    },
+    {
+      "id": "photo-1605813945635-10fdefb45dd1",
+      "slotIds": [
+        "category-t-shirts"
+      ],
+      "kind": "children",
+      "alt": "Criança com camiseta e short azuis brinca com folhas caindo em um caminho arborizado.",
+      "photographer": null,
+      "sourceUrl": "https://images.unsplash.com/photo-1605813945635-10fdefb45dd1",
+      "license": "Unsplash License",
+      "originalPath": "assets/originals/homepage/unsplash/photo-1605813945635-10fdefb45dd1.jpg",
+      "originalSha256": "39ea3fa300b7ffbdd625e86abbd47ec63382762534d6383c01de9135f60a98df",
+      "width": 4000,
+      "height": 6000,
+      "originalBytes": 7205616,
+      "crops": [
+        {
+          "name": "portrait",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 1,
+            "top": 668,
+            "width": 3999,
+            "height": 5332
+          },
+          "width": 1200,
+          "height": 1600,
+          "webPath": "public/images/homepage/unsplash/photo-1605813945635-10fdefb45dd1-portrait.webp",
+          "src": "/images/homepage/unsplash/photo-1605813945635-10fdefb45dd1-portrait.webp",
+          "sha256": "91a485407dfe1c97ade8fcaf75ac0ff913a870b5002b32e6bfff60a1cf708720",
+          "bytes": 408870
+        }
+      ]
+    },
+    {
+      "id": "photo-1671438118097-479e63198629",
+      "slotIds": [
+        "category-polos"
+      ],
+      "kind": "clothes-only",
+      "alt": "Polo branca pendurada em um cabide sobre uma escada de madeira, sem modelo.",
+      "photographer": null,
+      "sourceUrl": "https://images.unsplash.com/photo-1671438118097-479e63198629",
+      "license": "Unsplash License",
+      "originalPath": "assets/originals/homepage/unsplash/photo-1671438118097-479e63198629.jpg",
+      "originalSha256": "c353d26e5a71835b7209f5c57cd8b0b71fb532cf5d6edf2d54b4af8b655369dc",
+      "width": 3709,
+      "height": 3729,
+      "originalBytes": 1946667,
+      "crops": [
+        {
+          "name": "portrait",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 457,
+            "top": 1,
+            "width": 2796,
+            "height": 3728
+          },
+          "width": 1200,
+          "height": 1600,
+          "webPath": "public/images/homepage/unsplash/photo-1671438118097-479e63198629-portrait.webp",
+          "src": "/images/homepage/unsplash/photo-1671438118097-479e63198629-portrait.webp",
+          "sha256": "3af581d24482ba647140dc444bf175cfb04438313f031f7a1544f84bfaf70af6",
+          "bytes": 143598
+        }
+      ]
+    },
+    {
+      "id": "e6lWMBIgNso",
+      "slotIds": [
+        "category-tops"
+      ],
+      "kind": "children",
+      "alt": "Criança usa blusa clara com bolinhas e short azul diante de flores vermelhas.",
+      "photographer": "Vanessa Dyste",
+      "sourceUrl": "https://unsplash.com/photos/girl-in-black-and-white-polka-dot-long-sleeved-blouse-and-blue-shorts-standing-beside-red-petaled-flowers-during-daytime-e6lWMBIgNso",
+      "license": "Unsplash License",
+      "originalPath": "assets/originals/homepage/unsplash/e6lWMBIgNso.jpg",
+      "originalSha256": "4802be62a6a7886439b2f76dccb307c9530182ed6bd34c90392539765152fda9",
+      "width": 1726,
+      "height": 2048,
+      "originalBytes": 1024338,
+      "crops": [
+        {
+          "name": "portrait",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 95,
+            "top": 0,
+            "width": 1536,
+            "height": 2048
+          },
+          "width": 1200,
+          "height": 1600,
+          "webPath": "public/images/homepage/unsplash/e6lWMBIgNso-portrait.webp",
+          "src": "/images/homepage/unsplash/e6lWMBIgNso-portrait.webp",
+          "sha256": "003a8d44e2580ba4b447b14a3688e58385c87c23b3cf982f85db5b18c0458056",
+          "bytes": 590520
+        }
+      ]
+    },
+    {
+      "id": "photo-1785828642909-676851fe3db2",
+      "slotIds": [
+        "category-shorts"
+      ],
+      "kind": "children",
+      "alt": "Criança sorri usando camiseta estampada com veículos e short escuro ao ar livre.",
+      "photographer": null,
+      "sourceUrl": "https://images.unsplash.com/photo-1785828642909-676851fe3db2",
+      "license": "Unsplash License",
+      "originalPath": "assets/originals/homepage/unsplash/photo-1785828642909-676851fe3db2.jpg",
+      "originalSha256": "e35a347ef19060c2effaec9cecdc03f23def2406273404b840118cb406d06dae",
+      "width": 4160,
+      "height": 6240,
+      "originalBytes": 5120786,
+      "crops": [
+        {
+          "name": "portrait",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 1,
+            "top": 696,
+            "width": 4158,
+            "height": 5544
+          },
+          "width": 1200,
+          "height": 1600,
+          "webPath": "public/images/homepage/unsplash/photo-1785828642909-676851fe3db2-portrait.webp",
+          "src": "/images/homepage/unsplash/photo-1785828642909-676851fe3db2-portrait.webp",
+          "sha256": "8626b382a75698dba52842c829894aec4a13a37f36c97f6018c14bcbd921629a",
+          "bytes": 519686
+        }
+      ]
+    },
+    {
+      "id": "AnCxA0whats",
+      "slotIds": [
+        "category-trousers"
+      ],
+      "kind": "children",
+      "alt": "Crianças com calças e roupas coloridas brincam com patinetes em um caminho arborizado.",
+      "photographer": "Jochen van Wylick",
+      "sourceUrl": "https://unsplash.com/photos/children-on-scooters-and-rollerblades-AnCxA0whats",
+      "license": "Unsplash License",
+      "originalPath": "assets/originals/homepage/unsplash/AnCxA0whats.jpg",
+      "originalSha256": "655f72c285bcdc44e43c34c76454e932a4aaf35452f464de6152855bdeff796c",
+      "width": 7500,
+      "height": 5000,
+      "originalBytes": 7900517,
+      "crops": [
+        {
+          "name": "portrait",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 2175,
+            "top": 0,
+            "width": 3750,
+            "height": 5000
+          },
+          "width": 1200,
+          "height": 1600,
+          "webPath": "public/images/homepage/unsplash/AnCxA0whats-portrait.webp",
+          "src": "/images/homepage/unsplash/AnCxA0whats-portrait.webp",
+          "sha256": "1a978fc3b7ffc3ef9d828c6d8f55e1aad7b19a34e087ea0eddee06365f516401",
+          "bytes": 276414
+        }
+      ]
+    },
+    {
+      "id": "kPXq-jxhMkk",
+      "slotIds": [
+        "category-dresses"
+      ],
+      "kind": "children",
+      "alt": "Criança sorri e segura a saia de um vestido vermelho.",
+      "photographer": "Kayan Baby",
+      "sourceUrl": "https://unsplash.com/photos/smiling-girl-holding-her-dress-kPXq-jxhMkk",
+      "license": "Unsplash License",
+      "originalPath": "assets/originals/homepage/unsplash/kPXq-jxhMkk.jpg",
+      "originalSha256": "cffd3b66a5d883c39682ee327de27f5cae75edc37a8ac94d20385243f6c4f39d",
+      "width": 4000,
+      "height": 5000,
+      "originalBytes": 1542573,
+      "crops": [
+        {
+          "name": "portrait",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 125,
+            "top": 0,
+            "width": 3750,
+            "height": 5000
+          },
+          "width": 1200,
+          "height": 1600,
+          "webPath": "public/images/homepage/unsplash/kPXq-jxhMkk-portrait.webp",
+          "src": "/images/homepage/unsplash/kPXq-jxhMkk-portrait.webp",
+          "sha256": "6ba539e3e9ba7401c698a139a1532b42ce9c5df9e783d5b668fbb2c881843c10",
+          "bytes": 198298
+        }
+      ]
+    },
+    {
+      "id": "60X-XJ5YBuk",
+      "slotIds": [
+        "category-matching-sets"
+      ],
+      "kind": "clothes-only",
+      "alt": "Camiseta infantil clara e short listrado pendurados juntos, sem modelo.",
+      "photographer": "Enio Pereira da Silva",
+      "sourceUrl": "https://unsplash.com/photos/childrens-t-shirt-and-shorts-hanging-on-display-60X-XJ5YBuk",
+      "license": "Unsplash License",
+      "originalPath": "assets/originals/homepage/unsplash/60X-XJ5YBuk.jpg",
+      "originalSha256": "8d55742806ea81cb91f718e54589f331dd948a406befd567f81a59db67faaeac",
+      "width": 3072,
+      "height": 4608,
+      "originalBytes": 1288740,
+      "crops": [
+        {
+          "name": "portrait",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 0,
+            "top": 256,
+            "width": 3072,
+            "height": 4096
+          },
+          "width": 1200,
+          "height": 1600,
+          "webPath": "public/images/homepage/unsplash/60X-XJ5YBuk-portrait.webp",
+          "src": "/images/homepage/unsplash/60X-XJ5YBuk-portrait.webp",
+          "sha256": "d87e314236e573d4b52f2bd32d9751a5fb86bd4f73edf4c283b21140820d3c13",
+          "bytes": 212200
+        }
+      ]
+    },
+    {
+      "id": "IVrtlceLSzs",
+      "slotIds": [
+        "category-light-layers"
+      ],
+      "kind": "children",
+      "alt": "Criança com cabelos loiros e jaqueta jeans olha para a câmera.",
+      "photographer": "🇸🇮 Janko Ferlič",
+      "sourceUrl": "https://unsplash.com/photos/smiling-girl-in-blue-denim-jacket-IVrtlceLSzs",
+      "license": "Unsplash License",
+      "originalPath": "assets/originals/homepage/unsplash/IVrtlceLSzs.jpg",
+      "originalSha256": "15c31905b9449cae9ee6a97569aed01e0179ce78400a2fd78e8089a2bfcb064c",
+      "width": 6126,
+      "height": 4912,
+      "originalBytes": 5725071,
+      "crops": [
+        {
+          "name": "portrait",
+          "ratio": "3:4",
+          "sourceRect": {
+            "left": 1221,
+            "top": 0,
+            "width": 3684,
+            "height": 4912
+          },
+          "width": 1200,
+          "height": 1600,
+          "webPath": "public/images/homepage/unsplash/IVrtlceLSzs-portrait.webp",
+          "src": "/images/homepage/unsplash/IVrtlceLSzs-portrait.webp",
+          "sha256": "9d489086f09bc5ea79867775566c10660a2337d9868bc749e374f2369a016041",
+          "bytes": 405098
+        }
+      ]
+    },
+    {
+      "id": "MDIGo4Ez-0g",
+      "slotIds": [
+        "look-quintal"
+      ],
+      "kind": "clothes-only",
+      "alt": "Meias infantis coloridas presas em um varal ao ar livre, sem modelos.",
+      "photographer": "Christian Fickinger",
+      "sourceUrl": "https://unsplash.com/photos/five-pairs-of-socks-pinned-on-clothesline-MDIGo4Ez-0g",
+      "license": "Unsplash License",
+      "originalPath": "assets/originals/homepage/unsplash/MDIGo4Ez-0g.jpg",
+      "originalSha256": "c13ad21d827e98e17a543e6a2eb8eec63f7a1446288bfc9404bec1e97e0fd71a",
+      "width": 4032,
+      "height": 3024,
+      "originalBytes": 1095505,
+      "crops": [
+        {
+          "name": "landscape",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 4032,
+            "height": 3024
+          },
+          "width": 1200,
+          "height": 900,
+          "webPath": "public/images/homepage/unsplash/MDIGo4Ez-0g-landscape.webp",
+          "src": "/images/homepage/unsplash/MDIGo4Ez-0g-landscape.webp",
+          "sha256": "8642aeacc9773af6bc6782497362af9272e3389967693281bbf8b5c2c5c35885",
+          "bytes": 113266
+        }
+      ]
+    },
+    {
+      "id": "COgVvJ_CG_I",
+      "slotIds": [
+        "look-brincadeira"
+      ],
+      "kind": "clothes-only",
+      "alt": "Camisetas e vestidos infantis coloridos expostos em uma loja, sem modelos.",
+      "photographer": "Zayed Ahmed Zadu",
+      "sourceUrl": "https://unsplash.com/photos/childrens-clothing-displayed-on-racks-in-a-store-COgVvJ_CG_I",
+      "license": "Unsplash License",
+      "originalPath": "assets/originals/homepage/unsplash/COgVvJ_CG_I.jpg",
+      "originalSha256": "e712507fce0237162f546e95dfd6831588fd76c8b7ba932672eff9f0eb0931e2",
+      "width": 5757,
+      "height": 3838,
+      "originalBytes": 3389775,
+      "crops": [
+        {
+          "name": "landscape",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 321,
+            "top": 1,
+            "width": 5116,
+            "height": 3837
+          },
+          "width": 1200,
+          "height": 900,
+          "webPath": "public/images/homepage/unsplash/COgVvJ_CG_I-landscape.webp",
+          "src": "/images/homepage/unsplash/COgVvJ_CG_I-landscape.webp",
+          "sha256": "eab430eb75514cffa039dbed7ef0b1d6cf7454bb7f37fd49ccc7ba5d2fa763ca",
+          "bytes": 281568
+        }
+      ]
+    },
+    {
+      "id": "VoXqvbLAPjM",
+      "slotIds": [
+        "look-imaginacao"
+      ],
+      "kind": "clothes-only",
+      "alt": "Camiseta infantil branca com acessórios e ursinho sobre fundo rosa, sem modelo.",
+      "photographer": "Mediamodifier",
+      "sourceUrl": "https://unsplash.com/photos/white-crew-neck-t-shirt-VoXqvbLAPjM",
+      "license": "Unsplash License",
+      "originalPath": "assets/originals/homepage/unsplash/VoXqvbLAPjM.jpg",
+      "originalSha256": "95409d2fe2dfe46af3b2f6137d04dd500b58e0ba06cea8c8d1974fdd0ecaeb18",
+      "width": 5536,
+      "height": 4160,
+      "originalBytes": 2383404,
+      "crops": [
+        {
+          "name": "landscape",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 0,
+            "top": 4,
+            "width": 5536,
+            "height": 4152
+          },
+          "width": 1200,
+          "height": 900,
+          "webPath": "public/images/homepage/unsplash/VoXqvbLAPjM-landscape.webp",
+          "src": "/images/homepage/unsplash/VoXqvbLAPjM-landscape.webp",
+          "sha256": "2b641245363660f786c26b4b0de7c3897c26f1b27356e98047ad8d7a796d6410",
+          "bytes": 93274
+        }
+      ]
+    },
+    {
+      "id": "FtL07GM9Q7Y",
+      "slotIds": [
+        "social-1"
+      ],
+      "kind": "children",
+      "alt": "Duas crianças fazem caretas divertidas para a câmera.",
+      "photographer": "Austin Pacheco",
+      "sourceUrl": "https://unsplash.com/photos/shallow-focus-photography-of-two-boys-doing-wacky-faces-FtL07GM9Q7Y",
+      "license": "Unsplash License",
+      "originalPath": "assets/originals/homepage/unsplash/FtL07GM9Q7Y.jpg",
+      "originalSha256": "138559b668a7192487432c07a5c2fa42768ce52cf504f7c4374c835c7dd69832",
+      "width": 6000,
+      "height": 4000,
+      "originalBytes": 1468456,
+      "crops": [
+        {
+          "name": "square",
+          "ratio": "1:1",
+          "sourceRect": {
+            "left": 1000,
+            "top": 0,
+            "width": 4000,
+            "height": 4000
+          },
+          "width": 1200,
+          "height": 1200,
+          "webPath": "public/images/homepage/unsplash/FtL07GM9Q7Y-square.webp",
+          "src": "/images/homepage/unsplash/FtL07GM9Q7Y-square.webp",
+          "sha256": "19a37284c29235385b2a0543385e7c0aabf2d93a6e16d1ed89fab550bc812bdf",
+          "bytes": 156176
+        }
+      ]
+    },
+    {
+      "id": "nGwkIZFelko",
+      "slotIds": [
+        "social-2"
+      ],
+      "kind": "children",
+      "alt": "Duas crianças se abraçam e sorriem dentro de casa.",
+      "photographer": "Chayene Rafaela",
+      "sourceUrl": "https://unsplash.com/photos/selective-focus-photography-of-girl-hugging-boy-nGwkIZFelko",
+      "license": "Unsplash License",
+      "originalPath": "assets/originals/homepage/unsplash/nGwkIZFelko.jpg",
+      "originalSha256": "4e8b66ff384a7b3ed047177ec951828d065a15f2927c1185755648b1a6d08e4b",
+      "width": 5184,
+      "height": 3456,
+      "originalBytes": 2680161,
+      "crops": [
+        {
+          "name": "square",
+          "ratio": "1:1",
+          "sourceRect": {
+            "left": 1037,
+            "top": 0,
+            "width": 3456,
+            "height": 3456
+          },
+          "width": 1200,
+          "height": 1200,
+          "webPath": "public/images/homepage/unsplash/nGwkIZFelko-square.webp",
+          "src": "/images/homepage/unsplash/nGwkIZFelko-square.webp",
+          "sha256": "b638cf032deb36e3aa32e0279fb0d4f32591dd6ea9a0e2296c39e649a4720d27",
+          "bytes": 177632
+        }
+      ]
+    },
+    {
+      "id": "xCU7nCMNfI8",
+      "slotIds": [
+        "social-3"
+      ],
+      "kind": "children",
+      "alt": "Duas crianças com vestidos caminham de mãos dadas por uma trilha.",
+      "photographer": "Josue Michel",
+      "sourceUrl": "https://unsplash.com/photos/2-girls-in-blue-dress-standing-on-brown-field-during-daytime-xCU7nCMNfI8",
+      "license": "Unsplash License",
+      "originalPath": "assets/originals/homepage/unsplash/xCU7nCMNfI8.jpg",
+      "originalSha256": "f403d8c34557dfc59bdf1969cbe6260f7ccfa5a81bf87d42aa1e1b3195942a37",
+      "width": 5472,
+      "height": 3648,
+      "originalBytes": 5085366,
+      "crops": [
+        {
+          "name": "square",
+          "ratio": "1:1",
+          "sourceRect": {
+            "left": 1131,
+            "top": 0,
+            "width": 3648,
+            "height": 3648
+          },
+          "width": 1200,
+          "height": 1200,
+          "webPath": "public/images/homepage/unsplash/xCU7nCMNfI8-square.webp",
+          "src": "/images/homepage/unsplash/xCU7nCMNfI8-square.webp",
+          "sha256": "c3dcf11a1bc54a21229e4402fbcdb40b62f00feebe877cbb16e0fa78f36dc080",
+          "bytes": 338166
+        }
+      ]
+    },
+    {
+      "id": "lP_FbBkMn1c",
+      "slotIds": [
+        "social-4"
+      ],
+      "kind": "children",
+      "alt": "Quatro crianças riem sentadas na grama; uma delas segura um violão.",
+      "photographer": "Robert Collins",
+      "sourceUrl": "https://unsplash.com/photos/four-boys-laughing-and-sitting-on-grass-during-daytime-lP_FbBkMn1c",
+      "license": "Unsplash License",
+      "originalPath": "assets/originals/homepage/unsplash/lP_FbBkMn1c.jpg",
+      "originalSha256": "2014bfaaa97a4944dcd1c0057d4f1d41b30997091f4a52cd28a6ae060b41ebf1",
+      "width": 5000,
+      "height": 3333,
+      "originalBytes": 1663699,
+      "crops": [
+        {
+          "name": "square",
+          "ratio": "1:1",
+          "sourceRect": {
+            "left": 834,
+            "top": 0,
+            "width": 3333,
+            "height": 3333
+          },
+          "width": 1200,
+          "height": 1200,
+          "webPath": "public/images/homepage/unsplash/lP_FbBkMn1c-square.webp",
+          "src": "/images/homepage/unsplash/lP_FbBkMn1c-square.webp",
+          "sha256": "37a2736dcba73ec660154bb618d5cc5afc248d7d8145b249ce7c87de48910db9",
+          "bytes": 172038
+        }
+      ]
+    },
+    {
+      "id": "P5MXtYfgmmw",
+      "slotIds": [
+        "social-5"
+      ],
+      "kind": "children",
+      "alt": "Três crianças se abraçam e riem sentadas em degraus.",
+      "photographer": "Nathan Dumlao",
+      "sourceUrl": "https://unsplash.com/photos/three-children-laughing-on-steps-P5MXtYfgmmw",
+      "license": "Unsplash License",
+      "originalPath": "assets/originals/homepage/unsplash/P5MXtYfgmmw.jpg",
+      "originalSha256": "103bd9e6ed957647a85c7f5cabefe91e999b4637defa7b227428d133e9593afd",
+      "width": 5393,
+      "height": 8086,
+      "originalBytes": 6609180,
+      "crops": [
+        {
+          "name": "square",
+          "ratio": "1:1",
+          "sourceRect": {
+            "left": 0,
+            "top": 1481,
+            "width": 5393,
+            "height": 5393
+          },
+          "width": 1200,
+          "height": 1200,
+          "webPath": "public/images/homepage/unsplash/P5MXtYfgmmw-square.webp",
+          "src": "/images/homepage/unsplash/P5MXtYfgmmw-square.webp",
+          "sha256": "3951ec3e4d1f491b0e62bce51819d7977d3bfdcd72b5db347973c020bd02a6d8",
+          "bytes": 236874
+        }
+      ]
+    },
+    {
+      "id": "xaG8oaZD7ss",
+      "slotIds": [
+        "social-6"
+      ],
+      "kind": "children",
+      "alt": "Crianças brincam com bolhas de sabão em uma área verde.",
+      "photographer": "Katherine Hanlon",
+      "sourceUrl": "https://unsplash.com/photos/children-playing-with-bubbles-in-garden-xaG8oaZD7ss",
+      "license": "Unsplash License",
+      "originalPath": "assets/originals/homepage/unsplash/xaG8oaZD7ss.jpg",
+      "originalSha256": "511840000cddd191c803ad2a6e423a52766aff82db65d96f9f2da0a103209062",
+      "width": 5100,
+      "height": 3300,
+      "originalBytes": 2002617,
+      "crops": [
+        {
+          "name": "square",
+          "ratio": "1:1",
+          "sourceRect": {
+            "left": 990,
+            "top": 0,
+            "width": 3300,
+            "height": 3300
+          },
+          "width": 1200,
+          "height": 1200,
+          "webPath": "public/images/homepage/unsplash/xaG8oaZD7ss-square.webp",
+          "src": "/images/homepage/unsplash/xaG8oaZD7ss-square.webp",
+          "sha256": "4ccbae143579d914edc9e2a4fafcff6da43561e3a8a8dfd977315964f7173416",
+          "bytes": 187828
+        }
+      ]
+    },
+    {
+      "id": "LGlBwZGjiwM",
+      "slotIds": [
+        "social-7"
+      ],
+      "kind": "children",
+      "alt": "Criança com cabelos cacheados e camiseta amarela olha para a câmera.",
+      "photographer": "🇸🇮 Janko Ferlič",
+      "sourceUrl": "https://unsplash.com/photos/girl-in-yellow-crew-neck-shirt-LGlBwZGjiwM",
+      "license": "Unsplash License",
+      "originalPath": "assets/originals/homepage/unsplash/LGlBwZGjiwM.jpg",
+      "originalSha256": "611df07ba34df2d37efef2e0988315382601b0d9ca85d3a3ab94b6825d59d75d",
+      "width": 4819,
+      "height": 5304,
+      "originalBytes": 3697184,
+      "crops": [
+        {
+          "name": "square",
+          "ratio": "1:1",
+          "sourceRect": {
+            "left": 0,
+            "top": 194,
+            "width": 4819,
+            "height": 4819
+          },
+          "width": 1200,
+          "height": 1200,
+          "webPath": "public/images/homepage/unsplash/LGlBwZGjiwM-square.webp",
+          "src": "/images/homepage/unsplash/LGlBwZGjiwM-square.webp",
+          "sha256": "86b2e1c1d0a9d9c638fa18fff124102ebb5c455ef89334522e2d0821ecc8c732",
+          "bytes": 283332
+        }
+      ]
+    }
+  ]
+}

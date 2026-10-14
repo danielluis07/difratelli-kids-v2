@@ -1,0 +1,226 @@
+{
+  "revision": "homepage-unsplash-v1",
+  "status": "approved",
+  "implementationAllowed": true,
+  "reviewer": "User in this conversation",
+  "recordedAtUtc": "2026-10-14T22:47:56.707Z",
+  "evidence": {
+    "message": "perfect. we can create a PR for this work.",
+    "context": "Acceptance of the final homepage at localhost:3000 after reviewing stock photography, supplying three category photos and two hero photos, and requesting restoration of both large banners. Authorizes the final 20 photographs and 24 responsive crops as the default homepage selection; catalog assets remain unchanged. This approval supersedes prior generated identity and garment matching requirements for general homepage imagery. It does not claim issue 68 is resolved."
+  },
+  "manifestSha256": "d4cbbcd9f300309e64e0f4b5ba00b3e14046468204be4fd1eaada654d2c00d47",
+  "files": [
+    {
+      "path": "assets/originals/homepage/editorial-quintal-v1.png",
+      "sha256": "eb09e2d830a8773d1e4ad99245efd2bec12544a738e1f7a2c5cf0e8a205a984d"
+    },
+    {
+      "path": "assets/originals/homepage/quote-garments-v1.png",
+      "sha256": "6d44fc124974fd08d29142d4eebe124031b59b15c2af039dee01ca0860c98a2d"
+    },
+    {
+      "path": "assets/originals/homepage/unsplash/60X-XJ5YBuk.jpg",
+      "sha256": "8d55742806ea81cb91f718e54589f331dd948a406befd567f81a59db67faaeac"
+    },
+    {
+      "path": "assets/originals/homepage/unsplash/AnCxA0whats.jpg",
+      "sha256": "655f72c285bcdc44e43c34c76454e932a4aaf35452f464de6152855bdeff796c"
+    },
+    {
+      "path": "assets/originals/homepage/unsplash/COgVvJ_CG_I.jpg",
+      "sha256": "e712507fce0237162f546e95dfd6831588fd76c8b7ba932672eff9f0eb0931e2"
+    },
+    {
+      "path": "assets/originals/homepage/unsplash/FtL07GM9Q7Y.jpg",
+      "sha256": "138559b668a7192487432c07a5c2fa42768ce52cf504f7c4374c835c7dd69832"
+    },
+    {
+      "path": "assets/originals/homepage/unsplash/IVrtlceLSzs.jpg",
+      "sha256": "15c31905b9449cae9ee6a97569aed01e0179ce78400a2fd78e8089a2bfcb064c"
+    },
+    {
+      "path": "assets/originals/homepage/unsplash/LGlBwZGjiwM.jpg",
+      "sha256": "611df07ba34df2d37efef2e0988315382601b0d9ca85d3a3ab94b6825d59d75d"
+    },
+    {
+      "path": "assets/originals/homepage/unsplash/MDIGo4Ez-0g.jpg",
+      "sha256": "c13ad21d827e98e17a543e6a2eb8eec63f7a1446288bfc9404bec1e97e0fd71a"
+    },
+    {
+      "path": "assets/originals/homepage/unsplash/P5MXtYfgmmw.jpg",
+      "sha256": "103bd9e6ed957647a85c7f5cabefe91e999b4637defa7b227428d133e9593afd"
+    },
+    {
+      "path": "assets/originals/homepage/unsplash/VoXqvbLAPjM.jpg",
+      "sha256": "95409d2fe2dfe46af3b2f6137d04dd500b58e0ba06cea8c8d1974fdd0ecaeb18"
+    },
+    {
+      "path": "assets/originals/homepage/unsplash/e6lWMBIgNso.jpg",
+      "sha256": "4802be62a6a7886439b2f76dccb307c9530182ed6bd34c90392539765152fda9"
+    },
+    {
+      "path": "assets/originals/homepage/unsplash/kPXq-jxhMkk.jpg",
+      "sha256": "cffd3b66a5d883c39682ee327de27f5cae75edc37a8ac94d20385243f6c4f39d"
+    },
+    {
+      "path": "assets/originals/homepage/unsplash/lP_FbBkMn1c.jpg",
+      "sha256": "2014bfaaa97a4944dcd1c0057d4f1d41b30997091f4a52cd28a6ae060b41ebf1"
+    },
+    {
+      "path": "assets/originals/homepage/unsplash/nGwkIZFelko.jpg",
+      "sha256": "4e8b66ff384a7b3ed047177ec951828d065a15f2927c1185755648b1a6d08e4b"
+    },
+    {
+      "path": "assets/originals/homepage/unsplash/photo-1604303768345-038b79a8c47a.jpg",
+      "sha256": "82f00080298327436ef48d836026a4ba0096f8d96ae357a2ef7d8562b99b7bcf"
+    },
+    {
+      "path": "assets/originals/homepage/unsplash/photo-1605813945635-10fdefb45dd1.jpg",
+      "sha256": "39ea3fa300b7ffbdd625e86abbd47ec63382762534d6383c01de9135f60a98df"
+    },
+    {
+      "path": "assets/originals/homepage/unsplash/photo-1622290291468-a28f7a7dc6a8.jpg",
+      "sha256": "95409d2fe2dfe46af3b2f6137d04dd500b58e0ba06cea8c8d1974fdd0ecaeb18"
+    },
+    {
+      "path": "assets/originals/homepage/unsplash/photo-1671438118097-479e63198629.jpg",
+      "sha256": "c353d26e5a71835b7209f5c57cd8b0b71fb532cf5d6edf2d54b4af8b655369dc"
+    },
+    {
+      "path": "assets/originals/homepage/unsplash/photo-1785828642909-676851fe3db2.jpg",
+      "sha256": "e35a347ef19060c2effaec9cecdc03f23def2406273404b840118cb406d06dae"
+    },
+    {
+      "path": "assets/originals/homepage/unsplash/xCU7nCMNfI8.jpg",
+      "sha256": "f403d8c34557dfc59bdf1969cbe6260f7ccfa5a81bf87d42aa1e1b3195942a37"
+    },
+    {
+      "path": "assets/originals/homepage/unsplash/xaG8oaZD7ss.jpg",
+      "sha256": "511840000cddd191c803ad2a6e423a52766aff82db65d96f9f2da0a103209062"
+    },
+    {
+      "path": "docs/content/homepage-approval.json",
+      "sha256": "0ab985366a8226c00bd48e87c38e8c89d299dd2b175eff6f51656a032b8b8a42"
+    },
+    {
+      "path": "docs/content/homepage-unsplash-manifest.json",
+      "sha256": "d4cbbcd9f300309e64e0f4b5ba00b3e14046468204be4fd1eaada654d2c00d47"
+    },
+    {
+      "path": "docs/content/homepage-unsplash-sources.json",
+      "sha256": "dae6b189ef57adcbc2a8f4210b1302a159acb79321c9e454d53f6cbdaa064bd5"
+    },
+    {
+      "path": "public/images/homepage/editorial-quintal-compact-v1.webp",
+      "sha256": "95d9fa385e37f27fc1f84280dc7b758f0eda2ea50070644477dc6192399726ff"
+    },
+    {
+      "path": "public/images/homepage/editorial-quintal-desktop-v1.webp",
+      "sha256": "2834e58e32462920b12fec9c95b00a8a822b3bc54136354982f5481f70f5ddf0"
+    },
+    {
+      "path": "public/images/homepage/quote-garments-compact-v1.webp",
+      "sha256": "4c611675a37630fb4c4c9f37a6927624650adc5cf76719c382a304f358aef560"
+    },
+    {
+      "path": "public/images/homepage/quote-garments-desktop-v1.webp",
+      "sha256": "2116bb3772453a059ee2f6685070198322f5111e03549a59f7a9e5e59a6398e8"
+    },
+    {
+      "path": "public/images/homepage/unsplash/60X-XJ5YBuk-portrait.webp",
+      "sha256": "d87e314236e573d4b52f2bd32d9751a5fb86bd4f73edf4c283b21140820d3c13"
+    },
+    {
+      "path": "public/images/homepage/unsplash/AnCxA0whats-portrait.webp",
+      "sha256": "1a978fc3b7ffc3ef9d828c6d8f55e1aad7b19a34e087ea0eddee06365f516401"
+    },
+    {
+      "path": "public/images/homepage/unsplash/COgVvJ_CG_I-landscape.webp",
+      "sha256": "eab430eb75514cffa039dbed7ef0b1d6cf7454bb7f37fd49ccc7ba5d2fa763ca"
+    },
+    {
+      "path": "public/images/homepage/unsplash/FtL07GM9Q7Y-square.webp",
+      "sha256": "19a37284c29235385b2a0543385e7c0aabf2d93a6e16d1ed89fab550bc812bdf"
+    },
+    {
+      "path": "public/images/homepage/unsplash/IVrtlceLSzs-portrait.webp",
+      "sha256": "9d489086f09bc5ea79867775566c10660a2337d9868bc749e374f2369a016041"
+    },
+    {
+      "path": "public/images/homepage/unsplash/LGlBwZGjiwM-square.webp",
+      "sha256": "86b2e1c1d0a9d9c638fa18fff124102ebb5c455ef89334522e2d0821ecc8c732"
+    },
+    {
+      "path": "public/images/homepage/unsplash/MDIGo4Ez-0g-landscape.webp",
+      "sha256": "8642aeacc9773af6bc6782497362af9272e3389967693281bbf8b5c2c5c35885"
+    },
+    {
+      "path": "public/images/homepage/unsplash/P5MXtYfgmmw-square.webp",
+      "sha256": "3951ec3e4d1f491b0e62bce51819d7977d3bfdcd72b5db347973c020bd02a6d8"
+    },
+    {
+      "path": "public/images/homepage/unsplash/VoXqvbLAPjM-landscape.webp",
+      "sha256": "2b641245363660f786c26b4b0de7c3897c26f1b27356e98047ad8d7a796d6410"
+    },
+    {
+      "path": "public/images/homepage/unsplash/e6lWMBIgNso-portrait.webp",
+      "sha256": "003a8d44e2580ba4b447b14a3688e58385c87c23b3cf982f85db5b18c0458056"
+    },
+    {
+      "path": "public/images/homepage/unsplash/kPXq-jxhMkk-portrait.webp",
+      "sha256": "6ba539e3e9ba7401c698a139a1532b42ce9c5df9e783d5b668fbb2c881843c10"
+    },
+    {
+      "path": "public/images/homepage/unsplash/lP_FbBkMn1c-square.webp",
+      "sha256": "37a2736dcba73ec660154bb618d5cc5afc248d7d8145b249ce7c87de48910db9"
+    },
+    {
+      "path": "public/images/homepage/unsplash/nGwkIZFelko-square.webp",
+      "sha256": "b638cf032deb36e3aa32e0279fb0d4f32591dd6ea9a0e2296c39e649a4720d27"
+    },
+    {
+      "path": "public/images/homepage/unsplash/photo-1604303768345-038b79a8c47a-desktop.webp",
+      "sha256": "c74ef862d8f634ee683c68cb30bfe47d4137ee0931a03ecc91bedcd468ccad9e"
+    },
+    {
+      "path": "public/images/homepage/unsplash/photo-1604303768345-038b79a8c47a-narrow.webp",
+      "sha256": "462bafa190d42c0a747634f1302e01e9a761e8a5a0e7b16216a534979953e997"
+    },
+    {
+      "path": "public/images/homepage/unsplash/photo-1604303768345-038b79a8c47a-portrait.webp",
+      "sha256": "498192541a2a2487ffcf32cde446b7660e034359e0dd3b68398b21db47fff559"
+    },
+    {
+      "path": "public/images/homepage/unsplash/photo-1604303768345-038b79a8c47a-tablet.webp",
+      "sha256": "9ef26c43aca07a3f1f8e5acf4077e8c8d6be5b255024c4d6364aa7d672e94452"
+    },
+    {
+      "path": "public/images/homepage/unsplash/photo-1605813945635-10fdefb45dd1-portrait.webp",
+      "sha256": "91a485407dfe1c97ade8fcaf75ac0ff913a870b5002b32e6bfff60a1cf708720"
+    },
+    {
+      "path": "public/images/homepage/unsplash/photo-1622290291468-a28f7a7dc6a8-desktop.webp",
+      "sha256": "91aea6418a10a08e021e7f68de1a967bc089716847cd91deb71d350e10cb4961"
+    },
+    {
+      "path": "public/images/homepage/unsplash/photo-1622290291468-a28f7a7dc6a8-narrow.webp",
+      "sha256": "94d96f3532daf538b3498aecd79f8451a8e4d75207ef8afe34d986a0bc107e89"
+    },
+    {
+      "path": "public/images/homepage/unsplash/photo-1671438118097-479e63198629-portrait.webp",
+      "sha256": "3af581d24482ba647140dc444bf175cfb04438313f031f7a1544f84bfaf70af6"
+    },
+    {
+      "path": "public/images/homepage/unsplash/photo-1785828642909-676851fe3db2-portrait.webp",
+      "sha256": "8626b382a75698dba52842c829894aec4a13a37f36c97f6018c14bcbd921629a"
+    },
+    {
+      "path": "public/images/homepage/unsplash/xCU7nCMNfI8-square.webp",
+      "sha256": "c3dcf11a1bc54a21229e4402fbcdb40b62f00feebe877cbb16e0fa78f36dc080"
+    },
+    {
+      "path": "public/images/homepage/unsplash/xaG8oaZD7ss-square.webp",
+      "sha256": "4ccbae143579d914edc9e2a4fafcff6da43561e3a8a8dfd977315964f7173416"
+    }
+  ]
+}

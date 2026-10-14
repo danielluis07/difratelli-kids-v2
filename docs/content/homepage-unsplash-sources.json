@@ -1,0 +1,355 @@
+{
+  "retrievedAtUtc": "2026-10-14T22:13:23.183Z",
+  "licenseUrl": "https://unsplash.com/license",
+  "premium": false,
+  "photos": [
+    {
+      "id": "e6lWMBIgNso",
+      "description": "girl in black and white polka-dot long-sleeved blouse and blue shorts standing beside red petaled flowers during daytime",
+      "term": "kids-fashion",
+      "width": 1726,
+      "height": 2048,
+      "photographer": "Vanessa Dyste",
+      "sourceUrl": "https://unsplash.com/photos/girl-in-black-and-white-polka-dot-long-sleeved-blouse-and-blue-shorts-standing-beside-red-petaled-flowers-during-daytime-e6lWMBIgNso",
+      "urls": {
+        "raw": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0",
+        "full": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?crop=entropy&cs=srgb&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=85",
+        "regular": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "small": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "thumb": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "small_s3": "https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1518831959646-742c3a14ebf7"
+      }
+    },
+    {
+      "id": "AnCxA0whats",
+      "description": "Four children on scooters and rollerblades moving along a tree-lined path in summer",
+      "term": "children-playing",
+      "width": 7500,
+      "height": 5000,
+      "photographer": "Jochen van Wylick",
+      "sourceUrl": "https://unsplash.com/photos/children-on-scooters-and-rollerblades-AnCxA0whats",
+      "urls": {
+        "raw": "https://images.unsplash.com/photo-1655009316723-e4af5fe7afe1?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0",
+        "full": "https://images.unsplash.com/photo-1655009316723-e4af5fe7afe1?crop=entropy&cs=srgb&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=85",
+        "regular": "https://images.unsplash.com/photo-1655009316723-e4af5fe7afe1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "small": "https://images.unsplash.com/photo-1655009316723-e4af5fe7afe1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "thumb": "https://images.unsplash.com/photo-1655009316723-e4af5fe7afe1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "small_s3": "https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1655009316723-e4af5fe7afe1"
+      }
+    },
+    {
+      "id": "kPXq-jxhMkk",
+      "description": "smiling girl holding her dress",
+      "term": "kids-fashion",
+      "width": 4000,
+      "height": 5000,
+      "photographer": "Kayan Baby",
+      "sourceUrl": "https://unsplash.com/photos/smiling-girl-holding-her-dress-kPXq-jxhMkk",
+      "urls": {
+        "raw": "https://images.unsplash.com/photo-1578897367107-2828e351c8a8?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0",
+        "full": "https://images.unsplash.com/photo-1578897367107-2828e351c8a8?crop=entropy&cs=srgb&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=85",
+        "regular": "https://images.unsplash.com/photo-1578897367107-2828e351c8a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "small": "https://images.unsplash.com/photo-1578897367107-2828e351c8a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "thumb": "https://images.unsplash.com/photo-1578897367107-2828e351c8a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "small_s3": "https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1578897367107-2828e351c8a8"
+      }
+    },
+    {
+      "id": "60X-XJ5YBuk",
+      "description": "Children's t-shirt and shorts hanging on display",
+      "term": "kids-clothes",
+      "width": 3072,
+      "height": 4608,
+      "photographer": "Enio Pereira da Silva",
+      "sourceUrl": "https://unsplash.com/photos/childrens-t-shirt-and-shorts-hanging-on-display-60X-XJ5YBuk",
+      "urls": {
+        "raw": "https://images.unsplash.com/photo-1774874017217-c441aa77c73b?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0",
+        "full": "https://images.unsplash.com/photo-1774874017217-c441aa77c73b?crop=entropy&cs=srgb&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=85",
+        "regular": "https://images.unsplash.com/photo-1774874017217-c441aa77c73b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "small": "https://images.unsplash.com/photo-1774874017217-c441aa77c73b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "thumb": "https://images.unsplash.com/photo-1774874017217-c441aa77c73b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "small_s3": "https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1774874017217-c441aa77c73b"
+      }
+    },
+    {
+      "id": "IVrtlceLSzs",
+      "description": "smiling girl in blue denim jacket",
+      "term": "child-portrait",
+      "width": 6126,
+      "height": 4912,
+      "photographer": "🇸🇮 Janko Ferlič",
+      "sourceUrl": "https://unsplash.com/photos/smiling-girl-in-blue-denim-jacket-IVrtlceLSzs",
+      "urls": {
+        "raw": "https://images.unsplash.com/photo-1497881807663-38b9a95b7192?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0",
+        "full": "https://images.unsplash.com/photo-1497881807663-38b9a95b7192?crop=entropy&cs=srgb&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=85",
+        "regular": "https://images.unsplash.com/photo-1497881807663-38b9a95b7192?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "small": "https://images.unsplash.com/photo-1497881807663-38b9a95b7192?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "thumb": "https://images.unsplash.com/photo-1497881807663-38b9a95b7192?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "small_s3": "https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1497881807663-38b9a95b7192"
+      }
+    },
+    {
+      "id": "MDIGo4Ez-0g",
+      "description": "five pairs of socks pinned on clothesline",
+      "term": "baby-clothes",
+      "width": 4032,
+      "height": 3024,
+      "photographer": "Christian Fickinger",
+      "sourceUrl": "https://unsplash.com/photos/five-pairs-of-socks-pinned-on-clothesline-MDIGo4Ez-0g",
+      "urls": {
+        "raw": "https://images.unsplash.com/photo-1542355581-caf7454785ca?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0",
+        "full": "https://images.unsplash.com/photo-1542355581-caf7454785ca?crop=entropy&cs=srgb&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=85",
+        "regular": "https://images.unsplash.com/photo-1542355581-caf7454785ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "small": "https://images.unsplash.com/photo-1542355581-caf7454785ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "thumb": "https://images.unsplash.com/photo-1542355581-caf7454785ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "small_s3": "https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1542355581-caf7454785ca"
+      }
+    },
+    {
+      "id": "COgVvJ_CG_I",
+      "description": "Children's clothing displayed on racks in a store",
+      "term": "kids-fashion",
+      "width": 5757,
+      "height": 3838,
+      "photographer": "Zayed Ahmed Zadu",
+      "sourceUrl": "https://unsplash.com/photos/childrens-clothing-displayed-on-racks-in-a-store-COgVvJ_CG_I",
+      "urls": {
+        "raw": "https://images.unsplash.com/photo-1760287363879-6012adab292c?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0",
+        "full": "https://images.unsplash.com/photo-1760287363879-6012adab292c?crop=entropy&cs=srgb&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=85",
+        "regular": "https://images.unsplash.com/photo-1760287363879-6012adab292c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "small": "https://images.unsplash.com/photo-1760287363879-6012adab292c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "thumb": "https://images.unsplash.com/photo-1760287363879-6012adab292c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "small_s3": "https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1760287363879-6012adab292c"
+      }
+    },
+    {
+      "id": "VoXqvbLAPjM",
+      "description": "white crew neck t-shirt",
+      "term": "kids-clothing",
+      "width": 5536,
+      "height": 4160,
+      "photographer": "Mediamodifier",
+      "sourceUrl": "https://unsplash.com/photos/white-crew-neck-t-shirt-VoXqvbLAPjM",
+      "urls": {
+        "raw": "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0",
+        "full": "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?crop=entropy&cs=srgb&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=85",
+        "regular": "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "small": "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "thumb": "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "small_s3": "https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1622290291468-a28f7a7dc6a8"
+      }
+    },
+    {
+      "id": "FtL07GM9Q7Y",
+      "description": "shallow focus photography of two boys doing wacky faces",
+      "term": "children-friends",
+      "width": 6000,
+      "height": 4000,
+      "photographer": "Austin Pacheco",
+      "sourceUrl": "https://unsplash.com/photos/shallow-focus-photography-of-two-boys-doing-wacky-faces-FtL07GM9Q7Y",
+      "urls": {
+        "raw": "https://images.unsplash.com/photo-1524503033411-c9566986fc8f?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0",
+        "full": "https://images.unsplash.com/photo-1524503033411-c9566986fc8f?crop=entropy&cs=srgb&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=85",
+        "regular": "https://images.unsplash.com/photo-1524503033411-c9566986fc8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "small": "https://images.unsplash.com/photo-1524503033411-c9566986fc8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "thumb": "https://images.unsplash.com/photo-1524503033411-c9566986fc8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "small_s3": "https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1524503033411-c9566986fc8f"
+      }
+    },
+    {
+      "id": "nGwkIZFelko",
+      "description": "selective focus photography of girl hugging boy",
+      "term": "children-friends",
+      "width": 5184,
+      "height": 3456,
+      "photographer": "Chayene Rafaela",
+      "sourceUrl": "https://unsplash.com/photos/selective-focus-photography-of-girl-hugging-boy-nGwkIZFelko",
+      "urls": {
+        "raw": "https://images.unsplash.com/photo-1534982841079-afde227ada8f?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0",
+        "full": "https://images.unsplash.com/photo-1534982841079-afde227ada8f?crop=entropy&cs=srgb&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=85",
+        "regular": "https://images.unsplash.com/photo-1534982841079-afde227ada8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "small": "https://images.unsplash.com/photo-1534982841079-afde227ada8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "thumb": "https://images.unsplash.com/photo-1534982841079-afde227ada8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "small_s3": "https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1534982841079-afde227ada8f"
+      }
+    },
+    {
+      "id": "xCU7nCMNfI8",
+      "description": "2 girls in blue dress standing on brown field during daytime",
+      "term": "children-friends",
+      "width": 5472,
+      "height": 3648,
+      "photographer": "Josue Michel",
+      "sourceUrl": "https://unsplash.com/photos/2-girls-in-blue-dress-standing-on-brown-field-during-daytime-xCU7nCMNfI8",
+      "urls": {
+        "raw": "https://images.unsplash.com/photo-1611708314849-8bb91fe0fa56?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0",
+        "full": "https://images.unsplash.com/photo-1611708314849-8bb91fe0fa56?crop=entropy&cs=srgb&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=85",
+        "regular": "https://images.unsplash.com/photo-1611708314849-8bb91fe0fa56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "small": "https://images.unsplash.com/photo-1611708314849-8bb91fe0fa56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "thumb": "https://images.unsplash.com/photo-1611708314849-8bb91fe0fa56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "small_s3": "https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1611708314849-8bb91fe0fa56"
+      }
+    },
+    {
+      "id": "lP_FbBkMn1c",
+      "description": "four boys laughing and sitting on grass during daytime",
+      "term": "children-friends",
+      "width": 5000,
+      "height": 3333,
+      "photographer": "Robert Collins",
+      "sourceUrl": "https://unsplash.com/photos/four-boys-laughing-and-sitting-on-grass-during-daytime-lP_FbBkMn1c",
+      "urls": {
+        "raw": "https://images.unsplash.com/photo-1502781252888-9143ba7f074e?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0",
+        "full": "https://images.unsplash.com/photo-1502781252888-9143ba7f074e?crop=entropy&cs=srgb&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=85",
+        "regular": "https://images.unsplash.com/photo-1502781252888-9143ba7f074e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "small": "https://images.unsplash.com/photo-1502781252888-9143ba7f074e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "thumb": "https://images.unsplash.com/photo-1502781252888-9143ba7f074e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "small_s3": "https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1502781252888-9143ba7f074e"
+      }
+    },
+    {
+      "id": "P5MXtYfgmmw",
+      "description": "Three children sitting together on concrete steps, laughing and hugging",
+      "term": "children-friends",
+      "width": 5393,
+      "height": 8086,
+      "photographer": "Nathan Dumlao",
+      "sourceUrl": "https://unsplash.com/photos/three-children-laughing-on-steps-P5MXtYfgmmw",
+      "urls": {
+        "raw": "https://images.unsplash.com/photo-1607453998774-d533f65dac99?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0",
+        "full": "https://images.unsplash.com/photo-1607453998774-d533f65dac99?crop=entropy&cs=srgb&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=85",
+        "regular": "https://images.unsplash.com/photo-1607453998774-d533f65dac99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "small": "https://images.unsplash.com/photo-1607453998774-d533f65dac99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "thumb": "https://images.unsplash.com/photo-1607453998774-d533f65dac99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "small_s3": "https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1607453998774-d533f65dac99"
+      }
+    },
+    {
+      "id": "xaG8oaZD7ss",
+      "description": "Four children playing with floating bubbles in a green garden",
+      "term": "children-playing",
+      "width": 5100,
+      "height": 3300,
+      "photographer": "Katherine Hanlon",
+      "sourceUrl": "https://unsplash.com/photos/children-playing-with-bubbles-in-garden-xaG8oaZD7ss",
+      "urls": {
+        "raw": "https://images.unsplash.com/photo-1614113036347-9f60df80730a?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0",
+        "full": "https://images.unsplash.com/photo-1614113036347-9f60df80730a?crop=entropy&cs=srgb&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=85",
+        "regular": "https://images.unsplash.com/photo-1614113036347-9f60df80730a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "small": "https://images.unsplash.com/photo-1614113036347-9f60df80730a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "thumb": "https://images.unsplash.com/photo-1614113036347-9f60df80730a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "small_s3": "https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1614113036347-9f60df80730a"
+      }
+    },
+    {
+      "id": "LGlBwZGjiwM",
+      "description": "girl in yellow crew neck shirt",
+      "term": "child-portrait",
+      "width": 4819,
+      "height": 5304,
+      "photographer": "🇸🇮 Janko Ferlič",
+      "sourceUrl": "https://unsplash.com/photos/girl-in-yellow-crew-neck-shirt-LGlBwZGjiwM",
+      "urls": {
+        "raw": "https://images.unsplash.com/photo-1595760780346-f972eb49709f?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0",
+        "full": "https://images.unsplash.com/photo-1595760780346-f972eb49709f?crop=entropy&cs=srgb&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=85",
+        "regular": "https://images.unsplash.com/photo-1595760780346-f972eb49709f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "small": "https://images.unsplash.com/photo-1595760780346-f972eb49709f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=400",
+        "thumb": "https://images.unsplash.com/photo-1595760780346-f972eb49709f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&q=80&w=200",
+        "small_s3": "https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1595760780346-f972eb49709f"
+      }
+    },
+    {
+      "id": "photo-1671438118097-479e63198629",
+      "description": "Polo branca em um cabide",
+      "photographer": null,
+      "sourceUrl": "https://images.unsplash.com/photo-1671438118097-479e63198629",
+      "urls": {
+        "raw": "https://images.unsplash.com/photo-1671438118097-479e63198629"
+      },
+      "providedBy": "User",
+      "retrievedAtUtc": "2026-10-14T22:33:35.921Z"
+    },
+    {
+      "id": "photo-1605813945635-10fdefb45dd1",
+      "description": "Criança brincando com folhas",
+      "photographer": null,
+      "sourceUrl": "https://images.unsplash.com/photo-1605813945635-10fdefb45dd1",
+      "urls": {
+        "raw": "https://images.unsplash.com/photo-1605813945635-10fdefb45dd1"
+      },
+      "providedBy": "User",
+      "retrievedAtUtc": "2026-10-14T22:33:35.921Z"
+    },
+    {
+      "id": "photo-1785828642909-676851fe3db2",
+      "description": "Criança com camiseta de veículos e short escuro",
+      "photographer": null,
+      "sourceUrl": "https://images.unsplash.com/photo-1785828642909-676851fe3db2",
+      "urls": {
+        "raw": "https://images.unsplash.com/photo-1785828642909-676851fe3db2"
+      },
+      "providedBy": "User",
+      "retrievedAtUtc": "2026-10-14T22:33:35.922Z"
+    },
+    {
+      "id": "photo-1604303768345-038b79a8c47a",
+      "photographer": null,
+      "sourceUrl": "https://images.unsplash.com/photo-1604303768345-038b79a8c47a",
+      "urls": {
+        "raw": "https://images.unsplash.com/photo-1604303768345-038b79a8c47a"
+      },
+      "providedBy": "User",
+      "retrievedAtUtc": "2026-10-14T22:40:57.389Z"
+    },
+    {
+      "id": "photo-1622290291468-a28f7a7dc6a8",
+      "photographer": null,
+      "sourceUrl": "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8",
+      "urls": {
+        "raw": "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8"
+      },
+      "providedBy": "User",
+      "retrievedAtUtc": "2026-10-14T22:40:57.391Z"
+    }
+  ],
+  "userSelections": [
+    {
+      "slot": "category-polos",
+      "sourceUrl": "https://images.unsplash.com/photo-1671438118097-479e63198629",
+      "evidence": "Exact image URL supplied by user for this category tile.",
+      "recordedAtUtc": "2026-10-14T22:33:35.922Z"
+    },
+    {
+      "slot": "category-t-shirts",
+      "sourceUrl": "https://images.unsplash.com/photo-1605813945635-10fdefb45dd1",
+      "evidence": "Exact image URL supplied by user for this category tile.",
+      "recordedAtUtc": "2026-10-14T22:33:35.922Z"
+    },
+    {
+      "slot": "category-shorts",
+      "sourceUrl": "https://images.unsplash.com/photo-1785828642909-676851fe3db2",
+      "evidence": "Exact image URL supplied by user for this category tile.",
+      "recordedAtUtc": "2026-10-14T22:33:35.922Z"
+    },
+    {
+      "slot": "hero-left-wide",
+      "sourceUrl": "https://images.unsplash.com/photo-1604303768345-038b79a8c47a",
+      "evidence": "Exact hero image URL supplied by user, left then right.",
+      "recordedAtUtc": "2026-10-14T22:40:57.391Z"
+    },
+    {
+      "slot": "hero-right-wide",
+      "sourceUrl": "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8",
+      "evidence": "Exact hero image URL supplied by user, left then right.",
+      "recordedAtUtc": "2026-10-14T22:40:57.391Z"
+    }
+  ],
+  "retainedBanners": {
+    "slots": [
+      "quote-garments",
+      "editorial-quintal"
+    ],
+    "evidence": "User requested leaving the two big banners below categories exactly as before the changes.",
+    "recordedAtUtc": "2026-10-14T22:40:57.391Z"
+  }
+}
