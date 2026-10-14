@@ -1,0 +1,23 @@
+{
+  "applicationRevision": "7e1c9545d205aee3a170f2932bf43c7844c4a52b",
+  "baselineRevision": "240beb7aa31e50fbc0180002789aa447649017cd",
+  "productionBuildId": "MsPg9uwZRSpYcyB4gYmzE",
+  "baselineBuildId": "cXiQ9ln-k_kitIvDmnlvn",
+  "siteUrl": "http://127.0.0.1:3100",
+  "date": "2026-10-14",
+  "reviewer": "Codex",
+  "os": "Windows 11 Home Single Language 10.0.26300",
+  "runtime": "Bun 1.4.3",
+  "framework": "Next.js 16.4.0 / React 19.3.0",
+  "checks": [
+    { "command": "bun run lint", "outcome": "passed" },
+    { "command": "bun run typecheck", "outcome": "passed" },
+    { "command": "bun run validate:content", "outcome": "passed", "revision": "240beb7aa31e50fbc0180002789aa447649017cd", "note": "Approved content bytes and human approvals verified; content unchanged by the final CSS-only application correction." },
+    { "command": "bun run test:unit", "outcome": "passed", "revision": "240beb7aa31e50fbc0180002789aa447649017cd", "files": 8, "cases": 70, "note": "Contract modules unchanged by the final CSS-only application correction." },
+    { "command": "bun run build", "outcome": "passed", "publicOutputs": 48 },
+    { "command": "bunx playwright test --config playwright.dev.config.ts --reporter=list,json", "outcome": "passed", "cases": 1, "report": "development-run.json" }
+  ],
+  "humanCheckpointAcceptance": "pending",
+  "publicPreview": null,
+  "releaseApproval": "not requested"
+}

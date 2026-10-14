@@ -1,0 +1,380 @@
+{
+  "condition": "Windows Chromium; touch emulation at 390/768 CSS pixels. Agent visual review and human/assistive-technology review are recorded separately.",
+  "observations": [
+    {
+      "width": 390,
+      "state": "product",
+      "file": "captures/product-390.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": true,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "state": "missing-size",
+      "file": "captures/missing-size-390.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": true,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": [],
+      "missingSizeFocus": true
+    },
+    {
+      "width": 390,
+      "state": "guidance",
+      "file": "captures/guidance-390.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": true,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": [],
+      "keyboardFocusContained": true
+    },
+    {
+      "width": 390,
+      "state": "enlargement",
+      "file": "captures/enlargement-390.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": true,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": [],
+      "keyboardFocusContained": true
+    },
+    {
+      "width": 390,
+      "state": "cart",
+      "file": "captures/cart-390.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": true,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": [],
+      "keyboardFocusContained": true
+    },
+    {
+      "width": 390,
+      "state": "favorites",
+      "file": "captures/favorites-390.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": true,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "state": "favorites-empty",
+      "file": "captures/favorites-empty-390.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": true,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "state": "cart-empty",
+      "file": "captures/cart-empty-390.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": true,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "state": "recovery",
+      "file": "captures/recovery-390.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": true,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "state": "storage-failure",
+      "file": "captures/storage-failure-390.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": true,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "state": "pending",
+      "file": "captures/pending-390.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": true,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": [],
+      "appJavaScriptBlocked": true
+    },
+    {
+      "width": 390,
+      "state": "image-failure",
+      "file": "captures/image-failure-390.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": true,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": []
+    },
+    {
+      "width": 768,
+      "state": "product",
+      "file": "captures/product-768.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": true,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": []
+    },
+    {
+      "width": 768,
+      "state": "missing-size",
+      "file": "captures/missing-size-768.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": true,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": [],
+      "missingSizeFocus": true
+    },
+    {
+      "width": 768,
+      "state": "guidance",
+      "file": "captures/guidance-768.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": true,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": [],
+      "keyboardFocusContained": true
+    },
+    {
+      "width": 768,
+      "state": "enlargement",
+      "file": "captures/enlargement-768.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": true,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": [],
+      "keyboardFocusContained": true
+    },
+    {
+      "width": 768,
+      "state": "cart",
+      "file": "captures/cart-768.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": true,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": [],
+      "keyboardFocusContained": true
+    },
+    {
+      "width": 768,
+      "state": "favorites",
+      "file": "captures/favorites-768.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": true,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": []
+    },
+    {
+      "width": 768,
+      "state": "favorites-empty",
+      "file": "captures/favorites-empty-768.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": true,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": []
+    },
+    {
+      "width": 768,
+      "state": "cart-empty",
+      "file": "captures/cart-empty-768.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": true,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": []
+    },
+    {
+      "width": 768,
+      "state": "recovery",
+      "file": "captures/recovery-768.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": true,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": []
+    },
+    {
+      "width": 768,
+      "state": "storage-failure",
+      "file": "captures/storage-failure-768.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": true,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": []
+    },
+    {
+      "width": 768,
+      "state": "pending",
+      "file": "captures/pending-768.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": true,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": [],
+      "appJavaScriptBlocked": true
+    },
+    {
+      "width": 768,
+      "state": "image-failure",
+      "file": "captures/image-failure-768.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": true,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "state": "product",
+      "file": "captures/product-1440.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": false,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "state": "missing-size",
+      "file": "captures/missing-size-1440.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": false,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": [],
+      "missingSizeFocus": true
+    },
+    {
+      "width": 1440,
+      "state": "guidance",
+      "file": "captures/guidance-1440.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": false,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": [],
+      "keyboardFocusContained": true
+    },
+    {
+      "width": 1440,
+      "state": "enlargement",
+      "file": "captures/enlargement-1440.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": false,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": [],
+      "keyboardFocusContained": true
+    },
+    {
+      "width": 1440,
+      "state": "cart",
+      "file": "captures/cart-1440.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": false,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": [],
+      "keyboardFocusContained": true
+    },
+    {
+      "width": 1440,
+      "state": "favorites",
+      "file": "captures/favorites-1440.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": false,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "state": "favorites-empty",
+      "file": "captures/favorites-empty-1440.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": false,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "state": "cart-empty",
+      "file": "captures/cart-empty-1440.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": false,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "state": "recovery",
+      "file": "captures/recovery-1440.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": false,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "state": "storage-failure",
+      "file": "captures/storage-failure-1440.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": false,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "state": "pending",
+      "file": "captures/pending-1440.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": false,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": [],
+      "appJavaScriptBlocked": true
+    },
+    {
+      "width": 1440,
+      "state": "image-failure",
+      "file": "captures/image-failure-1440.png",
+      "engine": "156.0.8078.4",
+      "touchEmulated": false,
+      "reducedMotion": true,
+      "horizontalOverflow": false,
+      "axeViolations": []
+    }
+  ]
+}

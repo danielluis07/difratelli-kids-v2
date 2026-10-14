@@ -1,0 +1,190 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: product.spec.ts >> approved responsive widths and zoom keep options and dialogs usable
+- Location: tests\browser\product.spec.ts:166:5
+
+# Error details
+
+```
+Test timeout of 60000ms exceeded.
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - complementary "Novidades da Difratelli" [ref=e2]:
+    - button "Mensagem anterior" [ref=e3] [cursor=pointer]
+    - paragraph [ref=e6]:
+      - text: Cores que se encontram. Escolhas do seu jeito.
+      - link "Detalhes" [ref=e7]:
+        - /url: /colecoes/imaginacao-em-casa
+    - button "Próxima mensagem" [ref=e8] [cursor=pointer]
+    - button "Retomar mensagens" [disabled] [pressed] [ref=e11]
+  - banner [ref=e14]:
+    - link "Pular para o conteúdo" [ref=e15]:
+      - /url: "#main-content"
+    - generic [ref=e16]:
+      - link "Difratelli Kids — Página inicial" [ref=e17]:
+        - /url: /
+        - img "Difratelli Kids" [ref=e18]
+      - navigation "Menu" [ref=e19]:
+        - button "Novidades" [ref=e20] [cursor=pointer]
+        - button "Meninas" [ref=e21] [cursor=pointer]
+        - button "Meninos" [ref=e22] [cursor=pointer]
+        - link "Coleções" [ref=e23]:
+          - /url: /colecoes
+        - link "Sobre a Difratelli" [ref=e24]:
+          - /url: /sobre
+      - generic [ref=e25]:
+        - button "Buscar" [ref=e26] [cursor=pointer]
+        - link "Favoritos, nenhum produto salvo" [ref=e27]:
+          - /url: /favoritos
+          - generic [aria-hidden] [ref=e28]: "0"
+        - button "Abrir sacola — Sacola, nenhuma peça" [ref=e29] [cursor=pointer]:
+          - generic [aria-hidden] [ref=e30]: "0"
+  - main [ref=e31]:
+    - navigation "Caminho da página" [ref=e32]:
+      - link "Página inicial" [ref=e33]:
+        - /url: /
+      - generic [aria-hidden] [ref=e34]: /
+      - link "Todas as roupas" [ref=e35]:
+        - /url: /produtos
+    - generic [ref=e36]:
+      - region "Fotos de Short Passo Leve" [ref=e37]:
+        - img "Lia usando Short Passo Leve na cor Verde-folha, com a peça inteira visível sobre fundo branco." [ref=e39]
+        - group "Fotos de Short Passo Leve" [ref=e40]:
+          - 'button "Ver foto 1: Na criança" [pressed] [ref=e41] [cursor=pointer]'
+          - 'button "Ver foto 2: A peça" [ref=e43] [cursor=pointer]'
+        - generic [ref=e45]:
+          - button "Foto anterior" [ref=e46] [cursor=pointer]
+          - button "Próxima foto" [ref=e47] [cursor=pointer]
+          - button "Ampliar imagem" [ref=e48] [cursor=pointer]
+        - paragraph [ref=e49]: Foto 1 de 2
+      - generic [ref=e50]:
+        - heading "Short Passo Leve" [level=1] [ref=e51]
+        - paragraph [ref=e52]: R$ 89,00
+        - paragraph [ref=e53]:
+          - text: "Cor:"
+          - strong [ref=e54]: Verde-folha
+        - generic "Cor" [ref=e55]:
+          - link "Verde-folha" [ref=e56]:
+            - /url: "?cor=leaf"
+          - link "Creme" [ref=e58]:
+            - /url: "?cor=cream"
+        - region "Tamanho" [ref=e60]:
+          - generic [ref=e61]:
+            - heading "Tamanho" [level=2] [ref=e62]
+            - button "Guia de tamanhos" [active] [ref=e63] [cursor=pointer]
+          - group "Tamanho" [ref=e64]:
+            - button "Tamanho 2" [ref=e65] [cursor=pointer]: "2"
+            - button "Tamanho 4" [ref=e66] [cursor=pointer]: "4"
+            - button "Tamanho 6" [ref=e67] [cursor=pointer]: "6"
+            - button "Tamanho 8" [ref=e68] [cursor=pointer]: "8"
+          - paragraph [ref=e69]: Selecione um tamanho
+        - generic [ref=e70]:
+          - button "Adicionar à sacola" [ref=e71] [cursor=pointer]
+          - status [ref=e72]
+        - button "Salvar Short Passo Leve nos favoritos" [ref=e73] [cursor=pointer]: Favoritos
+        - generic [ref=e74]:
+          - group [ref=e75]:
+            - generic "Descrição" [ref=e76] [cursor=pointer]
+            - paragraph [ref=e77]: Short de sarja com cintura elástica, dois bolsos e cores que se misturam às estampas do quintal.
+          - group [ref=e78]:
+            - generic "Composição" [ref=e79] [cursor=pointer]
+            - paragraph [ref=e80]: 98% algodão, 2% elastano.
+          - group [ref=e81]:
+            - generic "Como veste" [ref=e82] [cursor=pointer]
+            - paragraph [ref=e83]: Cintura elástica e pernas soltas, com barra no meio da coxa.
+    - region [ref=e84]:
+      - heading "Para combinar" [level=2] [ref=e85]
+      - list [ref=e86]:
+        - listitem [ref=e87]:
+          - link [ref=e88]:
+            - /url: /produto/camiseta-folhas-ao-vento?cor=cream-leaf-teal
+            - img "Davi usando Camiseta Folhas ao Vento na cor Creme, verde-folha, verde-petróleo, com a peça inteira visível sobre fundo branco." [ref=e90]
+            - heading "Camiseta Folhas ao Vento" [level=2] [ref=e92]
+            - paragraph [ref=e93]: R$ 59,00
+          - button "Salvar Camiseta Folhas ao Vento nos favoritos" [ref=e94] [cursor=pointer]
+          - 'group "Cor: Camiseta Folhas ao Vento" [ref=e95]':
+            - button "Cor Creme, verde-folha, verde-petróleo" [pressed] [ref=e96] [cursor=pointer]
+          - generic [ref=e98]: Creme, verde-folha, verde-petróleo
+        - listitem [ref=e99]:
+          - link [ref=e100]:
+            - /url: /produto/polo-lisa-do-quintal?cor=cream
+            - img "Caio usando Polo Lisa do Quintal creme, com gola, mangas e barra inteiras sobre fundo branco." [ref=e102]
+            - heading "Polo Lisa do Quintal" [level=2] [ref=e104]
+            - paragraph [ref=e105]: R$ 79,00
+          - button "Salvar Polo Lisa do Quintal nos favoritos" [ref=e106] [cursor=pointer]
+          - 'group "Cor: Polo Lisa do Quintal" [ref=e107]':
+            - button "Cor Creme" [pressed] [ref=e108] [cursor=pointer]
+          - generic [ref=e110]: Creme
+        - listitem [ref=e111]:
+          - link [ref=e112]:
+            - /url: /produto/camiseta-pequenas-sementes?cor=cream-butter-leaf
+            - img "Lia usando Camiseta Pequenas Sementes na cor Creme, amarelo-manteiga, verde-folha, com a peça inteira visível sobre fundo branco." [ref=e114]
+            - heading "Camiseta Pequenas Sementes" [level=2] [ref=e116]
+            - paragraph [ref=e117]: R$ 59,00
+          - button "Salvar Camiseta Pequenas Sementes nos favoritos" [ref=e118] [cursor=pointer]
+          - 'group "Cor: Camiseta Pequenas Sementes" [ref=e119]':
+            - button "Cor Creme, amarelo-manteiga, verde-folha" [pressed] [ref=e120] [cursor=pointer]
+          - generic [ref=e122]: Creme, amarelo-manteiga, verde-folha
+        - listitem [ref=e123]:
+          - link [ref=e124]:
+            - /url: /produto/blusa-jardim-miudo?cor=cream-leaf-teal
+            - img "Bia usando Blusa Jardim Miúdo na cor Creme, verde-folha, verde-petróleo, com a peça inteira visível sobre fundo branco." [ref=e126]
+            - heading "Blusa Jardim Miúdo" [level=2] [ref=e128]
+            - paragraph [ref=e129]: R$ 69,00
+          - button "Salvar Blusa Jardim Miúdo nos favoritos" [ref=e130] [cursor=pointer]
+          - 'group "Cor: Blusa Jardim Miúdo" [ref=e131]':
+            - button "Cor Creme, verde-folha, verde-petróleo" [pressed] [ref=e132] [cursor=pointer]
+          - generic [ref=e134]: Creme, verde-folha, verde-petróleo
+  - contentinfo [ref=e135]:
+    - generic [ref=e136]:
+      - generic [ref=e137]:
+        - link "Página inicial" [ref=e138]:
+          - /url: /
+          - img "Difratelli Kids" [ref=e139]
+        - paragraph [ref=e140]: Roupas para crianças de 2 a 8 anos, entre descobertas no quintal, brincadeiras na rua e histórias em casa.
+        - link "Sobre a Difratelli" [ref=e141]:
+          - /url: /sobre
+      - navigation "Para brincar" [ref=e142]:
+        - heading "Para brincar" [level=2] [ref=e143]
+        - link "Todas as roupas" [ref=e144]:
+          - /url: /produtos
+        - link "Novidades" [ref=e145]:
+          - /url: /novidades
+        - link "Meninas" [ref=e146]:
+          - /url: /meninas
+        - link "Meninos" [ref=e147]:
+          - /url: /meninos
+      - navigation "Nossas coleções" [ref=e148]:
+        - heading "Nossas coleções" [level=2] [ref=e149]
+        - link "Coleções" [ref=e150]:
+          - /url: /colecoes
+        - link "Quintal de Descobertas" [ref=e151]:
+          - /url: /colecoes/quintal-de-descobertas
+        - link "Brincadeira de Rua" [ref=e152]:
+          - /url: /colecoes/brincadeira-de-rua
+        - link "Imaginação em Casa" [ref=e153]:
+          - /url: /colecoes/imaginacao-em-casa
+  - complementary "Sua sacola · Favoritos":
+    - generic:
+      - generic:
+        - status
+      - generic:
+        - status
+    - generic:
+      - generic:
+        - status
+      - generic:
+        - status
+  - status [ref=e154]
+  - alert [ref=e155]
+```

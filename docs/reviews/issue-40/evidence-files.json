@@ -1,0 +1,403 @@
+{
+  "applicationRevision": "7e1c9545d205aee3a170f2932bf43c7844c4a52b",
+  "applicationTreeUnchanged": true,
+  "productionBuildId": "MsPg9uwZRSpYcyB4gYmzE",
+  "files": [
+    {
+      "file": "docs/reviews/issue-40/affected-run.json",
+      "bytes": 16125,
+      "hashMode": "exact",
+      "sha256": "7d55a282599d2a379d6191a90e90453234f780b08e38cb7cb3120db4b9a29010"
+    },
+    {
+      "file": "docs/reviews/issue-40/capture-before-fix.json",
+      "bytes": 16661,
+      "hashMode": "exact",
+      "sha256": "189e0b81f92d2d759ac549f87d76b0d760bdb7b44532faf0328eed506a86f3b2"
+    },
+    {
+      "file": "docs/reviews/issue-40/capture-run.json",
+      "bytes": 10654,
+      "hashMode": "exact",
+      "sha256": "2dc6b01d09c597bf0226499991bbcb48c9a58038d548a20982d099d8bab915b1"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/cart-1440.png",
+      "bytes": 305818,
+      "hashMode": "exact",
+      "sha256": "17ce997d22ba5ed955690c5affbd4fb878e244ddbf03e194eb1bb33e6b6d11c2"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/cart-390.png",
+      "bytes": 68592,
+      "hashMode": "exact",
+      "sha256": "53e0b4484816f6d1763b430c1d7440fbb8569185f73ce21b5fcc87f5dc0efe99"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/cart-768.png",
+      "bytes": 165262,
+      "hashMode": "exact",
+      "sha256": "fece3610282567c96555489a72244ed90c5c6a47fcad54218c092e0752ea9eea"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/cart-empty-1440.png",
+      "bytes": 123839,
+      "hashMode": "exact",
+      "sha256": "d575a61bf94c473eb360eba7d92c09d4ecbf48bec3a46ab0a075dbaf21e53f89"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/cart-empty-390.png",
+      "bytes": 17016,
+      "hashMode": "exact",
+      "sha256": "f43c043c43b0c9e57cef8276d774aec548aaf59155aef571bb83bc748b8035cf"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/cart-empty-768.png",
+      "bytes": 71143,
+      "hashMode": "exact",
+      "sha256": "8ef52f294ee2caf4ed09b92acdc8b51f54204b5725815c1d621cc69396d9d701"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/enlargement-1440.png",
+      "bytes": 396249,
+      "hashMode": "exact",
+      "sha256": "2ac779bcbf232e1197f56e61c1639bf4f24cfa4a59cdaab859b723a87939f8c9"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/enlargement-390.png",
+      "bytes": 125745,
+      "hashMode": "exact",
+      "sha256": "1f9ee1523cae5b0af680b97bdf0d95fc2481a4485b18adcf77ce4ba64bcbc6db"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/enlargement-768.png",
+      "bytes": 228193,
+      "hashMode": "exact",
+      "sha256": "46bc4e921b40fc5471425d3cc2b4e4ec605f4085e8b9781653ae7cf52235c1ee"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/favorites-1440.png",
+      "bytes": 333856,
+      "hashMode": "exact",
+      "sha256": "e4774e3f122f5799d5a961df8c187bc5132f68d343f5f6d5e61b1f2e6c1b9fef"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/favorites-390.png",
+      "bytes": 139548,
+      "hashMode": "exact",
+      "sha256": "753cefc0aba6164078298412e70abd5183c9b5621a8af508c113b2c82fcedb5c"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/favorites-768.png",
+      "bytes": 177047,
+      "hashMode": "exact",
+      "sha256": "cc7cb775e3125f3433628e825831592b74294371e63ef58c34ef9fa6e4b765a8"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/favorites-empty-1440.png",
+      "bytes": 71920,
+      "hashMode": "exact",
+      "sha256": "8ad295254da7c4a935254d7ee6b64e45e2d4ac0dc8bbd75fbe56583fc2264e63"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/favorites-empty-390.png",
+      "bytes": 44059,
+      "hashMode": "exact",
+      "sha256": "504974b2d48157c691ce50bf54eea18e724cba267e9182e2eecdd3dd81640a15"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/favorites-empty-768.png",
+      "bytes": 64060,
+      "hashMode": "exact",
+      "sha256": "fdb36573060e6ab87fced73d0c10b7ce700de1c97da2cfa06bea67881d6e6ff2"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/guidance-1440.png",
+      "bytes": 180860,
+      "hashMode": "exact",
+      "sha256": "2c28e63312ee852a36366548da34405f2c4a7602091753c1ed37826b91a0c0fc"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/guidance-390.png",
+      "bytes": 69421,
+      "hashMode": "exact",
+      "sha256": "5e9dd42b5c0fe4720c5f005be7138ac71c0f244c69deb1bc3486e70f06754606"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/guidance-768.png",
+      "bytes": 110149,
+      "hashMode": "exact",
+      "sha256": "60b4ce857218ad86e6da286550634d8f9da9cad27a86500ae1c89b387585ef13"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/image-failure-1440.png",
+      "bytes": 62478,
+      "hashMode": "exact",
+      "sha256": "7818afcc17e3edb5cf03e681139aabc285d0681963a01c7cd2b1cceb7e382605"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/image-failure-390.png",
+      "bytes": 26640,
+      "hashMode": "exact",
+      "sha256": "c1b92bb5736632524bcb2865ab760bdb9bac3854124eafb4879ba90503e659b0"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/image-failure-768.png",
+      "bytes": 61732,
+      "hashMode": "exact",
+      "sha256": "c8430ecef11be07d85d2b84ac8bbbaa63071bc7d34106f2ebf69eddb7d0e5149"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/missing-size-1440.png",
+      "bytes": 226028,
+      "hashMode": "exact",
+      "sha256": "8fdb47e1cae8ec737ac273f368ee9f7dbeccc823f849eebbd58e499381017e33"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/missing-size-390.png",
+      "bytes": 42537,
+      "hashMode": "exact",
+      "sha256": "505c0252e19e03c1c045ac6c5183068cb109c85ff7215850216430f18cc0d314"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/missing-size-768.png",
+      "bytes": 147369,
+      "hashMode": "exact",
+      "sha256": "07f1485d46958dd764e895b4b96019cc20e46dda5e9fa7176bd136a15e34497c"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/pending-1440.png",
+      "bytes": 66011,
+      "hashMode": "exact",
+      "sha256": "a0c2c1ac318f6c28e3237e2e1add0881920cbd643d5ab97c60ea5dba867b83e6"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/pending-390.png",
+      "bytes": 40655,
+      "hashMode": "exact",
+      "sha256": "68c718dcbb8269e0a1f978db6fa6d6475ae621e05466b83406a29ee8edad2d9c"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/pending-768.png",
+      "bytes": 55082,
+      "hashMode": "exact",
+      "sha256": "a5327c3c1636afd968baf7aed97367142b39cc37a7e54b1bcc67944f99f7c1c0"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/product-1440.png",
+      "bytes": 223655,
+      "hashMode": "exact",
+      "sha256": "ccf0f9d062a215a12cc865bd404f79aa85784e7b932a47f85f3ae25f82bcc77e"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/product-390.png",
+      "bytes": 113279,
+      "hashMode": "exact",
+      "sha256": "c54693d64cbea275bde60adc897f8822b6fc3d01b3d89f5eaf74d2abe1e36e04"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/product-768.png",
+      "bytes": 145327,
+      "hashMode": "exact",
+      "sha256": "a9f684c98aec4ef0a0c168f9d7617d4eaf2f933eaba81148718f6529707433ab"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/recovery-1440.png",
+      "bytes": 147680,
+      "hashMode": "exact",
+      "sha256": "177adf0e722be76ec53ecf345532aa1678b02655da5e6afe99d19a46f7242a6f"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/recovery-390.png",
+      "bytes": 80664,
+      "hashMode": "exact",
+      "sha256": "14cc6476df48b32de8bf938b434b679b3d9ee1362d379e6c0c72539b5774b002"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/recovery-768.png",
+      "bytes": 110219,
+      "hashMode": "exact",
+      "sha256": "b566b95f3877abd8d2fd1301fade0d89a2c287b38b0c4c0a0d7a32638f748e91"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/storage-failure-1440.png",
+      "bytes": 80646,
+      "hashMode": "exact",
+      "sha256": "bf16b690ea19c1408afcf6a7e3cc022c5ff96c7b915efeea4c9147006075aab3"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/storage-failure-390.png",
+      "bytes": 49783,
+      "hashMode": "exact",
+      "sha256": "354aaada9713c3e81d00dde720ff2dd7f58311e79d2023e81d358d9142638a48"
+    },
+    {
+      "file": "docs/reviews/issue-40/captures/storage-failure-768.png",
+      "bytes": 65520,
+      "hashMode": "exact",
+      "sha256": "8237a79cdfe5a881d981e7a9699ea52114f76dba5368eafe6f6e7f2a44aa692f"
+    },
+    {
+      "file": "docs/reviews/issue-40/case-coverage.json",
+      "bytes": 67515,
+      "hashMode": "exact",
+      "sha256": "b484d160b6607640b49695505256eed8b4b321bc2b6dffc42ea76b84ffbfae0d"
+    },
+    {
+      "file": "docs/reviews/issue-40/checks.json",
+      "bytes": 1406,
+      "hashMode": "exact",
+      "sha256": "80c55c97ce60a0f77ebd9c2b38ffcb9bbc33e080b5398ff946f826b491e70d8a"
+    },
+    {
+      "file": "docs/reviews/issue-40/development-run.json",
+      "bytes": 4486,
+      "hashMode": "exact",
+      "sha256": "ed1efa5da4df838ff32e75337b427570223cd17d2ccab9ea044e54f36ebccd6b"
+    },
+    {
+      "file": "docs/reviews/issue-40/failures/cart-add-focuses-missing-s-9bf7f-s-selected-options-distinct-mobile-webkit/error-context.md",
+      "bytes": 9737,
+      "hashMode": "exact",
+      "sha256": "3b76f3006aafa6d87a4a18af5ac961634433ce1c04f5ee61dbc59f5956dbfc9a"
+    },
+    {
+      "file": "docs/reviews/issue-40/failures/cart-add-focuses-missing-s-9bf7f-s-selected-options-distinct-mobile-webkit/test-failed-1.png",
+      "bytes": 560608,
+      "hashMode": "exact",
+      "sha256": "a7b25c89a3db33fdef36fc8c31fe6b069e22c03fd6b10db9e4a72877c40b6639"
+    },
+    {
+      "file": "docs/reviews/issue-40/failures/cart-add-focuses-missing-s-9bf7f-s-selected-options-distinct-mobile-webkit/trace.zip",
+      "bytes": 1216044,
+      "hashMode": "exact",
+      "sha256": "0473690a206ba889204106705fb39b5986c2fbd2908a473fa63e78e3c3671a7d"
+    },
+    {
+      "file": "docs/reviews/issue-40/failures/product-approved-responsiv-46ab5--options-and-dialogs-usable-webkit/error-context.md",
+      "bytes": 8864,
+      "hashMode": "exact",
+      "sha256": "e4fecb592244a979c9cc2fb34cda0254697e5c6704d8aae6a839256907e36c23"
+    },
+    {
+      "file": "docs/reviews/issue-40/failures/product-approved-responsiv-46ab5--options-and-dialogs-usable-webkit/trace.zip",
+      "bytes": 2060511,
+      "hashMode": "exact",
+      "sha256": "f9755e244d4b63e020087b9827b68394e4516b8e0f75afe21fd394a9f92c7a30"
+    },
+    {
+      "file": "docs/reviews/issue-40/failures/product-enlargement-and-gu-ec67b-store-triggers-and-pass-axe-webkit/error-context.md",
+      "bytes": 23285,
+      "hashMode": "exact",
+      "sha256": "e5169532f164f86f28e44d72f9fa2f5c11d588180eb0aa175a3521b9fe3bf745"
+    },
+    {
+      "file": "docs/reviews/issue-40/failures/product-enlargement-and-gu-ec67b-store-triggers-and-pass-axe-webkit/trace.zip",
+      "bytes": 2742838,
+      "hashMode": "exact",
+      "sha256": "545ac2d6e65439571a5a5c3c48009bf0cd021e34dc0ae3a93455071c7cc3f4eb"
+    },
+    {
+      "file": "docs/reviews/issue-40/failures/product-product-and-dialog-2a917-es-retain-labeled-fallbacks-mobile-webkit/error-context.md",
+      "bytes": 11310,
+      "hashMode": "exact",
+      "sha256": "91849d970e963f3c2b2329ff01b3aa6fdc919b8bbf636be07a10f700802b35fa"
+    },
+    {
+      "file": "docs/reviews/issue-40/failures/product-product-and-dialog-2a917-es-retain-labeled-fallbacks-mobile-webkit/test-failed-1.png",
+      "bytes": 47238,
+      "hashMode": "exact",
+      "sha256": "acaef7285b59d0764aba2cc023caa8da4cdbce64e34cdcb0f473749eca20c31a"
+    },
+    {
+      "file": "docs/reviews/issue-40/failures/product-product-and-dialog-2a917-es-retain-labeled-fallbacks-mobile-webkit/trace.zip",
+      "bytes": 498207,
+      "hashMode": "exact",
+      "sha256": "b684d1c82407b38a748db85c2849df1e19421f6d79ad4e928bb43a31c747e32b"
+    },
+    {
+      "file": "docs/reviews/issue-40/failures/recovery-recovers-mixed-en-5898a-lains-each-restoration-once-webkit/error-context.md",
+      "bytes": 16390,
+      "hashMode": "exact",
+      "sha256": "7674b0c2dee07e410a9c0eddf0ee11049ffe867b9c37cdefaa518fc9f0ba657c"
+    },
+    {
+      "file": "docs/reviews/issue-40/failures/recovery-recovers-mixed-en-5898a-lains-each-restoration-once-webkit/trace.zip",
+      "bytes": 773617,
+      "hashMode": "exact",
+      "sha256": "ab6ca8788b8c24eb651a31fcb7074cabad551af50b06ef02a57053588bf7ea3b"
+    },
+    {
+      "file": "docs/reviews/issue-40/gallery.html",
+      "bytes": 8666,
+      "hashMode": "exact",
+      "sha256": "d70b5586b59b3ee14feac32249cf683ce9c3f2bc18b6a21643f8d01b39dbf9c1"
+    },
+    {
+      "file": "docs/reviews/issue-40/production-rerun.json",
+      "bytes": 16411,
+      "hashMode": "exact",
+      "sha256": "1f275c03537ad59f46f747fc5c36979717f4a2ada419aba12f4b876364978384"
+    },
+    {
+      "file": "docs/reviews/issue-40/production-run.json",
+      "bytes": 184742,
+      "hashMode": "exact",
+      "sha256": "5af085ed752723dd3d17c4100a26bc0ff0cab81dcf3f326e4183c758535c96b1"
+    },
+    {
+      "file": "docs/reviews/issue-40/review.md",
+      "bytes": 18022,
+      "hashMode": "exact",
+      "sha256": "09d619e6c3fb12edf09e4b5ee65bdf3b98d1bafc86fc9428a7278f1d531b3b61"
+    },
+    {
+      "file": "docs/reviews/issue-40/thumbnail-before-fix-390.png",
+      "bytes": 24228,
+      "hashMode": "exact",
+      "sha256": "a36b8c4b124fb2497f8ca25700c9f3e09873025c16f8ff3038d2acb85c15bdb9"
+    },
+    {
+      "file": "docs/reviews/issue-40/thumbnail-before-fix.json",
+      "bytes": 11467,
+      "hashMode": "exact",
+      "sha256": "ddc80993611cded26cb074eba23c1f96290b7cec4261bc73627084ebf0d357e7"
+    },
+    {
+      "file": "docs/reviews/issue-40/visual-observations.json",
+      "bytes": 10049,
+      "hashMode": "exact",
+      "sha256": "8b019e7cd85c97343c7e7e3ab347efe92ee244931f205e239b8f5404ab83766b"
+    },
+    {
+      "file": "scripts/verification/capture-shopping-checkpoint.mjs",
+      "bytes": 8931,
+      "hashMode": "lf-normalized",
+      "sha256": "b105942fbfdf468aab0a6987a82e44b5d5e6e93f8b84fe74fbe4a1e624599bec"
+    },
+    {
+      "file": "scripts/verification/record-shopping-checkpoint.mjs",
+      "bytes": 3659,
+      "hashMode": "lf-normalized",
+      "sha256": "a443271bcc71a79cfe339ba5bd8b3d375b535cc347d99c3b4c8258068b8d1d7d"
+    },
+    {
+      "file": "tests/browser/product.spec.ts",
+      "bytes": 12697,
+      "hashMode": "lf-normalized",
+      "sha256": "7eb18fc3bd4179bfe353bcf1f1ae7e21bf6d2b18c517a9c72b6118d4dff9da72"
+    },
+    {
+      "file": "tests/browser/shopping-captures.spec.ts",
+      "bytes": 634,
+      "hashMode": "lf-normalized",
+      "sha256": "b00510adbd94de3e6b9696467c11aae44a61fea5b23dd9326e5a491eaa6aeb50"
+    },
+    {
+      "file": "tests/browser/shopping-checkpoint.spec.ts",
+      "bytes": 5526,
+      "hashMode": "lf-normalized",
+      "sha256": "60d7fa2235f07c6c5a96812c6095d71d14c8ddb4091ef29f3a2afa39f5931296"
+    }
+  ]
+}
