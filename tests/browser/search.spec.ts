@@ -22,7 +22,7 @@ test("header submission preserves spelling, matches every word and commits fresh
   await expect(page).toHaveURL(/\/busca\?q=CAMI\+descob%C3%A9rtas$/);
   await expect(cards(page)).toHaveCount(3);
   await expect(page.locator("main:visible .search-query")).toHaveText("“CAMI descobértas”");
-  await expect(page.getByRole("status")).toHaveText(copy.browsing.resultCount.many.replace("{count}", "3"));
+  await expect(page.locator("main:visible").getByRole("status")).toHaveText(copy.browsing.resultCount.many.replace("{count}", "3"));
   await page.reload();
   await expect(cards(page)).toHaveCount(3);
   search = await openSearch(page, isMobile);
@@ -84,7 +84,7 @@ test("blank and unmatched submissions provide approved recovery", async ({ page,
   await search.input.fill("cami inexistente");
   await search.dialog.getByRole("button", { name: copy.search.submit, exact: true }).click();
   await expect(page.getByText(copy.search.noResultsHeading.replace("{query}", "cami inexistente"), { exact: true })).toBeVisible();
-  await expect(page.getByRole("status")).toHaveText(copy.browsing.resultCount.zero);
+  await expect(page.locator("main:visible").getByRole("status")).toHaveText(copy.browsing.resultCount.zero);
   await expect(cards(page)).toHaveCount(0);
   expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
   await page.locator('main:visible [data-slot="empty"]').getByRole("link", { name: copy.search.noResultsAction }).click();

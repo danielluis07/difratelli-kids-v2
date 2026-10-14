@@ -23,6 +23,7 @@ test("add focuses missing size, merges, limits, and keeps selected options disti
   await expect(page.locator(".purchase-feedback")).toHaveText(copy.product.quantityLimited);
   await expect(page.locator(".cart-count")).toHaveText("10");
   await page.locator(".detail-colors:visible").getByRole("link", { name: otherColor.name, exact: true }).click();
+  await expect(page.locator(".product-information strong:visible")).toHaveText(otherColor.name);
   await add.click();
   await page.getByRole("button", { name: "Tamanho 6", exact: true }).click();
   await add.click();

@@ -3,7 +3,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { ChevronDown, Heart, Menu, X } from "lucide-react";
+import { ChevronDown, Menu, X } from "lucide-react";
+import { FavoritesLink } from "./favorites-link";
 import { CartSheet } from "./cart-sheet";
 import { HeaderSearch } from "./search";
 import copy from "@/docs/content/copy-proposal.json";
@@ -31,7 +32,7 @@ export function StorefrontHeader({ groups, wordmark }: { groups: NavigationGroup
               <Link href="/colecoes" onClick={() => setMenuOpen(false)}>{copy.navigation.collections}</Link>
               <Link href="/sobre" onClick={() => setMenuOpen(false)}>{copy.navigation.brand}</Link>
               <HeaderSearch compact onSubmit={() => setMenuOpen(false)} />
-              <Link href="/favoritos" onClick={() => setMenuOpen(false)}><Heart aria-hidden="true" />{copy.navigation.favorites}</Link>
+              <FavoritesLink compact onClick={() => setMenuOpen(false)} />
             </nav>
           </SheetContent>
         </Sheet>
@@ -54,7 +55,7 @@ export function StorefrontHeader({ groups, wordmark }: { groups: NavigationGroup
       </nav>
       <div className="header-actions">
         <HeaderSearch />
-        <Button className="desktop-action" variant="ghost" size="icon" render={<Link href="/favoritos" />} nativeButton={false} role="link" aria-label={copy.navigation.favorites}><Heart /></Button>
+        <FavoritesLink />
         <CartSheet />
       </div>
     </div>

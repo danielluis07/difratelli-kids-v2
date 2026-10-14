@@ -25,6 +25,7 @@ export interface Cart {
 export type FavoritesOutcome = CommandOutcome<"saved" | "removed", "not-ready" | "invalid-product">;
 export interface FavoritesSnapshot extends StorageStatus { readonly products: readonly Product[]; readonly count: number }
 export interface Favorites {
+  restore(): void;
   getSnapshot(): FavoritesSnapshot;
   subscribe(listener: () => void): () => void;
   has(productId: string): boolean;
