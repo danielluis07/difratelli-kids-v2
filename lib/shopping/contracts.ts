@@ -44,8 +44,11 @@ export type CheckoutDraft = DeepReadonly<{ delivery: Delivery; payment: Payment 
 export type DeliveryErrors = Partial<Record<keyof Delivery, "required" | "invalid">>;
 export type CheckoutTotals = { readonly subtotalCents: number; readonly shippingCents: number; readonly totalCents: number };
 export type Confirmation = DeepReadonly<{ lines: readonly ResolvedLine[]; draft: CheckoutDraft; totals: CheckoutTotals }>;
+export type CheckoutSnapshot = { readonly draft: CheckoutDraft; readonly confirmation: Confirmation | null; readonly visit: number };
 export type CheckoutOutcome = CommandOutcome<"updated" | "completed" | "discarded", "not-ready" | "invalid-draft" | "empty-cart" | "busy" | "pre-commit-failure">;
 export interface Checkout {
+  getSnapshot(): CheckoutSnapshot;
+  subscribe(listener: () => void): () => void;
   getDraft(): CheckoutDraft;
   updateDraft(draft: CheckoutDraft): CheckoutOutcome;
   validateDelivery(delivery: Delivery): DeliveryErrors;

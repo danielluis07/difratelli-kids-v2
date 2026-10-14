@@ -36,7 +36,7 @@ two-piece matching sets, whose approved records have no coordinating IDs.
 | Browsing/URL | `lib/browsing/index.ts` | Framework-independent scopes, parsing/canonical serialization, reset, every-word search, filter OR/AND and curated price ties |
 | Cart | `lib/cart/index.ts`, `lib/shopping/contracts.ts` | Isolated vanilla Zustand commands, immutable resolved snapshots, tuple/quantity rules and opt-in version-1 persistence with post-mount restoration |
 | Favorites | `lib/favorites/index.ts`, `lib/shopping/contracts.ts` | Independent persistent vanilla Zustand store, product membership/count, tolerant restoration and typed outcomes |
-| Visit checkout | `lib/checkout/index.ts`, `lib/shopping/contracts.ts` | Approved draft defaults, delivery validation, centavo totals and interface for future visit/completion lifecycle |
+| Visit checkout | `lib/checkout/index.ts`, `lib/shopping/contracts.ts` | Shared-layout memory draft, local delivery validation, integer totals, guarded completion, immutable summary and confirmation discard |
 | Presentation | `lib/presentation/contracts.ts`, `app/` | Invoke domain interfaces and translate outcomes to approved Portuguese copy; no direct array mutations |
 
 The cart factory supports independent in-memory commands or an injected storage
@@ -44,9 +44,9 @@ adapter acquired by its explicit `restore()` command. The shared-layout cart
 provider opts into persistence and restores only after mounting; public content
 continues rendering while dependent cart controls wait. The independent favorites
 provider follows the same mount/restoration boundary. Both stores recover valid
-entries and expose visit-only correction/failure feedback. Later shopping slices
-implement the shared-layout visit checkout provider, completion and confirmation
-lifetime. The public shell uses approved copy, local approved fonts and noindex;
+entries and expose visit-only correction/failure feedback. The shared-layout
+checkout provider owns the visit draft, completion and confirmation lifetime.
+The public shell uses approved copy, local approved fonts and noindex;
 issue #31 adds the public browsing presentation documented below; later slices
 complete the shopping interactions.
 
@@ -73,7 +73,43 @@ independence, navigation/reload, keyboard toggles/focus, announcements, pending
 server rendering, populated/empty axe scans and responsive grids. Local results
 and remaining integration gates are recorded in `docs/reviews/issue-38/review.md`.
 The recovery behavior and independent once-only storage warnings are covered by
-issue #39 below. Combined shopping integration acceptance remains a separate gate.
+issue #39 below. Combined shopping integration acceptance was recorded in issue #40.
+
+## Visit-only checkout slice (issue #41)
+
+`/checkout` waits for cart restoration and presents the approved empty state or
+delivery/payment form with current catalog prices and 1,590-centavo shipping.
+The shared-layout checkout provider keeps editable defaults and Pix/card choice
+only in memory. Reload creates a fresh draft. Errors and edited-field bookkeeping
+belong to the form; exiting the page invalidates its local state and temporary
+confirmation through Activity effect cleanup, including browser Back/Forward.
+
+Validation runs after an edited field loses focus and on submission, preserving
+values and focusing the first invalid control. Feedback space is reserved so
+blur validation cannot move the submit button between pointer press and release.
+The address number follows the accepted nonempty-value rule, including `s/n`.
+There is no address lookup or payment credential input.
+
+Completion guards concurrent/repeated submissions, prepares an immutable snapshot
+of the current items, prices, delivery/payment and totals, then clears cart/draft.
+Favorites are independent. Preparation failures leave the draft/cart available
+for retry. A failed storage write still commits in memory and displays the
+approved warning that old saved choices may return on reload. The optional
+preparation seam supports focused failure tests without application test endpoints.
+
+The exact disclosure appears only on successful completion. Confirmation is
+discarded on exit/reload and Continuar comprando opens the full catalog. Focused
+contracts live in `tests/contracts/checkout.test.ts`; production-browser journeys,
+axe scans and visual captures live in `tests/browser/checkout.spec.ts`.
+The development diagnostics journey also exercises checkout. Local evidence and
+remaining human acceptance requirements are recorded in
+`docs/reviews/issue-41/review.md`. The owner accepted the checkout integration
+checkpoint on 2026-10-14; release approval remains a separate gate.
+
+Cart and checkout thumbnail containers position and contain image fallbacks, so
+failed imagery cannot cover the checkout link or submit controls. A production
+regression blocks optimized images and verifies containment, readable fallback
+text and completion through the cart link.
 
 ## Storage recovery slice (issue #39)
 
