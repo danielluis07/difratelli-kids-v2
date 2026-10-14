@@ -1,0 +1,1273 @@
+{
+  "baselineRevision": "4905b6ce4881e4219eb446b0859ecadae0973542",
+  "applicationPatchSha256": "bd9ddffb22322935e49720902739ccce2ae8dd7358ff5370c02086bd456e14ef",
+  "singleCleanFullRun": false,
+  "cases": [
+    {
+      "project": "chromium",
+      "file": "browsing.spec.ts",
+      "title": "every filter dimension commits OR selections and AND intersections across responsive controls",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "browsing.spec.ts",
+      "title": "keyboard sorting changes history and preserves curated price ties",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "browsing.spec.ts",
+      "title": "malformed links remain intact until canonical user changes; history and refresh restore controls",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "browsing.spec.ts",
+      "title": "open filters have accessible labels and return keyboard focus",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "browsing.spec.ts",
+      "title": "public results remain readable while controls wait for hydration",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "browsing.spec.ts",
+      "title": "tablet filters keep the same committed selections when switching to desktop",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "browsing.spec.ts",
+      "title": "zero-result reset retains audience, collection and search scopes; navigation starts fresh",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "catalog.spec.ts",
+      "title": "cards reveal isolated images for pointer and keyboard inspection while touch retains models",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "catalog.spec.ts",
+      "title": "catalog, curated arrivals and audience views retain the approved assortment",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "catalog.spec.ts",
+      "title": "failed catalog images retain their reserved space and readable fallback",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "catalog.spec.ts",
+      "title": "gallery thumbnails become interactive when their hydrated color view is ready",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "catalog.spec.ts",
+      "title": "keyboard and click category menus lead to existing scoped listings",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "catalog.spec.ts",
+      "title": "listing, product, navigation and cart surfaces pass representative axe checks",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "catalog.spec.ts",
+      "title": "product gallery shows one image, supports thumbnail selection and resets for another color",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "catalog.spec.ts",
+      "title": "public catalog and known product and collection content is available before hydration",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "catalog.spec.ts",
+      "title": "responsive grids, sticky navigation and compact destinations work at the approved widths",
+      "outcome": "expected",
+      "runSummary": "refreshed-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "catalog.spec.ts",
+      "title": "swatches carry preview choice to readable detail and invalid color values use the default",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "catalog.spec.ts",
+      "title": "unknown destinations recover through the catalog and sharing metadata uses the configured origin",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "checkpoint.spec.ts",
+      "title": "checkpoint: every product and offered color has readable approved content",
+      "outcome": "expected",
+      "runSummary": "refreshed-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "checkpoint.spec.ts",
+      "title": "checkpoint: keyboard skip link leaves the main heading below the sticky header",
+      "outcome": "expected",
+      "runSummary": "refreshed-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "checkpoint.spec.ts",
+      "title": "checkpoint: product navigation returns to committed listing history",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "checkpoint.spec.ts",
+      "title": "checkpoint: public route matrix retains loaded imagery, responsive layout and accessibility",
+      "outcome": "expected",
+      "runSummary": "refreshed-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "editorial.spec.ts",
+      "title": "a failed editorial image retains its space and readable fallback",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "editorial.spec.ts",
+      "title": "announcement rotates, pauses and obeys reduced motion; details navigate",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "editorial.spec.ts",
+      "title": "approved category replacements and section-bounded sticky look photography",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "editorial.spec.ts",
+      "title": "carousel arrows and keyboard reveal cards without off-screen tab stops",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "editorial.spec.ts",
+      "title": "collection and brand pages retain full-width approved imagery, stories, browsing and 404 behavior",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "editorial.spec.ts",
+      "title": "full-bleed homepage keeps the approved structure, hero sources and destinations at five widths",
+      "outcome": "expected",
+      "runSummary": "refreshed-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "editorial.spec.ts",
+      "title": "look tabs work by keyboard and each image matches its product/colorway links",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "editorial.spec.ts",
+      "title": "native touch swipe moves the category carousel",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "editorial.spec.ts",
+      "title": "responsive editorial pages remain accessible with reduced motion and 200% text zoom",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "foundation.spec.ts",
+      "title": "serves approved Portuguese copy, metadata and an accessible public shell",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "foundation.spec.ts",
+      "title": "serves approved identity and optimized catalog imagery from production",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "search.spec.ts",
+      "title": "blank and unmatched submissions provide approved recovery",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "search.spec.ts",
+      "title": "cancel discards drafts, returns focus and keeps the committed page",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "chromium",
+      "file": "search.spec.ts",
+      "title": "header submission preserves spelling, matches every word and commits fresh URL history",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "browsing.spec.ts",
+      "title": "every filter dimension commits OR selections and AND intersections across responsive controls",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "browsing.spec.ts",
+      "title": "keyboard sorting changes history and preserves curated price ties",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "browsing.spec.ts",
+      "title": "malformed links remain intact until canonical user changes; history and refresh restore controls",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "browsing.spec.ts",
+      "title": "open filters have accessible labels and return keyboard focus",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "browsing.spec.ts",
+      "title": "public results remain readable while controls wait for hydration",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "browsing.spec.ts",
+      "title": "tablet filters keep the same committed selections when switching to desktop",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "browsing.spec.ts",
+      "title": "zero-result reset retains audience, collection and search scopes; navigation starts fresh",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "catalog.spec.ts",
+      "title": "cards reveal isolated images for pointer and keyboard inspection while touch retains models",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "catalog.spec.ts",
+      "title": "catalog, curated arrivals and audience views retain the approved assortment",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "catalog.spec.ts",
+      "title": "failed catalog images retain their reserved space and readable fallback",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "catalog.spec.ts",
+      "title": "gallery thumbnails become interactive when their hydrated color view is ready",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "catalog.spec.ts",
+      "title": "keyboard and click category menus lead to existing scoped listings",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "catalog.spec.ts",
+      "title": "listing, product, navigation and cart surfaces pass representative axe checks",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "catalog.spec.ts",
+      "title": "product gallery shows one image, supports thumbnail selection and resets for another color",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "catalog.spec.ts",
+      "title": "public catalog and known product and collection content is available before hydration",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "catalog.spec.ts",
+      "title": "responsive grids, sticky navigation and compact destinations work at the approved widths",
+      "outcome": "expected",
+      "runSummary": "refreshed-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "catalog.spec.ts",
+      "title": "swatches carry preview choice to readable detail and invalid color values use the default",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "catalog.spec.ts",
+      "title": "unknown destinations recover through the catalog and sharing metadata uses the configured origin",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "checkpoint.spec.ts",
+      "title": "checkpoint: every product and offered color has readable approved content",
+      "outcome": "expected",
+      "runSummary": "refreshed-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "checkpoint.spec.ts",
+      "title": "checkpoint: keyboard skip link leaves the main heading below the sticky header",
+      "outcome": "expected",
+      "runSummary": "refreshed-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "checkpoint.spec.ts",
+      "title": "checkpoint: product navigation returns to committed listing history",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "checkpoint.spec.ts",
+      "title": "checkpoint: public route matrix retains loaded imagery, responsive layout and accessibility",
+      "outcome": "skipped",
+      "runSummary": "refreshed-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "editorial.spec.ts",
+      "title": "a failed editorial image retains its space and readable fallback",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "editorial.spec.ts",
+      "title": "announcement rotates, pauses and obeys reduced motion; details navigate",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "editorial.spec.ts",
+      "title": "approved category replacements and section-bounded sticky look photography",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "editorial.spec.ts",
+      "title": "carousel arrows and keyboard reveal cards without off-screen tab stops",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "editorial.spec.ts",
+      "title": "collection and brand pages retain full-width approved imagery, stories, browsing and 404 behavior",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "editorial.spec.ts",
+      "title": "full-bleed homepage keeps the approved structure, hero sources and destinations at five widths",
+      "outcome": "expected",
+      "runSummary": "refreshed-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "editorial.spec.ts",
+      "title": "look tabs work by keyboard and each image matches its product/colorway links",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "editorial.spec.ts",
+      "title": "native touch swipe moves the category carousel",
+      "outcome": "skipped",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "editorial.spec.ts",
+      "title": "responsive editorial pages remain accessible with reduced motion and 200% text zoom",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "foundation.spec.ts",
+      "title": "serves approved Portuguese copy, metadata and an accessible public shell",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "foundation.spec.ts",
+      "title": "serves approved identity and optimized catalog imagery from production",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "search.spec.ts",
+      "title": "blank and unmatched submissions provide approved recovery",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "search.spec.ts",
+      "title": "cancel discards drafts, returns focus and keeps the committed page",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "firefox",
+      "file": "search.spec.ts",
+      "title": "header submission preserves spelling, matches every word and commits fresh URL history",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "browsing.spec.ts",
+      "title": "every filter dimension commits OR selections and AND intersections across responsive controls",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "browsing.spec.ts",
+      "title": "keyboard sorting changes history and preserves curated price ties",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "browsing.spec.ts",
+      "title": "malformed links remain intact until canonical user changes; history and refresh restore controls",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "browsing.spec.ts",
+      "title": "open filters have accessible labels and return keyboard focus",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "browsing.spec.ts",
+      "title": "public results remain readable while controls wait for hydration",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "browsing.spec.ts",
+      "title": "tablet filters keep the same committed selections when switching to desktop",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "browsing.spec.ts",
+      "title": "zero-result reset retains audience, collection and search scopes; navigation starts fresh",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "catalog.spec.ts",
+      "title": "cards reveal isolated images for pointer and keyboard inspection while touch retains models",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "catalog.spec.ts",
+      "title": "catalog, curated arrivals and audience views retain the approved assortment",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "catalog.spec.ts",
+      "title": "failed catalog images retain their reserved space and readable fallback",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "catalog.spec.ts",
+      "title": "gallery thumbnails become interactive when their hydrated color view is ready",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "catalog.spec.ts",
+      "title": "keyboard and click category menus lead to existing scoped listings",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "catalog.spec.ts",
+      "title": "listing, product, navigation and cart surfaces pass representative axe checks",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "catalog.spec.ts",
+      "title": "product gallery shows one image, supports thumbnail selection and resets for another color",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "catalog.spec.ts",
+      "title": "public catalog and known product and collection content is available before hydration",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "catalog.spec.ts",
+      "title": "responsive grids, sticky navigation and compact destinations work at the approved widths",
+      "outcome": "expected",
+      "runSummary": "refreshed-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "catalog.spec.ts",
+      "title": "swatches carry preview choice to readable detail and invalid color values use the default",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "catalog.spec.ts",
+      "title": "unknown destinations recover through the catalog and sharing metadata uses the configured origin",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "checkpoint.spec.ts",
+      "title": "checkpoint: every product and offered color has readable approved content",
+      "outcome": "expected",
+      "runSummary": "refreshed-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "checkpoint.spec.ts",
+      "title": "checkpoint: keyboard skip link leaves the main heading below the sticky header",
+      "outcome": "expected",
+      "runSummary": "refreshed-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "checkpoint.spec.ts",
+      "title": "checkpoint: product navigation returns to committed listing history",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "checkpoint.spec.ts",
+      "title": "checkpoint: public route matrix retains loaded imagery, responsive layout and accessibility",
+      "outcome": "skipped",
+      "runSummary": "refreshed-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "editorial.spec.ts",
+      "title": "a failed editorial image retains its space and readable fallback",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "editorial.spec.ts",
+      "title": "announcement rotates, pauses and obeys reduced motion; details navigate",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "editorial.spec.ts",
+      "title": "approved category replacements and section-bounded sticky look photography",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "editorial.spec.ts",
+      "title": "carousel arrows and keyboard reveal cards without off-screen tab stops",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "editorial.spec.ts",
+      "title": "collection and brand pages retain full-width approved imagery, stories, browsing and 404 behavior",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "editorial.spec.ts",
+      "title": "full-bleed homepage keeps the approved structure, hero sources and destinations at five widths",
+      "outcome": "expected",
+      "runSummary": "refreshed-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "editorial.spec.ts",
+      "title": "look tabs work by keyboard and each image matches its product/colorway links",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "editorial.spec.ts",
+      "title": "native touch swipe moves the category carousel",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "editorial.spec.ts",
+      "title": "responsive editorial pages remain accessible with reduced motion and 200% text zoom",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "foundation.spec.ts",
+      "title": "serves approved Portuguese copy, metadata and an accessible public shell",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "foundation.spec.ts",
+      "title": "serves approved identity and optimized catalog imagery from production",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "search.spec.ts",
+      "title": "blank and unmatched submissions provide approved recovery",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "search.spec.ts",
+      "title": "cancel discards drafts, returns focus and keeps the committed page",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "search.spec.ts",
+      "title": "header submission preserves spelling, matches every word and commits fresh URL history",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "browsing.spec.ts",
+      "title": "every filter dimension commits OR selections and AND intersections across responsive controls",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "browsing.spec.ts",
+      "title": "keyboard sorting changes history and preserves curated price ties",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "browsing.spec.ts",
+      "title": "malformed links remain intact until canonical user changes; history and refresh restore controls",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "browsing.spec.ts",
+      "title": "open filters have accessible labels and return keyboard focus",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "browsing.spec.ts",
+      "title": "public results remain readable while controls wait for hydration",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "browsing.spec.ts",
+      "title": "tablet filters keep the same committed selections when switching to desktop",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "browsing.spec.ts",
+      "title": "zero-result reset retains audience, collection and search scopes; navigation starts fresh",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "catalog.spec.ts",
+      "title": "cards reveal isolated images for pointer and keyboard inspection while touch retains models",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "catalog.spec.ts",
+      "title": "catalog, curated arrivals and audience views retain the approved assortment",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "catalog.spec.ts",
+      "title": "failed catalog images retain their reserved space and readable fallback",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "catalog.spec.ts",
+      "title": "gallery thumbnails become interactive when their hydrated color view is ready",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "catalog.spec.ts",
+      "title": "keyboard and click category menus lead to existing scoped listings",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "catalog.spec.ts",
+      "title": "listing, product, navigation and cart surfaces pass representative axe checks",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "catalog.spec.ts",
+      "title": "product gallery shows one image, supports thumbnail selection and resets for another color",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "catalog.spec.ts",
+      "title": "public catalog and known product and collection content is available before hydration",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "catalog.spec.ts",
+      "title": "responsive grids, sticky navigation and compact destinations work at the approved widths",
+      "outcome": "expected",
+      "runSummary": "refreshed-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "catalog.spec.ts",
+      "title": "swatches carry preview choice to readable detail and invalid color values use the default",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "catalog.spec.ts",
+      "title": "unknown destinations recover through the catalog and sharing metadata uses the configured origin",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "checkpoint.spec.ts",
+      "title": "checkpoint: every product and offered color has readable approved content",
+      "outcome": "expected",
+      "runSummary": "refreshed-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "checkpoint.spec.ts",
+      "title": "checkpoint: keyboard skip link leaves the main heading below the sticky header",
+      "outcome": "expected",
+      "runSummary": "refreshed-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "checkpoint.spec.ts",
+      "title": "checkpoint: product navigation returns to committed listing history",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "checkpoint.spec.ts",
+      "title": "checkpoint: public route matrix retains loaded imagery, responsive layout and accessibility",
+      "outcome": "skipped",
+      "runSummary": "refreshed-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "editorial.spec.ts",
+      "title": "a failed editorial image retains its space and readable fallback",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "editorial.spec.ts",
+      "title": "announcement rotates, pauses and obeys reduced motion; details navigate",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "editorial.spec.ts",
+      "title": "approved category replacements and section-bounded sticky look photography",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "editorial.spec.ts",
+      "title": "carousel arrows and keyboard reveal cards without off-screen tab stops",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "editorial.spec.ts",
+      "title": "collection and brand pages retain full-width approved imagery, stories, browsing and 404 behavior",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "editorial.spec.ts",
+      "title": "full-bleed homepage keeps the approved structure, hero sources and destinations at five widths",
+      "outcome": "expected",
+      "runSummary": "isolated-homepage-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "editorial.spec.ts",
+      "title": "look tabs work by keyboard and each image matches its product/colorway links",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "editorial.spec.ts",
+      "title": "native touch swipe moves the category carousel",
+      "outcome": "skipped",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "editorial.spec.ts",
+      "title": "responsive editorial pages remain accessible with reduced motion and 200% text zoom",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "foundation.spec.ts",
+      "title": "serves approved Portuguese copy, metadata and an accessible public shell",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "foundation.spec.ts",
+      "title": "serves approved identity and optimized catalog imagery from production",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "search.spec.ts",
+      "title": "blank and unmatched submissions provide approved recovery",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "search.spec.ts",
+      "title": "cancel discards drafts, returns focus and keeps the committed page",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "search.spec.ts",
+      "title": "header submission preserves spelling, matches every word and commits fresh URL history",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "browsing.spec.ts",
+      "title": "every filter dimension commits OR selections and AND intersections across responsive controls",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "browsing.spec.ts",
+      "title": "keyboard sorting changes history and preserves curated price ties",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "browsing.spec.ts",
+      "title": "malformed links remain intact until canonical user changes; history and refresh restore controls",
+      "outcome": "expected",
+      "runSummary": "isolated-url-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "browsing.spec.ts",
+      "title": "open filters have accessible labels and return keyboard focus",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "browsing.spec.ts",
+      "title": "public results remain readable while controls wait for hydration",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "browsing.spec.ts",
+      "title": "tablet filters keep the same committed selections when switching to desktop",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "browsing.spec.ts",
+      "title": "zero-result reset retains audience, collection and search scopes; navigation starts fresh",
+      "outcome": "expected",
+      "runSummary": "isolated-url-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "catalog.spec.ts",
+      "title": "cards reveal isolated images for pointer and keyboard inspection while touch retains models",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "catalog.spec.ts",
+      "title": "catalog, curated arrivals and audience views retain the approved assortment",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "catalog.spec.ts",
+      "title": "failed catalog images retain their reserved space and readable fallback",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "catalog.spec.ts",
+      "title": "gallery thumbnails become interactive when their hydrated color view is ready",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "catalog.spec.ts",
+      "title": "keyboard and click category menus lead to existing scoped listings",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "catalog.spec.ts",
+      "title": "listing, product, navigation and cart surfaces pass representative axe checks",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "catalog.spec.ts",
+      "title": "product gallery shows one image, supports thumbnail selection and resets for another color",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "catalog.spec.ts",
+      "title": "public catalog and known product and collection content is available before hydration",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "catalog.spec.ts",
+      "title": "responsive grids, sticky navigation and compact destinations work at the approved widths",
+      "outcome": "expected",
+      "runSummary": "refreshed-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "catalog.spec.ts",
+      "title": "swatches carry preview choice to readable detail and invalid color values use the default",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "catalog.spec.ts",
+      "title": "unknown destinations recover through the catalog and sharing metadata uses the configured origin",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "checkpoint.spec.ts",
+      "title": "checkpoint: every product and offered color has readable approved content",
+      "outcome": "expected",
+      "runSummary": "isolated-products-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "checkpoint.spec.ts",
+      "title": "checkpoint: keyboard skip link leaves the main heading below the sticky header",
+      "outcome": "expected",
+      "runSummary": "refreshed-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "checkpoint.spec.ts",
+      "title": "checkpoint: product navigation returns to committed listing history",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "checkpoint.spec.ts",
+      "title": "checkpoint: public route matrix retains loaded imagery, responsive layout and accessibility",
+      "outcome": "skipped",
+      "runSummary": "refreshed-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "editorial.spec.ts",
+      "title": "a failed editorial image retains its space and readable fallback",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "editorial.spec.ts",
+      "title": "announcement rotates, pauses and obeys reduced motion; details navigate",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "editorial.spec.ts",
+      "title": "approved category replacements and section-bounded sticky look photography",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "editorial.spec.ts",
+      "title": "carousel arrows and keyboard reveal cards without off-screen tab stops",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "editorial.spec.ts",
+      "title": "collection and brand pages retain full-width approved imagery, stories, browsing and 404 behavior",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "editorial.spec.ts",
+      "title": "full-bleed homepage keeps the approved structure, hero sources and destinations at five widths",
+      "outcome": "expected",
+      "runSummary": "refreshed-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "editorial.spec.ts",
+      "title": "look tabs work by keyboard and each image matches its product/colorway links",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "editorial.spec.ts",
+      "title": "native touch swipe moves the category carousel",
+      "outcome": "skipped",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "editorial.spec.ts",
+      "title": "responsive editorial pages remain accessible with reduced motion and 200% text zoom",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "foundation.spec.ts",
+      "title": "serves approved Portuguese copy, metadata and an accessible public shell",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "foundation.spec.ts",
+      "title": "serves approved identity and optimized catalog imagery from production",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "search.spec.ts",
+      "title": "blank and unmatched submissions provide approved recovery",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "search.spec.ts",
+      "title": "cancel discards drafts, returns focus and keeps the committed page",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    },
+    {
+      "project": "webkit",
+      "file": "search.spec.ts",
+      "title": "header submission preserves spelling, matches every word and commits fresh URL history",
+      "outcome": "expected",
+      "runSummary": "baseline-run.json"
+    }
+  ],
+  "counts": {
+    "expected": 173,
+    "skipped": 7,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

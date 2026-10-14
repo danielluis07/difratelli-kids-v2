@@ -1,0 +1,173 @@
+{
+  "baselineRevision": "4905b6ce4881e4219eb446b0859ecadae0973542",
+  "applicationPatchSha256": "bd9ddffb22322935e49720902739ccce2ae8dd7358ff5370c02086bd456e14ef",
+  "productionBuildId": "liRl_LbdrXlnhay4FiDxW",
+  "files": [
+    {
+      "file": "app/globals.css",
+      "sha256": "91dbf0ef33c6d04637dbd83fa9323d452f5fc13a5639e7600c73fbc996dbed12",
+      "bytes": 23829,
+      "hashMode": "lf-normalized",
+      "verifiedWorkingTreeSha256": "c154d0401f6273d102f31f0aba5d11d53e7033f75426c7d930f46980e7ed82a7"
+    },
+    {
+      "file": "tests/browser/checkpoint.spec.ts",
+      "sha256": "d153eab239a25b97ba740fff7ffbc1908571083c6e6022868226d24210026db2",
+      "bytes": 7037,
+      "hashMode": "lf-normalized"
+    },
+    {
+      "file": "scripts/verification/review-public-retry.mjs",
+      "sha256": "0109bf6695df530fbd9a0831347bef0c4619525570d4d048a992a6cee279d805",
+      "bytes": 3234,
+      "hashMode": "lf-normalized"
+    },
+    {
+      "file": "scripts/verification/capture-public-products.mjs",
+      "sha256": "1689ba28bf2e3f1d60ba0c194511119dd792ffa5cf24742460d6b7270244c7e6",
+      "bytes": 2213,
+      "hashMode": "lf-normalized"
+    },
+    {
+      "file": "docs/reviews/issue-35/application.patch",
+      "sha256": "bd9ddffb22322935e49720902739ccce2ae8dd7358ff5370c02086bd456e14ef",
+      "bytes": 624
+    },
+    {
+      "file": "docs/reviews/issue-35/baseline-run.json",
+      "sha256": "60e05847ba77243ab9f237ade7fe4944578180878ecaf2b9fac08aa8e23f266a",
+      "bytes": 132127
+    },
+    {
+      "file": "docs/reviews/issue-35/brand-desktop.png",
+      "sha256": "8a2e1f1397012f4c5be69dde10c557ef827575ff30b80b4e8006c2ba78115cb0",
+      "bytes": 2925438
+    },
+    {
+      "file": "docs/reviews/issue-35/case-coverage.json",
+      "sha256": "3d850fa0b82fb76a5643b393cd4fa444c8918262b94033a8835208eb62669435",
+      "bytes": 45401
+    },
+    {
+      "file": "docs/reviews/issue-35/collection-mobile.png",
+      "sha256": "acea87a453e108a4cf096df76a5cac698579a371af996fb4d956d44d318907b4",
+      "bytes": 622692
+    },
+    {
+      "file": "docs/reviews/issue-35/development-run.json",
+      "sha256": "c4e2e47ed2821a6dd324ef5d9d83200abd2693564105f44320bbf76c35f931a5",
+      "bytes": 393
+    },
+    {
+      "file": "docs/reviews/issue-35/homepage-desktop.png",
+      "sha256": "38be182296d8956db73763fa28e052743b701a5e149ef0a14c3068409579ad6a",
+      "bytes": 6900802
+    },
+    {
+      "file": "docs/reviews/issue-35/homepage-mobile.png",
+      "sha256": "df85153bbc7e782206694b72fc1394595825a14fb51ed27263c66ce1ebe96221",
+      "bytes": 1628099
+    },
+    {
+      "file": "docs/reviews/issue-35/homepage-tablet.png",
+      "sha256": "9f9d2866ff3fd69e63999ebc0a61555bbbfd6dbf02843b2a80ff27cea1737ae1",
+      "bytes": 3305611
+    },
+    {
+      "file": "docs/reviews/issue-35/isolated-homepage-run.json",
+      "sha256": "0592752af209a6ca61c3532ff9528a77d197245e87a207c5fec23f4037d835eb",
+      "bytes": 1378
+    },
+    {
+      "file": "docs/reviews/issue-35/isolated-products-run.json",
+      "sha256": "d9420eefdd1d3676c1f3b7ecc79c8756a38452664773562b285ddfb3e2777cf2",
+      "bytes": 1346
+    },
+    {
+      "file": "docs/reviews/issue-35/isolated-url-run.json",
+      "sha256": "633edce7764e856eec09932cbe254dacf7bb3e7605e847d57ef5815956152c05",
+      "bytes": 5114
+    },
+    {
+      "file": "docs/reviews/issue-35/manual-run.json",
+      "sha256": "6450b0cee609d2d67490d4f1cfc8a5f9bfeff67748272d4284ee54fd22913059",
+      "bytes": 1476
+    },
+    {
+      "file": "docs/reviews/issue-35/product-1440.png",
+      "sha256": "fed88ac50c82362469d1e5dd8f8773de2963fd36078ae62fe59504cd983ae91a",
+      "bytes": 303530
+    },
+    {
+      "file": "docs/reviews/issue-35/product-390.png",
+      "sha256": "c56d25b3b54fe5be71c122eaac77f12118bcef35bbb3e2063c7602bd960a3e92",
+      "bytes": 184801
+    },
+    {
+      "file": "docs/reviews/issue-35/refreshed-run.json",
+      "sha256": "ed836114d9a4cb9d5986b121fa7b3644998dde68ed1c71986363d5fb70ed7c20",
+      "bytes": 22172
+    },
+    {
+      "file": "docs/reviews/issue-35/retry-axe.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2
+    },
+    {
+      "file": "docs/reviews/issue-35/retry-mobile.png",
+      "sha256": "32a124f529f696d35bd7b6668f45fd1aa9a128f197d071907c17f8595bfcd6f7",
+      "bytes": 62330
+    },
+    {
+      "file": "docs/reviews/issue-35/retry-results.json",
+      "sha256": "1bd491cababfabb41dc171de7fa74996e2d7c85a8a5220a9c13c8d0864abb051",
+      "bytes": 280
+    },
+    {
+      "file": "docs/reviews/issue-35/retry.png",
+      "sha256": "6a8ff3ace35037624c1c0bf4cbe314c61379125a751b9baf1f0275c28d4b6a5b",
+      "bytes": 77124
+    },
+    {
+      "file": "docs/reviews/issue-35/route-matrix.json",
+      "sha256": "04489946149a138f6cc5e5a59ac36ee6095e37d388807cbf6a80369e988ade5b",
+      "bytes": 6988
+    },
+    {
+      "file": "docs/reviews/issue-35/route-run.json",
+      "sha256": "1860e6625c8e114e35932fbcf49c55a0da31cbe2cf07396c5f467c3b74476181",
+      "bytes": 652
+    },
+    {
+      "file": "docs/reviews/issue-35/search-empty-mobile.png",
+      "sha256": "34989e667c03eb21b72938e938d00c6c1680b27e1f83489ea7b792ba619a1b55",
+      "bytes": 66492
+    },
+    {
+      "file": "docs/reviews/issue-35/skip-link-after-1440.png",
+      "sha256": "611033baed6d162e4f3700f10272c3144416e75e4d23520bbf5829f03378e444",
+      "bytes": 335595
+    },
+    {
+      "file": "docs/reviews/issue-35/skip-link-after-390.png",
+      "sha256": "f881021cb2bc5784bbdd212a3b769ffddf7fbe311e784cd604f7d4c844cfb35e",
+      "bytes": 93936
+    },
+    {
+      "file": "docs/reviews/issue-35/skip-link-after-768.png",
+      "sha256": "4577a7b0c1b0c5edab795811b458dd7b74c434af1951eca4e886e2a4e422ae21",
+      "bytes": 163344
+    },
+    {
+      "file": "docs/reviews/issue-35/skip-link-before.png",
+      "sha256": "20d8961dcfbf87a98353cd7006c0bb0be7988d101c71a89841be23dda0fecf4c",
+      "bytes": 116412
+    },
+    {
+      "file": "docs/reviews/issue-35/skip-link-results.json",
+      "sha256": "97dd16d9f469fe842563adac0f35084372dc8095d3076fc515044efb06a37c48",
+      "bytes": 225
+    }
+  ],
+  "reviewedSourceRevision": "7daa98573b452fa3e3361b7305bedcde43109a94"
+}

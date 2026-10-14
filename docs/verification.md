@@ -327,3 +327,14 @@ in the ignored Playwright output directories. Next.js feedback review found no
 qualifying framework issue in this slice. This is local agent evidence; remote
 CI, actual-device/manual review, human integration acceptance and publication
 remain unclaimed.
+
+## Public-browsing checkpoint (issue #35)
+
+The [integrated review packet](public-browsing-review.md) binds the reviewed
+source commit and original verification patch to retained browser summaries,
+responsive captures, axe observations and reproduction commands. It adds
+exhaustive product/colorway and listing-history browser journeys and fixes
+keyboard skip navigation hidden by the sticky header. Human checkpoint acceptance
+remains pending; the packet documents unavailable manual coverage and concurrent
+WebKit timing failures separately from successful isolated reruns. Shopping
+implementation must wait for the owner's explicit acceptance of that candidate.

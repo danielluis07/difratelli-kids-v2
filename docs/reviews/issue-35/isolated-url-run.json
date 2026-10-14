@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "actualWorkers": 1
+  },
+  "startTime": 1791936020683,
+  "duration": 59961.12899999999,
+  "files": [
+    {
+      "fileId": "1ef4d40f9618e537b1d8",
+      "fileName": "browsing.spec.ts",
+      "tests": [
+        {
+          "testId": "1ef4d40f9618e537b1d8-cc136339121031ccead5",
+          "title": "malformed links remain intact until canonical user changes; history and refresh restore controls",
+          "projectName": "webkit",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 18,
+            "column": 5
+          },
+          "duration": 8671,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-14T00:00:24.492Z",
+              "workerIndex": 0
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-a383f419c8b0ce676d02",
+          "title": "zero-result reset retains audience, collection and search scopes; navigation starts fresh",
+          "projectName": "webkit",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 86,
+            "column": 5
+          },
+          "duration": 13469,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-14T00:00:33.353Z",
+              "workerIndex": 0
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-0b76a1939bc0be9fe80a",
+          "title": "malformed links remain intact until canonical user changes; history and refresh restore controls",
+          "projectName": "webkit",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 18,
+            "column": 5
+          },
+          "duration": 6786,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "repeatEachIndex": 1,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-14T00:00:47.848Z",
+              "workerIndex": 1
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-6160c7d198d182475d81",
+          "title": "zero-result reset retains audience, collection and search scopes; navigation starts fresh",
+          "projectName": "webkit",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 86,
+            "column": 5
+          },
+          "duration": 9648,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "repeatEachIndex": 1,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-14T00:00:54.822Z",
+              "workerIndex": 1
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-8f2f6c1e84174ee4c584",
+          "title": "malformed links remain intact until canonical user changes; history and refresh restore controls",
+          "projectName": "webkit",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 18,
+            "column": 5
+          },
+          "duration": 5138,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "repeatEachIndex": 2,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-14T00:01:05.439Z",
+              "workerIndex": 2
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-b37d0bb5e9177327bf72",
+          "title": "zero-result reset retains audience, collection and search scopes; navigation starts fresh",
+          "projectName": "webkit",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 86,
+            "column": 5
+          },
+          "duration": 9586,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "repeatEachIndex": 2,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-14T00:01:10.711Z",
+              "workerIndex": 2
+            }
+          ]
+        }
+      ],
+      "stats": {
+        "total": 6,
+        "expected": 6,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": true
+      }
+    }
+  ],
+  "projectNames": [
+    "webkit"
+  ],
+  "stats": {
+    "total": 6,
+    "expected": 6,
+    "unexpected": 0,
+    "flaky": 0,
+    "skipped": 0,
+    "ok": true
+  },
+  "errors": [],
+  "options": {},
+  "machines": []
+}

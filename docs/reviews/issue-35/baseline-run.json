@@ -1,0 +1,4270 @@
+{
+  "metadata": {
+    "actualWorkers": 2
+  },
+  "startTime": 1791934247821,
+  "duration": 1202939.2219999998,
+  "files": [
+    {
+      "fileId": "1ef4d40f9618e537b1d8",
+      "fileName": "browsing.spec.ts",
+      "tests": [
+        {
+          "testId": "1ef4d40f9618e537b1d8-cc136339121031ccead5",
+          "title": "malformed links remain intact until canonical user changes; history and refresh restore controls",
+          "projectName": "webkit",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 18,
+            "column": 5
+          },
+          "duration": 45545,
+          "annotations": [],
+          "tags": [],
+          "outcome": "unexpected",
+          "path": [],
+          "ok": false,
+          "results": [
+            {
+              "attachments": [
+                {
+                  "name": "screenshot",
+                  "contentType": "image/png",
+                  "path": "data/9db4c68ce0c973201c9ba5598e5e8c18d816ad8b.png"
+                },
+                {
+                  "name": "error-context",
+                  "contentType": "text/markdown",
+                  "path": "data/21ef4363952f77f77af64b6be90a3addf6186b40.md"
+                },
+                {
+                  "name": "trace",
+                  "contentType": "application/zip",
+                  "path": "data/80b98f6e4cfd1c427f6f54d466467cfa35a4fe24.zip"
+                }
+              ],
+              "startTime": "2026-10-13T23:36:32.892Z",
+              "workerIndex": 5
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-a383f419c8b0ce676d02",
+          "title": "zero-result reset retains audience, collection and search scopes; navigation starts fresh",
+          "projectName": "webkit",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 86,
+            "column": 5
+          },
+          "duration": 59382,
+          "annotations": [],
+          "tags": [],
+          "outcome": "unexpected",
+          "path": [],
+          "ok": false,
+          "results": [
+            {
+              "attachments": [
+                {
+                  "name": "screenshot",
+                  "contentType": "image/png",
+                  "path": "data/52c538157aa0f8ead170edfa0278d53ec5a15aae.png"
+                },
+                {
+                  "name": "error-context",
+                  "contentType": "text/markdown",
+                  "path": "data/349d59beec08f39e0bfd5c579bcf151907c3165f.md"
+                },
+                {
+                  "name": "trace",
+                  "contentType": "application/zip",
+                  "path": "data/f5202b09c57ecce7a7903db41a43141952234b62.zip"
+                }
+              ],
+              "startTime": "2026-10-13T23:38:03.459Z",
+              "workerIndex": 7
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-f3b6c3f184f56249e966",
+          "title": "malformed links remain intact until canonical user changes; history and refresh restore controls",
+          "projectName": "chromium",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 18,
+            "column": 5
+          },
+          "duration": 5857,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:30:51.656Z",
+              "workerIndex": 0
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-14a8cc767c1b3c4f6e3e",
+          "title": "every filter dimension commits OR selections and AND intersections across responsive controls",
+          "projectName": "chromium",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 42,
+            "column": 5
+          },
+          "duration": 8891,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:30:51.663Z",
+              "workerIndex": 1
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-a0da77c029afef528338",
+          "title": "keyboard sorting changes history and preserves curated price ties",
+          "projectName": "chromium",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 64,
+            "column": 5
+          },
+          "duration": 3176,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:30:58.039Z",
+              "workerIndex": 0
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-a51b3262e68d2e21b999",
+          "title": "zero-result reset retains audience, collection and search scopes; navigation starts fresh",
+          "projectName": "chromium",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 86,
+            "column": 5
+          },
+          "duration": 7404,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:31:01.070Z",
+              "workerIndex": 1
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-d915e09b22d22362f69f",
+          "title": "open filters have accessible labels and return keyboard focus",
+          "projectName": "chromium",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 111,
+            "column": 5
+          },
+          "duration": 10287,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:31:01.251Z",
+              "workerIndex": 0
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-1c6710d49fb7f4128169",
+          "title": "tablet filters keep the same committed selections when switching to desktop",
+          "projectName": "chromium",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 119,
+            "column": 5
+          },
+          "duration": 2944,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:31:08.510Z",
+              "workerIndex": 1
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-64df3816b37f9c64f980",
+          "title": "public results remain readable while controls wait for hydration",
+          "projectName": "chromium",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 132,
+            "column": 5
+          },
+          "duration": 3685,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:31:11.509Z",
+              "workerIndex": 1
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-d82cf96e2c71b9f72921",
+          "title": "malformed links remain intact until canonical user changes; history and refresh restore controls",
+          "projectName": "firefox",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 18,
+            "column": 5
+          },
+          "duration": 14801,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:32:40.639Z",
+              "workerIndex": 3
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-75c3a6a7d460942d525b",
+          "title": "every filter dimension commits OR selections and AND intersections across responsive controls",
+          "projectName": "firefox",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 42,
+            "column": 5
+          },
+          "duration": 16524,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:32:58.495Z",
+              "workerIndex": 4
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-b11006e00b0bc80e7ddb",
+          "title": "keyboard sorting changes history and preserves curated price ties",
+          "projectName": "firefox",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 64,
+            "column": 5
+          },
+          "duration": 7054,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:32:56.920Z",
+              "workerIndex": 3
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-c0bfde314698fd366461",
+          "title": "zero-result reset retains audience, collection and search scopes; navigation starts fresh",
+          "projectName": "firefox",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 86,
+            "column": 5
+          },
+          "duration": 14735,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:33:04.024Z",
+              "workerIndex": 3
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-42f0fccaebad164a1e53",
+          "title": "open filters have accessible labels and return keyboard focus",
+          "projectName": "firefox",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 111,
+            "column": 5
+          },
+          "duration": 16001,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:33:16.764Z",
+              "workerIndex": 4
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-a99cc381876b03b390f4",
+          "title": "tablet filters keep the same committed selections when switching to desktop",
+          "projectName": "firefox",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 119,
+            "column": 5
+          },
+          "duration": 5178,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:33:18.818Z",
+              "workerIndex": 3
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-d5a751b813f6b1c499ea",
+          "title": "public results remain readable while controls wait for hydration",
+          "projectName": "firefox",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 132,
+            "column": 5
+          },
+          "duration": 5258,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:33:24.047Z",
+              "workerIndex": 3
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-cf0ec59c84adf4299545",
+          "title": "every filter dimension commits OR selections and AND intersections across responsive controls",
+          "projectName": "webkit",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 42,
+            "column": 5
+          },
+          "duration": 43891,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:37:23.552Z",
+              "workerIndex": 6
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-bd238cd54763d01b86c1",
+          "title": "keyboard sorting changes history and preserves curated price ties",
+          "projectName": "webkit",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 64,
+            "column": 5
+          },
+          "duration": 16691,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:37:46.091Z",
+              "workerIndex": 7
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-1dc294417d02e3a26ff9",
+          "title": "open filters have accessible labels and return keyboard focus",
+          "projectName": "webkit",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 111,
+            "column": 5
+          },
+          "duration": 35436,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:38:07.852Z",
+              "workerIndex": 6
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-c526e61aa142bb23b13d",
+          "title": "tablet filters keep the same committed selections when switching to desktop",
+          "projectName": "webkit",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 119,
+            "column": 5
+          },
+          "duration": 19552,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:38:43.449Z",
+              "workerIndex": 6
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-7be01958b0bfdd2799b6",
+          "title": "public results remain readable while controls wait for hydration",
+          "projectName": "webkit",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 132,
+            "column": 5
+          },
+          "duration": 7654,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:39:03.157Z",
+              "workerIndex": 6
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-b0837299f397843d1be7",
+          "title": "malformed links remain intact until canonical user changes; history and refresh restore controls",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 18,
+            "column": 5
+          },
+          "duration": 3927,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:42:41.966Z",
+              "workerIndex": 9
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-6a33274a80f914404c11",
+          "title": "every filter dimension commits OR selections and AND intersections across responsive controls",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 42,
+            "column": 5
+          },
+          "duration": 7546,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:42:46.175Z",
+              "workerIndex": 9
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-39a605c0b7813d4c4829",
+          "title": "keyboard sorting changes history and preserves curated price ties",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 64,
+            "column": 5
+          },
+          "duration": 3374,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:42:53.754Z",
+              "workerIndex": 9
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-e07d92ce256cd7bcea43",
+          "title": "zero-result reset retains audience, collection and search scopes; navigation starts fresh",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 86,
+            "column": 5
+          },
+          "duration": 4857,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:42:57.159Z",
+              "workerIndex": 9
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-14fb096bfd3c000244c2",
+          "title": "open filters have accessible labels and return keyboard focus",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 111,
+            "column": 5
+          },
+          "duration": 7456,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:43:02.051Z",
+              "workerIndex": 9
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-b9faef2332d3da42f564",
+          "title": "tablet filters keep the same committed selections when switching to desktop",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 119,
+            "column": 5
+          },
+          "duration": 2666,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:43:09.551Z",
+              "workerIndex": 9
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-72adc90962e348279349",
+          "title": "public results remain readable while controls wait for hydration",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 132,
+            "column": 5
+          },
+          "duration": 2298,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:43:12.258Z",
+              "workerIndex": 9
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-fc4742ea0f97ffe3e04a",
+          "title": "malformed links remain intact until canonical user changes; history and refresh restore controls",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 18,
+            "column": 5
+          },
+          "duration": 9370,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:45:36.699Z",
+              "workerIndex": 11
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-3d00f9838334674a6b29",
+          "title": "every filter dimension commits OR selections and AND intersections across responsive controls",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 42,
+            "column": 5
+          },
+          "duration": 16029,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:45:37.226Z",
+              "workerIndex": 12
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-a72eb8b7e2fe44ea626f",
+          "title": "keyboard sorting changes history and preserves curated price ties",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 64,
+            "column": 5
+          },
+          "duration": 7830,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:45:46.371Z",
+              "workerIndex": 11
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-319fcb661e3edffeb740",
+          "title": "zero-result reset retains audience, collection and search scopes; navigation starts fresh",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 86,
+            "column": 5
+          },
+          "duration": 15090,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:45:53.487Z",
+              "workerIndex": 12
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-0e47e53ec573b2c64a09",
+          "title": "open filters have accessible labels and return keyboard focus",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 111,
+            "column": 5
+          },
+          "duration": 11496,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:45:54.268Z",
+              "workerIndex": 11
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-0754c619a15cdedc2fc8",
+          "title": "tablet filters keep the same committed selections when switching to desktop",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 119,
+            "column": 5
+          },
+          "duration": 6622,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:46:05.825Z",
+              "workerIndex": 11
+            }
+          ]
+        },
+        {
+          "testId": "1ef4d40f9618e537b1d8-32cb00215a9e544c53b5",
+          "title": "public results remain readable while controls wait for hydration",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "browsing.spec.ts",
+            "line": 132,
+            "column": 5
+          },
+          "duration": 3879,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:46:08.618Z",
+              "workerIndex": 12
+            }
+          ]
+        }
+      ],
+      "stats": {
+        "total": 35,
+        "expected": 33,
+        "unexpected": 2,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": false
+      }
+    },
+    {
+      "fileId": "2318db75e0c613437198",
+      "fileName": "checkpoint.spec.ts",
+      "tests": [
+        {
+          "testId": "2318db75e0c613437198-303bf3df73cc07b40dd6",
+          "title": "checkpoint: public route matrix retains loaded imagery, responsive layout and accessibility",
+          "projectName": "chromium",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 31,
+            "column": 5
+          },
+          "duration": 21330,
+          "annotations": [],
+          "tags": [],
+          "outcome": "unexpected",
+          "path": [],
+          "ok": false,
+          "results": [
+            {
+              "attachments": [
+                {
+                  "name": "screenshot",
+                  "contentType": "image/png",
+                  "path": "data/e22800268346d612dec2f99277d169de99cd751e.png"
+                },
+                {
+                  "name": "error-context",
+                  "contentType": "text/markdown",
+                  "path": "data/44bee3d0e6456bbeda0a5400a66fda06f9eeea9c.md"
+                },
+                {
+                  "name": "trace",
+                  "contentType": "application/zip",
+                  "path": "data/9e0b9998f0ff33f7573f395ba1298cbe1268c5a1.zip"
+                }
+              ],
+              "startTime": "2026-10-13T23:31:40.160Z",
+              "workerIndex": 1
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-0739007f900e680dbb3c",
+          "title": "checkpoint: every product and offered color has readable approved content",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 5,
+            "column": 5
+          },
+          "duration": 7155,
+          "annotations": [],
+          "tags": [],
+          "outcome": "unexpected",
+          "path": [],
+          "ok": false,
+          "results": [
+            {
+              "attachments": [
+                {
+                  "name": "screenshot",
+                  "contentType": "image/png",
+                  "path": "data/ebb97a82a64934e9f82ae2fcadd521a1668e0c67.png"
+                },
+                {
+                  "name": "error-context",
+                  "contentType": "text/markdown",
+                  "path": "data/58631cda29b9c858de2e2e8f14958137f34d7077.md"
+                },
+                {
+                  "name": "trace",
+                  "contentType": "application/zip",
+                  "path": "data/333376cfc2e7d7caa0dbafe52958fe96cefcfa4d.zip"
+                }
+              ],
+              "startTime": "2026-10-13T23:46:55.894Z",
+              "workerIndex": 11
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-82bec5a365ec48d0af4f",
+          "title": "checkpoint: every product and offered color has readable approved content",
+          "projectName": "chromium",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 5,
+            "column": 5
+          },
+          "duration": 18835,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:31:36.925Z",
+              "workerIndex": 0
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-50c6d502c0de0d7bc3a7",
+          "title": "checkpoint: product navigation returns to committed listing history",
+          "projectName": "chromium",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 67,
+            "column": 5
+          },
+          "duration": 914,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:31:55.790Z",
+              "workerIndex": 0
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-e6a1dc5a26cf2e2543a0",
+          "title": "checkpoint: every product and offered color has readable approved content",
+          "projectName": "firefox",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 5,
+            "column": 5
+          },
+          "duration": 40087,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:34:28.770Z",
+              "workerIndex": 3
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-962c194587e8ba8b2171",
+          "title": "checkpoint: public route matrix retains loaded imagery, responsive layout and accessibility",
+          "projectName": "firefox",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 31,
+            "column": 5
+          },
+          "duration": 821,
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "The other projects exercise route behavior; this matrix records desktop Chromium captures.",
+              "location": {
+                "file": "C:\\Users\\bombd\\projects\\difratelli-kids-v2\\tests\\browser\\checkpoint.spec.ts",
+                "line": 32,
+                "column": 8
+              }
+            }
+          ],
+          "tags": [],
+          "outcome": "skipped",
+          "path": [],
+          "ok": false,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:34:40.784Z",
+              "workerIndex": 4
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-9118a7804a1d48972af8",
+          "title": "checkpoint: product navigation returns to committed listing history",
+          "projectName": "firefox",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 67,
+            "column": 5
+          },
+          "duration": 3824,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:34:41.655Z",
+              "workerIndex": 4
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-cc792cc72cde4f58aee6",
+          "title": "checkpoint: every product and offered color has readable approved content",
+          "projectName": "webkit",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 5,
+            "column": 5
+          },
+          "duration": 55750,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:40:08.721Z",
+              "workerIndex": 8
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-324f85303234fe9091f9",
+          "title": "checkpoint: public route matrix retains loaded imagery, responsive layout and accessibility",
+          "projectName": "webkit",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 31,
+            "column": 5
+          },
+          "duration": 635,
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "The other projects exercise route behavior; this matrix records desktop Chromium captures.",
+              "location": {
+                "file": "C:\\Users\\bombd\\projects\\difratelli-kids-v2\\tests\\browser\\checkpoint.spec.ts",
+                "line": 32,
+                "column": 8
+              }
+            }
+          ],
+          "tags": [],
+          "outcome": "skipped",
+          "path": [],
+          "ok": false,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:40:25.316Z",
+              "workerIndex": 6
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-de669a1a7f0494b233b1",
+          "title": "checkpoint: product navigation returns to committed listing history",
+          "projectName": "webkit",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 67,
+            "column": 5
+          },
+          "duration": 4913,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:40:26.009Z",
+              "workerIndex": 6
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-eed74a0a7b13fff2c0fb",
+          "title": "checkpoint: every product and offered color has readable approved content",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 5,
+            "column": 5
+          },
+          "duration": 19605,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:43:40.470Z",
+              "workerIndex": 10
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-8f90c1eea31829530734",
+          "title": "checkpoint: public route matrix retains loaded imagery, responsive layout and accessibility",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 31,
+            "column": 5
+          },
+          "duration": 341,
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "The other projects exercise route behavior; this matrix records desktop Chromium captures.",
+              "location": {
+                "file": "C:\\Users\\bombd\\projects\\difratelli-kids-v2\\tests\\browser\\checkpoint.spec.ts",
+                "line": 32,
+                "column": 8
+              }
+            }
+          ],
+          "tags": [],
+          "outcome": "skipped",
+          "path": [],
+          "ok": false,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:43:48.015Z",
+              "workerIndex": 9
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-81ede2f22dfa11b910f4",
+          "title": "checkpoint: product navigation returns to committed listing history",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 67,
+            "column": 5
+          },
+          "duration": 2208,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:43:48.403Z",
+              "workerIndex": 9
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-6512e2f2e282eaa15ae3",
+          "title": "checkpoint: public route matrix retains loaded imagery, responsive layout and accessibility",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 31,
+            "column": 5
+          },
+          "duration": 552,
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "The other projects exercise route behavior; this matrix records desktop Chromium captures.",
+              "location": {
+                "file": "C:\\Users\\bombd\\projects\\difratelli-kids-v2\\tests\\browser\\checkpoint.spec.ts",
+                "line": 47,
+                "column": 8
+              }
+            }
+          ],
+          "tags": [],
+          "outcome": "skipped",
+          "path": [],
+          "ok": false,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:47:05.260Z",
+              "workerIndex": 13
+            }
+          ]
+        },
+        {
+          "testId": "2318db75e0c613437198-4fcbb1a318cb761fef47",
+          "title": "checkpoint: product navigation returns to committed listing history",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 67,
+            "column": 5
+          },
+          "duration": 3241,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:47:05.993Z",
+              "workerIndex": 13
+            }
+          ]
+        }
+      ],
+      "stats": {
+        "total": 15,
+        "expected": 9,
+        "unexpected": 2,
+        "flaky": 0,
+        "skipped": 4,
+        "ok": false
+      }
+    },
+    {
+      "fileId": "30aa42b97d8966d0c2dc",
+      "fileName": "catalog.spec.ts",
+      "tests": [
+        {
+          "testId": "30aa42b97d8966d0c2dc-74873f15ec270754eb2c",
+          "title": "catalog, curated arrivals and audience views retain the approved assortment",
+          "projectName": "chromium",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 5,
+            "column": 5
+          },
+          "duration": 6247,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:31:11.624Z",
+              "workerIndex": 0
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-e316c065ee9b24555260",
+          "title": "responsive grids, sticky navigation and compact destinations work at the approved widths",
+          "projectName": "chromium",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 26,
+            "column": 5
+          },
+          "duration": 9496,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:31:15.311Z",
+              "workerIndex": 1
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-f041059d322646bfe61f",
+          "title": "keyboard and click category menus lead to existing scoped listings",
+          "projectName": "chromium",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 56,
+            "column": 5
+          },
+          "duration": 4046,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:31:17.934Z",
+              "workerIndex": 0
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-8b2990a4bb995e4c3b67",
+          "title": "swatches carry preview choice to readable detail and invalid color values use the default",
+          "projectName": "chromium",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 78,
+            "column": 5
+          },
+          "duration": 3537,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:31:22.050Z",
+              "workerIndex": 0
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-b04cbd80dab9eb60be29",
+          "title": "product gallery shows one image, supports thumbnail selection and resets for another color",
+          "projectName": "chromium",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 98,
+            "column": 5
+          },
+          "duration": 2575,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:31:24.854Z",
+              "workerIndex": 1
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-a84c13a8fa62bc82b136",
+          "title": "gallery thumbnails become interactive when their hydrated color view is ready",
+          "projectName": "chromium",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 137,
+            "column": 5
+          },
+          "duration": 1595,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:31:25.633Z",
+              "workerIndex": 0
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-15db6045c79ce4a7f5e8",
+          "title": "cards reveal isolated images for pointer and keyboard inspection while touch retains models",
+          "projectName": "chromium",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 158,
+            "column": 5
+          },
+          "duration": 1804,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:31:27.272Z",
+              "workerIndex": 0
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-a353fa4cd1563a219b78",
+          "title": "failed catalog images retain their reserved space and readable fallback",
+          "projectName": "chromium",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 175,
+            "column": 5
+          },
+          "duration": 1612,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:31:27.472Z",
+              "workerIndex": 1
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-0ace36ae95c7da87f4fd",
+          "title": "unknown destinations recover through the catalog and sharing metadata uses the configured origin",
+          "projectName": "chromium",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 185,
+            "column": 5
+          },
+          "duration": 2659,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:31:29.111Z",
+              "workerIndex": 0
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-bd735964367169c3849d",
+          "title": "listing, product, navigation and cart surfaces pass representative axe checks",
+          "projectName": "chromium",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 200,
+            "column": 5
+          },
+          "duration": 10999,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:31:29.113Z",
+              "workerIndex": 1
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-be8f55e05ff6e4dedb43",
+          "title": "public catalog and known product and collection content is available before hydration",
+          "projectName": "chromium",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 226,
+            "column": 5
+          },
+          "duration": 5089,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:31:31.799Z",
+              "workerIndex": 0
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-2a92c2d0df59b7d2f851",
+          "title": "catalog, curated arrivals and audience views retain the approved assortment",
+          "projectName": "firefox",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 5,
+            "column": 5
+          },
+          "duration": 10170,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:33:29.417Z",
+              "workerIndex": 3
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-2e2de545890a0571bb8f",
+          "title": "responsive grids, sticky navigation and compact destinations work at the approved widths",
+          "projectName": "firefox",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 26,
+            "column": 5
+          },
+          "duration": 23880,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:33:32.909Z",
+              "workerIndex": 4
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-932177a97f022e8cee87",
+          "title": "keyboard and click category menus lead to existing scoped listings",
+          "projectName": "firefox",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 56,
+            "column": 5
+          },
+          "duration": 17362,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:33:39.659Z",
+              "workerIndex": 3
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-5a2770085fac87250a13",
+          "title": "swatches carry preview choice to readable detail and invalid color values use the default",
+          "projectName": "firefox",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 78,
+            "column": 5
+          },
+          "duration": 11434,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:33:56.958Z",
+              "workerIndex": 4
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-77acd058cb2bdfbe4f9e",
+          "title": "product gallery shows one image, supports thumbnail selection and resets for another color",
+          "projectName": "firefox",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 98,
+            "column": 5
+          },
+          "duration": 12691,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:33:57.117Z",
+              "workerIndex": 3
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-c53f05af452eeb879927",
+          "title": "gallery thumbnails become interactive when their hydrated color view is ready",
+          "projectName": "firefox",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 137,
+            "column": 5
+          },
+          "duration": 5551,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:34:08.558Z",
+              "workerIndex": 4
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-b02721c19371810ef354",
+          "title": "cards reveal isolated images for pointer and keyboard inspection while touch retains models",
+          "projectName": "firefox",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 158,
+            "column": 5
+          },
+          "duration": 5311,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:34:09.912Z",
+              "workerIndex": 3
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-7db47168ebfc1791092c",
+          "title": "failed catalog images retain their reserved space and readable fallback",
+          "projectName": "firefox",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 175,
+            "column": 5
+          },
+          "duration": 3630,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:34:14.210Z",
+              "workerIndex": 4
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-3f74912c61f43bdd8dce",
+          "title": "unknown destinations recover through the catalog and sharing metadata uses the configured origin",
+          "projectName": "firefox",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 185,
+            "column": 5
+          },
+          "duration": 8945,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:34:15.318Z",
+              "workerIndex": 3
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-ea29cc3029e0360b0d6e",
+          "title": "listing, product, navigation and cart surfaces pass representative axe checks",
+          "projectName": "firefox",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 200,
+            "column": 5
+          },
+          "duration": 22773,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:34:17.911Z",
+              "workerIndex": 4
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-cb6dde15d25efecb6f20",
+          "title": "public catalog and known product and collection content is available before hydration",
+          "projectName": "firefox",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 226,
+            "column": 5
+          },
+          "duration": 4342,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:34:24.314Z",
+              "workerIndex": 3
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-cebd3158fcb24ea7aa81",
+          "title": "catalog, curated arrivals and audience views retain the approved assortment",
+          "projectName": "webkit",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 5,
+            "column": 5
+          },
+          "duration": 17911,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:39:07.255Z",
+              "workerIndex": 8
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-cb9c5afd1b6c7223556e",
+          "title": "responsive grids, sticky navigation and compact destinations work at the approved widths",
+          "projectName": "webkit",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 26,
+            "column": 5
+          },
+          "duration": 27735,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:39:10.940Z",
+              "workerIndex": 6
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-a6e7a838a0ecf0acba38",
+          "title": "keyboard and click category menus lead to existing scoped listings",
+          "projectName": "webkit",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 56,
+            "column": 5
+          },
+          "duration": 15855,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:39:25.692Z",
+              "workerIndex": 8
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-6d589fa0544c9562872a",
+          "title": "swatches carry preview choice to readable detail and invalid color values use the default",
+          "projectName": "webkit",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 78,
+            "column": 5
+          },
+          "duration": 10465,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:39:38.732Z",
+              "workerIndex": 6
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-b21a20185d80371f1e27",
+          "title": "product gallery shows one image, supports thumbnail selection and resets for another color",
+          "projectName": "webkit",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 98,
+            "column": 5
+          },
+          "duration": 10715,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:39:41.613Z",
+              "workerIndex": 8
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-5acccabbeaf111e601f4",
+          "title": "gallery thumbnails become interactive when their hydrated color view is ready",
+          "projectName": "webkit",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 137,
+            "column": 5
+          },
+          "duration": 4693,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:39:49.269Z",
+              "workerIndex": 6
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-fc3f4a9baf00bf010d1c",
+          "title": "cards reveal isolated images for pointer and keyboard inspection while touch retains models",
+          "projectName": "webkit",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 158,
+            "column": 5
+          },
+          "duration": 4991,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:39:52.394Z",
+              "workerIndex": 8
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-cfda397326ab2811ed0b",
+          "title": "failed catalog images retain their reserved space and readable fallback",
+          "projectName": "webkit",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 175,
+            "column": 5
+          },
+          "duration": 4366,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:39:54.014Z",
+              "workerIndex": 6
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-10a31ab536717a6d61b7",
+          "title": "unknown destinations recover through the catalog and sharing metadata uses the configured origin",
+          "projectName": "webkit",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 185,
+            "column": 5
+          },
+          "duration": 5765,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:39:57.429Z",
+              "workerIndex": 8
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-2521520eb7c01a2e8c99",
+          "title": "listing, product, navigation and cart surfaces pass representative axe checks",
+          "projectName": "webkit",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 200,
+            "column": 5
+          },
+          "duration": 26824,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:39:58.424Z",
+              "workerIndex": 6
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-b2ea16c9dfc4d3a08081",
+          "title": "public catalog and known product and collection content is available before hydration",
+          "projectName": "webkit",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 226,
+            "column": 5
+          },
+          "duration": 5418,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:40:03.240Z",
+              "workerIndex": 8
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-abdcf2b95d191d4b8363",
+          "title": "catalog, curated arrivals and audience views retain the approved assortment",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 5,
+            "column": 5
+          },
+          "duration": 3337,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:43:14.622Z",
+              "workerIndex": 9
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-f7f42af6d370a52a56b8",
+          "title": "responsive grids, sticky navigation and compact destinations work at the approved widths",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 26,
+            "column": 5
+          },
+          "duration": 7747,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:43:17.995Z",
+              "workerIndex": 9
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-3d89732588b99f86d426",
+          "title": "keyboard and click category menus lead to existing scoped listings",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 56,
+            "column": 5
+          },
+          "duration": 3169,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:43:25.778Z",
+              "workerIndex": 9
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-58fd91107c439999d008",
+          "title": "swatches carry preview choice to readable detail and invalid color values use the default",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 78,
+            "column": 5
+          },
+          "duration": 3899,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:43:28.850Z",
+              "workerIndex": 10
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-09637cae651826dcaae4",
+          "title": "product gallery shows one image, supports thumbnail selection and resets for another color",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 98,
+            "column": 5
+          },
+          "duration": 3141,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:43:28.980Z",
+              "workerIndex": 9
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-36afce529324caccbff2",
+          "title": "gallery thumbnails become interactive when their hydrated color view is ready",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 137,
+            "column": 5
+          },
+          "duration": 1650,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:43:32.151Z",
+              "workerIndex": 9
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-c261192f1e8dc6ad0a6d",
+          "title": "cards reveal isolated images for pointer and keyboard inspection while touch retains models",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 158,
+            "column": 5
+          },
+          "duration": 1662,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:43:33.040Z",
+              "workerIndex": 10
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-d4b1a0cc32c2b2b5ccb3",
+          "title": "failed catalog images retain their reserved space and readable fallback",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 175,
+            "column": 5
+          },
+          "duration": 1833,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:43:33.842Z",
+              "workerIndex": 9
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-5d6b5cdb43371e5bf8cb",
+          "title": "unknown destinations recover through the catalog and sharing metadata uses the configured origin",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 185,
+            "column": 5
+          },
+          "duration": 3170,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:43:34.741Z",
+              "workerIndex": 10
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-592f772ebbd90706922e",
+          "title": "listing, product, navigation and cart surfaces pass representative axe checks",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 200,
+            "column": 5
+          },
+          "duration": 12231,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:43:35.713Z",
+              "workerIndex": 9
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-7c1917372099785ff2c8",
+          "title": "public catalog and known product and collection content is available before hydration",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 226,
+            "column": 5
+          },
+          "duration": 2468,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:43:37.952Z",
+              "workerIndex": 10
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-152d00dc9cf25a55d774",
+          "title": "catalog, curated arrivals and audience views retain the approved assortment",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 5,
+            "column": 5
+          },
+          "duration": 8007,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:46:12.509Z",
+              "workerIndex": 11
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-85c0561969e64e68f5cb",
+          "title": "responsive grids, sticky navigation and compact destinations work at the approved widths",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 26,
+            "column": 5
+          },
+          "duration": 29300,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:46:12.564Z",
+              "workerIndex": 12
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-579ab2047a5a978173d7",
+          "title": "keyboard and click category menus lead to existing scoped listings",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 56,
+            "column": 5
+          },
+          "duration": 7756,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:46:20.553Z",
+              "workerIndex": 11
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-a768032ee9eacd3ad295",
+          "title": "swatches carry preview choice to readable detail and invalid color values use the default",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 78,
+            "column": 5
+          },
+          "duration": 8550,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:46:28.346Z",
+              "workerIndex": 11
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-017378111c6f197c1271",
+          "title": "product gallery shows one image, supports thumbnail selection and resets for another color",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 98,
+            "column": 5
+          },
+          "duration": 6498,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:46:36.952Z",
+              "workerIndex": 11
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-018cd67bee553ce268db",
+          "title": "gallery thumbnails become interactive when their hydrated color view is ready",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 137,
+            "column": 5
+          },
+          "duration": 3482,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:46:41.928Z",
+              "workerIndex": 12
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-15efccdea5a29e26bf09",
+          "title": "cards reveal isolated images for pointer and keyboard inspection while touch retains models",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 158,
+            "column": 5
+          },
+          "duration": 3007,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:46:43.497Z",
+              "workerIndex": 11
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-6e22cd47699d41fea5d4",
+          "title": "failed catalog images retain their reserved space and readable fallback",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 175,
+            "column": 5
+          },
+          "duration": 3463,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:46:45.454Z",
+              "workerIndex": 12
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-d1b666a75698197ef96f",
+          "title": "unknown destinations recover through the catalog and sharing metadata uses the configured origin",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 185,
+            "column": 5
+          },
+          "duration": 4841,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:46:46.543Z",
+              "workerIndex": 11
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-42a2b72a4bf3f9a4d3cf",
+          "title": "listing, product, navigation and cart surfaces pass representative axe checks",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 200,
+            "column": 5
+          },
+          "duration": 22325,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:46:48.961Z",
+              "workerIndex": 12
+            }
+          ]
+        },
+        {
+          "testId": "30aa42b97d8966d0c2dc-1474d3a75a08d0fac8fe",
+          "title": "public catalog and known product and collection content is available before hydration",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "catalog.spec.ts",
+            "line": 226,
+            "column": 5
+          },
+          "duration": 4381,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:46:51.429Z",
+              "workerIndex": 11
+            }
+          ]
+        }
+      ],
+      "stats": {
+        "total": 55,
+        "expected": 55,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": true
+      }
+    },
+    {
+      "fileId": "ec079a02c0facf936b0d",
+      "fileName": "editorial.spec.ts",
+      "tests": [
+        {
+          "testId": "ec079a02c0facf936b0d-871e2a1a9f47d2abc48a",
+          "title": "full-bleed homepage keeps the approved structure, hero sources and destinations at five widths",
+          "projectName": "chromium",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 6,
+            "column": 5
+          },
+          "duration": 14580,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:31:56.756Z",
+              "workerIndex": 0
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-ef49f2050e58ea65eaae",
+          "title": "approved category replacements and section-bounded sticky look photography",
+          "projectName": "chromium",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 35,
+            "column": 5
+          },
+          "duration": 5656,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:32:03.480Z",
+              "workerIndex": 2
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-28554dd27be93e76ae5e",
+          "title": "carousel arrows and keyboard reveal cards without off-screen tab stops",
+          "projectName": "chromium",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 74,
+            "column": 5
+          },
+          "duration": 1654,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:32:09.342Z",
+              "workerIndex": 2
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-9f877cf91cdf5f9ea370",
+          "title": "native touch swipe moves the category carousel",
+          "projectName": "chromium",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 103,
+            "column": 5
+          },
+          "duration": 1536,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:32:11.019Z",
+              "workerIndex": 2
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-44c2c2bc2ea29def272c",
+          "title": "announcement rotates, pauses and obeys reduced motion; details navigate",
+          "projectName": "chromium",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 119,
+            "column": 5
+          },
+          "duration": 2212,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:32:11.363Z",
+              "workerIndex": 0
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-2f2d80958ad15a98cec1",
+          "title": "look tabs work by keyboard and each image matches its product/colorway links",
+          "projectName": "chromium",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 148,
+            "column": 5
+          },
+          "duration": 2069,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:32:12.591Z",
+              "workerIndex": 2
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-063d794116efdedd513d",
+          "title": "collection and brand pages retain full-width approved imagery, stories, browsing and 404 behavior",
+          "projectName": "chromium",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 163,
+            "column": 5
+          },
+          "duration": 3250,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:32:13.616Z",
+              "workerIndex": 0
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-f6163f64bb48563a4336",
+          "title": "responsive editorial pages remain accessible with reduced motion and 200% text zoom",
+          "projectName": "chromium",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 184,
+            "column": 5
+          },
+          "duration": 41588,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:32:14.687Z",
+              "workerIndex": 2
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-f73dc9137a10c3f5c30c",
+          "title": "a failed editorial image retains its space and readable fallback",
+          "projectName": "chromium",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 205,
+            "column": 5
+          },
+          "duration": 1367,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:32:16.902Z",
+              "workerIndex": 0
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-d5956e8968564d2c9fd5",
+          "title": "full-bleed homepage keeps the approved structure, hero sources and destinations at five widths",
+          "projectName": "firefox",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 6,
+            "column": 5
+          },
+          "duration": 17855,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:34:45.562Z",
+              "workerIndex": 4
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-a7d24a4676f847ac69c0",
+          "title": "approved category replacements and section-bounded sticky look photography",
+          "projectName": "firefox",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 35,
+            "column": 5
+          },
+          "duration": 13627,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:35:03.471Z",
+              "workerIndex": 4
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-6f66f23b43150a775af8",
+          "title": "carousel arrows and keyboard reveal cards without off-screen tab stops",
+          "projectName": "firefox",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 74,
+            "column": 5
+          },
+          "duration": 4358,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:35:08.922Z",
+              "workerIndex": 3
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-cdb2069bc91c16d4a10f",
+          "title": "native touch swipe moves the category carousel",
+          "projectName": "firefox",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 103,
+            "column": 5
+          },
+          "duration": 968,
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "Native touch gesture injected through Chromium's protocol.",
+              "location": {
+                "file": "C:\\Users\\bombd\\projects\\difratelli-kids-v2\\tests\\browser\\editorial.spec.ts",
+                "line": 104,
+                "column": 8
+              }
+            }
+          ],
+          "tags": [],
+          "outcome": "skipped",
+          "path": [],
+          "ok": false,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:35:13.340Z",
+              "workerIndex": 3
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-c36ae1bb3b2108f1b719",
+          "title": "announcement rotates, pauses and obeys reduced motion; details navigate",
+          "projectName": "firefox",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 119,
+            "column": 5
+          },
+          "duration": 5454,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:35:14.356Z",
+              "workerIndex": 3
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-b45533a5902807c3274d",
+          "title": "look tabs work by keyboard and each image matches its product/colorway links",
+          "projectName": "firefox",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 148,
+            "column": 5
+          },
+          "duration": 4283,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:35:17.151Z",
+              "workerIndex": 4
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-e50d026eb977fd63d9e9",
+          "title": "collection and brand pages retain full-width approved imagery, stories, browsing and 404 behavior",
+          "projectName": "firefox",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 163,
+            "column": 5
+          },
+          "duration": 10571,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:35:19.861Z",
+              "workerIndex": 3
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-6cbf592cfd3b69eaeac6",
+          "title": "responsive editorial pages remain accessible with reduced motion and 200% text zoom",
+          "projectName": "firefox",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 184,
+            "column": 5
+          },
+          "duration": 138393,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:35:21.485Z",
+              "workerIndex": 4
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-202f7f9d445896eed5b3",
+          "title": "a failed editorial image retains its space and readable fallback",
+          "projectName": "firefox",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 205,
+            "column": 5
+          },
+          "duration": 3531,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:35:30.486Z",
+              "workerIndex": 3
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-58bf7f7292bfd874d70f",
+          "title": "full-bleed homepage keeps the approved structure, hero sources and destinations at five widths",
+          "projectName": "webkit",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 6,
+            "column": 5
+          },
+          "duration": 46069,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:40:31.001Z",
+              "workerIndex": 6
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-547a1d0ca724b7389ef3",
+          "title": "approved category replacements and section-bounded sticky look photography",
+          "projectName": "webkit",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 35,
+            "column": 5
+          },
+          "duration": 31641,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:41:04.533Z",
+              "workerIndex": 8
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-17aa3d5983354848c3b1",
+          "title": "carousel arrows and keyboard reveal cards without off-screen tab stops",
+          "projectName": "webkit",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 74,
+            "column": 5
+          },
+          "duration": 8157,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:41:17.106Z",
+              "workerIndex": 6
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-f6241ecaba18a4916006",
+          "title": "native touch swipe moves the category carousel",
+          "projectName": "webkit",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 103,
+            "column": 5
+          },
+          "duration": 601,
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "Native touch gesture injected through Chromium's protocol.",
+              "location": {
+                "file": "C:\\Users\\bombd\\projects\\difratelli-kids-v2\\tests\\browser\\editorial.spec.ts",
+                "line": 104,
+                "column": 8
+              }
+            }
+          ],
+          "tags": [],
+          "outcome": "skipped",
+          "path": [],
+          "ok": false,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:41:25.300Z",
+              "workerIndex": 6
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-51e5bac5f23e233853bb",
+          "title": "announcement rotates, pauses and obeys reduced motion; details navigate",
+          "projectName": "webkit",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 119,
+            "column": 5
+          },
+          "duration": 7164,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:41:25.938Z",
+              "workerIndex": 6
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-9780a48abed7d48d9941",
+          "title": "look tabs work by keyboard and each image matches its product/colorway links",
+          "projectName": "webkit",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 148,
+            "column": 5
+          },
+          "duration": 7536,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:41:33.143Z",
+              "workerIndex": 6
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-1e2f1856ebd70982c161",
+          "title": "collection and brand pages retain full-width approved imagery, stories, browsing and 404 behavior",
+          "projectName": "webkit",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 163,
+            "column": 5
+          },
+          "duration": 10690,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:41:36.240Z",
+              "workerIndex": 8
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-5e53993ba71a9517498b",
+          "title": "responsive editorial pages remain accessible with reduced motion and 200% text zoom",
+          "projectName": "webkit",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 184,
+            "column": 5
+          },
+          "duration": 105449,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:41:40.751Z",
+              "workerIndex": 6
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-86d9a41a86809272afa3",
+          "title": "a failed editorial image retains its space and readable fallback",
+          "projectName": "webkit",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 205,
+            "column": 5
+          },
+          "duration": 5083,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:41:46.972Z",
+              "workerIndex": 8
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-8b5dabfc9efd5d132da5",
+          "title": "full-bleed homepage keeps the approved structure, hero sources and destinations at five widths",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 6,
+            "column": 5
+          },
+          "duration": 90629,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:43:50.672Z",
+              "workerIndex": 9
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-11450150baa4992df065",
+          "title": "approved category replacements and section-bounded sticky look photography",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 35,
+            "column": 5
+          },
+          "duration": 10260,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:44:00.131Z",
+              "workerIndex": 10
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-1106ff6eb152bb01e643",
+          "title": "carousel arrows and keyboard reveal cards without off-screen tab stops",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 74,
+            "column": 5
+          },
+          "duration": 3058,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:44:10.438Z",
+              "workerIndex": 10
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-de8f1aa4b9ddba209826",
+          "title": "native touch swipe moves the category carousel",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 103,
+            "column": 5
+          },
+          "duration": 2443,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:44:13.555Z",
+              "workerIndex": 10
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-cffaa47c9a81336fc2a8",
+          "title": "announcement rotates, pauses and obeys reduced motion; details navigate",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 119,
+            "column": 5
+          },
+          "duration": 3503,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:44:16.025Z",
+              "workerIndex": 10
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-544d7ee9325e287ffdbe",
+          "title": "look tabs work by keyboard and each image matches its product/colorway links",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 148,
+            "column": 5
+          },
+          "duration": 5407,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:44:19.569Z",
+              "workerIndex": 10
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-0c02ce3e858a0941ac6e",
+          "title": "collection and brand pages retain full-width approved imagery, stories, browsing and 404 behavior",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 163,
+            "column": 5
+          },
+          "duration": 6336,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:44:25.034Z",
+              "workerIndex": 10
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-348c60d6903e0238779d",
+          "title": "responsive editorial pages remain accessible with reduced motion and 200% text zoom",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 184,
+            "column": 5
+          },
+          "duration": 42861,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:44:31.428Z",
+              "workerIndex": 10
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-6a1ea2157ff61b67a659",
+          "title": "a failed editorial image retains its space and readable fallback",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 205,
+            "column": 5
+          },
+          "duration": 2295,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:45:14.354Z",
+              "workerIndex": 10
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-5aed7f31bfcf4e869dd2",
+          "title": "full-bleed homepage keeps the approved structure, hero sources and destinations at five widths",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 6,
+            "column": 5
+          },
+          "duration": 83481,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:47:09.302Z",
+              "workerIndex": 13
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-e28e0bd143da51340b29",
+          "title": "approved category replacements and section-bounded sticky look photography",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 35,
+            "column": 5
+          },
+          "duration": 53984,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:47:11.351Z",
+              "workerIndex": 12
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-9c627253398143051e4e",
+          "title": "carousel arrows and keyboard reveal cards without off-screen tab stops",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 74,
+            "column": 5
+          },
+          "duration": 8012,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:48:05.407Z",
+              "workerIndex": 12
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-645de46f7067d9db046e",
+          "title": "native touch swipe moves the category carousel",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 103,
+            "column": 5
+          },
+          "duration": 604,
+          "annotations": [
+            {
+              "type": "skip",
+              "description": "Native touch gesture injected through Chromium's protocol.",
+              "location": {
+                "file": "C:\\Users\\bombd\\projects\\difratelli-kids-v2\\tests\\browser\\editorial.spec.ts",
+                "line": 104,
+                "column": 8
+              }
+            }
+          ],
+          "tags": [],
+          "outcome": "skipped",
+          "path": [],
+          "ok": false,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:48:13.471Z",
+              "workerIndex": 12
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-4834df3a977def76e5c8",
+          "title": "announcement rotates, pauses and obeys reduced motion; details navigate",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 119,
+            "column": 5
+          },
+          "duration": 5879,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:48:14.131Z",
+              "workerIndex": 12
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-8ffefa40ae5e6d62a72e",
+          "title": "look tabs work by keyboard and each image matches its product/colorway links",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 148,
+            "column": 5
+          },
+          "duration": 5603,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:48:20.047Z",
+              "workerIndex": 12
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-d56ee5350eafb2487cbd",
+          "title": "collection and brand pages retain full-width approved imagery, stories, browsing and 404 behavior",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 163,
+            "column": 5
+          },
+          "duration": 9330,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:48:25.688Z",
+              "workerIndex": 12
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-4b3088aa42f798f33759",
+          "title": "responsive editorial pages remain accessible with reduced motion and 200% text zoom",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 184,
+            "column": 5
+          },
+          "duration": 136982,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:48:32.833Z",
+              "workerIndex": 13
+            }
+          ]
+        },
+        {
+          "testId": "ec079a02c0facf936b0d-27e96151b95509379166",
+          "title": "a failed editorial image retains its space and readable fallback",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "editorial.spec.ts",
+            "line": 205,
+            "column": 5
+          },
+          "duration": 4091,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:48:35.060Z",
+              "workerIndex": 12
+            }
+          ]
+        }
+      ],
+      "stats": {
+        "total": 45,
+        "expected": 42,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 3,
+        "ok": true
+      }
+    },
+    {
+      "fileId": "6b60d0cacd30be8ae473",
+      "fileName": "foundation.spec.ts",
+      "tests": [
+        {
+          "testId": "6b60d0cacd30be8ae473-5b3c31ee2fdc46307a85",
+          "title": "serves approved Portuguese copy, metadata and an accessible public shell",
+          "projectName": "chromium",
+          "location": {
+            "file": "foundation.spec.ts",
+            "line": 4,
+            "column": 5
+          },
+          "duration": 4420,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:32:18.312Z",
+              "workerIndex": 0
+            }
+          ]
+        },
+        {
+          "testId": "6b60d0cacd30be8ae473-0bcc6a61b57cb728358f",
+          "title": "serves approved identity and optimized catalog imagery from production",
+          "projectName": "chromium",
+          "location": {
+            "file": "foundation.spec.ts",
+            "line": 16,
+            "column": 5
+          },
+          "duration": 47,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:32:22.774Z",
+              "workerIndex": 0
+            }
+          ]
+        },
+        {
+          "testId": "6b60d0cacd30be8ae473-9bac3fcab8b5e10deb80",
+          "title": "serves approved Portuguese copy, metadata and an accessible public shell",
+          "projectName": "firefox",
+          "location": {
+            "file": "foundation.spec.ts",
+            "line": 4,
+            "column": 5
+          },
+          "duration": 9122,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:35:34.078Z",
+              "workerIndex": 3
+            }
+          ]
+        },
+        {
+          "testId": "6b60d0cacd30be8ae473-ce072b6ede34578f2c83",
+          "title": "serves approved identity and optimized catalog imagery from production",
+          "projectName": "firefox",
+          "location": {
+            "file": "foundation.spec.ts",
+            "line": 16,
+            "column": 5
+          },
+          "duration": 99,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:35:43.253Z",
+              "workerIndex": 3
+            }
+          ]
+        },
+        {
+          "testId": "6b60d0cacd30be8ae473-02bbce8516694bd859a3",
+          "title": "serves approved Portuguese copy, metadata and an accessible public shell",
+          "projectName": "webkit",
+          "location": {
+            "file": "foundation.spec.ts",
+            "line": 4,
+            "column": 5
+          },
+          "duration": 11280,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:41:52.113Z",
+              "workerIndex": 8
+            }
+          ]
+        },
+        {
+          "testId": "6b60d0cacd30be8ae473-dda1189f8a677cb15341",
+          "title": "serves approved identity and optimized catalog imagery from production",
+          "projectName": "webkit",
+          "location": {
+            "file": "foundation.spec.ts",
+            "line": 16,
+            "column": 5
+          },
+          "duration": 63,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:42:03.441Z",
+              "workerIndex": 8
+            }
+          ]
+        },
+        {
+          "testId": "6b60d0cacd30be8ae473-f612342ce5fb14c49bcc",
+          "title": "serves approved Portuguese copy, metadata and an accessible public shell",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "foundation.spec.ts",
+            "line": 4,
+            "column": 5
+          },
+          "duration": 5837,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:45:16.700Z",
+              "workerIndex": 10
+            }
+          ]
+        },
+        {
+          "testId": "6b60d0cacd30be8ae473-16000ab8e83dfc0134f0",
+          "title": "serves approved identity and optimized catalog imagery from production",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "foundation.spec.ts",
+            "line": 16,
+            "column": 5
+          },
+          "duration": 142,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:45:21.418Z",
+              "workerIndex": 9
+            }
+          ]
+        },
+        {
+          "testId": "6b60d0cacd30be8ae473-9f47e22a90dc0c2bbda1",
+          "title": "serves approved Portuguese copy, metadata and an accessible public shell",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "foundation.spec.ts",
+            "line": 4,
+            "column": 5
+          },
+          "duration": 8376,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:48:39.206Z",
+              "workerIndex": 12
+            }
+          ]
+        },
+        {
+          "testId": "6b60d0cacd30be8ae473-a535b20e0801df456c20",
+          "title": "serves approved identity and optimized catalog imagery from production",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "foundation.spec.ts",
+            "line": 16,
+            "column": 5
+          },
+          "duration": 75,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:48:47.634Z",
+              "workerIndex": 12
+            }
+          ]
+        }
+      ],
+      "stats": {
+        "total": 10,
+        "expected": 10,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": true
+      }
+    },
+    {
+      "fileId": "a088064de9fe351eef5f",
+      "fileName": "search.spec.ts",
+      "tests": [
+        {
+          "testId": "a088064de9fe351eef5f-c94fcc608c3f63ee6efd",
+          "title": "header submission preserves spelling, matches every word and commits fresh URL history",
+          "projectName": "chromium",
+          "location": {
+            "file": "search.spec.ts",
+            "line": 16,
+            "column": 5
+          },
+          "duration": 3242,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:32:22.861Z",
+              "workerIndex": 0
+            }
+          ]
+        },
+        {
+          "testId": "a088064de9fe351eef5f-caf7aa5d151d8cfcc7f8",
+          "title": "cancel discards drafts, returns focus and keeps the committed page",
+          "projectName": "chromium",
+          "location": {
+            "file": "search.spec.ts",
+            "line": 39,
+            "column": 5
+          },
+          "duration": 6764,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:32:26.133Z",
+              "workerIndex": 0
+            }
+          ]
+        },
+        {
+          "testId": "a088064de9fe351eef5f-7fb177a813843f090656",
+          "title": "blank and unmatched submissions provide approved recovery",
+          "projectName": "chromium",
+          "location": {
+            "file": "search.spec.ts",
+            "line": 74,
+            "column": 5
+          },
+          "duration": 5116,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:32:32.929Z",
+              "workerIndex": 0
+            }
+          ]
+        },
+        {
+          "testId": "a088064de9fe351eef5f-47b23c7b37bdb1395c79",
+          "title": "header submission preserves spelling, matches every word and commits fresh URL history",
+          "projectName": "firefox",
+          "location": {
+            "file": "search.spec.ts",
+            "line": 16,
+            "column": 5
+          },
+          "duration": 7486,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:35:43.416Z",
+              "workerIndex": 3
+            }
+          ]
+        },
+        {
+          "testId": "a088064de9fe351eef5f-b00d40802103b750bd14",
+          "title": "cancel discards drafts, returns focus and keeps the committed page",
+          "projectName": "firefox",
+          "location": {
+            "file": "search.spec.ts",
+            "line": 39,
+            "column": 5
+          },
+          "duration": 15244,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:35:50.951Z",
+              "workerIndex": 3
+            }
+          ]
+        },
+        {
+          "testId": "a088064de9fe351eef5f-0f07ffc2fef7831f0f50",
+          "title": "blank and unmatched submissions provide approved recovery",
+          "projectName": "firefox",
+          "location": {
+            "file": "search.spec.ts",
+            "line": 74,
+            "column": 5
+          },
+          "duration": 16177,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:36:06.246Z",
+              "workerIndex": 3
+            }
+          ]
+        },
+        {
+          "testId": "a088064de9fe351eef5f-0d307a098c19ec203c39",
+          "title": "header submission preserves spelling, matches every word and commits fresh URL history",
+          "projectName": "webkit",
+          "location": {
+            "file": "search.spec.ts",
+            "line": 16,
+            "column": 5
+          },
+          "duration": 8819,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:42:03.549Z",
+              "workerIndex": 8
+            }
+          ]
+        },
+        {
+          "testId": "a088064de9fe351eef5f-ac097d6c882af4c54ef5",
+          "title": "cancel discards drafts, returns focus and keeps the committed page",
+          "projectName": "webkit",
+          "location": {
+            "file": "search.spec.ts",
+            "line": 39,
+            "column": 5
+          },
+          "duration": 16325,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:42:12.392Z",
+              "workerIndex": 8
+            }
+          ]
+        },
+        {
+          "testId": "a088064de9fe351eef5f-a8879336f04abbd1d0aa",
+          "title": "blank and unmatched submissions provide approved recovery",
+          "projectName": "webkit",
+          "location": {
+            "file": "search.spec.ts",
+            "line": 74,
+            "column": 5
+          },
+          "duration": 11443,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:42:28.750Z",
+              "workerIndex": 8
+            }
+          ]
+        },
+        {
+          "testId": "a088064de9fe351eef5f-b2d865091da0fb7d5aee",
+          "title": "header submission preserves spelling, matches every word and commits fresh URL history",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "search.spec.ts",
+            "line": 16,
+            "column": 5
+          },
+          "duration": 5642,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:45:21.613Z",
+              "workerIndex": 9
+            }
+          ]
+        },
+        {
+          "testId": "a088064de9fe351eef5f-34307e96c2f1e12aab40",
+          "title": "cancel discards drafts, returns focus and keeps the committed page",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "search.spec.ts",
+            "line": 39,
+            "column": 5
+          },
+          "duration": 11082,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:45:22.592Z",
+              "workerIndex": 10
+            }
+          ]
+        },
+        {
+          "testId": "a088064de9fe351eef5f-bc8a54987109332c9ad3",
+          "title": "blank and unmatched submissions provide approved recovery",
+          "projectName": "mobile-chromium",
+          "location": {
+            "file": "search.spec.ts",
+            "line": 74,
+            "column": 5
+          },
+          "duration": 7605,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:45:27.311Z",
+              "workerIndex": 9
+            }
+          ]
+        },
+        {
+          "testId": "a088064de9fe351eef5f-ec6542b16344ceac2a96",
+          "title": "header submission preserves spelling, matches every word and commits fresh URL history",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "search.spec.ts",
+            "line": 16,
+            "column": 5
+          },
+          "duration": 10491,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:48:48.080Z",
+              "workerIndex": 12
+            }
+          ]
+        },
+        {
+          "testId": "a088064de9fe351eef5f-dda849ecd9529f5587f4",
+          "title": "cancel discards drafts, returns focus and keeps the committed page",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "search.spec.ts",
+            "line": 39,
+            "column": 5
+          },
+          "duration": 39731,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:48:58.608Z",
+              "workerIndex": 12
+            }
+          ]
+        },
+        {
+          "testId": "a088064de9fe351eef5f-29bdefea6284770cd56a",
+          "title": "blank and unmatched submissions provide approved recovery",
+          "projectName": "mobile-webkit",
+          "location": {
+            "file": "search.spec.ts",
+            "line": 74,
+            "column": 5
+          },
+          "duration": 11422,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-13T23:49:38.380Z",
+              "workerIndex": 12
+            }
+          ]
+        }
+      ],
+      "stats": {
+        "total": 15,
+        "expected": 15,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": true
+      }
+    }
+  ],
+  "projectNames": [
+    "chromium",
+    "firefox",
+    "webkit",
+    "mobile-chromium",
+    "mobile-webkit"
+  ],
+  "stats": {
+    "total": 175,
+    "expected": 164,
+    "unexpected": 4,
+    "flaky": 0,
+    "skipped": 7,
+    "ok": false
+  },
+  "errors": [],
+  "options": {},
+  "machines": []
+}

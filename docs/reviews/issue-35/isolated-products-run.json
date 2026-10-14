@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "actualWorkers": 1
+  },
+  "startTime": 1791936116498,
+  "duration": 62451.326,
+  "files": [
+    {
+      "fileId": "2318db75e0c613437198",
+      "fileName": "checkpoint.spec.ts",
+      "tests": [
+        {
+          "testId": "2318db75e0c613437198-cc792cc72cde4f58aee6",
+          "title": "checkpoint: every product and offered color has readable approved content",
+          "projectName": "webkit",
+          "location": {
+            "file": "checkpoint.spec.ts",
+            "line": 20,
+            "column": 5
+          },
+          "duration": 57669,
+          "annotations": [],
+          "tags": [],
+          "outcome": "expected",
+          "path": [],
+          "ok": true,
+          "results": [
+            {
+              "attachments": [],
+              "startTime": "2026-10-14T00:02:00.761Z",
+              "workerIndex": 0
+            }
+          ]
+        }
+      ],
+      "stats": {
+        "total": 1,
+        "expected": 1,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": true
+      }
+    }
+  ],
+  "projectNames": [
+    "webkit"
+  ],
+  "stats": {
+    "total": 1,
+    "expected": 1,
+    "unexpected": 0,
+    "flaky": 0,
+    "skipped": 0,
+    "ok": true
+  },
+  "errors": [],
+  "options": {},
+  "machines": []
+}
