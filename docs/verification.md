@@ -103,8 +103,8 @@ contracts live in `tests/contracts/checkout.test.ts`; production-browser journey
 axe scans and visual captures live in `tests/browser/checkout.spec.ts`.
 The development diagnostics journey also exercises checkout. Local evidence and
 remaining human acceptance requirements are recorded in
-`docs/reviews/issue-41/review.md`. Checkout checkpoint acceptance and release
-approval remain separate gates.
+`docs/reviews/issue-41/review.md`. The owner accepted the checkout integration
+checkpoint on 2026-10-14; release approval remains a separate gate.
 
 Cart and checkout thumbnail containers position and contain image fallbacks, so
 failed imagery cannot cover the checkout link or submit controls. A production

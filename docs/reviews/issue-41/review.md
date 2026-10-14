@@ -1,7 +1,14 @@
 # Visit-only checkout — issue #41
 
 Status: implementation and local production verification complete; human checkout
-integration acceptance pending. No release approval or public preview is claimed.
+integration accepted by the owner on 2026-10-14. The owner also explicitly
+authorized ignoring CI for the PR merge. No release approval or public preview
+is claimed.
+
+Approval covers the application/test source in
+`595f340e754baf848a5223cb7c6bd9275441d1c0`, presented in
+[PR #64](https://github.com/danielluis07/difratelli-kids-v2/pull/64).
+Subsequent approval-record documentation changes preserve those tested source bytes.
 
 Authority: [issue #41](https://github.com/danielluis07/difratelli-kids-v2/issues/41),
 [parent specification #22](https://github.com/danielluis07/difratelli-kids-v2/issues/22),
@@ -106,6 +113,6 @@ capture widths. These are local browser/emulator captures, not actual-device or
 human acceptance evidence. Screen-reader, real-device and complete-candidate
 release review remain separate work.
 
-Human checkout integration acceptance is required before advancing to the next
-delivery stage under `docs/implementation-plan.md`. Publication remains subject
-to approval of the exact candidate commit and public preview.
+The human checkout integration checkpoint required by
+`docs/implementation-plan.md` is accepted. Publication remains subject to approval
+of the exact release candidate commit and public preview.
