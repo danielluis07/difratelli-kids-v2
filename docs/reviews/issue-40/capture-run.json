@@ -1,0 +1,340 @@
+{
+  "config": {
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.exe",
+      "C:\\Users\\bombd\\projects\\difratelli-kids-v2\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/browser/shopping-captures.spec.ts",
+      "--project=chromium",
+      "--workers=1",
+      "--reporter=list,json",
+      "--output=test-results/issue-40-final-captures"
+    ],
+    "configFile": "C:\\Users\\bombd\\projects\\difratelli-kids-v2\\playwright.config.ts",
+    "rootDir": "C:/Users/bombd/projects/difratelli-kids-v2/tests/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/bombd/projects/difratelli-kids-v2/test-results/issue-40-final-captures",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/bombd/projects/difratelli-kids-v2/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/bombd/projects/difratelli-kids-v2/test-results/issue-40-final-captures",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/bombd/projects/difratelli-kids-v2/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/bombd/projects/difratelli-kids-v2/test-results/issue-40-final-captures",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/bombd/projects/difratelli-kids-v2/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/bombd/projects/difratelli-kids-v2/test-results/issue-40-final-captures",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile-chromium",
+        "name": "mobile-chromium",
+        "testDir": "C:/Users/bombd/projects/difratelli-kids-v2/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/bombd/projects/difratelli-kids-v2/test-results/issue-40-final-captures",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile-webkit",
+        "name": "mobile-webkit",
+        "testDir": "C:/Users/bombd/projects/difratelli-kids-v2/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\bombd\\projects\\difratelli-kids-v2\\test-results\\issue-40-final-captures",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "chromium",
+        "testDir": "C:\\Users\\bombd\\projects\\difratelli-kids-v2\\tests\\browser",
+        "snapshotDir": "C:\\Users\\bombd\\projects\\difratelli-kids-v2\\tests\\browser",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3100",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 1,
+    "webServer": {
+      "command": "bun run start --hostname 127.0.0.1 --port 3100",
+      "env": {
+        "SITE_URL": "http://127.0.0.1:3100"
+      },
+      "url": "http://127.0.0.1:3100",
+      "reuseExistingServer": false,
+      "timeout": 120000
+    }
+  },
+  "suites": [
+    {
+      "title": "shopping-captures.spec.ts",
+      "file": "shopping-captures.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "shopping checkpoint: production responsive state captures",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 300000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 108362,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Capturing product at 390px\n"
+                    },
+                    {
+                      "text": "Capturing missing-size at 390px\n"
+                    },
+                    {
+                      "text": "Capturing guidance at 390px\n"
+                    },
+                    {
+                      "text": "Capturing enlargement at 390px\n"
+                    },
+                    {
+                      "text": "Capturing cart at 390px\n"
+                    },
+                    {
+                      "text": "Capturing favorites at 390px\n"
+                    },
+                    {
+                      "text": "Capturing favorites-empty at 390px\n"
+                    },
+                    {
+                      "text": "Capturing cart-empty at 390px\n"
+                    },
+                    {
+                      "text": "Capturing recovery at 390px\n"
+                    },
+                    {
+                      "text": "Capturing storage-failure at 390px\n"
+                    },
+                    {
+                      "text": "Capturing pending at 390px\n"
+                    },
+                    {
+                      "text": "Capturing image-failure at 390px\n"
+                    },
+                    {
+                      "text": "Capturing product at 768px\n"
+                    },
+                    {
+                      "text": "Capturing missing-size at 768px\n"
+                    },
+                    {
+                      "text": "Capturing guidance at 768px\n"
+                    },
+                    {
+                      "text": "Capturing enlargement at 768px\n"
+                    },
+                    {
+                      "text": "Capturing cart at 768px\n"
+                    },
+                    {
+                      "text": "Capturing favorites at 768px\n"
+                    },
+                    {
+                      "text": "Capturing favorites-empty at 768px\n"
+                    },
+                    {
+                      "text": "Capturing cart-empty at 768px\n"
+                    },
+                    {
+                      "text": "Capturing recovery at 768px\n"
+                    },
+                    {
+                      "text": "Capturing storage-failure at 768px\n"
+                    },
+                    {
+                      "text": "Capturing pending at 768px\n"
+                    },
+                    {
+                      "text": "Capturing image-failure at 768px\n"
+                    },
+                    {
+                      "text": "Capturing product at 1440px\n"
+                    },
+                    {
+                      "text": "Capturing missing-size at 1440px\n"
+                    },
+                    {
+                      "text": "Capturing guidance at 1440px\n"
+                    },
+                    {
+                      "text": "Capturing enlargement at 1440px\n"
+                    },
+                    {
+                      "text": "Capturing cart at 1440px\n"
+                    },
+                    {
+                      "text": "Capturing favorites at 1440px\n"
+                    },
+                    {
+                      "text": "Capturing favorites-empty at 1440px\n"
+                    },
+                    {
+                      "text": "Capturing cart-empty at 1440px\n"
+                    },
+                    {
+                      "text": "Capturing recovery at 1440px\n"
+                    },
+                    {
+                      "text": "Capturing storage-failure at 1440px\n"
+                    },
+                    {
+                      "text": "Capturing pending at 1440px\n"
+                    },
+                    {
+                      "text": "Capturing image-failure at 1440px\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-14T16:29:27.939Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "902c17270cfa6a5fab31-92276b1b8d5e8982113a",
+          "file": "shopping-captures.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-14T16:29:24.977Z",
+    "duration": 112398.994,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

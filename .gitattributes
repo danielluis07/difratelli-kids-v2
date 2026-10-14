@@ -16,5 +16,8 @@ assets/identity/fonts/*OFL.txt whitespace=-blank-at-eol
 public/identity/*.svg -text whitespace=cr-at-eol
 # Retained checkpoint reports and captures bind their exact evidence bytes.
 docs/reviews/issue-35/* -text whitespace=cr-at-eol
+docs/reviews/issue-40/** -text whitespace=cr-at-eol
+# Playwright code frames retain blank source lines after their line-number pipe.
+docs/reviews/issue-40/failures/**/error-context.md whitespace=-blank-at-eol,cr-at-eol
 # Blank diff context lines contain a required space; preserve the patch hash.
 docs/reviews/issue-35/application.patch whitespace=-blank-at-eol,cr-at-eol

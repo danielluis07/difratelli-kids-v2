@@ -1,0 +1,2214 @@
+{
+  "applicationRevision": "7e1c9545d205aee3a170f2932bf43c7844c4a52b",
+  "productionBuildId": "MsPg9uwZRSpYcyB4gYmzE",
+  "runs": [
+    {
+      "file": "production-run.json",
+      "applicationRevision": "240beb7aa31e50fbc0180002789aa447649017cd",
+      "stats": {
+        "startTime": "2026-10-14T16:05:15.260Z",
+        "duration": 787548.789,
+        "expected": 135,
+        "skipped": 0,
+        "unexpected": 5,
+        "flaky": 0
+      }
+    },
+    {
+      "file": "production-rerun.json",
+      "applicationRevision": "240beb7aa31e50fbc0180002789aa447649017cd",
+      "stats": {
+        "startTime": "2026-10-14T16:18:42.530Z",
+        "duration": 69461.966,
+        "expected": 5,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    },
+    {
+      "file": "affected-run.json",
+      "applicationRevision": "7e1c9545d205aee3a170f2932bf43c7844c4a52b",
+      "stats": {
+        "startTime": "2026-10-14T16:28:40.919Z",
+        "duration": 27149.615,
+        "expected": 5,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    }
+  ],
+  "cases": [
+    {
+      "project": "chromium",
+      "file": "cart.spec.ts",
+      "title": "add focuses missing size, merges, limits, and keeps selected options distinct",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 8158,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "cart.spec.ts",
+      "title": "Sheet quantity limits, removal, announcements, focus, sizing and empty exploration",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 15322,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "cart.spec.ts",
+      "title": "prerendered public content uses neutral gated cart UI",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 1291,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "cart.spec.ts",
+      "title": "normal restoration never overwrites saved selections and survives public navigation",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 5018,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "cart.spec.ts",
+      "title": "add focuses missing size, merges, limits, and keeps selected options distinct",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 15954,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "cart.spec.ts",
+      "title": "Sheet quantity limits, removal, announcements, focus, sizing and empty exploration",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 28872,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "cart.spec.ts",
+      "title": "prerendered public content uses neutral gated cart UI",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 2388,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "cart.spec.ts",
+      "title": "normal restoration never overwrites saved selections and survives public navigation",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 9404,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "cart.spec.ts",
+      "title": "add focuses missing size, merges, limits, and keeps selected options distinct",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 18665,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "cart.spec.ts",
+      "title": "Sheet quantity limits, removal, announcements, focus, sizing and empty exploration",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 34386,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "cart.spec.ts",
+      "title": "prerendered public content uses neutral gated cart UI",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 2844,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "cart.spec.ts",
+      "title": "normal restoration never overwrites saved selections and survives public navigation",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 9670,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "cart.spec.ts",
+      "title": "add focuses missing size, merges, limits, and keeps selected options distinct",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 4919,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "cart.spec.ts",
+      "title": "Sheet quantity limits, removal, announcements, focus, sizing and empty exploration",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 8686,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "cart.spec.ts",
+      "title": "prerendered public content uses neutral gated cart UI",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 1031,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "cart.spec.ts",
+      "title": "normal restoration never overwrites saved selections and survives public navigation",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 2485,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "cart.spec.ts",
+      "title": "add focuses missing size, merges, limits, and keeps selected options distinct",
+      "latestOutcome": "passed",
+      "latestRun": "production-rerun.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "failed",
+          "durationMs": 13792,
+          "errors": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeEnabled\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('button', { name: 'Adicionar à sacola', exact: true })\nExpected: enabled\nReceived: disabled\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeEnabled\" getByRole('button', { name: 'Adicionar à sacola', exact: true }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('button', { name: 'Adicionar à sacola', exact: true })\u001b[22m\n\u001b[2m    8 × locator resolved to <button disabled tabindex=\"0\" type=\"button\" data-disabled=\"\" data-slot=\"button\" class=\"group/button inline-flex shrink-0 items-center justify-center rounded-lg border border-transparent bg-clip-padding text-base font-medium whitespace-nowrap transition-colors duration-150 select-none focus-visible:border-ring disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:rin…>Adicionar à sacola</button>\u001b[22m\n\u001b[2m      - unexpected value \"disabled\"\u001b[22m\n\n\n  10 |   await page.goto(path);\n  11 |   const add = page.getByRole(\"button\", { name: copy.product.addToCart, exact: true });\n> 12 |   await expect(add).toBeEnabled();\n     |                     ^\n  13 |   await add.click();\n  14 |   await expect(page.locator(\".purchase-feedback\")).toHaveText(copy.product.missingSize);\n  15 |   await expect(page.locator(\".size-options:visible button\").first()).toBeFocused();\n    at C:\\Users\\bombd\\projects\\difratelli-kids-v2\\tests\\browser\\cart.spec.ts:12:21"
+          ]
+        },
+        {
+          "run": "production-rerun.json",
+          "status": "passed",
+          "durationMs": 10610,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "cart.spec.ts",
+      "title": "Sheet quantity limits, removal, announcements, focus, sizing and empty exploration",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 24240,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "cart.spec.ts",
+      "title": "prerendered public content uses neutral gated cart UI",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 2192,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "cart.spec.ts",
+      "title": "normal restoration never overwrites saved selections and survives public navigation",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 7320,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "favorites.spec.ts",
+      "title": "product-level save survives options, navigation/reload and leaves cart intact",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 7808,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "favorites.spec.ts",
+      "title": "card toggles synchronize with detail and removal keeps focus and saved count",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 7969,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "favorites.spec.ts",
+      "title": "normal saved envelope restores on any route without an initial overwrite",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 1971,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "favorites.spec.ts",
+      "title": "server content exposes neutral gated favorites rather than false emptiness",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 1342,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "favorites.spec.ts",
+      "title": "saved products fit mobile, tablet and desktop grids",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 4542,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "favorites.spec.ts",
+      "title": "product-level save survives options, navigation/reload and leaves cart intact",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 17187,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "favorites.spec.ts",
+      "title": "card toggles synchronize with detail and removal keeps focus and saved count",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 18031,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "favorites.spec.ts",
+      "title": "normal saved envelope restores on any route without an initial overwrite",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 6406,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "favorites.spec.ts",
+      "title": "server content exposes neutral gated favorites rather than false emptiness",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 3787,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "favorites.spec.ts",
+      "title": "saved products fit mobile, tablet and desktop grids",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 9067,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "favorites.spec.ts",
+      "title": "product-level save survives options, navigation/reload and leaves cart intact",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 30874,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "favorites.spec.ts",
+      "title": "card toggles synchronize with detail and removal keeps focus and saved count",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 50147,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "favorites.spec.ts",
+      "title": "normal saved envelope restores on any route without an initial overwrite",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 11145,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "favorites.spec.ts",
+      "title": "server content exposes neutral gated favorites rather than false emptiness",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 8044,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "favorites.spec.ts",
+      "title": "saved products fit mobile, tablet and desktop grids",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 14943,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "favorites.spec.ts",
+      "title": "product-level save survives options, navigation/reload and leaves cart intact",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 6116,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "favorites.spec.ts",
+      "title": "card toggles synchronize with detail and removal keeps focus and saved count",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 5815,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "favorites.spec.ts",
+      "title": "normal saved envelope restores on any route without an initial overwrite",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 2476,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "favorites.spec.ts",
+      "title": "server content exposes neutral gated favorites rather than false emptiness",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 1704,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "favorites.spec.ts",
+      "title": "saved products fit mobile, tablet and desktop grids",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 3852,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "favorites.spec.ts",
+      "title": "product-level save survives options, navigation/reload and leaves cart intact",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 15869,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "favorites.spec.ts",
+      "title": "card toggles synchronize with detail and removal keeps focus and saved count",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 15087,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "favorites.spec.ts",
+      "title": "normal saved envelope restores on any route without an initial overwrite",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 5275,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "favorites.spec.ts",
+      "title": "server content exposes neutral gated favorites rather than false emptiness",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 2713,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "favorites.spec.ts",
+      "title": "saved products fit mobile, tablet and desktop grids",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 11877,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "product.spec.ts",
+      "title": "size starts empty, keyboard selection survives replacement color and URL history changes",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 5338,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "product.spec.ts",
+      "title": "valid initial color and first invalid scalar fallback do not select a size",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 3069,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "product.spec.ts",
+      "title": "gallery buttons wrap, keyboard works, and touch swipes ignore vertical gestures",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 2471,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "product.spec.ts",
+      "title": "enlargement and guidance trap keyboard focus, restore triggers and pass axe",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 14328,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "product.spec.ts",
+      "title": "details, two-piece set contents and curated related products remain readable",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 2612,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "product.spec.ts",
+      "title": "product and dialog image failures retain labeled fallbacks",
+      "latestOutcome": "passed",
+      "latestRun": "affected-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 1680,
+          "errors": []
+        },
+        {
+          "run": "affected-run.json",
+          "status": "passed",
+          "durationMs": 1835,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "product.spec.ts",
+      "title": "approved responsive widths and zoom keep options and dialogs usable",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 8020,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "product.spec.ts",
+      "title": "size starts empty, keyboard selection survives replacement color and URL history changes",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 11177,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "product.spec.ts",
+      "title": "valid initial color and first invalid scalar fallback do not select a size",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 8424,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "product.spec.ts",
+      "title": "gallery buttons wrap, keyboard works, and touch swipes ignore vertical gestures",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 6987,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "product.spec.ts",
+      "title": "enlargement and guidance trap keyboard focus, restore triggers and pass axe",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 33342,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "product.spec.ts",
+      "title": "details, two-piece set contents and curated related products remain readable",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 8778,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "product.spec.ts",
+      "title": "product and dialog image failures retain labeled fallbacks",
+      "latestOutcome": "passed",
+      "latestRun": "affected-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 5940,
+          "errors": []
+        },
+        {
+          "run": "affected-run.json",
+          "status": "passed",
+          "durationMs": 4636,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "product.spec.ts",
+      "title": "approved responsive widths and zoom keep options and dialogs usable",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 12192,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "product.spec.ts",
+      "title": "size starts empty, keyboard selection survives replacement color and URL history changes",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 16873,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "product.spec.ts",
+      "title": "valid initial color and first invalid scalar fallback do not select a size",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 7664,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "product.spec.ts",
+      "title": "gallery buttons wrap, keyboard works, and touch swipes ignore vertical gestures",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 5206,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "product.spec.ts",
+      "title": "enlargement and guidance trap keyboard focus, restore triggers and pass axe",
+      "latestOutcome": "passed",
+      "latestRun": "production-rerun.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "failed",
+          "durationMs": 40088,
+          "errors": [
+            "Error: Timeout 5000ms exceeded while waiting on the predicate\n\n  123 |     for (let i = 0; i < 6; i++) {\n  124 |       await page.keyboard.press(i % 2 ? \"Shift+Tab\" : \"Tab\");\n> 125 |       await expect.poll(() => dialog.evaluate((element) => element.contains(document.activeElement))).toBe(true);\n      |                                                                                                       ^\n  126 |     }\n  127 |     await expect(dialog).toHaveCSS(\"opacity\", \"1\");\n  128 |     expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);\n    at C:\\Users\\bombd\\projects\\difratelli-kids-v2\\tests\\browser\\product.spec.ts:125:103"
+          ]
+        },
+        {
+          "run": "production-rerun.json",
+          "status": "passed",
+          "durationMs": 25607,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "product.spec.ts",
+      "title": "details, two-piece set contents and curated related products remain readable",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 5177,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "product.spec.ts",
+      "title": "product and dialog image failures retain labeled fallbacks",
+      "latestOutcome": "passed",
+      "latestRun": "affected-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 3603,
+          "errors": []
+        },
+        {
+          "run": "affected-run.json",
+          "status": "passed",
+          "durationMs": 3449,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "product.spec.ts",
+      "title": "approved responsive widths and zoom keep options and dialogs usable",
+      "latestOutcome": "passed",
+      "latestRun": "production-rerun.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "timedOut",
+          "durationMs": 80664,
+          "errors": [
+            "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m"
+          ]
+        },
+        {
+          "run": "production-rerun.json",
+          "status": "passed",
+          "durationMs": 11039,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "product.spec.ts",
+      "title": "size starts empty, keyboard selection survives replacement color and URL history changes",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 4168,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "product.spec.ts",
+      "title": "valid initial color and first invalid scalar fallback do not select a size",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 2451,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "product.spec.ts",
+      "title": "gallery buttons wrap, keyboard works, and touch swipes ignore vertical gestures",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 2215,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "product.spec.ts",
+      "title": "enlargement and guidance trap keyboard focus, restore triggers and pass axe",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 12322,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "product.spec.ts",
+      "title": "details, two-piece set contents and curated related products remain readable",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 1986,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "product.spec.ts",
+      "title": "product and dialog image failures retain labeled fallbacks",
+      "latestOutcome": "passed",
+      "latestRun": "affected-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 2055,
+          "errors": []
+        },
+        {
+          "run": "affected-run.json",
+          "status": "passed",
+          "durationMs": 1714,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "product.spec.ts",
+      "title": "approved responsive widths and zoom keep options and dialogs usable",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 6908,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "product.spec.ts",
+      "title": "size starts empty, keyboard selection survives replacement color and URL history changes",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 15884,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "product.spec.ts",
+      "title": "valid initial color and first invalid scalar fallback do not select a size",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 5202,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "product.spec.ts",
+      "title": "gallery buttons wrap, keyboard works, and touch swipes ignore vertical gestures",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 4978,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "product.spec.ts",
+      "title": "enlargement and guidance trap keyboard focus, restore triggers and pass axe",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 36856,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "product.spec.ts",
+      "title": "details, two-piece set contents and curated related products remain readable",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 8762,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "product.spec.ts",
+      "title": "product and dialog image failures retain labeled fallbacks",
+      "latestOutcome": "passed",
+      "latestRun": "affected-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "failed",
+          "durationMs": 9890,
+          "errors": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.product-gallery:visible .detail-photo').getByRole('img')\nExpected substring: \u001b[32m\"Não foi possível carregar esta imagem.\"\u001b[39m\nReceived string:    \u001b[31m\"\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('.product-gallery:visible .detail-photo').getByRole('img') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.product-gallery:visible .detail-photo').getByRole('img')\u001b[22m\n\u001b[2m    10 × locator resolved to <img loading=\"eager\" decoding=\"async\" data-nimg=\"fill\" src=\"/_next/image?url=%2Fimages%2Fcatalog%2Fproduct-007-leaf-model-v1.webp&w=3840&q=75\" alt=\"Lia usando Short Passo Leve na cor Verde-folha, com a peça inteira visível sobre fundo branco.\" sizes=\"(max-width: 591px) calc(100vw - 32px), (max-width: 767px) 560px, (max-width: 1023px) calc((100vw - 96px) / 2), (max-width: 1279px) calc((100vw - 160px) / 2), 560px\" srcset=\"/_next/image?url=%2Fimages%2Fcatalog%2Fproduct-007-leaf-model-v1.webp&w=32&q=75…/>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n\n  159 |   await page.goto(path);\n  160 |   const photo = page.locator(\".product-gallery:visible .detail-photo\");\n> 161 |   await expect(photo.getByRole(\"img\")).toContainText(copy.common.imageFallback);\n      |                                        ^\n  162 |   await page.getByRole(\"button\", { name: copy.product.enlarge, exact: true }).click();\n  163 |   await expect(page.getByRole(\"dialog\").getByRole(\"img\")).toContainText(copy.common.imageFallback);\n  164 | });\n    at C:\\Users\\bombd\\projects\\difratelli-kids-v2\\tests\\browser\\product.spec.ts:161:40"
+          ]
+        },
+        {
+          "run": "production-rerun.json",
+          "status": "passed",
+          "durationMs": 3276,
+          "errors": []
+        },
+        {
+          "run": "affected-run.json",
+          "status": "passed",
+          "durationMs": 2754,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "product.spec.ts",
+      "title": "approved responsive widths and zoom keep options and dialogs usable",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 20702,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "recovery.spec.ts",
+      "title": "recovers mixed entries, deduplicates, corrects quantities/prices and explains each restoration once",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 5897,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "recovery.spec.ts",
+      "title": "preserves invalidStorage envelopes ({) and permits temporary shopping",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 2262,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "recovery.spec.ts",
+      "title": "preserves invalidStorage envelopes ({\"version\":1,\"lines\":{}}) and permits temporary shopping",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 2737,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "recovery.spec.ts",
+      "title": "preserves unsupportedStorage envelopes ({\"version\":2,\"lines\":[{\"productId\":\"product-001\",\"colorwayId\":\"cream-leaf-teal\",\"size\":4,\"quantity\":2,\"lastSeenUnitPriceCents\":5900}]}) and permits temporary shopping",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 3010,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "recovery.spec.ts",
+      "title": "difratelli.cart read failure leaves the other store persistent and warns once",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 3148,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "recovery.spec.ts",
+      "title": "difratelli.cart write failure leaves the other store persistent and warns once",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 4034,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "recovery.spec.ts",
+      "title": "difratelli.favorites read failure leaves the other store persistent and warns once",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 3666,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "recovery.spec.ts",
+      "title": "difratelli.favorites write failure leaves the other store persistent and warns once",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 5511,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "recovery.spec.ts",
+      "title": "delayed hydration keeps public content visible, controls pending, and saved data untouched",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 2895,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "recovery.spec.ts",
+      "title": "a failed save inside the cart Sheet keeps the command and announces its warning once within the modal",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 5213,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "recovery.spec.ts",
+      "title": "tabs keep independent snapshots and each store follows its last successful save",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 5323,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "recovery.spec.ts",
+      "title": "recovers mixed entries, deduplicates, corrects quantities/prices and explains each restoration once",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 10138,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "recovery.spec.ts",
+      "title": "preserves invalidStorage envelopes ({) and permits temporary shopping",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 6883,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "recovery.spec.ts",
+      "title": "preserves invalidStorage envelopes ({\"version\":1,\"lines\":{}}) and permits temporary shopping",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 4988,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "recovery.spec.ts",
+      "title": "preserves unsupportedStorage envelopes ({\"version\":2,\"lines\":[{\"productId\":\"product-001\",\"colorwayId\":\"cream-leaf-teal\",\"size\":4,\"quantity\":2,\"lastSeenUnitPriceCents\":5900}]}) and permits temporary shopping",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 4852,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "recovery.spec.ts",
+      "title": "difratelli.cart read failure leaves the other store persistent and warns once",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 5417,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "recovery.spec.ts",
+      "title": "difratelli.cart write failure leaves the other store persistent and warns once",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 8012,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "recovery.spec.ts",
+      "title": "difratelli.favorites read failure leaves the other store persistent and warns once",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 4189,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "recovery.spec.ts",
+      "title": "difratelli.favorites write failure leaves the other store persistent and warns once",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 6530,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "recovery.spec.ts",
+      "title": "delayed hydration keeps public content visible, controls pending, and saved data untouched",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 3966,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "recovery.spec.ts",
+      "title": "a failed save inside the cart Sheet keeps the command and announces its warning once within the modal",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 6714,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "recovery.spec.ts",
+      "title": "tabs keep independent snapshots and each store follows its last successful save",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 11162,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "recovery.spec.ts",
+      "title": "recovers mixed entries, deduplicates, corrects quantities/prices and explains each restoration once",
+      "latestOutcome": "passed",
+      "latestRun": "production-rerun.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "failed",
+          "durationMs": 36927,
+          "errors": [
+            "Error: Timeout 5000ms exceeded while waiting on the predicate\n\n  59 |   expect(await saved(page, \"difratelli.cart\")).toBe(cart);\n  60 |   expect(await saved(page, \"difratelli.favorites\")).toBe(favorites);\n> 61 |   await expect.poll(() => page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);\n     |                                                                                                    ^\n  62 |   expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);\n  63 |   if (testInfo.project.name === \"chromium\" || testInfo.project.name === \"mobile-chromium\") {\n  64 |     await page.screenshot({ path: `docs/reviews/issue-39/recovery-${testInfo.project.name}.png`, fullPage: true });\n    at C:\\Users\\bombd\\projects\\difratelli-kids-v2\\tests\\browser\\recovery.spec.ts:61:100"
+          ]
+        },
+        {
+          "run": "production-rerun.json",
+          "status": "passed",
+          "durationMs": 10811,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "recovery.spec.ts",
+      "title": "preserves invalidStorage envelopes ({) and permits temporary shopping",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 15433,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "recovery.spec.ts",
+      "title": "preserves invalidStorage envelopes ({\"version\":1,\"lines\":{}}) and permits temporary shopping",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 14193,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "recovery.spec.ts",
+      "title": "preserves unsupportedStorage envelopes ({\"version\":2,\"lines\":[{\"productId\":\"product-001\",\"colorwayId\":\"cream-leaf-teal\",\"size\":4,\"quantity\":2,\"lastSeenUnitPriceCents\":5900}]}) and permits temporary shopping",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 9377,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "recovery.spec.ts",
+      "title": "difratelli.cart read failure leaves the other store persistent and warns once",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 9493,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "recovery.spec.ts",
+      "title": "difratelli.cart write failure leaves the other store persistent and warns once",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 7215,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "recovery.spec.ts",
+      "title": "difratelli.favorites read failure leaves the other store persistent and warns once",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 7190,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "recovery.spec.ts",
+      "title": "difratelli.favorites write failure leaves the other store persistent and warns once",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 7942,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "recovery.spec.ts",
+      "title": "delayed hydration keeps public content visible, controls pending, and saved data untouched",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 4244,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "recovery.spec.ts",
+      "title": "a failed save inside the cart Sheet keeps the command and announces its warning once within the modal",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 7802,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "recovery.spec.ts",
+      "title": "tabs keep independent snapshots and each store follows its last successful save",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 41569,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "recovery.spec.ts",
+      "title": "recovers mixed entries, deduplicates, corrects quantities/prices and explains each restoration once",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 5696,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "recovery.spec.ts",
+      "title": "preserves invalidStorage envelopes ({) and permits temporary shopping",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 2158,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "recovery.spec.ts",
+      "title": "preserves invalidStorage envelopes ({\"version\":1,\"lines\":{}}) and permits temporary shopping",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 2044,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "recovery.spec.ts",
+      "title": "preserves unsupportedStorage envelopes ({\"version\":2,\"lines\":[{\"productId\":\"product-001\",\"colorwayId\":\"cream-leaf-teal\",\"size\":4,\"quantity\":2,\"lastSeenUnitPriceCents\":5900}]}) and permits temporary shopping",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 1990,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "recovery.spec.ts",
+      "title": "difratelli.cart read failure leaves the other store persistent and warns once",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 2060,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "recovery.spec.ts",
+      "title": "difratelli.cart write failure leaves the other store persistent and warns once",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 2562,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "recovery.spec.ts",
+      "title": "difratelli.favorites read failure leaves the other store persistent and warns once",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 1977,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "recovery.spec.ts",
+      "title": "difratelli.favorites write failure leaves the other store persistent and warns once",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 2712,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "recovery.spec.ts",
+      "title": "delayed hydration keeps public content visible, controls pending, and saved data untouched",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 1586,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "recovery.spec.ts",
+      "title": "a failed save inside the cart Sheet keeps the command and announces its warning once within the modal",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 3345,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "recovery.spec.ts",
+      "title": "tabs keep independent snapshots and each store follows its last successful save",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 3848,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "recovery.spec.ts",
+      "title": "recovers mixed entries, deduplicates, corrects quantities/prices and explains each restoration once",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 11242,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "recovery.spec.ts",
+      "title": "preserves invalidStorage envelopes ({) and permits temporary shopping",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 8383,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "recovery.spec.ts",
+      "title": "preserves invalidStorage envelopes ({\"version\":1,\"lines\":{}}) and permits temporary shopping",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 6247,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "recovery.spec.ts",
+      "title": "preserves unsupportedStorage envelopes ({\"version\":2,\"lines\":[{\"productId\":\"product-001\",\"colorwayId\":\"cream-leaf-teal\",\"size\":4,\"quantity\":2,\"lastSeenUnitPriceCents\":5900}]}) and permits temporary shopping",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 5026,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "recovery.spec.ts",
+      "title": "difratelli.cart read failure leaves the other store persistent and warns once",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 5917,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "recovery.spec.ts",
+      "title": "difratelli.cart write failure leaves the other store persistent and warns once",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 5982,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "recovery.spec.ts",
+      "title": "difratelli.favorites read failure leaves the other store persistent and warns once",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 5969,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "recovery.spec.ts",
+      "title": "difratelli.favorites write failure leaves the other store persistent and warns once",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 8669,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "recovery.spec.ts",
+      "title": "delayed hydration keeps public content visible, controls pending, and saved data untouched",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 4534,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "recovery.spec.ts",
+      "title": "a failed save inside the cart Sheet keeps the command and announces its warning once within the modal",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 7645,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "recovery.spec.ts",
+      "title": "tabs keep independent snapshots and each store follows its last successful save",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 15838,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "chromium",
+      "file": "shopping-checkpoint.spec.ts",
+      "title": "integrated shopping: card preview, dialogs, selected cart, favorites, reload and independent removal",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 17366,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "firefox",
+      "file": "shopping-checkpoint.spec.ts",
+      "title": "integrated shopping: card preview, dialogs, selected cart, favorites, reload and independent removal",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 24635,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "webkit",
+      "file": "shopping-checkpoint.spec.ts",
+      "title": "integrated shopping: card preview, dialogs, selected cart, favorites, reload and independent removal",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 54679,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-chromium",
+      "file": "shopping-checkpoint.spec.ts",
+      "title": "integrated shopping: card preview, dialogs, selected cart, favorites, reload and independent removal",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 21000,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-webkit",
+      "file": "shopping-checkpoint.spec.ts",
+      "title": "integrated shopping: card preview, dialogs, selected cart, favorites, reload and independent removal",
+      "latestOutcome": "passed",
+      "latestRun": "production-run.json",
+      "attempts": [
+        {
+          "run": "production-run.json",
+          "status": "passed",
+          "durationMs": 29411,
+          "errors": []
+        }
+      ]
+    }
+  ]
+}

@@ -159,6 +159,9 @@ test("product and dialog image failures retain labeled fallbacks", async ({ page
   await page.goto(path);
   const photo = page.locator(".product-gallery:visible .detail-photo");
   await expect(photo.getByRole("img")).toContainText(copy.common.imageFallback);
+  const thumbnails = page.locator(".product-gallery:visible .gallery-thumbnail .image-fallback");
+  await expect(thumbnails).toHaveCount(2);
+  await expect.poll(() => thumbnails.evaluateAll(elements => elements.every(element => element.scrollWidth <= element.clientWidth && element.scrollHeight <= element.clientHeight))).toBe(true);
   await page.getByRole("button", { name: copy.product.enlarge, exact: true }).click();
   await expect(page.getByRole("dialog").getByRole("img")).toContainText(copy.common.imageFallback);
 });

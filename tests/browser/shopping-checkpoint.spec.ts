@@ -1,0 +1,84 @@
+import { expect, test } from "@playwright/test";
+import AxeBuilder from "@axe-core/playwright";
+import { catalog, copy, formatMoney, photographs } from "../../lib/catalog";
+
+const product = catalog.products.find(item => item.colorways.length === 2)!;
+const color = product.colorways.find(item => item.id !== product.defaultColorwayId)!;
+
+test("integrated shopping: card preview, dialogs, selected cart, favorites, reload and independent removal", async ({ page }, testInfo) => {
+  test.setTimeout(120_000);
+  const errors: string[] = [];
+  page.on("pageerror", error => errors.push(error.message));
+  await page.goto("/produtos");
+  const card = page.locator(`[data-product-id="${product.id}"]`);
+  await card.getByRole("button", { name: copy.product.colorOption.replace("{color}", color.name), exact: true }).click();
+  await card.locator(".card-favorite").click();
+  await card.locator(".product-link").click();
+  await expect(page).toHaveURL(new RegExp(`${product.slug}\\?cor=${color.id}$`), { timeout: 15000 });
+  await expect(page.locator(".detail-favorite:visible")).toHaveAttribute("aria-pressed", "true");
+  await expect(page.locator(".size-options:visible [aria-pressed=true]")).toHaveCount(0);
+  const add = page.getByRole("button", { name: copy.product.addToCart, exact: true });
+  await expect(add).toBeEnabled({ timeout: 15000 });
+  await add.click();
+  await expect(page.locator(".size-options:visible button").first()).toBeFocused();
+
+  for (const [label, title] of [[copy.product.sizeGuide, copy.sizeGuidance.title], [copy.product.enlarge, copy.product.enlargedTitle.replace("{product}", product.name)]]) {
+    const trigger = page.getByRole("button", { name: label, exact: true });
+    await trigger.click();
+    const dialog = page.getByRole("dialog", { name: title, exact: true });
+    await expect(dialog).toBeVisible();
+    await page.keyboard.press("Tab");
+    await expect.poll(() => dialog.evaluate(element => element.contains(document.activeElement))).toBe(true);
+    await page.keyboard.press("Escape");
+    await expect(trigger).toBeFocused();
+  }
+  await page.getByRole("button", { name: copy.product.nextPhoto, exact: true }).click();
+  await expect(page.locator(".product-gallery:visible .detail-photo img")).toHaveAttribute("alt", photographs(product.id, color.id)[1].alt);
+  await page.getByRole("button", { name: "Tamanho 4", exact: true }).click();
+  await add.click();
+  await add.click();
+  await expect(page.locator(".cart-count")).toHaveText("2");
+  await expect(page.getByRole("dialog")).toHaveCount(0);
+  await page.getByRole("button", { name: "Tamanho 6", exact: true }).click();
+  await add.click();
+  const cartTrigger = page.getByRole("button", { name: /Abrir sacola/ });
+  await cartTrigger.click();
+  const sheet = page.getByRole("dialog", { name: copy.cart.title });
+  await expect(sheet.locator(".cart-line")).toHaveCount(2);
+  await expect(sheet.locator(".cart-line").first()).toContainText(color.name);
+  await expect(sheet.locator(".cart-line").first()).toContainText("Tamanho: 4");
+  await expect(sheet.locator(".cart-subtotal")).toContainText(formatMoney(3 * product.priceCents));
+  await sheet.getByRole("button", { name: copy.cart.increase.replace("{product}", product.name), exact: true }).first().click();
+  await expect(sheet.locator(".cart-subtotal")).toContainText(formatMoney(4 * product.priceCents));
+  expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
+  await page.screenshot({ path: testInfo.outputPath("integrated-cart.png") });
+  await page.keyboard.press("Escape");
+  await expect(cartTrigger).toBeFocused();
+
+  if (page.viewportSize()!.width < 1024) await page.getByRole("button", { name: copy.navigation.openMenu }).click();
+  await page.getByRole("link", { name: copy.favorites.count.one, exact: true }).filter({ visible: true }).click();
+  await expect(page.locator(".favorites-content .product-card")).toHaveCount(1);
+  await page.reload();
+  await expect(page.locator(".favorites-content .product-card")).toHaveCount(1, { timeout: 15000 });
+  await expect(page.locator(".cart-count")).toHaveText("4");
+  await page.screenshot({ path: testInfo.outputPath("integrated-favorites.png"), fullPage: true });
+  const savedCart = await page.evaluate(() => localStorage.getItem("difratelli.cart"));
+  await page.locator(".favorites-content .card-favorite").focus();
+  await page.keyboard.press("Space");
+  await expect(page.locator(".favorites-content")).toBeFocused();
+  await expect(page.getByText(copy.favorites.emptyHeading)).toBeVisible();
+  expect(await page.evaluate(() => localStorage.getItem("difratelli.cart"))).toBe(savedCart);
+  await cartTrigger.click();
+  await expect(sheet.locator(".cart-line")).toHaveCount(2);
+  await expect(sheet.locator(".cart-subtotal")).toContainText(formatMoney(4 * product.priceCents));
+  for (let i = 0; i < 2; i++) await sheet.getByRole("button", { name: copy.cart.remove.replace("{product}", product.name), exact: true }).first().click();
+  await expect(sheet).toContainText(copy.cart.emptyHeading);
+  await expect(sheet.getByRole("button", { name: copy.cart.close })).toBeFocused();
+  expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
+  await page.screenshot({ path: testInfo.outputPath("integrated-empty.png") });
+  await page.keyboard.press("Escape");
+  await page.reload();
+  await expect(page.locator(".cart-count")).toHaveText("0", { timeout: 15000 });
+  await expect(page.getByText(copy.favorites.emptyHeading)).toBeVisible();
+  expect(errors).toEqual([]);
+});
