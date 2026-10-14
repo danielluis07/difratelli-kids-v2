@@ -347,9 +347,9 @@
     },
     {
       "file": "docs/reviews/issue-40/review.md",
-      "bytes": 18022,
+      "bytes": 18163,
       "hashMode": "exact",
-      "sha256": "09d619e6c3fb12edf09e4b5ee65bdf3b98d1bafc86fc9428a7278f1d531b3b61"
+      "sha256": "01e7bfe346b4ace76fe1e2d521747911a8e6f593b42ca7918bc168fb6f243eee"
     },
     {
       "file": "docs/reviews/issue-40/thumbnail-before-fix-390.png",

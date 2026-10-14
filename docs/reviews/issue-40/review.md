@@ -6,9 +6,11 @@ Checkout implementation remains gated by the owner's explicit decision.
 
 ## Exact revision and review scope
 
-Application source: `7e1c9545d205aee3a170f2932bf43c7844c4a52b`, committed locally
-on `review/issue-40-shopping-checkpoint`. This source commit is not published to
-GitHub and has no public preview. Inspect it with `git show 7e1c954`.
+Application source: `7e1c9545d205aee3a170f2932bf43c7844c4a52b`
+([source](https://github.com/danielluis07/difratelli-kids-v2/tree/7e1c9545d205aee3a170f2932bf43c7844c4a52b)),
+on `review/issue-40-shopping-checkpoint`. Verification was local; no public
+preview was reviewed. Subsequent documentation commits preserve this application
+source. Inspect it with `git show 7e1c954`.
 Production build ID: `MsPg9uwZRSpYcyB4gYmzE`. Build and production server use
 `SITE_URL=http://127.0.0.1:3100`. This packet adds verification and evidence;
 the sole application change is thumbnail fallback wrapping in `app/globals.css`.
