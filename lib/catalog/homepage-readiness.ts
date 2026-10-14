@@ -4,6 +4,7 @@ import { isAbsolute, relative, resolve } from "node:path";
 import sharp from "sharp";
 import { z } from "zod";
 import type { Diagnostic, ValidationResult } from "./validation";
+import { checkHeroReadiness } from "./hero-readiness";
 
 const file = z.object({ path: z.string().min(1), sha256: z.string().regex(/^[a-f0-9]{64}$/) });
 const size = z.number().int().positive();
@@ -99,5 +100,6 @@ export async function checkHomepageReadiness(root = process.cwd()): Promise<Vali
       }
     }
   } catch (error) { fail("homepage", "readiness", error instanceof Error ? error.message : "Unreadable homepage package"); }
+  diagnostics.push(...(await checkHeroReadiness(root)).diagnostics);
   return { valid: diagnostics.length === 0, diagnostics };
 }

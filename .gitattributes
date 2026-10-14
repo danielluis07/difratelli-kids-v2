@@ -6,6 +6,10 @@ docs/content/package-review.html -text
 # Homepage approvals also bind their visual review and review notes.
 docs/content/homepage*-review.html -text
 docs/content/homepage*-review.md -text
+# The accepted hero review and generation script are also bound by exact hash.
+docs/content/hero-color-refresh-review.html -text
+docs/content/hero-color-refresh-review.md -text
+scripts/content/prepare-hero-color-refresh.mjs -text
 # Historical approval snapshots must retain their exact source bytes too.
 docs/content/catalog-revisions/** -text whitespace=cr-at-eol
 # Identity approval records also bind the original font/license bytes.

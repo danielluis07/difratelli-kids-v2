@@ -1,0 +1,236 @@
+{
+  "revision": "issue-66-hero-color-v1",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/66",
+  "status": "pending-human-review",
+  "implementationAllowed": false,
+  "reviewer": null,
+  "evidence": null,
+  "reviewPath": "docs/content/hero-color-refresh-review.html",
+  "manifestPath": "docs/content/hero-color-refresh-manifest.json",
+  "files": [
+    {
+      "path": "assets/originals/cast/model-002-reference-v2.png",
+      "sha256": "c29fb497afb76beb42db5c7671b463d9f8261f94dc1bcebfd1d8821eae59a367"
+    },
+    {
+      "path": "assets/originals/catalog/product-008-butter-isolated-v1.png",
+      "sha256": "43790213e665bd99589a33eb665052b44072bb6a677733979800f3625c030618"
+    },
+    {
+      "path": "assets/originals/catalog/product-014-sky-cream-coral-isolated-v1.png",
+      "sha256": "8b28f5b4871833f8cf2d7a2d708397f1b50a09676a06581bf9bc5112027c95bb"
+    },
+    {
+      "path": "assets/originals/catalog/product-019-coral-isolated-v1.png",
+      "sha256": "918b772e10538473e4ea72d64b3e62aae7028761f11559998b10371c477868d0"
+    },
+    {
+      "path": "assets/originals/catalog/product-027-lilac-model-v1.png",
+      "sha256": "8cfd0181ff6a86b7d3066205e5174c8d102b3567500e91687207b748589d3888"
+    },
+    {
+      "path": "assets/originals/catalog/product-030-peach-isolated-v1.png",
+      "sha256": "f3e80b069e8ba04eca870c500e7b5d759097b584e79046b52aec63db759480c3"
+    },
+    {
+      "path": "assets/originals/homepage/issue-66/hero-left-court-close-draft-v1.png",
+      "sha256": "2349ec95f39c201a522efd9206a3084d0bea814a5a7114dc57d2b86383b632ca"
+    },
+    {
+      "path": "assets/originals/homepage/issue-66/hero-left-court-compact-v1.png",
+      "sha256": "811c729ab4fc05205e87e13a90c5dd840f4e41e78ed2511abd917030542f13ba"
+    },
+    {
+      "path": "assets/originals/homepage/issue-66/hero-left-court-portrait-v1.png",
+      "sha256": "3ff66abd1cd44dfb16052ca9f1448ee6af247ebe8f682897d66675925625edb7"
+    },
+    {
+      "path": "assets/originals/homepage/issue-66/hero-left-court-wide-v1.png",
+      "sha256": "630c6d86c15550a7b42cd24a592613f27ac8627d6e3890f35838176813de5e30"
+    },
+    {
+      "path": "assets/originals/homepage/issue-66/hero-left-court-wide-v2.png",
+      "sha256": "7c082a34edd1a0eaf431987a89dffadb6985995801450caac3971f12d49aac6e"
+    },
+    {
+      "path": "assets/originals/homepage/issue-66/hero-right-color-rail-v1.png",
+      "sha256": "5140990963a8e6ddefce0e00cb3048831db40f453d070ba1b61e6fe1d810db01"
+    },
+    {
+      "path": "assets/originals/homepage/issue-66/hero-right-color-rail-wide-v1.png",
+      "sha256": "00f4b2c8b540afce4258fc76071de53408841527553fd1e1456935ce5626db18"
+    },
+    {
+      "path": "docs/content/cast-approval.json",
+      "sha256": "e611485b797910fd26ce663ae836eec6269381a44a18546be94b2047f26eab19"
+    },
+    {
+      "path": "docs/content/hero-color-refresh-checks.json",
+      "sha256": "e0e1322470842799ce7f3e1b815b05c91501f2307bdcc5a464248f7f967039c8"
+    },
+    {
+      "path": "docs/content/hero-color-refresh-context-1440.png",
+      "sha256": "a8823a12d7bdca4b6f2816b07d69e9a006016ac2832facb93abf64dcea3cdd88"
+    },
+    {
+      "path": "docs/content/hero-color-refresh-context-390.png",
+      "sha256": "8523fd0e5eb1b08bc312f01de1e57c9b66d504444e419b66ad86fb5900c9cc3b"
+    },
+    {
+      "path": "docs/content/hero-color-refresh-context-768.png",
+      "sha256": "1e0cc9d4a9b67be9a184f13bc2bddbae1ec61f76fc62834eccbc3d36eaf65097"
+    },
+    {
+      "path": "docs/content/hero-color-refresh-generation.json",
+      "sha256": "b8dd636277e4d5bce5d08c4c4de7c947a04ac4e840e9425708c33feae294d5d1"
+    },
+    {
+      "path": "docs/content/hero-color-refresh-hero-1024.png",
+      "sha256": "2519537853ef7f55cf4d563b6a25853d3b483e0152595867ac8673faf5a87f37"
+    },
+    {
+      "path": "docs/content/hero-color-refresh-hero-1279.png",
+      "sha256": "b031c4c6c25d79752b10de0aa1ccb4ccba786d8566c30745c977446decc90746"
+    },
+    {
+      "path": "docs/content/hero-color-refresh-hero-1280.png",
+      "sha256": "93dd44ca23bd6b515ccc351222e1540b8f09ff1bdaf574f87f9305114e047403"
+    },
+    {
+      "path": "docs/content/hero-color-refresh-hero-1440.png",
+      "sha256": "9c43b0ce169827137928080b90ec6307f4e7f7ea236114ff043a5f43c1269904"
+    },
+    {
+      "path": "docs/content/hero-color-refresh-hero-1920.png",
+      "sha256": "224006b739ecb34ca9f4ce1afab39e9ebe721bfe6911c3d91fd71d9b77635c43"
+    },
+    {
+      "path": "docs/content/hero-color-refresh-hero-390.png",
+      "sha256": "4fa12f6fd6d20b3279f52ae3eac34d4cdd7d4a071194ecbb283defa3791e25d3"
+    },
+    {
+      "path": "docs/content/hero-color-refresh-hero-480.png",
+      "sha256": "b9988f345884f9ee5966cc276727111c81ea7e6d833922f373d8b87543056cb8"
+    },
+    {
+      "path": "docs/content/hero-color-refresh-hero-768.png",
+      "sha256": "9cd2a1020c9731a230c568ac90f6e9c90f23efb0a947c8c535ebfab0195649fa"
+    },
+    {
+      "path": "docs/content/hero-color-refresh-manifest.json",
+      "sha256": "fdda7f6c12ad311541e3c7a76267db179a106b941de4edfda7a0b725a2304a98"
+    },
+    {
+      "path": "docs/content/hero-color-refresh-review.html",
+      "sha256": "b044b8dac7fab13aa3a1e98f77dd42bd0a9d300b8d5ad95a944be5dc69162fe0"
+    },
+    {
+      "path": "docs/content/hero-color-refresh-review.md",
+      "sha256": "45f49eb3be98b677faf1cd7fb2e782a331f8f3bd6cf4523d5af1dfceb05d94c6"
+    },
+    {
+      "path": "docs/content/homepage-approval.json",
+      "sha256": "0ab985366a8226c00bd48e87c38e8c89d299dd2b175eff6f51656a032b8b8a42"
+    },
+    {
+      "path": "docs/content/homepage-image-refresh-approval.json",
+      "sha256": "3ed640dfaf5cdd038fb4267042d3d5e845805fd761d60c0bac72cecb41bb6ba6"
+    },
+    {
+      "path": "public/images/homepage/category-dresses-friends-v2-portrait.webp",
+      "sha256": "6a0308359797cf3cebb6855054f1d6125a190ac0645290d799f00ba515bf2439"
+    },
+    {
+      "path": "public/images/homepage/category-matching-sets-clothes-v2-portrait.webp",
+      "sha256": "e17ebc6961eac3777bb573206cd9d97170ee69d46a2c5ee53f3fdfe902827b75"
+    },
+    {
+      "path": "public/images/homepage/category-polos-city-v2-portrait.webp",
+      "sha256": "9678a27630ae3ebedb5d8a91e87828345eafa7aba8d36613f4cb0d31a298f9e6"
+    },
+    {
+      "path": "public/images/homepage/category-t-shirts-park-v2-portrait.webp",
+      "sha256": "c541fb6e7a161d0d8ee88fca9fb7f97435f23a29f2ecf6a0f2f663ae9aa59076"
+    },
+    {
+      "path": "public/images/homepage/editorial-quintal-compact-v1.webp",
+      "sha256": "95d9fa385e37f27fc1f84280dc7b758f0eda2ea50070644477dc6192399726ff"
+    },
+    {
+      "path": "public/images/homepage/editorial-quintal-desktop-v1.webp",
+      "sha256": "2834e58e32462920b12fec9c95b00a8a822b3bc54136354982f5481f70f5ddf0"
+    },
+    {
+      "path": "public/images/homepage/hero-left-narrow-v1.webp",
+      "sha256": "b64f3665ea4950231844c381d16bcf186570f588bbf12781d27d33ae1bfccd9a"
+    },
+    {
+      "path": "public/images/homepage/hero-left-portrait-v1.webp",
+      "sha256": "32eb38681bfad10d00dbf87c092d4a90c46d1acb8d3ad9d6325014ff1909e335"
+    },
+    {
+      "path": "public/images/homepage/hero-left-tablet-tablet-v1.webp",
+      "sha256": "4fb36a4a2d1b261fdf83e249bddf8359599ca248f28c7516ab7e81b6a73e53ca"
+    },
+    {
+      "path": "public/images/homepage/hero-left-wide-desktop-v1.webp",
+      "sha256": "2273e33c767c11078c34ee3c85c1087555d2810ca4452c462ae724666f190542"
+    },
+    {
+      "path": "public/images/homepage/hero-right-clothes-v2-desktop.webp",
+      "sha256": "d1a931dc40c041436bd50fd4d5aceff211ec1a00685081d1860ea24b2f2f0c89"
+    },
+    {
+      "path": "public/images/homepage/hero-right-clothes-v2-narrow.webp",
+      "sha256": "b9a21d3ea5cca45235b095c79a4600687ce43ae848bafb697587b3d3bdcd2723"
+    },
+    {
+      "path": "public/images/homepage/issue-66/hero-left-court-compact-v1-narrow.webp",
+      "sha256": "672e5debe218c301e480be8ae02eac3a3309651881cd365ed145d8c6ddecb2d2"
+    },
+    {
+      "path": "public/images/homepage/issue-66/hero-left-court-compact-v1-portrait.webp",
+      "sha256": "c879ee2fc642ec3f1222d8bbd7d88786f35c7971c8b4a04f249dd3af34ab9a28"
+    },
+    {
+      "path": "public/images/homepage/issue-66/hero-left-court-wide-v2-desktop.webp",
+      "sha256": "20f89440f917567a6cf5d4a32ea50901ecb41e11658083dd3ddf5cce667b14cc"
+    },
+    {
+      "path": "public/images/homepage/issue-66/hero-left-court-wide-v2-tablet.webp",
+      "sha256": "a35f3ca556000008a3782e60319a1d179de90544a1c6c8da58155511fe12e1a5"
+    },
+    {
+      "path": "public/images/homepage/issue-66/hero-right-color-rail-wide-v1-desktop.webp",
+      "sha256": "5ad1002ec3cf30d7c2668be055d61cf1a7944d4395430acc2f113167f5403645"
+    },
+    {
+      "path": "public/images/homepage/issue-66/hero-right-color-rail-wide-v1-narrow.webp",
+      "sha256": "83cfa67d540ab15a2ca9d6c51f9ec9e70a004617e1c195141f941548e51e0881"
+    },
+    {
+      "path": "public/images/homepage/look-brincadeira-landscape-v1.webp",
+      "sha256": "a8780015cfe83cdfeb8c9ad4616b209fe420558f7b5acd7d52939e13cadb7bd2"
+    },
+    {
+      "path": "public/images/homepage/look-imaginacao-landscape-v1.webp",
+      "sha256": "23fa13ee5277181f300fdc4937b8bb47e7377e5af5bdd17e3e1d966e8362e7b9"
+    },
+    {
+      "path": "public/images/homepage/look-quintal-landscape-v1.webp",
+      "sha256": "309690bf808931472bbf73fb7f1ba780e5f060ef6da4c5a1a630f44fe159f939"
+    },
+    {
+      "path": "public/images/homepage/quote-garments-compact-v1.webp",
+      "sha256": "4c611675a37630fb4c4c9f37a6927624650adc5cf76719c382a304f358aef560"
+    },
+    {
+      "path": "public/images/homepage/quote-garments-desktop-v1.webp",
+      "sha256": "2116bb3772453a059ee2f6685070198322f5111e03549a59f7a9e5e59a6398e8"
+    },
+    {
+      "path": "scripts/content/prepare-hero-color-refresh.mjs",
+      "sha256": "5fffcc1d2b03ccb263e90b4dfabbd0f9fffd71b32e6d1e288bc8c1d056386496"
+    }
+  ]
+}

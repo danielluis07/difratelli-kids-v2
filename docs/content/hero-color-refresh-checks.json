@@ -1,0 +1,120 @@
+{
+  "revision": "issue-66-hero-color-v1",
+  "status": "passed",
+  "checks": [
+    {
+      "width": 390,
+      "selected": [
+        "hero-left-court-compact-v1-portrait.webp",
+        "hero-right-color-rail-wide-v1-narrow.webp"
+      ],
+      "imageDecoding": "passed",
+      "splitAndCopyBounds": "passed",
+      "overflow": "none",
+      "minimumOverlayContrast": {
+        "heading": 6.516037025230736,
+        "smallText": 5.933129167827331
+      }
+    },
+    {
+      "width": 480,
+      "selected": [
+        "hero-left-court-compact-v1-narrow.webp",
+        "hero-right-color-rail-wide-v1-narrow.webp"
+      ],
+      "imageDecoding": "passed",
+      "splitAndCopyBounds": "passed",
+      "overflow": "none",
+      "minimumOverlayContrast": {
+        "heading": 7.056734230361523,
+        "smallText": 6.282289830121056
+      }
+    },
+    {
+      "width": 768,
+      "selected": [
+        "hero-left-court-wide-v2-tablet.webp",
+        "hero-right-color-rail-wide-v1-narrow.webp"
+      ],
+      "imageDecoding": "passed",
+      "splitAndCopyBounds": "passed",
+      "overflow": "none",
+      "minimumOverlayContrast": {
+        "heading": 3.2711554074981377,
+        "smallText": 5.53484980161753
+      }
+    },
+    {
+      "width": 1024,
+      "selected": [
+        "hero-left-court-compact-v1-narrow.webp",
+        "hero-right-color-rail-wide-v1-narrow.webp"
+      ],
+      "imageDecoding": "passed",
+      "splitAndCopyBounds": "passed",
+      "overflow": "none",
+      "minimumOverlayContrast": {
+        "heading": 4.182276987838997,
+        "smallText": 7.373290649676988
+      }
+    },
+    {
+      "width": 1279,
+      "selected": [
+        "hero-left-court-compact-v1-narrow.webp",
+        "hero-right-color-rail-wide-v1-narrow.webp"
+      ],
+      "imageDecoding": "passed",
+      "splitAndCopyBounds": "passed",
+      "overflow": "none",
+      "minimumOverlayContrast": {
+        "heading": 5.109496983214271,
+        "smallText": 7.702607370077456
+      }
+    },
+    {
+      "width": 1280,
+      "selected": [
+        "hero-left-court-wide-v2-desktop.webp",
+        "hero-right-color-rail-wide-v1-desktop.webp"
+      ],
+      "imageDecoding": "passed",
+      "splitAndCopyBounds": "passed",
+      "overflow": "none",
+      "minimumOverlayContrast": {
+        "heading": 4.896999845576982,
+        "smallText": 7.035700443346909
+      }
+    },
+    {
+      "width": 1440,
+      "selected": [
+        "hero-left-court-wide-v2-desktop.webp",
+        "hero-right-color-rail-wide-v1-desktop.webp"
+      ],
+      "imageDecoding": "passed",
+      "splitAndCopyBounds": "passed",
+      "overflow": "none",
+      "minimumOverlayContrast": {
+        "heading": 5.257260207627979,
+        "smallText": 7.9860370369376845
+      }
+    },
+    {
+      "width": 1920,
+      "selected": [
+        "hero-left-court-wide-v2-desktop.webp",
+        "hero-right-color-rail-wide-v1-desktop.webp"
+      ],
+      "imageDecoding": "passed",
+      "splitAndCopyBounds": "passed",
+      "overflow": "none",
+      "minimumOverlayContrast": {
+        "heading": 4.84072220683072,
+        "smallText": 4.895323535415452
+      }
+    }
+  ],
+  "visualAcceptance": "pending-human-review",
+  "limitation": "Static review reproduces hero CSS; runtime checks and integration remain gated on exact human acceptance."
+}

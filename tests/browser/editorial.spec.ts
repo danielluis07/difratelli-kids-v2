@@ -2,10 +2,11 @@ import { expect, test } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 import { catalog } from "../../lib/catalog";
 import homepage from "../../docs/content/homepage-copy-proposal.json";
+import heroIntegration from "../../docs/content/hero-color-refresh-integration.json";
 
-test("full-bleed homepage keeps the approved structure, hero sources and destinations at five widths", async ({ page }) => {
+test("full-bleed homepage keeps the approved structure, hero sources and destinations at eight widths", async ({ page }) => {
   test.setTimeout(90_000);
-  for (const width of [390, 768, 1024, 1440, 1920]) {
+  for (const width of [390, 480, 768, 1024, 1279, 1280, 1440, 1920]) {
     await page.setViewportSize({ width, height: 1000 });
     await page.goto("/");
     await expect(page.locator(".hero-panel img:visible")).toHaveCount(width >= 1024 ? 2 : 1);
@@ -14,7 +15,7 @@ test("full-bleed homepage keeps the approved structure, hero sources and destina
     expect(await page.locator("main").evaluate(main => Math.round(main.getBoundingClientRect().width))).toBe(width);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
     const source = await page.locator(".hero-left img").evaluate((image: HTMLImageElement) => decodeURIComponent(image.currentSrc));
-    expect(source).toContain(width < 480 ? "hero-left-portrait" : width < 1024 ? "hero-left-tablet-tablet" : width < 1280 ? "hero-left-narrow" : "hero-left-wide-desktop");
+    expect(source).toContain(width < 480 ? "hero-left-court-compact-v1-portrait" : width < 768 ? "hero-left-court-compact-v1-narrow" : width < 1024 ? "hero-left-court-wide-v2-tablet" : width < 1280 ? "hero-left-court-compact-v1-narrow" : "hero-left-court-wide-v2-desktop");
     if (width >= 1024) {
       const rightSource = await page.locator(".hero-right img").evaluate((image: HTMLImageElement) => decodeURIComponent(image.currentSrc));
       expect(rightSource).toContain(width < 1280 ? "hero-right-clothes-v2-narrow" : "hero-right-clothes-v2-desktop");
@@ -22,13 +23,23 @@ test("full-bleed homepage keeps the approved structure, hero sources and destina
       expect(panels[0]).toBeCloseTo(width / 2, 0);
       expect(panels[1]).toBeCloseTo(width / 2, 0);
     }
-    for (const action of homepage.hero.actions) await expect(page.locator(".hero-actions").getByRole("link", { name: action.label })).toHaveAttribute("href", action.href);
+    await expect(page.locator(".hero-actions a")).toHaveCount(2);
+    for (const action of heroIntegration.heroActions) await expect(page.locator(".hero-actions").getByRole("link", { name: action.label })).toHaveAttribute("href", action.href);
+    await page.locator(".hero-panel img:visible").evaluateAll(async images => { await Promise.all(images.map(image => (image as HTMLImageElement).decode())); });
+    for (const selector of [".hero-copy", ".hero-actions"]) {
+      const bounds = (await page.locator(selector).boundingBox())!;
+      const panel = (await page.locator(".hero-left").boundingBox())!;
+      expect(bounds.x).toBeGreaterThanOrEqual(panel.x);
+      expect(bounds.x + bounds.width).toBeLessThanOrEqual(panel.x + panel.width + 1);
+      expect(bounds.y).toBeGreaterThanOrEqual(panel.y);
+      expect(bounds.y + bounds.height).toBeLessThanOrEqual(panel.y + panel.height + 1);
+    }
     await expect(page.locator('[data-home-section="new-arrivals"] .product-card')).toHaveCount(8);
     await expect(page.locator('[data-home-section="street-play"] .product-card')).toHaveCount(4);
     expect(await page.locator(".category-tile a").evaluateAll(links => links.map(link => link.getAttribute("href")))).toEqual(catalog.categories.map(c => `/produtos?categoria=${c.id}`));
     await expect(page.locator(".social-photo")).toHaveCount(7);
     await expect(page.locator(".social-section a, main form, main video")).toHaveCount(0);
-    await page.screenshot({ path: test.info().outputPath(`homepage-${width}.png`), fullPage: true });
+    await page.locator(".editorial-hero").screenshot({ path: test.info().outputPath(`homepage-hero-${width}.png`) });
   }
 });
 
@@ -199,7 +210,7 @@ test("responsive editorial pages remain accessible with reduced motion and 200% 
   await page.goto("/");
   await page.addStyleTag({ content: "html { font-size: 200%; }" });
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
-  for (const action of homepage.hero.actions) await expect(page.locator(".hero-actions").getByRole("link", { name: action.label })).toBeVisible();
+  for (const action of heroIntegration.heroActions) await expect(page.locator(".hero-actions").getByRole("link", { name: action.label })).toBeVisible();
 });
 
 test("a failed editorial image retains its space and readable fallback", async ({ page }) => {

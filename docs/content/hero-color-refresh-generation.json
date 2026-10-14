@@ -1,0 +1,311 @@
+{
+  "revision": "issue-66-hero-color-v1",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/66",
+  "status": "pending-human-review",
+  "tool": "built-in image_gen",
+  "recordedAtUtc": "2026-10-14T18:43:41.161Z",
+  "requestedDimensionsAreAdvisory": true,
+  "actualDimensions": "Measured from retained source files; no enlargement.",
+  "records": [
+    {
+      "tool": "built-in image_gen",
+      "modelIds": [
+        "model-002"
+      ],
+      "productColorways": [
+        {
+          "productId": "product-027",
+          "colorwayId": "lilac"
+        },
+        {
+          "productId": "product-030",
+          "colorwayId": "peach"
+        }
+      ],
+      "alt": "Bia brinca com uma bola coral em uma quadra azul, usando blusa lilás sem mangas e calça pêssego.",
+      "id": "hero-left-court-close-draft-v1",
+      "slot": "hero-left-wide",
+      "selected": false,
+      "reason": "Too tight for tablet and portrait crops.",
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a13bb2-0bbb-7102-8fc0-f6a713c18ff3/exec-f400d2b6-4ada-4f6b-a4e6-1f2a624b0bd4.png",
+      "prompt": "Use case: photorealistic-natural, identity-preserve. Create ONE landscape 3:2 high-resolution editorial kidswear hero photograph, 2400x1600 or larger. Input 1 exact approved fictional child identity Bia age 5: preserve fair freckled face, green eyes, straight copper bob, age and proportions. Input 2 exact lilac fine-rib sleeveless broad-strap round-neck hip-length top, product-027; ignore its teal shorts. Input 3 exact peach plain jersey relaxed ankle-length trousers, product-030, elastic waist, two side pockets, no cuffs/fly/drawstring. Bia wears precisely that lilac top and peach trousers with neutral white sneakers, no invented garment features. Bia laughing, skipping sideways toward a small coral ball on a spacious cobalt-blue painted outdoor recreation court, arms open, face turned toward camera, energetic natural action captured sharply. No other people. Camera at child height, three-quarter view, cool fresh overcast daylight with real skin and cotton texture. Blue court dominates, a distant blue fence and small sky strip; no cream courtyard walls, no foliage shadows, no linen. Composition is CRITICAL: complete child within x=52–72 percent, y=13–78 percent; face near x=62 percent,y=22 percent; ALL garments fully visible. This leaves the left half uncluttered dark-blue court for white headline and a centered tablet crop keeps child. Ball around x=76,y=72 percent. Generous margins top and sides, no text, no watermark. Joyful colorful real fashion photograph rather than illustration.",
+      "refs": [
+        "assets/originals/cast/model-002-reference-v2.png",
+        "assets/originals/catalog/product-027-lilac-model-v1.png",
+        "assets/originals/catalog/product-030-peach-isolated-v1.png"
+      ]
+    },
+    {
+      "tool": "built-in image_gen",
+      "modelIds": [
+        "model-002"
+      ],
+      "productColorways": [
+        {
+          "productId": "product-027",
+          "colorwayId": "lilac"
+        },
+        {
+          "productId": "product-030",
+          "colorwayId": "peach"
+        }
+      ],
+      "alt": "Bia brinca com uma bola coral em uma quadra azul, usando blusa lilás sem mangas e calça pêssego.",
+      "id": "hero-left-court-wide-v1",
+      "slot": "hero-left-wide",
+      "selected": false,
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a13bb2-0bbb-7102-8fc0-f6a713c18ff3/exec-363fadd9-121f-4506-b51b-ad87b1706e1a.png",
+      "prompt": "Use case: precise-object-edit / background expansion. Edit this exact approved-reference-based fictional Bia court photograph into a MORE DISTANT landscape campaign composition, 3:2 landscape. Preserve exactly the same child face, copper bob, lilac fine-rib top, peach relaxed plain trousers, white sneakers, joyful stepping pose, blue recreation court, blue fence, daylight and coral ball. ZOOM OUT substantially: shrink the entire child and ball together to 60 percent of their current size and expand blue court and sky around them. Child's complete silhouette including hair and shoes must be between x=54 and 74 percent, y=12 and 66 percent of output. Her face near x=64,y=19 percent. Her head must NOT touch top edge. All trousers including hems inside upper two thirds. Preserve a LARGE uncluttered blue court area on left half for white headline. This master must survive an actual centered 2:1 tablet crop without losing head, feet or garments, AND a centered near-square desktop crop. Do not enlarge child to fill frame. No cream walls, foliage, linen, new people, text or watermark. Request 2400x1600 or larger.",
+      "refs": [
+        "assets/originals/cast/model-002-reference-v2.png",
+        "assets/originals/catalog/product-027-lilac-model-v1.png",
+        "assets/originals/catalog/product-030-peach-isolated-v1.png",
+        "assets/originals/homepage/issue-66/hero-left-court-close-draft-v1.png"
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": [
+            3,
+            2
+          ]
+        },
+        {
+          "name": "tablet",
+          "ratio": [
+            2,
+            1
+          ],
+          "top": 64
+        }
+      ],
+      "reason": "Wide desktop headline overlaps trouser/shoe and white court stripe; rendered overlay contrast fails."
+    },
+    {
+      "tool": "built-in image_gen",
+      "modelIds": [
+        "model-002"
+      ],
+      "productColorways": [
+        {
+          "productId": "product-027",
+          "colorwayId": "lilac"
+        },
+        {
+          "productId": "product-030",
+          "colorwayId": "peach"
+        }
+      ],
+      "alt": "Bia brinca com uma bola coral em uma quadra azul, usando blusa lilás sem mangas e calça pêssego.",
+      "id": "hero-left-court-portrait-v1",
+      "slot": "hero-left",
+      "selected": false,
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a13bb2-0bbb-7102-8fc0-f6a713c18ff3/exec-0f36b152-de47-4801-a9db-645b21befc08.png",
+      "prompt": "Use case: identity-preserve / responsive editorial version. Create a PORTRAIT 4:5 photographic version of the exact fictional Bia blue-court campaign. Reference 1 exact court scene and outfit, reference 2 exact approved Bia identity (5 year old, green eyes, freckled fair face, copper bob), reference 3 exact lilac fine-rib sleeveless broad-strap round-neck top, reference 4 peach elastic-waist straight relaxed jersey ankle trousers. Keep same identity and garments, plain white sneakers, joyful playful side step with outstretched arms, looking smiling toward camera, little coral ball. Preserve cool blue painted recreation court, distant blue fence and fresh natural daylight, no cream wall, linen or leaves. MOBILE OVERLAY FRAMING CRITICAL: Child complete silhouette sits in UPPER HALF of portrait, between y=5 percent and y=49 percent, x=35 percent and x=83 percent. Face near x=62 percent y=13 percent. The full bottom HALF is spacious uninterrupted blue court, suitable for large white headline and two buttons; no subject or clothes in the bottom half. Both trouser legs and shoes entirely visible above midline. Keep feet and arms centered enough for 3:4 crop of this 4:5 portrait. No typography, branding, watermark or other people. Request 1600x2000 or larger, opaque realistic photograph.",
+      "refs": [
+        "assets/originals/cast/model-002-reference-v2.png",
+        "assets/originals/catalog/product-027-lilac-model-v1.png",
+        "assets/originals/catalog/product-030-peach-isolated-v1.png",
+        "assets/originals/homepage/issue-66/hero-left-court-wide-v1.png"
+      ],
+      "crops": [
+        {
+          "name": "portrait",
+          "ratio": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "narrow",
+          "ratio": [
+            4,
+            5
+          ]
+        }
+      ],
+      "reason": "Child overlapped mobile eyebrow and headline; rendered contrast failed."
+    },
+    {
+      "id": "hero-right-color-rail-v1",
+      "slot": "hero-right",
+      "selected": false,
+      "tool": "built-in image_gen",
+      "modelIds": [],
+      "productColorways": [
+        {
+          "productId": "product-014",
+          "colorwayId": "sky-cream-coral"
+        },
+        {
+          "productId": "product-008",
+          "colorwayId": "butter"
+        },
+        {
+          "productId": "product-019",
+          "colorwayId": "coral"
+        }
+      ],
+      "alt": "Vestido azul com desenhos de giz e shorts amarelo e coral pendurados em uma arara azul, sem modelos.",
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a13bb2-0bbb-7102-8fc0-f6a713c18ff3/exec-39ca0911-b8c0-4122-96dd-ef42910b219d.png",
+      "prompt": "Use case: product-mockup. ONE landscape 3:2 realistic kidswear editorial campaign photograph, request 2400x1600 or larger. Use exactly the three garment input photos: 1 sky-blue cotton short-sleeve dress with round neck, natural waist seam, gathered skirt and airy cream/coral chalk stripes and looping paths; 2 butter-yellow plain twill shorts with elastic waist and two side pockets; 3 coral plain twill shorts with elastic waist and two side pockets. Preserve exact cuts, colors, print shape/scale and fabric; no invented trim or logos. Photograph garments hanging on a thin blue metal rail against a muted deep periwinkle-blue painted studio wall, straight-on child-height camera with mild oblique depth, cool diffused daylight, tactile cotton and gentle soft shadows. Dress hangs centrally from a small plain hanger; shorts hang separately on small clip hangers to either side at slightly different heights, all three entirely visible, none covers another garment. Compact group: ALL sleeves, hems, waistbands and legs must fit inside x=30–70 percent, y=20–80 percent of LANDSCAPE canvas with generous blue margins. This is essential: a centered 4:5 crop of the landscape must retain all three garments. Minimal candid fashion shoot preparation mood, no linen, no overhead flat lay, no cream wall, no foliage, no people/models/hands/mannequins, no additional clothes, typography or watermark.",
+      "refs": [
+        "assets/originals/catalog/product-014-sky-cream-coral-isolated-v1.png",
+        "assets/originals/catalog/product-008-butter-isolated-v1.png",
+        "assets/originals/catalog/product-019-coral-isolated-v1.png"
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": [
+            3,
+            2
+          ]
+        },
+        {
+          "name": "narrow",
+          "ratio": [
+            4,
+            5
+          ]
+        }
+      ],
+      "reason": "Too wide; narrow desktop crop cuts both shorts."
+    },
+    {
+      "tool": "built-in image_gen",
+      "modelIds": [
+        "model-002"
+      ],
+      "productColorways": [
+        {
+          "productId": "product-027",
+          "colorwayId": "lilac"
+        },
+        {
+          "productId": "product-030",
+          "colorwayId": "peach"
+        }
+      ],
+      "alt": "Bia brinca com uma bola coral em uma quadra azul, usando blusa lilás sem mangas e calça pêssego.",
+      "id": "hero-left-court-compact-v1",
+      "slot": "hero-left",
+      "selected": true,
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a13bb2-0bbb-7102-8fc0-f6a713c18ff3/exec-fce640ac-1d75-4494-ae1d-0ee674d76d13.png",
+      "prompt": "Use case: precise-object-edit / background expansion. Edit this exact portrait court photograph. Preserve Bia's identity, face, lilac ribbed sleeveless top, peach trousers, complete shoes, playful step, ball, blue court, daylight. Make child and ball substantially SMALLER and move the whole group UPWARD and slightly RIGHT: scale them to 60 percent of current size. Entire child including shoes must be in TOP THIRD of 4:5 portrait canvas, y=3–35 percent, x=45–84 percent. Face near x=67,y=9 percent. The entire lower TWO THIRDS must contain only dark medium-blue painted court, absolutely no child, shoes, ball, fence, white court stripes or bright highlights there, because a large white headline plus four action buttons occupy that area. Court can retain subtle photographic texture and natural perspective, but keep bottom uncluttered and dark blue. Coral ball beside her shoes inside top third. Expand scene margins, maintain realistic camera perspective, no added people or clothes, no typography or watermark. Opaque portrait 4:5.",
+      "refs": [
+        "assets/originals/cast/model-002-reference-v2.png",
+        "assets/originals/catalog/product-027-lilac-model-v1.png",
+        "assets/originals/catalog/product-030-peach-isolated-v1.png",
+        "assets/originals/homepage/issue-66/hero-left-court-portrait-v1.png"
+      ],
+      "crops": [
+        {
+          "name": "portrait",
+          "ratio": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "narrow",
+          "ratio": [
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hero-right-color-rail-wide-v1",
+      "slot": "hero-right",
+      "selected": true,
+      "tool": "built-in image_gen",
+      "modelIds": [],
+      "productColorways": [
+        {
+          "productId": "product-014",
+          "colorwayId": "sky-cream-coral"
+        },
+        {
+          "productId": "product-008",
+          "colorwayId": "butter"
+        },
+        {
+          "productId": "product-019",
+          "colorwayId": "coral"
+        }
+      ],
+      "alt": "Vestido azul com desenhos de giz e shorts amarelo e coral pendurados em uma arara azul, sem modelos.",
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a13bb2-0bbb-7102-8fc0-f6a713c18ff3/exec-86897b8b-6c7f-4a02-9b66-07b8bb3763ba.png",
+      "prompt": "Use case: precise-object-edit / background expansion. Edit this exact three-garment blue rail photograph, preserving EXACTLY the dress, two shorts, their construction/colors/print, hanger positions and overall arrangement, lighting, blue wall and camera. ZOOM OUT considerably: scale the ENTIRE clothes-and-rail group uniformly to 58 percent of its current size, expand blue wall on all sides. Every garment must be entirely inside the CENTRAL 48 PERCENT of landscape frame, x=26–74 percent, y=23–77 percent. All yellow and coral shorts edges and every sleeve/hem must be INSIDE this strict box with generous blue margins. The metal rail can extend toward outer sides but the clothing cannot. This 3:2 landscape will be centered-cropped to 4:5; keep all garments wholly visible inside that narrow crop. Do not make garments larger to fill canvas, do not crop shorts. Preserve product fidelity, no new clothing or people, no linen, text or watermark. Landscape 3:2 opaque photographic canvas, request 2400x1600 or larger.",
+      "refs": [
+        "assets/originals/catalog/product-014-sky-cream-coral-isolated-v1.png",
+        "assets/originals/catalog/product-008-butter-isolated-v1.png",
+        "assets/originals/catalog/product-019-coral-isolated-v1.png",
+        "assets/originals/homepage/issue-66/hero-right-color-rail-v1.png"
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": [
+            3,
+            2
+          ]
+        },
+        {
+          "name": "narrow",
+          "ratio": [
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "tool": "built-in image_gen",
+      "modelIds": [
+        "model-002"
+      ],
+      "productColorways": [
+        {
+          "productId": "product-027",
+          "colorwayId": "lilac"
+        },
+        {
+          "productId": "product-030",
+          "colorwayId": "peach"
+        }
+      ],
+      "alt": "Bia brinca com uma bola coral em uma quadra azul, usando blusa lilás sem mangas e calça pêssego.",
+      "id": "hero-left-court-wide-v2",
+      "slot": "hero-left-wide",
+      "selected": true,
+      "sourcePath": "C:/Users/bombd/.codex/generated_images/01a13bb2-0bbb-7102-8fc0-f6a713c18ff3/exec-9ffba30b-a9cf-4098-8e44-6510906e14a3.png",
+      "prompt": "Use case: precise-object-edit / editorial background expansion. Edit this EXACT landscape Bia court scene for a website desktop/tablet white-text overlay. Preserve face identity, age, copper hair, lilac ribbed broad-strap top, peach trousers, white shoes, joyful pose and coral ball. Recompose ONLY scale and placement plus court background details. Make Bia and ball 65 percent of current size, MOVE THEM UPWARD: entire complete child including hair and both shoes within x=55–78 percent,y=6–40 percent of 3:2 landscape canvas. Entire child must fit in UPPER 40 PERCENT; shoes above y=40 percent. Face near x=67,y=12 percent. Ball at x=78,y=38 percent. Keep child recognizable and garments fully visible, natural photographic perspective. Leave entire LOWER HALF as plain textured medium-dark COBALT BLUE COURT with NO white court lines, cream marks, ball, shoes or bright highlights in lower half. Left HALF also needs unobstructed blue court/fence suitable for headline. Blue sky and distant blue fence confined to upper third. This is essential for readable large white headline and four buttons in lower left on near-square actual desktop crop. Preserve real diffused daylight and cotton texture, no courtyard or linen, no additional people/clothes, no text or watermark. Opaque LANDSCAPE 3:2 photograph.",
+      "refs": [
+        "assets/originals/cast/model-002-reference-v2.png",
+        "assets/originals/catalog/product-027-lilac-model-v1.png",
+        "assets/originals/catalog/product-030-peach-isolated-v1.png",
+        "assets/originals/homepage/issue-66/hero-left-court-wide-v1.png"
+      ],
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": [
+            3,
+            2
+          ]
+        },
+        {
+          "name": "tablet",
+          "ratio": [
+            2,
+            1
+          ],
+          "top": 0
+        }
+      ]
+    }
+  ]
+}

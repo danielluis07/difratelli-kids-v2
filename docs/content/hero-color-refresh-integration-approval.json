@@ -1,0 +1,51 @@
+{
+  "revision": "issue-66-hero-integration-v2",
+  "parentRevision": "issue-66-hero-color-v1",
+  "status": "approved",
+  "implementationAllowed": true,
+  "reviewer": "User in this conversation",
+  "recordedAtUtc": "2026-10-14T21:36:17.280Z",
+  "evidence": {
+    "message": "open a PR. but before that, two changes needed: keep only two buttons on the hero. restore the right hero image to the previous one",
+    "context": "Direct instruction authorizes two existing audience shopping actions and restoration of the previously accepted clothes-on-linen right hero. The accepted left hero crops remain active; the accepted rail images remain archived."
+  },
+  "approvalRequestSha256": "c7196770d4080b0d9de21b5bbb0fe65f829b259c32c671d6d9860a130bd82b30",
+  "files": [
+    {
+      "path": "docs/content/hero-color-refresh-integration.json",
+      "sha256": "c7196770d4080b0d9de21b5bbb0fe65f829b259c32c671d6d9860a130bd82b30"
+    },
+    {
+      "path": "docs/content/hero-color-refresh-approval.json",
+      "sha256": "b30d8b015fecf38bdc8f45f9aa875ea83bd4843cb84bdfcc298d021c8a108693"
+    },
+    {
+      "path": "docs/content/homepage-image-refresh-approval.json",
+      "sha256": "3ed640dfaf5cdd038fb4267042d3d5e845805fd761d60c0bac72cecb41bb6ba6"
+    },
+    {
+      "path": "public/images/homepage/issue-66/hero-left-court-compact-v1-portrait.webp",
+      "sha256": "c879ee2fc642ec3f1222d8bbd7d88786f35c7971c8b4a04f249dd3af34ab9a28"
+    },
+    {
+      "path": "public/images/homepage/issue-66/hero-left-court-compact-v1-narrow.webp",
+      "sha256": "672e5debe218c301e480be8ae02eac3a3309651881cd365ed145d8c6ddecb2d2"
+    },
+    {
+      "path": "public/images/homepage/issue-66/hero-left-court-wide-v2-desktop.webp",
+      "sha256": "20f89440f917567a6cf5d4a32ea50901ecb41e11658083dd3ddf5cce667b14cc"
+    },
+    {
+      "path": "public/images/homepage/issue-66/hero-left-court-wide-v2-tablet.webp",
+      "sha256": "a35f3ca556000008a3782e60319a1d179de90544a1c6c8da58155511fe12e1a5"
+    },
+    {
+      "path": "public/images/homepage/hero-right-clothes-v2-desktop.webp",
+      "sha256": "d1a931dc40c041436bd50fd4d5aceff211ec1a00685081d1860ea24b2f2f0c89"
+    },
+    {
+      "path": "public/images/homepage/hero-right-clothes-v2-narrow.webp",
+      "sha256": "b9a21d3ea5cca45235b095c79a4600687ce43ae848bafb697587b3d3bdcd2723"
+    }
+  ]
+}

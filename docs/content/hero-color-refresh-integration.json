@@ -1,0 +1,19 @@
+{
+  "revision": "issue-66-hero-integration-v2",
+  "parentRevision": "issue-66-hero-color-v1",
+  "activeAssetIds": [
+    "hero-left-court-compact-v1",
+    "hero-left-court-wide-v2"
+  ],
+  "retainedRightAssetId": "hero-right-clothes-v2",
+  "heroActions": [
+    {
+      "label": "Comprar para meninas",
+      "href": "/meninas"
+    },
+    {
+      "label": "Comprar para meninos",
+      "href": "/meninos"
+    }
+  ]
+}
