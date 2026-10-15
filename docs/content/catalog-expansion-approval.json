@@ -1,0 +1,49 @@
+{
+  "revision": "issue-65-proposal-v1",
+  "status": "approved",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/65",
+  "reviewer": "The user in this conversation",
+  "recordedAtUtc": "2026-10-14T18:33:12.0934364Z",
+  "evidence": "The user replied \"approved\" to the presented issue-65-proposal-v1 expansion proposal.",
+  "decision": "Option A for the first editorial refresh plus Option B afterward",
+  "scope": "Assortment and production brief: four new products, two additional existing-product colorways, garment and illustration treatment, proposed prices, cast associations, merchandising, revised allocations and specified follow-up work.",
+  "reviewedProposal": {
+    "path": "docs/content/catalog-expansion-proposal.md",
+    "sha256": "a46b320fb4817c1f9859c8ecd15fa42d26cf3b42ba87254b9ed59bc252b5ee4d"
+  },
+  "retainedProposal": {
+    "path": "docs/content/catalog-expansion-proposal.md",
+    "sha256": "9b96074e127bc4dac46a2f4b00c316fe14498fa1c1edcf5e7a8c02816a1a67e7",
+    "changesAfterReview": "Approval status, gate clarification and decision evidence only; assortment tables and production specification unchanged."
+  },
+  "newProductIds": [
+    "product-031",
+    "product-032",
+    "product-033",
+    "product-034"
+  ],
+  "addedExistingColorways": [
+    {
+      "productId": "product-002",
+      "colorwayId": "teal"
+    },
+    {
+      "productId": "product-010",
+      "colorwayId": "butter"
+    }
+  ],
+  "acceptedTotals": {
+    "products": 34,
+    "colorways": 50,
+    "catalogPhotographs": 100
+  },
+  "remainingGates": [
+    "Final Brazilian Portuguese copy and revised associations/manifests",
+    "Exact worn and isolated photographs, including sample and batch review",
+    "Revised complete content package",
+    "Storefront integration acceptance",
+    "Release approval"
+  ],
+  "productionStarted": false,
+  "integratedCatalogChanged": false
+}
