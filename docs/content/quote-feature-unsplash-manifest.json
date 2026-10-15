@@ -1,0 +1,403 @@
+{
+  "revision": "issue-67-unsplash-candidates-v1",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/67",
+  "status": "pending-human-review",
+  "implementationAllowed": false,
+  "scope": "Homepage collection-feature candidates; retain quote. Catalog and individual product-page images remain generated.",
+  "directionEvidence": "User requested fetching Unsplash candidates for approval instead of generating editorial images.",
+  "directionRevisions": [
+    "Use Unsplash stock models and clothing for editorial mood photography; they do not represent exact generated cast or catalog garments.",
+    "Candidate selection does not approve overlay, copy or layout changes."
+  ],
+  "license": {
+    "name": "Unsplash License",
+    "url": "https://unsplash.com/license",
+    "premium": false,
+    "verifiedAtUtc": "2026-10-14T22:03:29.278Z"
+  },
+  "candidates": [
+    {
+      "id": "ffJ8Qa0VQU0",
+      "plus": false,
+      "name": "Filip Urban",
+      "href": "https://unsplash.com/photos/boy-in-black-and-white-long-sleeve-shirt-standing-beside-gray-metal-watering-can-during-daytime-ffJ8Qa0VQU0",
+      "label": "A",
+      "originalPath": "assets/references/homepage/issue-67-unsplash/ffJ8Qa0VQU0-original.jpg",
+      "downloadUrl": "https://images.unsplash.com/photo-1611735341450-74d61e660ad2?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&fm=jpg&q=90",
+      "downloadedAtUtc": "2026-10-14T22:02:05.213Z",
+      "width": 6975,
+      "height": 4656,
+      "sha256": "cea572c861cc84da77ae799488496d6cf60a66f60784c1e5ce390d7a812f1e0c",
+      "bytes": 6312938,
+      "sourceDescription": "boy in black and white long sleeve shirt standing beside gray metal watering can during daytime",
+      "previewPath": "assets/references/homepage/issue-67-unsplash/ffJ8Qa0VQU0-preview.jpg",
+      "title": "Watering the vegetable garden",
+      "fit": "Strongest direct match to outdoor discovery: a real watering activity, garden beds and a closer environmental view.",
+      "limitation": "Dark foliage and the large watering can occupy the current right-hand copy area. Existing dark overlay text needs a placement/contrast review before integration.",
+      "alt": "Criança rega uma horta com um regador de metal, cercada por canteiros e plantas.",
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "16:9",
+          "sourceRect": {
+            "left": 7,
+            "top": 0,
+            "width": 6960,
+            "height": 3915
+          },
+          "path": "assets/references/homepage/issue-67-unsplash/ffJ8Qa0VQU0-desktop.webp",
+          "width": 1600,
+          "height": 900,
+          "sha256": "c23f59b7b5bc1f0800ba3cfb409611bd3a2b3b57ec756cdd7e1bb3007187ae84",
+          "bytes": 294648,
+          "status": "pending-human-review"
+        },
+        {
+          "name": "compact",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 383,
+            "top": 0,
+            "width": 6208,
+            "height": 4656
+          },
+          "path": "assets/references/homepage/issue-67-unsplash/ffJ8Qa0VQU0-compact.webp",
+          "width": 1200,
+          "height": 900,
+          "sha256": "e79f02a0963748751ea8a3c3deead7163a87a60f0cb5adaaa5c0d58f9ba24d37",
+          "bytes": 281316,
+          "status": "pending-human-review"
+        }
+      ]
+    },
+    {
+      "id": "LOCYhBKrPM0",
+      "plus": false,
+      "name": "Mieke Campbell",
+      "href": "https://unsplash.com/photos/a-couple-of-girls-cleaning-the-ground-LOCYhBKrPM0",
+      "label": "B",
+      "originalPath": "assets/references/homepage/issue-67-unsplash/LOCYhBKrPM0-original.jpg",
+      "downloadUrl": "https://images.unsplash.com/photo-1658801956904-43841e89d831?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&fm=jpg&q=90",
+      "downloadedAtUtc": "2026-10-14T22:02:02.948Z",
+      "width": 6000,
+      "height": 4000,
+      "sha256": "262cd093036fe6f02f3b0b9f648a3b110892cc29d32443069f60f873c8c4d447",
+      "bytes": 3501969,
+      "sourceDescription": "a couple of girls cleaning the ground",
+      "previewPath": "assets/references/homepage/issue-67-unsplash/LOCYhBKrPM0-preview.jpg",
+      "title": "Gardening together",
+      "fit": "Two children engaged in a shared task; pink and blue dresses add silhouettes and color, with a wider view than the quote.",
+      "limitation": "Both children must remain in the crop. The child on the right conflicts with the current copy zone; a garden sign is visible in the original.",
+      "alt": "Duas crianças com vestidos rosa e azul cuidam de um canteiro no jardim.",
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "16:9",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 6000,
+            "height": 3375
+          },
+          "path": "assets/references/homepage/issue-67-unsplash/LOCYhBKrPM0-desktop.webp",
+          "width": 1600,
+          "height": 900,
+          "sha256": "13f9e6e71be7f80270d2b555c9d24c1d1bc76d96dfc1b4ce9ad2e28cccb1efa0",
+          "bytes": 313884,
+          "status": "pending-human-review"
+        },
+        {
+          "name": "compact",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 334,
+            "top": 0,
+            "width": 5332,
+            "height": 3999
+          },
+          "path": "assets/references/homepage/issue-67-unsplash/LOCYhBKrPM0-compact.webp",
+          "width": 1200,
+          "height": 900,
+          "sha256": "d35b17458c6ec5f0fc3050b88b6507e9c71e07746ee21371e469a9801699a18b",
+          "bytes": 277842,
+          "status": "pending-human-review"
+        }
+      ]
+    },
+    {
+      "id": "4dHZjGXWUbg",
+      "plus": false,
+      "name": "Ayla Meinberg",
+      "href": "https://unsplash.com/photos/a-little-girl-standing-in-a-field-of-flowers-4dHZjGXWUbg",
+      "label": "C",
+      "originalPath": "assets/references/homepage/issue-67-unsplash/4dHZjGXWUbg-original.jpg",
+      "downloadUrl": "https://images.unsplash.com/photo-1713195295950-66c5d01f4a4b?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&fm=jpg&q=90",
+      "downloadedAtUtc": "2026-10-14T22:02:03.661Z",
+      "width": 6000,
+      "height": 4000,
+      "sha256": "947a108a9c51ced4262f47bcd6862fff014897d3e747cff5bc6fb8c129ba250c",
+      "bytes": 6510140,
+      "sourceDescription": "a little girl standing in a field of flowers",
+      "previewPath": "assets/references/homepage/issue-67-unsplash/4dHZjGXWUbg-preview.jpg",
+      "title": "Discovering spring blossoms",
+      "fit": "Strongest color candidate: pink blossoms, red tulips and a bright dress connect immediately to the botanical collection story.",
+      "limitation": "A closer, quieter activity than A or B. The original already frames the lower dress out; dark tree/foliage fills the current right-hand copy zone.",
+      "alt": "Criança com vestido colorido toca flores rosadas em um jardim com tulipas.",
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "16:9",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 6000,
+            "height": 3375
+          },
+          "path": "assets/references/homepage/issue-67-unsplash/4dHZjGXWUbg-desktop.webp",
+          "width": 1600,
+          "height": 900,
+          "sha256": "78a8ed9c6c91510719fb7a2f1b0553b0a93bf98b4cd1ab30ebaca089544e521f",
+          "bytes": 458228,
+          "status": "pending-human-review"
+        },
+        {
+          "name": "compact",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 5332,
+            "height": 3999
+          },
+          "path": "assets/references/homepage/issue-67-unsplash/4dHZjGXWUbg-compact.webp",
+          "width": 1200,
+          "height": 900,
+          "sha256": "2c060ee1b1644d039ae2858120ebde880e6e65a1c5ba19da0fd7824a61612fc0",
+          "bytes": 349756,
+          "status": "pending-human-review"
+        }
+      ]
+    },
+    {
+      "id": "oOMIgQ0Nr5U",
+      "plus": false,
+      "name": "Kelly Sikkema",
+      "href": "https://unsplash.com/photos/girl-in-sleeveless-dress-oOMIgQ0Nr5U",
+      "label": "D",
+      "originalPath": "assets/references/homepage/issue-67-unsplash/oOMIgQ0Nr5U-original.jpg",
+      "downloadUrl": "https://images.unsplash.com/photo-1574429549871-ecf3b8523655?ixid=NHwxMjA3fDA&ixlib=rb-4.1.0&fm=jpg&q=90",
+      "downloadedAtUtc": "2026-10-14T22:02:03.435Z",
+      "width": 5568,
+      "height": 3297,
+      "sha256": "f8137c8b2310c46955a66be8fd47d51a9cf7cb330c5f6ba4d14b3227c2629b3c",
+      "bytes": 3012974,
+      "sourceDescription": "girl in sleeveless dress",
+      "previewPath": "assets/references/homepage/issue-67-unsplash/oOMIgQ0Nr5U-preview.jpg",
+      "title": "Running through the garden",
+      "fit": "Most movement and widest framing; a solid peach dress balances the printed garments and the retained quote.",
+      "limitation": "Weaker connection to gardening. The runner is on the right, where the existing overlay sits; repositioning the subject would require a different source or an explicitly reviewed layout decision.",
+      "alt": "Criança com vestido pêssego corre por uma área gramada cercada de árvores.",
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "16:9",
+          "sourceRect": {
+            "left": 0,
+            "top": 82,
+            "width": 5568,
+            "height": 3132
+          },
+          "path": "assets/references/homepage/issue-67-unsplash/oOMIgQ0Nr5U-desktop.webp",
+          "width": 1600,
+          "height": 900,
+          "sha256": "0176eee82a296db74a773fa8bd4b3ea8665241d6a6a8fda5ad6afbecc6f1fb2a",
+          "bytes": 347482,
+          "status": "pending-human-review"
+        },
+        {
+          "name": "compact",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 1172,
+            "top": 0,
+            "width": 4396,
+            "height": 3297
+          },
+          "path": "assets/references/homepage/issue-67-unsplash/oOMIgQ0Nr5U-compact.webp",
+          "width": 1200,
+          "height": 900,
+          "sha256": "f9e828d01e94e16ab3553e7435acf8ec9b6780734d469feb16682f1b3a310f4e",
+          "bytes": 269236,
+          "status": "pending-human-review"
+        }
+      ]
+    }
+  ],
+  "retainedContext": [
+    {
+      "slot": "hero-left-wide",
+      "assetId": "hero-left-court-wide-v2",
+      "originalPath": "assets/originals/homepage/issue-66/hero-left-court-wide-v2.png",
+      "originalSha256": "7c082a34edd1a0eaf431987a89dffadb6985995801450caac3971f12d49aac6e",
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "3:2",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1536,
+            "height": 1024
+          },
+          "width": 1536,
+          "height": 1024,
+          "webPath": "public/images/homepage/issue-66/hero-left-court-wide-v2-desktop.webp",
+          "src": "/images/homepage/issue-66/hero-left-court-wide-v2-desktop.webp",
+          "sha256": "20f89440f917567a6cf5d4a32ea50901ecb41e11658083dd3ddf5cce667b14cc",
+          "bytes": 226214
+        },
+        {
+          "name": "tablet",
+          "ratio": "2:1",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1536,
+            "height": 768
+          },
+          "width": 1536,
+          "height": 768,
+          "webPath": "public/images/homepage/issue-66/hero-left-court-wide-v2-tablet.webp",
+          "src": "/images/homepage/issue-66/hero-left-court-wide-v2-tablet.webp",
+          "sha256": "a35f3ca556000008a3782e60319a1d179de90544a1c6c8da58155511fe12e1a5",
+          "bytes": 135364
+        }
+      ]
+    },
+    {
+      "slot": "hero-right-wide",
+      "assetId": "hero-right-clothes-v2",
+      "originalPath": "assets/originals/homepage/hero-right-clothes-v2.png",
+      "originalSha256": "55a48f205c033b0ce331d01cd1c3809796c9aab2d3ca154d6a0091caed165d54",
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "3:2",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1536,
+            "height": 1024
+          },
+          "width": 1536,
+          "height": 1024,
+          "webPath": "public/images/homepage/hero-right-clothes-v2-desktop.webp",
+          "src": "/images/homepage/hero-right-clothes-v2-desktop.webp",
+          "sha256": "d1a931dc40c041436bd50fd4d5aceff211ec1a00685081d1860ea24b2f2f0c89",
+          "bytes": 404502,
+          "approvalStatus": "pending-human-review"
+        },
+        {
+          "name": "narrow",
+          "ratio": "4:5",
+          "sourceRect": {
+            "left": 1,
+            "top": 1,
+            "width": 1120,
+            "height": 1400
+          },
+          "width": 1120,
+          "height": 1400,
+          "webPath": "public/images/homepage/hero-right-clothes-v2-narrow.webp",
+          "src": "/images/homepage/hero-right-clothes-v2-narrow.webp",
+          "sha256": "b9a21d3ea5cca45235b095c79a4600687ce43ae848bafb697587b3d3bdcd2723",
+          "bytes": 395756,
+          "approvalStatus": "pending-human-review",
+          "derivative": {
+            "originalPath": "assets/originals/homepage/hero-right-clothes-narrow-v2.png",
+            "originalSha256": "bd1ed78a281230469313d5677d0d14b405ec021aa59297b25e5416a000b0e76a",
+            "width": 1122,
+            "height": 1402,
+            "originalBytes": 2964430
+          }
+        }
+      ]
+    },
+    {
+      "slot": "quote-garments",
+      "assetId": "quote-garments",
+      "originalPath": "assets/originals/homepage/quote-garments-v1.png",
+      "originalSha256": "6d44fc124974fd08d29142d4eebe124031b59b15c2af039dee01ca0860c98a2d",
+      "crops": [
+        {
+          "name": "desktop",
+          "ratio": "16:9",
+          "sourceRect": {
+            "left": 4,
+            "top": 3,
+            "width": 1664,
+            "height": 936
+          },
+          "width": 1664,
+          "height": 936,
+          "webPath": "public/images/homepage/quote-garments-desktop-v1.webp",
+          "src": "/images/homepage/quote-garments-desktop-v1.webp",
+          "sha256": "2116bb3772453a059ee2f6685070198322f5111e03549a59f7a9e5e59a6398e8",
+          "bytes": 299774,
+          "usage": [
+            "quote-garments"
+          ],
+          "approvalStatus": "pending-human-review"
+        },
+        {
+          "name": "compact",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 420,
+            "top": 1,
+            "width": 1252,
+            "height": 939
+          },
+          "width": 1252,
+          "height": 939,
+          "webPath": "public/images/homepage/quote-garments-compact-v1.webp",
+          "src": "/images/homepage/quote-garments-compact-v1.webp",
+          "sha256": "4c611675a37630fb4c4c9f37a6927624650adc5cf76719c382a304f358aef560",
+          "bytes": 234394,
+          "usage": [
+            "quote-garments"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ]
+    },
+    {
+      "slot": "look-quintal",
+      "assetId": "look-quintal",
+      "originalPath": "assets/originals/homepage/look-quintal-v1.png",
+      "originalSha256": "acf68313eb7b33460135f2d2cdcb9d93cb692d63d0dade75e211a603a39de07e",
+      "crops": [
+        {
+          "name": "landscape",
+          "ratio": "4:3",
+          "sourceRect": {
+            "left": 0,
+            "top": 0,
+            "width": 1448,
+            "height": 1086
+          },
+          "width": 1448,
+          "height": 1086,
+          "webPath": "public/images/homepage/look-quintal-landscape-v1.webp",
+          "src": "/images/homepage/look-quintal-landscape-v1.webp",
+          "sha256": "309690bf808931472bbf73fb7f1ba780e5f060ef6da4c5a1a630f44fe159f939",
+          "bytes": 375650,
+          "usage": [
+            "shop-the-look"
+          ],
+          "approvalStatus": "pending-human-review"
+        }
+      ]
+    }
+  ]
+}

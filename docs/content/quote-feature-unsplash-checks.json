@@ -1,0 +1,27 @@
+{
+  "revision": "issue-67-unsplash-candidates-v1",
+  "status": "passed",
+  "checks": [
+    {
+      "width": 390,
+      "imageDecoding": "passed",
+      "horizontalOverflow": false,
+      "imageCount": 12,
+      "limitation": "Candidate gallery only; no runtime overlay acceptance."
+    },
+    {
+      "width": 768,
+      "imageDecoding": "passed",
+      "horizontalOverflow": false,
+      "imageCount": 12,
+      "limitation": "Candidate gallery only; no runtime overlay acceptance."
+    },
+    {
+      "width": 1440,
+      "imageDecoding": "passed",
+      "horizontalOverflow": false,
+      "imageCount": 12,
+      "limitation": "Candidate gallery only; no runtime overlay acceptance."
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "revision": "issue-67-unsplash-candidates-v1",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/67",
+  "status": "pending-human-review",
+  "implementationAllowed": false,
+  "scope": "Candidate photograph and crop selection only. Final storefront overlay review and exact integration acceptance follow selection.",
+  "reviewer": null,
+  "evidence": null,
+  "reviewPath": "docs/content/quote-feature-unsplash-review.html",
+  "files": [
+    {
+      "path": "assets/originals/homepage/hero-right-clothes-v2.png",
+      "sha256": "55a48f205c033b0ce331d01cd1c3809796c9aab2d3ca154d6a0091caed165d54"
+    },
+    {
+      "path": "assets/originals/homepage/issue-66/hero-left-court-wide-v2.png",
+      "sha256": "7c082a34edd1a0eaf431987a89dffadb6985995801450caac3971f12d49aac6e"
+    },
+    {
+      "path": "assets/originals/homepage/look-quintal-v1.png",
+      "sha256": "acf68313eb7b33460135f2d2cdcb9d93cb692d63d0dade75e211a603a39de07e"
+    },
+    {
+      "path": "assets/originals/homepage/quote-garments-v1.png",
+      "sha256": "6d44fc124974fd08d29142d4eebe124031b59b15c2af039dee01ca0860c98a2d"
+    },
+    {
+      "path": "assets/references/homepage/issue-67-unsplash/4dHZjGXWUbg-compact.webp",
+      "sha256": "2c060ee1b1644d039ae2858120ebde880e6e65a1c5ba19da0fd7824a61612fc0"
+    },
+    {
+      "path": "assets/references/homepage/issue-67-unsplash/4dHZjGXWUbg-desktop.webp",
+      "sha256": "78a8ed9c6c91510719fb7a2f1b0553b0a93bf98b4cd1ab30ebaca089544e521f"
+    },
+    {
+      "path": "assets/references/homepage/issue-67-unsplash/4dHZjGXWUbg-original.jpg",
+      "sha256": "947a108a9c51ced4262f47bcd6862fff014897d3e747cff5bc6fb8c129ba250c"
+    },
+    {
+      "path": "assets/references/homepage/issue-67-unsplash/4dHZjGXWUbg-preview.jpg",
+      "sha256": "6b4df99d689f81ca15af521924a5de3bd6d396cc812f28096ce515dc587c0851"
+    },
+    {
+      "path": "assets/references/homepage/issue-67-unsplash/LOCYhBKrPM0-compact.webp",
+      "sha256": "d35b17458c6ec5f0fc3050b88b6507e9c71e07746ee21371e469a9801699a18b"
+    },
+    {
+      "path": "assets/references/homepage/issue-67-unsplash/LOCYhBKrPM0-desktop.webp",
+      "sha256": "13f9e6e71be7f80270d2b555c9d24c1d1bc76d96dfc1b4ce9ad2e28cccb1efa0"
+    },
+    {
+      "path": "assets/references/homepage/issue-67-unsplash/LOCYhBKrPM0-original.jpg",
+      "sha256": "262cd093036fe6f02f3b0b9f648a3b110892cc29d32443069f60f873c8c4d447"
+    },
+    {
+      "path": "assets/references/homepage/issue-67-unsplash/LOCYhBKrPM0-preview.jpg",
+      "sha256": "551ce8302f92ae49fbe612909d3961f5174e7612f5aa6c32ed741e9762b238c8"
+    },
+    {
+      "path": "assets/references/homepage/issue-67-unsplash/ffJ8Qa0VQU0-compact.webp",
+      "sha256": "e79f02a0963748751ea8a3c3deead7163a87a60f0cb5adaaa5c0d58f9ba24d37"
+    },
+    {
+      "path": "assets/references/homepage/issue-67-unsplash/ffJ8Qa0VQU0-desktop.webp",
+      "sha256": "c23f59b7b5bc1f0800ba3cfb409611bd3a2b3b57ec756cdd7e1bb3007187ae84"
+    },
+    {
+      "path": "assets/references/homepage/issue-67-unsplash/ffJ8Qa0VQU0-original.jpg",
+      "sha256": "cea572c861cc84da77ae799488496d6cf60a66f60784c1e5ce390d7a812f1e0c"
+    },
+    {
+      "path": "assets/references/homepage/issue-67-unsplash/ffJ8Qa0VQU0-preview.jpg",
+      "sha256": "88a8bc7b8c9044d973b2c1100a43262f9fb48a266a672f6ede5444c3845877a8"
+    },
+    {
+      "path": "assets/references/homepage/issue-67-unsplash/oOMIgQ0Nr5U-compact.webp",
+      "sha256": "f9e828d01e94e16ab3553e7435acf8ec9b6780734d469feb16682f1b3a310f4e"
+    },
+    {
+      "path": "assets/references/homepage/issue-67-unsplash/oOMIgQ0Nr5U-desktop.webp",
+      "sha256": "0176eee82a296db74a773fa8bd4b3ea8665241d6a6a8fda5ad6afbecc6f1fb2a"
+    },
+    {
+      "path": "assets/references/homepage/issue-67-unsplash/oOMIgQ0Nr5U-original.jpg",
+      "sha256": "f8137c8b2310c46955a66be8fd47d51a9cf7cb330c5f6ba4d14b3227c2629b3c"
+    },
+    {
+      "path": "assets/references/homepage/issue-67-unsplash/oOMIgQ0Nr5U-preview.jpg",
+      "sha256": "6ef07acaede98bd7850593c5b45fa6bf9a0c5d5e24bb5418040c25782f088c24"
+    },
+    {
+      "path": "docs/content/hero-color-refresh-approval.json",
+      "sha256": "b30d8b015fecf38bdc8f45f9aa875ea83bd4843cb84bdfcc298d021c8a108693"
+    },
+    {
+      "path": "docs/content/hero-color-refresh-integration-approval.json",
+      "sha256": "679d7113399016dcdf641f6185427d7c1a1aabd49043bca88a1e6d6e2da3e754"
+    },
+    {
+      "path": "docs/content/homepage-approval.json",
+      "sha256": "0ab985366a8226c00bd48e87c38e8c89d299dd2b175eff6f51656a032b8b8a42"
+    },
+    {
+      "path": "docs/content/homepage-image-refresh-approval.json",
+      "sha256": "3ed640dfaf5cdd038fb4267042d3d5e845805fd761d60c0bac72cecb41bb6ba6"
+    },
+    {
+      "path": "docs/content/quote-feature-unsplash-checks.json",
+      "sha256": "19677413bf11e3f838a899d512a1330b60e26cd0f505f291dce0bb72d626bb79"
+    },
+    {
+      "path": "docs/content/quote-feature-unsplash-contact-sheet.webp",
+      "sha256": "b61a194d513c541f0e29165984b9269371846351a4ff8296a18c3f7c5f2aa777"
+    },
+    {
+      "path": "docs/content/quote-feature-unsplash-manifest.json",
+      "sha256": "ecb5c9c47d5b7490a6c9c286d4dfa0c53fde03421de8ec9ecd65d9207fe08805"
+    },
+    {
+      "path": "docs/content/quote-feature-unsplash-review.html",
+      "sha256": "aaf7cb445f6490aaead07e44caeaa06c301d9a38f692ea2178e35de013dad579"
+    },
+    {
+      "path": "docs/content/quote-feature-unsplash-review.md",
+      "sha256": "836f6856328254e4693f86811307d0c5c76528ecc2894aecd9afdc2b41acacf0"
+    },
+    {
+      "path": "public/images/homepage/hero-right-clothes-v2-desktop.webp",
+      "sha256": "d1a931dc40c041436bd50fd4d5aceff211ec1a00685081d1860ea24b2f2f0c89"
+    },
+    {
+      "path": "public/images/homepage/hero-right-clothes-v2-narrow.webp",
+      "sha256": "b9a21d3ea5cca45235b095c79a4600687ce43ae848bafb697587b3d3bdcd2723"
+    },
+    {
+      "path": "public/images/homepage/issue-66/hero-left-court-wide-v2-desktop.webp",
+      "sha256": "20f89440f917567a6cf5d4a32ea50901ecb41e11658083dd3ddf5cce667b14cc"
+    },
+    {
+      "path": "public/images/homepage/issue-66/hero-left-court-wide-v2-tablet.webp",
+      "sha256": "a35f3ca556000008a3782e60319a1d179de90544a1c6c8da58155511fe12e1a5"
+    },
+    {
+      "path": "public/images/homepage/look-quintal-landscape-v1.webp",
+      "sha256": "309690bf808931472bbf73fb7f1ba780e5f060ef6da4c5a1a630f44fe159f939"
+    },
+    {
+      "path": "public/images/homepage/quote-garments-compact-v1.webp",
+      "sha256": "4c611675a37630fb4c4c9f37a6927624650adc5cf76719c382a304f358aef560"
+    },
+    {
+      "path": "public/images/homepage/quote-garments-desktop-v1.webp",
+      "sha256": "2116bb3772453a059ee2f6685070198322f5111e03549a59f7a9e5e59a6398e8"
+    },
+    {
+      "path": "scripts/content/prepare-quote-feature-unsplash-review.mjs",
+      "sha256": "ea982d21b77cca89b2d378fcec6c27a3fc0cea2e4694d68feec0bae9fc5bd8a9"
+    }
+  ]
+}
