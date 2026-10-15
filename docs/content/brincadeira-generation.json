@@ -1,6 +1,6 @@
 {
-  "revision": "issue-51-polos-v1",
-  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/51",
+  "revision": "issue-68-catalog-v1",
+  "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/68",
   "collectionId": "collection-002",
   "status": "approved",
   "approvalStatus": "approved",
@@ -535,43 +535,57 @@
     {
       "productId": "product-020",
       "colorwayId": "sky",
-      "collectionId": "collection-002",
       "modelId": "model-008",
-      "photographedSize": 8,
+      "version": 3,
+      "reason": "Clarify the pull-on construction without the isolated photograph's fly-like front stitching; preserve the sky-blue twill and ankle-length legs.",
+      "collectionId": "collection-002",
       "role": "model",
-      "originalPath": "assets/originals/catalog/product-020-sky-model-v1.png",
+      "galleryOrder": 1,
+      "photographedSize": 8,
+      "assignedModelId": "model-008",
+      "originalPath": "assets/originals/catalog-refresh-68/product-020-sky-model-refresh68-v3.png",
+      "webPath": "public/images/catalog-refresh-68/product-020-sky-model-refresh68-v3.webp",
+      "prompt": "Use case: identity-preserve. Image 1 is the approved fictional child identity reference, Noah model-008 age 8. Image 2 is the approved garment and pose reference for product-020 sky, size 8. Create a refined full-body catalog photograph of that exact child wearing those exact sky-blue #A9CCE0 cotton-stretch twill pull-on trousers. Keep the face, wavy dark-brown hair, olive complexion and natural 8-year-old proportions faithful to image 1. Keep the trousers' elastic waist, two side pockets, straight ankle-length legs, matte twill and tonal stitching faithful to image 2. Plain cream T-shirt fully tucked in, cream shoes. Both arms clear of the complete waistband and pockets. The trouser front has two smooth uninterrupted panels meeting at a straight vertical center seam: no curved decorative front stitching, fly, zip, buttons, drawstring, belt loops or cuffs. Soft neutral studio light, opaque white seamless background, natural texture and anatomy. Entire head, shoes and trousers visible with breathing room. Portrait exact 3:4, native at least 1086 x 1448, preferably 1536 x 2048. Single photo, no text, watermark or props. Only the trousers are sold.",
       "referencePaths": [
         "assets/originals/cast/model-008-reference-v1.png",
-        "assets/originals/catalog/product-020-teal-model-v2.png"
+        "assets/originals/catalog/product-020-sky-model-v1.png"
       ],
-      "prompt": "Use case: identity-preserve. product-020-sky-model-v1 model-first catalog photograph, Difratelli Kids Brincadeira de Rua. Input 1 is APPROVED FICTIONAL child identity Noah model-008, age 8: Medium olive skin; brown eyes; long oval face; short dark-brown wavy hair. Preserve exact face, apparent age, hair and child proportions. Input 2 is the same product in the first colorway: preserve garment silhouette and construction; change only the featured garment color to this colorway. Wear photographed size 8 Calça Passos na Rua. Approved garment: Cotton-stretch twill, 190 g/m²; Cotton-stretch twill trousers; elastic waist; two side pockets; straight ankle-length legs; no fly or drawstring. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Azul-céu #A9CCE0. Frontal relaxed full-body pose, arms down clear of garment, no hands in pockets, head and shoes entirely visible. Plain neutral top tucked up enough to show entire waistband and pockets; simple neutral shoes. Featured bottom fully visible. Sparse small print motifs at specified physical scale, no oversized repeat. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly. Critical: supporting plain cream short-sleeve T-shirt neatly tucked INSIDE waistband so the full gathered elastic waistband and both side pockets are visible. Generate a NEW featured bottom per brief, do not keep casting reference shorts. No fly outline, faux-fly stitching, zipper, button, belt loops, drawstring, cargo pockets or extra embellishment. Normal center crotch seam only.",
-      "alt": "Noah usando Calça Passos na Rua na cor Azul-céu, com a peça inteira visível sobre fundo branco.",
-      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-44fc0f5e-91ab-4212-a1db-64d81dc54803.png",
+      "alt": "Noah usando Calça Passos na Rua na cor Azul-céu, com cintura elástica e pernas inteiras visíveis sobre fundo branco.",
       "tool": "built-in image_gen",
-      "originalSha256": "5829aee5756fa18cf3392cc94deb61c58fd4918205e649431f8029a9154b2784",
-      "width": 1086,
-      "height": 1448,
-      "approvalStatus": "approved"
+      "approvalStatus": "approved",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a13f21-4ad6-7be2-b727-e75b65db23f5\\exec-87f6811c-1a62-4725-b748-67ed0e6d9b2d.png",
+      "originalSha256": "1c94012964022f15e41d36c2a161e829174b0286542fcc2b790a08a1cecd48c2",
+      "nativeWidth": 1086,
+      "nativeHeight": 1448,
+      "recordedAtUtc": "2026-10-15T10:49:16.602Z",
+      "approvalSource": "docs/content/catalog-refresh-68/approval.json"
     },
     {
       "productId": "product-020",
       "colorwayId": "sky",
-      "collectionId": "collection-002",
       "modelId": null,
-      "photographedSize": 8,
+      "version": 3,
+      "reason": "Clarify the pull-on construction without the isolated photograph's fly-like front stitching; preserve the sky-blue twill and ankle-length legs.",
+      "collectionId": "collection-002",
       "role": "isolated",
-      "originalPath": "assets/originals/catalog/product-020-sky-isolated-v1.png",
+      "galleryOrder": 2,
+      "photographedSize": 8,
+      "assignedModelId": "model-008",
+      "originalPath": "assets/originals/catalog-refresh-68/product-020-sky-isolated-refresh68-v3.png",
+      "webPath": "public/images/catalog-refresh-68/product-020-sky-isolated-refresh68-v3.webp",
+      "prompt": "Use case: product-mockup. Asset type: product-020 / sky isolated-second catalog photograph, issue #68. The single input is the EXACT SELECTED WORN PHOTOGRAPH generated first for this colorway. Reproduce ONLY its trousers, size 8, without the child, shirt or shoes. Preserve the precise visible garment appearance: Cotton-stretch twill, 190 g/m²; Cotton-stretch twill trousers; elastic waist; two side pockets; straight ankle-length legs; no fly or drawstring. Solid color, no print. Colors: Azul-céu #A9CCE0. Match its waistband gathering, pocket shapes and openings, tonal seams, leg width and ankle length. Frontal clean naturally shaped isolated garment photograph, both legs straight and relaxed, full waistband and both hems visible with breathing room, no hanger or mannequin. Matte twill texture, accurate construction. Pull-on front has only the necessary straight center joining seam. NO curved fly outline or J-shaped decorative stitching, fly flap, zipper, button, belt loops, drawstring or cuffs. Single garment sold individually, no styling pieces. Opaque white seamless background, soft neutral studio lighting, subtle natural shadow, sharp readable details. Native portrait EXACTLY 3:4, preferably 1536 x 2048, at least the accepted native 1086 x 1448. Single photograph, no collage, text, watermark, logos, decorations or props.",
       "referencePaths": [
-        "assets/originals/catalog/product-020-sky-model-v1.png"
+        "assets/originals/catalog-refresh-68/product-020-sky-model-refresh68-v3.png"
       ],
-      "prompt": "Use case: product-mockup. product-020-sky-isolated-v1 catalog isolated photograph. Input image is the EXACT worn photograph; reproduce its featured Calça Passos na Rua without redesign. Extract ONLY the featured garment; exclude all supporting clothes and shoes. Photorealistic front-facing invisible-mannequin presentation, neatly shaped without person, body parts, visible mannequin, hanger, labels or accessories. Preserve precise print motifs, scale, placement, colors, collar, sleeves, seams, hem, waistband, pockets and fabric of reference. Approved garment: Cotton-stretch twill, 190 g/m²; Cotton-stretch twill trousers; elastic waist; two side pockets; straight ankle-length legs; no fly or drawstring. Print: Solid color, no print. Color placement: Apply each colorway as a single solid color over the entire garment, including binding and thread. Finishing: Tonal stitching; no visible logos, slogans, embroidery or extra trim. Keep every silhouette and print consistent across all four sizes and both photograph roles. Contents: One garment sold individually.. Colors: Azul-céu #A9CCE0. Opaque pure white seamless background, soft neutral diffused studio light, natural fabric texture. Exactly 3:4 portrait, native EXACTLY 1086 x 1448 pixels, width 1086 height 1448. Do not return 1087 x 1447 or approximate aspect ratio, preserve entire garment with breathing room. No text, watermark, props, added logos, trim, closures, pockets or features absent from brief. All garment details must match exactly.",
-      "alt": "Calça Passos na Rua na cor Azul-céu, apresentado sem modelo sobre fundo branco.",
-      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a1230f-4aec-7170-8b8c-3959771375da\\exec-a1f12a5b-a710-434d-9b94-c97ae73a9ab4.png",
+      "alt": "Calça Passos na Rua na cor Azul-céu, com cintura elástica, dois bolsos e pernas retas, sem modelo sobre fundo branco.",
       "tool": "built-in image_gen",
-      "originalSha256": "f853448bf124d50a0065d711794e34ce059f203a651d7524aa6f7d65f836444d",
-      "width": 1086,
-      "height": 1448,
-      "approvalStatus": "approved"
+      "approvalStatus": "approved",
+      "sourcePath": "C:\\Users\\bombd\\.codex\\generated_images\\01a13f21-4ad6-7be2-b727-e75b65db23f5\\exec-099e63fe-d98f-4924-8012-7683b2e39a9d.png",
+      "originalSha256": "fe31a6e2f451fcb3f1dcfd57843613dd1fce3b81b6a2e86336c9af3696740048",
+      "nativeWidth": 1086,
+      "nativeHeight": 1448,
+      "recordedAtUtc": "2026-10-15T10:49:59.094Z",
+      "approvalSource": "docs/content/catalog-refresh-68/approval.json"
     }
   ],
   "attempts": [
@@ -781,6 +795,8 @@
   "resolutionAcceptancePath": "docs/content/brincadeira-resolution-acceptance.json",
   "tool": "built-in image_gen",
   "limitations": "No seed, explicit output-size parameter or model revision exposed. Actual native outputs measured individually; no enlargement. Exact prompts and reference paths retained; identical regeneration not guaranteed.",
-  "scope": "Ten products and fourteen colorways, 28 approved active photographs. Prior approval covers 26 unchanged images; the replacement polo pair is approved in docs/content/polo-approval.json.",
-  "previousRevision": "issue-26-brincadeira-v1"
+  "scope": "Ten products, fourteen colorways and 28 approved photographs. Two product-020 / sky photographs accepted for issue #68; 26 retained photographs preserve their prior approvals.",
+  "previousRevision": "issue-51-polos-v1",
+  "photographyApprovalSource": "docs/content/catalog-refresh-68/approval.json",
+  "previousGenerationSnapshot": "docs/content/catalog-refresh-68/before-integration/brincadeira-generation.json"
 }

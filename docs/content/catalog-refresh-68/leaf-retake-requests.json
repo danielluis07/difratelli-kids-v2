@@ -1,0 +1,45 @@
+[
+  {
+    "productId": "product-009",
+    "colorwayId": "leaf",
+    "modelId": "model-007",
+    "version": 6,
+    "reason": "Remove the isolated photograph's previously accepted fly-like line; keep a clearly visible elastic waist and consistent straight legs across both roles.",
+    "collectionId": "collection-001",
+    "role": "model",
+    "galleryOrder": 1,
+    "photographedSize": 6,
+    "assignedModelId": "model-007",
+    "originalPath": "assets/originals/catalog-refresh-68/product-009-leaf-model-refresh68-v6.png",
+    "webPath": "public/images/catalog-refresh-68/product-009-leaf-model-refresh68-v6.webp",
+    "prompt": "Use case: precise-object-edit. Image 1 is the approved fictional identity reference, Theo model-007 age 6; preserve that identity. Image 2 is the edit target, the selected size-6 leaf-green cotton-stretch twill trousers worn by Theo. Make ONE tiny local change in image 2: completely erase the curved J-shaped fly-like stitching next to the straight center-front seam of the green trousers, from the waistband down to the crotch. Replace this curved stitched region with smooth green twill fabric, matching the surrounding texture and lighting. Keep the single STRAIGHT center joining seam. The final trousers must have NO curved line to either side of this seam. Keep EVERYTHING else in image 2 unchanged: face, hair, body, hands, tucked cream shirt, shoes, green color, waistband gathers, side pockets, trouser length, framing, opaque white studio background, neutral lighting. Do not redesign the trousers or generate a new pose. Return the full photograph in the same exact 3:4 portrait frame, at native 1086 x 1448 pixels or larger. No enlargement, text or watermark.",
+    "referencePaths": [
+      "assets/originals/cast/model-007-reference-v1.png",
+      "assets/originals/catalog-refresh-68/rejected/product-009-leaf-model-attempt-2.png"
+    ],
+    "alt": "Theo usando Calça Caminho de Terra na cor Verde-folha, com cintura elástica e pernas inteiras visíveis sobre fundo branco.",
+    "tool": "built-in image_gen",
+    "approvalStatus": "pending-human-review"
+  },
+  {
+    "productId": "product-009",
+    "colorwayId": "leaf",
+    "modelId": null,
+    "version": 6,
+    "reason": "Remove the isolated photograph's previously accepted fly-like line; keep a clearly visible elastic waist and consistent straight legs across both roles.",
+    "collectionId": "collection-001",
+    "role": "isolated",
+    "galleryOrder": 2,
+    "photographedSize": 6,
+    "assignedModelId": "model-007",
+    "originalPath": "assets/originals/catalog-refresh-68/product-009-leaf-isolated-refresh68-v6.png",
+    "webPath": "public/images/catalog-refresh-68/product-009-leaf-isolated-refresh68-v6.webp",
+    "prompt": "Create an isolated product photograph of ONLY the exact leaf-green trousers worn in the reference photograph, product-009 leaf, size 6. Reference is the exact selected worn image generated first. Show the same complete straight-leg ankle-length cotton-stretch twill trousers, elastic gathered waistband and two side pockets, same green color and tonal hems. Frontal, symmetric, centered, entire garment visible with generous white margin, opaque pure-white seamless studio background, soft neutral light, natural matte fine diagonal twill weave. The front comprises two smooth uninterrupted panels meeting at a single straight center vertical seam. There are no decorative curved front seams or curved topstitching. No fly, zipper, buttons, belt loops, cuffs or drawstring. No child, shirt, shoes, hanger, text or watermark. Output a single photograph, native exact portrait 3:4 at 1536 x 2048 or at least 1086 x 1448 pixels.",
+    "referencePaths": [
+      "assets/originals/catalog-refresh-68/product-009-leaf-model-refresh68-v6.png"
+    ],
+    "alt": "Calça Caminho de Terra na cor Verde-folha, com cintura elástica, dois bolsos e pernas retas, sem modelo sobre fundo branco.",
+    "tool": "built-in image_gen",
+    "approvalStatus": "pending-human-review"
+  }
+]

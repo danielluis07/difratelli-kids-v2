@@ -1,0 +1,91 @@
+{
+  "revision": "issue-68-catalog-v1",
+  "approvalStatus": "pending-human-review",
+  "integrated": false,
+  "scope": "2 proposed photographs only; 82 retained photographs keep their existing approvals. No editorial changes.",
+  "assets": [
+    {
+      "id": "product-020-sky-model-refresh68-v3",
+      "productId": "product-020",
+      "collectionId": "collection-002",
+      "colorwayId": "sky",
+      "modelId": "model-008",
+      "assignedModelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "galleryOrder": 1,
+      "originalPath": "assets/originals/catalog-refresh-68/product-020-sky-model-refresh68-v3.png",
+      "originalSha256": "1c94012964022f15e41d36c2a161e829174b0286542fcc2b790a08a1cecd48c2",
+      "webPath": "public/images/catalog-refresh-68/product-020-sky-model-refresh68-v3.webp",
+      "webSha256": "da57089036e5d31b6560b046704f984b3a2690c563522621f5aad7d63e4606df",
+      "originalBytes": 1653734,
+      "webBytes": 55292,
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "approvalStatus": "pending-human-review",
+      "approvalSource": null,
+      "technicalStatus": "passed",
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-008-reference-v1.png",
+          "retainedPath": "assets/originals/cast/model-008-reference-v1.png",
+          "sha256": "84c4c5c21ee85c4271ca2134b09f12bdce3d3bf67ad4324504100ad4e18d4514"
+        },
+        {
+          "inputPath": "assets/originals/catalog/product-020-sky-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-020-sky-model-v1.png",
+          "sha256": "5829aee5756fa18cf3392cc94deb61c58fd4918205e649431f8029a9154b2784"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Noah usando Calça Passos na Rua na cor Azul-céu, com cintura elástica e pernas inteiras visíveis sobre fundo branco.",
+      "replacesAssetId": "product-020-sky-model-v1"
+    },
+    {
+      "id": "product-020-sky-isolated-refresh68-v3",
+      "productId": "product-020",
+      "collectionId": "collection-002",
+      "colorwayId": "sky",
+      "modelId": null,
+      "assignedModelId": "model-008",
+      "photographedSize": 8,
+      "role": "isolated",
+      "galleryOrder": 2,
+      "originalPath": "assets/originals/catalog-refresh-68/product-020-sky-isolated-refresh68-v3.png",
+      "originalSha256": "fe31a6e2f451fcb3f1dcfd57843613dd1fce3b81b6a2e86336c9af3696740048",
+      "webPath": "public/images/catalog-refresh-68/product-020-sky-isolated-refresh68-v3.webp",
+      "webSha256": "8d57c538543bc370ba349fc276bfa74ffdc602c1f2a629348385a30385b1501d",
+      "originalBytes": 1610163,
+      "webBytes": 88766,
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "approvalStatus": "pending-human-review",
+      "approvalSource": null,
+      "technicalStatus": "passed",
+      "references": [
+        {
+          "inputPath": "assets/originals/catalog-refresh-68/product-020-sky-model-refresh68-v3.png",
+          "retainedPath": "assets/originals/catalog-refresh-68/product-020-sky-model-refresh68-v3.png",
+          "sha256": "1c94012964022f15e41d36c2a161e829174b0286542fcc2b790a08a1cecd48c2"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-hover-focus",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Calça Passos na Rua na cor Azul-céu, com cintura elástica, dois bolsos e pernas retas, sem modelo sobre fundo branco.",
+      "replacesAssetId": "product-020-sky-isolated-v1"
+    }
+  ]
+}

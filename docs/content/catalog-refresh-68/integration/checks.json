@@ -1,0 +1,92 @@
+{
+  "revision": "issue-68-catalog-v1",
+  "status": "accepted-and-integrated",
+  "recordedAtUtc": "2026-10-15T11:14:28.442Z",
+  "counts": {
+    "replaced": 2,
+    "retained": 82,
+    "active": 84
+  },
+  "preservation": {
+    "acceptedOriginalAndWebBytes": "unchanged from review",
+    "retainedPhotoBytesAndApprovalSources": "unchanged",
+    "assortment": "unchanged",
+    "editorialSelectorsAssetsCopyAndLayouts": "unchanged",
+    "previousRecords": "retained in before-integration"
+  },
+  "validation": {
+    "lint": "passed",
+    "typecheck": "passed",
+    "contentReadiness": "passed",
+    "productionBuild": "passed; 49 pages",
+    "unit": {
+      "command": "bunx vitest run --maxWorkers=1",
+      "passed": 81,
+      "failed": 0,
+      "note": "Default parallel run timed out in the five-second filesystem readiness test. All cases passed with one worker and the same timeout; no test modifications or skips."
+    },
+    "browser": {
+      "command": "bunx playwright test tests/browser/catalog.spec.ts tests/browser/product.spec.ts --project=chromium --project=mobile-chromium --workers=2",
+      "initial": {
+        "passed": 34,
+        "failed": 2,
+        "reason": "Build origin localhost:3000 differed from test runtime origin 127.0.0.1:3100."
+      },
+      "correction": "Rebuilt with SITE_URL=http://127.0.0.1:3100; no source change.",
+      "targetedRerun": {
+        "command": "bunx playwright test tests/browser/catalog.spec.ts --project=chromium --project=mobile-chromium --workers=2 --grep unknown destinations recover",
+        "passed": 2,
+        "failed": 0
+      },
+      "uniqueCasesPassed": 36
+    },
+    "integratedCandidateBrowsers": {
+      "widths": [
+        390,
+        768,
+        1440
+      ],
+      "status": "passed",
+      "mode": "production build, actual accepted URLs and Portuguese alt text, no image substitution"
+    },
+    "preservationScript": "passed",
+    "diffWhitespaceCheck": "passed"
+  },
+  "files": [
+    {
+      "path": "docs/content/catalog-refresh-68/approval.json",
+      "bytes": 44953,
+      "sha256": "95e278f51470853edfdae29a96cfb3afc4878d7de84fccba1c5746e6e3992c58"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/status.md",
+      "bytes": 5145,
+      "sha256": "d39754122407593ebbc61fe0e03c1054f49f8456946f91f8692c4c69eced2ef9"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/integration/browser-checks.json",
+      "bytes": 8595,
+      "sha256": "8cf1b452a126276acd2236db1f1a3dd8180c671da925fdbda7d792e2cafecb48"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/../brincadeira-manifest.json",
+      "bytes": 44961,
+      "sha256": "01ad6e8f4e5d891b1bf3544a353c2a9493c28503dae60765edf01a3e234e8efa"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/../brincadeira-generation.json",
+      "bytes": 96372,
+      "sha256": "a197286ca0300c3d67729cfe0e9e60eb0941fdd3fd3b44282d2f0567fe387ede"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/../package-manifest.json",
+      "bytes": 465128,
+      "sha256": "b4733a6dd0ce496b22387a7911608a7b360e0b78dd631dd0af32ad77ad4cc011"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/../package-approval.json",
+      "bytes": 1652,
+      "sha256": "83a9a3a60aee388a0d34780aefbc3ba45cf4375328732aee74f2fc00fe5e0b6d"
+    }
+  ]
+}

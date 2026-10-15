@@ -12,6 +12,8 @@ docs/content/hero-color-refresh-review.md -text
 scripts/content/prepare-hero-color-refresh.mjs -text
 # Historical approval snapshots must retain their exact source bytes too.
 docs/content/catalog-revisions/** -text whitespace=cr-at-eol
+# Catalog photograph acceptance and retained snapshots bind exact review bytes.
+docs/content/catalog-refresh-68/** -text whitespace=cr-at-eol
 # Identity approval records also bind the original font/license bytes.
 assets/identity/fonts/* -text
 # Preserve upstream license formatting verbatim.
