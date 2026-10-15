@@ -1,0 +1,45 @@
+[
+  {
+    "productId": "product-029",
+    "colorwayId": "teal",
+    "modelId": "model-007",
+    "version": 2,
+    "reason": "Show the complete elastic waist without the partly overlapping shirt and replace the isolated photograph's previously accepted residual fly-like outline.",
+    "collectionId": "collection-003",
+    "role": "model",
+    "galleryOrder": 1,
+    "photographedSize": 6,
+    "assignedModelId": "model-007",
+    "originalPath": "assets/originals/catalog-refresh-68/product-029-teal-model-refresh68-v2.png",
+    "webPath": "public/images/catalog-refresh-68/product-029-teal-model-refresh68-v2.webp",
+    "prompt": "Use case: precise-object-edit. Image 1 is the approved fictional identity reference, Theo model-007 age 6; preserve that identity. Image 2 is the edit target, the selected size-6 teal cotton-stretch twill trousers worn by Theo. Make ONE tiny local change in image 2: completely erase the curved J-shaped fly-like stitching next to the straight center-front seam of the teal trousers, from the waistband down to the crotch. Replace this curved stitched region with smooth teal twill fabric, matching the surrounding texture and lighting. Keep the single STRAIGHT center joining seam. The final trousers must have NO curved line to either side of this seam. Keep EVERYTHING else in image 2 unchanged: face, hair, body, hands, fully tucked cream shirt, shoes, teal #246B63 color, waistband gathers, side pockets, trouser length, framing, opaque white studio background, neutral lighting. Do not redesign the trousers or generate a new pose. Return the full photograph in the same exact 3:4 portrait frame, at native 1086 x 1448 pixels or larger. No enlargement, text or watermark.",
+    "referencePaths": [
+      "assets/originals/cast/model-007-reference-v1.png",
+      "assets/originals/catalog-refresh-68/rejected/product-029-teal-model-attempt-8.png"
+    ],
+    "alt": "Theo usando Calça Cantinho de Ideias na cor Verde-petróleo, com cintura elástica e pernas inteiras visíveis sobre fundo branco.",
+    "tool": "built-in image_gen",
+    "approvalStatus": "pending-human-review"
+  },
+  {
+    "productId": "product-029",
+    "colorwayId": "teal",
+    "modelId": null,
+    "version": 2,
+    "reason": "Show the complete elastic waist without the partly overlapping shirt and replace the isolated photograph's previously accepted residual fly-like outline.",
+    "collectionId": "collection-003",
+    "role": "isolated",
+    "galleryOrder": 2,
+    "photographedSize": 6,
+    "assignedModelId": "model-007",
+    "originalPath": "assets/originals/catalog-refresh-68/product-029-teal-isolated-refresh68-v2.png",
+    "webPath": "public/images/catalog-refresh-68/product-029-teal-isolated-refresh68-v2.webp",
+    "prompt": "Use case: product-mockup. Asset type: product-029 / teal isolated-second catalog photograph, issue #68. The single input is the EXACT SELECTED WORN PHOTOGRAPH generated first for this colorway. Reproduce ONLY its trousers, size 6, without the child, shirt or shoes. Preserve the precise visible garment appearance: Cotton-stretch twill, 190 g/m²; Cotton-stretch twill trousers; elastic waist; two side pockets; straight ankle-length legs; no fly or drawstring. Solid color, no print. Colors: Verde-petróleo #246B63. Match its waistband gathering, pocket shapes and openings, tonal seams, leg width and ankle length. Frontal clean naturally shaped isolated garment photograph, both legs straight and relaxed, full waistband and both hems visible with breathing room, no hanger or mannequin. Matte twill texture, accurate construction. Pull-on front has only the necessary straight center joining seam. NO curved fly outline or J-shaped decorative stitching, fly flap, zipper, button, belt loops, drawstring or cuffs. Single garment sold individually, no styling pieces. Opaque white seamless background, soft neutral studio lighting, subtle natural shadow, sharp readable details. Native portrait EXACTLY 3:4, preferably 1536 x 2048, at least the accepted native 1086 x 1448. Single photograph, no collage, text, watermark, logos, decorations or props.",
+    "referencePaths": [
+      "assets/originals/catalog-refresh-68/product-029-teal-model-refresh68-v2.png"
+    ],
+    "alt": "Calça Cantinho de Ideias na cor Verde-petróleo, com cintura elástica, dois bolsos e pernas retas, sem modelo sobre fundo branco.",
+    "tool": "built-in image_gen",
+    "approvalStatus": "pending-human-review"
+  }
+]

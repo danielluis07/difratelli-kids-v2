@@ -8,6 +8,10 @@ const readJson = async (path) => JSON.parse(await readFile(path, "utf8"));
 const hash = (bytes) => createHash("sha256").update(bytes).digest("hex");
 const fail = (message) => { throw new Error(message); };
 const generation = await readJson("docs/content/brincadeira-generation.json");
+if (generation.revision === "issue-68-catalog-v1") {
+  await import("./integrate-catalog-refresh-68.mjs");
+  process.exit(0);
+}
 if (generation.revision === "issue-51-polos-v1") {
   await import("./prepare-polos.mjs");
   process.exit(0);

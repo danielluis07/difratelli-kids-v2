@@ -1,0 +1,232 @@
+{
+  "revision": "issue-68-catalog-v1",
+  "recordedAtUtc": "2026-10-15T10:58:20.426Z",
+  "status": "passed",
+  "mode": "pre-integration browser-only network substitution; source URLs and alt text remain current approved metadata",
+  "baseURL": "http://127.0.0.1:3200",
+  "browser": "Chromium",
+  "deviceScaleFactor": 1,
+  "results": [
+    {
+      "width": 390,
+      "productId": "product-020",
+      "colorwayId": "sky",
+      "status": "passed",
+      "cardSources": [
+        {
+          "src": "http://127.0.0.1:3200/_next/image?url=%2Fimages%2Fcatalog%2Fproduct-020-sky-model-v1.webp&w=256&q=75",
+          "naturalWidth": 171,
+          "sizes": "(max-width: 767px) calc((100vw - 48px) / 2), (max-width: 1023px) calc((100vw - 112px) / 3), (max-width: 1440px) calc((100vw - 168px) / 4), 318px"
+        },
+        {
+          "src": "http://127.0.0.1:3200/_next/image?url=%2Fimages%2Fcatalog%2Fproduct-020-sky-isolated-v1.webp&w=256&q=75",
+          "naturalWidth": 171,
+          "sizes": "(max-width: 767px) calc((100vw - 48px) / 2), (max-width: 1023px) calc((100vw - 112px) / 3), (max-width: 1440px) calc((100vw - 168px) / 4), 318px"
+        }
+      ],
+      "enlargementSource": {
+        "src": "http://127.0.0.1:3200/_next/image?url=%2Fimages%2Fcatalog%2Fproduct-020-sky-isolated-v1.webp&w=384&q=75",
+        "naturalWidth": 358
+      },
+      "checks": [
+        "42-colorway comparison review without horizontal overflow",
+        "real card alongside retained photographs",
+        "candidate image loading through responsive optimizer",
+        "touch retains model; keyboard focus reveals isolation",
+        "model-first gallery",
+        "isolated-second gallery",
+        "thumbnail selection and previous/next controls",
+        "enlargement",
+        "retained colorway navigation and gallery reset"
+      ]
+    },
+    {
+      "width": 768,
+      "productId": "product-020",
+      "colorwayId": "sky",
+      "status": "passed",
+      "cardSources": [
+        {
+          "src": "http://127.0.0.1:3200/_next/image?url=%2Fimages%2Fcatalog%2Fproduct-020-sky-model-v1.webp&w=256&q=75",
+          "naturalWidth": 218,
+          "sizes": "(max-width: 767px) calc((100vw - 48px) / 2), (max-width: 1023px) calc((100vw - 112px) / 3), (max-width: 1440px) calc((100vw - 168px) / 4), 318px"
+        },
+        {
+          "src": "http://127.0.0.1:3200/_next/image?url=%2Fimages%2Fcatalog%2Fproduct-020-sky-isolated-v1.webp&w=256&q=75",
+          "naturalWidth": 218,
+          "sizes": "(max-width: 767px) calc((100vw - 48px) / 2), (max-width: 1023px) calc((100vw - 112px) / 3), (max-width: 1440px) calc((100vw - 168px) / 4), 318px"
+        }
+      ],
+      "enlargementSource": {
+        "src": "http://127.0.0.1:3200/_next/image?url=%2Fimages%2Fcatalog%2Fproduct-020-sky-isolated-v1.webp&w=750&q=75",
+        "naturalWidth": 736
+      },
+      "checks": [
+        "42-colorway comparison review without horizontal overflow",
+        "real card alongside retained photographs",
+        "candidate image loading through responsive optimizer",
+        "card keyboard focus and pointer hover reveal isolation",
+        "model-first gallery",
+        "isolated-second gallery",
+        "thumbnail selection and previous/next controls",
+        "enlargement",
+        "retained colorway navigation and gallery reset"
+      ]
+    },
+    {
+      "width": 1440,
+      "productId": "product-020",
+      "colorwayId": "sky",
+      "status": "passed",
+      "cardSources": [
+        {
+          "src": "http://127.0.0.1:3200/_next/image?url=%2Fimages%2Fcatalog%2Fproduct-020-sky-model-v1.webp&w=384&q=75",
+          "naturalWidth": 318,
+          "sizes": "(max-width: 767px) calc((100vw - 48px) / 2), (max-width: 1023px) calc((100vw - 112px) / 3), (max-width: 1440px) calc((100vw - 168px) / 4), 318px"
+        },
+        {
+          "src": "http://127.0.0.1:3200/_next/image?url=%2Fimages%2Fcatalog%2Fproduct-020-sky-isolated-v1.webp&w=384&q=75",
+          "naturalWidth": 318,
+          "sizes": "(max-width: 767px) calc((100vw - 48px) / 2), (max-width: 1023px) calc((100vw - 112px) / 3), (max-width: 1440px) calc((100vw - 168px) / 4), 318px"
+        }
+      ],
+      "enlargementSource": {
+        "src": "http://127.0.0.1:3200/_next/image?url=%2Fimages%2Fcatalog%2Fproduct-020-sky-isolated-v1.webp&w=1080&q=75",
+        "naturalWidth": 900
+      },
+      "checks": [
+        "42-colorway comparison review without horizontal overflow",
+        "real card alongside retained photographs",
+        "candidate image loading through responsive optimizer",
+        "card keyboard focus and pointer hover reveal isolation",
+        "model-first gallery",
+        "isolated-second gallery",
+        "thumbnail selection and previous/next controls",
+        "enlargement",
+        "retained colorway navigation and gallery reset"
+      ]
+    }
+  ],
+  "substitutedRequests": [
+    {
+      "viewport": 390,
+      "previousUrl": "/images/catalog/product-020-sky-model-v1.webp",
+      "substitutedPath": "public/images/catalog-refresh-68/product-020-sky-model-refresh68-v3.webp",
+      "requestedWidth": 256,
+      "status": 200
+    },
+    {
+      "viewport": 390,
+      "previousUrl": "/images/catalog/product-020-sky-isolated-v1.webp",
+      "substitutedPath": "public/images/catalog-refresh-68/product-020-sky-isolated-refresh68-v3.webp",
+      "requestedWidth": 256,
+      "status": 200
+    },
+    {
+      "viewport": 390,
+      "previousUrl": "/images/catalog/product-020-sky-model-v1.webp",
+      "substitutedPath": "public/images/catalog-refresh-68/product-020-sky-model-refresh68-v3.webp",
+      "requestedWidth": 384,
+      "status": 200
+    },
+    {
+      "viewport": 390,
+      "previousUrl": "/images/catalog/product-020-sky-isolated-v1.webp",
+      "substitutedPath": "public/images/catalog-refresh-68/product-020-sky-isolated-refresh68-v3.webp",
+      "requestedWidth": 96,
+      "status": 200
+    },
+    {
+      "viewport": 390,
+      "previousUrl": "/images/catalog/product-020-sky-isolated-v1.webp",
+      "substitutedPath": "public/images/catalog-refresh-68/product-020-sky-isolated-refresh68-v3.webp",
+      "requestedWidth": 384,
+      "status": 200
+    },
+    {
+      "viewport": 768,
+      "previousUrl": "/images/catalog/product-020-sky-model-v1.webp",
+      "substitutedPath": "public/images/catalog-refresh-68/product-020-sky-model-refresh68-v3.webp",
+      "requestedWidth": 256,
+      "status": 200
+    },
+    {
+      "viewport": 768,
+      "previousUrl": "/images/catalog/product-020-sky-isolated-v1.webp",
+      "substitutedPath": "public/images/catalog-refresh-68/product-020-sky-isolated-refresh68-v3.webp",
+      "requestedWidth": 256,
+      "status": 200
+    },
+    {
+      "viewport": 768,
+      "previousUrl": "/images/catalog/product-020-sky-model-v1.webp",
+      "substitutedPath": "public/images/catalog-refresh-68/product-020-sky-model-refresh68-v3.webp",
+      "requestedWidth": 384,
+      "status": 200
+    },
+    {
+      "viewport": 768,
+      "previousUrl": "/images/catalog/product-020-sky-isolated-v1.webp",
+      "substitutedPath": "public/images/catalog-refresh-68/product-020-sky-isolated-refresh68-v3.webp",
+      "requestedWidth": 96,
+      "status": 200
+    },
+    {
+      "viewport": 768,
+      "previousUrl": "/images/catalog/product-020-sky-isolated-v1.webp",
+      "substitutedPath": "public/images/catalog-refresh-68/product-020-sky-isolated-refresh68-v3.webp",
+      "requestedWidth": 384,
+      "status": 200
+    },
+    {
+      "viewport": 768,
+      "previousUrl": "/images/catalog/product-020-sky-isolated-v1.webp",
+      "substitutedPath": "public/images/catalog-refresh-68/product-020-sky-isolated-refresh68-v3.webp",
+      "requestedWidth": 750,
+      "status": 200
+    },
+    {
+      "viewport": 1440,
+      "previousUrl": "/images/catalog/product-020-sky-isolated-v1.webp",
+      "substitutedPath": "public/images/catalog-refresh-68/product-020-sky-isolated-refresh68-v3.webp",
+      "requestedWidth": 384,
+      "status": 200
+    },
+    {
+      "viewport": 1440,
+      "previousUrl": "/images/catalog/product-020-sky-model-v1.webp",
+      "substitutedPath": "public/images/catalog-refresh-68/product-020-sky-model-refresh68-v3.webp",
+      "requestedWidth": 384,
+      "status": 200
+    },
+    {
+      "viewport": 1440,
+      "previousUrl": "/images/catalog/product-020-sky-model-v1.webp",
+      "substitutedPath": "public/images/catalog-refresh-68/product-020-sky-model-refresh68-v3.webp",
+      "requestedWidth": 640,
+      "status": 200
+    },
+    {
+      "viewport": 1440,
+      "previousUrl": "/images/catalog/product-020-sky-isolated-v1.webp",
+      "substitutedPath": "public/images/catalog-refresh-68/product-020-sky-isolated-refresh68-v3.webp",
+      "requestedWidth": 96,
+      "status": 200
+    },
+    {
+      "viewport": 1440,
+      "previousUrl": "/images/catalog/product-020-sky-isolated-v1.webp",
+      "substitutedPath": "public/images/catalog-refresh-68/product-020-sky-isolated-refresh68-v3.webp",
+      "requestedWidth": 640,
+      "status": 200
+    },
+    {
+      "viewport": 1440,
+      "previousUrl": "/images/catalog/product-020-sky-isolated-v1.webp",
+      "substitutedPath": "public/images/catalog-refresh-68/product-020-sky-isolated-refresh68-v3.webp",
+      "requestedWidth": 1080,
+      "status": 200
+    }
+  ],
+  "pageErrors": []
+}

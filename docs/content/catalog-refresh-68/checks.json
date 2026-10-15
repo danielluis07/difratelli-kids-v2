@@ -1,0 +1,152 @@
+{
+  "revision": "issue-68-catalog-v1",
+  "recordedAtUtc": "2026-10-15T10:59:47.976Z",
+  "technicalStatus": "passed",
+  "humanAcceptance": "pending-human-review",
+  "integrated": false,
+  "checks": {
+    "lint": "passed",
+    "typecheck": "passed",
+    "currentContentReadiness": "passed",
+    "candidatePreparation": "passed",
+    "preIntegrationBrowserReview": "passed",
+    "protectedTrackedFiles": 818
+  },
+  "files": [
+    {
+      "path": "docs/content/catalog-refresh-68/approval-request.json",
+      "bytes": 44530,
+      "sha256": "525f618ad48a9c0ad37a374aadb70f51c6b776faaa1956d08609feb2ba118a34"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/audit.json",
+      "bytes": 185648,
+      "sha256": "8bfc2706c644709b1d285791dedea72c7383f807ed7b27b1c3ffd606479645b3"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/baseline.json",
+      "bytes": 133006,
+      "sha256": "fc8fd8bc820277a5e84e690e747a5a622d2e9c07d48f712970299ffd4a8d74e9"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/browser-checks.json",
+      "bytes": 9316,
+      "sha256": "b06188e5c261048b68b40c1e860026c1f4b9c2b2787cd64a048bf575f852e53f"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/card-focus-1440.png",
+      "bytes": 62233,
+      "sha256": "5eb6e7800d1ee128f14b5e47c474eb57c28488147b5cbb01ce56ea4465da7528"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/card-focus-390.png",
+      "bytes": 26917,
+      "sha256": "f3a830184d8da87247fc0706e49f06c43211508d1988f0a790ecb381aaefdaa2"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/card-focus-768.png",
+      "bytes": 36597,
+      "sha256": "c6fc106b99bc3499a223a5b9616b21711fd4f0b9d4e605772917ce38e420f8f4"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/cards-1440.png",
+      "bytes": 253117,
+      "sha256": "2a87683deeb58225c8c0cd30b0ac4a40523eda771ff69fdfd50ed4115713f6ea"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/cards-390.png",
+      "bytes": 113672,
+      "sha256": "c1ac69112695d0b5546d36fa91901a2e7408a1fb47d962a5027f877e2158c421"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/cards-768.png",
+      "bytes": 157079,
+      "sha256": "eb798f47fe5913b50cd7af05334c00a4765615faa20555e0019167c8e7266bbc"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/comparison-1440.png",
+      "bytes": 403793,
+      "sha256": "2756cb6cddfe36d9dd7771d7ec38bb1ffa74f1644d73cec4af68a2ad2a6942bf"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/comparison-390.png",
+      "bytes": 161387,
+      "sha256": "9360c5937952d1f55ae56e19da551d2e4214a4c7e93d17d83f15240c06f0b835"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/comparison-768.png",
+      "bytes": 153455,
+      "sha256": "78351df419159bfda6045c497743d633bffa541fa45491055a677493007d0aa0"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/contact-sheet.webp",
+      "bytes": 32286,
+      "sha256": "c11add0d9fec32d0e1b79532b95cee6536c0ace65ce206c2c9f898e0fd021253"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/gallery-isolated-1440.png",
+      "bytes": 156320,
+      "sha256": "b0aabf4662fd3ac2f706cb6854e8a9a6f745e87579ecdca8d0e2b903459d1dfe"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/gallery-isolated-390.png",
+      "bytes": 86226,
+      "sha256": "d2f4ec7425881f46ec0db98dd244bf0e8da56b27c91a2b48244447980668da18"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/gallery-isolated-768.png",
+      "bytes": 80683,
+      "sha256": "6d39d7d6b0ab00a832a7957864539aee16d46fa129a0c6cb1a48a054a804dc6d"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/gallery-model-1440.png",
+      "bytes": 161592,
+      "sha256": "b1cbf961374de3909dc19bf9d01b718f6b4b36157085d693d0d91dbdca1972f9"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/gallery-model-390.png",
+      "bytes": 92776,
+      "sha256": "e9823f4239b966bd7b7b9dd716f697baf707c0b4b822eec1645f75d4ae5dd11b"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/gallery-model-768.png",
+      "bytes": 85570,
+      "sha256": "253e548c66ea137ae1f4edcf7c7a01c03beb191f1f9f99edd63f3e0ffa64b2e7"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/generation.json",
+      "bytes": 34330,
+      "sha256": "153235edc5ebb3d9200a70a9d020a89d82c2dadb1aef8abb91c2b3d640001d8b"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/leaf-retake-requests.json",
+      "bytes": 4008,
+      "sha256": "9789e8e5cc9330c74d43f26e2140c5bed8cfe3c2d6386d3f09304a2135b2928c"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/manifest.json",
+      "bytes": 3698,
+      "sha256": "bd0344e229a8ef3138e2bac57f1bda444f8eeb07ac8ae4d7d8d0cb8d76cc305a"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/requests.json",
+      "bytes": 4854,
+      "sha256": "4b0e0ffc8d81299857204c50d84a1e1d9e0829d8dc0e3ef86c2b0052677cc116"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/review.html",
+      "bytes": 45824,
+      "sha256": "b0ce5c1b401e3b44d6a59f18e8f70ae84663e4c2e6cd7c2d47d5916d06a44f7c"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/review.md",
+      "bytes": 9278,
+      "sha256": "a289dd9dd46ac2617136b2a0bfb3935d859e90ddde41f5a210f3652f3ee2b6d3"
+    },
+    {
+      "path": "docs/content/catalog-refresh-68/teal-retake-requests.json",
+      "bytes": 4455,
+      "sha256": "8953d1811fa08a3c6eee0258a1b6ef86aa905e87688d65a9af0ad37db3f6bd3c"
+    }
+  ]
+}
