@@ -1,7 +1,7 @@
 import { expect, test } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 import { catalog } from "../../lib/catalog";
-import homepage from "../../docs/content/homepage-copy-proposal.json";
+import { homeCopy as homepage } from "../../lib/presentation/home-copy";
 import heroIntegration from "../../docs/content/hero-color-refresh-integration.json";
 import homepageImagery from "../../docs/content/homepage-unsplash-manifest.json";
 
@@ -156,12 +156,12 @@ test("announcement rotates, pauses and obeys reduced motion; details navigate", 
   await bar.getByRole("button", { name: "Próxima mensagem" }).click();
   await expect(bar.locator("p")).toContainText(homepage.announcement[2].text);
   await bar.getByRole("button", { name: "Mensagem anterior" }).click();
-  await expect(bar.getByRole("link", { name: "Detalhes" })).toHaveAttribute("href", "/novidades");
+  await expect(bar.getByRole("link", { name: homepage.announcement[1].details.label })).toHaveAttribute("href", "/novidades");
   await page.emulateMedia({ reducedMotion: "reduce" });
   await expect(bar.getByRole("button", { name: "Retomar mensagens" })).toBeDisabled();
   await page.clock.fastForward(13000);
   await expect(bar.locator("p")).toContainText(homepage.announcement[1].text);
-  await bar.getByRole("link", { name: "Detalhes" }).click();
+  await bar.getByRole("link", { name: homepage.announcement[1].details.label }).click();
   await expect(page).toHaveURL(/\/novidades$/);
 });
 

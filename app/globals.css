@@ -83,6 +83,21 @@
 }
 
 @layer base {
+  * { scrollbar-color: var(--muted-foreground) var(--secondary); }
+  /* Use native sizing so the page scrollbar remains easy to grab. */
+  @supports selector(::-webkit-scrollbar) {
+    * { scrollbar-color: auto; }
+    ::-webkit-scrollbar { width: 12px; height: 12px; }
+    ::-webkit-scrollbar-track { background: var(--secondary); }
+    ::-webkit-scrollbar-thumb { background: var(--muted-foreground); border: 3px solid var(--secondary); border-radius: 999px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--foreground); }
+    ::-webkit-scrollbar-corner { background: var(--secondary); }
+  }
+  @media (forced-colors: active) {
+    * { scrollbar-color: auto; }
+    ::-webkit-scrollbar-track, ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-corner { background: revert; }
+    ::-webkit-scrollbar-thumb { border: revert; }
+  }
   body { font-size: 16px; line-height: 1.5; }
   h1, h2, h3 { font-family: var(--font-editorial), serif; font-weight: 500; }
   h1 { font-size: 36px; line-height: 1.15; text-wrap: balance; }
@@ -357,7 +372,7 @@
 .carousel-view-all { display: flex; justify-content: center; width: fit-content; margin: 20px auto 0; }
 .carousel { --carousel-gap: 16px; --carousel-padding: 16px; --carousel-card: 70%; min-width: 0; }
 .carousel-controls { display: flex; justify-content: flex-end; gap: 8px; padding-inline: var(--carousel-padding); margin-bottom: 12px; }
-.carousel-track { position: relative; display: grid; grid-auto-flow: column; grid-auto-columns: var(--carousel-card); gap: var(--carousel-gap); overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scroll-padding-inline: var(--carousel-padding); padding: 4px var(--carousel-padding) 12px; list-style: none; scrollbar-width: thin; }
+.carousel-track { position: relative; display: grid; grid-auto-flow: column; grid-auto-columns: var(--carousel-card); gap: var(--carousel-gap); overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scroll-padding-inline: var(--carousel-padding); padding: 4px var(--carousel-padding) 12px; list-style: none; }
 .carousel-track > li { min-width: 0; scroll-snap-align: start; }
 .carousel-track:focus-visible { outline-offset: -2px; }
 .carousel-products .carousel-track { --carousel-card: 70%; }
@@ -375,8 +390,7 @@
 .editorial-background img { width: 100%; height: auto; }
 .editorial-overlay { padding: 32px 24px 48px; }
 .editorial-overlay > p:not(.editorial-eyebrow) { margin-block: 20px; max-width: 48ch; }
-.quote-editorial blockquote p { font: 40px/1.1 var(--font-editorial), serif; max-width: 12ch; }
-.quote-editorial blockquote footer { margin-top: 20px; font-size: 14px; }
+.quote-editorial h2 { font: 40px/1.1 var(--font-editorial), serif; max-width: 12ch; }
 .collection-editorial h2 { font-size: 36px; font-weight: 650; line-height: 1.1; margin-top: 20px; max-width: 12ch; }
 .editorial-action { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 12px 24px; background: var(--primary); color: var(--primary-foreground); margin-top: 8px; }
 .editorial-action:hover { background: color-mix(in srgb, var(--primary), black 15%); }
@@ -433,7 +447,7 @@
   .editorial-background { grid-area: 1 / 1; aspect-ratio: 16 / 9; }
   .editorial-background picture { display: block; }
   .editorial-overlay { grid-area: 1 / 1; z-index: 1; align-self: center; width: 42%; padding: 32px; }
-  .quote-editorial blockquote p { font-size: clamp(40px, 4vw, 76px); }
+  .quote-editorial h2 { font-size: clamp(40px, 4vw, 76px); }
   .collection-editorial .editorial-overlay { justify-self: end; width: 39%; }
   .collection-editorial h2 { font-size: clamp(36px, 3vw, 60px); }
   .look-products { padding-inline: 32px; gap: 32px 24px; }

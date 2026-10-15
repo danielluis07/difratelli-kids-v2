@@ -1,10 +1,8 @@
 import homepageManifest from "@/docs/content/homepage-manifest.json";
-import homepageCopy from "@/docs/content/homepage-copy-proposal.json";
-import heroIntegration from "@/docs/content/hero-color-refresh-integration.json";
 import homepageImagery from "@/docs/content/homepage-unsplash-manifest.json";
 import { editorial } from "@/lib/catalog";
 
-export const homeCopy = { ...homepageCopy, hero: { ...homepageCopy.hero, actions: heroIntegration.heroActions } };
+export { homeCopy } from "./home-copy";
 export type EditorialPhoto = { src: string; width: number; height: number; alt: string };
 export function homepagePhoto(id: string, cropName?: string): EditorialPhoto {
   const replacement = homepageImagery.assets.find(a => a.slotIds.includes(id));

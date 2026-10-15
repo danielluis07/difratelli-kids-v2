@@ -5,7 +5,7 @@ test("serves approved Portuguese copy, metadata and an accessible public shell",
   const errors: string[] = [];
   page.on("pageerror", (error) => errors.push(error.message));
   await page.goto("/");
-  await expect(page.getByRole("heading", { level: 1 })).toHaveText("Um dia inteiro para brincar");
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText("Estilo para todos os dias");
   await expect(page).toHaveTitle("Difratelli Kids | Roupas para brincar");
   await expect(page.locator("html")).toHaveAttribute("lang", "pt-BR");
   await expect(page.locator('meta[name="robots"]')).toHaveAttribute("content", "noindex, nofollow");

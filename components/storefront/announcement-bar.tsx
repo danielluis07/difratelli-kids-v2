@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState, useSyncExternalStore } from "react";
 import { ChevronLeft, ChevronRight, Pause, Play } from "lucide-react";
-import copy from "@/docs/content/homepage-copy-proposal.json";
+import { homeCopy as copy } from "@/lib/presentation/home-copy";
 
 function subscribeMotion(callback: () => void) {
   const query = matchMedia("(prefers-reduced-motion: reduce)");

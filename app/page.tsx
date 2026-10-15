@@ -12,7 +12,7 @@ function ProductCarousel({ heading, products, href, id }: { heading: string; pro
   return <section className="home-section" aria-labelledby={id} data-home-section={id}>
     <h2 id={id} className="editorial-heading">{heading}</h2>
     <Carousel label={heading}>{products.map(product => <ProductCard key={product.id} product={productCard(product)} sizes={carouselSizes} headingLevel={3} />)}</Carousel>
-    <Link className="editorial-text-link carousel-view-all" href={href}>{homeCopy.newArrivals.viewAll.label}</Link>
+    <Link className="editorial-text-link carousel-view-all" href={href}>{id === "new-arrivals" ? homeCopy.newArrivals.viewAll.label : homeCopy.secondCarousel.viewAll.label}</Link>
   </section>;
 }
 
@@ -38,9 +38,9 @@ export default function Home() {
       <section className="category-section" aria-label={homeCopy.categories.heading} data-home-section="categories">
         <Carousel kind="categories" label={homeCopy.categories.heading}>{catalog.categories.map(category => <li key={category.id} className="category-tile"><Link href={`/produtos?categoria=${category.id}`}><div className="category-photo"><EditorialPicture photo={homepagePhoto(`category-${category.id}`)} sizes="(min-width:1024px) 30vw, (min-width:768px) 42vw, 75vw" /></div><span>{category.name}</span></Link></li>)}</Carousel>
       </section>
-      <section className="home-editorial quote-editorial" data-home-section="quote" aria-label={homeCopy.quote.text}>
+      <section className="home-editorial quote-editorial" data-home-section="quote" aria-labelledby="dresses-heading">
         <div className="editorial-background"><EditorialPicture photo={homepagePhoto("quote-garments", "desktop")} variants={[{ media: "(max-width:767px)", photo: homepagePhoto("quote-garments", "compact") }]} /></div>
-        <div className="editorial-overlay"><blockquote><p>“{homeCopy.quote.text}”</p><footer>{homeCopy.quote.attribution}</footer></blockquote><p>{homeCopy.quote.body}</p><Link className="editorial-text-link" href={homeCopy.quote.action.href}>{homeCopy.quote.action.label}</Link></div>
+        <div className="editorial-overlay"><h2 id="dresses-heading">{homeCopy.quote.heading}</h2><p>{homeCopy.quote.body}</p><Link className="editorial-text-link" href={homeCopy.quote.action.href}>{homeCopy.quote.action.label}</Link></div>
       </section>
       <section className="home-editorial collection-editorial" data-home-section="collection-feature" aria-labelledby="collection-feature-heading">
         <div className="editorial-background"><EditorialPicture photo={homepagePhoto("editorial-quintal", "desktop")} variants={[{ media: "(max-width:767px)", photo: homepagePhoto("editorial-quintal", "compact") }]} /></div>
