@@ -1,5 +1,5 @@
 {
-  "revision": "issue-27-imaginacao-v1",
+  "revision": "catalog-pose-variants-v1-imaginacao",
   "collectionId": "collection-003",
   "technicalStatus": "passed",
   "approvalStatus": "approved",
@@ -241,7 +241,7 @@
       "alt": "Blusa Traços de Imaginação na cor Creme, lilás suave, pêssego, apresentado sem modelo sobre fundo branco."
     },
     {
-      "id": "product-024-peach-teal-cream-model-v1",
+      "id": "product-024-peach-gentle-turn-v1",
       "productId": "product-024",
       "collectionId": "collection-003",
       "colorwayId": "peach-teal-cream",
@@ -250,23 +250,28 @@
       "role": "model",
       "galleryOrder": 1,
       "approvalStatus": "approved",
-      "approvalSource": "docs/content/imaginacao-approval.json",
+      "approvalSource": "docs/content/catalog-pose-variants/approval.json",
       "technicalStatus": "passed",
-      "originalPath": "assets/originals/catalog/product-024-peach-teal-cream-model-v1.png",
-      "originalSha256": "8fb711c8b9ee5efcdc09fd4dedcbe20b0775313927252ea298436ba9c482f5bc",
-      "webPath": "public/images/catalog/product-024-peach-teal-cream-model-v1.webp",
-      "webSha256": "6f105f19e0d157bb7d51665bd231fca0d85fa4bf915a068c0c9766840a11ba70",
+      "originalPath": "assets/originals/catalog-pose-variants/product-024-peach-gentle-turn-v1.png",
+      "originalSha256": "7677194524f47687d779b9d126399a5b89dc205978c724660e51e8e0a22122ab",
+      "webPath": "public/images/catalog-pose-variants/product-024-peach-gentle-turn-v1.webp",
+      "webSha256": "a6cad210a596a7f24d4eae713986466c6232f45abd83c76b2956344b92772118",
       "width": 1086,
       "height": 1448,
       "webWidth": 1086,
       "webHeight": 1448,
-      "originalBytes": 1718153,
-      "webBytes": 77998,
+      "originalBytes": 1593684,
+      "webBytes": 75818,
       "references": [
         {
           "inputPath": "assets/originals/cast/model-004-reference-v2.png",
           "retainedPath": "assets/originals/cast/model-004-reference-v2.png",
           "sha256": "27184a178f11556ed4048930462bce2f1e6dda6681c2172d278c4268753a8a18"
+        },
+        {
+          "inputPath": "assets/originals/catalog/product-024-peach-teal-cream-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-024-peach-teal-cream-model-v1.png",
+          "sha256": "8fb711c8b9ee5efcdc09fd4dedcbe20b0775313927252ea298436ba9c482f5bc"
         }
       ],
       "crop": "full-frame",
@@ -275,7 +280,8 @@
         "product-gallery",
         "batch-review"
       ],
-      "alt": "Iara usando Vestido Histórias de Estrelas na cor Pêssego, verde-petróleo, creme, com a peça inteira visível sobre fundo branco."
+      "alt": "Iara usando Vestido Histórias de Estrelas pêssego com estrelas creme e verde-petróleo, em um giro suave sobre fundo branco.",
+      "replacesAssetId": "product-024-peach-teal-cream-model-v1"
     },
     {
       "id": "product-024-peach-teal-cream-isolated-v1",
@@ -468,7 +474,7 @@
       "alt": "Casaco Rabiscos de Casa na cor Creme, lilás suave, verde-petróleo, apresentado sem modelo sobre fundo branco."
     },
     {
-      "id": "product-027-lilac-model-v1",
+      "id": "product-027-lilac-relaxed-three-quarter-v1",
       "productId": "product-027",
       "collectionId": "collection-003",
       "colorwayId": "lilac",
@@ -477,23 +483,28 @@
       "role": "model",
       "galleryOrder": 1,
       "approvalStatus": "approved",
-      "approvalSource": "docs/content/imaginacao-approval.json",
+      "approvalSource": "docs/content/catalog-pose-variants/approval.json",
       "technicalStatus": "passed",
-      "originalPath": "assets/originals/catalog/product-027-lilac-model-v1.png",
-      "originalSha256": "8cfd0181ff6a86b7d3066205e5174c8d102b3567500e91687207b748589d3888",
-      "webPath": "public/images/catalog/product-027-lilac-model-v1.webp",
-      "webSha256": "57ff99eefd86d15fc4384cfe7db9c89ebd8bcb44937c90d6c89637779a91b487",
+      "originalPath": "assets/originals/catalog-pose-variants/product-027-lilac-relaxed-three-quarter-v1.png",
+      "originalSha256": "6723178af31c67ca56388ae6e5b2499101da49b07206d75b652e448aa001f36e",
+      "webPath": "public/images/catalog-pose-variants/product-027-lilac-relaxed-three-quarter-v1.webp",
+      "webSha256": "a399d416a9cae55f742a38fd667886fc892375c87fd099565f82c414e20003d0",
       "width": 1086,
       "height": 1448,
       "webWidth": 1086,
       "webHeight": 1448,
-      "originalBytes": 1686371,
-      "webBytes": 67820,
+      "originalBytes": 1692061,
+      "webBytes": 65982,
       "references": [
         {
           "inputPath": "assets/originals/cast/model-002-reference-v2.png",
           "retainedPath": "assets/originals/cast/model-002-reference-v2.png",
           "sha256": "c29fb497afb76beb42db5c7671b463d9f8261f94dc1bcebfd1d8821eae59a367"
+        },
+        {
+          "inputPath": "assets/originals/catalog/product-027-lilac-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-027-lilac-model-v1.png",
+          "sha256": "8cfd0181ff6a86b7d3066205e5174c8d102b3567500e91687207b748589d3888"
         }
       ],
       "crop": "full-frame",
@@ -502,7 +513,8 @@
         "product-gallery",
         "batch-review"
       ],
-      "alt": "Bia usando Blusa Cor de História na cor Lilás suave, com a peça inteira visível sobre fundo branco."
+      "alt": "Bia usando Blusa Cor de História lilás, em pose de três quartos com uma mão na cintura sobre fundo branco.",
+      "replacesAssetId": "product-027-lilac-model-v1"
     },
     {
       "id": "product-027-lilac-isolated-v1",
@@ -1099,5 +1111,7 @@
       ],
       "alt": "Calça Faz de Conta na cor Pêssego, apresentado sem modelo sobre fundo branco."
     }
-  ]
+  ],
+  "previousRevision": "issue-27-imaginacao-v1",
+  "photographyApprovalSource": "docs/content/catalog-pose-variants/approval.json"
 }

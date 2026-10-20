@@ -15,10 +15,10 @@ Exactly ten products and fourteen colorways have 28 selected photographs, ordere
 | product-021 — Camiseta Blocos de Ideias | cream-teal-peach | Caio / 2 | [View](../../public/images/catalog/product-021-cream-teal-peach-model-v1.webp) | [View](../../public/images/catalog/product-021-cream-teal-peach-isolated-v1.webp) |
 | product-022 — Camiseta Estrelas de Papel | lilac-cream-teal | Noah / 8 | [View](../../public/images/catalog/product-022-lilac-cream-teal-model-v1.webp) | [View](../../public/images/catalog/product-022-lilac-cream-teal-isolated-v1.webp) |
 | product-023 — Blusa Traços de Imaginação | cream-lilac-peach | Nina / 6 | [View](../../public/images/catalog/product-023-cream-lilac-peach-model-v1.webp) | [View](../../public/images/catalog/product-023-cream-lilac-peach-isolated-v1.webp) |
-| product-024 — Vestido Histórias de Estrelas | peach-teal-cream | Iara / 8 | [View](../../public/images/catalog/product-024-peach-teal-cream-model-v1.webp) | [View](../../public/images/catalog/product-024-peach-teal-cream-isolated-v1.webp) |
+| product-024 — Vestido Histórias de Estrelas | peach-teal-cream | Iara / 8 | [View](../../public/images/catalog-pose-variants/product-024-peach-gentle-turn-v1.webp) | [View](../../public/images/catalog/product-024-peach-teal-cream-isolated-v1.webp) |
 | product-025 — Conjunto Mundo de Blocos | cream-lilac-teal | Theo / 6 | [View](../../public/images/catalog/product-025-cream-lilac-teal-model-v1.webp) | [View](../../public/images/catalog/product-025-cream-lilac-teal-isolated-v1.webp) |
 | product-026 — Casaco Rabiscos de Casa | cream-lilac-teal | Noah / 8 | [View](../../public/images/catalog/product-026-cream-lilac-teal-model-v1.webp) | [View](../../public/images/catalog/product-026-cream-lilac-teal-isolated-v1.webp) |
-| product-027 — Blusa Cor de História | lilac | Bia / 6 | [View](../../public/images/catalog/product-027-lilac-model-v1.webp) | [View](../../public/images/catalog/product-027-lilac-isolated-v1.webp) |
+| product-027 — Blusa Cor de História | lilac | Bia / 6 | [View](../../public/images/catalog-pose-variants/product-027-lilac-relaxed-three-quarter-v1.webp) | [View](../../public/images/catalog/product-027-lilac-isolated-v1.webp) |
 | product-027 — Blusa Cor de História | cream | Bia / 6 | [View](../../public/images/catalog/product-027-cream-model-v1.webp) | [View](../../public/images/catalog/product-027-cream-isolated-v1.webp) |
 | product-028 — Short Canto de Brincar | peach | Lia / 4 | [View](../../public/images/catalog/product-028-peach-model-v1.webp) | [View](../../public/images/catalog/product-028-peach-isolated-v1.webp) |
 | product-028 — Short Canto de Brincar | cream | Lia / 4 | [View](../../public/images/catalog/product-028-cream-model-v1.webp) | [View](../../public/images/catalog/product-028-cream-isolated-v1.webp) |
@@ -67,3 +67,7 @@ The preparation script was rerun after approval: all 28 photographs match the ap
 Issue #27’s production and approval requirements are satisfied locally under the explicit collection-specific resolution revision and accepted photograph exception. Replacements invalidate the affected approval. Complete-content, integration and release approvals remain separate. No GitHub issue state was changed.
 
 Approved manifest SHA-256: `9c57b235c4ab5bbad3cde5dc402c4aeb042115a84b7b90425b8e6757a5564439`.
+
+## Approved pose update
+
+Revision: `catalog-pose-variants-v1-imaginacao`. [User approval](catalog-pose-variants/approval.json) replaces only this collection's selected model photographs. Current assets are listed in the collection manifest; previous review and manifests are retained in [the archive](catalog-pose-variants/before-integration/).

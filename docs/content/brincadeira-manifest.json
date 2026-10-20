@@ -1,5 +1,5 @@
 {
-  "revision": "issue-68-catalog-v1",
+  "revision": "catalog-pose-variants-v1-brincadeira",
   "collectionId": "collection-002",
   "technicalStatus": "passed",
   "approvalStatus": "approved",
@@ -1016,7 +1016,7 @@
       "alt": "Calça Passos na Rua na cor Verde-petróleo, apresentado sem modelo sobre fundo branco."
     },
     {
-      "id": "product-020-sky-model-refresh68-v3",
+      "id": "product-020-sky-hands-in-pockets-v1",
       "productId": "product-020",
       "collectionId": "collection-002",
       "colorwayId": "sky",
@@ -1025,18 +1025,18 @@
       "photographedSize": 8,
       "role": "model",
       "galleryOrder": 1,
-      "originalPath": "assets/originals/catalog-refresh-68/product-020-sky-model-refresh68-v3.png",
-      "originalSha256": "1c94012964022f15e41d36c2a161e829174b0286542fcc2b790a08a1cecd48c2",
-      "webPath": "public/images/catalog-refresh-68/product-020-sky-model-refresh68-v3.webp",
-      "webSha256": "da57089036e5d31b6560b046704f984b3a2690c563522621f5aad7d63e4606df",
-      "originalBytes": 1653734,
-      "webBytes": 55292,
+      "originalPath": "assets/originals/catalog-pose-variants/product-020-sky-hands-in-pockets-v1.png",
+      "originalSha256": "e5831dc9bb339eeb6f7093e6d745158c636ea3349a62094d6c5103e0854f6b93",
+      "webPath": "public/images/catalog-pose-variants/product-020-sky-hands-in-pockets-v1.webp",
+      "webSha256": "c3eb97ee86ccec993bea8330a194f2501693deda12ba8d681b8de7c32ef859b9",
+      "originalBytes": 1594295,
+      "webBytes": 47096,
       "width": 1086,
       "height": 1448,
       "webWidth": 1086,
       "webHeight": 1448,
       "approvalStatus": "approved",
-      "approvalSource": "docs/content/catalog-refresh-68/approval.json",
+      "approvalSource": "docs/content/catalog-pose-variants/approval.json",
       "technicalStatus": "passed",
       "references": [
         {
@@ -1048,6 +1048,11 @@
           "inputPath": "assets/originals/catalog/product-020-sky-model-v1.png",
           "retainedPath": "assets/originals/catalog/product-020-sky-model-v1.png",
           "sha256": "5829aee5756fa18cf3392cc94deb61c58fd4918205e649431f8029a9154b2784"
+        },
+        {
+          "inputPath": "assets/originals/catalog-refresh-68/product-020-sky-model-refresh68-v3.png",
+          "retainedPath": "assets/originals/catalog-refresh-68/product-020-sky-model-refresh68-v3.png",
+          "sha256": "1c94012964022f15e41d36c2a161e829174b0286542fcc2b790a08a1cecd48c2"
         }
       ],
       "crop": "full-frame",
@@ -1056,8 +1061,8 @@
         "product-gallery",
         "batch-review"
       ],
-      "alt": "Noah usando Calça Passos na Rua na cor Azul-céu, com cintura elástica e pernas inteiras visíveis sobre fundo branco.",
-      "replacesAssetId": "product-020-sky-model-v1"
+      "alt": "Noah usando Calça Passos na Rua azul-céu, com as duas mãos nos bolsos e a peça inteira visível sobre fundo branco.",
+      "replacesAssetId": "product-020-sky-model-refresh68-v3"
     },
     {
       "id": "product-020-sky-isolated-refresh68-v3",
@@ -1099,7 +1104,7 @@
       "replacesAssetId": "product-020-sky-isolated-v1"
     }
   ],
-  "previousRevision": "issue-51-polos-v1",
+  "previousRevision": "issue-68-catalog-v1",
   "previousApprovalSnapshot": "docs/content/catalog-revisions/pre-issue-51/brincadeira-approval.json",
-  "photographyApprovalSource": "docs/content/catalog-refresh-68/approval.json"
+  "photographyApprovalSource": "docs/content/catalog-pose-variants/approval.json"
 }

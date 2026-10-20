@@ -21,4 +21,8 @@ The user replied “yes” to the exact reviewed pair. [Acceptance](catalog-refr
 | product-019 | coral | [Model](../../public/images/catalog/product-019-coral-model-v1.webp) | [Isolated](../../public/images/catalog/product-019-coral-isolated-v1.webp) | docs/content/brincadeira-approval.json |
 | product-019 | cream | [Model](../../public/images/catalog/product-019-cream-model-v1.webp) | [Isolated](../../public/images/catalog/product-019-cream-isolated-v1.webp) | docs/content/brincadeira-approval.json |
 | product-020 | teal | [Model](../../public/images/catalog/product-020-teal-model-v2.webp) | [Isolated](../../public/images/catalog/product-020-teal-isolated-v1.webp) | docs/content/brincadeira-approval.json |
-| product-020 | sky | [Model](../../public/images/catalog-refresh-68/product-020-sky-model-refresh68-v3.webp) | [Isolated](../../public/images/catalog-refresh-68/product-020-sky-isolated-refresh68-v3.webp) | docs/content/catalog-refresh-68/approval.json |
+| product-020 | sky | [Model](../../public/images/catalog-pose-variants/product-020-sky-hands-in-pockets-v1.webp) | [Isolated](../../public/images/catalog-refresh-68/product-020-sky-isolated-refresh68-v3.webp) | docs/content/catalog-refresh-68/approval.json |
+
+## Approved pose update
+
+Revision: `catalog-pose-variants-v1-brincadeira`. [User approval](catalog-pose-variants/approval.json) replaces only this collection's selected model photographs. Current assets are listed in the collection manifest; previous review and manifests are retained in [the archive](catalog-pose-variants/before-integration/).

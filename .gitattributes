@@ -14,6 +14,9 @@ scripts/content/prepare-hero-color-refresh.mjs -text
 docs/content/catalog-revisions/** -text whitespace=cr-at-eol
 # Catalog photograph acceptance and retained snapshots bind exact review bytes.
 docs/content/catalog-refresh-68/** -text whitespace=cr-at-eol
+# Pose approvals bind current reviews and archived package bytes.
+docs/content/catalog-pose-variants/** -text whitespace=cr-at-eol
+docs/content/*-photography-review.md -text whitespace=cr-at-eol
 # Identity approval records also bind the original font/license bytes.
 assets/identity/fonts/* -text
 # Preserve upstream license formatting verbatim.

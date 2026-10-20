@@ -1,0 +1,152 @@
+{
+  "revision": "catalog-pose-variants-v1",
+  "status": "approved",
+  "implementationAllowed": true,
+  "reviewer": "The user in this conversation",
+  "recordedAtUtc": "2026-10-20T19:16:10.128Z",
+  "evidence": {
+    "message": "approved. you can replace some of the images with the new poses",
+    "context": "The user approved the three presented pose previews after requesting hands in pockets for the boy and discarding his walking version. Integration uses these exact PNGs and deterministic WebP exports."
+  },
+  "scope": "Three model photographs only: product-020/sky hands in pockets, product-024/peach-teal-cream gentle turn, product-027/lilac relaxed three-quarter stance. The other 81 catalog photographs retain their prior approvals.",
+  "assets": [
+    {
+      "id": "product-020-sky-hands-in-pockets-v1",
+      "productId": "product-020",
+      "collectionId": "collection-002",
+      "colorwayId": "sky",
+      "modelId": "model-008",
+      "assignedModelId": "model-008",
+      "photographedSize": 8,
+      "role": "model",
+      "galleryOrder": 1,
+      "originalPath": "assets/originals/catalog-pose-variants/product-020-sky-hands-in-pockets-v1.png",
+      "originalSha256": "e5831dc9bb339eeb6f7093e6d745158c636ea3349a62094d6c5103e0854f6b93",
+      "webPath": "public/images/catalog-pose-variants/product-020-sky-hands-in-pockets-v1.webp",
+      "webSha256": "c3eb97ee86ccec993bea8330a194f2501693deda12ba8d681b8de7c32ef859b9",
+      "originalBytes": 1594295,
+      "webBytes": 47096,
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/catalog-pose-variants/approval.json",
+      "technicalStatus": "passed",
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-008-reference-v1.png",
+          "retainedPath": "assets/originals/cast/model-008-reference-v1.png",
+          "sha256": "84c4c5c21ee85c4271ca2134b09f12bdce3d3bf67ad4324504100ad4e18d4514"
+        },
+        {
+          "inputPath": "assets/originals/catalog/product-020-sky-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-020-sky-model-v1.png",
+          "sha256": "5829aee5756fa18cf3392cc94deb61c58fd4918205e649431f8029a9154b2784"
+        },
+        {
+          "inputPath": "assets/originals/catalog-refresh-68/product-020-sky-model-refresh68-v3.png",
+          "retainedPath": "assets/originals/catalog-refresh-68/product-020-sky-model-refresh68-v3.png",
+          "sha256": "1c94012964022f15e41d36c2a161e829174b0286542fcc2b790a08a1cecd48c2"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Noah usando Calça Passos na Rua azul-céu, com as duas mãos nos bolsos e a peça inteira visível sobre fundo branco.",
+      "replacesAssetId": "product-020-sky-model-refresh68-v3"
+    },
+    {
+      "id": "product-024-peach-gentle-turn-v1",
+      "productId": "product-024",
+      "collectionId": "collection-003",
+      "colorwayId": "peach-teal-cream",
+      "modelId": "model-004",
+      "photographedSize": 8,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/catalog-pose-variants/approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog-pose-variants/product-024-peach-gentle-turn-v1.png",
+      "originalSha256": "7677194524f47687d779b9d126399a5b89dc205978c724660e51e8e0a22122ab",
+      "webPath": "public/images/catalog-pose-variants/product-024-peach-gentle-turn-v1.webp",
+      "webSha256": "a6cad210a596a7f24d4eae713986466c6232f45abd83c76b2956344b92772118",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1593684,
+      "webBytes": 75818,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-004-reference-v2.png",
+          "retainedPath": "assets/originals/cast/model-004-reference-v2.png",
+          "sha256": "27184a178f11556ed4048930462bce2f1e6dda6681c2172d278c4268753a8a18"
+        },
+        {
+          "inputPath": "assets/originals/catalog/product-024-peach-teal-cream-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-024-peach-teal-cream-model-v1.png",
+          "sha256": "8fb711c8b9ee5efcdc09fd4dedcbe20b0775313927252ea298436ba9c482f5bc"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Iara usando Vestido Histórias de Estrelas pêssego com estrelas creme e verde-petróleo, em um giro suave sobre fundo branco.",
+      "replacesAssetId": "product-024-peach-teal-cream-model-v1"
+    },
+    {
+      "id": "product-027-lilac-relaxed-three-quarter-v1",
+      "productId": "product-027",
+      "collectionId": "collection-003",
+      "colorwayId": "lilac",
+      "modelId": "model-002",
+      "photographedSize": 6,
+      "role": "model",
+      "galleryOrder": 1,
+      "approvalStatus": "approved",
+      "approvalSource": "docs/content/catalog-pose-variants/approval.json",
+      "technicalStatus": "passed",
+      "originalPath": "assets/originals/catalog-pose-variants/product-027-lilac-relaxed-three-quarter-v1.png",
+      "originalSha256": "6723178af31c67ca56388ae6e5b2499101da49b07206d75b652e448aa001f36e",
+      "webPath": "public/images/catalog-pose-variants/product-027-lilac-relaxed-three-quarter-v1.webp",
+      "webSha256": "a399d416a9cae55f742a38fd667886fc892375c87fd099565f82c414e20003d0",
+      "width": 1086,
+      "height": 1448,
+      "webWidth": 1086,
+      "webHeight": 1448,
+      "originalBytes": 1692061,
+      "webBytes": 65982,
+      "references": [
+        {
+          "inputPath": "assets/originals/cast/model-002-reference-v2.png",
+          "retainedPath": "assets/originals/cast/model-002-reference-v2.png",
+          "sha256": "c29fb497afb76beb42db5c7671b463d9f8261f94dc1bcebfd1d8821eae59a367"
+        },
+        {
+          "inputPath": "assets/originals/catalog/product-027-lilac-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-027-lilac-model-v1.png",
+          "sha256": "8cfd0181ff6a86b7d3066205e5174c8d102b3567500e91687207b748589d3888"
+        }
+      ],
+      "crop": "full-frame",
+      "usage": [
+        "product-card-default",
+        "product-gallery",
+        "batch-review"
+      ],
+      "alt": "Bia usando Blusa Cor de História lilás, em pose de três quartos com uma mão na cintura sobre fundo branco.",
+      "replacesAssetId": "product-027-lilac-model-v1"
+    }
+  ],
+  "discarded": [
+    "product-020-sky-walking-step-v1.png"
+  ]
+}

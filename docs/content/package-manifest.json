@@ -1,5 +1,5 @@
 {
-  "revision": "issue-68-package-v1",
+  "revision": "catalog-pose-variants-package-v1",
   "sourceIssue": "https://github.com/danielluis07/difratelli-kids-v2/issues/68",
   "approvalStatus": "approved",
   "implementationAllowed": true,
@@ -5349,7 +5349,7 @@
       "alt": "Calça Passos na Rua na cor Verde-petróleo, apresentado sem modelo sobre fundo branco."
     },
     {
-      "id": "product-020-sky-model-refresh68-v3",
+      "id": "product-020-sky-hands-in-pockets-v1",
       "productId": "product-020",
       "collectionId": "collection-002",
       "colorwayId": "sky",
@@ -5358,18 +5358,18 @@
       "photographedSize": 8,
       "role": "model",
       "galleryOrder": 1,
-      "originalPath": "assets/originals/catalog-refresh-68/product-020-sky-model-refresh68-v3.png",
-      "originalSha256": "1c94012964022f15e41d36c2a161e829174b0286542fcc2b790a08a1cecd48c2",
-      "webPath": "public/images/catalog-refresh-68/product-020-sky-model-refresh68-v3.webp",
-      "webSha256": "da57089036e5d31b6560b046704f984b3a2690c563522621f5aad7d63e4606df",
-      "originalBytes": 1653734,
-      "webBytes": 55292,
+      "originalPath": "assets/originals/catalog-pose-variants/product-020-sky-hands-in-pockets-v1.png",
+      "originalSha256": "e5831dc9bb339eeb6f7093e6d745158c636ea3349a62094d6c5103e0854f6b93",
+      "webPath": "public/images/catalog-pose-variants/product-020-sky-hands-in-pockets-v1.webp",
+      "webSha256": "c3eb97ee86ccec993bea8330a194f2501693deda12ba8d681b8de7c32ef859b9",
+      "originalBytes": 1594295,
+      "webBytes": 47096,
       "width": 1086,
       "height": 1448,
       "webWidth": 1086,
       "webHeight": 1448,
       "approvalStatus": "approved",
-      "approvalSource": "docs/content/catalog-refresh-68/approval.json",
+      "approvalSource": "docs/content/catalog-pose-variants/approval.json",
       "technicalStatus": "passed",
       "references": [
         {
@@ -5381,6 +5381,11 @@
           "inputPath": "assets/originals/catalog/product-020-sky-model-v1.png",
           "retainedPath": "assets/originals/catalog/product-020-sky-model-v1.png",
           "sha256": "5829aee5756fa18cf3392cc94deb61c58fd4918205e649431f8029a9154b2784"
+        },
+        {
+          "inputPath": "assets/originals/catalog-refresh-68/product-020-sky-model-refresh68-v3.png",
+          "retainedPath": "assets/originals/catalog-refresh-68/product-020-sky-model-refresh68-v3.png",
+          "sha256": "1c94012964022f15e41d36c2a161e829174b0286542fcc2b790a08a1cecd48c2"
         }
       ],
       "crop": "full-frame",
@@ -5389,8 +5394,8 @@
         "product-gallery",
         "batch-review"
       ],
-      "alt": "Noah usando Calça Passos na Rua na cor Azul-céu, com cintura elástica e pernas inteiras visíveis sobre fundo branco.",
-      "replacesAssetId": "product-020-sky-model-v1"
+      "alt": "Noah usando Calça Passos na Rua azul-céu, com as duas mãos nos bolsos e a peça inteira visível sobre fundo branco.",
+      "replacesAssetId": "product-020-sky-model-refresh68-v3"
     },
     {
       "id": "product-020-sky-isolated-refresh68-v3",
@@ -5654,7 +5659,7 @@
       "alt": "Blusa Traços de Imaginação na cor Creme, lilás suave, pêssego, apresentado sem modelo sobre fundo branco."
     },
     {
-      "id": "product-024-peach-teal-cream-model-v1",
+      "id": "product-024-peach-gentle-turn-v1",
       "productId": "product-024",
       "collectionId": "collection-003",
       "colorwayId": "peach-teal-cream",
@@ -5663,23 +5668,28 @@
       "role": "model",
       "galleryOrder": 1,
       "approvalStatus": "approved",
-      "approvalSource": "docs/content/imaginacao-approval.json",
+      "approvalSource": "docs/content/catalog-pose-variants/approval.json",
       "technicalStatus": "passed",
-      "originalPath": "assets/originals/catalog/product-024-peach-teal-cream-model-v1.png",
-      "originalSha256": "8fb711c8b9ee5efcdc09fd4dedcbe20b0775313927252ea298436ba9c482f5bc",
-      "webPath": "public/images/catalog/product-024-peach-teal-cream-model-v1.webp",
-      "webSha256": "6f105f19e0d157bb7d51665bd231fca0d85fa4bf915a068c0c9766840a11ba70",
+      "originalPath": "assets/originals/catalog-pose-variants/product-024-peach-gentle-turn-v1.png",
+      "originalSha256": "7677194524f47687d779b9d126399a5b89dc205978c724660e51e8e0a22122ab",
+      "webPath": "public/images/catalog-pose-variants/product-024-peach-gentle-turn-v1.webp",
+      "webSha256": "a6cad210a596a7f24d4eae713986466c6232f45abd83c76b2956344b92772118",
       "width": 1086,
       "height": 1448,
       "webWidth": 1086,
       "webHeight": 1448,
-      "originalBytes": 1718153,
-      "webBytes": 77998,
+      "originalBytes": 1593684,
+      "webBytes": 75818,
       "references": [
         {
           "inputPath": "assets/originals/cast/model-004-reference-v2.png",
           "retainedPath": "assets/originals/cast/model-004-reference-v2.png",
           "sha256": "27184a178f11556ed4048930462bce2f1e6dda6681c2172d278c4268753a8a18"
+        },
+        {
+          "inputPath": "assets/originals/catalog/product-024-peach-teal-cream-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-024-peach-teal-cream-model-v1.png",
+          "sha256": "8fb711c8b9ee5efcdc09fd4dedcbe20b0775313927252ea298436ba9c482f5bc"
         }
       ],
       "crop": "full-frame",
@@ -5688,7 +5698,8 @@
         "product-gallery",
         "batch-review"
       ],
-      "alt": "Iara usando Vestido Histórias de Estrelas na cor Pêssego, verde-petróleo, creme, com a peça inteira visível sobre fundo branco."
+      "alt": "Iara usando Vestido Histórias de Estrelas pêssego com estrelas creme e verde-petróleo, em um giro suave sobre fundo branco.",
+      "replacesAssetId": "product-024-peach-teal-cream-model-v1"
     },
     {
       "id": "product-024-peach-teal-cream-isolated-v1",
@@ -5881,7 +5892,7 @@
       "alt": "Casaco Rabiscos de Casa na cor Creme, lilás suave, verde-petróleo, apresentado sem modelo sobre fundo branco."
     },
     {
-      "id": "product-027-lilac-model-v1",
+      "id": "product-027-lilac-relaxed-three-quarter-v1",
       "productId": "product-027",
       "collectionId": "collection-003",
       "colorwayId": "lilac",
@@ -5890,23 +5901,28 @@
       "role": "model",
       "galleryOrder": 1,
       "approvalStatus": "approved",
-      "approvalSource": "docs/content/imaginacao-approval.json",
+      "approvalSource": "docs/content/catalog-pose-variants/approval.json",
       "technicalStatus": "passed",
-      "originalPath": "assets/originals/catalog/product-027-lilac-model-v1.png",
-      "originalSha256": "8cfd0181ff6a86b7d3066205e5174c8d102b3567500e91687207b748589d3888",
-      "webPath": "public/images/catalog/product-027-lilac-model-v1.webp",
-      "webSha256": "57ff99eefd86d15fc4384cfe7db9c89ebd8bcb44937c90d6c89637779a91b487",
+      "originalPath": "assets/originals/catalog-pose-variants/product-027-lilac-relaxed-three-quarter-v1.png",
+      "originalSha256": "6723178af31c67ca56388ae6e5b2499101da49b07206d75b652e448aa001f36e",
+      "webPath": "public/images/catalog-pose-variants/product-027-lilac-relaxed-three-quarter-v1.webp",
+      "webSha256": "a399d416a9cae55f742a38fd667886fc892375c87fd099565f82c414e20003d0",
       "width": 1086,
       "height": 1448,
       "webWidth": 1086,
       "webHeight": 1448,
-      "originalBytes": 1686371,
-      "webBytes": 67820,
+      "originalBytes": 1692061,
+      "webBytes": 65982,
       "references": [
         {
           "inputPath": "assets/originals/cast/model-002-reference-v2.png",
           "retainedPath": "assets/originals/cast/model-002-reference-v2.png",
           "sha256": "c29fb497afb76beb42db5c7671b463d9f8261f94dc1bcebfd1d8821eae59a367"
+        },
+        {
+          "inputPath": "assets/originals/catalog/product-027-lilac-model-v1.png",
+          "retainedPath": "assets/originals/catalog/product-027-lilac-model-v1.png",
+          "sha256": "8cfd0181ff6a86b7d3066205e5174c8d102b3567500e91687207b748589d3888"
         }
       ],
       "crop": "full-frame",
@@ -5915,7 +5931,8 @@
         "product-gallery",
         "batch-review"
       ],
-      "alt": "Bia usando Blusa Cor de História na cor Lilás suave, com a peça inteira visível sobre fundo branco."
+      "alt": "Bia usando Blusa Cor de História lilás, em pose de três quartos com uma mão na cintura sobre fundo branco.",
+      "replacesAssetId": "product-027-lilac-model-v1"
     },
     {
       "id": "product-027-lilac-isolated-v1",
@@ -10040,13 +10057,169 @@
         ],
         "requestedCorrections": []
       }
+    },
+    {
+      "path": "docs/content/catalog-pose-variants/approval.json",
+      "record": {
+        "revision": "catalog-pose-variants-v1",
+        "status": "approved",
+        "implementationAllowed": true,
+        "reviewer": "The user in this conversation",
+        "recordedAtUtc": "2026-10-20T19:16:10.128Z",
+        "evidence": {
+          "message": "approved. you can replace some of the images with the new poses",
+          "context": "The user approved the three presented pose previews after requesting hands in pockets for the boy and discarding his walking version. Integration uses these exact PNGs and deterministic WebP exports."
+        },
+        "scope": "Three model photographs only: product-020/sky hands in pockets, product-024/peach-teal-cream gentle turn, product-027/lilac relaxed three-quarter stance. The other 81 catalog photographs retain their prior approvals.",
+        "assets": [
+          {
+            "id": "product-020-sky-hands-in-pockets-v1",
+            "productId": "product-020",
+            "collectionId": "collection-002",
+            "colorwayId": "sky",
+            "modelId": "model-008",
+            "assignedModelId": "model-008",
+            "photographedSize": 8,
+            "role": "model",
+            "galleryOrder": 1,
+            "originalPath": "assets/originals/catalog-pose-variants/product-020-sky-hands-in-pockets-v1.png",
+            "originalSha256": "e5831dc9bb339eeb6f7093e6d745158c636ea3349a62094d6c5103e0854f6b93",
+            "webPath": "public/images/catalog-pose-variants/product-020-sky-hands-in-pockets-v1.webp",
+            "webSha256": "c3eb97ee86ccec993bea8330a194f2501693deda12ba8d681b8de7c32ef859b9",
+            "originalBytes": 1594295,
+            "webBytes": 47096,
+            "width": 1086,
+            "height": 1448,
+            "webWidth": 1086,
+            "webHeight": 1448,
+            "approvalStatus": "approved",
+            "approvalSource": "docs/content/catalog-pose-variants/approval.json",
+            "technicalStatus": "passed",
+            "references": [
+              {
+                "inputPath": "assets/originals/cast/model-008-reference-v1.png",
+                "retainedPath": "assets/originals/cast/model-008-reference-v1.png",
+                "sha256": "84c4c5c21ee85c4271ca2134b09f12bdce3d3bf67ad4324504100ad4e18d4514"
+              },
+              {
+                "inputPath": "assets/originals/catalog/product-020-sky-model-v1.png",
+                "retainedPath": "assets/originals/catalog/product-020-sky-model-v1.png",
+                "sha256": "5829aee5756fa18cf3392cc94deb61c58fd4918205e649431f8029a9154b2784"
+              },
+              {
+                "inputPath": "assets/originals/catalog-refresh-68/product-020-sky-model-refresh68-v3.png",
+                "retainedPath": "assets/originals/catalog-refresh-68/product-020-sky-model-refresh68-v3.png",
+                "sha256": "1c94012964022f15e41d36c2a161e829174b0286542fcc2b790a08a1cecd48c2"
+              }
+            ],
+            "crop": "full-frame",
+            "usage": [
+              "product-card-default",
+              "product-gallery",
+              "batch-review"
+            ],
+            "alt": "Noah usando Calça Passos na Rua azul-céu, com as duas mãos nos bolsos e a peça inteira visível sobre fundo branco.",
+            "replacesAssetId": "product-020-sky-model-refresh68-v3"
+          },
+          {
+            "id": "product-024-peach-gentle-turn-v1",
+            "productId": "product-024",
+            "collectionId": "collection-003",
+            "colorwayId": "peach-teal-cream",
+            "modelId": "model-004",
+            "photographedSize": 8,
+            "role": "model",
+            "galleryOrder": 1,
+            "approvalStatus": "approved",
+            "approvalSource": "docs/content/catalog-pose-variants/approval.json",
+            "technicalStatus": "passed",
+            "originalPath": "assets/originals/catalog-pose-variants/product-024-peach-gentle-turn-v1.png",
+            "originalSha256": "7677194524f47687d779b9d126399a5b89dc205978c724660e51e8e0a22122ab",
+            "webPath": "public/images/catalog-pose-variants/product-024-peach-gentle-turn-v1.webp",
+            "webSha256": "a6cad210a596a7f24d4eae713986466c6232f45abd83c76b2956344b92772118",
+            "width": 1086,
+            "height": 1448,
+            "webWidth": 1086,
+            "webHeight": 1448,
+            "originalBytes": 1593684,
+            "webBytes": 75818,
+            "references": [
+              {
+                "inputPath": "assets/originals/cast/model-004-reference-v2.png",
+                "retainedPath": "assets/originals/cast/model-004-reference-v2.png",
+                "sha256": "27184a178f11556ed4048930462bce2f1e6dda6681c2172d278c4268753a8a18"
+              },
+              {
+                "inputPath": "assets/originals/catalog/product-024-peach-teal-cream-model-v1.png",
+                "retainedPath": "assets/originals/catalog/product-024-peach-teal-cream-model-v1.png",
+                "sha256": "8fb711c8b9ee5efcdc09fd4dedcbe20b0775313927252ea298436ba9c482f5bc"
+              }
+            ],
+            "crop": "full-frame",
+            "usage": [
+              "product-card-default",
+              "product-gallery",
+              "batch-review"
+            ],
+            "alt": "Iara usando Vestido Histórias de Estrelas pêssego com estrelas creme e verde-petróleo, em um giro suave sobre fundo branco.",
+            "replacesAssetId": "product-024-peach-teal-cream-model-v1"
+          },
+          {
+            "id": "product-027-lilac-relaxed-three-quarter-v1",
+            "productId": "product-027",
+            "collectionId": "collection-003",
+            "colorwayId": "lilac",
+            "modelId": "model-002",
+            "photographedSize": 6,
+            "role": "model",
+            "galleryOrder": 1,
+            "approvalStatus": "approved",
+            "approvalSource": "docs/content/catalog-pose-variants/approval.json",
+            "technicalStatus": "passed",
+            "originalPath": "assets/originals/catalog-pose-variants/product-027-lilac-relaxed-three-quarter-v1.png",
+            "originalSha256": "6723178af31c67ca56388ae6e5b2499101da49b07206d75b652e448aa001f36e",
+            "webPath": "public/images/catalog-pose-variants/product-027-lilac-relaxed-three-quarter-v1.webp",
+            "webSha256": "a399d416a9cae55f742a38fd667886fc892375c87fd099565f82c414e20003d0",
+            "width": 1086,
+            "height": 1448,
+            "webWidth": 1086,
+            "webHeight": 1448,
+            "originalBytes": 1692061,
+            "webBytes": 65982,
+            "references": [
+              {
+                "inputPath": "assets/originals/cast/model-002-reference-v2.png",
+                "retainedPath": "assets/originals/cast/model-002-reference-v2.png",
+                "sha256": "c29fb497afb76beb42db5c7671b463d9f8261f94dc1bcebfd1d8821eae59a367"
+              },
+              {
+                "inputPath": "assets/originals/catalog/product-027-lilac-model-v1.png",
+                "retainedPath": "assets/originals/catalog/product-027-lilac-model-v1.png",
+                "sha256": "8cfd0181ff6a86b7d3066205e5174c8d102b3567500e91687207b748589d3888"
+              }
+            ],
+            "crop": "full-frame",
+            "usage": [
+              "product-card-default",
+              "product-gallery",
+              "batch-review"
+            ],
+            "alt": "Bia usando Blusa Cor de História lilás, em pose de três quartos com uma mão na cintura sobre fundo branco.",
+            "replacesAssetId": "product-027-lilac-model-v1"
+          }
+        ],
+        "discarded": [
+          "product-020-sky-walking-step-v1.png"
+        ]
+      }
     }
   ],
   "acceptedRevisions": [
     "Issue #51 supersedes two T-shirts with polos and adds the Polos category.",
     "Collection-specific native 1086 × 1448 acceptance and exact garment exceptions remain scoped to their existing approval records.",
     "Editorial garments remain as approved; catalog integration was explicitly deferred by the user.",
-    "Issue #68 exact-file photography acceptance replaces product-020 / sky only; the other 82 photographs and all assortment/editorial records retain prior approval."
+    "Issue #68 exact-file photography acceptance replaces product-020 / sky only; the other 82 photographs and all assortment/editorial records retain prior approval.",
+    "Three model photographs only: product-020/sky hands in pockets, product-024/peach-teal-cream gentle turn, product-027/lilac relaxed three-quarter stance. The other 81 catalog photographs retain their prior approvals."
   ],
   "counts": {
     "products": 30,
@@ -10116,6 +10289,21 @@
       "path": "assets/originals/cast/model-008-reference-v1.png",
       "sha256": "84c4c5c21ee85c4271ca2134b09f12bdce3d3bf67ad4324504100ad4e18d4514",
       "bytes": 1703360
+    },
+    {
+      "path": "assets/originals/catalog-pose-variants/product-020-sky-hands-in-pockets-v1.png",
+      "sha256": "e5831dc9bb339eeb6f7093e6d745158c636ea3349a62094d6c5103e0854f6b93",
+      "bytes": 1594295
+    },
+    {
+      "path": "assets/originals/catalog-pose-variants/product-024-peach-gentle-turn-v1.png",
+      "sha256": "7677194524f47687d779b9d126399a5b89dc205978c724660e51e8e0a22122ab",
+      "bytes": 1593684
+    },
+    {
+      "path": "assets/originals/catalog-pose-variants/product-027-lilac-relaxed-three-quarter-v1.png",
+      "sha256": "6723178af31c67ca56388ae6e5b2499101da49b07206d75b652e448aa001f36e",
+      "bytes": 1692061
     },
     {
       "path": "assets/originals/catalog-refresh-68/product-020-sky-isolated-refresh68-v3.png",
@@ -10603,14 +10791,24 @@
       "bytes": 16329
     },
     {
+      "path": "docs/content/brincadeira-contact-sheet.webp",
+      "sha256": "db02845ee308af2617ab6570a6f6d5432f477c56331078f658a332835b496efc",
+      "bytes": 269584
+    },
+    {
       "path": "docs/content/brincadeira-generation.json",
       "sha256": "a197286ca0300c3d67729cfe0e9e60eb0941fdd3fd3b44282d2f0567fe387ede",
       "bytes": 96372
     },
     {
       "path": "docs/content/brincadeira-manifest.json",
-      "sha256": "01ad6e8f4e5d891b1bf3544a353c2a9493c28503dae60765edf01a3e234e8efa",
-      "bytes": 44961
+      "sha256": "8af96724196469b79783bed446d33929a981c67f94f164d28b6901724ad1cb96",
+      "bytes": 45317
+    },
+    {
+      "path": "docs/content/brincadeira-photography-review.md",
+      "sha256": "0fc07fa88a8723a11b96b64abf1b58b413704cf649426a38f42c0e7f037b5d28",
+      "bytes": 4331
     },
     {
       "path": "docs/content/cast-approval.json",
@@ -10621,6 +10819,56 @@
       "path": "docs/content/cast-manifest.json",
       "sha256": "fb194f1b8a9745dbd5486b7857cfe527759b3df96e310feb8a678dd3af6c45ff",
       "bytes": 12301
+    },
+    {
+      "path": "docs/content/catalog-pose-variants/approval.json",
+      "sha256": "26f1a4799e3c4559cb2dcc6296b9700819a0226f94a0f4f0d467acf91d89bd3e",
+      "bytes": 6762
+    },
+    {
+      "path": "docs/content/catalog-pose-variants/before-integration/brincadeira-contact-sheet.webp",
+      "sha256": "05cb98f004636e520213bfd51fd3dec21e7e5223e92a2b0a5a195790015cbe09",
+      "bytes": 269868
+    },
+    {
+      "path": "docs/content/catalog-pose-variants/before-integration/brincadeira-manifest.json",
+      "sha256": "01ad6e8f4e5d891b1bf3544a353c2a9493c28503dae60765edf01a3e234e8efa",
+      "bytes": 44961
+    },
+    {
+      "path": "docs/content/catalog-pose-variants/before-integration/brincadeira-photography-review.md",
+      "sha256": "e8296695ac42078bed5e7299b90b73fd45b2a55f15363183b34a79bfdceac854",
+      "bytes": 3980
+    },
+    {
+      "path": "docs/content/catalog-pose-variants/before-integration/imaginacao-contact-sheet.webp",
+      "sha256": "2e1708cbc66622a99a58e10c33a7ab7ac1eb86d482eddbb529a74fcfc6df7362",
+      "bytes": 250830
+    },
+    {
+      "path": "docs/content/catalog-pose-variants/before-integration/imaginacao-manifest.json",
+      "sha256": "9c57b235c4ab5bbad3cde5dc402c4aeb042115a84b7b90425b8e6757a5564439",
+      "bytes": 44834
+    },
+    {
+      "path": "docs/content/catalog-pose-variants/before-integration/imaginacao-photography-review.md",
+      "sha256": "1795cdc03d141545fede405e32d6b7e7dede08fb07f5d2b4ce0141aec1123bdd",
+      "bytes": 10196
+    },
+    {
+      "path": "docs/content/catalog-pose-variants/before-integration/package-approval.json",
+      "sha256": "83a9a3a60aee388a0d34780aefbc3ba45cf4375328732aee74f2fc00fe5e0b6d",
+      "bytes": 1652
+    },
+    {
+      "path": "docs/content/catalog-pose-variants/before-integration/package-manifest.json",
+      "sha256": "b4733a6dd0ce496b22387a7911608a7b360e0b78dd631dd0af32ad77ad4cc011",
+      "bytes": 465128
+    },
+    {
+      "path": "docs/content/catalog-pose-variants/review.md",
+      "sha256": "9c26a0433d3ea9a7086d02327a47b2e1b8e31e941aeebfdb042787a367242f7c",
+      "bytes": 1268
     },
     {
       "path": "docs/content/catalog-proposal.json",
@@ -10703,9 +10951,19 @@
       "bytes": 16254
     },
     {
+      "path": "docs/content/imaginacao-contact-sheet.webp",
+      "sha256": "0a0c8302c110c5400860b378040bba80795aea9850f755e89291c7ac17c91878",
+      "bytes": 253590
+    },
+    {
       "path": "docs/content/imaginacao-manifest.json",
-      "sha256": "9c57b235c4ab5bbad3cde5dc402c4aeb042115a84b7b90425b8e6757a5564439",
-      "bytes": 44834
+      "sha256": "f3bdab7ddff50a5da4a7cdfbab7d74dd6339f5656af555fb2aae510289e69e6a",
+      "bytes": 45783
+    },
+    {
+      "path": "docs/content/imaginacao-photography-review.md",
+      "sha256": "c8e05b68fb5f6cefc22dc4ad97d7512b0fcf0d2aa6ecea54aedeee66df41a289",
+      "bytes": 10581
     },
     {
       "path": "docs/content/polo-approval.json",
@@ -10796,6 +11054,21 @@
       "path": "public/images/cast/model-008-reference-v1.webp",
       "sha256": "5640029404a9dbde3dd83c42f789953aecb8cf7d9a624c413ed576f9603b80d8",
       "bytes": 57956
+    },
+    {
+      "path": "public/images/catalog-pose-variants/product-020-sky-hands-in-pockets-v1.webp",
+      "sha256": "c3eb97ee86ccec993bea8330a194f2501693deda12ba8d681b8de7c32ef859b9",
+      "bytes": 47096
+    },
+    {
+      "path": "public/images/catalog-pose-variants/product-024-peach-gentle-turn-v1.webp",
+      "sha256": "a6cad210a596a7f24d4eae713986466c6232f45abd83c76b2956344b92772118",
+      "bytes": 75818
+    },
+    {
+      "path": "public/images/catalog-pose-variants/product-027-lilac-relaxed-three-quarter-v1.webp",
+      "sha256": "a399d416a9cae55f742a38fd667886fc892375c87fd099565f82c414e20003d0",
+      "bytes": 65982
     },
     {
       "path": "public/images/catalog-refresh-68/product-020-sky-isolated-refresh68-v3.webp",
@@ -11323,5 +11596,5 @@
       "bytes": 175348
     }
   ],
-  "previousRevision": "issue-29-package-v1"
+  "previousRevision": "issue-68-package-v1"
 }

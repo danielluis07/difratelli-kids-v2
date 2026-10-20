@@ -1,0 +1,84 @@
+{
+  "status": "passed",
+  "results": [
+    {
+      "width": 390,
+      "productId": "product-020",
+      "colorwayId": "sky",
+      "status": "passed",
+      "checks": [
+        "card uses approved pose",
+        "gallery uses approved pose first",
+        "isolated photo retained second",
+        "images decode",
+        "no horizontal overflow"
+      ]
+    },
+    {
+      "width": 390,
+      "productId": "product-024",
+      "colorwayId": "peach-teal-cream",
+      "status": "passed",
+      "checks": [
+        "card uses approved pose",
+        "gallery uses approved pose first",
+        "isolated photo retained second",
+        "images decode",
+        "no horizontal overflow"
+      ]
+    },
+    {
+      "width": 390,
+      "productId": "product-027",
+      "colorwayId": "lilac",
+      "status": "passed",
+      "checks": [
+        "card uses approved pose",
+        "gallery uses approved pose first",
+        "isolated photo retained second",
+        "images decode",
+        "no horizontal overflow"
+      ]
+    },
+    {
+      "width": 1440,
+      "productId": "product-020",
+      "colorwayId": "sky",
+      "status": "passed",
+      "checks": [
+        "card uses approved pose",
+        "gallery uses approved pose first",
+        "isolated photo retained second",
+        "images decode",
+        "no horizontal overflow"
+      ]
+    },
+    {
+      "width": 1440,
+      "productId": "product-024",
+      "colorwayId": "peach-teal-cream",
+      "status": "passed",
+      "checks": [
+        "card uses approved pose",
+        "gallery uses approved pose first",
+        "isolated photo retained second",
+        "images decode",
+        "no horizontal overflow"
+      ]
+    },
+    {
+      "width": 1440,
+      "productId": "product-027",
+      "colorwayId": "lilac",
+      "status": "passed",
+      "checks": [
+        "card uses approved pose",
+        "gallery uses approved pose first",
+        "isolated photo retained second",
+        "images decode",
+        "no horizontal overflow"
+      ]
+    }
+  ],
+  "pageErrors": []
+}

@@ -1,24 +1,24 @@
 {
-  "revision": "issue-68-package-v1",
+  "revision": "catalog-pose-variants-package-v1",
   "status": "approved",
   "implementationAllowed": true,
   "manifestPath": "docs/content/package-manifest.json",
-  "manifestSha256": "b4733a6dd0ce496b22387a7911608a7b360e0b78dd631dd0af32ad77ad4cc011",
-  "reviewPath": "docs/content/catalog-refresh-68/review.html",
-  "reviewSha256": "b0ce5c1b401e3b44d6a59f18e8f70ae84663e4c2e6cd7c2d47d5916d06a44f7c",
-  "approvalRequestPath": "docs/content/catalog-refresh-68/approval-request.json",
-  "approvalRequestSha256": "525f618ad48a9c0ad37a374aadb70f51c6b776faaa1956d08609feb2ba118a34",
+  "manifestSha256": "7311919ddb5abfb8408a23fae29afaa1a3ddfdfe133d72767d458d7c2f4f9686",
+  "reviewPath": "docs/content/catalog-pose-variants/review.md",
+  "reviewSha256": "9c26a0433d3ea9a7086d02327a47b2e1b8e31e941aeebfdb042787a367242f7c",
+  "approvalRequestPath": "docs/content/catalog-pose-variants/approval.json",
+  "approvalRequestSha256": "26f1a4799e3c4559cb2dcc6296b9700819a0226f94a0f4f0d467acf91d89bd3e",
   "reviewer": "The user in this conversation",
-  "recordedAtUtc": "2026-10-15T11:06:38.075Z",
+  "recordedAtUtc": "2026-10-20T19:16:10.128Z",
   "evidence": {
-    "message": "yes",
-    "context": "The user replied yes to the presented issue-68-catalog-v1 review and the explicit question: 'Issue #68 requires your acceptance before integration. Approve the proposed pair?' This accepts the two product-020 / sky photographs and their exact original/WebP exports and authorizes their integration."
+    "message": "approved. you can replace some of the images with the new poses",
+    "context": "The user approved the three presented pose previews after requesting hands in pockets for the boy and discarding his walking version. Integration uses these exact PNGs and deterministic WebP exports."
   },
-  "scope": "Derived package integration: previously accepted complete package plus the two explicitly accepted issue #68 photographs. No new assortment, copy, cast or editorial acceptance is claimed.",
-  "previousApprovalPath": "docs/content/catalog-refresh-68/before-integration/package-approval.json",
-  "previousManifestPath": "docs/content/catalog-refresh-68/before-integration/package-manifest.json",
-  "previousManifestSha256": "4870ba04fd459dd40b54ef04cd48944a52636c09265321080e8529465f1c2132",
-  "photographyApprovalSource": "docs/content/catalog-refresh-68/approval.json",
+  "scope": "Three model photographs only: product-020/sky hands in pockets, product-024/peach-teal-cream gentle turn, product-027/lilac relaxed three-quarter stance. The other 81 catalog photographs retain their prior approvals.",
+  "previousApprovalPath": "docs/content/catalog-pose-variants/before-integration/package-approval.json",
+  "previousManifestPath": "docs/content/catalog-pose-variants/before-integration/package-manifest.json",
+  "previousManifestSha256": "b4733a6dd0ce496b22387a7911608a7b360e0b78dd631dd0af32ad77ad4cc011",
+  "photographyApprovalSource": "docs/content/catalog-pose-variants/approval.json",
   "remainingGates": [
     "Release approval"
   ]
