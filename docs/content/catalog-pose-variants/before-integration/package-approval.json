@@ -1,0 +1,25 @@
+{
+  "revision": "issue-68-package-v1",
+  "status": "approved",
+  "implementationAllowed": true,
+  "manifestPath": "docs/content/package-manifest.json",
+  "manifestSha256": "b4733a6dd0ce496b22387a7911608a7b360e0b78dd631dd0af32ad77ad4cc011",
+  "reviewPath": "docs/content/catalog-refresh-68/review.html",
+  "reviewSha256": "b0ce5c1b401e3b44d6a59f18e8f70ae84663e4c2e6cd7c2d47d5916d06a44f7c",
+  "approvalRequestPath": "docs/content/catalog-refresh-68/approval-request.json",
+  "approvalRequestSha256": "525f618ad48a9c0ad37a374aadb70f51c6b776faaa1956d08609feb2ba118a34",
+  "reviewer": "The user in this conversation",
+  "recordedAtUtc": "2026-10-15T11:06:38.075Z",
+  "evidence": {
+    "message": "yes",
+    "context": "The user replied yes to the presented issue-68-catalog-v1 review and the explicit question: 'Issue #68 requires your acceptance before integration. Approve the proposed pair?' This accepts the two product-020 / sky photographs and their exact original/WebP exports and authorizes their integration."
+  },
+  "scope": "Derived package integration: previously accepted complete package plus the two explicitly accepted issue #68 photographs. No new assortment, copy, cast or editorial acceptance is claimed.",
+  "previousApprovalPath": "docs/content/catalog-refresh-68/before-integration/package-approval.json",
+  "previousManifestPath": "docs/content/catalog-refresh-68/before-integration/package-manifest.json",
+  "previousManifestSha256": "4870ba04fd459dd40b54ef04cd48944a52636c09265321080e8529465f1c2132",
+  "photographyApprovalSource": "docs/content/catalog-refresh-68/approval.json",
+  "remainingGates": [
+    "Release approval"
+  ]
+}
